@@ -50,7 +50,7 @@ his course materials (although any errors are mine).
    * [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
    * Inside look at modern web browser: [1](https://developers.google.com/web/updates/2018/09/inside-browser-part1), [2](https://developers.google.com/web/updates/2018/09/inside-browser-part2), [3](https://developers.google.com/web/updates/2018/09/inside-browser-part3)
    * [Architecture of the World Wide Web, Volume One](https://www.w3.org/TR/webarch/)
-   * [Class slides](https://docs.google.com/presentation/d/1EZomYYzDeLNzCOlTsFUWgVHUhuiCGgXPY8G3r-i_Yic/edit#slide=id.gae7496bce2_2_75)
+   * [Class slides](https://docs.google.com/presentation/d/1_zl0HjrtiUPBrCZw_neRHXQ22cwYgXSCDr4HO1wO3ag/edit)
 
 * Week 02 - January 17 - MLK Jr. -- No Classes
 
