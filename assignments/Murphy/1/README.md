@@ -29,4 +29,10 @@ This section will contain the screenshots for each completed tutorial.
 
 ## Video of Files and Test Completion 
 
+<br/>
+
 # References
+
+1.) Assignment 1 README - https://github.com/jmurp030/cs595-s22/blob/main/assignments/assignment-1.md
+
+2.) CS 253 Web Security at Stanford - https://web.stanford.edu/class/cs253/assign0
