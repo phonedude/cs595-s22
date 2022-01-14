@@ -21,7 +21,8 @@ These tutorials, as the names imply, cover the basics of HTML, JavaScript, and n
 
 This section will contain the screenshots for each completed tutorial.
 
-* html completion ![html_completion](screenshots/learnyouhtml_completion.png) <br/>
+* html completion 
+![html_completion](screenshots/learnyouhtml_completion.png) <br/>
 * javascripting completion ![javascripting_completion](screenshots/javascripting_completion.png)
 * node.js completion
 
