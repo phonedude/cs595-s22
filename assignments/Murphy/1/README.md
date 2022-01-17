@@ -32,6 +32,13 @@ This section will contain the screenshots for each completed tutorial.
 
 <br/>
 
+## Required Packages
+
+the node tutorial will require the packages strftime, through2-map, and bl to run correctly.
+
+to install these packages from the command line, use the command:
+  <pre><code>"npm install X"</code></pre>
+Where X is strftime, through2-map, or bl.
 ## Video of Files and Test Completion 
 
 <br/>
