@@ -4,6 +4,7 @@ CS 595 - Web Security
 
 Assignment 1 - Basics of HTML, JavaScript, and Node
 
+<br/>
 
 ## Assignment Description - Basics of HTML, JavaScript, and Node
 
