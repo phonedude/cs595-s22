@@ -1,20 +1,14 @@
 Assignment 1
-==========================
-### A typical top-level directory layout
-
+==========================          
+### Assignment 1 - Root folder structure
     .
-    ├── build                   # Compiled files (alternatively `dist`)
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-    ├── tools                   # Tools and utilities
-    ├── LICENSE
-    └── README.md
-> Review of assignment 1 folder            
-
-
+    ├── 1  
+        ├── html                   # Source files demonstrating learnyouhtml exercises
+        ├── javascript             # Source files demonstrating javascripting exercises
+        ├── node                   # Source files demonstrating learnyounode exercises
+        └── README.md  
 ==========================
-### A typical top-level directory layout
+### File Structure Overview
     .
     ├── html                    # Contains solutions for html tasks
     │   ├── index.html       # Solution to >> Hello World (Exercise 1 of 11)
