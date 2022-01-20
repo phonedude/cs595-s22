@@ -9,6 +9,7 @@ Assignment 1
         └── README.md  
 ==========================
 ### File Structure Overview
+> All files prefixed with 'Solution to' can be ran with the convention [learnyouhtml, javascripting, learnyounode] verify filena.me
     .
     ├── html                    # Contains solutions for html tasks
     │   ├── index.html       # Solution to >> Hello World (Exercise 1 of 11)
@@ -49,8 +50,8 @@ Assignment 1
     │   ├── my-first-io.js >> Solution to MY FIRST I/O! (Exercise 3 of 13)
     │   ├── my-first-async-io.js >> Solution to MY FIRST ASYNC I/O! (Exercise 4 of 13) 
     │   ├── filtered-ls.js >> Solution to FILTERED LS (Exercise 5 of 13)
-    │   ├── makeitmodular >> Solution to FOLDER FOR MAKE IT MODULAR (Exercise 6 of 13)
-    |        ├── make-it-modular.js >> Program that prints a list of files in a given directory,filtered by the extension of the files. 
+    │   ├── makeitmodular >> FOLDER FOR MAKE IT MODULAR (Exercise 6 of 13)
+    |        ├── make-it-modular.js >> Solution to (Exercise 6 of 13)that prints a list of files in a given directory,filtered by the extension of the files. 
     |        ├── mymodule.js >> contains your directory reading and filtering function exporting a single function
     │   ├── http-client.js >> Solution to HTTP CLIENT (Exercise 7 of 13)
     │   ├── http-collect.js >> Solution to HTTP COLLECT (Exercise 8 of 13)
