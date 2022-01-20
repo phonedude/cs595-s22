@@ -10,16 +10,11 @@ Assignment 1
     ├── tools                   # Tools and utilities
     ├── LICENSE
     └── README.md
-> Review of assignment 1 folder
+> Review of assignment 1 folder            
 
+
+==========================
 ### A typical top-level directory layout
-├── 1  
-    ├── html                   # Source files accomplishing learnyouhtml exercises
-    ├── javascript             # Source files accomplishing javascripting exercises
-    ├── node                   # Source files accomplishing learnyounode exercises
-    ├── README.md              
-
-
     .
 ├── 1
     ├── html                    # Contains solutions for html tasks
@@ -73,3 +68,4 @@ Assignment 1
     │   ├── http-json-api-server.js >> HTTP JSON API SERVER (Exercise 13 of 13)
     └── ...
 
+> Review of assignment 1 folder
