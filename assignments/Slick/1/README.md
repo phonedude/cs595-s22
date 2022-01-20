@@ -11,7 +11,7 @@ Assignment 1
 ### File Structure Overview
 #### All files prefixed with 'Solution to' can be ran with the convention: [learnyouhtml, javascripting, learnyounode] verify file na.me.
     .
-    ├── html                    # Contains solutions for html tasks (learnyouhtml verify filena.me)
+    ├── html        # Contains solutions for html tasks (learnyouhtml verify filena.me)
     │   ├── index.html       # Solution to >> Hello World (Exercise 1 of 11)
     │   ├── tags.html         # Solution to >> TAGS (Exercise 2 of 11)
     │   ├── attributes.html   # Solution to >> ATTRIBUTES (Exercise 3 of 11)
@@ -23,7 +23,7 @@ Assignment 1
     |   ├── linksandreferences.html   # Solution to >> LINKS AND REFERENCES (Exercise 9 of 11)
     |   ├── forms.html   # Solution to >> FORMS (Exercise 10 of 11)
     |   └── scripts.html   # Solution to >> STYLES AND SCRIPTS (Exercise 11 of 11)
-    ├── javascript                    # Contains solutions for javascripting tasks (javascripting verify filena.me)
+    ├── javascript      # Contains solutions for javascripting tasks (javascripting verify filena.me)
     │   ├── introduction.js       # Solution to >> JAVASCRIPTING (Exercise 1 of 20)
     │   ├── variables.js       # Solution to >> VARIABLES (Exercise 2 of 20)
     │   ├── strings.js   # Solution to >> STRINGS (Exercise 3 of 20)
@@ -44,7 +44,7 @@ Assignment 1
     │   ├── functions.js # Solution to >> FUNCTIONS (Exercise 18 of 20)
     │   ├── function-arguments.js # Solution to >> FUNCTION ARGUMENTS (Exercise 19 of 20) 
     │   ├── scope.js # Solution to >> SCOPE (Exercise 20 of 20) 
-    ├── node                    # Contains solutions for node tasks (learnyounode verify filena.me)
+    ├── node        # Contains solutions for node tasks (learnyounode verify filena.me)
     │   ├── hello-world.js # Solution to >> HELLO WORLD (Exercise 1 of 13)
     │   ├── baby-steps.js # Solution to >> BABY STEPS (Exercise 2 of 13)
     │   ├── my-first-io.js # Solution to >> MY FIRST I/O! (Exercise 3 of 13)
