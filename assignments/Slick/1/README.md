@@ -60,3 +60,9 @@ Assignment 1
     └── ...
 
 > Review of assignment 1 folder
+
+### Completion screen shots
+
+<img src="html/learnyouhtml.png" width="700">
+<img src="javascript/javascripting.png" width="700">
+<img src="node/learnyounode.png" width="700">
