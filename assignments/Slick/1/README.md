@@ -4,7 +4,7 @@ Assignment 1
   * [html](html)
   * [javascript](javascript)
   * [node](node)
-==========================
+
 ### File Structure Overview
 #### All files prefixed with 'Solution to' can be ran with the convention: [learnyouhtml, javascripting, learnyounode] verify file na.me.
     .
