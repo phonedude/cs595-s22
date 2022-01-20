@@ -66,3 +66,5 @@ Assignment 1
 <img src="html/learnyouhtml.png" width="1000">
 <img src="javascript/javascripting.png" width="1000">
 <img src="node/learnyounode.png" width="1000">
+
+* The video of the files and test completion pages is available at: [https://youtu.be/6BHjOc0Bj0Y](https://youtu.be/6BHjOc0Bj0Y)
