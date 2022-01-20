@@ -3,7 +3,7 @@ Assignment 1
 ### Assignment 1 - Root folder structure
     .
     ├── 1  
-        ├── html                   # Source files demonstrating learnyouhtml exercises
+        ├── [html](html/)                   # Source files demonstrating learnyouhtml exercises
         ├── javascript             # Source files demonstrating javascripting exercises
         ├── node                   # Source files demonstrating learnyounode exercises
         └── README.md  
