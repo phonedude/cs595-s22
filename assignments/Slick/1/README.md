@@ -16,7 +16,6 @@ Assignment 1
 ==========================
 ### A typical top-level directory layout
     .
-├── 1
     ├── html                    # Contains solutions for html tasks
     │   ├── index.html       # Solution to >> Hello World (Exercise 1 of 11)
     │   ├── tags.html         # Solution to >> TAGS (Exercise 2 of 11)
