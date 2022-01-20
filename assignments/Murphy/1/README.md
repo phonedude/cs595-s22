@@ -31,6 +31,8 @@ This section will contain the screenshots for each completed tutorial.
 
 * node.js completion
 
+  ![node_completion](screenshots/learnyounode_completion.png)
+
 <br/>
 
 ## Required Packages
