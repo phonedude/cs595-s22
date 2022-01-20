@@ -6,7 +6,7 @@ Assignment 1
   * [node](node)
 
 ### File Structure Overview
-#### All files prefixed with 'Solution to' can be ran with the convention: [learnyouhtml, javascripting, learnyounode] verify file na.me.
+#### All files prefixed with 'Solution to' can be ran with the convention: [learnyouhtml, javascripting, learnyounode] verify filena.me.
     .
     ├── html        # Contains solutions for html tasks (learnyouhtml verify filena.me)
     │   ├── index.html       # Solution to >> Hello World (Exercise 1 of 11)
