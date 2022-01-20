@@ -1,12 +1,9 @@
 Assignment 1
 ==========================          
 ### Assignment 1 - Root folder structure
-    .
-    ├── 1  
-        ├── [html](html/)                   # Source files demonstrating learnyouhtml exercises
-        ├── javascript             # Source files demonstrating javascripting exercises
-        ├── node                   # Source files demonstrating learnyounode exercises
-        └── README.md  
+  * [html](html)
+  * [javascript](javascript)
+  * [node](node)
 ==========================
 ### File Structure Overview
 #### All files prefixed with 'Solution to' can be ran with the convention: [learnyouhtml, javascripting, learnyounode] verify file na.me.
