@@ -20,10 +20,9 @@ function getUrls (index) {
 
       if (count == 3) {
             printUrls()
-      }
+        }
     }))
-    })
-}
+})}
 
 for (var i = 0; i < 3; i++){
     getUrls(i)
