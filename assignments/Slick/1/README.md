@@ -9,7 +9,7 @@ Assignment 1
         └── README.md  
 ==========================
 ### File Structure Overview
-> All files prefixed with 'Solution to' can be ran with the convention [learnyouhtml, javascripting, learnyounode] verify filena.me
+#### All files prefixed with 'Solution to' can be ran with the convention [learnyouhtml, javascripting, learnyounode] verify file na.me.
     .
     ├── html                    # Contains solutions for html tasks
     │   ├── index.html       # Solution to >> Hello World (Exercise 1 of 11)
@@ -51,7 +51,7 @@ Assignment 1
     │   ├── my-first-async-io.js >> Solution to MY FIRST ASYNC I/O! (Exercise 4 of 13) 
     │   ├── filtered-ls.js >> Solution to FILTERED LS (Exercise 5 of 13)
     │   ├── makeitmodular >> FOLDER FOR MAKE IT MODULAR (Exercise 6 of 13)
-    |        ├── make-it-modular.js >> Solution to (Exercise 6 of 13)that prints a list of files in a given directory,filtered by the extension of the files. 
+    |        ├── make-it-modular.js >> Solution to (Exercise 6 of 13) That prints a list of files in a given directory,filtered by the extension of the files. 
     |        ├── mymodule.js >> contains your directory reading and filtering function exporting a single function
     │   ├── http-client.js >> Solution to HTTP CLIENT (Exercise 7 of 13)
     │   ├── http-collect.js >> Solution to HTTP COLLECT (Exercise 8 of 13)
@@ -59,7 +59,7 @@ Assignment 1
     │   ├── time-server.js >> Solution to TIME SERVER (Exercise 10 of 13) 
     │   ├── http-file-server.js >> Solution to HTTP FILE SERVER (Exercise 11 of 13) 
     │   ├── http-uppercaserer.j >> Solution to HTTP UPPERCASERER (Exercise 12 of 13)
-    │   ├── http-json-api-server.js >> HTTP JSON API SERVER (Exercise 13 of 13)
+    │   ├── http-json-api-server.js >> Solution to HTTP JSON API SERVER (Exercise 13 of 13)
     └── ...
 
 > Review of assignment 1 folder
