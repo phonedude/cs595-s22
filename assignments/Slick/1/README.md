@@ -63,6 +63,6 @@ Assignment 1
 
 ### Completion screen shots
 
-<img src="html/learnyouhtml.png" width="700">
-<img src="javascript/javascripting.png" width="700">
-<img src="node/learnyounode.png" width="700">
+<img src="html/learnyouhtml.png" width="1000">
+<img src="javascript/javascripting.png" width="1000">
+<img src="node/learnyounode.png" width="1000">
