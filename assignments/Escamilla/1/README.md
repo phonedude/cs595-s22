@@ -14,6 +14,4 @@ For proof of completion, below are screenshots showing completion of learnyouhtm
 
 ![](./learnyounode-completion.png)
 
-
-
-
+The link to the YouTube video is [https://youtu.be/p80Jeawuz2Q](https://youtu.be/p80Jeawuz2Q)
