@@ -17,7 +17,7 @@ These tutorials, as the names imply, cover the basics of HTML, JavaScript, and n
     * [javascript](javascript)
     * [node](node)
 
-## Screenshots of Completion
+## Screenshots and Video of Completion
 
 This section will contain the screenshots for each completed tutorial.
 
@@ -32,6 +32,10 @@ This section will contain the screenshots for each completed tutorial.
 * node.js completion
 
   ![node_completion](screenshots/learnyounode_completion.png)
+
+<br/>
+
+Youtube Video: https://youtu.be/iwDqNTGODGM
 
 <br/>
 
