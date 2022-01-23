@@ -1,6 +1,8 @@
 const http = require('http')
 
-http.get(process.argv[2], function (response) {
+url = process.argv[2]
+
+http.get(url, function (response) {
     response.on('data', function (data) {
         console.log(data.toString())
     })

@@ -35,7 +35,7 @@ This section will contain the screenshots for each completed tutorial.
 
 <br/>
 
-Youtube Video: https://youtu.be/iwDqNTGODGM
+Youtube Video: https://www.youtube.com/watch?v=3hIml5O4v3k
 
 <br/>
 
@@ -46,7 +46,6 @@ the node tutorial will require the packages strftime, through2-map, and bl to ru
 to install these packages from the command line, use the command:
   <pre><code>"npm install X"</code></pre>
 Where X is strftime, through2-map, or bl.
-## Video of Files and Test Completion 
 
 <br/>
 
