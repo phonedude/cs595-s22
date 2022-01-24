@@ -5,7 +5,7 @@
 
 * This assignment provided the basic understanding and skills in HTML, JavaScript and Node.
 
-* There are 4 folders namely 'Images', 'html', 'javascript' and 'node'.
+* There are 4 folders namely [Images](Images), [html](html), [javascript](javascript) and [node](node).
 
 * The folder 'Images' contains screenshots of the completed commands.
 
@@ -30,4 +30,6 @@
 
 
 
+## Youtube video
 
+* The youtube video link: 
