@@ -33,3 +33,12 @@
 ## Youtube video
 
 * The youtube video link: https://youtu.be/OyG-4Eu0g9s
+
+
+## References
+
+* CS 253 Web Security, Assignment 0 – Web Programming Adventure, https://web.stanford.edu/class/cs253/assign0
+
+* Node.js v17.4.0 documentation, https://nodejs.org/api/
+
+* learnyounode Unofficial Companion, https://joecreager.com/learnyounode-unofficial-companion/
