@@ -58,7 +58,7 @@ his course materials (although any errors are mine).
    * [An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
    * [HTTP Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
    * [HTTP Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
-   * [Class slides](https://docs.google.com/presentation/d/1SB1s-CifbG8KxKzgyDSRmxElC0BsjWbAZdpUqI4vrKY/edit)
+   * [Class slides](https://docs.google.com/presentation/d/1tDYkblXjG_xGpxOAquWU5UrP3P6CvgbglGQxjvWKI80/edit)
 
 * Week 04 - January 31 - Cross-Site Request Forgery, Same Origin Policy
    * [SameSite Cookies Explained](https://web.dev/samesite-cookies-explained/)
