@@ -1,7 +1,7 @@
-#Assignment 1, CS 495/595 Web Security, Spring 2022
-##Due: 2022-01-24
+# Assignment 1, CS 495/595 Web Security, Spring 2022
+## Due: 2022-01-24
 
-##Description
+## Description
 
 * This assignment provided the basic understanding and skills in HTML, JavaScript and Node.
 
@@ -12,21 +12,21 @@
 * Rest of the folders contain scripts used to complete the commands in 'learnyouhtml', 'javascripting' and 'learnyounode'.
 
 
-##Screenshots
+## Screenshots
 
 * Provided below is the screenshot of the completion of learnyouhtml,
 
-![](Images/1.jpeg){width=700px}
+![](Images/1.jpeg)
 
 
 * Provided below is the screenshot of the completion of javascripting,
 
-![](Images/2.jpeg){width=700px}
+![](Images/2.jpeg)
 
 
 * Provided below is the screenshot of the completion of learnyounode,
 
-![](Images/3.jpeg){width=700px}
+![](Images/3.jpeg)
 
 
 
