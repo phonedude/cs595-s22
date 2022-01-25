@@ -9,8 +9,8 @@ This assignment follows the completion of 3 learning modules for html, javascrip
 
 * Here are screen shots of completion.
 
-<img src="html/html.jpg" width="700">
-<img src="javascript/js.jpg" width="700">
-<img src="node/nodjs.jpg" width="700">
+<img src="html/html.JPG" width="700">
+<img src="javascript/js.JPG" width="700">
+<img src="node/nodjs.JPG" width="700">
 
 * The video of the files and test completion pages is available at: [https://youtu.be/boZoorXRyfU](https://youtu.be/boZoorXRyfU)
