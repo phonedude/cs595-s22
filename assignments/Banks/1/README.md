@@ -11,4 +11,4 @@
 <img src="javascript/javascript-complete.png" width="700">
 <img src="node/node-complete.png" width="700">
 
-* The video of the files and test completion pages is available at: [https://youtu.be/71ZYWzAYG80(https://youtu.be/71ZYWzAYG80)
+* The video of the files and test completion pages is available at: [https://youtu.be/71ZYWzAYG80](https://youtu.be/71ZYWzAYG80)
