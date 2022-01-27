@@ -1,4 +1,4 @@
-## This is an example of how Assignment 2 should be submitted
+## This is an example of how Assignment 1 should be submitted
 
 * We have three directories
   * [html](html)
