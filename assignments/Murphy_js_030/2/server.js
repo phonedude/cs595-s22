@@ -1,10 +1,4 @@
-const http = require('http')
 const express = require('express')
-//const fs = require('fs')
-
-const bodyParser = require('body-parser')
-const { response } = require('express')
-
 const port = '4000'
 const app = express()
 
@@ -12,10 +6,11 @@ const app = express()
 app.use(express.static('public'))
 app.use('imgs', express.static(__dirname + 'public/imgs'))
 
-// Set Views
+//Set Views
 app.set('views', './views')
 app.set('view engine', 'ejs')
 
+//Get pages
 app.get('', (req, res) => {
     res.render('homepage')
 })
@@ -31,5 +26,6 @@ app.get('/pokemon-gold', (req, res) => {
 app.get('/star-wars-rogue-one', (req, res) => {
     res.render('star-wars-rogue-one')
 })
+
 
 app.listen(port)
