@@ -11,7 +11,7 @@ app.set('views', './views')
 app.set('view engine', 'ejs')
 
 //Get pages
-app.get('', (req, res) => {
+app.get('/', (req, res) => {
     res.render('homepage')
 })
 
