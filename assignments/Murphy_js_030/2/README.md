@@ -27,4 +27,8 @@ Inside of server.js, the functions are split up into groups, including static fi
 
 <br/>
 
-# Resources
+# References
+
+1.) Assignment 2 README - https://github.com/jmurp030/cs595-s22/blob/main/assignments/assignment-2.md
+
+2.) w3schools node.js tutorial - https://www.w3schools.com/nodejs/default.asp
