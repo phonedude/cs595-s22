@@ -23,7 +23,7 @@ server.js requires express in order to run.
 Inside of server.js, the functions are split up into groups, including static files, setting the views, and getting the pages. The static file public is used to store where all the images that will be used, and retrieved later on for use in their respective pages. As I have converted the html pages to embedded javascript, the view engine is set to ejs. Finally, each path is defined and returns a response to render said page to the user. The port used for the local server is 4000.
 
 ## Video Link
-[Link]()
+[Youtube Video](https://youtu.be/nb50MYHHoMg )
 
 <br/>
 
