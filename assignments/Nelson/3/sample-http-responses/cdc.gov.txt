@@ -1,0 +1,30 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://cdc.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 301 Moved Permanently
+Content-Length: 143
+Content-Type: text/html; charset=UTF-8
+Location: https://www.cdc.gov/
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+SRV: 4
+Access-Control-Allow-Origin: *
+X-UA-Compatible: IE=edge
+Date: Mon, 07 Feb 2022 22:26:33 GMT
+Connection: close
+Set-Cookie: TS01b4334d=012409b35309b2a1ee1a12a08ad2851a5edd57c2d98ccbd3568e4697e147a28b4759d02619825e471d30391272cfc713beee2b000c; Path=/; Domain=.cdc.gov
+
+HTTP/1.0 200 OK
+Content-Type: text/html
+Server: Microsoft-IIS/10.0
+SRV: 1
+Access-Control-Allow-Origin: *
+X-UA-Compatible: IE=edge
+Date: Mon, 07 Feb 2022 22:26:34 GMT
+Connection: close
+Set-Cookie: akamai_visit_id=46deda1772794688b22a; expires=Wed, 07-Feb-2024 22:26:34 GMT; path=/; secure; HttpOnly
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+Set-Cookie: Akamai-Request-ID=46deda1772794688b22a; path=/
+
