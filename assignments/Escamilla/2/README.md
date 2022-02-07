@@ -12,4 +12,4 @@ Each path will show the user a few sentences about each TV show and why it's my 
 
 I was also able to include a custom favicon.ico for my site. 
 
-The link to the YouTube video is [https://youtu.be/p80Jeawuz2Q](https://youtu.be/p80Jeawuz2Q)
+The link to the YouTube video is [https://youtu.be/rvdpTotZ-4k](https://youtu.be/rvdpTotZ-4k)
