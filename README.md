@@ -74,7 +74,7 @@ his course materials (although any errors are mine).
    * [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options), [RFC 7034](https://tools.ietf.org/html/rfc7034)
    * [Frame Hijacking](https://seclab.stanford.edu/websec/frames/)
    * [Busting Frame Busting](https://seclab.stanford.edu/websec/framebusting/)
-   * [Class slides](https://docs.google.com/presentation/d/1NFyC1huil5uOic4ITtEUlogUqAfP8PQIpNGChtUJE7Y/edit)
+   * [Class slides](https://docs.google.com/presentation/d/1-BN2SL8N6nRg1pEbF7r7unH4ia1raOYGsHOdVFp21Qs/edit)
 
 
 * Week 05 - February 14 - Cross-Site Scripting (XSS)
