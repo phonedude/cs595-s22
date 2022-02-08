@@ -52,67 +52,67 @@ his course materials (although any errors are mine).
    * [Architecture of the World Wide Web, Volume One](https://www.w3.org/TR/webarch/)
    * [Class slides](https://docs.google.com/presentation/d/1_zl0HjrtiUPBrCZw_neRHXQ22cwYgXSCDr4HO1wO3ag/edit)
 
-* Week 02 - January 17 - MLK Jr. -- No Classes
+* Week -- - January 17 - MLK Jr. -- No Classes
 
-* Week 03 - January 24 - Cookies, Sessions
+* Week 02 - January 24 - Cookies, Sessions
    * [An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
    * [HTTP Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
    * [HTTP Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
    * [Class slides](https://docs.google.com/presentation/d/1tDYkblXjG_xGpxOAquWU5UrP3P6CvgbglGQxjvWKI80/edit)
 
-* Week 04 - January 31 - Cross-Site Request Forgery, Same Origin Policy
+* Week 03 - January 31 - Cross-Site Request Forgery, Same Origin Policy
    * [SameSite Cookies Explained](https://web.dev/samesite-cookies-explained/)
    * [Incrementally Better Cookies](https://tools.ietf.org/html/draft-west-cookie-incrementalism-01#section-4.1)
    * [CSRF Is Dead](https://scotthelme.co.uk/csrf-is-dead/)
    * [Same Origin policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)
    * [Cross-Site Request Forgery Prevention](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
    * [Origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin)
-   * [Class slides](https://docs.google.com/presentation/d/1aUZDYCNzQGRPT7DKpbQ6u-9hS7csb6uXWqmBtwE9t40/edit)
+   * [Class slides](https://docs.google.com/presentation/d/144GMLCLIOrRMeT0Yzy_KpbOhvKk8-c49E5MYYJ1ydAc/edit)
 
 
-* Week 05 - February 7 - Exceptions to the Same Origin Policy
+* Week 04 - February 7 - Exceptions to the Same Origin Policy
    * [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options), [RFC 7034](https://tools.ietf.org/html/rfc7034)
    * [Frame Hijacking](https://seclab.stanford.edu/websec/frames/)
    * [Busting Frame Busting](https://seclab.stanford.edu/websec/framebusting/)
-   * [Class slides](https://docs.google.com/presentation/d/1NFyC1huil5uOic4ITtEUlogUqAfP8PQIpNGChtUJE7Y/edit)
+   * [Class slides](https://docs.google.com/presentation/d/1-BN2SL8N6nRg1pEbF7r7unH4ia1raOYGsHOdVFp21Qs/edit)
 
 
-* Week 06 - February 14 - Cross-Site Scripting (XSS)
+* Week 05 - February 14 - Cross-Site Scripting (XSS)
    * [Cross Site Scripting Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
    * [XSS Filter Evasion Cheat Sheet](https://owasp.org/www-community/xss-filter-evasion-cheatsheet)
    * [Class slides](https://docs.google.com/presentation/d/12Z1WZZMLmlaJ4Uypq-Ck7POyq6EE2-VZAgvoWOmM6oI/edit)
 
 
 
-* Week 07 - February 21 - XSS and Content Security Policy (CSP)
+* Week 06 - February 21 - XSS and Content Security Policy (CSP)
    * [Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) 
    * [CSP Is Dead, Long Live CSP! On the Insecurity of Whitelists and the Future of Content Security Policy](https://research.google/pubs/pub45542/)
    * [Class slides](https://docs.google.com/presentation/d/1amxk2d59TCL0ya3ZffxS9qe3J8pn_TOStDL70kbyoas/edit)
 
-* Week 08 - February 28 - Fingerprinting and Privacy
+* Week 07 - February 28 - Fingerprinting and Privacy
    * [Browser Fingerprinting: An Introduction and the Challenges Ahead](https://blog.torproject.org/browser-fingerprinting-introduction-and-challenges-ahead)
    * [Class slides](https://web.stanford.edu/class/cs253/lectures/Lecture%2008.pdf)
 
-* Week 09 - March 7 - Spring Break -- No Classes
+* Week -- - March 7 - Spring Break -- No Classes
 
-* Week 10 - March 14 - Transport Layer Security
+* Week 08 - March 14 - Transport Layer Security
     * [Looking back at the Snowden revelations](https://blog.cryptographyengineering.com/2019/09/24/looking-back-at-the-snowden-revelations/)
     * [HTTPS encryption on the web](https://transparencyreport.google.com/https/overview)
     * [Class slides](https://docs.google.com/presentation/d/1piE1r4YJuQTiy5_WCHQN5KaAqY29eXSsAJGr8jx-LxQ/edit#slide=id.gc8971b5675_0_189)
 
 
-* Week 11 - March 21 - HSTS, Certificate Transparency
+* Week 09 - March 21 - HSTS, Certificate Transparency
     * [Strict-Transport-Security](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security)
     * [Protecting Against HSTS Abuse](https://webkit.org/blog/8146/protecting-against-hsts-abuse/)
     * [HTTP Public Key Pinning (HPKP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Public_Key_Pinning)
     * [Certificate Transparency](https://tools.ietf.org/html/rfc6962)
     * [Class slides](https://web.stanford.edu/class/cs253/lectures/Lecture%2012.pdf)
 
-* Week 12 - March 28 - Authentication
+* Week 10 - March 28 - Authentication
     * [Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
     * [Class slides](https://docs.google.com/presentation/d/1oJ8hlNmYIuwxbGL1fcclhDF4eVNTi3c1zp_8t-kzG8Q/edit)
 
-* Week 13 - April 4 - Local HTTP Server Security
+* Week 11 - April 4 - Local HTTP Server Security
     * [Zoom Zero Day: 4+ Million Webcams & maybe an RCE? Just get them to visit your website!](https://infosecwriteups.com/zoom-zero-day-4-million-webcams-maybe-an-rce-just-get-them-to-visit-your-website-ac75c83f4ef5)
     * [Class slides](https://docs.google.com/presentation/d/1YWHuGvgKFgSS19D6RZwADQ2iwhbEkgB3dDlv_epHiWc/edit)
 
