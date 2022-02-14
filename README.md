@@ -80,7 +80,7 @@ his course materials (although any errors are mine).
 * Week 05 - February 14 - Cross-Site Scripting (XSS)
    * [Cross Site Scripting Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
    * [XSS Filter Evasion Cheat Sheet](https://owasp.org/www-community/xss-filter-evasion-cheatsheet)
-   * [Class slides](https://docs.google.com/presentation/d/12Z1WZZMLmlaJ4Uypq-Ck7POyq6EE2-VZAgvoWOmM6oI/edit)
+   * [Class slides](https://docs.google.com/presentation/d/1gOQRmBsIXlTYa4M6a3jqx8nrl5Yf_P2YopDVb3YLSZk/edit)
 
 
 
