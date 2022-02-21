@@ -87,7 +87,7 @@ his course materials (although any errors are mine).
 * Week 06 - February 21 - XSS and Content Security Policy (CSP)
    * [Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) 
    * [CSP Is Dead, Long Live CSP! On the Insecurity of Whitelists and the Future of Content Security Policy](https://research.google/pubs/pub45542/)
-   * [Class slides](https://docs.google.com/presentation/d/1amxk2d59TCL0ya3ZffxS9qe3J8pn_TOStDL70kbyoas/edit)
+   * [Class slides](https://docs.google.com/presentation/d/1TbWOIvw1Cl8RnkpMfilhk1j8Tp3y11vI8U0htH6UxoE/edit)
 
 * Week 07 - February 28 - Fingerprinting and Privacy
    * [Browser Fingerprinting: An Introduction and the Challenges Ahead](https://blog.torproject.org/browser-fingerprinting-introduction-and-challenges-ahead)
