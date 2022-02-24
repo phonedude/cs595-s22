@@ -10,7 +10,7 @@ Assignment 3 - Cookie Report of 100 of the Mozilla 5op 500 sites
 
 For assignment 3, take the 100 sites randomized from the Mozilla top 500 web sites, stored in 
 100-sites.txt, and retrieve the http responses from said sites, and compile that information 
-into a matrix, and summarize said information at the end of the report. This includes:
+into a table, and summarize said information at the end of the report. This includes:
 
     * The terminating status codes for each site. Note this is the final status code, not the 301s, 302, etc. that you may encounter on your way to the final status code. More on that below.
     * For each site, the number of different cookies that are set. Keep in mind that each HTTP response can have multiple "Set-Cookie:" headers.
@@ -72,7 +72,7 @@ commands, and then outputs the results as well as writes all of the cookies to a
     grep -ic 'Set-Cookie' Curl_Output/* | grep -v :0
     cat Curl_Output/*.txt | grep -ir 'Set-Cookie' Curl_Output/ > all_cookies.txt
 
-# Matrix
+# Tables
 
 | URL | Terminating Status Code | Number of Cookies | HttpOnly | Secure | SameSite |
 |---|---|---|---|---|---|
