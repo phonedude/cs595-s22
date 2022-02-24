@@ -211,4 +211,24 @@ and "Set-Cookie: WMF-Last-Access=24-Feb-2022;Path=/;HttpOnly;secure;Expires=Mon,
 of them were set to anything other then that, so all of the cookies followed basic web security principles on that front.
 The mean of the total amount of cookies is 243 cookies divided by 54 unique URLs being 4.352.
 
+
+# Extra Credit - It's Turtles All the Way Down
+
+The title of slide 48 in week 4 is a literary reference. Briefly describe this literary reference, both the origin and the meaning in the slides.
+
+I had never heard this before, or at least it isn't coming to mind immediately, so I
+had to search the meaning of this. It appears that the expression alludes to 
+a belief in multiple mythologies of the World Turtle, the idea that the earth is flat, and 
+supported on the back of a turtle. This saying suggests that beneath that turtle 
+rests an even larger turtle, that is supporting said turtle, and so and and so on. 
+It relates to the slide in question, as the slide mentions that until recently, 
+browsers would only check for a frame against a top level window, so only one layer,
+but not the layers below it, in essence only seeing the one turtle and calling it a
+day, and not seeing everything else below it, for example embedding the target.com 
+into attacker.com, that is embedded in target.com.
+
 # References
+
+1.) Assignment 3 README.md - https://github.com/phonedude/cs595-s22/blob/main/assignments/assignment-3.md
+
+2.) Wikipedia - Turtles all the way down - https://en.wikipedia.org/wiki/Turtles_all_the_way_down
