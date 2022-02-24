@@ -1,0 +1,65 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Location: https://upenn.edu/
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Wed, 16 Feb 2022 00:53:37 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-iad-kiad7000175-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+Strict-Transport-Security: max-age=300
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+location: https://www.upenn.edu/
+Accept-Ranges: bytes
+Date: Wed, 16 Feb 2022 00:53:37 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000111-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1644972818.936167,VS0,VE0
+Strict-Transport-Security: max-age=300
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 143340
+Cache-Control: max-age=3600, public
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Etag: W/"1644970900"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Wed, 16 Feb 2022 00:21:40 GMT
+Link: <https://www.upenn.edu/home>; rel="canonical"
+Permissions-Policy: interest-cohort=()
+Server: nginx
+Strict-Transport-Security: max-age=300
+Traceparent: 00-eb2f43619d064d59b14ca2676112100a-aaeb7b2613bb2e38-00
+X-Cloud-Trace-Context: eb2f43619d064d59b14ca2676112100a/12316073009444761144;o=0
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: MISS
+X-Drupal-Cache-Contexts: cookies:big_pipe_nojs languages:language_content languages:language_interface route session.exists theme timezone url.query_args:_wrapper_format url.site user.node_grants:view user.permissions user.roles:authenticated
+X-Drupal-Cache-Max-Age: -1 (Permanent)
+X-Drupal-Cache-Tags: block_content:1 block_content_view block_view config:block.block.penn_starter_account_menu config:block.block.penn_starter_branding config:block.block.penn_starter_breadcrumbs config:block.block.penn_starter_content config:block.block.penn_starter_footer config:block.block.penn_starter_help config:block.block.penn_starter_local_actions config:block.block.penn_starter_local_tasks config:block.block.penn_starter_main_menu config:block.block.penn_starter_messages config:block.block.penn_starter_page_title config:block.block.penn_starter_powered config:block.block.penn_starter_search config:block.block.penn_starter_tools config:block.block.penn_starter_views_block__alert_block config:block_list config:filter.format.wysiwyg config:image.style.crop_1x2 config:image.style.crop_2x1 config:image.style.crop_5x3 config:image.style.featured_story_mobile config:image.style.priority_card_3x2 config:image.style.social_card_1x1 config:system.site config:user.role.anonymous config:views.view.alert file:390 file:392 file:393 file:419 file:503 file:547 file:715 file:840 file:862 file:863 file:866 http_response local_task media:369 media:371 media:372 media:398 media:477 media:518 media:674 media:791 media:811 media:812 media:814 media_view node:31 node:50 node_list node_view penn_api_entity:12 penn_api_entity:13 penn_api_entity:14 penn_api_entity:15 penn_api_entity:16 penn_api_entity:20 penn_api_entity:5 penn_api_entity:6 penn_api_entity_view penn_entity:1 penn_entity:10 penn_entity:11 penn_entity:1133 penn_entity:1135 penn_entity:12 penn_entity:14 penn_entity:15 penn_entity:2 penn_entity:207 penn_entity:3 penn_entity:4 penn_entity:6 penn_entity:7 penn_entity:8 penn_entity:9 penn_entity:904 penn_entity_view rendered user:1
+X-Drupal-Dynamic-Cache: MISS
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Pantheon-Styx-Hostname: styx-fe1-a-5bbdc68d96-vdrrw
+X-Styx-Req-Id: 694b3915-8ebe-11ec-a6cd-b2137640ebe5
+X-Ua-Compatible: IE=edge
+Age: 1917
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish, 1.1 varnish
+Date: Wed, 16 Feb 2022 00:53:38 GMT
+X-Served-By: cache-mdw17320-MDW, cache-iad-kjyo7100155-IAD, cache-iad-kiad7000115-IAD
+X-Cache: MISS, HIT, MISS
+X-Cache-Hits: 1, 3, 0
+X-Timer: S1644972818.022125,VS0,VE4
+Vary: Accept-Encoding, Cookie, Cookie, Cookie
+

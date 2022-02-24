@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+Set-Cookie: nfvdid=BQFmAAEBEG9zaLwAXWOJAlIsY2Pv0yxAALzWgU2nXCLaAx_9QxKQvEdramh7sVVcWTfvvkd7eOA2NBRqtBRS10X41Qy8zZt68QWYzCmkdn91zueg51pkaQ%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+Set-Cookie: memclid=b4e9df95-1901-46af-b470-fa2a9a533afc; Max-Age=31536000; Expires=Fri, 24 Feb 2023 01:19:58 GMT; Path=/; Domain=.netflix.com
+HTTP/1.1 405 Method Not Allowed
+Set-Cookie: nfvdid=BQFmAAEBEFhNaX7r88vsAieFZbZGDK9AY8ezsZTZxdK3pFbVKZCOYVtJp2SxInR9yxnGtuFsC71_gUh9cy9Ja4NKDgHkEx_5WpEpmFcZpeC1rsoV96XkYQ%3D%3D; Domain=.netflix.com; Path=/; Max-Age=31536000
+Set-Cookie: memclid=bedf2c66-7304-46d9-9a48-5751b62060f7; Max-Age=31536000; Expires=Fri, 24 Feb 2023 01:19:58 GMT; Path=/; Domain=.netflix.com

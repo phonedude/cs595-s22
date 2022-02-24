@@ -1,0 +1,5 @@
+HTTP/1.1 302 Found
+HTTP/1.1 302 Found
+HTTP/1.1 200 OK
+Set-Cookie: wa_lang_pref=en; expires=Thu, 03-Mar-2022 01:24:26 GMT; Max-Age=604800; path=/; domain=.whatsapp.com; secure; httponly
+Set-Cookie: wa_ul=97a8a471-9f6d-45dc-bf94-f239bfba7b04; expires=Sat, 24-Feb-2024 01:24:26 GMT; Max-Age=63072000; path=/; domain=.whatsapp.com; secure; httponly

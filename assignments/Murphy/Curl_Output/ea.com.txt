@@ -1,0 +1,57 @@
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://ea.com/
+Cache-Control: max-age=0
+Expires: Wed, 16 Feb 2022 00:51:02 GMT
+Date: Wed, 16 Feb 2022 00:51:02 GMT
+Connection: keep-alive
+Set-Cookie: EDGESCAPE_COUNTRY=US; path=/
+Set-Cookie: EDGESCAPE_REGION=VA; path=/
+Set-Cookie: EDGESCAPE_TIMEZONE=EST; path=/
+Set-Cookie: ealocale=en-us; expires=Thu, 16-Feb-2023 00:51:02 GMT; path=/; domain=.ea.com; secure
+X-L-Path: inert
+X-Environment-Context: prod
+X-Application-Context: eacom
+Content-Security-Policy: frame-ancestors 'self'
+X-Frame-Options: SAMEORIGIN
+
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.ea.com/
+Cache-Control: max-age=0
+Expires: Wed, 16 Feb 2022 00:51:02 GMT
+Date: Wed, 16 Feb 2022 00:51:02 GMT
+Connection: keep-alive
+Set-Cookie: EDGESCAPE_COUNTRY=US; path=/
+Set-Cookie: EDGESCAPE_REGION=VA; path=/
+Set-Cookie: EDGESCAPE_TIMEZONE=EST; path=/
+Set-Cookie: ealocale=en-us; expires=Thu, 16-Feb-2023 00:51:02 GMT; path=/; domain=.ea.com; secure
+X-L-Path: inert
+X-Environment-Context: prod
+X-Application-Context: eacom
+Content-Security-Policy: frame-ancestors 'self'
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=0
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Server: nginx
+Last-Modified: Wed, 16 Feb 2022 00:36:28 UTC
+Cache-Control: max-age=90
+Expires: Wed, 16 Feb 2022 00:52:32 GMT
+Date: Wed, 16 Feb 2022 00:51:02 GMT
+Connection: keep-alive
+Set-Cookie: EDGESCAPE_COUNTRY=US; path=/
+Set-Cookie: EDGESCAPE_REGION=VA; path=/
+Set-Cookie: EDGESCAPE_TIMEZONE=EST; path=/
+Set-Cookie: ealocale=en-us; expires=Thu, 16-Feb-2023 00:51:02 GMT; path=/; domain=.ea.com; secure
+Vary: Accept-Encoding
+X-L-Path: inert
+X-Environment-Context: prod
+X-Application-Context: eacom
+Content-Security-Policy: frame-ancestors 'self'
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=0
+

@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 405 Method Not Allowed
+Set-Cookie: csrftoken=pIbdgn8niuEL680sAY8x38DIc6CYACEd; Domain=.instagram.com; expires=Tue, 21-Feb-2023 22:08:53 GMT; Max-Age=31449600; Path=/; Secure
+Set-Cookie: mid=YhVe9QAEAAGKsjLXHZIlXoElGCpR; Domain=.instagram.com; expires=Thu, 22-Feb-2024 22:08:53 GMT; Max-Age=63072000; Path=/; Secure
+Set-Cookie: ig_did=D0BF48EB-5C78-47E0-A817-AF40FCB464B8; Domain=.instagram.com; expires=Thu, 22-Feb-2024 22:08:53 GMT; HttpOnly; Max-Age=63072000; Path=/; Secure
+Set-Cookie: ig_nrcb=1; Domain=.instagram.com; expires=Wed, 22-Feb-2023 22:08:53 GMT; Max-Age=31536000; Path=/; Secure

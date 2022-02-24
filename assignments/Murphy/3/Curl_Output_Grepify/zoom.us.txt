@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 200 
+Set-Cookie: zm_aid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: zm_haid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: zm_tmaid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: zm_htmaid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: cred=2C75627719DA3228EE72DA875A9D62CE; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_page_auth=aw1_c_jMhnURqvTYuRUZQv4aQ0TQ; Domain=.zoom.us; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_ssid=aw1_c_587iWytkQRSVuGzmUqd-vg; Domain=.zoom.us; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_csp_script_nonce=0Z48cxTiSFmHRYsMBvTgVQ; Domain=.zoom.us; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_currency=USD; Domain=.zoom.us; Expires=Fri, 25-Feb-2022 01:24:34 GMT; Path=/; Secure
+Set-Cookie: _zm_mtk_guid=a4c4572cd26a4834a1ae6ee1e0fa9b3f; Domain=.zoom.us; Expires=Sat, 24-Feb-2024 01:24:34 GMT; Path=/; Secure

@@ -1,0 +1,55 @@
+HTTP/1.1 302 Found
+Content-Type: text/html; charset=iso-8859-1
+Date: Wed, 16 Feb 2022 00:53:28 GMT
+Location: https://networkadvertising.org/
+Server: Apache/2.4.7 (Ubuntu)
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+Cache-control: no-cache="set-cookie"
+Content-Type: text/html; charset=iso-8859-1
+Date: Wed, 16 Feb 2022 00:53:28 GMT
+Location: http://www.networkadvertising.org/
+Server: Apache/2.4.7 (Ubuntu)
+Set-Cookie: AWSELB=AF6B579512E626BDB8515A89C99EF196837F461ACABF3470C4CA4D7922C711189C4B1BCF7062761BCB2DE3D043900F06F007FF96D6077941D874BAD446C138626C503F8FBA;PATH=/
+Set-Cookie: AWSELBCORS=AF6B579512E626BDB8515A89C99EF196837F461ACABF3470C4CA4D7922C711189C4B1BCF7062761BCB2DE3D043900F06F007FF96D6077941D874BAD446C138626C503F8FBA;PATH=/;SECURE;SAMESITE=None
+X-Content-Type-Options: nosniff
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Connection: keep-alive
+Date: Wed, 16 Feb 2022 00:53:29 GMT
+Location: https://thenai.org/
+Server: AmazonS3
+X-Cache: Miss from cloudfront
+Via: 1.1 34d27d5dec8d9c8d04bc61d1e0056be2.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: EWR53-C1
+X-Amz-Cf-Id: 9rJgKquEUshd91W3CEMjxIuu5znTeAQux7uHTIemAZYz79_cxhku-w==
+
+HTTP/1.1 200 OK
+Date: Wed, 16 Feb 2022 00:53:28 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Link: <https://thenai.org/wp-json/>; rel="https://api.w.org/"
+Link: <https://thenai.org/wp-json/wp/v2/pages/126>; rel="alternate"; type="application/json"
+Link: <https://thenai.org/>; rel=shortlink
+X-TEC-API-VERSION: v1
+X-TEC-API-ROOT: https://thenai.org/wp-json/tribe/events/v1/
+X-TEC-API-ORIGIN: https://thenai.org
+X-Powered-By: WP Engine
+X-Cacheable: SHORT
+Vary: Accept-Encoding,Cookie
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 34
+X-Cache-Group: normal
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JApQ%2BnkAmFKIkKvMPQDSID%2FaxhNQz2nvyRHgfXiDBDpHeXcnPTGz8WX0w%2FImL1c0Ke%2FuxlOge0ghLRpgtPKDOj2yIMzuZ9zfYOJUh4w%2FXVzb9iaoq%2BgIqYQ0rG0%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6de2cc9418e2cf28-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

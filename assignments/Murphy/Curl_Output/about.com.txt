@@ -1,0 +1,56 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html; charset=iso-8859-1
+Location: https://www.dotdash.com/
+Server: Apache/2.4.52 (Amazon) OpenSSL/1.0.2k-fips
+Content-Length: 232
+Accept-Ranges: bytes
+Date: Tue, 22 Feb 2022 18:36:44 GMT
+Via: 1.1 varnish
+Age: 472019
+Connection: keep-alive
+cache-control: max-age=3600
+X-Served-By: cache-iad-kjyo7100063-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1645555005.889076,VS0,VE1
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://www.dotdashmeredith.com/
+Accept-Ranges: bytes
+Date: Tue, 22 Feb 2022 18:36:44 GMT
+Via: 1.1 varnish
+cache-control: max-age=60
+X-Served-By: cache-iad-kjyo7100129-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1645555005.953277,VS0,VE0
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 107666
+Content-Type: text/html; charset=utf-8
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Content-Security-Policy: script-src 'sha256-nu9tVMGXtXZG4oszxe4T0guIQFguQ3i7GFYHoD2YtWU=' 'self' jobs.jobvite.com
+ETag: "1a492-Mi0W1AWM3uxoGqQB9b5sgO5AIMc"
+Accept-Ranges: bytes
+Date: Tue, 22 Feb 2022 18:36:45 GMT
+Via: 1.1 varnish
+Age: 433161
+cache-control: max-age=60
+X-Served-By: cache-iad-kjyo7100131-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+Vary: Accept-Encoding
+

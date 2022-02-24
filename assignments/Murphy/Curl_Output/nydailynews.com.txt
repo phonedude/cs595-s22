@@ -1,0 +1,31 @@
+HTTP/1.1 301 Moved Permanently
+Server: openresty
+Date: Wed, 16 Feb 2022 00:53:28 GMT
+Content-Type: text/html
+Content-Length: 182
+Connection: keep-alive
+Location: http://www.nydailynews.com/
+
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.nydailynews.com/
+Cache-Control: private, max-age=0
+Expires: Wed, 16 Feb 2022 00:53:28 GMT
+Date: Wed, 16 Feb 2022 00:53:28 GMT
+Connection: keep-alive
+Set-Cookie: _lbz=0; expires=Thu, 16-Feb-2023 00:53:28 GMT; domain=.nydailynews.com
+Set-Cookie: akaas_AS_tronc_new_york_daily_news_prod=2147483647~rv=68~id=d2ba36fa577864481ee2e19971f5d1db; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT
+
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=UTF-8
+Server: openresty
+Content-Length: 587202
+Cache-Control: private, max-age=60
+Expires: Wed, 16 Feb 2022 00:54:28 GMT
+Date: Wed, 16 Feb 2022 00:53:28 GMT
+Connection: keep-alive
+Set-Cookie: _lbz=0; expires=Thu, 16-Feb-2023 00:53:28 GMT; domain=.nydailynews.com
+Set-Cookie: akaas_AS_tronc_new_york_daily_news_prod=2147483647~rv=54~id=db1f1d64b5120cd5535d8ccb346942eb; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT; Secure; SameSite=None
+Content-Security-Policy: upgrade-insecure-requests
+

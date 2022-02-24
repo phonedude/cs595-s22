@@ -1,0 +1,66 @@
+HTTP/1.1 301 TLS Redirect
+Date: Thu, 24 Feb 2022 01:15:32 GMT
+Server: Varnish
+X-Varnish: 842880332
+X-Cache: cp1081 int
+X-Cache-Status: int-front
+Server-Timing: cache;desc="int-front", host;desc="cp1081"
+Permissions-Policy: interest-cohort=()
+Set-Cookie: WMF-Last-Access=24-Feb-2022;Path=/;HttpOnly;secure;Expires=Mon, 28 Mar 2022 00:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=24-Feb-2022;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Mon, 28 Mar 2022 00:00:00 GMT
+X-Client-IP: 162.217.52.128
+Location: https://id.wikipedia.org/
+Content-Length: 0
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 24 Feb 2022 01:08:37 GMT
+Server: mw1368.eqiad.wmnet
+X-Content-Type-Options: nosniff
+P3p: CP="See https://id.wikipedia.org/wiki/Special:CentralAutoLogin/P3P for more info."
+Vary: Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
+Cache-Control: s-maxage=1200, must-revalidate, max-age=0
+Last-Modified: Thu, 24 Feb 2022 01:08:37 GMT
+Location: https://id.wikipedia.org/wiki/Halaman_Utama
+Content-Length: 0
+Content-Type: text/html; charset=UTF-8
+Age: 415
+X-Cache: cp1079 miss, cp1083 hit/3
+X-Cache-Status: hit-front
+Server-Timing: cache;desc="hit-front", host;desc="cp1083"
+Strict-Transport-Security: max-age=106384710; includeSubDomains; preload
+Report-To: { "group": "wm_nel", "max_age": 86400, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+NEL: { "report_to": "wm_nel", "max_age": 86400, "failure_fraction": 0.05, "success_fraction": 0.0}
+Permissions-Policy: interest-cohort=()
+Set-Cookie: WMF-Last-Access=24-Feb-2022;Path=/;HttpOnly;secure;Expires=Mon, 28 Mar 2022 00:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=24-Feb-2022;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Mon, 28 Mar 2022 00:00:00 GMT
+X-Client-IP: 162.217.52.128
+Set-Cookie: GeoIP=US:VA:Exmore:37.51:-75.84:v4; Path=/; secure; Domain=.wikipedia.org
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Date: Thu, 24 Feb 2022 00:43:35 GMT
+Server: mw1411.eqiad.wmnet
+X-Content-Type-Options: nosniff
+P3p: CP="See https://id.wikipedia.org/wiki/Special:CentralAutoLogin/P3P for more info."
+Content-Language: id
+Vary: Accept-Encoding,Cookie,Authorization
+Last-Modified: Thu, 24 Feb 2022 00:43:21 GMT
+Content-Type: text/html; charset=UTF-8
+Age: 1917
+X-Cache: cp1085 hit, cp1083 hit/1
+X-Cache-Status: hit-front
+Server-Timing: cache;desc="hit-front", host;desc="cp1083"
+Strict-Transport-Security: max-age=106384710; includeSubDomains; preload
+Report-To: { "group": "wm_nel", "max_age": 86400, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+NEL: { "report_to": "wm_nel", "max_age": 86400, "failure_fraction": 0.05, "success_fraction": 0.0}
+Permissions-Policy: interest-cohort=()
+Set-Cookie: WMF-Last-Access=24-Feb-2022;Path=/;HttpOnly;secure;Expires=Mon, 28 Mar 2022 00:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=24-Feb-2022;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Mon, 28 Mar 2022 00:00:00 GMT
+X-Client-IP: 162.217.52.128
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+Set-Cookie: GeoIP=US:VA:Exmore:37.51:-75.84:v4; Path=/; secure; Domain=.wikipedia.org
+Accept-Ranges: bytes
+Content-Length: 169497
+Connection: keep-alive
+

@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 200 OK
+Set-Cookie: tk_ai=3k9Z4c3ceJdxuuwTwg7HCTtK; expires=Tue, 08-Mar-2022 22:08:49 GMT; Max-Age=1209600; path=/; domain=.wordpress.com; secure; SameSite=None
+Set-Cookie: tk_qs=_en%3Dwpcom_experiment_variation_assigned%26_ut%3Danon%26_ui%3D3k9Z4c3ceJdxuuwTwg7HCTtK%26_ts%3D1645567729271%26experiment_id%3D20486%26experiment_variation_id%3D1341%26reason%3Dset_by_anon_id; path=/; domain=.wordpress.com; secure; SameSite=Strict
+Set-Cookie: lohp_header_copy_test_202202=control; expires=Thu, 24-Mar-2022 00:00:00 GMT; Max-Age=2512271; path=/; domain=.wordpress.com; secure; SameSite=None

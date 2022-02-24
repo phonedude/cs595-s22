@@ -1,0 +1,3 @@
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 200 OK
+Set-Cookie: inpl_mobile=d;Domain=.interia.pl;Path=/;Max-Age=260000

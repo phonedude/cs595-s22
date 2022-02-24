@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 200 OK
+Set-Cookie:  gvc=MzAzMzI0MDY1NDMxNzIwMjc0ODk3OTk0MzQzNTk1NzU5NDU5NDkx; expires=Tue, 23 Feb 2027 01:15:04 GMT; HttpOnly; Path=/; Secure
+Set-Cookie:  t=PVBhCXy2Ba-thU_b3jk4l7C1; Domain=dropbox.com; expires=Sun, 23 Feb 2025 01:15:04 GMT; HttpOnly; Path=/; Secure
+Set-Cookie:  __Host-js_csrf=PVBhCXy2Ba-thU_b3jk4l7C1; expires=Sun, 23 Feb 2025 01:15:04 GMT; Path=/; Secure
+Set-Cookie:  locale=en; Domain=dropbox.com; expires=Tue, 23 Feb 2027 01:15:04 GMT; Path=/; Secure

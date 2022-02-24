@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 200 OK
+Set-Cookie: dsl25_frhf=control;expires=Tue, 22 Mar 2022 22:08:19 GMT;
+Set-Cookie: new_us_homepage_2=false;expires=Wed, 23 Feb 2022 22:08:19 GMT;path=/
+Set-Cookie: bf-geo-country=US; expires=Wed, 23 Feb 2022 22:08:19 GMT; path=/; domain=.buzzfeed.com;
+Set-Cookie: ccpa=true; expires=Tue, 08 Mar 2022 22:08:19 GMT; path=/; domain=www.buzzfeed.com;

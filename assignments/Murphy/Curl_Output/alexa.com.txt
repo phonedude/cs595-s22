@@ -1,0 +1,56 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Tue, 22 Feb 2022 18:36:45 GMT
+Content-Type: text/html
+Content-Length: 183
+Connection: keep-alive
+Location: https://alexa.com/
+X-Cache: Redirect from cloudfront
+Via: 1.1 e004b21574888e2383bc40e183527f92.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD66-C2
+X-Amz-Cf-Id: BSrzHgcKy95cgqbR1o8tbSsxv4cxgbjvutZ2F8GozZbN1Rod5rgEGw==
+
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Date: Tue, 22 Feb 2022 18:36:45 GMT
+Server: nginx
+Location: https://www.alexa.com/
+X-Cache: Miss from cloudfront
+Via: 1.1 70e06614c0a8446cd4a80ab3436628d4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD66-C2
+X-Amz-Cf-Id: IfXKwTvNavJss3pYBXoETfad1k7wduRw_4Rrw6vfTK0xR0o3AP4YjQ==
+
+HTTP/1.1 302 Found
+Content-Type: text/plain; charset=utf-8
+Content-Length: 28
+Connection: keep-alive
+Date: Tue, 22 Feb 2022 18:36:45 GMT
+Server: nginx
+X-Powered-By: Express
+Location: /login
+Vary: Accept
+Permissions-Policy: interest-cohort=()
+X-Frame-Options: SAMEORIGIN
+X-Cache: Miss from cloudfront
+Via: 1.1 5b8f26c7595104a396342213c43d8b98.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: ORD56-P1
+X-Amz-Cf-Id: gGEZk4qyzT7f-LafvKeqmsSMORqT3yKWLFhjGhy-Pq82YvmrVhaoTQ==
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 13225
+Connection: keep-alive
+Vary: Accept-Encoding
+Date: Tue, 22 Feb 2022 18:36:45 GMT
+Server: nginx
+X-Powered-By: Express
+ETag: W/"33a9-m0s7J21OzORJ0sSnyS/Ihw7UMgk"
+Permissions-Policy: interest-cohort=()
+X-Frame-Options: SAMEORIGIN
+X-Cache: Miss from cloudfront
+Via: 1.1 5b8f26c7595104a396342213c43d8b98.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: ORD56-P1
+X-Amz-Cf-Id: ua9gWaDCkF2zPkmCuuo-bCORmNQRNbbzZFQFyKxFiF427bRZFPFRrw==
+

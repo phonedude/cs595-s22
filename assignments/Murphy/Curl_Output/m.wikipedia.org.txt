@@ -1,0 +1,60 @@
+HTTP/1.1 301 TLS Redirect
+Date: Wed, 16 Feb 2022 00:51:21 GMT
+Server: Varnish
+X-Varnish: 556709043
+X-Cache: cp1081 int
+X-Cache-Status: int-front
+Server-Timing: cache;desc="int-front", host;desc="cp1081"
+Permissions-Policy: interest-cohort=()
+Set-Cookie: WMF-Last-Access=16-Feb-2022;Path=/;HttpOnly;secure;Expires=Sun, 20 Mar 2022 00:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=16-Feb-2022;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Sun, 20 Mar 2022 00:00:00 GMT
+X-Client-IP: 162.217.52.128
+Location: https://m.wikipedia.org/
+Content-Length: 0
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 15 Feb 2022 07:51:21 GMT
+Server: mw1354.eqiad.wmnet
+Location: https://www.wikipedia.org/
+Content-Length: 234
+Content-Type: text/html; charset=iso-8859-1
+Vary: X-Forwarded-Proto
+Age: 61200
+X-Cache: cp1079 hit, cp1081 hit/264
+X-Cache-Status: hit-front
+Server-Timing: cache;desc="hit-front", host;desc="cp1081"
+Strict-Transport-Security: max-age=106384710; includeSubDomains; preload
+Report-To: { "group": "wm_nel", "max_age": 86400, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+NEL: { "report_to": "wm_nel", "max_age": 86400, "failure_fraction": 0.05, "success_fraction": 0.0}
+Permissions-Policy: interest-cohort=()
+Set-Cookie: WMF-Last-Access=16-Feb-2022;Path=/;HttpOnly;secure;Expires=Sun, 20 Mar 2022 00:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=16-Feb-2022;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Sun, 20 Mar 2022 00:00:00 GMT
+X-Client-IP: 162.217.52.128
+Set-Cookie: GeoIP=US:VA:Exmore:37.51:-75.84:v4; Path=/; secure; Domain=.wikipedia.org
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Date: Tue, 15 Feb 2022 15:47:38 GMT
+Cache-Control: s-maxage=86400, must-revalidate, max-age=3600
+Server: ATS/8.0.8
+ETag: W/"12362-5d7fd3eb16660"
+Last-Modified: Mon, 14 Feb 2022 16:52:42 GMT
+Content-Type: text/html
+Vary: Accept-Encoding
+Age: 32623
+X-Cache: cp1079 miss, cp1081 hit/723788
+X-Cache-Status: hit-front
+Server-Timing: cache;desc="hit-front", host;desc="cp1081"
+Strict-Transport-Security: max-age=106384710; includeSubDomains; preload
+Report-To: { "group": "wm_nel", "max_age": 86400, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+NEL: { "report_to": "wm_nel", "max_age": 86400, "failure_fraction": 0.05, "success_fraction": 0.0}
+Permissions-Policy: interest-cohort=()
+Set-Cookie: WMF-Last-Access=16-Feb-2022;Path=/;HttpOnly;secure;Expires=Sun, 20 Mar 2022 00:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=16-Feb-2022;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Sun, 20 Mar 2022 00:00:00 GMT
+X-Client-IP: 162.217.52.128
+Set-Cookie: GeoIP=US:VA:Exmore:37.51:-75.84:v4; Path=/; secure; Domain=.wikipedia.org
+Accept-Ranges: bytes
+Content-Length: 74594
+Connection: keep-alive
+

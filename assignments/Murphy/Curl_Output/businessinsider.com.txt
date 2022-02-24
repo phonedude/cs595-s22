@@ -1,0 +1,39 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Content-Type: text/html; charset=utf-8
+Content-Length: 718
+Accept-Ranges: bytes
+Date: Wed, 16 Feb 2022 00:50:44 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-iad-kjyo7100143-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1644972644.221355,VS0,VE0
+Strict-Transport-Security: max-age=31536000
+Location: https://www.businessinsider.com/
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 487344
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Fenrir
+Last-Modified: Wed, 16 Feb 2022 00:48:20 GMT
+Cache-Control: public, max-age=120
+X-Frame-Options: sameorigin
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Link: </styles/landing-page.acd2cde90629bc2a495a.css>; rel=preload; as=style; nopush, </scripts/main.df7630f9907b66c87f81.js>; rel=preload; as=script; nopush, </chunks/scripts/vendors.9df1c4951adce6197fb3.js>; rel=preload; as=script; nopush, </chunks/scripts/utilities.aeba216a33869e7f1742.js>; rel=preload; as=script; nopush, </public/fonts/subset/LabGrotesque-Black-subset.woff2>; rel=preload; as=font; type=font/woff2; crossorigin; nopush
+ETag: W/"76fb0-5vMr8cNU6psho0jMWsijVDnTLjQ"
+X-Country-Code: US
+Accept-Ranges: bytes
+Date: Wed, 16 Feb 2022 00:50:44 GMT
+Via: 1.1 varnish
+Age: 143
+X-Served-By: cache-iad-kcgs7200051-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1644972644.296023,VS0,VE4
+Vary: Accept-Encoding, Authorization, Fastly-SSL, X-Device, X-Continent-Code, X-Piano-Disabled, X-User-Logged-In, X-User-Has-Access, X-ABTest-bii-media-show-lock, X-ABTest-bii-report-link, X-ABTest-ii-finance-email-lock, X-ABTest-ii-retail-show-lock, X-ABTest-anti-churn-half-off, X-ABTest-lazy-load-markup
+Strict-Transport-Security: max-age=31536000
+

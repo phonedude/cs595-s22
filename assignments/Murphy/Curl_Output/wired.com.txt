@@ -1,0 +1,74 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Location: https://wired.com/
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Wed, 16 Feb 2022 00:55:40 GMT
+Via: 1.1 varnish
+Connection: close
+x-compress-hint: on
+Set-Cookie: CN_xid=212f7eae-ed46-4457-9498-fdb144ee12fc; Expires=Mon, 15 Aug 2022 00:55:40 GMT; Domain=.wired.com; path=/; Secure; SameSite=None;
+Set-Cookie: CN_xid_refresh=212f7eae-ed46-4457-9498-fdb144ee12fc; Expires=Thu, 16 Feb 2023 00:55:40 GMT; Domain=.wired.com; path=/; Secure; httponly; SameSite=None;
+Set-Cookie: xid1=1; Expires=Wed, 16 Feb 2022 00:55:55 GMT; path=/;
+Set-Cookie: CN_segments=co.w2207; Expires=Mon, 15 Aug 2022 00:55:40 GMT; path=/;
+Content-Security-Policy: default-src https: data: 'unsafe-inline' 'unsafe-eval'; child-src https: data: blob:; connect-src https: data: blob: wss://*.hotjar.com; font-src https: data:; img-src https: blob: data: android-webview-video-poster:; media-src blob: data: https:; object-src https:; script-src https: data: blob: 'unsafe-inline' 'unsafe-eval'; style-src https: 'unsafe-inline'; block-all-mixed-content; upgrade-insecure-requests;
+X-Served-By: cache-iad-kjyo7100103-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1644972941.778405,VS0,VE0
+Vary: 
+Set-Cookie: CN_geo_country_code=US; Expires=Mon, 15 Aug 2022 00:55:40 GMT; Path=/; Domain=wired.com; Samesite=None; Secure
+cache-control: no-cache
+apple-news-services-host: wired.com
+
+HTTP/1.1 301 https://www.wired.com/
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://www.wired.com/
+Accept-Ranges: bytes
+Date: Wed, 16 Feb 2022 00:55:40 GMT
+Via: 1.1 varnish
+Content-Security-Policy: default-src https: data: 'unsafe-inline' 'unsafe-eval'; child-src https: data: blob:; connect-src https: data: blob: wss://*.hotjar.com; font-src https: data:; img-src https: blob: data: android-webview-video-poster:; media-src blob: data: https:; object-src https:; script-src https: data: blob: 'unsafe-inline' 'unsafe-eval'; style-src https: 'unsafe-inline'; block-all-mixed-content; upgrade-insecure-requests;
+Strict-Transport-Security: max-age=31536000; preload
+X-Served-By: cache-iad-kjyo7100109-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+Vary: 
+Set-Cookie: CN_geo_country_code=US; Expires=Mon, 15 Aug 2022 00:55:40 GMT; Path=/; Domain=wired.com; Samesite=None; Secure
+cache-control: no-cache
+apple-news-services-host: wired.com
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/html; charset=utf-8
+payment: free
+X-ESI: on
+Verso: true
+Date: Wed, 16 Feb 2022 00:55:40 GMT
+Via: 1.1 varnish
+Age: 572
+Set-Cookie: CN_xid=54f301a9-a0d0-4a62-8f4f-e905e0a0006a; Expires=Mon, 15 Aug 2022 00:55:40 GMT; Domain=.wired.com; path=/; Secure; SameSite=None;
+Set-Cookie: CN_xid_refresh=54f301a9-a0d0-4a62-8f4f-e905e0a0006a; Expires=Thu, 16 Feb 2023 00:55:40 GMT; Domain=.wired.com; path=/; Secure; httponly; SameSite=None;
+Set-Cookie: xid1=1; Expires=Wed, 16 Feb 2022 00:55:55 GMT; path=/;
+Set-Cookie: CN_segments=co.w2207; Expires=Mon, 15 Aug 2022 00:55:40 GMT; path=/;
+Content-Security-Policy: default-src https: data: 'unsafe-inline' 'unsafe-eval'; child-src https: data: blob:; connect-src https: data: blob: wss://*.hotjar.com; font-src https: data:; img-src https: blob: data: android-webview-video-poster:; media-src blob: data: https:; object-src https:; script-src https: data: blob: 'unsafe-inline' 'unsafe-eval'; style-src https: 'unsafe-inline'; block-all-mixed-content; upgrade-insecure-requests;
+Strict-Transport-Security: max-age=31536000; preload
+X-Served-By: cache-iad-kiad7000037-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1644972941.910743,VS0,VE6
+X-UA-Device: desktop
+Set-Cookie: verso_bucket=643; Expires=Thu, 16 Feb 2023 00:55:40 GMT; path=/;
+Vary: accept-encoding, Accept-Encoding, X-UA-Device, Verso, accept-payment
+Set-Cookie: CN_geo_country_code=US; Expires=Mon, 15 Aug 2022 00:55:40 GMT; Path=/; Domain=wired.com; Samesite=None; Secure
+cache-control: no-cache
+set-cookie: pay_ent_smp=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlciI6MX0.eyJ1cmxzIjpbXSwiY250IjowLCJtYXgiOjQsImV4cCI6MjAyMjAyfQ.H9dU2gS8bYwoJZp2efrKoAYMhuk0tOwicBq_fqI6uRg; Path=/; Expires=Thu, 16 Feb 2023 06:55:40 GMT; Domain=wired.com; Secure;
+set-cookie: pay_events=grant-new-smp; Max-Age=20; SameSite=Strict; Secure;
+apple-news-services-host: www.wired.com
+apple-news-services-request-url: /
+apple-news-services-parsed-url: /
+apple-news-services-handled: false
+

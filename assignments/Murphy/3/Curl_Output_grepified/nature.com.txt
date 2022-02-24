@@ -1,0 +1,11 @@
+HTTP/1.0 301 Moved Permanently
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 303 See Other
+HTTP/1.1 302 Found
+Set-Cookie: idp_session=sVERSION_11bc213b0-101a-4a62-9f4b-9e9227f3192f; Domain=.nature.com; Path=/; Secure; HttpOnly
+Set-Cookie: idp_session_http=hVERSION_1763915eb-5342-485e-8ab8-54be40f83763; Domain=.nature.com; Path=/; HttpOnly
+Set-Cookie: idp_marker=6c071995-91b8-47ef-bf43-ab395c064d45; Domain=.nature.com; Path=/; Max-Age=315360000; HttpOnly
+HTTP/1.1 302 Found
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 200 OK
+Set-Cookie: user.uuid="d497aa3c-db1a-4279-83ee-e318b0f5bde4"; Expires=Sun, 22 May 2022 22:11:26 GMT; Path=/

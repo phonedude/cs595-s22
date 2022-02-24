@@ -1,0 +1,20 @@
+HTTP/1.1 301 Moved Permanently
+Content-length: 0
+Location: https://evernote.com/
+Date: Wed, 16 Feb 2022 00:51:11 GMT
+Via: 1.1 google
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Cloud-Trace-Context: 2a414308099995c702656229d3912286
+Date: Wed, 16 Feb 2022 00:51:11 GMT
+Server: Google Frontend
+Transfer-Encoding: chunked
+X-App-Server: corpab-t6lb-haproxy-zqn8/be_corpsite_gae/li_corpsite_gae
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 google
+Alt-Svc: clear
+

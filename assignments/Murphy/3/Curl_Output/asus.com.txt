@@ -1,0 +1,32 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 143
+Content-Type: text/html; charset=UTF-8
+Location: https://www.asus.com
+Server: Microsoft-IIS/10.0
+Date: Thu, 24 Feb 2022 01:14:27 GMT
+
+HTTP/1.1 302 Found
+Date: Thu, 24 Feb 2022 01:14:28 GMT
+Location: https://www.asus.com/us/
+Server: ECD (dcc/4342)
+X-Akamai-Device-Characteristics: desktop
+x-log-country: US
+x-vmg-version: v4.0
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Age: 356
+Content-Type: text/html; charset=utf-8
+Date: Thu, 24 Feb 2022 01:14:28 GMT
+Etag: "3fb29-n2js/sw4/ChrKCFGSCYfbv1rOrg"
+Last-Modified: Thu, 24 Feb 2022 01:08:33 GMT
+Server: ECD (dcc/4366)
+X-Akamai-Device-Characteristics: desktop
+X-Cache: HIT
+X-Frame-Options: SAMEORIGIN
+x-log-country: US
+x-vmg-version: v4.0
+Content-Length: 41222
+

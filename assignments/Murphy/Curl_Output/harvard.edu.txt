@@ -1,0 +1,72 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html
+Location: https://harvard.edu/
+Server: nginx
+Traceparent: 00-954f079b0ccd48dbbd77564dbf86b4e4-30f7a2921b605581-00
+X-Cloud-Trace-Context: 954f079b0ccd48dbbd77564dbf86b4e4/3528467581476296065;o=0
+X-Pantheon-Styx-Hostname: styx-fe1-a-5bbdc68d96-ls5rv
+X-Styx-Req-Id: a389099f-8e9d-11ec-af27-12ff58001be5
+Cache-Control: public, max-age=86400
+Content-Length: 162
+Date: Wed, 16 Feb 2022 00:51:13 GMT
+Connection: keep-alive
+X-Served-By: cache-mdw17343-MDW, cache-iad-kiad7000177-IAD
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1644972674.883791,VS0,VE1
+Vary: Cookie, Cookie
+Age: 15849
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish
+
+HTTP/1.1 302 Found
+Connection: keep-alive
+Content-Length: 0
+Content-Type: text/html; charset=UTF-8
+Location: https://www.harvard.edu/
+Server: nginx
+Strict-Transport-Security: max-age=31622400
+Traceparent: 00-5a00462ac4f94c9a9f4f4138e772a018-87634f07084799a1-00
+X-Cloud-Trace-Context: 5a00462ac4f94c9a9f4f4138e772a018/9755728109436901793;o=0
+X-Pantheon-Styx-Hostname: styx-fe1-a-5bbdc68d96-vdrrw
+X-Styx-Req-Id: 3b63f63b-8ec2-11ec-a6cd-b2137640ebe5
+Date: Wed, 16 Feb 2022 00:51:13 GMT
+X-Served-By: cache-mdw17365-MDW, cache-iad-kiad7000069-IAD
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1644972674.938313,VS0,VE2
+Vary: Cookie, Cookie
+Age: 54
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 200009
+Cache-Control: public, max-age=1200
+Content-Type: text/html; charset=UTF-8
+Link: <https://www.harvard.edu/wp-json/>; rel="https://api.w.org/"
+Link: <https://www.harvard.edu/wp-json/wp/v2/pages/6392>; rel="alternate"; type="application/json"
+Link: <https://www.harvard.edu/>; rel=shortlink
+Permissions-Policy: geolocation=(self)
+Referrer-Policy: same-origin
+Server: nginx
+Strict-Transport-Security: max-age=31622400
+Traceparent: 00-224a87b8c24e47ae97678056b14034df-28db67350b29a7b3-00
+X-Cloud-Trace-Context: 224a87b8c24e47ae97678056b14034df/2944060258934958003;o=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Pantheon-Styx-Hostname: styx-fe3-a-b5f76b597-6z285
+X-Pingback: https://www.harvard.edu/xmlrpc.php
+X-Styx-Req-Id: 01a9726b-8ec2-11ec-b145-2aeb44ecaee3
+X-Xss-Protection: 1; mode=block
+Age: 230
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish, 1.1 varnish, 1.1 varnish
+Date: Wed, 16 Feb 2022 00:51:14 GMT
+X-Served-By: cache-mdw17376-MDW, cache-mdw17356-MDW, cache-iad-kcgs7200062-IAD, cache-iad-kjyo7100028-IAD
+X-Cache: HIT, MISS, MISS, MISS
+X-Cache-Hits: 121, 0, 0, 0
+X-Timer: S1644972674.015615,VS0,VE26
+Vary: Accept-Encoding, Cookie, orig-host
+

@@ -1,0 +1,41 @@
+HTTP/1.1 301 Moved Permanently
+Location: https://instagram.com/
+Content-Type: text/plain
+Server: proxygen-bolt
+X-FB-TRIP-ID: 1679558926
+Alt-Svc: h3=":443"; ma=3600,h3-29=":443"; ma=3600
+Date: Thu, 24 Feb 2022 01:15:33 GMT
+Connection: keep-alive
+Content-Length: 0
+
+HTTP/1.1 405 Method Not Allowed
+Content-Type: text/html; charset=utf-8
+Allow: POST, GET
+Vary: Accept-Language, Cookie
+Content-Language: en
+Date: Thu, 24 Feb 2022 01:15:33 GMT
+Strict-Transport-Security: max-age=31536000
+Cache-Control: private, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+X-Frame-Options: SAMEORIGIN
+content-security-policy: report-uri https://www.instagram.com/security/csp_report/; default-src 'self' https://www.instagram.com; img-src data: blob: https://*.fbcdn.net https://*.instagram.com https://*.cdninstagram.com https://*.facebook.com https://*.fbsbx.com https://*.giphy.com; font-src data: https://*.fbcdn.net https://*.instagram.com https://*.cdninstagram.com; media-src 'self' blob: https://www.instagram.com https://*.cdninstagram.com https://*.fbcdn.net; manifest-src 'self' https://www.instagram.com; script-src 'self' https://instagram.com https://www.instagram.com https://*.www.instagram.com https://*.cdninstagram.com wss://www.instagram.com https://*.facebook.com https://*.fbcdn.net https://*.facebook.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://*.www.instagram.com https://www.instagram.com 'unsafe-inline'; connect-src 'self' https://instagram.com https://www.instagram.com https://*.www.instagram.com https://graph.instagram.com https://*.graph.instagram.com https://i.instagram.com/graphql_www https://graphql.instagram.com https://*.cdninstagram.com https://api.instagram.com https://i.instagram.com https://*.i.instagram.com https://*.od.instagram.com wss://www.instagram.com wss://edge-chat.instagram.com https://*.facebook.com https://*.fbcdn.net https://*.facebook.net chrome-extension://boadgeojelhgndaghljhdicfkmllpafd blob:; worker-src 'self' blob: https://www.instagram.com; frame-src 'self' https://instagram.com https://www.instagram.com https://*.instagram.com https://staticxx.facebook.com https://www.facebook.com https://web.facebook.com https://connect.facebook.net https://m.facebook.com; object-src 'none'; upgrade-insecure-requests
+origin-trial: AuqWincgAuXeuu3KypEMnrrFEJHySaesyJS3EaIH40zvafzrU0Irhb7+5QwZpOqMZrPTjgvFl7Z5jJgy1dNAcQMAAAB6eyJvcmlnaW4iOiJodHRwczovL2luc3RhZ3JhbS5jb206NDQzIiwiZmVhdHVyZSI6IkNyb3NzT3JpZ2luT3BlbmVyUG9saWN5UmVwb3J0aW5nIiwiZXhwaXJ5IjoxNjEzNDExNjYyLCJpc1N1YmRvbWFpbiI6dHJ1ZX0=
+report-to: {"group": "coop", "max_age": 86400, "endpoints": [{"url": "/security/coop_report/"}]}
+cross-origin-opener-policy: same-origin-allow-popups;report-to="coop"
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+x-ig-push-state: c2
+x-aed: 48
+Access-Control-Expose-Headers: X-IG-Set-WWW-Claim
+x-ig-request-elapsed-time-ms: 21
+Set-Cookie: csrftoken=qkzOUZRn41gqZgLsrxYz3jrEE0eOSli5; Domain=.instagram.com; expires=Thu, 23-Feb-2023 01:15:33 GMT; Max-Age=31449600; Path=/; Secure
+Set-Cookie: mid=YhbcNQAEAAED6MJ6gFB2T3JqTqBu; Domain=.instagram.com; expires=Sat, 24-Feb-2024 01:15:33 GMT; Max-Age=63072000; Path=/; Secure
+Set-Cookie: ig_did=178A6941-F082-4BA2-AC94-0419A3645F2C; Domain=.instagram.com; expires=Sat, 24-Feb-2024 01:15:33 GMT; HttpOnly; Max-Age=63072000; Path=/; Secure
+Set-Cookie: ig_nrcb=1; Domain=.instagram.com; expires=Fri, 24-Feb-2023 01:15:33 GMT; Max-Age=31536000; Path=/; Secure
+x-ig-origin-region: atn
+X-FB-TRIP-ID: 1679558926
+Alt-Svc: h3=":443"; ma=3600,h3-29=":443"; ma=3600
+Connection: keep-alive
+Content-Length: 0
+

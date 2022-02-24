@@ -1,0 +1,76 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Location: https://independent.co.uk/
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Wed, 16 Feb 2022 00:51:14 GMT
+Via: 1.1 varnish
+Connection: close
+Set-Cookie: esi-permutive-id=(null); Path=/ ; Secure
+X-Served-By: cache-iad-kjyo7100097-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://www.independent.co.uk/
+Accept-Ranges: bytes
+Date: Wed, 16 Feb 2022 00:51:14 GMT
+Via: 1.1 varnish
+Set-Cookie: esi-permutive-id=(null); Path=/ ; Secure
+Access-Control-Allow-Origin: *
+X-Served-By: cache-iad-kjyo7100137-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+
+HTTP/1.1 307 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: /us
+Accept-Ranges: bytes
+Date: Wed, 16 Feb 2022 00:51:14 GMT
+Via: 1.1 varnish
+canary: 1
+Set-Cookie: Locale=US ; Path=/ ;
+Set-Cookie: esi-permutive-id=(null); Path=/ ; Secure
+Access-Control-Allow-Origin: *
+X-Served-By: cache-iad-kiad7000171-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1644972675.922438,VS0,VE0
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 362196
+Content-Type: text/html; charset=utf-8
+Cache-Tag: independent.co.uk,v1.5.13.7,section_1741
+Etag: W/"4fa76-Pi/zOQFsIEOtGuQy/DFE5oamRLg-gzip"
+Server: Apache/2.4.29 (Ubuntu)
+Strict-Transport-Security: max-age=63072000;  preload
+X-Head-Hash: 
+Via: 1.1 varnish, 1.1 varnish
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Date: Wed, 16 Feb 2022 00:51:14 GMT
+Age: 564
+canary: 1
+Set-Cookie: Locale=US ; Path=/ ;
+Set-Cookie: gdpr=0 ; Path=/ ;
+Set-Cookie: subscriber_origin=us ; Path=/ ;
+Set-Cookie: _pc_subscriber_origin=us ; Path=/ ;
+Set-Cookie: fresh8_toggle=1 ; Path=/ ;
+Set-Cookie: esi-uuid=e135958b-d672-481c-8fe5-74214f2620c7 ; Path=/ ; Secure; HttpOnly; Expires=Thu, 16 Feb 2023 00:51:14 GMT ;
+Set-Cookie: esi-permutive-id=e135958b-d672-481c-8fe5-74214f2620c7; Path=/ ; Secure
+Cache-control: no-cache, no-store, max-age=0, must-revalidate
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Served-By: cache-lhr7332-LHR, cache-iad-kiad7000135-IAD
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1644972675.968738,VS0,VE2
+

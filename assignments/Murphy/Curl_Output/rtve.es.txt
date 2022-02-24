@@ -1,0 +1,24 @@
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 16 Feb 2022 00:53:32 GMT
+Connection: Keep-Alive
+Server: Apache/2.4.6 (Red Hat Enterprise Linux)
+Location: https://www.rtve.es/
+Keep-Alive: timeout=5, max=85
+Content-Type: text/html; charset=iso-8859-1
+ETag: "WA1060c894f0e7b54d"
+Expires: Wed, 16 Feb 2022 00:53:41 GMT
+Cache-Control: public, max-age=60
+Age: 51
+Accept-Ranges: bytes
+X-WA-Info: [V2.S10101.A60560.P95373.N57830.RN0.U813347184].[OT/html.OG/pages].[P/0.0].[O/0.0].[EH449/1161].[DH3/3].[C/M]
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Server: Apache/2.4.6 (Red Hat Enterprise Linux)
+Content-Type: text/html; charset=ISO-8859-1
+Content-Security-Policy: upgrade-insecure-requests
+Cache-Control: max-age=14
+Expires: Wed, 16 Feb 2022 00:53:46 GMT
+Date: Wed, 16 Feb 2022 00:53:32 GMT
+Connection: keep-alive
+

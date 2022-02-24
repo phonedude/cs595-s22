@@ -1,0 +1,40 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Wed, 16 Feb 2022 00:51:10 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-iad-kjyo7100123-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1644972671.700720,VS0,VE0
+Location: https://www.etsy.com/
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Server: Apache
+Set-Cookie: uaid=zbl7Wu9e0SA1AYko4weH9O1RsdZjZACCJB6vOhhdrVSamJmiZKUU75fhnxFWlViQHFgYkmFY7OMUVWhY4Zfo51dZpVTLAAA.; expires=Thu, 16-Feb-2023 00:51:10 GMT; Max-Age=31536000; path=/; domain=.etsy.com; secure; SameSite=None
+X-CLOUD-TRACE-CONTEXT: 0d5afe56e5a4e49500d2fe254396fbf5/16166787124120886468;o=0
+Strict-Transport-Security: max-age=631138520; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy-Report-Only: frame-ancestors 'self'; report-uri /beacon/csp.php
+X-XSS-Protection: 1; mode=block; report=/beacon/csp.php
+X-Content-Type-Options: nosniff
+Set-Cookie: user_prefs=BomqwVy6CDQ-pfNbA-Xtkl3HBcpjZACCJB6vOhgdrRQa7KKkk1eak6OjlJqnGxqspKMEIsAiRhAKFxHLAAA.; expires=Thu, 16-Feb-2023 00:51:10 GMT; Max-Age=31535999; path=/; domain=.etsy.com
+Set-Cookie: fve=1644972670.0; expires=Sat, 18-Mar-2023 17:09:30 GMT; Max-Age=34186699; path=/; domain=.etsy.com; secure
+Set-Cookie: last_browse_page=https%3A%2F%2Fwww.etsy.com%2F; path=/; domain=.etsy.com
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Type: text/html; charset=UTF-8
+Via: 1.1 google, 1.1 varnish
+x-fastly-backend-reqs: 156
+Accept-Ranges: bytes
+Date: Wed, 16 Feb 2022 00:51:11 GMT
+X-Served-By: cache-iad-kcgs7200123-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1644972671.796929,VS0,VE258
+Vary: Accept-Encoding
+

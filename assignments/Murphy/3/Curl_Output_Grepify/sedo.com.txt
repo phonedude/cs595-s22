@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Set-Cookie: __cf_bm=YjR1Ko5XuY94KIY.Aq36UV1hSjZZAnHP4Qs9MhKhAE4-1645665612-0-AdU0ACYlil0xc4R90tSljgYhjlh8i1dNRjiXMevOW1RM7ZuXHlx+sAvMI/0zwrskhqQWBOAPb2OhevwTfqp+kRs=; path=/; expires=Thu, 24-Feb-22 01:50:12 GMT; domain=.sedo.com; HttpOnly; SameSite=None
+HTTP/1.1 302 Moved Temporarily
+Set-Cookie: campaignId=; Max-Age=86400; Path=/; Secure; HttpOnly
+Set-Cookie: session=00838650e8f640e12da0763cbc0dd0a8; expires=Sun, 27-Feb-2022 01:20:12 GMT; Max-Age=259200; path=/; secure; HttpOnly
+Set-Cookie: __cf_bm=eeQ1Ii9LV0WSyzPfn2SAi4rz8z66IRB8ou.sHdP1wuo-1645665612-0-ASjLblbKQz0/fpvC8xAWrPR2yTT026y8b//AqdtTEBt5q4vVndZzFHiUonDVVhGrIFDFzR52jWu8HaJps+EI/Gw=; path=/; expires=Thu, 24-Feb-22 01:50:12 GMT; domain=.sedo.com; HttpOnly; Secure; SameSite=None
+HTTP/1.1 200 OK
+Set-Cookie: campaignId=; Max-Age=86400; Path=/; Secure; HttpOnly
+Set-Cookie: __cf_bm=fceXNxiUwSqMQHtErVyo0iL20h4ouoQHTFJyYJHVP6c-1645665613-0-AT0OYThyu6eWgTil7uf85/296EvNAPnZM7stywyGv2L6au6waiteovMGKBi/MyEmEZm+88ApNJLoJAKbGChWW9c=; path=/; expires=Thu, 24-Feb-22 01:50:13 GMT; domain=.sedo.com; HttpOnly; Secure; SameSite=None

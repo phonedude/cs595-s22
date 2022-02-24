@@ -1,0 +1,24 @@
+HTTP/1.1 301 Moved Permanently
+Server: awselb/2.0
+Date: Wed, 16 Feb 2022 00:51:21 GMT
+Content-Type: text/html
+Content-Length: 134
+Connection: keep-alive
+Location: https://www.lg.com:443/
+
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.lg.com/us
+Date: Wed, 16 Feb 2022 00:51:21 GMT
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=UTF-8
+Content-Length: 187894
+Content-Security-Policy: frame-ancestors 'self' www.lgechat.com lgechat.com;
+Cache-Control: max-age=19
+Expires: Wed, 16 Feb 2022 00:51:40 GMT
+Date: Wed, 16 Feb 2022 00:51:21 GMT
+Connection: keep-alive
+

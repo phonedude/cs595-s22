@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 302 Moved Temporarily
+HTTP/1.1 200 OK
+Set-Cookie: SHOPPINGCART=;Path=/;Expires=Sat, 26-Mar-2022 01:15:32 UTC
+Set-Cookie: REFLOC=;Path=/;Expires=Fri, 23-Feb-2052 09:07:02 UTC
+Set-Cookie: PV=710DC18BD7942257B5599FB79338CE2B;Path=/;Expires=Fri, 23-Feb-2052 09:07:02 UTC
+Set-Cookie: DE3OOK=11AD6A283AD26C0A053A7EBAE25C0843B554054FA1F2E0B9678A5B51262E57DE037D92839BF4C9899857C46053AEE596;Path=/;Expires=Fri, 23-Feb-2052 09:07:02 UTC;Secure;HTTPOnly
+Set-Cookie: site_version_phase=108; expires=Sun, 19-Feb-2023 01:15:32 GMT; path=/
+Set-Cookie: site_version=HDv3; expires=Sun, 19-Feb-2023 01:15:32 GMT; path=/

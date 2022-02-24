@@ -1,0 +1,4 @@
+akamaized.net
+usnews.com
+ssl-images-amazon.com
+
