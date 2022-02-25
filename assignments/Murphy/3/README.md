@@ -209,7 +209,16 @@ From the 100 URLs scraped, the minimum number of cookies a site had was 0. There
 a surprising number that did not create cookies at all, though I suppose for many of them they are not necessary for the type of content the site contains, for example the homepage of pcmag.com is mainly news in the tech industry, so you don't really need to be able to identify between different users for just said page. The maximum number of cookies was weebly.com at 20 cookies. The median cookie is "Set-Cookie: WMF-Last-Access-Global=24-Feb-2022;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Mon, 28 Mar 2022 00:00:00 GMT"
 and "Set-Cookie: WMF-Last-Access=24-Feb-2022;Path=/;HttpOnly;secure;Expires=Mon, 28 Mar 2022 00:00:00 GMT" from m.wikipedia.org, and were the 121st and 122nd cookies. Of the 243 cookies, 235 of them had the path set as the default "Path=/". None 
 of them were set to anything other then that, so all of the cookies followed basic web security principles on that front.
-The mean of the total amount of cookies is 243 cookies divided by 54 unique URLs being 4.352.
+The mean of the total amount of cookies is 243 cookies divided by 54 unique URLs being 4.352. There were several URLs that caused me issues, those being akamaized.net
+ssl-images-amazon.com, twimg.com, usnews.com, and mega.nz. I was able to work around
+mega.nz's hanging response using "curl -iLks https://mega.nz | head -10". The hanging
+response that usnews.com could also be circumvented by setting setting the user-agent
+to mimic a browser environment, and changing the accept-language argument, although 
+I could not get it to work due to not having the correct libcurl version installed.
+Two URLs, nhk.or.jp and leparisien.fr required prepending "www." to them in order 
+to actually curl them and get a proper response. The URLs akamaized.net, ssl-images-amazon.com, and twimg.com 
+all returned with an error 6, and could not resolve the host. I also 
+tried loading these URLs in the Firefox browser and could not get them to load.
 
 
 # Extra Credit - It's Turtles All the Way Down
