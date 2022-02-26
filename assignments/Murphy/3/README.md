@@ -115,6 +115,7 @@ commands, and then outputs the results as well as writes all of the cookies to a
 | finance.yahoo.com | 404 | 1 | - | - | - |
 | focus.de | 200 | - | - | - | - |
 | francetvinfo.fr | 200 | - | - | - | - |
+| gov.uk | 200 | - | - | - | - |
 | guardian.co.uk | 200 | 4 | - | 4 | - |
 | harvard.edu | 200 | - | - | - | - |
 | hugedomains.com | 200 | 6 | 1 | 1 | - |
@@ -141,6 +142,7 @@ commands, and then outputs the results as well as writes all of the cookies to a
 | networkadvertising.org | 200 | 3 | - | 1 | 1 |
 | nhk.or.jp | 200 | - | - | - | - |
 | nydailynews.com | 200 | 4 | - | 1 | 1 |
+| over-blog.com | 200 | - | - | - | - |
 | ovh.com | 200 | - | - | - | - |
 | pcmag.com | 200 | - | - | - | - |
 | photobucket.com | 200 | - | - | - | - |
@@ -168,12 +170,10 @@ commands, and then outputs the results as well as writes all of the cookies to a
 | video.google.com | 200 | 2 | 1 | 1 | - |
 | wa.me | 200 | 2 | 2 | 2 | - |
 | washington.edu | 200 | - | - | - | - |
+| weebly.com | 200 | 20 | - | - | - |
 | wikia.com | 200 | 4 | - | 4 | 4 |
 | wiley.com | 405 | 1 | 1 | 1 | 1 |
 | wired.com | 200 | 14 | 2 | 9 | 8 |
-| www.gov.uk| 200 | - | - | - | - |
-| www.over-blog.com | 200 | - | - | - | - |
-| www.weebly.com | 200 | 20 | - | - | - |
 | youtube.com | 200 | 3 | 3 | 3 | 2 |
 | zoom.us | 200 | 10 | 8 | 10 | - |
 
