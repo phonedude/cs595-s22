@@ -212,7 +212,7 @@ of them were set to anything other then that, so all of the cookies followed bas
 The mean of the total amount of cookies is 243 cookies divided by 54 unique URLs being 4.352. There were several URLs that caused me issues, those being akamaized.net
 ssl-images-amazon.com, twimg.com, usnews.com, and mega.nz. I was able to work around
 mega.nz's hanging response using "curl -iLks https://mega.nz | head -10". The hanging
-response that usnews.com could also be circumvented by setting setting the user-agent
+response that usnews.com could also be circumvented by setting the user-agent
 to mimic a browser environment, and changing the accept-language argument, although 
 I could not get it to work due to not having the correct libcurl version installed.
 Two URLs, nhk.or.jp and leparisien.fr required prepending "www." to them in order 
