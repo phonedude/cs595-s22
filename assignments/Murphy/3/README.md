@@ -24,8 +24,10 @@ into a table, and summarize said information at the end of the report. This incl
 
 I have made two tables for this assignment. The first table includes the URL, the 
 terminating status code, the number of cookies, and if it has cookies, the number of those cookies that include either HttpOnly, Secure, or SameSite in said cookies.
+It also includes the variable chosen for Samesite, that being Strict, Lax, or None.
 The second table focus on cookies that included SameSite, and looks at how many of those cookie were 
-set to either Strict, Lax, or None.
+set to either Strict, Lax, or None. I originally had SameSite delegated to it's own
+table, but decided for completeness sake, to include it in the master table as well.
 
 To scrape the data needed, I created a script that while not at the end of file, read
 each line, and passed it in as a curl argument. if the time of the command exceeded 120 seconds, it moves to the next URL in the list. It saves all contents to a file that matches the URL, with .txt appended to it. It does this same process as above, except using grep to parse for lines containing the words "Set-Cookie", "HTTP/1.1" and 
@@ -80,108 +82,108 @@ commands, and then outputs the results as well as writes all of the cookies to a
 
 # Tables
 
-| URL | Terminating Status Code | Number of Cookies | HttpOnly | Secure | SameSite |
-|---|---|---|---|---|---|
-| about.com | 200 | - | - | - | - |
-| akamaized.net | - | - | - | - | - |
-| alexa.com | 200 | - | - | - | - |
-| alibaba.com | 200 | 1 | - | - | - |
-| amazon.fr | 405 | - | - | - | - | - | - |
-| amazon.it | 405 | 10 | - | - | - |
-| asahi.com | 200 | - | - | - | - |
-| asus.com | 200 | - | - | - | - |
-| bandcamp.com | 200 | 6 | 1 | 3 | 1 |
-| bbc.co.uk | 200 | - | - | - | - |
-| bbc.com | 200 | - | - | - | - |
-| bp3.blogger.com | 400 | - | - | - | - |
-| brandbucket.com | 403 | - | - | - | - |
-| businessinsider.com | 200 | - | - | - | - |
-| buzzfeed.com | 200 | 4 | - | - | - |
-| cnbc.com | 503 | - | - | - | - |
-| cnil.fr | 200 | - | - | - | - |
-| cointernet.com.co | 200 | - | - | - | - |
-| debian.org | 200 | - | - | - | - |
-| depositfiles.com | 200 | 1 | - | - | - |
-| dot.tk | 200 | 3 | - | - | - |
-| draft.blogger.com | 200 | 3 | 3 | 3 | - |
-| drive.google.com | 200 | 3 | 3 | 1 | - |
-| dropbox.com | 200 | 4 | 2 | 4 | - |
-| dw.com | 200 | - | - | - | - |
-| ea.com | 200 | 12 | - | 3 | - |
-| ebay.co.uk | 301 | - | - | - | - |
-| elmundo.es | 200 | - | - | - | - |
-| elpais.com | 200 | 8 | - | 1 | 1 |
-| en.wikipedia.org | 200 | 8 | 6 | 8 | - |
-| enable-javascript.com | 200 | 1 | 1 | - | 1 |
-| etsy.com | 200 | 4 | - | 2 | 1 |
-| evernote.com| 200 | 2 | - | 2 | - |
-| fb.me| 200 | 2 | 2 | 2 | - |
-| feedburner.com | 200 | 2 | 2 | 1 | - |
-| files.wordpress.com | 200 | 3 | - | 3 | 3 |
-| finance.yahoo.com | 404 | 1 | - | - | - |
-| focus.de | 200 | - | - | - | - |
-| francetvinfo.fr | 200 | - | - | - | - |
-| gov.uk | 200 | - | - | - | - |
-| guardian.co.uk | 200 | 4 | - | 4 | - |
-| harvard.edu | 200 | - | - | - | - |
-| hugedomains.com | 200 | 6 | 1 | 1 | - |
-| id.wikipedia.org | 200 | 8 | 6 | 8 | - |
-| imgur.com | 200 | 1 | - | - | - |
-| independent.co.uk | 200 | 11 | 1 | 5 | - |
-| instagram.com | 405 | 4 | 1 | 4 | - |
-| interia.pl | 200 | 1 | - | - | - |
-| kakao.com | 200 | 1 | 1 | - | - |
-| kompas.com | 200 | - | - | - | - |
-| last.fm | 200 | 5 | 1 | 1 | - |
-| latimes.com | 200 | - | - | - | - |
-| leparisien.fr | 200 | - | - | - | - |
-| lg.com | 200 | - | - | - | - |
-| m.wikipedia.org | 200 | 8 | 6 | 8 | - |
-| mega.nz | 200 | 1 | - | - | - |
-| mozilla.com | 200 | - | - | - | - |
-| msn.com | 200 | 6 | 5 | 2 | 2 |
-| nature.com | 200 | 4 | 3 | 1 | - |
-| naver.com | 200 | - | - | - | - |
-| nba.com | 200 | - | - | - | - |
-| netflix.com | 405 | 4 | - | - | - |
-| netvibes.com | 200 | 2 | - | 2 | 2 |
-| networkadvertising.org | 200 | 3 | - | 1 | 1 |
-| nhk.or.jp | 200 | - | - | - | - |
-| nydailynews.com | 200 | 4 | - | 1 | 1 |
-| over-blog.com | 200 | - | - | - | - |
-| ovh.com | 200 | - | - | - | - |
-| pcmag.com | 200 | - | - | - | - |
-| photobucket.com | 200 | - | - | - | - |
-| pinterest.com | 200 | 4 | 3 | 3 | 2 |
-| play.google.com | 200 | 3 | 3 | - | - |
-| reuters.com | 200 | 1 | - | 1 | - |
-| rfi.fr | 200 | - | - | - | - |
-| rtve.es | 200 | - | - | - | - |
-| ru.wikipedia.org | 200 | 8 | 6 | 8 | - |
-| search.google.com | 200 | 2 | 1 | 1 | - |
-| sedo.com | 200 | 6 | 6 | 5 | 3 |
-| soratemplates.com | 200 | - | - | - | - |
-| spiegel.de | 200 | - | - | - | - |
-| spotify.com | 200 | 5 | 3 | 5 | 2 |
-| ssl-images-amazon.com | - | - | - | - | - |
-| telegram.me | 501 | - | - | - | - |
-| thoughtco.com | 200 | 3 | - | - | - |
-| time.com | 200 | - | - | - | - |
-| trustpilot.com | 200 | - | - | - | - |
-| twimg.com | - | - | - | - | - |
-| ucoz.ru | 200 | 2 | 2 | - | - |
-| upenn.edu | 200 | - | - | - | - |
-| usgs.gov | 200 | 2 | - | 1 | 1 |
-| usnews.com | - | - | - | - | - |
-| video.google.com | 200 | 2 | 1 | 1 | - |
-| wa.me | 200 | 2 | 2 | 2 | - |
-| washington.edu | 200 | - | - | - | - |
-| weebly.com | 200 | 20 | - | - | - |
-| wikia.com | 200 | 4 | - | 4 | 4 |
-| wiley.com | 405 | 1 | 1 | 1 | 1 |
-| wired.com | 200 | 14 | 2 | 9 | 8 |
-| youtube.com | 200 | 3 | 3 | 3 | 2 |
-| zoom.us | 200 | 10 | 8 | 10 | - |
+| URL | Terminating Status Code | Number of Cookies | HttpOnly | Secure | SameSite | Strict | Lax | None |
+|---|---|---|---|---|---|---|---|---|
+| about.com | 200 | - | - | - | - | - | - | - |
+| akamaized.net | - | - | - | - | - | - | - | - |
+| alexa.com | 200 | - | - | - | - | - | - | - |
+| alibaba.com | 200 | 1 | - | - | - | - | - | - |
+| amazon.fr | 405 | - | - | - | - | - | - | - | - | - |
+| amazon.it | 405 | 10 | - | - | - | - | - | - |
+| asahi.com | 200 | - | - | - | - | - | - | - |
+| asus.com | 200 | - | - | - | - | - | - | - |
+| bandcamp.com | 200 | 6 | 1 | 3 | 1 | - | - | 1 |
+| bbc.co.uk | 200 | - | - | - | - | - | - | - |
+| bbc.com | 200 | - | - | - | - | - | - | - |
+| bp3.blogger.com | 400 | - | - | - | - | - | - | - |
+| brandbucket.com | 403 | - | - | - | - | - | - | - |
+| businessinsider.com | 200 | - | - | - | - | - | - | - |
+| buzzfeed.com | 200 | 4 | - | - | - | - | - | - |
+| cnbc.com | 503 | - | - | - | - | - | - | - |
+| cnil.fr | 200 | - | - | - | - | - | - | - |
+| cointernet.com.co | 200 | - | - | - | - | - | - | - |
+| debian.org | 200 | - | - | - | - | - | - | - |
+| depositfiles.com | 200 | 1 | - | - | - | - | - | - |
+| dot.tk | 200 | 3 | - | - | - | - | - | - |
+| draft.blogger.com | 200 | 3 | 3 | 3 | - | - | - | - |
+| drive.google.com | 200 | 3 | 3 | 1 | - | - | - | - |
+| dropbox.com | 200 | 4 | 2 | 4 | - | - | - | - |
+| dw.com | 200 | - | - | - | - | - | - | - |
+| ea.com | 200 | 12 | - | 3 | - | - | - | - |
+| ebay.co.uk | 301 | - | - | - | - | - | - | - |
+| elmundo.es | 200 | - | - | - | - | - | - | - |
+| elpais.com | 200 | 8 | - | 1 | 1 | - | - | 1 |
+| en.wikipedia.org | 200 | 8 | 6 | 8 | - | - | - | - |
+| enable-javascript.com | 200 | 1 | 1 | - | 1 | - | 1 | - |
+| etsy.com | 200 | 4 | - | 2 | 1 | - | - | 1 |
+| evernote.com| 200 | 2 | - | 2 | - | - | - | - |
+| fb.me| 200 | 2 | 2 | 2 | - | - | - | - |
+| feedburner.com | 200 | 2 | 2 | 1 | - | - | - | - |
+| files.wordpress.com | 200 | 3 | - | 3 | 3 | 1 | - | 2 |
+| finance.yahoo.com | 404 | 1 | - | - | - | - | - | - |
+| focus.de | 200 | - | - | - | - | - | - | - |
+| francetvinfo.fr | 200 | - | - | - | - | - | - | - |
+| gov.uk | 200 | - | - | - | - | - | - | - |
+| guardian.co.uk | 200 | 4 | - | 4 | - | - | - | - |
+| harvard.edu | 200 | - | - | - | - | - | - | - |
+| hugedomains.com | 200 | 6 | 1 | 1 | - | - | - | - |
+| id.wikipedia.org | 200 | 8 | 6 | 8 | - | - | - | - |
+| imgur.com | 200 | 1 | - | - | - | - | - | - |
+| independent.co.uk | 200 | 11 | 1 | 5 | - | - | - | - |
+| instagram.com | 405 | 4 | 1 | 4 | - | - | - | - |
+| interia.pl | 200 | 1 | - | - | - | - | - | - |
+| kakao.com | 200 | 1 | 1 | - | - | - | - | - |
+| kompas.com | 200 | - | - | - | - | - | - | - |
+| last.fm | 200 | 5 | 1 | 1 | - | - | - | - |
+| latimes.com | 200 | - | - | - | - | - | - | - |
+| leparisien.fr | 200 | - | - | - | - | - | - | - |
+| lg.com | 200 | - | - | - | - | - | - | - |
+| m.wikipedia.org | 200 | 8 | 6 | 8 | - | - | - | - |
+| mega.nz | 200 | 1 | - | - | - | - | - | - |
+| mozilla.com | 200 | - | - | - | - | - | - | - |
+| msn.com | 200 | 6 | 5 | 2 | 2 | - | - | 2 |
+| nature.com | 200 | 4 | 3 | 1 | - | - | - | - |
+| naver.com | 200 | - | - | - | - | - | - | - |
+| nba.com | 200 | - | - | - | - | - | - | - |
+| netflix.com | 405 | 4 | - | - | - | - | - | - |
+| netvibes.com | 200 | 2 | - | 2 | 2 | - | - | 2 |
+| networkadvertising.org | 200 | 3 | - | 1 | 1 | - | - | 1 |
+| nhk.or.jp | 200 | - | - | - | - | - | - | - |
+| nydailynews.com | 200 | 4 | - | 1 | 1 | - | - | 1 |
+| over-blog.com | 200 | - | - | - | - | - | - | - |
+| ovh.com | 200 | - | - | - | - | - | - | - |
+| pcmag.com | 200 | - | - | - | - | - | - | - |
+| photobucket.com | 200 | - | - | - | - | - | - | - |
+| pinterest.com | 200 | 4 | 3 | 3 | 2 | - | 1 | 1 |
+| play.google.com | 200 | 3 | 3 | - | - | - | - | - |
+| reuters.com | 200 | 1 | - | 1 | - | - | - | - |
+| rfi.fr | 200 | - | - | - | - | - | - | - |
+| rtve.es | 200 | - | - | - | - | - | - | - |
+| ru.wikipedia.org | 200 | 8 | 6 | 8 | - | - | - | - |
+| search.google.com | 200 | 2 | 1 | 1 | - | - | - | - |
+| sedo.com | 200 | 6 | 6 | 5 | 3 | - | - | 3 |
+| soratemplates.com | 200 | - | - | - | - | - | - | - |
+| spiegel.de | 200 | - | - | - | - | - | - | - |
+| spotify.com | 200 | 5 | 3 | 5 | 2 | - | 2 | - |
+| ssl-images-amazon.com | - | - | - | - | - | - | - | - |
+| telegram.me | 501 | - | - | - | - | - | - | - |
+| thoughtco.com | 200 | 3 | - | - | - | - | - | - |
+| time.com | 200 | - | - | - | - | - | - | - |
+| trustpilot.com | 200 | - | - | - | - | - | - | - |
+| twimg.com | - | - | - | - | - | - | - | - |
+| ucoz.ru | 200 | 2 | 2 | - | - | - | - | - |
+| upenn.edu | 200 | - | - | - | - | - | - | - |
+| usgs.gov | 200 | 2 | - | 1 | 1 | - | - | 1 |
+| usnews.com | - | - | - | - | - | - | - | - |
+| video.google.com | 200 | 2 | 1 | 1 | - | - | - | - |
+| wa.me | 200 | 2 | 2 | 2 | - | - | - | - |
+| washington.edu | 200 | - | - | - | - | - | - | - |
+| weebly.com | 200 | 20 | - | - | - | - | - | - |
+| wikia.com | 200 | 4 | - | 4 | 4 | - | - | 4 |
+| wiley.com | 405 | 1 | 1 | 1 | 1 | - | - | 1 |
+| wired.com | 200 | 14 | 2 | 9 | 8 | 1 | - | 7 |
+| youtube.com | 200 | 3 | 3 | 3 | 2 | - | - | 2 |
+| zoom.us | 200 | 10 | 8 | 10 | - | - | - | - |
 
 
 
