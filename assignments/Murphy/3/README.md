@@ -52,6 +52,7 @@ each line, and passed it in as a curl argument. if the time of the command excee
 To make analysis easier, I used the following simple shell script. This script runs through a series of grep and word count
 commands, and then outputs the results as well as writes all of the cookies to a file.
 
+    #!/bin/bash
     echo "-n" "# of Cookies: "
     grep -ir 'Set-Cookie' Curl_Output/ | wc -l
     echo "-n" "HttpOnly: "
@@ -71,6 +72,11 @@ commands, and then outputs the results as well as writes all of the cookies to a
     echo "|   File Path   |  # of Cookie |"
     grep -ic 'Set-Cookie' Curl_Output/* | grep -v :0
     cat Curl_Output/*.txt | grep -ir 'Set-Cookie' Curl_Output/ > all_cookies.txt
+    grep -irc 'HttpOnly' Curl_Output/*.txt | grep -v :0 > analysis_files/httponly.txt
+    grep -irc 'SameSite' Curl_Output/* | grep -v :0 > analysis_files/SameSite.txt
+    grep -irc 'samesite=lax' Curl_Output/* | grep -v :0 > analysis_files/lax.txt
+    grep -irc 'samesite=none' Curl_Output/* | grep -v :0 > analysis_files/none.txt
+    grep -irc 'samesite=strict' Curl_Output/* | grep -v :0 > analysis_files/strict.txt
 
 # Tables
 
@@ -200,7 +206,7 @@ commands, and then outputs the results as well as writes all of the cookies to a
 | wikia.com | 4 | - | - | 4 |
 | wiley.com | 1 | - | - | 1 |
 | wired.com | 8 | 1 | - | 7 |
-| youtube.com | 3 | - | - | 3 |
+| youtube.com | 2 | - | - | 2 |
 
 
 # Summary
