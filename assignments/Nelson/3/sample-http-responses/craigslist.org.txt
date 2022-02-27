@@ -1,0 +1,37 @@
+HTTP/1.1 301 Found
+Location: https://craigslist.org/
+
+HTTP/1.1 302 Found
+Set-Cookie: cl_b=4|602071c8f56a4c3e33cd553dd5bb5811c4553f5d|1644272828Aixe0;path=/;domain=.craigslist.org;secure;expires=Fri, 01-Jan-2038 00:00:00 GMT
+Location: https://www.craigslist.org/
+Strict-Transport-Security: max-age=63072000
+
+HTTP/1.1 302 Found
+Set-Cookie: cl_b=4|9cff8d3bf596f49d96ab72f9cc305c627c0e1cc1|1644272829dTmXY;path=/;domain=.craigslist.org;secure;expires=Fri, 01-Jan-2038 00:00:00 GMT
+Location: https://geo.craigslist.org/
+Strict-Transport-Security: max-age=63072000
+
+HTTP/1.1 302 Found
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Last-Modified: Mon, 07 Feb 2022 22:27:10 GMT
+Location: https://norfolk.craigslist.org/
+Date: Mon, 07 Feb 2022 22:27:10 GMT
+Set-Cookie: cl_b=4|bd1f67dca74fabbb0355397790dbc700926a58b5|1644272830MncMk;path=/;domain=.craigslist.org;secure;expires=Fri, 01-Jan-2038 00:00:00 GMT
+Server: Apache
+Strict-Transport-Security: max-age=63072000
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Last-Modified: Mon, 07 Feb 2022 22:27:11 GMT
+Cache-Control: max-age=3600, public
+Set-Cookie: cl_def_hp=norfolk; path=/; domain=.craigslist.org; expires=Tue, 07-Feb-2023 22:27:11 GMT; secure
+Date: Mon, 07 Feb 2022 22:27:11 GMT
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Content-Security-Policy: base-uri 'self' https://hcaptcha.com https://*.hcaptcha.com; child-src https://*.craigslist.org; connect-src https://*.craigslist.org https://hcaptcha.com https://*.hcaptcha.com; font-src data:; form-action https://*.craigslist.org; frame-ancestors https://*.craigslist.org; frame-src https://*.craigslist.org https://hcaptcha.com https://*.hcaptcha.com; media-src data:; object-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' https://*.craigslist.org https://hcaptcha.com https://*.hcaptcha.com; style-src 'unsafe-inline' https://*.craigslist.org https://hcaptcha.com https://*.hcaptcha.com
+Set-Cookie: cl_b=4|2041eeeffd63a0df1a0edd0bd1750d6be8c71bee|1644272831rKR0c;path=/;domain=.craigslist.org;secure;expires=Fri, 01-Jan-2038 00:00:00 GMT
+Server: Apache
+Expires: Mon, 07 Feb 2022 23:27:11 GMT
+Strict-Transport-Security: max-age=63072000
+
