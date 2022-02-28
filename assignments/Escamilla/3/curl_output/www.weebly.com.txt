@@ -1,0 +1,47 @@
+HTTP/1.0 301 Moved Permanently
+Date: Sun, 27 Feb 2022 20:34:57 GMT
+Server: Apache
+Set-Cookie: cookie-consent=%7B%22allowStrictlyNecessaryCookies%22%3Atrue%2C%22allowFunctionalityCookies%22%3Atrue%2C%22allowPerformanceCookies%22%3Atrue%2C%22allowTargetingCookies%22%3Atrue%7D; expires=Wed, 25-Feb-2032 20:34:57 GMT; Max-Age=315360000; path=/
+Set-Cookie: language=en; expires=Sun, 13-Mar-2022 20:34:57 GMT; Max-Age=1209600; path=/
+Set-Cookie: srv_domainuserid=257a280296ac4c6cec9a4693a637da78d7affe8c; expires=Wed, 25-Feb-2032 20:34:57 GMT; Max-Age=315360000; path=/; domain=.weebly.com
+Set-Cookie: srv_domainuserid=257a280296ac4c6cec9a4693a637da78d7affe8c; expires=Wed, 25-Feb-2032 20:34:57 GMT; Max-Age=315360000; path=/
+Set-Cookie: wtp-uuid=739add70-696d-43c5-aa03-405fe53a28dc
+Cache-Control: no-cache, private
+X-Frame-Options: SAMEORIGIN
+Location: https://www.weebly.com/
+X-Host: editor8.sf2p.intern.weebly.net
+Vary: User-Agent
+X-UA-Compatible: IE=edge,chrome=1
+Connection: close
+Content-Type: text/html; charset=UTF-8
+X-W-DC: SFO
+Set-Cookie: sto-id-editor=BAACBOAK; Domain=weebly.com; Path=/
+
+HTTP/1.0 200 OK
+Date: Sun, 27 Feb 2022 20:34:57 GMT
+Server: Apache
+Set-Cookie: cookie-consent=%7B%22allowStrictlyNecessaryCookies%22%3Atrue%2C%22allowFunctionalityCookies%22%3Atrue%2C%22allowPerformanceCookies%22%3Atrue%2C%22allowTargetingCookies%22%3Atrue%7D; expires=Wed, 25-Feb-2032 20:34:57 GMT; Max-Age=315360000; path=/
+Set-Cookie: language=en; expires=Sun, 13-Mar-2022 20:34:57 GMT; Max-Age=1209600; path=/
+Set-Cookie: srv_domainuserid=45cd9378176ee1c0b77e128e5d4f1c92c6c2644e; expires=Wed, 25-Feb-2032 20:34:57 GMT; Max-Age=315360000; path=/; domain=.weebly.com
+Set-Cookie: srv_domainuserid=45cd9378176ee1c0b77e128e5d4f1c92c6c2644e; expires=Wed, 25-Feb-2032 20:34:57 GMT; Max-Age=315360000; path=/
+Set-Cookie: wtp-uuid=b5e63ff8-a00d-4c34-9f6a-d3b8db77d956
+Set-Cookie: internal_signup_referer=%7B%22internal_signup_referer%22%3A%22http%3A%5C%2F%5C%2Fwww.weebly.com%5C%2F%22%7D; expires=Tue, 29-Mar-2022 20:34:57 GMT; Max-Age=2592000; path=/
+Set-Cookie: external_signup_referer=%7B%22external_signup_referer%22%3A%22None%22%7D; expires=Tue, 29-Mar-2022 20:34:57 GMT; Max-Age=2592000; path=/
+Set-Cookie: external_paid_signup_referer=%7B%22external_paid_signup_referer%22%3A%22None%22%7D; expires=Tue, 29-Mar-2022 20:34:57 GMT; Max-Age=2592000; path=/
+Set-Cookie: wcid=5bst9qk4xon0f1t7; expires=Sun, 13-Mar-2022 20:34:57 GMT; Max-Age=1209600; path=/
+Set-Cookie: wct-bG9jYWxlTmV3VXNlckNoYXQ_=ZXhjbHVkZWQ_; expires=Sun, 13-Mar-2022 20:34:57 GMT; Max-Age=1209600; path=/
+Set-Cookie: wct-c2lnbnVwX21haWxjaGVja19hbGxlbmc_=dGVzdA__; expires=Sun, 13-Mar-2022 20:34:57 GMT; Max-Age=1209600; path=/
+Set-Cookie: _csrf=O61xvoKE5r5aapHUH3zGn-x6e_xhv0Jk50sUs6bIKrE; path=/; domain=www.weebly.com
+Set-Cookie: wct-aG9tZXBhZ2Vfd2Vic2l0ZV9tZXNzYWdpbmdfdjU_=dGVzdA__; expires=Sun, 13-Mar-2022 20:34:57 GMT; Max-Age=1209600; path=/
+Cache-Control: private, must-revalidate
+X-Frame-Options: SAMEORIGIN
+pragma: no-cache
+expires: -1
+X-Host: editor17.sf2p.intern.weebly.net
+Vary: User-Agent
+X-UA-Compatible: IE=edge,chrome=1
+Connection: close
+Content-Type: text/html; charset=UTF-8
+X-W-DC: SFO
+Set-Cookie: sto-id-editor=AOALBOAK; Domain=weebly.com; Path=/
+

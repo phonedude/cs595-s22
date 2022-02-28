@@ -1,0 +1,45 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 27 Feb 2022 20:32:00 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/8.0.9
+Location: http://www.e-monsite.com/
+X-EMS-Server: 70
+X-Frame-Options: sameorigin
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QGESR1j%2F%2BLLLHs0WlLppDVV87R40u8ynIaknmidE5mFc4OCO60%2BtgscyFIOY1ajrGR%2BL1v2YcbUWnKjcz4dXUlYNYDxaQFWrFZb7WOM2uEjOEFzwtw8EuUKWEGec%2F2LdGCqj0zcK52YUupM%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6e442e12ec86c18e-IAD
+
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 27 Feb 2022 20:32:00 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Powered-By: PHP/8.0.9
+Location: https://www.e-monsite.com/
+X-EMS-Server: 98
+X-Frame-Options: sameorigin
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=W8zGOhVAMMya8N6d6YYbfUXEnDVppyfWMw%2B%2BdewsLHbmWrU24YT29hus7p053VH0pVPfudon7EcRx1SF%2F5Sk3HMpn6k%2BRcLTgIu3XknreiYWCjvBh5aZ8vH4hXRvfxVMNLGX0%2FnFwjwyokr019tx"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6e442e14af878245-IAD
+
+HTTP/2 200 
+date: Sun, 27 Feb 2022 20:32:01 GMT
+content-type: text/html; charset=UTF-8
+cache-control: must-revalidate, no-cache, private
+x-powered-by: PHP/8.0.9
+pragma: no-cache
+expires: Sat, 26 Jul 1997 05:00:00 GMT
+vary: Accept-Encoding
+x-ems-server: 78
+x-frame-options: sameorigin
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=eDkBpkLOZtjyR3YJrzhLyhWL0A%2Bi%2FTUzD7XFW8hCufqjAMnvr3UBJJ4maSp%2BinJwYIe07UKr6veJKjU43zNH%2BrjwQEmfJteFqYNLgi5Sm0V1vs5WigfX%2FN9OHiKY4Xn%2BBIGkxB8HpjtKIrSGJXMr"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server: cloudflare
+cf-ray: 6e442e16dff357cd-IAD
+

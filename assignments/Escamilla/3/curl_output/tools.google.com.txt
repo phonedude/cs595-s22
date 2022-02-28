@@ -1,0 +1,46 @@
+HTTP/1.1 302 Moved Temporarily
+Location: https://www.google.com/chrome
+Content-Type: text/html; charset=UTF-8
+Content-Length: 211
+Date: Sun, 27 Feb 2022 20:34:45 GMT
+Expires: Sun, 27 Feb 2022 20:34:45 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Server: GSE
+
+HTTP/2 301 
+location: https://www.google.com/chrome/
+x-content-type-options: nosniff
+server: sffe
+content-length: 227
+x-xss-protection: 0
+date: Sun, 27 Feb 2022 20:25:55 GMT
+expires: Sun, 27 Feb 2022 20:55:55 GMT
+cache-control: public, max-age=1800
+content-type: text/html; charset=UTF-8
+age: 530
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+HTTP/2 200 
+accept-ranges: bytes
+vary: Accept-Encoding
+content-type: text/html
+content-length: 302211
+content-security-policy-report-only: script-src 'nonce-hd822A8m63JIaxKolFaSLg' 'report-sample' 'self' 'strict-dynamic' 'unsafe-eval' 'unsafe-inline' http: https: https://ssl.google-analytics.com https://www.google-analytics.com https://www.google.com https://www.googleadservices.com; object-src 'none'; img-src * data:; connect-src 'self' *.g.doubleclick.net https://www.google-analytics.com; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/chrome; base-uri 'none'
+content-security-policy-report-only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/chrome
+cross-origin-resource-policy: cross-origin
+cross-origin-opener-policy-report-only: same-origin; report-to="uxe-owners-acl/chrome"
+report-to: {"group":"uxe-owners-acl/chrome","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/uxe-owners-acl/chrome"}]}
+date: Sun, 27 Feb 2022 20:34:45 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+last-modified: Wed, 16 Feb 2022 19:00:00 GMT
+x-content-type-options: nosniff
+server: sffe
+x-xss-protection: 0
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+

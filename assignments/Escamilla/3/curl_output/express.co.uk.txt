@@ -1,0 +1,37 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Sun, 27 Feb 2022 20:32:05 GMT
+Content-Type: text/html
+Content-Length: 183
+Connection: keep-alive
+Location: https://express.co.uk/
+X-Cache: Redirect from cloudfront
+Via: 1.1 cdb7a265f783ce0c07661e9c6820c2c4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: 3C9TkAZc8RweolNCXrEpnWTxfHh9PTIH_P-mnjEleVbz4AckkviM7g==
+
+HTTP/2 301 
+content-type: text/html
+content-length: 162
+location: https://www.express.co.uk/
+date: Sun, 27 Feb 2022 07:52:32 GMT
+server: nginx
+x-cache: Hit from cloudfront
+via: 1.1 ec809871438c11b540493503de981368.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD50-C2
+x-amz-cf-id: gZkhTIMm-wPrrqZAxPI4NEpfkqn2B0DLeQEKr9Wv-PO6qwFVSDNUjw==
+age: 45573
+
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+content-length: 306400
+date: Sun, 27 Feb 2022 20:30:20 GMT
+server: nginx
+expires: Sun, 27 Feb 2022 20:33:03 GMT
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 cdb7a265f783ce0c07661e9c6820c2c4.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD50-C2
+x-amz-cf-id: Ky6Yw_ndItK_UzbX-8QAaTacAvlRDmVnDBSH1qNRIAofWRA_9HG0PQ==
+age: 106
+

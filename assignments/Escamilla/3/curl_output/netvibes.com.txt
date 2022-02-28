@@ -1,0 +1,36 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 27 Feb 2022 20:34:17 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: http://www.netvibes.com/
+X-slb: slb5
+
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 27 Feb 2022 20:34:17 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.netvibes.com/
+X-slb: slb1
+
+HTTP/2 301 
+date: Sun, 27 Feb 2022 20:34:18 GMT
+content-type: text/html; charset=UTF-8
+set-cookie: lang=en_US; expires=Mon, 14-Mar-2022 20:34:18 GMT; Max-Age=1296000; path=/; secure; SameSite=None
+location: /en
+strict-transport-security: max-age=31536000
+x-frame-options: deny
+x-content-type-options: nosniff
+x-slb: slb5
+
+HTTP/2 200 
+date: Sun, 27 Feb 2022 20:34:18 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+set-cookie: lang=en_US; expires=Mon, 14-Mar-2022 20:34:18 GMT; Max-Age=1296000; path=/; secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-frame-options: deny
+x-content-type-options: nosniff
+x-slb: slb5
+

@@ -1,0 +1,39 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 27 Feb 2022 20:31:35 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sun, 27 Feb 2022 21:31:35 GMT
+Location: https://change.org/
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: 6e442d797bebc093-ORF
+
+HTTP/2 301 
+date: Sun, 27 Feb 2022 20:31:36 GMT
+content-type: text/html
+content-length: 169
+location: https://www.change.org/
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 6e442d7acec7c098-ORF
+
+HTTP/2 200 
+date: Sun, 27 Feb 2022 20:31:37 GMT
+content-type: text/html; charset=utf-8
+x-request-id: bc938dcf-192c-4895-af99-5de81651fc4a
+cache-control: no-cache
+set-cookie: _change_session=fd90534d24a6e7753f0f42ad1ed4f142; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _change_lang=%7B%22locale%22%3A%22en-US%22%2C%22countryCode%22%3A%22US%22%7D; Max-Age=86400; Path=/; Expires=Mon, 28 Feb 2022 20:31:36 GMT; Secure; SameSite=Strict
+set-cookie: _change_lang=%7B%22locale%22%3A%22en-US%22%2C%22countryCode%22%3A%22US%22%7D; Max-Age=86400; Path=/; Expires=Mon, 28 Feb 2022 20:31:36 GMT; Secure; SameSite=Strict
+content-security-policy: default-src 'self' blob: 'unsafe-inline' 'unsafe-eval' d18kwxxua7ik1y.cloudfront.net d22r54gnmuhwmk.cloudfront.net *.change.org change-production.s3.amazonaws.com change-public-stuff.s3.amazonaws.com *.google.ca *.googleadservices.com *.youtube.com *.doubleclick.net *.google.com *.googleapis.com *.googletagmanager.com *.google-analytics.com *.gstatic.com *.recaptcha.net *.ytimg.com *.facebook.com *.facebook.net *.fbcdn.net fbrpc://* fb-messenger://* *.twitter.com *.twimg.com *.ads-twitter.com vk.com *.vk.com ajax.cdnjs.com cdnjs.cloudflare.com service.force.com *.salesforceliveagent.com *.braintreegateway.com *.paypalobjects.com *.paypal.com *.stripe.com *.optimizely.com optimizely.s3.amazonaws.com cdn-assets-prod.s3.amazonaws.com px-cdn.net *.px-cdn.net *.px-client.net *.px-cloud.net pxchk.net *.pxchk.net *.hotjar.com:* *.hotjar.io wss://*.hotjar.com p2a.co *.profitwell.com js-agent.newrelic.com bam.nr-data.net bam-cell.nr-data.net *.messagebird.com *.pushnotifications.pusher.com js.pusher.com secure.everyaction.com d3rse9xjbp8270.cloudfront.net *.ngpvan.com js2.verygoodvault.com code.jquery.com cdn.embedly.com player.vimeo.com bat.bing.com soundcloud.com *.soundcloud.com www.instagram.com www.flickr.com *.staticflickr.com *.voteamerica.com *.jotform.com actionnetwork.org core.spreedly.com *.airbrake.io browser-update.org *.tiktok.com d2yyd1h5u9mauk.cloudfront.net web.delighted.com change.my.salesforce.com help.change.org; font-src 'self' data: *.change.org d18kwxxua7ik1y.cloudfront.net d22r54gnmuhwmk.cloudfront.net fonts.gstatic.com *.hotjar.com *.hotjar.io d3rse9xjbp8270.cloudfront.net; img-src * blob: data:; form-action 'self'
+x-frame-options: sameorigin
+referrer-policy: no-referrer, strict-origin-when-cross-origin
+permissions-policy: fullscreen=(), geolocation=(*), microphone=(), camera=()
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 6e442d7dfcbec07a-ORF
+

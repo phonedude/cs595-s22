@@ -1,0 +1,39 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Content-Length: 0
+Location: https://www.fandom.com/
+Accept-Ranges: bytes
+Date: Sun, 27 Feb 2022 20:32:06 GMT
+Connection: close
+X-Served-By: cache-iad-kiad7000042-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1645993926.291758,VS0,VE0
+Vary: Accept-Encoding
+
+HTTP/2 200 
+server: envoy
+cache-control: max-age=60, public
+link: <https://www.fandom.com/f2/assets/common.css?v=37f98cf54f14927d752c97f5a0ad4568499e31c3>; rel="preload"; as="style", <https://www.fandom.com/f2/assets/news-and-stories.css?v=37f98cf54f14927d752c97f5a0ad4568499e31c3>; rel="preload"; as="style", <https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,hebrew,latin-ext>; rel="preload"; as="style", <https://www.fandom.com/f2/assets/common.en.js?v=37f98cf54f14927d752c97f5a0ad4568499e31c3>; rel="preload"; as="script", <https://www.fandom.com/f2/assets/news-and-stories.en.js?v=37f98cf54f14927d752c97f5a0ad4568499e31c3>; rel="preload"; as="script"
+x-frame-options: SAMEORIGIN
+fandom.f2.datacenter: sjc
+content-security-policy: upgrade-insecure-requests
+content-security-policy-report-only: default-src https: 'self' data: blob:; script-src https: 'self' data: 'unsafe-inline' 'unsafe-eval' blob:; style-src https: 'self' 'unsafe-inline' blob:; report-uri https://services.fandom.com/csp-logger/csp/f2
+content-type: text/html; charset=UTF-8
+x-envoy-upstream-service-time: 88
+via: 1.1 varnish, 1.1 varnish
+accept-ranges: bytes
+date: Sun, 27 Feb 2022 20:32:06 GMT
+age: 23
+x-served-by: f2, cache-wk-sjc11421-SJC, cache-iad-kjyo7100105-IAD
+x-cache: HIT, HIT
+x-cache-hits: 6, 1
+x-timer: S1645993926.424993,VS0,VE1
+vary: Fastly-SSL, Fastly-SSL, Geo-Region,Accept-Encoding,Accept-Language
+set-cookie: wikia_beacon_id=qQAP3aR1MK; domain=.fandom.com; path=/; expires=Fri, 26 Aug 2022 20:32:06 GMT; SameSite=None; Secure;
+set-cookie: wikia_session_id=3jeghT57wz; domain=.fandom.com; path=/; expires=Sun, 27 Feb 2022 21:02:06 GMT; SameSite=None; Secure;
+set-cookie: _b2=FEpVuiq9dr.1645993926425; domain=.fandom.com; path=/; expires=Tue, 27 Feb 2024 20:32:06 GMT; SameSite=None; Secure;
+set-cookie: Geo={%22region%22:%22VA%22%2C%22country%22:%22US%22%2C%22continent%22:%22NA%22}; path=/; domain=.fandom.com; SameSite=None; Secure;
+content-length: 111242
+

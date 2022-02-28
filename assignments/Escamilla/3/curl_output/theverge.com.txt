@@ -1,0 +1,60 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Location: http://www.theverge.com/
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Sun, 27 Feb 2022 20:34:44 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-iad-kiad7000028-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1645994085.738855,VS0,VE0
+Set-Cookie: vmidv1=98675e48-457c-4c47-bad5-fdfd64187925;Expires=Fri, 26 Feb 2027 20:34:44 GMT;Domain=theverge.com;Path=/;SameSite=Lax;Secure
+
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html
+Server: nginx
+Location: https://www.theverge.com/
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Sun, 27 Feb 2022 20:34:45 GMT
+Via: 1.1 varnish
+Age: 1070
+Connection: keep-alive
+Set-Cookie: _chorus_geoip_continent=NA; expires=Mon, 28 Feb 2022 20:34:45 GMT; path=/;
+X-Served-By: cache-iad-kiad7000052-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1645994085.010485,VS0,VE1
+Vary: X-Forwarded-Proto, Cookie, X-Chorus-Unison-Testing, X-Chorus-Require-Privacy-Consent, X-Chorus-Restrict-In-Privacy-Consent-Region, Accept-Encoding
+Set-Cookie: vmidv1=be77e8d8-1b77-46d5-ad98-ec5d7864ffdb;Expires=Fri, 26 Feb 2027 20:34:45 GMT;Domain=www.theverge.com;Path=/;SameSite=Lax;Secure
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+server: nginx
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+cache-control: max-age=0, public, must-revalidate
+etag: W/"1d312c0b70cc7d47ddbdb5457dda2278"
+x-request-id: fa9113c608108a306fa127c98bc7615a210ba9a7
+x-runtime: 0.149757
+strict-transport-security: max-age=31556952; preload
+accept-ranges: bytes
+date: Sun, 27 Feb 2022 20:34:45 GMT
+via: 1.1 varnish
+age: 242
+set-cookie: _chorus_geoip_continent=NA; expires=Mon, 28 Feb 2022 20:34:45 GMT; path=/;
+x-served-by: cache-iad-kiad7000172-IAD
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1645994085.184509,VS0,VE2
+vary: Accept-Encoding, X-Chorus-Unison-Testing, X-Chorus-Require-Privacy-Consent, X-Chorus-Restrict-In-Privacy-Consent-Region, Origin, X-Forwarded-Proto, Cookie, X-Chorus-Unison-Testing, X-Chorus-Require-Privacy-Consent, X-Chorus-Restrict-In-Privacy-Consent-Region
+set-cookie: vmidv1=6792344b-e1fc-4add-ba7c-f63f48002e33;Expires=Fri, 26 Feb 2027 20:34:45 GMT;Domain=www.theverge.com;Path=/;SameSite=Lax;Secure
+content-length: 325942
+

@@ -1,0 +1,24 @@
+HTTP/1.1 301 Moved Permanently
+Location: http://www.google.co.jp/
+Content-Type: text/html; charset=UTF-8
+Date: Sun, 27 Feb 2022 20:32:08 GMT
+Expires: Tue, 29 Mar 2022 20:32:08 GMT
+Cache-Control: public, max-age=2592000
+Server: gws
+Content-Length: 221
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=Shift_JIS
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Date: Sun, 27 Feb 2022 20:32:08 GMT
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Transfer-Encoding: chunked
+Expires: Sun, 27 Feb 2022 20:32:08 GMT
+Cache-Control: private
+Set-Cookie: 1P_JAR=2022-02-27-20; expires=Tue, 29-Mar-2022 20:32:08 GMT; path=/; domain=.google.co.jp; Secure
+Set-Cookie: NID=511=V-jtNwC5N8enJvy0GPxVBqRjmMSLcWqZQgCExBey6kbLaX-y7SRK9Jm4VWR-pvt0t3GJ9LoLp6cu3s5YDZbMz1SezdcjBC_-jJv4Fkh0u41wdsPfVEcZAlsH4E8OwMioOD-f39nt68FV4yaTZKNLXHAvRhqFRW1lcrEku7nkE9s; expires=Mon, 29-Aug-2022 20:32:08 GMT; path=/; domain=.google.co.jp; HttpOnly
+

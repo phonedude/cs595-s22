@@ -1,0 +1,59 @@
+HTTP/1.1 301 TLS Redirect
+Date: Sun, 27 Feb 2022 20:34:52 GMT
+Server: Varnish
+X-Varnish: 886012696
+X-Cache: cp1077 int
+X-Cache-Status: int-front
+Server-Timing: cache;desc="int-front", host;desc="cp1077"
+Permissions-Policy: interest-cohort=()
+Set-Cookie: WMF-Last-Access=27-Feb-2022;Path=/;HttpOnly;secure;Expires=Thu, 31 Mar 2022 12:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=27-Feb-2022;Path=/;Domain=.wikimedia.org;HttpOnly;secure;Expires=Thu, 31 Mar 2022 12:00:00 GMT
+X-Client-IP: 2600:8805:1944:df00:e898:a30d:6e89:fabe
+Location: https://wikimedia.org/
+Content-Length: 0
+Connection: keep-alive
+
+HTTP/2 301 
+date: Sat, 26 Feb 2022 00:03:16 GMT
+server: mw1399.eqiad.wmnet
+location: https://www.wikimedia.org/
+cache-control: max-age=2592000
+expires: Mon, 28 Mar 2022 00:03:16 GMT
+content-length: 234
+content-type: text/html; charset=iso-8859-1
+vary: X-Forwarded-Proto
+age: 160297
+x-cache: cp1079 hit, cp1083 hit/7222
+x-cache-status: hit-front
+server-timing: cache;desc="hit-front", host;desc="cp1083"
+strict-transport-security: max-age=106384710; includeSubDomains; preload
+report-to: { "group": "wm_nel", "max_age": 86400, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+nel: { "report_to": "wm_nel", "max_age": 86400, "failure_fraction": 0.05, "success_fraction": 0.0}
+permissions-policy: interest-cohort=()
+set-cookie: WMF-Last-Access=27-Feb-2022;Path=/;HttpOnly;secure;Expires=Thu, 31 Mar 2022 12:00:00 GMT
+set-cookie: WMF-Last-Access-Global=27-Feb-2022;Path=/;Domain=.wikimedia.org;HttpOnly;secure;Expires=Thu, 31 Mar 2022 12:00:00 GMT
+x-client-ip: 2600:8805:1944:df00:e898:a30d:6e89:fabe
+set-cookie: GeoIP=US:VA:Norfolk:36.89:-76.23:v4; Path=/; secure; Domain=.wikimedia.org
+
+HTTP/2 200 
+date: Sun, 27 Feb 2022 19:47:27 GMT
+cache-control: s-maxage=3600, must-revalidate, max-age=0
+server: ATS/8.0.8
+etag: W/"1d27-5a4d026140f85"
+last-modified: Mon, 04 May 2020 10:39:42 GMT
+content-type: text/html
+vary: Accept-Encoding
+age: 2846
+x-cache: cp1079 hit, cp1083 hit/567
+x-cache-status: hit-front
+server-timing: cache;desc="hit-front", host;desc="cp1083"
+strict-transport-security: max-age=106384710; includeSubDomains; preload
+report-to: { "group": "wm_nel", "max_age": 86400, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+nel: { "report_to": "wm_nel", "max_age": 86400, "failure_fraction": 0.05, "success_fraction": 0.0}
+permissions-policy: interest-cohort=()
+set-cookie: WMF-Last-Access=27-Feb-2022;Path=/;HttpOnly;secure;Expires=Thu, 31 Mar 2022 12:00:00 GMT
+x-client-ip: 2600:8805:1944:df00:e898:a30d:6e89:fabe
+set-cookie: GeoIP=US:VA:Norfolk:36.89:-76.23:v4; Path=/; secure; Domain=.wikimedia.org
+accept-ranges: bytes
+content-length: 7463
+

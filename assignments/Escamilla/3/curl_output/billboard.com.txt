@@ -1,0 +1,63 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 27 Feb 2022 20:31:31 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sun, 27 Feb 2022 21:31:31 GMT
+Location: https://billboard.com/
+Set-Cookie: PGMINFO=cc:us-ip:2600:8805:1944:df00:e898:a30d:6e89:fabe; Max-Age=3600; Path=/; Domain=.billboard.com
+Set-Cookie: __cf_bm=5qODtfru1D2X_6_fLjNjlcpyYpTNeEASPUOfYlxqZlU-1645993891-0-AeNP537FL1+w59Fi43pnr3iJq8tFCYZsx34L27Dbm83GYbiZ73XZVxYaCwPn0RMQfftrJIfZ3qb1tnY6uss7LsK4mDYCRPlcLuC9mGvbhDUQ; path=/; expires=Sun, 27-Feb-22 21:01:31 GMT; domain=.billboard.com; HttpOnly; SameSite=None
+Server: cloudflare
+CF-RAY: 6e442d5ffb85c07a-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 301 
+date: Sun, 27 Feb 2022 20:31:32 GMT
+content-type: text/html; charset=UTF-8
+location: https://www.billboard.com/
+x-hacker: If you're reading this, you should visit wpvip.com/careers and apply to join the fun, mention this header.
+x-powered-by: WordPress VIP <https://wpvip.com>
+host-header: a9130478a60e5f9135f765b23f26593b
+x-ua-compatible: IE=Edge
+content-security-policy: upgrade-insecure-requests
+content-security-policy: frame-ancestors 'none'
+content-security-policy-report-only: default-src data: 'unsafe-inline' 'unsafe-eval' https: blob: http://*.files.wordpress.com wss://www.billboard.com; report-uri https://pmcuri.report-uri.com/r/d/csp/reportOnly
+x-frame-options: DENY
+x-redirect-by: WordPress
+x-rq: dca8 0 2 9980
+cache-control: max-age=300, must-revalidate
+age: 1515
+x-cache: hit
+vary: X-Country-Code
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+set-cookie: PGMINFO=cc:us-ip:2600:8805:1944:df00:e898:a30d:6e89:fabe; Max-Age=3600; Path=/; Domain=.billboard.com
+set-cookie: __cf_bm=8nHDlsc8WsDFvufCEBVjeCpoqDzM_G5twEOoJPUUdzs-1645993892-0-AaUitciK0yUkejS8R19xi0iuZsb/t0OrfKR93zZUPchEPp/TcUJPHCfk8XOi6fvzAiz8bApbuDmLlphC0aRgW35j85eUODhz/SBHmZV2B8gd; path=/; expires=Sun, 27-Feb-22 21:01:32 GMT; domain=.billboard.com; HttpOnly; Secure; SameSite=None
+server: cloudflare
+cf-ray: 6e442d627c10c084-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Sun, 27 Feb 2022 20:31:34 GMT
+content-type: text/html; charset=UTF-8
+cf-ray: 6e442d6dba71c075-ORF
+age: 125
+cache-control: max-age=300, must-revalidate
+link: <https://www.billboard.com/wp-json/>; rel="https://api.w.org/", <https://wp.me/dzS3Y>; rel=shortlink
+set-cookie: PGMINFO=cc:us-ip:2600:8805:1944:df00:e898:a30d:6e89:fabe; Max-Age=3600; Path=/; Domain=.billboard.com
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: upgrade-insecure-requests
+content-security-policy: frame-ancestors 'none'
+content-security-policy-report-only: default-src data: 'unsafe-inline' 'unsafe-eval' https: blob: http://*.files.wordpress.com wss://www.billboard.com; report-uri https://pmcuri.report-uri.com/r/d/csp/reportOnly
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+host-header: a9130478a60e5f9135f765b23f26593b
+x-cache: hit
+x-frame-options: DENY
+x-hacker: If you're reading this, you should visit wpvip.com/careers and apply to join the fun, mention this header.
+x-powered-by: WordPress VIP <https://wpvip.com>
+x-rq: dca8 0 2 9980
+x-ua-compatible: IE=Edge
+set-cookie: __cf_bm=3.iagEbNXWP8H0hz00Kxum5kmZIs3nQwH5nb3q9806A-1645993894-0-AdJElz9OLGZpbMTUajfrWgTR9IjWOiDmBcSK3VG43c3vtVuDPLGeM1CK57pmLBWpHSc3yZjcRBVxG27Wq45L+2/2aLUJcLx2hy/PrE1zXpxq; path=/; expires=Sun, 27-Feb-22 21:01:34 GMT; domain=.billboard.com; HttpOnly; Secure; SameSite=None
+server: cloudflare
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

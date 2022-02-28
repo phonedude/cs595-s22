@@ -1,0 +1,32 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 27 Feb 2022 20:31:35 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sun, 27 Feb 2022 21:31:35 GMT
+Location: https://www.canva.com/
+Set-Cookie: __cf_bm=727HeJNhtN_sGgmxTlIytb.4LP6UcQ_yTMI92zZCzY8-1645993895-0-Ab3006ySu0f9l+zyeUXMp0CYeLXsOaRR8DPAEH+a4Ih05wrwatNRtxDlqtBvajqCw669OCF8Vx6rNWpzGHOUGHQ=; path=/; expires=Sun, 27-Feb-22 21:01:35 GMT; domain=.canva.com; HttpOnly; SameSite=None
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HUMN8ImbIfQd2BYH7uzPvN6pR%2FlREs2tkQ%2BH1GWNg33yRgk%2BXmaDyyj5WltWfDej1BVI0lFhKxUAHtura%2BUjRaef4gs6%2F2%2B7bJLJngdsmuPLW7IJPd29dVWquGbSTRITnmuGTH1Tkw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: 6e442d773a6bc093-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 403 
+date: Sun, 27 Feb 2022 20:31:35 GMT
+content-type: text/html; charset=UTF-8
+cf-chl-bypass: 1
+permissions-policy: accelerometer=(),autoplay=(),camera=(),clipboard-read=(),clipboard-write=(),fullscreen=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+x-frame-options: SAMEORIGIN
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+set-cookie: __cf_bm=ZTXucub6_Qcvl0wbI5ymPs9L2dDh1woQR19c2nbCGBk-1645993895-0-AU7HgrG7JQ07KhucUJ0z2zVFuuJp0sgDUG5Qkp3YUaK21ylBEGsnq/j+gigQKHrJQhuaxtYQiEim9vkzFGelQUo=; path=/; expires=Sun, 27-Feb-22 21:01:35 GMT; domain=.canva.com; HttpOnly; Secure; SameSite=None
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tll8zco%2BgBvJ%2B3mGjGHV4K8UtQtuKrHqLbPl%2B21eJAC6tIpI%2BjdCfza9aKRhAke6DQYhsOPP4v4U4UnzvserVP%2Bgt2zo1gXgG%2FN1ku5cbC%2BrAm9zRndAKExW7l91cIeAIt1G%2Bf7bq5yUoQw%3D"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 6e442d786ae5c070-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

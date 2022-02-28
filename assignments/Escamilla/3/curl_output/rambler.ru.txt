@@ -1,0 +1,28 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 27 Feb 2022 20:34:35 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Keep-Alive: timeout=40
+Location: https://www.rambler.ru/
+
+HTTP/2 200 
+server: nginx
+date: Sun, 27 Feb 2022 20:34:36 GMT
+content-type: text/html; charset=utf-8
+content-length: 502673
+vary: Accept-Encoding
+x-powered-by: Express
+x-app-version: 1.261.0
+x-dbg-geo: 5495
+set-cookie: split-value=90.17; Max-Age=2592000; Domain=.rambler.ru; Path=/; Expires=Tue, 29 Mar 2022 20:34:36 GMT
+set-cookie: split-v2=3; Max-Age=2592000; Domain=.rambler.ru; Path=/; Expires=Tue, 29 Mar 2022 20:34:36 GMT
+x-dbg-cset: _www.rambler.ru::1.261.0::/::1::false::false::false::5495::false::false::1::0::false
+x-dbg-ckey: 0a6d9cac01c930d5e5ca63b88520fb8b
+x-redis-cache: MISS
+etag: W/"7ab91-i0i8VMggrq8zmgKQj26j4y8a0RQ"
+x-frame-options: SAMEORIGIN
+set-cookie: ruid=vAsAAFzgG2KdO/0pAabSgAB=; expires=Thu, 31-Dec-37 23:55:55 GMT; domain=.rambler.ru; path=/; Secure; SameSite=None
+p3p: CP="NON DSP NID ADMa DEVa TAIa PSAa PSDa OUR IND UNI COM NAV"
+

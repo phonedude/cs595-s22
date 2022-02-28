@@ -1,0 +1,19 @@
+HTTP/1.1 301 Moved Permanently
+content-length: 220
+location: https://www.interia.pl/
+date: Sun, 27 Feb 2022 20:32:11 GMT
+server: IPL/2.1
+
+HTTP/2 200 
+server: nginx
+date: Sun, 27 Feb 2022 20:32:12 GMT
+content-type: text/html; charset=utf-8
+content-length: 440554
+last-modified: Sun, 27 Feb 2022 20:31:42 GMT
+etag: "621bdfae-6b8ea"
+set-cookie: inpl_mobile=d;Domain=.interia.pl;Path=/;Max-Age=260000
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+cache-control: no-cache, must-revalidate
+accept-ranges: bytes
+

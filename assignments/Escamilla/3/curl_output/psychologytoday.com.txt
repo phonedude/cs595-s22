@@ -1,0 +1,41 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html; charset=iso-8859-1
+Date: Sun, 27 Feb 2022 20:34:34 GMT
+Location: https://www.psychologytoday.com/
+Server: Apache/2.4.51 (Amazon)
+Connection: keep-alive
+
+HTTP/2 302 
+date: Sun, 27 Feb 2022 20:34:35 GMT
+content-type: text/html; charset=iso-8859-1
+location: https://www.psychologytoday.com/us
+server: Apache/2.4.51 (Amazon)
+
+HTTP/2 200 
+date: Sun, 27 Feb 2022 20:34:35 GMT
+content-type: text/html; charset=utf-8
+server: Apache/2.4.51 ()
+x-powered-by: PHP/7.4.21
+x-drupal-cache: MISS
+x-content-type-options: nosniff
+content-language: en-US
+x-frame-options: SAMEORIGIN
+permissions-policy: interest-cohort=()
+link: <https://www.psychologytoday.com/us>; rel="canonical",<https://www.psychologytoday.com/us>; rel="shortlink",<https://cdn.psychologytoday.com/sites/all/themes/psychologytoday/img/touch-icons/favicon.ico>; rel="shortcut icon"
+cache-control: public, max-age=900
+expires: Sun, 19 Nov 1978 05:00:00 GMT
+vary: Cookie,Accept-Encoding
+last-modified: Sun, 27 Feb 2022 20:26:49 GMT
+x-varnish-backend: content_www(172.28.212.28)
+x-url: /us
+x-host: www.psychologytoday.com
+x-varnish: 2826409 2332379
+age: 462
+via: 1.1 varnish-v4
+etag: W/"1645993609-1"
+x-cache: HIT
+x-cache-hits: 688
+x-served-by: content-varnish-primary-i-03a13165c29710f41.ptwww.internal
+accept-ranges: bytes
+via: 1.1 ZZ
+

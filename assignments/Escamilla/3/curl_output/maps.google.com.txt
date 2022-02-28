@@ -1,0 +1,26 @@
+HTTP/1.1 302 Found
+Location: http://maps.google.com/maps
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Date: Sun, 27 Feb 2022 20:32:13 GMT
+Server: gws
+Content-Length: 224
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: 1P_JAR=2022-02-27-20; expires=Tue, 29-Mar-2022 20:32:13 GMT; path=/; domain=.google.com; Secure
+Set-Cookie: NID=511=ibXTSz2VlMtBi8DMPG9hUdnGD_L2kol0ZbEngljkD4ThC4E-ckjcwdwY8aK0T8jrqzTbmmMF5PvkfMFRaPNcGo_v9TnncajT5T8z2k72Peqmqoz7itXaH0fKrp7qUtROkmTTig9bHENrG-y_OnmPAoZ72i3yyVV5ii8mTEI95nU; expires=Mon, 29-Aug-2022 20:32:13 GMT; path=/; domain=.google.com; HttpOnly
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=ISO-8859-1
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Date: Sun, 27 Feb 2022 20:32:13 GMT
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Transfer-Encoding: chunked
+Expires: Sun, 27 Feb 2022 20:32:13 GMT
+Cache-Control: private
+Set-Cookie: 1P_JAR=2022-02-27-20; expires=Tue, 29-Mar-2022 20:32:13 GMT; path=/; domain=.google.com; Secure
+Set-Cookie: NID=511=g7nitCoGxSSt9XIovlkQfZrm7eCeLKLkDQpMAH3LVa7YgeT7HlwpoKHPn8FNvs1OPqqAsLgP1-Kjlt6ctLenSNs7yNniPkssCwH_SVoTrHWXPnP6x-US4ki_SPC0f2UCSyhYs6CStXNytV9C5AZ6kxBQ6HLU1j9opQ7brXBuYzk; expires=Mon, 29-Aug-2022 20:32:13 GMT; path=/; domain=.google.com; HttpOnly
+

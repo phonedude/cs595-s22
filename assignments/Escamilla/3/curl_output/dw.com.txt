@@ -1,0 +1,23 @@
+HTTP/1.1 301 Moved Permanently
+Content-length: 0
+Location: https://www.dw.com/
+
+HTTP/2 302 
+strict-transport-security: max-age=31536000
+location: https://www.dw.com/en/top-stories/s-9097
+content-type: text/html;charset=UTF-8
+content-length: 0
+onion-location: https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/
+access-control-allow-origin: *
+cache-control: max-age=12
+date: Sun, 27 Feb 2022 20:32:00 GMT
+
+HTTP/2 200 
+strict-transport-security: max-age=31536000
+x-ua-compatible: IE=EmulateIE8; IE=EmulateIE9; IE=EmulateIE10; IE=Edge
+content-type: text/html;charset=UTF-8
+onion-location: https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/en/top-stories/s-9097
+access-control-allow-origin: *
+cache-control: max-age=30
+date: Sun, 27 Feb 2022 20:32:00 GMT
+
