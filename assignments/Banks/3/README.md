@@ -1,6 +1,6 @@
 # Keshaun Banks Assignment 3
 To complete this assignment I wrote 2 python programs.
-1) ``main.py`` Performs reads the sites from ``sites.txt`` and then performs all the requests and generates the data to be stored in ``results.json``
+1) ``main.py`` Rreads the sites from ``sites.txt`` and then performs all the requests and generates the data to be stored in ``results.json``
 
 2) ``table.py`` is then ran, and it generates the markdown table from the data in ``results.json``
 
