@@ -16,14 +16,14 @@ let readme = fs.createWriteStream('README.md')
 
 readme.write('## Assignment 3, CS 495/595 Web Security, Spring 2022\n')
 readme.write('This assignment shows a report displaying cookie practices for 100 of the Mozilla top 500 web sites.\n')
-readme.write('###Specifications:\n')
+readme.write('### Specifications:\n')
 readme.write('* [GetHttpResponse.sh](GetHttpResponse.sh) was used to get each url\'s http response.\n')
 readme.write('* [GetStatusCode.sh](GetStatusCode.sh) was used to get the terminating status code from each url.\n')
 readme.write('* [GetMore.sh](GetMore.sh) was used to get cookie info from each url.\n')
-readme.write('*3 urls gave no response:\n')
-readme.write('  *alicdn.com\n')
-readme.write('  *ggpht.com\n')
-readme.write('  *googleusercontent.com\n\n')
+readme.write('* 3 urls gave no response:\n')
+readme.write('  * alicdn.com\n')
+readme.write('  * ggpht.com\n')
+readme.write('  * googleusercontent.com\n\n')
 
 readme.write('|Site|Status Code|Cookies|HttpOnly|Secure|SameSite|Strict|Lax|None|Path=/|Path=/[other]|\n')
 readme.write('|----|-----------|-------|--------|------|--------|------|---|----|------|-------------|\n')
@@ -33,10 +33,10 @@ for (let i = 0; i < 97; i++) {
 }
 
 let mincookie = Math.min.apply(null, setcookie)
-readme.write('\n*Cookie count Min: ' + mincookie + '\n')
+readme.write('\n* Cookie count Min: ' + mincookie + '\n')
 
 let maxcookie = Math.max.apply(null, setcookie)
-readme.write('*Cookie count Max: ' + maxcookie + '\n')
+readme.write('* Cookie count Max: ' + maxcookie + '\n')
 
 let total = 0;
 for(let j = 0; j < setcookie.length; j++) {
@@ -44,13 +44,13 @@ for(let j = 0; j < setcookie.length; j++) {
 }
 
 let avgcookie = total/setcookie.length
-readme.write('*Cookie count Mean: ' + avgcookie + '\n')
+readme.write('* Cookie count Mean: ' + avgcookie + '\n')
 
 let setcookiesort = setcookie.sort();
 let mid = Math.ceil(setcookie.length/2)
 
 let median = (parseInt(setcookiesort[mid]) + parseInt(setcookiesort[mid - 1])) / 2
-readme.write('*Cookie count Median: ' + median + '\n')
+readme.write('* Cookie count Median: ' + median + '\n')
 
-readme.write('###Extra Credit\n')
+readme.write('### Extra Credit\n')
 readme.write('The title of the slide \'It\'s turtles all the way down...\' is from the mythological belief that the world is resting on top of a giant turtle. It was first believed to be used in an 1854 transcript of remarks by preacher Joseph Frederick Berg according to Wikipedia and it was used in the context of wondering if the giant turtle is standing on another turtle and so on hence the saying \'It\'s turtles all the way down\'. The specific slide from the lecture was talking about having a framing chain where a website embeds a website embedding that website so in a way it is the same idea.')

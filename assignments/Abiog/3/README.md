@@ -1,13 +1,13 @@
 ## Assignment 3, CS 495/595 Web Security, Spring 2022
 This assignment shows a report displaying cookie practices for 100 of the Mozilla top 500 web sites.
-###Specifications:
+### Specifications:
 * [GetHttpResponse.sh](GetHttpResponse.sh) was used to get each url's http response.
 * [GetStatusCode.sh](GetStatusCode.sh) was used to get the terminating status code from each url.
 * [GetMore.sh](GetMore.sh) was used to get cookie info from each url.
-*3 urls gave no response:
-  *alicdn.com
-  *ggpht.com
-  *googleusercontent.com
+* 3 urls gave no response:
+  * alicdn.com
+  * ggpht.com
+  * googleusercontent.com
 
 |Site|Status Code|Cookies|HttpOnly|Secure|SameSite|Strict|Lax|None|Path=/|Path=/[other]|
 |----|-----------|-------|--------|------|--------|------|---|----|------|-------------|
@@ -109,9 +109,9 @@ This assignment shows a report displaying cookie practices for 100 of the Mozill
 |yahoo.co.jp|200|0|0|0|0|0|0|0|0|0|
 |youtu.be|200|5|5|5|3|2|0|3|5|0|
 
-*Cookie count Min: 0
-*Cookie count Max: 22
-*Cookie count Mean: 2.051546391752577
-*Cookie count Median: 1
-###Extra Credit
+* Cookie count Min: 0
+* Cookie count Max: 22
+* Cookie count Mean: 2.051546391752577
+* Cookie count Median: 1
+### Extra Credit
 The title of the slide 'It's turtles all the way down...' is from the mythological belief that the world is resting on top of a giant turtle. It was first believed to be used in an 1854 transcript of remarks by preacher Joseph Frederick Berg according to Wikipedia and it was used in the context of wondering if the giant turtle is standing on another turtle and so on hence the saying 'It's turtles all the way down'. The specific slide from the lecture was talking about having a framing chain where a website embeds a website embedding that website so in a way it is the same idea.
