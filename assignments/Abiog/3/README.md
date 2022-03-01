@@ -2,8 +2,7 @@
 This assignment shows a report displaying cookie practices for 100 of the Mozilla top 500 web sites.
 ### Specifications:
 * [GetHttpResponse.sh](GetHttpResponse.sh) was used to get each url's http response.
-* [GetStatusCode.sh](GetStatusCode.sh) was used to get the terminating status code from each url.
-* [GetMore.sh](GetMore.sh) was used to get cookie info from each url.
+* [GetTableData.sh](GetTableData.sh) was used to get status code and cookie info from each url.
 * [readmegen.js](readmegen.js) was used to generate the README file with the table.
 * 3 urls gave no response:
   * alicdn.com
