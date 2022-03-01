@@ -4,6 +4,7 @@ This assignment shows a report displaying cookie practices for 100 of the Mozill
 * [GetHttpResponse.sh](GetHttpResponse.sh) was used to get each url's http response.
 * [GetStatusCode.sh](GetStatusCode.sh) was used to get the terminating status code from each url.
 * [GetMore.sh](GetMore.sh) was used to get cookie info from each url.
+* [readmegen.js](readmegen.js) was used to generate the README file with the table.
 * 3 urls gave no response:
   * alicdn.com
   * ggpht.com
