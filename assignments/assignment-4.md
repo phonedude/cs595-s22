@@ -14,7 +14,7 @@ Points available: 15
 
 * Demonstrate how that Path attribute for Cookies is not suitable for security.  Demonstrate how a parent page can steal cookies from an iframed page if only the Path attribute is used in ```Set-Cookie```.
 
-* All code, files, etc. necessary for demonstrating this portion of the assignment will be in ```Nelson/4/frame-path-attack", where "Nelson" is replaced by your last name.
+* All code, files, etc. necessary for demonstrating this portion of the assignment will be in ```Nelson/4/frame-path-attack```, where "Nelson" is replaced by your last name.
 
 
 ### Extra credit (up to 10 points, 1 per site)
