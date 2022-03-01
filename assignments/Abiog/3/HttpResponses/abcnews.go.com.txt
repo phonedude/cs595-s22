@@ -1,0 +1,28 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Tue, 01 Mar 2022 04:09:25 GMT
+Content-Type: text/html
+Content-Length: 183
+Connection: keep-alive
+Location: https://abcnews.go.com/
+X-Cache: Redirect from cloudfront
+Via: 1.1 600860a2fda807ac628822c14b5de860.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD89-C3
+X-Amz-Cf-Id: YzyuncOyTebosbw7sT1mYqalra8F1VWK9URtoACXgH_aUk5WWauFwQ==
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+date: Tue, 01 Mar 2022 04:09:25 GMT
+server: nginx/1.20.1
+expires: Tue, 01 Mar 2022 04:09:27 GMT
+last-modified: Tue, 01 Mar 2022 04:09:27 GMT
+via: 1.1 varnish-v4, 1.1 199fd61d7551d8868317c5b53cc7d24c.cloudfront.net (CloudFront)
+cache-control: max-age=3
+accept-ranges: bytes
+set-cookie: region=ccpa; path=/; Expires=Tue, 08 Mar 2022 04:09:25 GMT;
+set-cookie: _dcf=1; path=/; Expires=Tue, 08 Mar 2022 04:09:25 GMT;
+vary: Accept-Encoding
+x-cache: Miss from cloudfront
+x-amz-cf-pop: IAD89-C3
+x-amz-cf-id: kh2jI9j3ABcvmTsRJGMUNBTEng-pktko1GYBQ6I-p1JcBgKfL8-MJw==
+

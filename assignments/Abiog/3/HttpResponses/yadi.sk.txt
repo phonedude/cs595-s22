@@ -1,0 +1,12 @@
+HTTP/1.1 302 Moved temporarily
+Content-Length: 0
+Location: https://yadi.sk/
+
+HTTP/1.1 302 Moved temporarily
+Location: https://yadi.sk/showcaptcha?cc=1&retpath=https%3A//yadi.sk/%3F_95b20f494b55c7cd31c5db9b128b90da&t=2/1646107859/d41d8cd98f00b204e9800998ecf8427e&u=9c1bd313-20cc19ef-a6bf37c0-b74e3d67&s=6a0e8cac8af6263d404154ed73a2a487
+Set-Cookie: spravka=dD0xNjE0NTcxODU5O2k9MjYwMDo4ODA1OjViMDE6MjEwMDphOTJiOmMwY2Y6YTMxNTo4OGYwO0Q9NTJCOUEzOTg2NjA2REM3NUU4NjZDMkQ3QzYyMUYzNDI0RDIyQzA3NDIyMEM4NkI3NDEwNEIwQjkxQTU4NzUyMTM4QjM0RjI4O3U9MTYxNDU3MTg1OTA4NDQwNTkyNztoPWNiZTJmOTRkMzkwNmNjZTUxZTY2NGQ2NWJmNjZiZjI2; domain=.yadi.sk; path=/; expires=Thu, 31-Mar-2022 04:10:59 GMT
+
+HTTP/1.1 200 Ok
+Content-Length: 6744
+Content-Type: text/html
+

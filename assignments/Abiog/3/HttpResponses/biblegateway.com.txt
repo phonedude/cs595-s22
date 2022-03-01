@@ -1,0 +1,21 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html
+Content-Length: 255
+Connection: keep-alive
+Date: Tue, 01 Mar 2022 04:09:32 GMT
+Location: https://www.biblegateway.com/
+X-Cache: Miss from cloudfront
+Via: 1.1 5d9ef69d47a63c80a41bbcf6902f6312.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD79-C1
+X-Amz-Cf-Id: FLNHehGF9fJhjjBduFKmZpZRa0za8LY6LEh-FXfnNDucQJyqo9Y21g==
+
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+date: Tue, 01 Mar 2022 04:09:32 GMT
+vary: Accept-Encoding
+strict-transport-security: max-age=2592000
+x-cache: Miss from cloudfront
+via: 1.1 8918721f9949345e08455e61518a59ec.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD79-C1
+x-amz-cf-id: ReE_jJ10OoEoJeD81_NSJ_6Jkn8dFug5sbNu_7UCF28_omiGlbt7Xw==
+

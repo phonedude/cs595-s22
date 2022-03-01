@@ -1,0 +1,37 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Tue, 01 Mar 2022 04:10:35 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://opera.com/
+
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Tue, 01 Mar 2022 04:10:35 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.opera.com/
+Strict-Transport-Security: max-age=31536000
+
+HTTP/2 200 
+date: Tue, 01 Mar 2022 04:10:35 GMT
+content-type: text/html; charset=utf-8
+content-length: 128124
+x-backend-cache-hit: False
+content-language: en
+cache-control: max-age=3600
+detected-country-code: US
+detected-geo-buckets: euro_russia_namerica
+x-storage: default
+vary: Accept-Encoding
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=63072000; includeSubdomains; preload
+content-security-policy: frame-ancestors 'self' https://*.opera.com; upgrade-insecure-requests;
+x-cache: HIT:213
+x-via: 2-ow,7db7848974c64d4989fc4464a5a724c4-643674085
+accept-ranges: bytes
+

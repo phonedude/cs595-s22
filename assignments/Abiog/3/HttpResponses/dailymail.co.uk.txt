@@ -1,0 +1,17 @@
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.dailymail.co.uk/ushome/index.html
+Date: Tue, 01 Mar 2022 04:09:45 GMT
+Connection: keep-alive
+
+HTTP/2 200 
+server: AkamaiGHost
+mime-version: 1.0
+content-type: text/html
+content-length: 298
+expires: Tue, 01 Mar 2022 04:09:45 GMT
+date: Tue, 01 Mar 2022 04:09:45 GMT
+content-security-policy-report-only: block-all-mixed-content; report-uri https://dmgm.report-uri.com/r/t/csp/reportOnly
+vary: User-Agent
+

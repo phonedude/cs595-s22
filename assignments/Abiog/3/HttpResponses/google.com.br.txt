@@ -1,0 +1,24 @@
+HTTP/1.1 301 Moved Permanently
+Location: http://www.google.com.br/
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 01 Mar 2022 04:10:12 GMT
+Expires: Thu, 31 Mar 2022 04:10:12 GMT
+Cache-Control: public, max-age=2592000
+Server: gws
+Content-Length: 222
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=ISO-8859-1
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Date: Tue, 01 Mar 2022 04:10:12 GMT
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Transfer-Encoding: chunked
+Expires: Tue, 01 Mar 2022 04:10:12 GMT
+Cache-Control: private
+Set-Cookie: 1P_JAR=2022-03-01-04; expires=Thu, 31-Mar-2022 04:10:12 GMT; path=/; domain=.google.com.br; Secure
+Set-Cookie: NID=511=Ok-DcerOWcVTz2qpeNRvnihIy2-8cRReJUcTxRpp1IPz70q5_lXGLX3Di6YrYhHQ2ddEo00yzUaMYNjqWHs6-CErHX1XeCp3A5-qjObjtQUzWtxy9RuB7ys6ko8y2806mSnjTDSjFgB-SNzLrEgTY1tYTs2XQmB2SC8YYPPzcb8; expires=Wed, 31-Aug-2022 04:10:12 GMT; path=/; domain=.google.com.br; HttpOnly
+

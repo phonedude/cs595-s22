@@ -1,0 +1,100 @@
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 01 Mar 2022 04:10:40 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Tue, 01 Mar 2022 05:10:40 GMT
+Location: https://pnas.org/
+Set-Cookie: __cf_bm=zZ05twPp4kegM3FEl7m4JSjUVuIMv3CU7Bf_uckYRy8-1646107840-0-AQporOIqXLlaNtckpDrcQw/km4l+93xb+exvoMMNmmbPm8pf+FLIKZaPo8fT+YriMblowmzLaM1o2HziLpaMcPk=; path=/; expires=Tue, 01-Mar-22 04:40:40 GMT; domain=.pnas.org; HttpOnly; SameSite=None
+Server: cloudflare
+CF-RAY: 6e4f0b545eb1c098-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 301 
+date: Tue, 01 Mar 2022 04:10:41 GMT
+content-length: 0
+location: https://www.pnas.org/
+cache-control: private
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+strict-transport-security: max-age=15552000
+x-frame-options: SAMEORIGIN
+referrer-policy: no-referrer-when-downgrade
+set-cookie: JSESSIONID=401beda0-ed10-4139-a60d-0ef33f5eee4b; path=/; domain=.pnas.org; age=-1; HttpOnly; SameSite=None; Secure
+p3p: CP="NOI DSP ADM OUR IND OTC"
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+set-cookie: JSESSIONID=401beda0-ed10-4139-a60d-0ef33f5eee4b; path=/; domain=.pnas.org; age=-1; HttpOnly; SameSite=None; Secure
+set-cookie: SERVER=0gPmslTc7LMrpurlMX3ixmnYKk2egCfX; domain=.pnas.org; path=/; secure; HttpOnly
+set-cookie: MAID=AYNNjLxWmTBmTsDkochSCw==; domain=.pnas.org; path=/; secure; expires=Mon, 26-Dec-2022 04:10:41 GMT; HttpOnly
+set-cookie: MACHINE_LAST_SEEN=2022-02-28T20%3A10%3A41.116-08%3A00; domain=.pnas.org; path=/; secure; expires=Mon, 26-Dec-2022 04:10:41 GMT; HttpOnly
+set-cookie: __cf_bm=ysfBSlFpSiYb_ygbPdojUbNFhmkSqlvsCjjipMdv2Ug-1646107841-0-AanLSkWNKv7VVNynEyf02wZ49txH0nCUL9qMvsDQ2AsZNH35s2C+cFlde1RYJFwWAZc+t+NI1DTjNk5v9bU6fOU=; path=/; expires=Tue, 01-Mar-22 04:40:41 GMT; domain=.pnas.org; HttpOnly; Secure; SameSite=None
+server: cloudflare
+cf-ray: 6e4f0b550cc1c08e-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 302 
+date: Tue, 01 Mar 2022 04:10:41 GMT
+content-type: text/html; charset=utf-8
+location: https://www.pnas.org/?cookieSet=1
+cache-control: private
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+strict-transport-security: max-age=15552000
+x-frame-options: SAMEORIGIN
+referrer-policy: no-referrer-when-downgrade
+set-cookie: JSESSIONID=74e93381-5307-4460-8d71-ef6acba4abd5; path=/; domain=.pnas.org; age=-1; HttpOnly; SameSite=None; Secure
+p3p: CP="NOI DSP ADM OUR IND OTC"
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+set-cookie: JSESSIONID=74e93381-5307-4460-8d71-ef6acba4abd5; path=/; domain=.pnas.org; age=-1; HttpOnly; SameSite=None; Secure
+set-cookie: SERVER=0gPmslTc7LMP65noF/68y2nYKk2egCfX; domain=.pnas.org; path=/; secure; HttpOnly
+set-cookie: MAID=qL9gbMFp2om/hXTPEnQenQ==; domain=.pnas.org; path=/; secure; expires=Mon, 26-Dec-2022 04:10:41 GMT; HttpOnly
+set-cookie: MACHINE_LAST_SEEN=2022-02-28T20%3A10%3A41.564-08%3A00; domain=.pnas.org; path=/; secure; expires=Mon, 26-Dec-2022 04:10:41 GMT; HttpOnly
+set-cookie: I2KBRCK=1; domain=.pnas.org; path=/; secure; expires=Wed, 01-Mar-2023 04:10:41 GMT; HttpOnly
+set-cookie: __cf_bm=lhkezEo0XmYZZrt5cUJxqz3VAPr5FN5rVnYra1W3_aQ-1646107841-0-Ad8rn3zu5tuQu9ofG4bp2vhT560bT95w5G0iFJxVRT9iv5Wj+2H61rSK2M/LNtx4B0PICpn6Wvdl1JkfN8SHjJk=; path=/; expires=Tue, 01-Mar-22 04:40:41 GMT; domain=.pnas.org; HttpOnly; Secure; SameSite=None
+server: cloudflare
+cf-ray: 6e4f0b57fd1cc070-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 302 
+date: Tue, 01 Mar 2022 04:10:41 GMT
+content-type: text/html; charset=utf-8
+location: https://www.pnas.org/action/cookieAbsent
+cache-control: private
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+strict-transport-security: max-age=15552000
+x-frame-options: SAMEORIGIN
+referrer-policy: no-referrer-when-downgrade
+set-cookie: JSESSIONID=d4ee46f6-5a43-47f7-8fdc-53770a473f4a; path=/; domain=.pnas.org; age=-1; HttpOnly; SameSite=None; Secure
+p3p: CP="NOI DSP ADM OUR IND OTC"
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+set-cookie: JSESSIONID=d4ee46f6-5a43-47f7-8fdc-53770a473f4a; path=/; domain=.pnas.org; age=-1; HttpOnly; SameSite=None; Secure
+set-cookie: SERVER=0gPmslTc7LMrpurlMX3ixmnYKk2egCfX; domain=.pnas.org; path=/; secure; HttpOnly
+set-cookie: MAID=AYNNjLxWmTC/hXTPEnQenQ==; domain=.pnas.org; path=/; secure; expires=Mon, 26-Dec-2022 04:10:41 GMT; HttpOnly
+set-cookie: MACHINE_LAST_SEEN=2022-02-28T20%3A10%3A41.917-08%3A00; domain=.pnas.org; path=/; secure; expires=Mon, 26-Dec-2022 04:10:41 GMT; HttpOnly
+set-cookie: __cf_bm=KVZT7n7OxwB7H4x01812T9aREk1DWfHxpxU.CbOfGTk-1646107841-0-AdHo7d2H3HBvrBWRgzyr4XE15smX6JSvTazeBtW5qwBAHMb1YivvTWtWeOOskSW0/fZGSPzScWt+xbyU/aH2WT0=; path=/; expires=Tue, 01-Mar-22 04:40:41 GMT; domain=.pnas.org; HttpOnly; Secure; SameSite=None
+server: cloudflare
+cf-ray: 6e4f0b5a2ebac070-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Tue, 01 Mar 2022 04:10:42 GMT
+content-type: text/html; charset=UTF-8
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+strict-transport-security: max-age=15552000
+x-frame-options: SAMEORIGIN
+referrer-policy: no-referrer-when-downgrade
+cache-control: no-cache
+pragma: no-cache
+x-webstats-respid: 1a3b994b79722bee5607dbab6e31d2f8
+set-cookie: JSESSIONID=63064108-ff6e-43db-a7b8-8717f9e7078d; path=/; domain=.pnas.org; age=-1; HttpOnly; SameSite=None; Secure
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+set-cookie: __cf_bm=cY6KhS7KowdESu8kt06nQiSBDXu06drzkXV8PCOJ1zc-1646107842-0-AbKHHlX4hAbeF4s35h02BDw+XaQNc6n4cEVuZ1gmWcqxIEw3B4I7HhNsckEeiDHDeLscS2kRMPY9/PE3QC8Xay8=; path=/; expires=Tue, 01-Mar-22 04:40:42 GMT; domain=.pnas.org; HttpOnly; Secure; SameSite=None
+server: cloudflare
+cf-ray: 6e4f0b5c587ec070-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
