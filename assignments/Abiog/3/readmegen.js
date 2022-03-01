@@ -29,11 +29,11 @@ readme.write('|Site|Status Code|Cookies|HttpOnly|Secure|SameSite|Strict|Lax|None
 readme.write('|----|-----------|-------|--------|------|--------|------|---|----|------|-------------|\n')
 
 for (let i = 0; i < 97; i++) {
-    readme.write('|'+ urls[i] +'|'+ statuscode[i] +'|'+ setcookie[i] +'|'+ httponly[i] +'|'+ secure[i] +'|'+ samesite[i] +'|'+ strict[i] +'|'+ lax[i] +'|'+ none[i] +'|'+ path[i] +'|'+ pathset[i] +'|\n\n')
+    readme.write('|'+ urls[i] +'|'+ statuscode[i] +'|'+ setcookie[i] +'|'+ httponly[i] +'|'+ secure[i] +'|'+ samesite[i] +'|'+ strict[i] +'|'+ lax[i] +'|'+ none[i] +'|'+ path[i] +'|'+ pathset[i] +'|\n')
 }
 
 let mincookie = Math.min.apply(null, setcookie)
-readme.write('*Cookie count Min: ' + mincookie + '\n')
+readme.write('\n*Cookie count Min: ' + mincookie + '\n')
 
 let maxcookie = Math.max.apply(null, setcookie)
 readme.write('*Cookie count Max: ' + maxcookie + '\n')
