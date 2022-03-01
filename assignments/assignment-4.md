@@ -31,5 +31,5 @@ All of the code, scripts, files, HTTP responses, images, etc. you created to do 
 
 Your "4" directory will have two sub-directories: "framable" and "frame-path-attack", as well a README.md file.  The README.md file will have all the necessary summary information as well as images to support your findings.  
 
-Your README.md file will also point to two Youtube videos, one for "framable" and one for "frame-pathattack".  
+Your README.md file will also point to two Youtube videos, one for "framable" and one for "frame-path-attack".  
 
