@@ -1,0 +1,33 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Thu, 03 Mar 2022 22:11:27 GMT
+Content-Type: text/html
+Content-Length: 183
+Connection: keep-alive
+Location: https://20minutos.es/
+X-Cache: Redirect from cloudfront
+Via: 1.1 f082203290ecd8aea497e1bd9f2f6ebc.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD79-C1
+X-Amz-Cf-Id: Sba5WG2CpNHYB8TKu2cHWSGBDEjfApv-lhvTPEmMNPhyCOCsZK7sFw==
+
+HTTP/2 301 
+content-length: 0
+location: https://www.20minutos.es/
+date: Thu, 03 Mar 2022 22:11:27 GMT
+x-cache: Miss from cloudfront
+via: 1.1 03a399d73bdcccc9e7ad44d059b07ef4.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD79-C1
+x-amz-cf-id: KzqnxrEIC2jR9LOed92aG4sU3iaZEMNY82hM29mmq4qyXwzm3F4ajA==
+
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+date: Thu, 03 Mar 2022 22:11:27 GMT
+x-host: www.20minutos.es
+cache-control: max-age=120, public
+accept-ranges: bytes
+vary: User-Agent,Accept-Encoding
+x-cache: Miss from cloudfront
+via: 1.1 685083d3a5f8eecb6c517728d821ec86.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD79-C1
+x-amz-cf-id: iVANkv_Ms1Fxs6l9HoY4nFT3ex9nuqTlbN-75mRrQxvUwis_1S318w==
+

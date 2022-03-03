@@ -1,0 +1,17 @@
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.estadao.com.br/
+Expires: Thu, 03 Mar 2022 22:11:54 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Thu, 03 Mar 2022 22:11:54 GMT
+Connection: keep-alive
+
+HTTP/2 200 
+content-type: text/html
+etag: "4a3e1fb567126b03e7d024847e1e3882:1646345508.120832"
+last-modified: Thu, 03 Mar 2022 22:11:49 GMT
+server: AkamaiNetStorage
+date: Thu, 03 Mar 2022 22:11:55 GMT
+

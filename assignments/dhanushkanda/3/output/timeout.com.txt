@@ -1,0 +1,50 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Thu, 03 Mar 2022 22:18:07 GMT
+Content-Type: text/html
+Content-Length: 183
+Connection: keep-alive
+Location: https://timeout.com/
+X-Cache: Redirect from cloudfront
+Via: 1.1 2b74e5ee4d30afba8f9df9907896c5f4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: LReFTgkRixWSswyiVP91tq_2zbUC8ITFVDG3fzuiNQx0vFg3kQMFag==
+
+HTTP/2 301 
+content-length: 0
+location: https://www.timeout.com/
+server: CloudFront
+date: Thu, 03 Mar 2022 22:18:07 GMT
+x-cache: LambdaGeneratedResponse from cloudfront
+via: 1.1 cdb7a265f783ce0c07661e9c6820c2c4.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD50-C2
+x-amz-cf-id: zzMNenobKCsL8utDn30HvGsblauMx_R2hk0qB8-3WYPqjOlAl5ouTg==
+
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+content-length: 168456
+date: Thu, 03 Mar 2022 21:52:45 GMT
+access-control-allow-origin: https://www.timeout.com https://www.timeout.fr https://www.timeout.pt https://www.timeout.es https://www.timeout.jp https://www.timeout.cat https://www.timeout.com.hk https://www.timeoutkorea.kr https://www.timeoutisrael.ru https://www.timeoutmexico.mx
+content-security-policy: form-action 'self' www.facebook.com; report-uri /_internal/security/report-csp-violation?gp-web=true
+x-content-security-policy: form-action 'self' www.facebook.com; report-uri /_internal/security/report-csp-violation?gp-web=true
+x-webkit-csp: form-action 'self' www.facebook.com; report-uri /_internal/security/report-csp-violation?gp-web=true
+x-dns-prefetch-control: on
+feature-policy: fullscreen 'self';microphone 'none';camera 'none';payment 'none';sync-xhr 'self'
+x-frame-options: DENY
+strict-transport-security: max-age=31536000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+referrer-policy: strict-origin-when-cross-origin
+x-xss-protection: 1; mode=block
+cache-control: max-age=1800
+server: akka-http/10.2.5
+vary: Accept-Encoding
+set-cookie: _TO_AB_Testing=50; path=/; domain=timeout.com; expires=Sat, 05 Mar 2022 22:04:42 GMT;
+set-cookie: _TO_GPWEB=99_true; path=/; domain=timeout.com; expires=Sat, 05 Mar 2022 22:04:42 GMT;
+set-cookie: _TO_Canary=False; path=/; domain=timeout.com; expires=Sun, 13 Mar 2022 22:04:42 GMT;
+x-cache: Hit from cloudfront
+via: 1.1 0f954bea3b233fb0b6e1981b1e8b6bd8.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD50-C2
+x-amz-cf-id: oyM2-I5YQZ_11rx7OYKktI_ozbzmtfd2bs7_-lQg3YkzLKsfoeK0Ww==
+age: 1522
+

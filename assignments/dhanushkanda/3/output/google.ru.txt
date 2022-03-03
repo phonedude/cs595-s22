@@ -1,0 +1,24 @@
+HTTP/1.1 301 Moved Permanently
+Location: http://www.google.ru/
+Content-Type: text/html; charset=UTF-8
+Date: Thu, 03 Mar 2022 22:12:02 GMT
+Expires: Sat, 02 Apr 2022 22:12:02 GMT
+Cache-Control: public, max-age=2592000
+Server: gws
+Content-Length: 218
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=windows-1251
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Date: Thu, 03 Mar 2022 22:12:02 GMT
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Transfer-Encoding: chunked
+Expires: Thu, 03 Mar 2022 22:12:02 GMT
+Cache-Control: private
+Set-Cookie: 1P_JAR=2022-03-03-22; expires=Sat, 02-Apr-2022 22:12:02 GMT; path=/; domain=.google.ru; Secure
+Set-Cookie: NID=511=r3AFWmyXJG0EzccoGGnRHC5oYEGZEfsCj7ZsfzEctzdqNH3_r9euBqU-UueMB739XEyQo7udnkgj9xyn70yLYxlBupdUUuZM2jAEzOjJvyLLZjUIzdxQAVrT28DYNmGAh13ngwCN-OjUbO39ni97YxIuwRiXZSxkW-Mte1qBX3o; expires=Fri, 02-Sep-2022 22:12:02 GMT; path=/; domain=.google.ru; HttpOnly
+

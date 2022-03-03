@@ -1,0 +1,20 @@
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 03 Mar 2022 22:18:10 GMT
+Server: Varnish
+X-Varnish: 63199858
+Location: https://www.welt.de/
+Content-Length: 0
+Connection: keep-alive
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+etag: "hash860747601644970590"
+cache-control: max-age=90, stale-while-revalidate=9, stale-if-error=864000
+x-frame-options: SAMEORIGIN
+date: Thu, 03 Mar 2022 22:18:10 GMT
+content-security-policy: script-src 'unsafe-inline' 'unsafe-eval' 'self' blob: data: https:; style-src 'self' 'unsafe-inline' blob: data: https:; default-src 'self' https:; img-src https: blob: data: android-webview-video-poster:; frame-src blob: data: https:; worker-src blob: data: https:; child-src blob: data: https:; object-src 'self'; font-src 'self' https: blob: data: safari-extension://*; media-src 'self' blob: data: https:; connect-src wss: blob: data: https:; report-uri /csp_ep
+permissions-policy: microphone=(), camera=()
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000; includeSubDomains
+

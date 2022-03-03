@@ -1,0 +1,30 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Location: https://giphy.com/
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Thu, 03 Mar 2022 22:12:01 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-iad-kjyo7100126-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+Strict-Transport-Security: max-age=15465600
+
+HTTP/2 200 
+cache-control: s-maxage=900, no-cache, max-age=0, must-revalidate
+content-type: text/html
+server: nginx
+accept-ranges: bytes
+date: Thu, 03 Mar 2022 22:12:01 GMT
+via: 1.1 varnish
+age: 263
+x-served-by: cache-iad-kjyo7100076-IAD
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1646345521.466623,VS0,VE3
+vary: Accept-Encoding, X-UA-Device, Fastly-SSL
+strict-transport-security: max-age=15465600
+content-length: 15722
+

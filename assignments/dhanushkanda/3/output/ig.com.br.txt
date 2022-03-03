@@ -1,0 +1,38 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.18.0 (Ubuntu)
+Date: Thu, 03 Mar 2022 22:14:06 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: http://www.ig.com.br/
+
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 03 Mar 2022 22:14:06 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Thu, 03 Mar 2022 23:14:06 GMT
+Location: https://www.ig.com.br/
+Server: cloudflare
+CF-RAY: 6e65b924f837c098-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Thu, 03 Mar 2022 22:14:07 GMT
+content-type: text/html; charset=UTF-8
+x-xrds-location: https://login.ig.com.br/discovery
+access-control-allow-origin: *
+access-control-allow-headers: origin, content-type, accept, ajax
+vary: Accept-Encoding
+edge-control: max-age=30s,downstream-ttl=30s
+x-url: /
+x-user-agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+x-xss-protection: 1; mode=block
+last-modified: Thu, 03 Mar 2022 22:13:59 GMT
+cf-cache-status: HIT
+expires: Thu, 03 Mar 2022 22:15:07 GMT
+cache-control: public, max-age=60
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 6e65b925fa95c06b-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

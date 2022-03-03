@@ -1,0 +1,159 @@
+HTTP/1.0 301 Moved Permanently
+Location: http://www.nature.com/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: public,max-age=600
+Content-Security-Policy: upgrade-insecure-requests;
+Content-Type: text/html
+Location: https://www.nature.com/
+Server: Oscar Platform 0.750.0
+X-Vcap-Request-Id: a0f33bd7-4097-4775-594d-9e4b89f7359e
+Via: 1.1 google, 1.1 varnish
+X-Cdn-Origin: SNPaaS
+Content-Length: 166
+Accept-Ranges: bytes
+Date: Thu, 03 Mar 2022 22:14:22 GMT
+Age: 551
+Connection: close
+X-Served-By: cache-iad-kiad7000081-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1646345662.236343,VS0,VE1
+Vary: x-forwarded-host, upgrade-insecure-requests
+
+HTTP/2 303 
+age: 0
+cache-control: private,must-revalidate,max-age=0,no-store
+content-type: text/html; charset="UTF-8"
+location: https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature
+server: Oscar Platform 0.750.0
+strict-transport-security: max-age=31536000;preload
+traceparent: 00-a2a6ec49a004a9b7880ac4f50a0dd8ae-39e45cca3693a4c7-01
+traceparent: 00-a2a6ec49a004a9b7880ac4f50a0dd8ae-460a6ddfb2ea2a46-01
+tracestate: gorouter=7beef6b0fee08d44
+tracestate: gorouter=7beef6b0fee08d44
+x-b3-sampled: 1
+x-b3-spanid: 5c2bd2c8de65e84f4df4d1a9490491c0
+x-b3-traceid: 5c2bd2c8de65e84f4df4d1a9490491c0
+x-content-type-options: nosniff
+x-dump-request-bodies: 0
+x-forwarded-host: www.nature.com
+x-frame-options: DENY
+x-sn-servicetimems: 7
+x-vcap-request-id: e26d18a2-4df8-4c92-69fe-855d4317b359
+x-xss-protection: 1; mode=block
+via: 1.1 google, 1.1 varnish
+x-cdn-origin: SNPaaS
+accept-ranges: bytes
+date: Thu, 03 Mar 2022 22:14:22 GMT
+x-served-by: cache-ac03bfe9-internal, cache-iad-kiad7000121-IAD
+x-cache: MISS, MISS
+x-cache-hits: 0
+x-timer: S1646345662.352147,VS0,VE106
+vary: X-Frame-Options,X-Oscar-Cache-Mode
+content-length: 0
+
+HTTP/2 302 
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+expires: 0
+location: https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Fnature&code=30f853dd-441b-4c55-88ed-491abe7192b8
+pragma: no-cache
+set-cookie: idp_session=sVERSION_11921515e-d9a6-466b-987b-69fe3f74d933; Domain=.nature.com; Path=/; Secure; HttpOnly
+set-cookie: idp_session_http=hVERSION_13a8ea934-357d-4d4a-8e7f-545c45e458ac; Domain=.nature.com; Path=/; HttpOnly
+set-cookie: idp_marker=ba2ed360-f852-4cd2-83be-ab04114c0e2d; Domain=.nature.com; Path=/; Max-Age=315360000; HttpOnly
+strict-transport-security: max-age=31536000 ; includeSubDomains
+x-b3-spanid: 176baa5b7cc14ec462c5efd1535eb77e
+x-b3-traceid: 176baa5b7cc14ec462c5efd1535eb77e
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-vcap-request-id: bae1a5d7-fd7c-4c0c-5b2b-85ff775b61f3
+x-xss-protection: 1; mode=block
+via: 1.1 google, 1.1 varnish
+x-cdn-origin: SNPaaS
+accept-ranges: bytes
+date: Thu, 03 Mar 2022 22:14:22 GMT
+x-served-by: cache-iad-kiad7000156-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1646345663.563654,VS0,VE100
+vary: x-forwarded-proto
+content-length: 0
+
+HTTP/2 302 
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+content-language: en-US
+expires: 0
+location: https://www.nature.com/nature?error=cookies_not_supported&code=30f853dd-441b-4c55-88ed-491abe7192b8
+pragma: no-cache
+strict-transport-security: max-age=31536000 ; includeSubDomains
+x-b3-spanid: 48da3b1e4dd9be3003ff8483a3be40df
+x-b3-traceid: 48da3b1e4dd9be3003ff8483a3be40df
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-vcap-request-id: 88e54e95-a527-4e1a-46ec-c50de5aefd3b
+x-xss-protection: 1; mode=block
+via: 1.1 google, 1.1 varnish
+x-cdn-origin: SNPaaS
+accept-ranges: bytes
+date: Thu, 03 Mar 2022 22:14:22 GMT
+x-served-by: cache-iad-kiad7000156-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1646345663.683744,VS0,VE89
+vary: x-forwarded-proto
+content-length: 0
+
+HTTP/2 301 
+cache-control: public,max-age=600
+content-type: text/html
+location: https://www.nature.com/?error=cookies_not_supported&code=30f853dd-441b-4c55-88ed-491abe7192b8
+server: Oscar Platform 0.750.0
+strict-transport-security: max-age=31536000;preload
+x-vcap-request-id: 8d002ded-bd01-4c1e-7303-62b652c75194
+via: 1.1 google, 1.1 varnish
+x-cdn-origin: SNPaaS
+accept-ranges: bytes
+date: Thu, 03 Mar 2022 22:14:22 GMT
+age: 0
+x-served-by: cache-iad-kiad7000121-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1646345663.794297,VS0,VE89
+vary: x-forwarded-host, upgrade-insecure-requests
+content-length: 166
+
+HTTP/2 200 
+accept-ranges: bytes
+age: 0
+cache-control: private, must-revalidate
+content-type: text/html; charset="UTF-8"
+etag: W/"17792d03cc5792f4c01861e8ff8615ff"
+server: Oscar Platform 0.750.0
+set-cookie: user.uuid="081a6954-294e-46cb-a237-96462c5306b0"; Expires=Fri, 03 Jun 2022 22:14:23 GMT; Path=/
+strict-transport-security: max-age=31536000;preload
+traceparent: 00-af938597f10712a6a08b5e36c865c77f-5b4d20e4bb1a0161-01
+traceparent: 00-af938597f10712a6a08b5e36c865c77f-1cbca823eba05ae1-01
+tracestate: gorouter=76f2a6b8b0f2e8f0
+tracestate: gorouter=76f2a6b8b0f2e8f0
+x-b3-sampled: 1
+x-b3-spanid: 0c553aa9cf7755df6d5ccb5fc951d4cd
+x-b3-traceid: 0c553aa9cf7755df6d5ccb5fc951d4cd
+x-content-type-options: nosniff
+x-dump-request-bodies: 0
+x-forwarded-host: www.nature.com
+x-frame-options: DENY
+x-sn-servicetimems: 65
+x-vcap-request-id: 542a0ed6-a002-445b-4160-4ded6e10d953
+x-xss-protection: 1; mode=block
+via: 1.1 google, 1.1 varnish
+x-cdn-origin: SNPaaS
+date: Thu, 03 Mar 2022 22:14:23 GMT
+x-served-by: cache-7d2b020c-internal, cache-iad-kiad7000121-IAD
+x-cache: MISS, MISS
+x-cache-hits: 0
+x-timer: S1646345663.905048,VS0,VE183
+vary: X-Frame-Options,X-Oscar-Cache-Mode, Accept-Encoding
+

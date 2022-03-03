@@ -1,0 +1,25 @@
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 3 Mar 2022 23:17:59 GMT
+Location: https://spiegel.de/
+Content-Type: text/html
+Content-Length: 106
+Connection: close
+
+HTTP/2 301 
+location: https://www.spiegel.de/
+date: Thu, 03 Mar 2022 22:17:59 GMT
+alt-svc: clear
+via: 1.1 google
+
+HTTP/2 200 
+accept-ranges: bytes
+cache-control: public, max-age=0,s-maxage=90
+content-length: 1238544
+content-type: text/html; charset=utf-8
+date: Thu, 03 Mar 2022 22:17:57 GMT
+vary: X-Forwarded-Proto, X-Authorized-Sppur, Accept-Encoding
+x-cache: HIT
+x-cache-grace: 3600.000
+alt-svc: clear
+via: 1.1 google
+

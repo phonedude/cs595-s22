@@ -1,0 +1,30 @@
+HTTP/1.1 301 Moved Permanently
+Location: https://www.rfi.fr/
+Content-Type: text/html; charset=iso-8859-1
+Cache-Control: max-age=2592000
+Expires: Sat, 02 Apr 2022 22:14:40 GMT
+Date: Thu, 03 Mar 2022 22:14:40 GMT
+Connection: keep-alive
+Set-Cookie: TS01f5b668=010e7206b8cfc5af6dadb629a8834eeae944dfde69e104308d9886e8d1cfdd8490466d79f1; Path=/
+
+HTTP/2 301 
+content-length: 0
+location: https://www.rfi.fr/fr/
+expires: Thu, 03 Mar 2022 22:14:40 GMT
+date: Thu, 03 Mar 2022 22:14:40 GMT
+strict-transport-security: max-age=15768000
+
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+x-frame-options: DENY
+x-fmm-version: 2.2.19
+x-ua-compatible: IE=edge
+link: <https://tms.fmm.io>; rel="preconnect"; crossorigin="crossorigin",</build/fonts/Roboto-Bold.0e19e78300e4c59a6a870a571201ea62.woff2>; rel="preload"; as="font"; type="font/woff2"; crossorigin="anonymous",</build/fonts/Roboto-Regular.91c246eb7465283afb63aad6bd11b62a.woff2>; rel="preload"; as="font"; type="font/woff2"; crossorigin="anonymous",</build/css/page-builder--fr.07251301f09256b12a07.css>; rel="preload"; as="style"
+x-robots-tag: max-snippet:300, max-image-preview:large, max-video-preview:3
+x-content-type-options: nosniff
+x-cdn: Imperva
+x-iinfo: 11-21423868-21617737 sNYN RT(1646344253129 1324201) q(0 0 0 0) r(4 4) U5
+expires: Thu, 03 Mar 2022 22:19:40 GMT
+date: Thu, 03 Mar 2022 22:14:40 GMT
+strict-transport-security: max-age=15768000
+
