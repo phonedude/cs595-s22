@@ -5,7 +5,6 @@
   * [Table with cookie summary](table.tsv)
   * [Code to collect the curl responses and create a table with the values](cookie.py)
   * [CURL responses](output)
-  * [Extra credit](extra_credit.txt)
   
   
   
