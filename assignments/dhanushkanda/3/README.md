@@ -28,3 +28,11 @@
   * Average number of cookies:  1.18
   * Median number of cookies:  0
   
+
+## Extra credit: It's turtles all the way down...
+
+* An interesting xkcd comic I found online: https://xkcd.com/1416/
+
+* Turtles all the way down is a concept of the problem of infinite regress. For instance let’s say the whole earth rests on the back of a turtle. This turtle rests on the back of an even larger turtle. Then this is supported by another larger turtle below it and it is an indefinite collection of turtles.
+
+* In respect to web security, this referes to the scenario where we come across an embedding chain. For example target.com embeds attacker.com which embeds target.com. 
