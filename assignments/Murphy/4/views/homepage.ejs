@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8' />
+        <title>Homepage</title>
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    </head>
+    <body>
+        <ul>
+        <li><a href="/pokemon-gold">Pokemon Gold Version</a></li>
+        <li><a href="/star-wars-rogue-one">Star Wars: Rogue One</a></li>
+        <li><a href="/rage-against-the-machine">Rage Against The Machine</a></li>
+        <li><a href="/iframe-html-pages">iframe-html pages</a></li>
+        <script>
+            //document.write('<iframe width="800" height="600" src="' + val + '"frameborder="0" allowfullscreen></iframe>')
+            var val = "http://" + "dot.tk"
+            document.write('<iframe width="800" height="600" src="' + val + '"frameborder="0" allowfullscreen></iframe>')
+            function checkload() {
+
+                const loaded = document.getElementById('checkme').contentWindow.window.length;
+                
+                if (loaded == 0) {
+                        const node = document.createElement("p");
+                        const textnode = document.createTextNode("failed, loaded = " + loaded);
+                        node.appendChild(textnode);
+                        document.getElementById("resultHere").appendChild(node);
+                } else if (loaded > 0) {
+                        const node = document.createElement("p");
+                        const textnode = document.createTextNode("succeeded, loaded = " + loaded);
+                        node.appendChild(textnode);
+                        document.getElementById("resultHere").appendChild(node);
+                }
+
+            }
+        </script>
+
+        <div id="resultHere"></div>
+
+        <iframe onload="checkload()" id="checkme" src="https://www.about.com/"></iframe>
+        
+    </ul>
+    </body>
+</html>
