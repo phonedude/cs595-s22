@@ -1,0 +1,61 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Location: https://thoughtco.com/
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Thu, 24 Feb 2022 01:20:19 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-iad-kjyo7100086-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1645665619.266054,VS0,VE0
+NEL: {"report_to":"network-errors","max_age":2592000,"success_fraction":0,"failure_fraction":1.0, "include_subdomains": true}
+Report-To: {"group":"network-errors","max_age":2592000,"endpoints":[{"url":"https://r.3gl.net/hawklogserver/561/re.p"}]}
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 0
+X-Abt-Application-Version: 3.97.0
+Strict-Transport-Security: max-age=15552000
+Referrer-Policy: no-referrer-when-downgrade
+X-Content-Type-Options: nosniff
+Content-Security-Policy: frame-ancestors 'self' *.specless.io *.specless.tech http://*.seo.aws.about.com https://*.seo.aws.about.com http://*.dotdash.com https://*.dotdash.com *.thoughtco.com
+X-Content-Security-Policy: frame-ancestors 'self' *.specless.io *.specless.tech http://*.seo.aws.about.com https://*.seo.aws.about.com http://*.dotdash.com https://*.dotdash.com *.thoughtco.com
+Location: https://www.thoughtco.com/
+Accept-Ranges: bytes
+Date: Thu, 24 Feb 2022 01:20:19 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kjyo7100114-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1645665619.325388,VS0,VE3
+NEL: {"report_to":"network-errors","max_age":2592000,"success_fraction":0,"failure_fraction":1.0, "include_subdomains": true}
+Report-To: {"group":"network-errors","max_age":2592000,"endpoints":[{"url":"https://r.3gl.net/hawklogserver/561/re.p"}]}
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: text/html
+X-Abt-Application-Version: 3.97.0
+Strict-Transport-Security: max-age=15552000
+Referrer-Policy: no-referrer-when-downgrade
+X-Content-Type-Options: nosniff
+Content-Security-Policy: frame-ancestors 'self' *.specless.io *.specless.tech http://*.seo.aws.about.com https://*.seo.aws.about.com http://*.dotdash.com https://*.dotdash.com *.thoughtco.com
+X-Content-Security-Policy: frame-ancestors 'self' *.specless.io *.specless.tech http://*.seo.aws.about.com https://*.seo.aws.about.com http://*.dotdash.com https://*.dotdash.com *.thoughtco.com
+Set-Cookie: TMog=nf87cb1914b3049609843a59a247dae5f01; Path=/; Domain=.thoughtco.com; Expires=Tue, 14-Mar-2090 04:34:26 GMT; Max-Age=2147483647
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: Mint=nf87cb1914b3049609843a59a247dae5f01; Path=/; Domain=.thoughtco.com; Expires=Thu, 24-Feb-2022 01:50:19 GMT; Max-Age=1800
+Set-Cookie: pc=1; Path=/; Domain=.thoughtco.com; Expires=Thu, 24-Feb-2022 01:50:19 GMT; Max-Age=1800
+Cache-Control: max-age=1800, private
+Link: <//www.thoughtco.com/static/3.97.0/cache/eNqdUm1yhCAMvVAZD9G_vQRCFMZIHIK77e0bYadqi0vbH8rLxwvhJR0nnbzpDHO3QXjpDh4_6xHUgtqAI7QQT9FZ-3ByOJphEcbupHmhACFxN0nt9_K_DkcYIEIwoC4TteV8181boKsE-Wqhu7cjyOnAjy69Oh1GePOcIECsOmtFgr75UZwUHvKIY0c1BoPZ0qWtKBEEZQjX-add46J0wl2PZCa14QOspefo4yj_xhN4oYTbw3f0d4a6--RU8gnhaiK9R-xJx8f0WFKmD7V7f8l7Tqh3WdS_bq_xtiLpP4hXMxqReo2yb9rmtdO2vmgDxVmytz3UqBh0NO6b2eiq1M4LusMGZ1gR2USAkHlns8Hto9xi4jr3fMQNlqGQtEn5ugN-It1AlES6crQmQ8aLXgMh0v1stZTI5YsKX_B3HPRh4pPR4FlKVrNTa_A3iCwtZjVk46uRtjaX1E8YUEv3.min.css>; rel=preload; as=style; nopush, <//www.thoughtco.com/static/3.97.0/font/Lato-900.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin; nopush, <//www.thoughtco.com/static/3.97.0/font/Lato-900-Italic.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin; nopush, <//www.googletagmanager.com/gtm.js?id=GTM-5P3SZGS>; rel=preload; as=script; nopush, <//www.google-analytics.com/analytics.js>; rel=preload; as=script; nopush, <//securepubads.g.doubleclick.net/tag/js/gpt.js>; rel=preload; as=script; nopush, <//www.thoughtco.com/static/3.97.0/cache/eNptUVtuwyAQvFARd4hU9beKfAEea2fLY11YHOHT146SFrtI_DAzuzMMMrNiNNJQmClC5Cy9qlRYfuXtCHMD497kU-VR7-gmWWvGFfIvs4OkLNh_2qpcaWUz-Tqi9y22QLSUZCALKeKaRFCRPbQSQ-SwMXyt_y6QauaEcWrlhdEj4zHhGEUXtxT6xMfn0InJt0R8ipdgIwsMSRl3iqITKDcTbt0eJ0ZIEA30reeic9Etch0u7ZV3qyvr9wVOm4Oq-i9c87PKPiqbZj44qQnEgnDvjUwcHu17NE7w83U_kfnT1Q.min.js>; rel=preload; as=script; nopush; group=top, <//www.thoughtco.com/static/3.97.0/cache/eNp1kFtOxDAMRTdElEXwyx8ryMNtTF0HHJfOsHrcBgZpJkhRHB9fWzf2TYNi8oSx-Tc7HxvI9cn_YCObIqEiNBc3JHU7anGPspWVXpNUohtNdX2vDKzNIysIB_IZJpBDfz4E8ki9BIVLv0flME1myaqOkBcnsAtqn_pPaTQFLt0SfnXx-f0HOOrcMc9gsQDORZ9L4BlesCmwmRjB25DfLTdLlmtEHc4PufmIRLEGyV2fHNW0uD866pupRltxgZBPI0cY6aYqq6kPZ4FcgyCp3KWjNg6fOBus7KeNqCUBYGf0Lv0GAt_k5w.min.js>; rel=preload; as=script; nopush; group=bottom
+Accept-Ranges: bytes
+Date: Thu, 24 Feb 2022 01:20:19 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000062-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1645665619.427511,VS0,VE7
+NEL: {"report_to":"network-errors","max_age":2592000,"success_fraction":0,"failure_fraction":1.0, "include_subdomains": true}
+Report-To: {"group":"network-errors","max_age":2592000,"endpoints":[{"url":"https://r.3gl.net/hawklogserver/561/re.p"}]}
+

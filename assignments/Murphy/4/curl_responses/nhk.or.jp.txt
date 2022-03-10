@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods: GET, POST
+Access-Control-Expose-Headers: Date
+Last-Modified: Wed, 22 Dec 2021 08:48:55 GMT
+ETag: "446e-5d3b8311d4c22"
+Accept-Ranges: bytes
+Content-Length: 17518
+Content-Type: text/html
+Cache-Control: max-age=30
+Date: Thu, 24 Feb 2022 01:40:10 GMT
+Connection: keep-alive
+X-UA-Compatible: IE=edge
+X-Robots-Tag: noarchive
+

@@ -1,0 +1,39 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Content-Type: text/html; charset=utf-8
+Content-Length: 718
+Accept-Ranges: bytes
+Date: Thu, 24 Feb 2022 01:14:32 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-iad-kiad7000168-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1645665272.010014,VS0,VE0
+Strict-Transport-Security: max-age=31536000
+Location: https://www.businessinsider.com/
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 481063
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Fenrir
+Last-Modified: Thu, 24 Feb 2022 01:14:15 GMT
+Cache-Control: public, max-age=120
+X-Frame-Options: sameorigin
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept
+Link: </styles/landing-page.b8ebd08c218571922ffe.css>; rel=preload; as=style; nopush, </scripts/main.733e59969c32a6781364.js>; rel=preload; as=script; nopush, </chunks/scripts/vendors.733b170be8ae5ef00bdb.js>; rel=preload; as=script; nopush, </chunks/scripts/utilities.8b2b98966b17c9d0dade.js>; rel=preload; as=script; nopush, </public/fonts/subset/LabGrotesque-Black-subset.woff2>; rel=preload; as=font; type=font/woff2; crossorigin; nopush
+ETag: W/"75727-ydpbbgQ72i9JeEigfSTM4Y/NElM"
+X-Country-Code: US
+Accept-Ranges: bytes
+Date: Thu, 24 Feb 2022 01:14:32 GMT
+Via: 1.1 varnish
+Age: 16
+X-Served-By: cache-iad-kiad7000148-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1645665272.079575,VS0,VE6
+Vary: Accept-Encoding, Authorization, Fastly-SSL, X-Device, X-Continent-Code, X-Piano-Disabled, X-User-Logged-In, X-User-Has-Access, X-ABTest-bii-media-show-lock, X-ABTest-bii-report-link, X-ABTest-ii-finance-email-lock, X-ABTest-ii-retail-show-lock, X-ABTest-anti-churn-half-off, X-ABTest-lazy-load-markup
+Strict-Transport-Security: max-age=31536000
+

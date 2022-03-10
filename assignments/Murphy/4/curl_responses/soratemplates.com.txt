@@ -1,0 +1,36 @@
+HTTP/1.1 301 Moved Permanently
+Location: http://www.soratemplates.com
+Date: Thu, 24 Feb 2022 01:20:13 GMT
+Content-Type: text/html; charset=UTF-8
+Server: ghs
+Content-Length: 225
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+
+HTTP/1.1 301 Moved Permanently
+Location: https://www.soratemplates.com/
+Content-Type: text/html; charset=UTF-8
+Date: Thu, 24 Feb 2022 01:20:13 GMT
+Expires: Thu, 24 Feb 2022 01:20:13 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Transfer-Encoding: chunked
+Accept-Ranges: none
+Vary: Accept-Encoding
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Expires: Thu, 24 Feb 2022 01:20:13 GMT
+Date: Thu, 24 Feb 2022 01:20:13 GMT
+Cache-Control: private, max-age=0
+Last-Modified: Wed, 23 Feb 2022 10:23:43 GMT
+ETag: W/"df6befb0e7c2058bdf5e4b7658b833af2a64614a80aa4824b524e41cb9e467b8"
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Length: 0
+Server: GSE
+

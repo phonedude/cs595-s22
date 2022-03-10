@@ -1,0 +1,33 @@
+HTTP/1.1 301 Moved Permanently
+Server: ddos-guard
+Date: Thu, 24 Feb 2022 01:20:20 GMT
+Connection: keep-alive
+Keep-Alive: timeout=60
+Location: https://ucoz.ru/
+
+HTTP/1.1 301 Moved Permanently
+Server: ddos-guard
+Connection: keep-alive
+Keep-Alive: timeout=60
+Content-Security-Policy: upgrade-insecure-requests;
+Set-Cookie: __ddg1=N2I9stawbtvXOAKZr9LF; Domain=.ucoz.ru; HttpOnly; Path=/; Expires=Fri, 24-Feb-2023 01:20:21 GMT
+Date: Thu, 24 Feb 2022 01:20:21 GMT
+Content-Type: text/html
+Content-Length: 178
+Location: https://www.ucoz.ru/
+X-Frame-Options: SOMEORIGIN
+
+HTTP/1.1 200 OK
+Server: ddos-guard
+Connection: keep-alive
+Keep-Alive: timeout=60
+Content-Security-Policy: upgrade-insecure-requests;
+Set-Cookie: __ddg1=d5XyaktmSfWsjNJR528D; Domain=.ucoz.ru; HttpOnly; Path=/; Expires=Fri, 24-Feb-2023 01:20:21 GMT
+Date: Thu, 24 Feb 2022 01:20:21 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 2024
+Last-Modified: Thu, 19 Aug 2021 14:11:50 GMT
+ETag: "611e66a6-7e8"
+X-Frame-Options: SAMEORIGIN
+Accept-Ranges: bytes
+

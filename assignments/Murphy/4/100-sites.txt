@@ -93,8 +93,8 @@ washington.edu
 wikia.com
 wiley.com
 wired.com
-www.gov.uk
-www.over-blog.com
-www.weebly.com
+gov.uk
+over-blog.com
+weebly.com
 youtube.com
 zoom.us
