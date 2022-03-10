@@ -8,10 +8,17 @@ Assignment 4
 
 ## Assignment Description Part 1 - Which public sites are framable?
 
+<br/>
+
+### Description of methods used to discover which URLs were framable
+
+<br/>
+
+
 
 ### Table 
 
-|URL                   |iframe allowed|x-frame-options                                                             |
+|URL                   |iFrame allowed|x-frame-options                                                            |
 |----------------------|-------------|----------------------------------------------------------------------------|
 |about.com             |-            |SAMEORIGIN                                                                  |
 |akamaized.net         |404          |                                                                            |
@@ -112,7 +119,7 @@ Assignment 4
 |over-blog.com         |-            |DENY                                                                        |
 |weebly.com            |-            |SAMEORIGIN                                                                  |
 |youtube.com           |-            |SAMEORIGIN                                                                  |
-|zoom.us               |-            |SAMEORIGIN     
+|zoom.us               |-            |SAMEORIGIN                                                                  |
 
 </br>
 
