@@ -92,7 +92,7 @@ his course materials (although any errors are mine).
 
 * Week 07 - February 28 - Fingerprinting and Privacy
    * [Browser Fingerprinting: An Introduction and the Challenges Ahead](https://blog.torproject.org/browser-fingerprinting-introduction-and-challenges-ahead)
-   * [Class slides](https://web.stanford.edu/class/cs253/lectures/Lecture%2008.pdf)
+   * [Class slides (2019)](/slides/pete-snyder-brave-online-tracking-2019.pdf), [(2021 version)](/slides/pete-snyder-brave-online-tracking-2021.pdf)
 
 * Week -- - March 7 - Spring Break -- No Classes
 
