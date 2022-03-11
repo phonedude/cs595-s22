@@ -2,3 +2,4 @@
 *.json
 #ignore node modules
 *node_modules
+*out
