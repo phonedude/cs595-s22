@@ -124,7 +124,7 @@ were set to, as well as comments.
 
 ### Table 
 
-|URL                   |iFrame allowed|x-frame-options                                                            |
+|URL                   |iFrame allowed|x-frame-options                                                     |
 |----------------------|------|----------------------------------------------------------------------------|
 |about.com             |      |SAMEORIGIN                                                                  |
 |akamaized.net         |404   |                                                                            |
@@ -135,7 +135,7 @@ were set to, as well as comments.
 |asahi.com             |O     |                                                                            |
 |asus.com              |      |SAMEORIGIN                                                                  |
 |bandcamp.com          |O     |                                                                            |
-|bbc.co.uk             |O     |DENY when curled, but loads the iframe                                      |
+|bbc.co.uk             |      |DENY (was able to iframe on 3/10/22, even though it was set to deny with no special changes)|
 |bbc.com               |O     |                                                                            |
 |bp3.blogger.com       |404   |                                                                            |
 |brandbucket.com       |      |SAMEORIGIN                                                                  |
@@ -155,7 +155,7 @@ were set to, as well as comments.
 |ebay.co.uk            |      |SAMEORIGIN                                                                  |
 |elmundo.es            |O     |                                                                            |
 |elpais.com            |O     |                                                                            |
-|en.wikipedia.org      |O     |             |
+|en.wikipedia.org      |O     |                                                                            |
 |enable-javascript.com |O     |                                                                            |
 |etsy.com              |      |SAMEORIGIN                                                                  |
 |evernote.com          |      |SAMEORIGIN                                                                  |
@@ -168,13 +168,13 @@ were set to, as well as comments.
 |guardian.co.uk        |      |SAMEORIGIN                                                                  |
 |harvard.edu           |      |SAMEORIGIN                                                                  |
 |hugedomains.com       |      |ALLOW-FROM https://hugedomains.com/                                         |
-|id.wikipedia.org      |O     |             |
+|id.wikipedia.org      |O     |                                                                            |
 |imgur.com             |      |DENY                                                                        |
 |independent.co.uk     |      |content-security-policy: frame-ancestors 'self' https://*.brightsites.co.uk;|
 |instagram.com         |      |SAMEORIGIN                                                                  |
 |interia.pl            |O     |                                                                            |
 |kakao.com             |O     |                                                                            |
-|kompas.com            |      |SAMEORIGIN                                                                  |
+|kompas.com            |      |SAMEORIGIN(was able to frame on 3/13/22 23:40 UTC)                          |
 |last.fm               |      |SAMEORIGIN                                                                  |
 |latimes.com           |      |DENY                                                                        |
 |leparisien.fr         |O     |                                                                            |
@@ -230,12 +230,19 @@ were set to, as well as comments.
 
 </br>
 
+I will preface that I've decided to only mark down the URLs that were able to be 
+consistently framed, however, I did note in the third column if a URL was inconsistent with
+allowing frames. This table is current as of 3/13/2022 at 23:47 UTC.
+
+<br/>
+
+
 Of the 100 URLs, 46 of them had the "x-frame-options" set to sameorigin, meaning 
 that they would only allow for the framing of the site only if they are of the 
 same origin, 4 of which instead set the same origin by declaring the frame-ancestors 
 in the content-security-policy, 18 out right deny any from of framing, and set to allow-from said URL, which in itself is a sort of sameorigin policy. 29 of the URLs allowed for iframing, 1 of which did so by setting the frame options to "allowall". 
 Finally, there were 5 sites that were unable to load for varying reasons. Of the 
-28 URLs that were able to be iframed, 1, soratemplates.com, had the option set to 
+31 URLs that were able to be iframed, 1, soratemplates.com, had the option set to 
 sameorigin, but I was still able to iframe the website, which no extra steps 
 taken on my end to bypass said sameorigin policy. The 5 sites that were 
 not able to load were akamaized.net, bp3.blogger.com, m.wikipedia.org, ssl-images-amazon.com,
@@ -245,6 +252,15 @@ The most common way to defeat an iframe attempt by websites was to either set
 the x-frame-options to sameorigin, or deny outright. A few of the URLs would
 instead set the frame-ancestor to self, and hugedomains.com specified itself 
 as a domain allowed to iframe.
+
+Interestingly, I originally gathered the information presented above on March 10th, 2022. As of March 13th, 2022 There 
+were actually two changes I noticed right away. First, bbc.co.uk is no longer iframable, which makes sense given that it
+was set to DENY when curling, yet I was allowed to iframe it with no special changes. Unfortunately I do not have 
+proof of this, as I had not come up with taking screenshots of a page as an alternative to looking at the html
+at that time. Second, Kompas.com was iframable for a 
+short time, as I have a screenshot of it in the iframe-imgs at number 49, how ever it is now back to being not framable, as it
+originally was, being set to SAMEORIGIN. Having waited about 5 minitues, Kompas.com is now iframable again, despite still having 
+it's x-frame-options not change(see curl_responses file/kompas.com.txt), so I'm unsure why it keeps changing.
 
 
 ## Assignment Description part 2 - Frame Path attack
