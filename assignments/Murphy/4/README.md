@@ -117,12 +117,29 @@ iframe options were set to.
 
 <br/>
 
+lastly, I came up with a script that would take a screenshot of each URL page on the localhost:4000
+server, by incrementing up one number starting at 1, and replacing $n with the corresponding number.
+
+    n=1
+    while [ $n -le 100 ];
+        do
+            echo "Writing file #$n."
+            /cygdrive/c/Progra~2/Google/Chrome/Application/./chrome --disable-gpu --screenshot=iframe-imgs/html-$n.png --headless http://localhost:4000/html-$n
+
+            n=$((n+1))
+        done
+
+<br/>
+
+
+### Table 
+
 The following is the table of the information of the URLs used, which 
 ones allowed the embedding of an iframe, and what the options were set to 
 for said site. If they allowed for said site to be framed, and what the options
 were set to, as well as comments.
 
-### Table 
+<br/>
 
 |URL                   |iFrame allowed|x-frame-options                                                     |
 |----------------------|------|----------------------------------------------------------------------------|
