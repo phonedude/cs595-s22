@@ -99,7 +99,7 @@ his course materials (although any errors are mine).
 * Week 08 - March 14 - Transport Layer Security
     * [Looking back at the Snowden revelations](https://blog.cryptographyengineering.com/2019/09/24/looking-back-at-the-snowden-revelations/)
     * [HTTPS encryption on the web](https://transparencyreport.google.com/https/overview)
-    * [Class slides](https://docs.google.com/presentation/d/1piE1r4YJuQTiy5_WCHQN5KaAqY29eXSsAJGr8jx-LxQ/edit#slide=id.gc8971b5675_0_189)
+    * [Class slides](https://docs.google.com/presentation/d/1IsqT_E3vNElJX9_mphzac-ka9Qcac6PSe6FzP4-kNrM/edit)
 
 
 * Week 09 - March 21 - HSTS, Certificate Transparency
