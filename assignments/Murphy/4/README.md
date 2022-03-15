@@ -337,11 +337,21 @@ the Web Developer Tools, though you could also set this up to ping a server.
 
 ## Extra Credit
 
+Week 5 lecture, slide 64 has a literary reference in its title. To what work does that reference refer?
 
+"Parsers, parsers, everywhere!"
 
-
+The phrase "x, x everywhere!" seems to have it's origins from the poem "The Rime of the Ancient Mariner" by Samuel Taylor Coleridge,
+first published in 1798. The full phrase is "Water, water every where, / Nor any drop to drink" which seems to reference thee fact
+that they are surrounded by water, as the character is stranded at sea, yet it is not drinkable as it is salt water, and would only
+cause you to become more dehydrated. Personally, I actually know this better as a meme, that features two characters from Toy Story, with
+one, the character Buzz Lightyear, with his shoulder over the other character Woody, with the words "X, X everywhere!" printed on the image.
+The phrase is relevant for this slide as it talks about the multiple different parsers that are used and called on even for just one html page,
+such as the HTML parser, JavaScript and CSS parsers.
 
 
 # References
 
 1.) Cookie Security - https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie
+
+2.) Rime of the Ancient Mariner - https://en.wikipedia.org/wiki/The_Rime_of_the_Ancient_Mariner
