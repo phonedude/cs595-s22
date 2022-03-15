@@ -1,10 +1,12 @@
 const express = require('express')
+const cookieParser = require('cookie-parser')
 const port = '4000'
 const app = express()
 
 //Static Files
 app.use(express.static('public'))
 app.use('imgs', express.static(__dirname + 'public/imgs'))
+app.use(cookieParser())
 
 //Set Views
 app.set('views', './views')
@@ -432,8 +434,12 @@ app.get('/html-100', (req, res) => {
     res.render('html-100')
 }) 
 
+app.get('/frame-path-attack', (req, res) => {
+    res.render('frame-path-attack')
+}) 
 
-
-
+app.get('/cookie', (req, res) => {
+    res.render('cookie')
+}) 
 
 app.listen(port)

