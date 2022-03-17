@@ -279,6 +279,7 @@ short time, as I have a screenshot of it in the iframe-imgs at number 49, how ev
 originally was, being set to SAMEORIGIN. Having waited about 5 minitues, Kompas.com is now iframable again, despite still having 
 it's x-frame-options not change(see curl_responses file/kompas.com.txt), so I'm unsure why it keeps changing.
 
+<br />
 
 ## Assignment Description part 2 - Frame Path attack
 
