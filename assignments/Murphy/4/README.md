@@ -330,11 +330,17 @@ the Web Developer Tools, though you could also set this up to ping a server.
         </body>
     </head>
 
+<br/>
 
 ## Video Links
 
+Assignment 4 Part 1 - https://www.youtube.com/watch?v=JHhDf9_i96E
 
+Assignment 4 Part 2 - https://www.youtube.com/watch?v=e2nLtmYSNH4
 
+Assignment 4 Playlist - https://www.youtube.com/playlist?list=PLQ_PLRjJduEhxkc1jD685D8Ek_kotheLQ
+
+<br/>
 
 ## Extra Credit
 
@@ -356,3 +362,5 @@ such as the HTML parser, JavaScript and CSS parsers.
 1.) Cookie Security - https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie
 
 2.) Rime of the Ancient Mariner - https://en.wikipedia.org/wiki/The_Rime_of_the_Ancient_Mariner
+
+3.) CSV to Markdown - https://www.convertcsv.com/csv-to-markdown.htm
