@@ -1,0 +1,36 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Thu, 24 Feb 2022 01:20:24 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: http://www.reuters.com/
+
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Thu, 24 Feb 2022 01:20:06 GMT
+Content-Type: text/html
+Content-Length: 183
+Connection: keep-alive
+Location: https://www.reuters.com/
+X-Cache: Redirect from cloudfront
+Via: 1.1 78151a5252ddc63300143dbe81b1f0c4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: EWR50-C1
+X-Amz-Cf-Id: 6eDBSMkZw2nN3rR_SPBtRmxqy1YvAWaaT_pwM6Oqbgr4bVMITvkE-Q==
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Server: openresty
+ETag: W/"a402d-t4virqECIz6KB6K+rMnXKYtrfds"
+Last-Modified: Thu, 24 Feb 2022 01:19:44 GMT
+Cache-Control: private, max-age=60
+Expires: Thu, 24 Feb 2022 01:21:07 GMT
+Date: Thu, 24 Feb 2022 01:20:07 GMT
+Set-Cookie: reuters-geo={"country":"US", "region":"-"}; path=/; secure
+Strict-Transport-Security: max-age=31536000
+X-Cache: Miss from cloudfront
+Via: 1.1 a7c7e4aa6d7cf400aa51dc847716996e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: EWR50-C1
+X-Amz-Cf-Id: yEG6JkG5QG_Ikt0It_QD81NY0LjpaQaeKqp_qSIF17J2Td7nuBS9ug==
+

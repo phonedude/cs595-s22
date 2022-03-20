@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+set-cookie: BACKENDID3=bender35-7; path=/; Secure
+HTTP/1.1 200 OK
+set-cookie: client_id=F328BADEBC7C383115D2FF04C881EAC64440EC267B90D668FDFE922A6057BBD8; domain=.bandcamp.com; path=/; expires=Tue, 24 Feb 2032 01:14:29 -0000; secure; HttpOnly; SameSite=None
+set-cookie: session=1%09r%3A%5B%22nilZ0f0x1645665269%22%5D%09t%3A1645665269; domain=.bandcamp.com; path=/; expires=Sun, 10 Apr 2022 01:14:29 -0000
+set-cookie: unique_24h=223; domain=.bandcamp.com; path=/; expires=Fri, 25 Feb 2022 01:14:29 -0000
+set-cookie: session=1%09r%3A%5B%22nilZ0f0x1645665269%22%5D%09t%3A1645665269; domain=.bandcamp.com; path=/; expires=Sun, 10 Apr 2022 01:14:29 -0000
+set-cookie: BACKENDID3=bender35-8; path=/; Secure

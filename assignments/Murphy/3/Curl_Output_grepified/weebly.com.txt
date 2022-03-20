@@ -1,0 +1,22 @@
+HTTP/1.0 301 Moved Permanently
+Set-Cookie: cookie-consent=%7B%22allowStrictlyNecessaryCookies%22%3Atrue%2C%22allowFunctionalityCookies%22%3Atrue%2C%22allowPerformanceCookies%22%3Atrue%2C%22allowTargetingCookies%22%3Atrue%7D; expires=Fri, 20-Feb-2032 22:13:59 GMT; Max-Age=315360000; path=/
+Set-Cookie: language=en; expires=Tue, 08-Mar-2022 22:13:59 GMT; Max-Age=1209600; path=/
+Set-Cookie: srv_domainuserid=1cd00dde247f5246a17bcb1e50d36e09c23f0098; expires=Fri, 20-Feb-2032 22:13:59 GMT; Max-Age=315360000; path=/; domain=.weebly.com
+Set-Cookie: srv_domainuserid=1cd00dde247f5246a17bcb1e50d36e09c23f0098; expires=Fri, 20-Feb-2032 22:13:59 GMT; Max-Age=315360000; path=/
+Set-Cookie: wtp-uuid=fe9eeb34-17c2-4173-b98e-a29c1bca16e3
+Set-Cookie: sto-id-editor=AOALBOAK; Domain=weebly.com; Path=/
+HTTP/1.0 200 OK
+Set-Cookie: cookie-consent=%7B%22allowStrictlyNecessaryCookies%22%3Atrue%2C%22allowFunctionalityCookies%22%3Atrue%2C%22allowPerformanceCookies%22%3Atrue%2C%22allowTargetingCookies%22%3Atrue%7D; expires=Fri, 20-Feb-2032 22:13:59 GMT; Max-Age=315360000; path=/
+Set-Cookie: language=en; expires=Tue, 08-Mar-2022 22:13:59 GMT; Max-Age=1209600; path=/
+Set-Cookie: srv_domainuserid=479222b8e8eb926b044dc2ced9db1351cbc1dedf; expires=Fri, 20-Feb-2032 22:13:59 GMT; Max-Age=315360000; path=/; domain=.weebly.com
+Set-Cookie: srv_domainuserid=479222b8e8eb926b044dc2ced9db1351cbc1dedf; expires=Fri, 20-Feb-2032 22:13:59 GMT; Max-Age=315360000; path=/
+Set-Cookie: wtp-uuid=46109891-4599-4708-be7c-60464f34123f
+Set-Cookie: internal_signup_referer=%7B%22internal_signup_referer%22%3A%22http%3A%5C%2F%5C%2Fwww.weebly.com%5C%2F%22%7D; expires=Thu, 24-Mar-2022 22:13:59 GMT; Max-Age=2592000; path=/
+Set-Cookie: external_signup_referer=%7B%22external_signup_referer%22%3A%22None%22%7D; expires=Thu, 24-Mar-2022 22:13:59 GMT; Max-Age=2592000; path=/
+Set-Cookie: external_paid_signup_referer=%7B%22external_paid_signup_referer%22%3A%22None%22%7D; expires=Thu, 24-Mar-2022 22:13:59 GMT; Max-Age=2592000; path=/
+Set-Cookie: wcid=01r2d3m25ed51vhw; expires=Tue, 08-Mar-2022 22:13:59 GMT; Max-Age=1209600; path=/
+Set-Cookie: wct-bG9jYWxlTmV3VXNlckNoYXQ_=ZXhjbHVkZWQ_; expires=Tue, 08-Mar-2022 22:13:59 GMT; Max-Age=1209600; path=/
+Set-Cookie: wct-c2lnbnVwX21haWxjaGVja19hbGxlbmc_=dGVzdA__; expires=Tue, 08-Mar-2022 22:13:59 GMT; Max-Age=1209600; path=/
+Set-Cookie: _csrf=6fO4b0ttgghFNJ-8QmV3A5E-ux1b5SmeAxGWZ2HHbZo; path=/; domain=www.weebly.com
+Set-Cookie: wct-aG9tZXBhZ2Vfd2Vic2l0ZV9tZXNzYWdpbmdfdjU_=Y29udHJvbA__; expires=Tue, 08-Mar-2022 22:13:59 GMT; Max-Age=1209600; path=/
+Set-Cookie: sto-id-editor=BEALBOAK; Domain=weebly.com; Path=/

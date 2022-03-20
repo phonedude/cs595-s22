@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 200 OK
+Set-Cookie: PreferencesMsn=eyJIb21lUGFnZSI6eyJTdHJpcGVzIjpbXSwiTWVTdHJpcGVNb2R1bGVzIjpbXSwiTWFya2V0Q29uZmlndXJhdGlvbiI6eyJNYXJrZXQiOiJlbi11cyIsIlN1cHByZXNzUHJvbXB0IjpmYWxzZSwiUHJlZmVycmVkTGFuZ3VhZ2VDb2RlIjoiZW4tdXMiLCJDb3VudHJ5Q29kZSI6IlVTIn19LCJFeHBpcnlUaW1lIjo2MzgxMjcwMDY4NTIwMjE4NjksIlZlcnNpb24iOjF90; domain=msn.com; expires=Wed, 22-Feb-2023 22:11:25 GMT; path=/; HttpOnly
+Set-Cookie: marketPref=en-us; domain=msn.com; expires=Wed, 22-Feb-2023 22:11:25 GMT; path=/; HttpOnly
+Set-Cookie: RecentStocks=; domain=msn.com; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: _EDGE_S=F=1; path=/; httponly; domain=msn.com
+Set-Cookie: _EDGE_V=1; path=/; httponly; expires=Sun, 19-Mar-2023 22:11:25 GMT; domain=msn.com
+Set-Cookie: MUID=29EAB1D3C84A6CE80C19A080C9FD6DDA; samesite=none; path=/; secure; expires=Sun, 19-Mar-2023 22:11:25 GMT; domain=msn.com

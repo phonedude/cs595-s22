@@ -1,0 +1,14 @@
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 24 Feb 2022 18:45:11 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://mil.ru/
+Server: Ministry of Defence of the Russian Federation
+
+HTTP/1.1 418 
+Date: Thu, 24 Feb 2022 18:45:12 GMT
+Content-Length: 0
+Connection: keep-alive
+Server: Ministry of Defence of the Russian Federation
+

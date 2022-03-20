@@ -1,0 +1,7 @@
+HTTP/1.1 308 Permanent Redirect
+HTTP/1.1 308 Permanent Redirect
+HTTP/1.1 200 OK
+set-cookie: csrftoken=9902d633838ea6c18e38224348bcf121; path=/; expires=Wed, 22 Feb 2023 22:11:34 GMT; samesite=lax; secure
+set-cookie: _pinterest_sess=TWc9PSZCV3hHN2d2OHdFVkRZSUROQ0pyV3NRMTY0Y0NXMDYxeENwLzZiME1STFAxQU54ZEp4YzBNT1MycVBWQ3lqWlFZN2pWbDdaeERJZXNWZmJJNUxFbGVYK0FLQVBjVUhpTlRHUkJtMHAvV0VYcz0mV2h4ZUpRYzM2VUU3UnZ4V2o2RU9UNlNSMlJBPQ==; path=/; expires=Fri, 17 Feb 2023 22:11:34 GMT; domain=.pinterest.com; samesite=none; secure; httponly
+set-cookie: _auth=0; path=/; expires=Fri, 17 Feb 2023 22:11:34 GMT; domain=.pinterest.com; secure; httponly
+set-cookie: _routing_id="bc7d035c-a720-4b77-9f78-9a431f07190a"; Max-Age=86400; Path=/; HttpOnly

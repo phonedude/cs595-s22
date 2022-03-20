@@ -1,0 +1,40 @@
+HTTP/1.1 301 Moved Permanently
+Retry-After: 0
+Location: https://imgur.com/
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Thu, 24 Feb 2022 01:15:32 GMT
+Connection: close
+X-Served-By: cache-iad-kjyo7100076-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+Server: cat factory 1.0
+Strict-Transport-Security: max-age=300
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: https://imgur.com
+Access-Control-Allow-Credentials: false
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 7198
+Last-Modified: Mon, 21 Feb 2022 13:35:27 GMT
+ETag: "f9156fa7da23498e111eaae2831a870d"
+Content-Type: text/html
+Content-Security-Policy: upgrade-insecure-requests
+Accept-Ranges: bytes
+Date: Thu, 24 Feb 2022 01:15:32 GMT
+Age: 6
+X-Served-By: cache-iad-kiad7000167-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1645665333.750950,VS0,VE1
+Vary: Accept-Encoding
+Server: cat factory 1.0
+Strict-Transport-Security: max-age=300
+X-Frame-Options: DENY
+Set-Cookie: postpagebeta=1; Expires=Mon, 4 Sep 2090 20:00:00 GMT; path=/; domain=.imgur.com;
+Access-Control-Allow-Origin: https://imgur.com
+Access-Control-Allow-Credentials: false
+Cache-Control: max-age=60, stale-while-revalidate=600, stale-if-error=86400, public
+

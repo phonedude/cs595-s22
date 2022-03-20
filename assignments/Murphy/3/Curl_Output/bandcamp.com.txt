@@ -1,0 +1,35 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+location: https://bandcamp.com/
+set-cookie: BACKENDID3=bender35-3; path=/; Secure
+Accept-Ranges: bytes
+Transfer-Encoding: chunked
+Date: Thu, 24 Feb 2022 01:14:29 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-iad-kjyo7100132-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1645665269.201627,VS0,VE36
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Server: nginx
+Content-Type: text/html; charset=UTF-8
+referrer-policy: no-referrer-when-downgrade
+set-cookie: client_id=D33E69B969B918C080C768AF1D04550987CAD7BC85B35260234FC951E8F635B5; domain=.bandcamp.com; path=/; expires=Tue, 24 Feb 2032 01:14:29 -0000; secure; HttpOnly; SameSite=None
+set-cookie: session=1%09r%3A%5B%22nilZ0f0x1645665269%22%5D%09t%3A1645665269; domain=.bandcamp.com; path=/; expires=Sun, 10 Apr 2022 01:14:29 -0000
+set-cookie: unique_24h=223; domain=.bandcamp.com; path=/; expires=Fri, 25 Feb 2022 01:14:29 -0000
+set-cookie: session=1%09r%3A%5B%22nilZ0f0x1645665269%22%5D%09t%3A1645665269; domain=.bandcamp.com; path=/; expires=Sun, 10 Apr 2022 01:14:29 -0000
+link: <https://bandcamp.com/>;   rel="canonical"
+content-security-policy: base-uri 'none'; object-src 'none'; report-uri https://bandcamp.com/api/cspreport/1/violation; script-src http: https: 'nonce-CJm6iiHPPz1uZfAcx729Fg==' 'report-sample' 'strict-dynamic'
+set-cookie: BACKENDID3=bender35-4; path=/; Secure
+Accept-Ranges: bytes
+Date: Thu, 24 Feb 2022 01:14:29 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kjyo7100030-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1645665269.309509,VS0,VE144
+Vary: Accept-Encoding
+

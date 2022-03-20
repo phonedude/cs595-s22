@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 200 OK
+Set-Cookie: wikia_beacon_id=DoZiqLbI3I; domain=.fandom.com; path=/; expires=Sun, 21 Aug 2022 22:13:57 GMT; SameSite=None; Secure;
+Set-Cookie: wikia_session_id=a4ZlW_WZbN; domain=.fandom.com; path=/; expires=Tue, 22 Feb 2022 22:43:57 GMT; SameSite=None; Secure;
+Set-Cookie: _b2=qxzjzx_jIG.1645568037099; domain=.fandom.com; path=/; expires=Thu, 22 Feb 2024 22:13:57 GMT; SameSite=None; Secure;
+Set-Cookie: Geo={%22region%22:%22VA%22%2C%22country%22:%22US%22%2C%22continent%22:%22NA%22}; path=/; domain=.fandom.com; SameSite=None; Secure;

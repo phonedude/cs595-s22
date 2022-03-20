@@ -1,0 +1,55 @@
+HTTP/1.1 302 Found
+cache-control: no-cache
+content-length: 0
+location: https://ovh.com/
+date: Thu, 24 Feb 2022 01:20:02 GMT
+x-cdn-pop: bhs
+x-cdn-pop-ip: 137.74.122.0/26
+x-request-id: 8030661
+x-cacheable: Cacheable
+x-iplb-request-id: A2D93480:5B9B_C61B5C01:0050_6216DD42_C029A:1AE88
+x-iplb-instance: 42354
+
+HTTP/1.1 302 Found
+Date: Thu, 24 Feb 2022 01:20:02 GMT
+Content-Length: 0
+Cache-Control: no-cache
+Location: https://www.ovh.com/
+X-IPLB-Request-ID: 90D90236:9D46_C063418B:01BB_6216DD42_180E:2CC72
+X-IPLB-Instance: 43259
+X-CDN-Pop: bhs
+X-CDN-Pop-IP: 137.74.122.0/26
+X-Request-ID: 92931891
+X-Cacheable: Cacheable
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 24 Feb 2022 01:20:03 GMT
+X-Cacheable: Not cacheable: not http 200
+X-CDN-Pop: bhs
+X-CDN-Pop-IP: 137.74.122.0/26
+Content-Type: text/html; charset=utf-8
+X-Request-ID: 228688455
+Location: https://www.ovhcloud.com/en/
+Content-Length: 0
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Date: Thu, 24 Feb 2022 01:20:03 GMT
+Content-Type: text/html
+Last-Modified: Wed, 23 Feb 2022 11:57:09 GMT
+Vary: Accept-Encoding
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Toujours-Debout-Location: BHS
+X-Toujours-Debout-Branch: A
+X-IPLB-Request-ID: 90D9024F:635C_C063418B:01BB_6216DD43_1807:1DB20
+X-IPLB-Instance: 43262
+X-CDN-Pop: bhs
+X-CDN-Pop-IP: 137.74.122.0/26
+X-Request-ID: 947061067
+X-Cacheable: Cacheable
+Accept-Ranges: bytes
+Connection: keep-alive
+

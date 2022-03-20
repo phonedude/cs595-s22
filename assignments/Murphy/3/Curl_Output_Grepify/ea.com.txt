@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Set-Cookie: EDGESCAPE_COUNTRY=US; path=/
+Set-Cookie: EDGESCAPE_REGION=VA; path=/
+Set-Cookie: EDGESCAPE_TIMEZONE=EST; path=/
+Set-Cookie: ealocale=en-us; expires=Fri, 24-Feb-2023 01:15:06 GMT; path=/; domain=.ea.com; secure
+HTTP/1.1 301 Moved Permanently
+Set-Cookie: EDGESCAPE_COUNTRY=US; path=/
+Set-Cookie: EDGESCAPE_REGION=VA; path=/
+Set-Cookie: EDGESCAPE_TIMEZONE=EST; path=/
+Set-Cookie: ealocale=en-us; expires=Fri, 24-Feb-2023 01:15:06 GMT; path=/; domain=.ea.com; secure
+HTTP/1.1 200 OK
+Set-Cookie: EDGESCAPE_COUNTRY=US; path=/
+Set-Cookie: EDGESCAPE_REGION=VA; path=/
+Set-Cookie: EDGESCAPE_TIMEZONE=EST; path=/
+Set-Cookie: ealocale=en-us; expires=Fri, 24-Feb-2023 01:15:06 GMT; path=/; domain=.ea.com; secure

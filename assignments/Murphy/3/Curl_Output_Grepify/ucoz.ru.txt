@@ -1,0 +1,5 @@
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 301 Moved Permanently
+Set-Cookie: __ddg1=jflvBiplZXMfmXuRo17A; Domain=.ucoz.ru; HttpOnly; Path=/; Expires=Fri, 24-Feb-2023 01:20:21 GMT
+HTTP/1.1 200 OK
+Set-Cookie: __ddg1=I3YfUy5jaYx0tG6zF1Wc; Domain=.ucoz.ru; HttpOnly; Path=/; Expires=Fri, 24-Feb-2023 01:20:22 GMT

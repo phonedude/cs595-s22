@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 301 Moved Permanently
+Set-Cookie: _lbz=0; expires=Fri, 24-Feb-2023 01:20:02 GMT; domain=.nydailynews.com
+Set-Cookie: akaas_AS_tronc_new_york_daily_news_prod=2147483647~rv=66~id=b98479f6ceb538b89520aa255d4e24ee; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT
+HTTP/1.1 200 OK
+Set-Cookie: _lbz=0; expires=Fri, 24-Feb-2023 01:20:02 GMT; domain=.nydailynews.com
+Set-Cookie: akaas_AS_tronc_new_york_daily_news_prod=2147483647~rv=4~id=500f8963c61396414ba224f4cd4a6f2f; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT; Secure; SameSite=None

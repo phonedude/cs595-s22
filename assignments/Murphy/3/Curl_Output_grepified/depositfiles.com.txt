@@ -1,0 +1,3 @@
+HTTP/1.1 302 Moved Temporarily
+HTTP/1.1 200 OK
+Set-Cookie: uprand=21d0431340e27ac2db397021c49a0911; path=/; domain=.depositfiles.com

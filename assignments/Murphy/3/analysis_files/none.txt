@@ -1,0 +1,15 @@
+Curl_Output/bandcamp.com.txt:1
+Curl_Output/elpais.com.txt:1
+Curl_Output/etsy.com.txt:1
+Curl_Output/files.wordpress.com.txt:2
+Curl_Output/msn.com.txt:2
+Curl_Output/netvibes.com.txt:2
+Curl_Output/networkadvertising.org.txt:1
+Curl_Output/nydailynews.com.txt:1
+Curl_Output/pinterest.com.txt:1
+Curl_Output/sedo.com.txt:3
+Curl_Output/usgs.gov.txt:1
+Curl_Output/wikia.com.txt:4
+Curl_Output/wiley.com.txt:1
+Curl_Output/wired.com.txt:7
+Curl_Output/youtube.com.txt:2

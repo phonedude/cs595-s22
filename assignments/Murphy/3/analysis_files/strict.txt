@@ -1,0 +1,2 @@
+Curl_Output/files.wordpress.com.txt:1
+Curl_Output/wired.com.txt:1

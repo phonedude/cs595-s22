@@ -1,0 +1,25 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Thu, 24 Feb 2022 01:15:28 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 62
+Connection: keep-alive
+X-Redirector: dw
+Location: https://www.francetvinfo.fr/
+Vary: Accept
+
+HTTP/1.1 200 OK
+Strict-Transport-Security: max-age=10080
+Last-Modified: Thu, 24 Feb 2022 01:15:03 GMT
+ETag: "5972280ced1fbcb58d2070464233c9e0e54ffb32-gzip"
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode = block
+Content-Type: text/html; charset=UTF-8
+Cache-Control: public, max-age=60
+X-Backend: ftvicms_web_ftvicms_prod_front_04
+Expires: Thu, 24 Feb 2022 01:16:03 GMT
+version: 1.0
+Permissions-Policy: interest-cohort=()
+Date: Thu, 24 Feb 2022 01:15:28 GMT
+Connection: keep-alive
+

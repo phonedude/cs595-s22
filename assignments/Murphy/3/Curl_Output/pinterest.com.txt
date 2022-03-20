@@ -1,0 +1,45 @@
+HTTP/1.1 308 Permanent Redirect
+Retry-After: 0
+Content-Type: text/html
+Content-Length: 247
+Accept-Ranges: bytes
+Date: Thu, 24 Feb 2022 01:20:04 GMT
+Connection: close
+Location: https://pinterest.com/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 247
+Retry-After: 0
+Content-Type: text/html
+Location: https://www.pinterest.com/
+Accept-Ranges: bytes
+Date: Thu, 24 Feb 2022 01:20:04 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-ua-compatible: IE=edge
+expect-ct: max-age=86400, report-uri="https://www.pinterest.com/_/_/expect_ct_report/"
+set-cookie: csrftoken=9eb6b1d505c6003c3621dcb888cb0c95; path=/; expires=Fri, 24 Feb 2023 01:20:05 GMT; samesite=lax; secure
+set-cookie: _pinterest_sess=TWc9PSZ6S3BXaDlxUDVXL0tKY2F4UEJYUGVkZG9GeEF4L1hsQWl5U1FNZzFNZG12ZG1JaXhIaFN4bWdjaUpKMGlTcXlGMktoeVRLK000Tm9oZHByL0VaNjZOMlEvR1JXODNnVmJTVmhnRCtyWWVIVT0mSHdZYU1jSG9OWU9RUUV0dUtMWnMvMWo2dElJPQ==; path=/; expires=Sun, 19 Feb 2023 01:20:05 GMT; domain=.pinterest.com; samesite=none; secure; httponly
+set-cookie: _auth=0; path=/; expires=Sun, 19 Feb 2023 01:20:05 GMT; domain=.pinterest.com; secure; httponly
+p3p: CP="This is not a P3P policy. See https://www.pinterest.com/_/_/help/articles/pinterest-and-p3p for more info."
+content-security-policy: default-src 'self' 'unsafe-inline' blob: data: *.pinimg.com *.pinterest.com accounts.google.com fonts.gstatic.com fonts.googleapis.com use.typekit.net *.adyen.com *.adyenpayments.com; img-src * data: blob:; script-src 'nonce-50373c94bbfcf0fc294b8c72043657b9' 'strict-dynamic' 'report-sample' 'self' *.pinterest.com *.pinimg.com *.google.com connect.facebook.net *.google-analytics.com *.facebook.com *.googleadservices.com *.doubleclick.net *.googletagmanager.com *.adyen.com *.adyenpayments.com cdn.ampproject.org *.cdn.ampproject.org radar.cedexis.com *.cedexis-test.com www.gstatic.com/recaptcha/ www.recaptcha.net 'unsafe-inline' blob:; connect-src 'self' *.pinimg.com *.pinterest.com accounts.google.com *.facebook.com *.dropboxapi.com *.adyen.com *.adyenpayments.com cdn.ampproject.org *.cdn.ampproject.org pinterest-aberdeen.s3.amazonaws.com pinterest-aberdeen.s3.us-east-1.amazonaws.com pinterest-anaheim.s3.amazonaws.com pinterest-anaheim.s3.us-east-1.amazonaws.com pinterest-media-upload.s3.amazonaws.com pinterest-media-upload.s3.us-east-1.amazonaws.com pinterest-media-upload.s3-accelerate.amazonaws.com pinterest-media-upload.s3-accelerate.us-east-1.amazonaws.com pinterest-milwaukee.s3.amazonaws.com pinterest-milwaukee.s3.us-east-1.amazonaws.com pinterest-poughkeepsie.s3.amazonaws.com pinterest-poughkeepsie.s3.us-east-1.amazonaws.com pinterest-waterloo.s3.amazonaws.com pinterest-waterloo.s3.us-east-1.amazonaws.com pinterest-plymouth.s3.amazonaws.com pinterest-plymouth.s3.us-east-1.amazonaws.com pinterest-salvador.s3.us-east-1.amazonaws.com *.cedexis.com *.cedexis-radar.net blob: *.tvpixel.com api.pinadmin.com *.live-video.net; media-src 'self' *.pinimg.com blob: data: *.live-video.net; object-src 'self'; form-action 'self'; frame-src 'self' *.google.com *.pinimg.com *.pinterest.com *.pinterdev.com *.facebook.com content.googleapis.com *.adyen.com *.youtube.com *.ytimg.com player.vimeo.com calendly.com vine.co bid.g.doubleclick.net *.fls.doubleclick.net pinterest-milwaukee.s3.amazonaws.com pinterest-milwaukee.s3.us-east-1.amazonaws.com pinterest-waterloo.s3.amazonaws.com pinterest-waterloo.s3.us-east-1.amazonaws.com pinlogs.s3.amazonaws.com pinlogs.s3.us-east-1.amazonaws.com pinterest-hilo.s3.us-east-1.amazonaws.com pinterest-hilo.s3.amazonaws.com advertising-delivery-metric-reports.s3.amazonaws.com advertising-delivery-metric-reports.s3.us-east-1.amazonaws.com servedby.flashtalking.com pinterest-uk.admo.tv pinterest-uk-web.admo.tv fbrpc://call www.recaptcha.net px.ads.linkedin.com www-pinterest-com.cdn.ampproject.org; worker-src 'self' blob: https://www-pinterest-com.cdn.ampproject.org 'unsafe-inline'; base-uri 'none'; report-uri /_/_/csp_report/?rid=4643312626512535; frame-ancestors 'self' , script-src 'nonce-50373c94bbfcf0fc294b8c72043657b9' 'report-sample' 'self' *.pinterest.com *.pinimg.com *.google.com connect.facebook.net *.google-analytics.com *.facebook.com *.googleadservices.com *.doubleclick.net *.googletagmanager.com *.adyen.com *.adyenpayments.com cdn.ampproject.org *.cdn.ampproject.org radar.cedexis.com *.cedexis-test.com www.gstatic.com/recaptcha/ www.recaptcha.net 'unsafe-inline' blob:; report-uri /_/_/csp_report/?rid=4643312626512535
+content-security-policy-report-only: script-src 'nonce-50373c94bbfcf0fc294b8c72043657b9' 'strict-dynamic' 'report-sample' 'self' *.pinterest.com *.pinimg.com *.google.com connect.facebook.net *.online.tableau.com *.google-analytics.com *.facebook.com *.googleadservices.com *.doubleclick.net *.googletagmanager.com *.adyen.com *.adyenpayments.com cdn.ampproject.org *.cdn.ampproject.org radar.cedexis.com *.cedexis-test.com www.gstatic.com/recaptcha/ www.recaptcha.net 'unsafe-inline'; report-uri /_/_/csp_report/?reportonly , script-src 'report-sample' 'self' *.pinterest.com *.pinimg.com *.google.com connect.facebook.net *.online.tableau.com *.google-analytics.com *.facebook.com *.googleadservices.com *.doubleclick.net *.googletagmanager.com *.adyen.com *.adyenpayments.com cdn.ampproject.org *.cdn.ampproject.org radar.cedexis.com *.cedexis-test.com www.gstatic.com/recaptcha/ www.recaptcha.net 'unsafe-inline'; default-src 'self' 'unsafe-inline' blob: data: *.pinimg.com *.pinterest.com accounts.google.com fonts.gstatic.com fonts.googleapis.com use.typekit.net; frame-src *; img-src * data: blob:; connect-src *; worker-src * blob:; report-uri /_/_/csp_report/?reportonly
+x-frame-options: SAMEORIGIN
+content-type: text/html; charset=utf-8
+link: <https://i.pinimg.com>; rel=preconnect; crossorigin=anonymous, <https://s.pinimg.com>; rel=preconnect; crossorigin=anonymous, <https://v.pinimg.com>; rel=preconnect; crossorigin=anonymous
+x-envoy-upstream-service-time: 88
+referrer-policy: origin
+set-cookie: _routing_id="327947ac-39fc-4b59-96e4-0ef5668604c9"; Max-Age=86400; Path=/; HttpOnly
+x-pinterest-rid: 4643312626512535
+Date: Thu, 24 Feb 2022 01:20:05 GMT
+Vary: User-Agent, Accept-Encoding
+X-CDN: fastly
+Pinterest-Generated-By: coreapp-webapp-prod-0a03b5f1
+Pinterest-Version: c08c0eb
+

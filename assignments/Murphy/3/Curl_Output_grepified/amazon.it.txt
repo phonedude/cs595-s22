@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 405 Method Not Allowed
+Set-Cookie: session-id=-; path=/; domain=.www.amazon.it; expires=Mon, 22-Feb-2010 22:08:16 GMT
+Set-Cookie: session-id-time=-; path=/; domain=.www.amazon.it; expires=Mon, 22-Feb-2010 22:08:16 GMT
+Set-Cookie: session-token=-; path=/; domain=.www.amazon.it; expires=Mon, 22-Feb-2010 22:08:16 GMT
+Set-Cookie: ubid-acbit=-; path=/; domain=.www.amazon.it; expires=Mon, 22-Feb-2010 22:08:16 GMT
+Set-Cookie: at-acbit=-; path=/; domain=.www.amazon.it; expires=Mon, 22-Feb-2010 22:08:16 GMT
+Set-Cookie: lc-acbit=-; path=/; domain=.www.amazon.it; expires=Mon, 22-Feb-2010 22:08:16 GMT
+Set-Cookie: x-acbit=-; path=/; domain=.www.amazon.it; expires=Mon, 22-Feb-2010 22:08:16 GMT
+Set-Cookie: x-wl-uid=-; path=/; domain=.www.amazon.it; expires=Mon, 22-Feb-2010 22:08:16 GMT
+Set-Cookie: sess-at-acbit=-; path=/; domain=.www.amazon.it; expires=Mon, 22-Feb-2010 22:08:16 GMT
+Set-Cookie: UserPref=-; path=/; domain=.www.amazon.it; expires=Mon, 22-Feb-2010 22:08:16 GMT

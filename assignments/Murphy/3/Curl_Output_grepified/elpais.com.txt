@@ -1,0 +1,10 @@
+HTTP/1.1 302 Moved Temporarily
+Set-Cookie: arc-geo={"georegion":"288","countrycode":"US","regioncode":"VA","timezone":"EST","continent":"NA"}; expires=Tue, 22-Feb-2022 22:23:45 GMT; path=/
+Set-Cookie: eptz=US; path=/; domain=.elpais.com
+Set-Cookie: hpage=2; expires=Wed, 22-Feb-2023 22:08:45 GMT; path=/; domain=.elpais.com
+Set-Cookie: akaas_AS_prisa_el_pais_prod=2147483647~rv=97~id=49238ec01459d29f7f7633928fe02bf5; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT
+HTTP/1.1 200 OK
+Set-Cookie: arc-geo={"georegion":"288","countrycode":"US","regioncode":"VA","timezone":"EST","continent":"NA"}; expires=Tue, 22-Feb-2022 22:23:45 GMT; path=/
+Set-Cookie: eptz=US; path=/; domain=.elpais.com
+Set-Cookie: hpage=2; expires=Wed, 22-Feb-2023 22:08:45 GMT; path=/; domain=.elpais.com
+Set-Cookie: akaas_AS_prisa_el_pais_prod=2147483647~rv=96~id=f6acddfa588d81d82c9bb20179a3b45b; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT; Secure; SameSite=None
