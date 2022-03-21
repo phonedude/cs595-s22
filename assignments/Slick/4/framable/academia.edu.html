@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:fb="http://www.facebook.com/2008/fbml"  class="wf-loading">
+  <head prefix="og: https://ogp.me/ns#
+                fb: https://ogp.me/ns/fb#
+                academia: https://ogp.me/ns/fb/academia#">
+    <meta charset="utf-8">
+      <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta rel="search"
+          type="application/opensearchdescription+xml"
+          href="/open_search.xml"
+          title="Academia.edu">
+
+    <title>Academia.edu - Share research</title>
+
+    <!--                 _                _                 _
+                        | |              (_)               | |
+      __ _  ___ __ _  __| | ___ _ __ ___  _  __ _   ___  __| |_   _
+     / _` |/ __/ _` |/ _` |/ _ \ '_ ` _ \| |/ _` | / _ \/ _` | | | |
+    | (_| | (_| (_| | (_| |  __/ | | | | | | (_| ||  __/ (_| | |_| |
+     \__,_|\___\__,_|\__,_|\___|_| |_| |_|_|\__,_(_)___|\__,_|\__,_|
+
+    We're hiring! See https://www.academia.edu/hiring -->
+
+    <script>$request_id = (document.cookie.match('(^|; )request_id=([^;]*)')||0)[2]</script>
+
+    <link href="//a.academia-assets.com/images/favicons/favicon-production.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+<link rel="apple-touch-icon" sizes="57x57" href="//a.academia-assets.com/images/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="//a.academia-assets.com/images/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="//a.academia-assets.com/images/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="//a.academia-assets.com/images/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="//a.academia-assets.com/images/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="//a.academia-assets.com/images/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="//a.academia-assets.com/images/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="//a.academia-assets.com/images/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="//a.academia-assets.com/images/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="//a.academia-assets.com/images/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="//a.academia-assets.com/images/favicons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="//a.academia-assets.com/images/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="//a.academia-assets.com/images/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="//a.academia-assets.com/images/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="//a.academia-assets.com/images/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-TileImage" content="//a.academia-assets.com/images/favicons/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+    <script>
+      window.performance &&
+      window.performance.measure &&
+      window.performance.measure("Time To First Byte", "requestStart", "responseStart");
+    </script>
+
+
+    <script>
+    (function() {
+      if (!window.URLSearchParams || !window.history || !window.history.replaceState) {
+        return;
+      }
+      var searchParams = new URLSearchParams(window.location.search);
+      var paramsToDelete = [
+        'fs',
+        'sm',
+        'swp',
+        'iid',
+        'nbs',
+        'rcc', // related content category
+        'rcpos', // related content carousel position
+        'rcpg', // related carousel page
+        'rchid', // related content hit id
+      ];
+
+      if (paramsToDelete.every((key) => !searchParams.get(key))) {
+        return;
+      }
+      paramsToDelete.forEach((key) => {
+        searchParams.delete(key);
+      });
+
+      var cleanUrl = new URL(window.location.href);
+      cleanUrl.search = searchParams.toString();
+      history.replaceState({}, document.title, cleanUrl);
+    })();
+    </script>
+
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', {
+        trackingId: 'UA-2111171-1',
+        cookieDomain: 'academia.edu',
+      });
+
+      ga('set', 'dimension1', "home");
+      ga('set', 'dimension2', "show");
+      ga('set', 'dimension6', 'home#show');
+
+      ga('set', 'dimension3', 'false');
+      ga('set', 'dimension5', 'unknown');
+
+      ga('send', 'pageview');
+    </script>
+
+
+    <script type="text/javascript">
+      window.sendUserTiming = function(timingName) {
+        if (!(window.performance && window.performance.measure)) return;
+        var entries = window.performance.getEntriesByName(timingName, "measure");
+        if (entries.length !== 1) return;
+        var timingValue = Math.round(entries[0].duration);
+
+        ga('send', {
+          hitType: 'timing',
+          timingCategory: 'User-centric',
+          timingVar: timingName,
+          timingValue: timingValue,
+        });
+
+        if (window.newsFeedStats) {
+          // e.g. 'Time To Interactive' -> 'tti'
+          var shortTimingName = timingName.toLowerCase().split(' ').map(function (word) {
+            return word[0];
+          }).join('');
+          window.newsFeedStats[shortTimingName] = timingValue;
+        }
+      };
+      window.sendUserTiming("Time To First Byte");
+    </script>
+
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="LiofYTwZGxMK/gG5s8KTJLsiht7bDryg9n8WNST2c/QC1OMYV2q8qvr2AZHWROq914EVSBpg5xIP9KtP3DyAFg==" />
+
+    <link rel="stylesheet" media="all" href="//a.academia-assets.com/assets/landing-c42a8ac0d81945db45d9383dd87c3dbeaa69ccd8ff63c16cd50fc249b07a7a65.css" />
+  <meta name="description" content="Academia.edu is a place to share and follow research." />
+<meta name="google-site-verification" content="bKJMBZA7E43xhDOopFZkssMMkBRjvYERV-NaN4R6mrs" />
+  
+<script>
+  var $controller_name = 'home';
+  var $action_name = "show";
+  var $rails_env = 'production';
+  var $app_rev = '07b8d25fff87a827a9d3e5500cd37194712d686e';
+  var $domain = 'academia.edu';
+  var $app_host = "academia.edu";
+  var $asset_host = "academia-assets.com";
+  var $start_time = new Date().getTime();
+  var $recaptcha_key = "6LdxlRMTAAAAADnu_zyLhLg0YF9uACwz78shpjJB";
+  var $recaptcha_invisible_key = "6Lf3KHUUAAAAACggoMpmGJdQDtiyrjVlvGJ6BbAj";
+</script>
+
+
+  <script>
+
+
+    window.Aedu = { hit_data: null };
+    window.Aedu.SiteStats = {"premium_universities_count":17004,"monthly_visitors":"84 million","monthly_visitor_count":84452562,"monthly_visitor_count_in_millions":84,"user_count":177844938,"paper_count":28977440,"paper_count_in_millions":28,"page_count":432000000,"page_count_in_millions":432,"pdf_count":16500000,"pdf_count_in_millions":16};
+    window.Aedu.serverRenderTime = new Date(1647900260000);
+    window.Aedu.isUsingCssV1 = false;
+    window.Aedu.enableLocalization = true
+
+    window.Aedu.serviceAvailability = {
+      status: {"redshift":"on","attention_db":"on","bibliography_db":"on","contacts_db":"on","email_db":"on","news_db":"on","notifications_db":"on","mentions_db":"on","errors_redis":"on"},
+      serviceEnabled: function(service) {
+        return this.status[service] === "on";
+      },
+      readEnabled: function(service) {
+        return this.serviceEnabled(service) || this.status[service] === "read_only";
+      },
+    };
+
+
+  </script>
+
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <![endif]-->
+
+    <link rel="stylesheet" media="all" href="//a.academia-assets.com/assets/shared_minimal-0c5f47ce3c271ec89150ffd667c983d789b4b3c4c507aebecd34972bf114af7e.css" />
+
+
+    <script src="//a.academia-assets.com/assets/webpack_bundles/runtime-bundle-85e165765ce1adf0cec7ea78829eef6dcd87b26bc4da5c258ced5b5e731c7a2b.js"></script>
+
+     <script src="//a.academia-assets.com/assets/webpack_bundles/webpack_libraries_and_infrequently_changed.wjs-bundle-11756bd0392fad777eb5c86386f75d9945913e4932426de863df6de84003a7b9.js"></script>
+
+    <script src="//a.academia-assets.com/assets/webpack_bundles/core_webpack.wjs-bundle-0b359fc4c680cee39aa33d46d8339daf35ecb506530cdff3e47299020f168f29.js"></script>
+
+  <!--[if lt IE 10]>
+    <script src="//a.academia-assets.com/assets/ie9_polyfills-ccb518f0850bf8f4a890a1be8d6c94fae535ed9d8e753c88bd1b054d85c96929.js"></script>
+  <![endif]-->
+
+  <script src="//a.academia-assets.com/assets/webpack_bundles/sentry.wjs-bundle-94dc96ea8910ea7151d6b72040e134021e0ccffcbf443b3f773d98f8ae3affe8.js"></script>
+
+    <script>
+      jade.split = window.Aedu.Split;
+
+      jade.helpers = window.$h;
+      jade._ = window._;
+      jade.Modernizr = window.Modernizr;
+    </script>
+
+  <!-- Google Tag Manager -->
+<script id="tag-manager-head-root">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5G9JF7Z');</script>
+<!-- End Google Tag Manager -->
+
+
+  <script type="text/javascript">
+  // TODO(jacob): This should be defined, may be rare load order problem.
+  // Checking if null is just a quick fix, will default to en if unset.
+  // Better fix is to run this immedietely after I18n is set.
+  if (window.I18n != null) {
+    I18n.defaultLocale = "en";
+    I18n.locale = "en";
+    I18n.fallbacks = true;
+  }
+</script>
+
+
+  
+
+
+
+
+      <link rel="canonical" href="https://www.academia.edu/" />
+
+  </head>
+<!--[if gte IE 9 ]>
+  <body class='ie ie9 c-home a-show logged_out'>
+<![endif]-->
+<!--[if !(IE) ]><!-->
+  <body class='c-home a-show logged_out'>
+<!--<![endif]-->
+
+
+
+      
+<div id="fb-root"></div>
+<script type="text/javascript">
+window.fbAsyncInit = function () {
+    FB.init({
+        appId: '2369844204',
+        version: 'v8.0',
+        status: true,
+        cookie: true,
+        xfbml: true
+    });
+
+    if (window.InitFacebook) {
+        window.InitFacebook();
+    } else {
+        window.academiaAuthReadyFacebook = true;
+    }
+};
+
+window.fbAsyncLoad = function() {
+    if (window.FB) {
+        return;
+    }
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+}
+
+if (!window.defer_facebook) {
+    window.fbAsyncLoad();
+} else {
+    setTimeout(function(){
+        window.fbAsyncLoad();
+    }, 5000);
+}
+</script>
+
+  
+<div id="google-root">
+</div>
+<script type="text/javascript">
+window.loadGoogle = function() {
+    if (window.InitGoogle) {
+        window.InitGoogle('331998490334-rsn3chp12mbkiqhl6e7lu2q0mlbu0f1b');
+    } else {
+        window.GoogleClientID = '331998490334-rsn3chp12mbkiqhl6e7lu2q0mlbu0f1b';
+    }
+};
+
+window.googleAsyncLoad = function() {
+    if (window.gapi) {
+        return;
+    }
+    (function(d) {
+        var js;
+        var id = 'google-jssdk';
+        var ref = d.getElementsByTagName('script')[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+        js.src = "https://apis.google.com/js/api:client.js?onload=loadGoogle"
+        ref.parentNode.insertBefore(js, ref);
+    }(document));
+}
+
+if (!window.defer_google) {
+    window.googleAsyncLoad();
+} else {
+    setTimeout(function(){
+        window.googleAsyncLoad();
+    }, 5000);
+}
+</script>
+
+
+  <div id="tag-manager-body-root">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5G9JF7Z"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Event listeners for analytics -->
+  <script>
+    window.addEventListener('load', function() {
+      if (document.querySelector('input[name="commit"]')) {
+        document.querySelector('input[name="commit"]').addEventListener('click', function() {
+          ga('send', 'event', 'button', 'click', 'Log In');
+        })
+      }
+    });
+  </script>
+</div>
+
+
+  <script>var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "26766707" });
+(function() {
+  var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+  s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+  el.parentNode.insertBefore(s, el);
+})();</script><img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=26766707&amp;cv=2.0&amp;cj=1" style="position: absolute; visibility: hidden" />
+
+  
+  <div class='DesignSystem'>
+    <a class='u-showOnFocus' href='#site'>
+      Skip to main content
+    </a>
+  </div>
+
+  <div id="upgrade_ie_banner" style="display: none;"><p>Academia.edu no longer supports Internet Explorer.</p><p>To browse Academia.edu and the wider internet faster and more securely, please take a few seconds to&nbsp;<a href="https://www.academia.edu/upgrade-browser">upgrade your browser</a>.</p></div><script>// Show this banner for all versions of IE
+if (!!window.MSInputMethodContext || /(MSIE)/.test(navigator.userAgent)) {
+  document.getElementById('upgrade_ie_banner').style.display = 'block';
+}</script>
+
+
+
+    <div class="DesignSystem"></div>
+
+  <div id='site' class='fixed'>
+
+    <div id="content" class="clearfix">
+        <div class="DesignSystem" style="overflow-x: hidden;"><div class="container"><div class="new-lohp-header new-lohp-header-padding row"><div class="col-xs-12"><div class="u-floatLeft"><img class="Logo new-lohp-logo" onerror="this.src=&#39;//a.academia-assets.com/images/academia-logo-redesign-2015.png&#39;" style="width: 127px;" src="//a.academia-assets.com/assets/academia-logo-redesign-2015-45ae31566d1421084023fae986d81b06469982455d4be698a5226a904e7836a9.svg" /></div><div class="u-floatRight"><a class="Button new-lohp-button new-lohp-button-inverse header-login-button" href="/login?lhpb=tp&amp;lhps=ath" style="z-index: 1;">Login</a></div></div></div><div class="new-lohp-header new-lohp-header-padding fixed-floating hidden-xs hidden row" id="landing-desktop-floater"><div class="col-xs-12"><div class="u-floatLeft"><img class="Logo new-lohp-logo" onerror="this.src=&#39;//a.academia-assets.com/images/academia-logo-redesign-2015.png&#39;" style="width: 127px;" src="//a.academia-assets.com/assets/academia-logo-redesign-2015-45ae31566d1421084023fae986d81b06469982455d4be698a5226a904e7836a9.svg" /></div><div class="u-floatRight"><a class="Button floaty-header-signup-button new-lohp-button Button--lg Button--block u-taCenter" href="/signup?lhpb=fh&amp;lhps=ath">Sign Up</a><a class="Button header-login-button floaty-header-login-button new-lohp-button new-lohp-button-inverse" href="/login?lhpb=fh&amp;lhps=ath" style="z-index: 1;">Login</a></div></div></div><div class="new-lohp-header fixed-floating hidden-lg hidden-md hidden-sm hidden" id="landing-mobile-floater"><a class="Button floaty-footer-signup-button new-lohp-button Button--lg Button--block u-taCenter" href="/signup?lhpb=ff&amp;lhps=ath">Sign Up</a></div><div class="new-lohp-container"><div class="landing-hero new-lohp-header-padding row"><img class="landing-hero-image hidden-xs" src="//a.academia-assets.com/images/landing/faculty-desktop.png" /><div class="landing-mobile-image-container hidden-lg hidden-md hidden-sm"><img class="landing-hero-image" src="//a.academia-assets.com/images/landing/faculty-mobile.png" /></div><div class="headline-col col-xs-12 col-sm-7 col-lg-5"><h1 class="Headline text-off-black">Share your work with colleagues<br class="hidden-xs hidden-sm" /> and the world</h1><div class="row"><div class="col-xs-12 col-sm-6"><a class="Button top-hero-signup-button new-lohp-button Button--lg Button--block u-taCenter" href="/signup?lhpb=tp&amp;lhps=ath">Sign Up</a></div></div></div><div class="list-group-col col-xs-12 col-sm-5 col-lg-4"><div class="list-group-top-spacer hidden-lg"></div><ul class="list-group fat-list-group"><li class="list-group-item fat-list-group-item"><div class="row flex-v-center"><div class="list-group-icon-col col-xs-2"><img class="list-group-icon" src="//a.academia-assets.com/images/landing/icon-blue-user.svg" /></div><div class="list-group-label col-xs-6 u-fw400 text-secondary-grey nowrap">Registered Users</div><div class="list-group-number col-xs-4 text-right u-fw700 text-off-black">177m+</div></div></li><li class="list-group-item fat-list-group-item"><div class="row flex-v-center"><div class="list-group-icon-col col-xs-2"><img class="list-group-icon" src="//a.academia-assets.com/images/landing/icon-gold-paper.svg" /></div><div class="list-group-label col-xs-6 u-fw400 text-secondary-grey nowrap">Uploaded Papers</div><div class="list-group-number col-xs-4 text-right u-fw700 text-off-black">28m+</div></div></li><li class="list-group-item fat-list-group-item"><div class="row flex-v-center"><div class="list-group-icon-col col-xs-2"><img class="list-group-icon" src="//a.academia-assets.com/images/landing/icon-green-calendar.svg" /></div><div class="list-group-label col-xs-6 u-fw400 text-secondary-grey nowrap">Visits per Month</div><div class="list-group-number col-xs-4 text-right u-fw700 text-off-black">84m+</div></div></li></ul></div></div><div class="benefits-section row u-taCenter flex-h-center"><h2 class="benefits-headline text-off-black">Join&nbsp;177 million academics and researchers</h2><div class="benefit-box-container"><div class="benefit-box"><div class="benefit-image-container"><img class="bounded-image" loading="lazy" src="//a.academia-assets.com/images/landing/grow-audience.svg" /></div><div class="benefit-text-box"><h6 class="benefit-text u-textUppercase u-fw500 deci-em-spacing">Grow Your Audience</h6><h2 class="benefit-box-headline benefit-text u-fw500 u-lineHeight1_2 text-off-black">Build your success and track your impact</h2><p class="benefit-text u-fs16 text-secondary-grey">Share your work with other academics, grow your audience, and track your impact on your field with our robust analytics.</p></div></div><div class="benefit-box"><div class="benefit-image-container"><img class="bounded-image" loading="lazy" src="//a.academia-assets.com/images/landing/accelerate-research.svg" /></div><div class="benefit-text-box"><h6 class="benefit-text u-textUppercase u-fw500 deci-em-spacing">Accelerate Your Research</h6><h2 class="benefit-box-headline benefit-text u-fw500 u-lineHeight1_2 text-off-black">Streamline your discovery of relevant research</h2><p class="benefit-text u-fs16 text-secondary-grey">Get access to&nbsp;28+ million research papers and stay informed with important topics through courses.</p></div></div></div></div><div class="featured-tool-section row"><div class="row u-taCenter flex-h-center"><h2 class="featured-tool-title u-lineHeight1_2 text-off-black-alt">Unlock the most powerful tools with Academia Premium</h2><a class="Button new-lohp-button Button--lg upgrade-now-button" href="/signup?lhpb=su&amp;lhps=ath&amp;post_signup_redirect_url=https%3A%2F%2Fwww.academia.edu%2Fupgrade%3Ffeature%3DDEFAULT%26trigger%3Dlohp">Sign Up and Upgrade to Premium</a></div><div class="row featured-tool-container flex-h-center"><div class="featured-tool-row row"><div class="featured-tool-graphic-col col-xs-12 col-sm-6 col-md-7"><img class="bounded-image" loading="lazy" src="//a.academia-assets.com/images/landing/impact-example.png" /></div><div class="featured-tool-text-col col-xs-12 col-sm-6 col-md-5"><div class="featured-tool-box"><h3 class="u-lineHeight1_2 text-off-black-alt">Share your work, track your impact, and grow your audience</h3><p class="u-fs16 text-secondary-grey">Get notified when other academics mention you or cite your papers. Track your impact with in-depth analytics and network with members of your field.</p><ul class="checkmark-ul text-secondary-grey"><li class="u-fs16">Mentions and Citations Tracking</li><li class="u-fs16">Advanced Analytics</li><li class="u-fs16">Publishing Tools</li></ul></div></div></div><div class="featured-tool-row row"><div class="featured-tool-graphic-col col-xs-12 hidden-sm hidden-md hidden-lg"><img class="bounded-image" loading="lazy" src="//a.academia-assets.com/images/landing/research-example.png" /></div><div class="featured-tool-text-col col-xs-12 col-sm-6 col-md-5"><div class="featured-tool-box"><h3 class="u-lineHeight1_2 text-off-black-alt">Work faster and smarter with advanced research discovery tools</h3><p class="u-fs16 text-secondary-grey">Search the full text and citations of our millions of papers. Download groups of related papers to jumpstart your research. Save time with detailed summaries and search alerts.</p><ul class="checkmark-ul text-secondary-grey"><li class="u-fs16">Advanced Search</li><li class="u-fs16">PDF Packages of&nbsp;37 papers</li><li class="u-fs16">Summaries and Search Alerts</li></ul></div></div><div class="featured-tool-graphic-col hidden-xs col-sm-6 col-md-7"><img class="bounded-image" loading="lazy" src="//a.academia-assets.com/images/landing/research-example.png" /></div></div></div></div><div class="testimonial-section row"><img class="testimonial-background-image hidden-xs" src="//a.academia-assets.com/images/landing/testimonial-background.svg" /><div class="testimonial-column-container row"><div class="testimonial-column t-col-left col-lg-4 col-sm-6 col-xs-12 flex-h-center"><h2 class="real-stories-title testimonial-column-item u-taCenter u-lineHeight1_2 text-off-black">Real stories from real people</h2><div class="testimonial-card testimonial-column-item flex-h-center"><div class="testimonial-top flex-h-center"><h6 class="u-textUppercase u-taCenter deci-em-spacing">Author</h6><img class="testimonial-portrait" loading="lazy" src="//a.academia-assets.com/images/landing/t-joseph.png" /><div class="name-label u-fw700">Joseph Jordania</div><div class="name-label">University of Melbourne</div><div class="name-label">Faculty Member</div></div><img class="testimonial-divider" loading="lazy" src="//a.academia-assets.com/images/landing/t-divider.svg" /><div class="testimonial-bottom"><div class="story-text u-lineHeight1_2">“Academia Letters has the potential to become a great hit, and a great mover of science towards faster, more open, and more progressive ways of scholarship.”</div></div></div><div class="testimonial-card testimonial-column-item flex-h-center hidden-sm hidden-md hidden-lg"><div class="testimonial-top flex-h-center"><h6 class="u-textUppercase u-taCenter deci-em-spacing">Author</h6><img class="testimonial-portrait" loading="lazy" src="//a.academia-assets.com/images/landing/t-elana.png" /><div class="name-label u-fw700">Elana Gomel</div><div class="name-label">Tel Aviv University</div><div class="name-label">Faculty Member</div></div><img class="testimonial-divider" loading="lazy" src="//a.academia-assets.com/images/landing/t-divider.svg" /><div class="testimonial-bottom"><div class="story-text u-lineHeight1_2">“Publishing with Academia Letters was great. I had this short essay and I couldn&#39;t set the time aside to work on it. This is a great opportunity--it will go out there and people will read it.”</div></div></div></div><div class="testimonial-column t-col-mid col-lg-4 col-sm-6 hidden-xs flex-h-center"><div class="testimonial-card testimonial-column-item flex-h-center"><div class="testimonial-top flex-h-center"><h6 class="u-textUppercase u-taCenter deci-em-spacing">Author</h6><img class="testimonial-portrait" loading="lazy" src="//a.academia-assets.com/images/landing/t-elana.png" /><div class="name-label u-fw700">Elana Gomel</div><div class="name-label">Tel Aviv University</div><div class="name-label">Faculty Member</div></div><img class="testimonial-divider" loading="lazy" src="//a.academia-assets.com/images/landing/t-divider.svg" /><div class="testimonial-bottom"><div class="story-text u-lineHeight1_2">“Publishing with Academia Letters was great. I had this short essay and I couldn&#39;t set the time aside to work on it. This is a great opportunity--it will go out there and people will read it.”</div></div></div><div class="testimonial-card testimonial-column-item flex-h-center"><div class="testimonial-top flex-h-center"><h6 class="u-textUppercase u-taCenter deci-em-spacing">Author</h6><img class="testimonial-portrait" loading="lazy" src="//a.academia-assets.com/images/landing/t-dennis.png" /><div class="name-label u-fw700">Dennis Klass</div><div class="name-label">Webster University</div><div class="name-label">Religious Studies Emeritus</div></div><img class="testimonial-divider" loading="lazy" src="//a.academia-assets.com/images/landing/t-divider.svg" /><div class="testimonial-bottom"><div class="story-text u-lineHeight1_2">“I know more about who is using my ideas now than I ever have before, thanks to Mentions and Readers on Academia.”</div></div></div></div><div class="testimonial-column t-col-right col-lg-4 hidden-md hidden-sm hidden-xs flex-h-center"><div class="testimonial-spacer"></div><div class="testimonial-card testimonial-column-item flex-h-center"><div class="testimonial-top flex-h-center"><h6 class="u-textUppercase u-taCenter deci-em-spacing">Author</h6><img class="testimonial-portrait" loading="lazy" src="//a.academia-assets.com/images/landing/t-orsat.png" /><div class="name-label u-fw700">Orsat Ligorio</div><div class="name-label">University of Belgrade</div><div class="name-label">Faculty of Philosophy, Classics</div></div><img class="testimonial-divider" loading="lazy" src="//a.academia-assets.com/images/landing/t-divider.svg" /><div class="testimonial-bottom"><div class="story-text u-lineHeight1_2">“I was thrilled to discover through Academia&#39;s Premium features my work is being utilized by scholars in a half dozen some countries.”</div></div></div><div class="testimonial-card testimonial-column-item flex-h-center"><div class="testimonial-top flex-h-center"><h6 class="u-textUppercase u-taCenter deci-em-spacing">Author</h6><img class="testimonial-portrait" loading="lazy" src="//a.academia-assets.com/images/landing/t-paul-fm.png" /><div class="name-label u-fw700">Paul J. du Plessis</div><div class="name-label">University of Edinburgh</div><div class="name-label">School of Law</div><div class="name-label">Faculty Member</div></div><img class="testimonial-divider" loading="lazy" src="//a.academia-assets.com/images/landing/t-divider.svg" /><div class="testimonial-bottom"><div class="story-text u-lineHeight1_2">“Academia&#39;s Mentions feature found papers citing me that Google Scholar had missed. I am adding this to my tenure case.”</div></div></div></div></div><h3 class="university-title u-fw700 u-taCenter text-tertiary-grey">Used by academics at over&nbsp;17,000 universities</h3><div class="university-container"><div class="uni-logo-row row hidden-xs"><img class="uni-logo" loading="lazy" src="//a.academia-assets.com/images/landing/uni-logo-oxford.svg" /><img class="uni-logo" loading="lazy" src="//a.academia-assets.com/images/landing/uni-logo-mit.svg" /><img class="uni-logo" loading="lazy" src="//a.academia-assets.com/images/landing/uni-logo-berkeley.svg" /><img class="uni-logo uni-logo-nyu" loading="lazy" src="//a.academia-assets.com/images/landing/uni-logo-nyu.svg" /></div><div class="uni-logo-double-rows hidden-sm hidden-md hidden-lg"><div class="uni-logo-row uni-logo-row-1"><img class="uni-logo" loading="lazy" src="//a.academia-assets.com/images/landing/uni-logo-oxford.svg" /><img class="uni-logo" loading="lazy" src="//a.academia-assets.com/images/landing/uni-logo-mit.svg" /></div><div class="uni-logo-row uni-logo-row-2"><img class="uni-logo" loading="lazy" src="//a.academia-assets.com/images/landing/uni-logo-berkeley.svg" /><img class="uni-logo uni-logo-nyu" loading="lazy" src="//a.academia-assets.com/images/landing/uni-logo-nyu.svg" /></div></div></div></div><div class="mobile-application-hero row"><div class="mobile-phone-image-col col-xs-12 hidden-sm hidden-md hidden-lg"><img class="phone-application-image" loading="lazy" src="//a.academia-assets.com/images/landing/phone-application-image.png" /></div><div class="mobile-application-text-col col-xs-12 col-sm-6"><h2 class="u-lineHeight1_2 text-off-black">The world's largest open access library in your pocket</h2><p class="text-off-black-alt">Academia.edu has over&nbsp;28 million academic papers to explore from by millions of researchers around the world. Access your Academia.edu account whenever and wherever your curiosity strikes.</p><div class="mobile-store-button-container row"><div class="mobile-store-button-col col-xs-12 col-lg-5"><a href="/install-mobile-app-link/lohp/web"><img class="apple-app-store-button" loading="lazy" src="//a.academia-assets.com/images/landing/button-apple-app-store.png" /></a></div><div class="mobile-store-button-col col-xs-12 col-lg-7"><a href="/install-mobile-app-link/lohp/web"><img class="google-play-store-button" loading="lazy" src="//a.academia-assets.com/images/landing/button-google-play-store.png" /></a></div></div></div><div class="mobile-phone-image-col hidden-xs col-sm-6"><img class="phone-application-image" loading="lazy" src="//a.academia-assets.com/images/landing/phone-application-image.png" /></div></div><div class="closing-hero row"><div class="closing-hero-inner row"><div class="c-pair-col col-xs-12 col-sm-6"><img class="landing-closing-portrait" src="//a.academia-assets.com/images/landing/colleague-pair.png" /></div><div class="closing-hero-headline-col col-xs-12 col-sm-6"><h1 class="Headline text-off-black-alt">Get started and find the best quality research</h1><div class="row hidden-xs"><div class="bottom-hero-button-col col-xs-12"><a class="bottom-hero-signup-button Button new-lohp-button Button--lg Button--block u-taCenter" href="/signup?lhpb=bt&amp;lhps=ath">Sign Up</a></div></div></div></div></div></div><div class="row" style="margin-top:auto;"><div class="col-xs-12"><div class="Footer hidden-xs u-taCenter"><div class="bootstrap" id="footer"><div class="footer-content clearfix text-center padding-top-7x" style="width:100%;"><ul class="footer-links-secondary footer-links-wide list-inline margin-bottom-1x"><li><a href="https://www.academia.edu/about">About</a></li><li><a href="https://www.academia.edu/press">Press</a></li><li><a rel="nofollow" href="https://medium.com/academia">Blog</a></li><li><a href="https://www.academia.edu/Directory/People">People</a></li><li><a href="https://www.academia.edu/Directory/Papers">Papers</a></li><li><a href="https://www.academia.edu/letters/about">Academia Letters</a></li><li><a rel="nofollow" href="https://www.academia.edu/Jobs">Job Board</a></li><li><a rel="nofollow" href="https://www.academia.edu/hiring"><svg style="width: 13px; height: 13px; position: relative; bottom: -1px;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="briefcase" class="svg-inline--fa fa-briefcase fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"></path></svg>&nbsp;<strong>We're Hiring!</strong></a></li><li><a rel="nofollow" href="https://support.academia.edu/"><svg style="width: 12px; height: 12px; position: relative; bottom: -1px;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="question-circle" class="svg-inline--fa fa-question-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zM262.655 90c-54.497 0-89.255 22.957-116.549 63.758-3.536 5.286-2.353 12.415 2.715 16.258l34.699 26.31c5.205 3.947 12.621 3.008 16.665-2.122 17.864-22.658 30.113-35.797 57.303-35.797 20.429 0 45.698 13.148 45.698 32.958 0 14.976-12.363 22.667-32.534 33.976C247.128 238.528 216 254.941 216 296v4c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12v-1.333c0-28.462 83.186-29.647 83.186-106.667 0-58.002-60.165-102-116.531-102zM256 338c-25.365 0-46 20.635-46 46 0 25.364 20.635 46 46 46s46-20.636 46-46c0-25.365-20.635-46-46-46z"></path></svg>&nbsp;<strong>Help Center</strong></a></li></ul><ul class="footer-links-tertiary list-inline margin-bottom-1x"><li class="small">Find new research papers in:</li><li class="small"><a href="https://www.academia.edu/Documents/in/Physics">Physics</a></li><li class="small"><a href="https://www.academia.edu/Documents/in/Chemistry">Chemistry</a></li><li class="small"><a href="https://www.academia.edu/Documents/in/Biology">Biology</a></li><li class="small"><a href="https://www.academia.edu/Documents/in/Health_Sciences">Health Sciences</a></li><li class="small"><a href="https://www.academia.edu/Documents/in/Ecology">Ecology</a></li><li class="small"><a href="https://www.academia.edu/Documents/in/Earth_Sciences">Earth Sciences</a></li><li class="small"><a href="https://www.academia.edu/Documents/in/Cognitive_Science">Cognitive Science</a></li><li class="small"><a href="https://www.academia.edu/Documents/in/Mathematics">Mathematics</a></li><li class="small"><a href="https://www.academia.edu/Documents/in/Computer_Science">Computer Science</a></li></ul></div></div><div class="DesignSystem" id="credit" style="width:100%;"><ul class="u-pl0x footer-links-legal list-inline"><li><a rel="nofollow" href="https://www.academia.edu/terms">Terms</a></li><li><a rel="nofollow" href="https://www.academia.edu/privacy">Privacy</a></li><li><a rel="nofollow" href="https://www.academia.edu/copyright">Copyright</a></li><li>Academia &copy;2022</li></ul></div><script>
+//<![CDATA[
+window.detect_gmtoffset = true;
+window.Academia && window.Academia.set_gmtoffset && Academia.set_gmtoffset('/gmtoffset');
+//]]>
+</script></div><div class="Footer visible-xs"><div class="u-fs14 u-fw400 u-taCenter u-displayFlex u-justifyContentCenter u-mb5x"><div class="u-mh2x"><a rel="nofollow" class="u-tcGrayDarkest" href="https://www.academia.edu/about">About</a></div><div class="u-mh2x"><a class="u-tcGrayDarkest" href="https://www.academia.edu/press">Press</a></div><div class="u-displayFlex u-justifyContentCenter u-mh2x"><a rel="nofollow" class="u-tcGrayDarkest" href="https://www.academia.edu/hiring"><i class="fa fa-briefcase u-pr1x"></i>We're Hiring!</a></div><div class="u-displayFlex u-justifyContentCenter u-mh2x"><a rel="nofollow" class="u-tcGrayDarkest" href="https://support.academia.edu/"><i class="fa fa-question-circle u-pr1x"></i>Help</a></div></div></div></div></div></div></div><script>if (window.performance && window.performance.measure) {
+  window.performance.mark("FMP");
+  window.performance.measure(
+      "Time To First Meaningful Paint",
+      "requestStart",
+      "FMP"
+    );
+  window.sendUserTiming("Time To First Meaningful Paint");
+}</script><div data-auto_select="false" data-client_id="331998490334-rsn3chp12mbkiqhl6e7lu2q0mlbu0f1b" data-landing_url="https://www.academia.edu/" data-login_uri="https://www.academia.edu/registrations/google_one_tap" data-moment_callback="onGoogleOneTapEvent" id="g_id_onload"></div><script>function onGoogleOneTapEvent(event) {
+  var momentType = event.getMomentType();
+  var momentReason = null;
+
+  if (event.isNotDisplayed()) {
+    momentReason = event.getNotDisplayedReason();
+  } else if (event.isSkippedMoment()) {
+    momentReason = event.getSkippedReason();
+  } else if (event.isDismissedMoment()) {
+    momentReason = event.getDismissedReason();
+  }
+
+  Aedu.arbitraryEvents.write('GoogleOneTapEvent', {
+    moment_type: momentType,
+    moment_reason: momentReason,
+  });
+}</script><script src="https://accounts.google.com/gsi/client" async defer></script>  <script>$(document).ready(function(){
+  var $dismissible = $(".dismissible_banner");
+  $dismissible.click(function(ev) {
+    $dismissible.hide();
+  });
+});</script>
+  
+    </div>
+
+    
+      <div class="DesignSystem"></div>
+
+    <div id='overlay_background'></div>
+    <div id='bootstrap-modal-container' class='bootstrap'></div>
+    <div id='ds-modal-container' class='bootstrap DesignSystem'></div>
+
+    <div id='full-screen-modal'></div>
+
+  </div>
+
+
+
+  <script src="//a.academia-assets.com/assets/webpack_bundles/logged_out_home.wjs-bundle-e0ca23b8b1305c3c01d7584a21766335a88f0c8a08bd64423b41045a58a3a7fa.js"></script>
+  
+
+
+
+
+
+  </body>
+</html>
+
