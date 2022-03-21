@@ -107,7 +107,7 @@ his course materials (although any errors are mine).
     * [Protecting Against HSTS Abuse](https://webkit.org/blog/8146/protecting-against-hsts-abuse/)
     * [HTTP Public Key Pinning (HPKP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Public_Key_Pinning)
     * [Certificate Transparency](https://tools.ietf.org/html/rfc6962)
-    * [Class slides](https://web.stanford.edu/class/cs253/lectures/Lecture%2012.pdf)
+    * [Class slides](slides/stark-palmer-https-2019.pdf)
 
 * Week 10 - March 28 - Authentication
     * [Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
