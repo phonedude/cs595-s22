@@ -18,7 +18,7 @@ All urls and http responses are available for viewing in the frameable folder at
 #### Extra credit: Week 5 lecture, slide 64 has a literary reference in its title. To what work does that reference refer?
 
 #### Framing Results Table
-The column Frameable refers to the ability to frame the url within an iframe directly. The Server Frameable shows which url's that are not frameable were able to be framed through the PHP server described in the sctra credit section.
+The column Frameable refers to the ability to frame the url within an iframe directly. The Server Frameable shows which url's that are not frameable were able to be framed through the PHP server described in the extra credit section.
 |URL                   |Frameable|Server Frameable|
 |----------------------|---------|----------------|
 |4shared.com           |y        |                |
