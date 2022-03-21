@@ -1,0 +1,45 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 27 Feb 2022 20:34:38 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sun, 27 Feb 2022 21:34:38 GMT
+Location: https://sendspace.com/
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6lbwv0qDk5Lnv5t%2B%2BEM444X%2F78y8uHjg3q8KDDz1O47O4ofKjulfDQr4PlWIluCMzH4ybHQu0Org3DkJuu1lGl6JzRA2xaIZrtTq7zL8ZYfTXbmMgDr1L8z762eKR2Js8WFGfBQjo23TWBpD"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6e4431ef0e45586c-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 301 
+date: Sun, 27 Feb 2022 20:34:38 GMT
+content-type: text/html
+location: https://www.sendspace.com/
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WotUSnCSr%2FpHRDZN%2FoB4bj63AeOOa0t39rFPaxjsrbgWrgm7EILbqs5pdEYkUiljxDXFimv7cuiWJadGAOX2cNjBa3nyD79mT%2BwkQjBMSQCUXbFEH%2B6XmjRoOKw9V3C%2B6qzNU8GW%2BmebDJ%2BH"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server: cloudflare
+cf-ray: 6e4431f00fc25a82-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Sun, 27 Feb 2022 20:34:39 GMT
+content-type: text/html; charset=UTF-8
+set-cookie: SID=d85imqfnd2io9l7j3o2dir0197; path=/; domain=.sendspace.com
+set-cookie: ssui=0aeb3c6b7c449cc4de949ece342c1acd; expires=Fri, 26-Feb-2027 20:38:55 GMT; Max-Age=157680000; path=/; domain=.sendspace.com
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+expires: 0
+pragma: no-cache
+last-modified: Sun, 27 Feb 2022 20:38:55 GMT
+cache-control: no-cache,no-store,max-age=0,s-maxage=0,must-revalidate
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Roe2McHizmx0l5YTOPM66MUortK%2F3M120EPCMQQF9sBLv89BAV4Lt2xtXv7EGrNPyIi9nHpMQgPhFlpQhCOrEvyFno8iu%2BwWMbv4M6BkQJiJ1f9ZGzp%2FmeUM3KoLIq2Bb%2FlajrYVqti7q1zOUvRwPw%3D%3D"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server: cloudflare
+cf-ray: 6e4431f32f467fee-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

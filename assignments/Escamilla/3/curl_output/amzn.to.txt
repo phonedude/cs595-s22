@@ -1,0 +1,35 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 27 Feb 2022 20:31:28 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 0
+Set-Cookie: anon_u=cHN1X181MjhiYTExNS1jZGFkLTQ2NzYtODk0Mi1kMzY0MGYyNTE5NWU=|1645993888|75c99f5a25b5671bd4c5fd3412531fb720cb650b; Domain=bitly.com; expires=Fri, 26 Aug 2022 20:31:28 GMT; httponly; Path=/; secure
+Strict-Transport-Security: max-age=1209600
+Location: http://www.amazon.com/
+Pragma: no-cache
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-Frame-Options: DENY
+P3p: CP="CAO PSA OUR"
+Via: 1.1 google
+
+HTTP/1.1 307 Temporary Redirect
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.amazon.com/
+Date: Sun, 27 Feb 2022 20:31:28 GMT
+Connection: keep-alive
+
+HTTP/2 503 
+server: Server
+content-type: text/html
+content-length: 1203
+x-amz-rid: XVX9QJ61T6BT4W2VNPW7
+last-modified: Fri, 03 Dec 2021 19:33:54 GMT
+etag: "a6f-5d242fcc50c80-gzip"
+accept-ranges: bytes
+content-encoding: gzip
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+permissions-policy: interest-cohort=()
+date: Sun, 27 Feb 2022 20:31:29 GMT
+vary: Accept-Encoding
+

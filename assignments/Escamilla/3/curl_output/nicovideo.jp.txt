@@ -1,0 +1,22 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 27 Feb 2022 20:34:20 GMT
+Server: Apache
+Location: https://www.nicovideo.jp/
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 200 OK
+Date: Sun, 27 Feb 2022 20:34:21 GMT
+Server: Apache
+x-niconico-authflag: 0
+Set-Cookie: nicosid=1645994061.2131309964; expires=Wed, 25-Feb-2032 20:34:21 GMT; Max-Age=315360000; path=/; domain=.nicovideo.jp
+X-niconico-sid: 1645994061.2131309964
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: frame-ancestors 'none'
+X-Frame-Options: SAMEORIGIN
+Access-Control-Allow-Credentials: true
+Connection: close
+Content-Type: text/html; charset=UTF-8
+Content-Language: ja
+

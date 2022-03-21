@@ -1,0 +1,46 @@
+HTTP/1.1 301 Moved Permanently
+Server: Server
+Date: Sun, 27 Feb 2022 20:31:27 GMT
+Content-Type: text/html
+Content-Length: 179
+Connection: keep-alive
+Location: https://amazon.es/
+
+HTTP/1.1 301 Moved Permanently
+Server: Server
+Date: Sun, 27 Feb 2022 20:31:27 GMT
+Content-Type: text/html
+Content-Length: 179
+Connection: keep-alive
+Location: https://www.amazon.es/
+Permissions-Policy: interest-cohort=()
+
+HTTP/2 405 
+content-type: text/html;charset=UTF-8
+content-length: 0
+server: Server
+date: Sun, 27 Feb 2022 20:31:28 GMT
+x-amz-rid: 98JWCXSWD93GVX8AVR5Q
+set-cookie: session-id=-; path=/; domain=.www.amazon.es; expires=Sat, 27-Feb-2010 20:31:28 GMT
+set-cookie: session-id-time=-; path=/; domain=.www.amazon.es; expires=Sat, 27-Feb-2010 20:31:28 GMT
+set-cookie: session-token=-; path=/; domain=.www.amazon.es; expires=Sat, 27-Feb-2010 20:31:28 GMT
+set-cookie: ubid-acbes=-; path=/; domain=.www.amazon.es; expires=Sat, 27-Feb-2010 20:31:28 GMT
+set-cookie: at-acbes=-; path=/; domain=.www.amazon.es; expires=Sat, 27-Feb-2010 20:31:28 GMT
+set-cookie: lc-acbes=-; path=/; domain=.www.amazon.es; expires=Sat, 27-Feb-2010 20:31:28 GMT
+set-cookie: x-acbes=-; path=/; domain=.www.amazon.es; expires=Sat, 27-Feb-2010 20:31:28 GMT
+set-cookie: x-wl-uid=-; path=/; domain=.www.amazon.es; expires=Sat, 27-Feb-2010 20:31:28 GMT
+set-cookie: sess-at-acbes=-; path=/; domain=.www.amazon.es; expires=Sat, 27-Feb-2010 20:31:28 GMT
+set-cookie: UserPref=-; path=/; domain=.www.amazon.es; expires=Sat, 27-Feb-2010 20:31:28 GMT
+cache-control: no-cache
+pragma: no-cache
+expires: -1
+allow: GET, POST, PUT, DELETE
+vary: Accept-Encoding,User-Agent,Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+x-frame-options: SAMEORIGIN
+permissions-policy: interest-cohort=()
+x-cache: Error from cloudfront
+via: 1.1 cdb7a265f783ce0c07661e9c6820c2c4.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD50-C2
+x-amz-cf-id: rk2e9WVNVeiuCrVtTTX8nJj1nO27nc8BaZyDoIve7iwJuC3rA2KNhA==
+

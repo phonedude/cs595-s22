@@ -1,0 +1,26 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Location: https://github.com/
+
+HTTP/2 200 
+server: GitHub.com
+date: Sun, 27 Feb 2022 20:32:04 GMT
+content-type: text/html; charset=utf-8
+vary: X-PJAX, X-PJAX-Container, Accept-Language, Accept-Encoding, Accept, X-Requested-With
+permissions-policy: interest-cohort=()
+content-language: en-US
+etag: W/"790490b121256ab10b49eeb0f1495bad"
+cache-control: max-age=0, private, must-revalidate
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+x-frame-options: deny
+x-content-type-options: nosniff
+x-xss-protection: 0
+referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
+expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.githubapp.com collector.github.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com wss://alive.github.com github.githubassets.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com collector.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com customer-stories-feed.github.com spotlights-feed.github.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+set-cookie: _gh_sess=DlszHJYV%2FiDXqL7myEi%2BJI8aa%2Ff6z26pPxDlrsJasnVYQuFoJ%2F8sjb8hn70NwtCUI0MLW%2FuKF%2FBwFVBYyid4C1P5caWC43RqnzZ%2FcvfToR4OdWdhtG6yu%2Fj4nkSP3lyszSgToB4q8IouliiWh2a4%2BKQFDyKh2hRNiMls5H6YzzgA1rDFMxzdTkwnuT3304ndgQuGQClq6kPCR6QmGkYX7PFMWrJ7wRq2FHPxrsBNlw4oTDGKWgxepFawv80mz3ISu0X9PsaXPltWOoxiPg5eCw%3D%3D--wFD8Cm7IlTKp3AGE--FXK5clgcPTruT9wzPNLZ7Q%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+set-cookie: _octo=GH1.1.1682627493.1645993928; Path=/; Domain=github.com; Expires=Mon, 27 Feb 2023 20:32:08 GMT; Secure; SameSite=Lax
+set-cookie: logged_in=no; Path=/; Domain=github.com; Expires=Mon, 27 Feb 2023 20:32:08 GMT; HttpOnly; Secure; SameSite=Lax
+accept-ranges: bytes
+x-github-request-id: CF03:2842:127F3DA:1E4807B:621BDFC8
+

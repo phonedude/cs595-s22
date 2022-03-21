@@ -1,0 +1,20 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.21.3
+Date: Sun, 27 Feb 2022 20:32:12 GMT
+Content-Type: text/html
+Content-Length: 169
+Connection: keep-alive
+Location: https://www.jhu.edu/
+
+HTTP/2 200 
+server: Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.2k-fips mod_wsgi/3.4 Python/2.7.5 PHP/7.4.28
+strict-transport-security: max-age=63072000;
+x-powered-by: PHP/7.4.28
+link: <https://www.jhu.edu/wp-json/>; rel="https://api.w.org/"
+link: <https://www.jhu.edu/wp-json/wp/v2/pages/12375>; rel="alternate"; type="application/json"
+link: <https://www.jhu.edu/>; rel=shortlink
+content-type: text/html; charset=UTF-8
+cache-control: max-age=155
+expires: Sun, 27 Feb 2022 20:34:47 GMT
+date: Sun, 27 Feb 2022 20:32:12 GMT
+

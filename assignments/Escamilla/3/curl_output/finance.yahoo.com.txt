@@ -1,0 +1,33 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 27 Feb 2022 20:32:06 GMT
+Server: ATS
+Cache-Control: no-store
+Content-Type: text/html
+Content-Language: en
+Content-Security-Policy: frame-ancestors 'self' https://*.builtbygirls.com https://*.rivals.com https://*.engadget.com https://*.intheknow.com https://*.autoblog.com https://*.techcrunch.com https://*.yahoo.com https://*.aol.com https://*.huffingtonpost.com https://*.oath.com https://*.search.yahoo.com https://*.search.aol.com https://*.search.huffpost.com https://*.onesearch.com https://*.verizonmedia.com https://*.publishing.oath.com https://*.autoblog.com; sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation; report-uri https://csp.yahoo.com/beacon/csp?src=ats&site=finance&region=US&lang=en-US&device=desktop&yrid=97lm5b1h1nnu6&partner=;
+Location: https://finance.yahoo.com/
+Content-Length: 8
+Referrer-Policy: no-referrer-when-downgrade
+Age: 0
+Connection: keep-alive
+
+HTTP/2 404 
+referrer-policy: no-referrer-when-downgrade
+strict-transport-security: max-age=15552000
+x-frame-options: SAMEORIGIN
+content-security-policy: sandbox allow-downloads allow-forms allow-modals allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation allow-presentation;
+content-type: text/html; charset=utf-8
+content-length: 64
+etag: W/"40-YKh66hDlESqeLOhUXoS2pBzN8lk"
+set-cookie: B=7f1520hh1nnu6&b=3&s=le; expires=Sun, 27-Feb-2023 20:32:06 GMT; path=/; domain=.yahoo.com
+date: Sun, 27 Feb 2022 20:32:06 GMT
+x-envoy-upstream-service-time: 9
+server: ATS
+x-envoy-decorator-operation: finance-nodejs--mtls-production-bf1.finance-k8s.svc.yahoo.local:4080/*
+cache-control: max-age=0, private
+expires: -1
+age: 0
+expect-ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+

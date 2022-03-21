@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 27 Feb 2022 20:32:08 GMT
+Server: Apache
+Location: https://gooyaabitemplates.com/
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 406 Not Acceptable
+Date: Sun, 27 Feb 2022 20:32:09 GMT
+Server: Apache
+Last-Modified: Sun, 27 Feb 2022 16:16:39 GMT
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/html; charset=utf-8
+

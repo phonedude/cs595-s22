@@ -1,0 +1,61 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Mon, 21 Feb 2022 08:10:56 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 224
+X-Content-Type-Options: nosniff
+Location: https://nih.gov/
+Cache-Control: max-age=1209600
+Expires: Mon, 07 Mar 2022 08:10:56 GMT
+X-Request-ID: v-cb88e3ea-92ed-11ec-83de-4709ca8d0696
+Age: 563008
+Via: varnish
+X-Cache: HIT
+X-Cache-Hits: 1129605
+Connection: keep-alive
+
+HTTP/2 301 
+server: nginx
+date: Sun, 27 Feb 2022 20:34:24 GMT
+content-type: text/html; charset=iso-8859-1
+content-length: 228
+location: https://www.nih.gov/
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+cache-control: max-age=1209600
+expires: Mon, 07 Mar 2022 08:11:04 GMT
+x-request-id: v-d0c1c200-92ed-11ec-8c08-830466605d16
+age: 562999
+via: varnish
+x-cache: HIT
+x-cache-hits: 1500767
+
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Age: 18358
+Cache-Control: public, max-age=21600
+Content-Language: en
+Content-Length: 69121
+Content-Security-Policy: default-src 'self'; script-src 'unsafe-inline' 'unsafe-eval' *.nih.gov *.googleapis.com *.govdelivery.com *.hatchbuck.com *.youtube.com *.here.com search.usa.gov *.jquery.com *.crazyegg.com *.addthis.com *.addthisedge.com cdn.jsdelivr.net *.google-analytics.com *.moatads.com *.newrelic.com bam.nr-data.net *.feedgrabbr.com *.recaptcha.net *.gstatic.com; style-src 'unsafe-inline' *.nih.gov search.usa.gov *.googleapis.com *.here.com cdn.jsdelivr.net *.feedgrabbr.com; img-src *.nih.gov *.google-analytics.com data:; frame-src *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com *.recaptcha.net; frame-ancestors *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com *.recaptcha.net; child-src *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com *.recaptcha.net; font-src *.nih.gov *.googleapis.com *.gstatic.com *.feedgrabbr.com; connect-src *.nih.gov *.crazyegg.com *.google-analytics.com *.addthis.com stats.g.doubleclick.net bam.nr-data.net; report-uri /report-csp-violation
+Content-Type: text/html; charset=utf-8
+Date: Sun, 27 Feb 2022 20:34:24 GMT
+ETag: W/"1645972400-1"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sun, 27 Feb 2022 14:33:20 GMT
+Link: <https://www.nih.gov/>; rel="canonical",<https://www.nih.gov/>; rel="shortlink"
+Permissions-Policy: interest-cohort=()
+Server: nginx
+Strict-Transport-Security: max-age=31536000
+Vary: Cookie,Accept-Encoding
+Via: varnish
+X-AH-Environment: prod
+X-Cache: HIT
+X-Cache-Hits: 28511
+X-Drupal-Cache: HIT
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 7 (http://drupal.org)
+X-Request-ID: v-e83eb368-97e1-11ec-a435-0f0962a480f6
+X-UA-Compatible: IE=edge,chrome=IE6
+X-XSS-Protection: 1; mode=block
+Connection: keep-alive
+

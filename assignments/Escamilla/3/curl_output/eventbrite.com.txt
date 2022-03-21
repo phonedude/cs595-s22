@@ -1,0 +1,76 @@
+HTTP/1.1 301 MOVED PERMANENTLY
+server: nginx
+date: Sun, 27 Feb 2022 20:32:04 GMT
+content-type: text/html; charset=utf-8
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000 ; includeSubDomains
+location: http://www.eventbrite.com/
+x-ua-compatible: IE=edge
+p3p: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+referrer-policy: strict-origin-when-cross-origin
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+set-cookie: mgrefby=; Domain=.eventbrite.com; expires=Mon, 27-Feb-2023 20:32:04 GMT; httponly; Max-Age=31536000; Path=/; secure; SameSite=None; Secure
+set-cookie: ebEventToTrack=; Domain=.eventbrite.com; expires=Tue, 29-Mar-2022 20:32:04 GMT; httponly; Path=/; secure; SameSite=None; Secure
+set-cookie: SS=AE3DLHRmPvL4KSh9r51fy_Gov8BsBP5AAg; Domain=.eventbrite.com; httponly; Path=/; secure; SameSite=None; Secure
+set-cookie: SP=AGQgbblBkCo4ngZIj4u3enK_-X8ZWamNzxCaRxVWhUNy4OHXZTOkpGKjrGWXjH0FKLOesdJjCq9YieGt42mcdmskoNitO9HkXWyQjJHeu1KkMjz9Hl3HQFtxEwxMkUe9f8uqJuSC7zbrFaFL8zwSBzBceC3rDW3J0mLJbbrLoV4rYyU3H_Hyzlky6g2z8clcR8xqJ9R1VGtVdZYQlCxI3aRyebdWalk-_o_DIztDwnwE7Y8aK6pCnHY; Domain=.eventbrite.com; httponly; Path=/; secure; SameSite=None; Secure
+set-cookie: AN=; Domain=.eventbrite.com; expires=Tue, 29-Mar-2022 20:32:04 GMT; httponly; Path=/; secure; SameSite=None; Secure
+set-cookie: AS=a55d932f-1704-4c85-9c51-2432ed44485f; Domain=.eventbrite.com; httponly; Path=/; secure; SameSite=None; Secure
+set-cookie: mgref=typeins; Domain=.eventbrite.com; expires=Mon, 27-Feb-2023 20:32:04 GMT; httponly; Max-Age=31536000; Path=/; secure; SameSite=None; Secure
+x-varnish: 517293847
+age: 0
+via: 1.1 varnish (Varnish/5.1)
+set-cookie: csrftoken=535242a8980c11ec8a3db753e696d5a0; Domain=.eventbrite.com; Max-Age=31449600; Path=/; secure; SameSite=None; Secure
+connection: close
+
+HTTP/1.1 301 MOVED PERMANENTLY
+server: nginx
+date: Sun, 27 Feb 2022 20:32:04 GMT
+content-type: text/html; charset=utf-8
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000 ; includeSubDomains
+location: https://www.eventbrite.com/
+x-ua-compatible: IE=edge
+p3p: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+referrer-policy: strict-origin-when-cross-origin
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+set-cookie: mgrefby=; Domain=.eventbrite.com; expires=Mon, 27-Feb-2023 20:32:04 GMT; httponly; Max-Age=31536000; Path=/; secure; SameSite=None; Secure
+set-cookie: G=v%3D2%26i%3Dc4f9a290-e0c8-4ce6-a56b-781ac88c5c3e%26a%3Df73%26s%3D82171ae42ddbf4e524b585c665e3b702b947b2b5; Domain=.eventbrite.com; expires=Mon, 27-Feb-2023 20:32:04 GMT; httponly; Path=/; secure; SameSite=None; Secure
+set-cookie: ebEventToTrack=; Domain=.eventbrite.com; expires=Tue, 29-Mar-2022 20:32:04 GMT; httponly; Path=/; secure; SameSite=None; Secure
+set-cookie: SS=AE3DLHRx3GmK_QrLfQ0D1NIQ_GxrJeJnuQ; Domain=.eventbrite.com; httponly; Path=/; secure; SameSite=None; Secure
+set-cookie: eblang=lo%3Den_US%26la%3Den-us; Domain=.eventbrite.com; expires=Mon, 27-Feb-2023 20:32:04 GMT; httponly; Path=/; secure; SameSite=None; Secure
+set-cookie: AN=; Domain=.eventbrite.com; expires=Tue, 29-Mar-2022 20:32:04 GMT; httponly; Path=/; secure; SameSite=None; Secure
+set-cookie: AS=077ec87b-384c-4918-b534-8b10ed886c2f; Domain=.eventbrite.com; httponly; Path=/; secure; SameSite=None; Secure
+set-cookie: mgref=typeins; Domain=.eventbrite.com; expires=Mon, 27-Feb-2023 20:32:04 GMT; httponly; Max-Age=31536000; Path=/; secure; SameSite=None; Secure
+set-cookie: SP=AGQgbbn11zd1fMkpNhTx9t4US36ksD2wBzcJRis1hX7OYMfapossKjgh44WGcLOOSBN5nWVzHwLPaGPY6xHNzKjBPHiq2v3m8Hcn4qTvlPBCOsfIoHFa-bU5P_5WrU0FmdjzAhrq-h9BzjfYT5QDLBdmSzADGLeDawrZO7iuI0y5xjohe3QBe3zZxtZHmsbHCi6H3Njv6GTtCUbMS84GJy4Uqru8dC6SoBOyaf56WOG5eAXscGvkUd4; Domain=.eventbrite.com; httponly; Path=/; secure; SameSite=None; Secure
+x-varnish: 519838177
+age: 0
+via: 1.1 varnish (Varnish/5.1)
+set-cookie: csrftoken=5366860a980c11eca61107383192a80e; Domain=.eventbrite.com; Max-Age=31449600; Path=/; secure; SameSite=None; Secure
+connection: close
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 27 Feb 2022 20:32:05 GMT
+Content-Type: text/html
+Connection: keep-alive
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000 ; includeSubDomains
+vary: X-EB-Website-Context, X-EB-App-Context, Accept-Encoding
+x-permitted-cross-domain-policies: none
+x-varnish-ttl: 60
+p3p: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+referrer-policy: strict-origin-when-cross-origin
+x-frame-options: SAMEORIGIN
+x-ua-compatible: IE=edge
+set-cookie: mgref=typeins; Domain=.eventbrite.com; expires=Mon, 27-Feb-2023 18:54:24 GMT; httponly; Max-Age=31536000; Path=/; secure; SameSite=None; Secure
+x-varnish: 518469968 515584984
+age: 5861
+via: 1.1 varnish (Varnish/5.1)
+set-cookie: csrftoken=53b0f51e980c11ec9fe62fcd90693f83; Domain=.eventbrite.com; Max-Age=31449600; Path=/; secure; SameSite=None; Secure
+accept-ranges: bytes
+

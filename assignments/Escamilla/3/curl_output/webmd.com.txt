@@ -1,0 +1,42 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 27 Feb 2022 20:34:51 GMT
+Server: Apache
+Location: https://www.webmd.com/
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/2 200 
+date: Sun, 27 Feb 2022 20:34:51 GMT
+content-type: text/html; charset=utf-8
+access-control-allow-origin: http://www.webmd.com
+age: null
+cache-control: no-cache, no-store, must-revalidate
+last-modified: Sun, 27 Feb 2022 20:34:51 GMT
+set-cookie: lrt_wrk=lrt1_cached_k8_worker_1_40S_21S_2022-01-06_16:43:53_gdbp_false_gtedgefrom_MA1VueJS_false_E_false_UC_false_UD_false_mp_true_active_true_from_MA1_ovr__config_envName_.k8s-geo.lb._envNameFound_true_actv_true_blk_N/A_1645994091601_hvid_false; domain=.webmd.com; path=/
+cf-cache-status: BYPASS
+cf-edge-cache-control: no-cache, proxy-revalidate
+cf-wrk: lrt1_cached_k8_worker_1_40S_21S_2022-01-06_16:43:53_gdbp_false_gtedgefrom_MA1VueJS_false_E_false_UC_false_UD_false_mp_true_active_true_from_MA1_ovr__config_envName_.k8s-geo.lb._envNameFound_true_actv_true_blk_N/A_1645994091601
+content-security-policy: upgrade-insecure-requests
+set-cookie: gtinfo={"ct":"Norfolk","c":"Norfolk City","cc":"51710","st":"VA","sc":"47","z":"23517","lat":"36.87","lon":"-76.29","dma":"544","cntr":"usa","cntrc":"840","tz":null,"ci":"70.160.168.126"}; domain=.webmd.com; path=/
+set-cookie: VisitorId=51298598-6068-402f-7459-ab89421c34c8; Expires=Fri, 27 Feb 2032 20:34:51 GMT; domain=.webmd.com; path=/
+x-backend: default
+x-backend-by: default
+x-cache: MISS
+x-cache-control-by: no-cache
+x-cache-duration: -1
+x-cache-expiry: N/A
+x-cache-reason: routing
+x-cache-time: Sunday, 27-Feb-2022 20:34:51 GMT
+x-datacenter: MA1
+x-dbg-gt: gtinfo={"ct":"Norfolk","c":"Norfolk City","cc":"51710","st":"VA","sc":"47","z":"23517","lat":"36.87","lon":"-76.29","dma":"544","cntr":"usa","cntrc":"840","tz":null,"ci":"70.160.168.126"}
+x-edge-cache-duration: -1
+x-edge-cache-expiry: N/A
+x-gt-setter: usr
+x-redis: redis_server_2
+x-route: other
+x-route-akamai: false
+x-runtime: old
+x-true-client-ip: 70.160.168.126
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 6e44323f6b73c093-ORF
+

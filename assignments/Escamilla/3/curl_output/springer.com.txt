@@ -1,0 +1,63 @@
+HTTP/1.0 301 Moved Permanently
+Location: http://www.springer.com/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: public,max-age=600
+Location: https://www.springer.com/
+Server: Oscar Platform 0.748.0
+X-Vcap-Request-Id: 0e2eecf0-1ee5-4847-55d1-6f0df280a361
+Via: 1.1 google, 1.1 varnish
+X-Cdn-Origin: SNPaaS
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Sun, 27 Feb 2022 20:34:39 GMT
+Age: 490
+Connection: close
+X-Served-By: cache-e10dee81-internal, cache-iad-kjyo7100021-IAD
+X-Cache: MISS, HIT
+X-Cache-Hits: 1
+X-Timer: S1645994080.769674,VS0,VE1
+
+HTTP/2 303 
+age: 0
+location: https://www.springer.com/us
+server: Oscar Platform 0.748.0
+set-cookie: springercomcountry=us; Path=/; Domain=springer.com
+x-vcap-request-id: 4067e1fd-e50d-4b8b-7bfa-ba9444dc5ea5
+via: 1.1 google, 1.1 varnish
+x-cdn-origin: SNPaaS
+accept-ranges: bytes
+date: Sun, 27 Feb 2022 20:34:40 GMT
+x-served-by: cache-e10dee81-internal, cache-iad-kjyo7100027-IAD
+x-cache: MISS, MISS
+x-cache-hits: 0
+x-timer: S1645994080.949597,VS0,VE95
+content-length: 0
+
+HTTP/2 200 
+accept-ranges: bytes
+age: 0
+cache-control: no-cache, no-store
+content-type: text/html;charset=UTF-8
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+pragma: no-cache
+server: Oscar Platform 0.748.0
+set-cookie: springercomcountry=us; Path=/; Domain=springer.com
+x-cf-node-idx: 0
+x-debug-clientconfig.defaultforrequest: DEFAULT
+x-debug-host: imprint-pages.springernature.app
+x-debug-requesturl: us
+x-debug-x-forwarded-host: www.springer.com
+x-vcap-request-id: 5ba29ce6-6bb5-4dc7-4d4a-01e29798c4ca
+via: 1.1 google, 1.1 varnish
+x-cdn-origin: SNPaaS
+date: Sun, 27 Feb 2022 20:34:40 GMT
+x-served-by: cache-9edd8d91-internal, cache-iad-kjyo7100027-IAD
+x-cache: MISS, MISS
+x-cache-hits: 0
+x-timer: S1645994080.079635,VS0,VE116
+vary: x-forwarded-host, Accept-Encoding
+

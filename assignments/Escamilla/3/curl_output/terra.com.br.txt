@@ -1,0 +1,28 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 27 Feb 2022 20:34:43 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 233
+Connection: keep-alive
+X-Http-Reason: Moved Permanently
+Location: https://www.terra.com.br/
+Cache-Control: max-age=604800
+Expires: Sat, 26 Feb 2022 12:17:03 GMT
+X-Mt-Cache: HIT
+X-Xact-Uuid: 2cc6606d-97a9-4a32-a1be-adeee2ea8179
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+x-xact-uuid: 311b81b0-4f1f-4ae7-be66-3ff859961366
+x-xact-montador-time: 1645994059
+x-http-reason: OK
+x-cache-profile: terra360-cover
+cache-control: max-age=30, stale-if-error=3600
+x-cms-delivery-uuid: 06843e87-9b91-4811-893d-ae9fa4acd971
+x-original-ua: Condor17
+strict-transport-security: max-age=15552000
+x-mt-cache: EXPIRED
+x-frame-options: SAMEORIGIN
+date: Sun, 27 Feb 2022 20:34:44 GMT
+

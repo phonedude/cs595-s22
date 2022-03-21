@@ -1,0 +1,38 @@
+HTTP/1.1 301 Moved permanently
+Cache-Control: max-age=1209600,private
+Location: https://yandex.ru/
+NEL: {"report_to": "network-errors", "max_age": 86400, "success_fraction": 0.001, "failure_fraction": 0.1}
+P3P: policyref="/w3c/p3p.xml", CP="NON DSP ADM DEV PSD IVDo OUR IND STP PHY PRE NAV UNI"
+Portal: Home
+Report-To: { "group": "network-errors", "max_age": 86400, "endpoints": [ { "url": "https://dr.yandex.net/nel"}]}
+X-Content-Type-Options: nosniff
+X-Yandex-Req-Id: 1645994099084667-12409456597226581890-man1-7654-man-l7-balancer-8080-BAL-5607
+set-cookie: is_gdpr=0; Path=/; Domain=.yandex.ru; Expires=Tue, 27 Feb 2024 20:34:59 GMT
+set-cookie: is_gdpr_b=CJv7eBDXZCgC; Path=/; Domain=.yandex.ru; Expires=Tue, 27 Feb 2024 20:34:59 GMT
+set-cookie: _yasc=+z0CTztTCe38/b4WbUJUFuOEC/RdiK7nKrMRqPgLbEX7aMlm; domain=.yandex.ru; path=/; expires=Tue, 29-Mar-2022 20:34:59 GMT; secure
+
+HTTP/2 200 
+content-security-policy: report-uri https://csp.yandex.net/csp?project=morda&from=morda.big.ru&showid=1645994099863490-15170044150070831915-man1-3344-91a-man-l7-balancer-8080-BAL-3141&h=stable-morda-sas-yp-45&yandexuid=2708319151645994099&&version=2022-02-25-0&adb=0;script-src 'unsafe-inline' https://mc.yandex.com https://zen-yandex-ru.cdnclab.net https://yastatic.net https://yandex.ru 'self' https://an.yandex.ru https://z.moatads.com https://storage.mds.yandex.net https://mc.yandex.ru https://*.mc.yandex.ru https://adstat.yandex.ru;style-src 'unsafe-inline' https://yastatic.net;frame-src https://passport.yandex.ru https://passport.yandex.ru https://yandex.ru https://yastatic.net 'self' https://mc.yandex.ru https://mc.yandex.md;connect-src blob: https://*.cdn.ngenix.net https://*.strm.yandex.net https://auto.ru https://favicon.yandex.net https://log.strm.yandex.ru https://mc.yandex.com https://thequestion.ru https://www.kinopoisk.ru https://zen-yandex-ru.cdnclab.net https://zen.me https://yandex.ru https://yastatic.net https://yastat.net 'self' https://portal-xiva.yandex.net wss://portal-xiva.yandex.net https://strm.yandex.ru https://mobile.yandex.net https://yabs.yandex.ru https://an.yandex.ru https://verify.yandex.ru https://*.verify.yandex.ru https://mc.yandex.ru https://yandex.st https://matchid.adfox.yandex.ru https://adfox.yandex.ru https://ads.adfox.ru https://ads6.adfox.ru https://jstracer.yandex.ru https://awaps.yandex.ru https://tps.doubleverify.com https://pixel.adsafeprotected.com https://*.mc.yandex.ru https://adstat.yandex.ru https://mc.admetrica.ru;img-src https://*.verify.yandex.ru https://auto.ru https://strm.yandex.net https://thequestion.ru https://www.kinopoisk.ru https://zen-yandex-ru.cdnclab.net 'self' https://yastatic.net data: https://yandex.ru https://resize.yandex.net https://*.strm.yandex.net https://strm.yandex.ru https://avatars-fast.yandex.net https://favicon.yandex.net https://banners.adfox.ru https://content.adfox.ru https://ads6.adfox.ru https://yastat.net https://avatars.mds.yandex.net https://mc.yandex.ru https://*.tns-counter.ru https://verify.yandex.ru https://ads.adfox.ru https://bs.serving-sys.com https://ad.adriver.ru https://wcm.solution.weborama.fr https://wcm-ru.frontend.weborama.fr https://mc.admetrica.ru https://ad.doubleclick.net https://rgi.io https://track.rutarget.ru https://ssl.hurra.com https://px.moatads.com https://amc.yandex.ru https://gdeby.hit.gemius.pl https://tps.doubleverify.com https://pixel.adsafeprotected.com https://impression.appsflyer.com https://yabs.yandex.ru https://mc.yandex.com https://*.mc.yandex.ru https://adstat.yandex.ru;media-src blob: https://*.cdn.ngenix.net https://*.strm.yandex.net https://*.yandex.net https://strm.yandex.ru https://*.strm.yandex.ru https://yastat.net data:;default-src https://yastatic.net https://yastat.net;font-src https://yastatic.net;object-src https://avatars.mds.yandex.net
+date: Sun, 27 Feb 2022 20:35:00 GMT
+nel: {"report_to": "network-errors", "max_age": 86400, "success_fraction": 0.001, "failure_fraction": 0.1}
+x-content-type-options: nosniff
+set-cookie: yp=1648586100.ygu.1; Expires=Wed, 25-Feb-2032 20:35:00 GMT; Domain=.yandex.ru; Path=/
+set-cookie: mda=0; Expires=Mon, 27-Jun-2022 20:34:59 GMT; Domain=.yandex.ru; Path=/
+set-cookie: yandex_gid=102576; Expires=Tue, 29-Mar-2022 20:35:00 GMT; Domain=.yandex.ru; Path=/
+set-cookie: yandexuid=2708319151645994099; Path=/; Domain=.yandex.ru; Expires=Wed, 25-Feb-2032 20:35:00 GMT; Secure
+set-cookie: is_gdpr=0; Path=/; Domain=.yandex.ru; Expires=Tue, 27 Feb 2024 20:34:59 GMT
+set-cookie: is_gdpr_b=CJv7eBDXZCgC; Path=/; Domain=.yandex.ru; Expires=Tue, 27 Feb 2024 20:34:59 GMT
+set-cookie: _yasc=n6pTg8p1p2EG0wLf3781ALKXa7qnWo091ODCnNiNQA9wSZhw; domain=.yandex.ru; path=/; expires=Tue, 29-Mar-2022 20:34:59 GMT; secure
+set-cookie: i=J2+5iQYK8XT7WRgAhuljKhm4gcbKq+ACwSE9WpFUsusBAO6S/HUhq/80yU6PaDhFV7PvIozAYIZJpoBrzXg9CSxVqu8=; Expires=Tue, 27-Feb-2024 20:34:59 GMT; Domain=.yandex.ru; Path=/; Secure; HttpOnly
+x-frame-options: DENY
+expires: Sun, 27 Feb 2022 20:35:00 GMT
+x-requestid: 1645994099863490-15170044150070831915-man1-3344-91a-man-l7-balancer-8080-BAL-3141
+p3p: policyref="/w3c/p3p.xml", CP="NON DSP ADM DEV PSD IVDo OUR IND STP PHY PRE NAV UNI"
+x-yandex-req-id: 1645994099863490-15170044150070831915-man1-3344-91a-man-l7-balancer-8080-BAL-3141
+last-modified: Sun, 27 Feb 2022 20:35:00 GMT
+accept-ch-lifetime: 31536000
+accept-ch: Viewport-Width, DPR, Device-Memory, RTT, Downlink, ECT
+report-to: { "group": "network-errors", "max_age": 86400, "endpoints": [ { "url": "https://dr.yandex.net/nel"}]}
+cache-control: no-cache,no-store,max-age=0,must-revalidate
+content-type: text/html; charset=UTF-8
+

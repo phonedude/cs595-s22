@@ -1,0 +1,55 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html
+Content-Length: 185
+Connection: keep-alive
+Location: https://paypal.com/
+
+HTTP/2 302 
+content-type: text/html
+content-length: 161
+location: https://www.paypal.com/
+strict-transport-security: max-age=31536000; includeSubDomains
+
+HTTP/2 302 
+server: Varnish
+retry-after: 0
+location: https://www.paypal.com/us/home
+accept-ranges: bytes
+date: Sun, 27 Feb 2022 20:34:29 GMT
+via: 1.1 varnish
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-served-by: cache-iad-kjyo7100122-IAD
+x-cache: HIT
+x-cache-hits: 0
+server-timing: content-encoding;desc="",x-cdn;desc="fastly"
+content-length: 0
+
+HTTP/2 200 
+cache-control: max-age=0, no-cache, no-store, must-revalidate
+content-security-policy: default-src 'self' https://*.paypal.com https://*.paypalobjects.com; frame-src 'self' https://*.brighttalk.com https://*.paypal.com https://*.paypalobjects.com https://www.youtube-nocookie.com https://www.xoom.com https://*.qualtrics.com https://*.paypal-mktg.com; script-src 'nonce-jS/lKfTXitoY1k1EovyP9jRMDU0q/AnL0iCpJ0a5mTj/Wo2t' 'self' https://*.paypal.com https://*.paypalobjects.com https://assets-cdn.s-xoom.com 'unsafe-inline' 'unsafe-eval'; connect-src 'self' https://nominatim.openstreetmap.org https://*.paypal.com https://*.paypalobjects.com https://*.google-analytics.com https://*.salesforce.com https://*.force.com https://nexus.ensighten.com https://api.paypal-retaillocator.com https://*.brighttalk.com https://*.qualtrics.com https://paypal.us-4.evergage.com; style-src 'self' https://*.paypal.com https://*.paypalobjects.com https://assets-cdn.s-xoom.com 'unsafe-inline'; font-src 'self' https://*.paypal.com https://*.paypalobjects.com https://assets-cdn.s-xoom.com data:; img-src 'self' https: data:; form-action 'self' https://*.paypal.com https://*.salesforce.com https://secure.opinionlab.com https://*.paypal-mktg.com https://*.paypal-corp.com; base-uri 'self' https://*.paypal.com; object-src 'none'; frame-ancestors 'self' https://*.paypal.com; upgrade-insecure-requests;; report-uri https://www.paypal.com/csplog/api/log/csp
+content-type: text/html; charset=utf-8
+etag: W/"2047b-s+Ui8bGNx6/ei97FuTNWAsttuUE"
+paypal-debug-id: f1623928b8009
+set-cookie: enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Mon, 27 Feb 2023 20:34:29 GMT; Secure
+set-cookie: cookie_check=yes; Max-Age=315532799; Domain=.paypal.com; Path=/; Expires=Fri, 27 Feb 2032 20:34:28 GMT; HttpOnly; Secure
+set-cookie: LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Mon, 28 Feb 2022 05:20:25 GMT; HttpOnly; Secure
+set-cookie: tsrce=mppnodeweb; Max-Age=259199; Domain=.paypal.com; Path=/; Expires=Wed, 02 Mar 2022 20:34:28 GMT; HttpOnly; Secure
+set-cookie: x-pp-s=eyJ0IjoiMTY0NTk5NDA2OTY3NCIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure
+set-cookie: nsid=s%3As3Y7gT4uZzH_8EcKwL9uqZEbeXqV0Swo.4d51D2hr4B7UAHHQopK3r8hCaQUzUsJUilokGF74rX0; Path=/; HttpOnly; Secure
+set-cookie: ts=vreXpYrS%3D1740688469%26vteXpYrS%3D1645995869%26vr%3D3ce44ddb17f0ad048aac31b8fc2eee02%26vt%3D3ce44ddb17f0ad048aac31b8fc2eee01%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Wed, 26 Feb 2025 20:34:29 GMT; HttpOnly; Secure
+set-cookie: ts_c=vr%3D3ce44ddb17f0ad048aac31b8fc2eee02%26vt%3D3ce44ddb17f0ad048aac31b8fc2eee01; Path=/; Domain=paypal.com; Expires=Wed, 26 Feb 2025 20:34:29 GMT; Secure
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+dc: ccg11-origin-www-1.paypal.com
+accept-ranges: bytes
+date: Sun, 27 Feb 2022 20:34:29 GMT
+via: 1.1 varnish
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-served-by: cache-iad-kjyo7100122-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1645994069.437137,VS0,VE280
+vary: Accept-Encoding
+server-timing: content-encoding;desc="",x-cdn;desc="fastly"
+content-length: 132219
+

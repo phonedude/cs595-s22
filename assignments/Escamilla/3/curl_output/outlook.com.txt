@@ -1,0 +1,77 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 0
+Location: https://outlook.com/
+Server: Microsoft-IIS/10.0
+request-id: 68f36ce0-1283-e4e0-bcae-47dcf6b5f111
+X-FEServer: MWHPR13CA0020
+X-RequestId: 50ccb9d1-d4a4-47ba-a793-ba1cfc486c1c
+MS-CV: 4GzzaIMS4OS8rkfc9rXxEQ.0
+X-Powered-By: ASP.NET
+X-FEServer: MWHPR13CA0020
+Date: Sun, 27 Feb 2022 20:34:26 GMT
+Connection: close
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 0
+Location: https://www.outlook.com/owa/
+Server: Microsoft-IIS/10.0
+request-id: c9278f00-daa4-9be1-a850-2468b97d1abc
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-FEServer: MWHPR13CA0022
+X-RequestId: 42c16977-77b5-4aa4-b936-ba2fecd247d5
+MS-CV: AI8nyaTa4ZuoUCRouX0avA.0
+X-Powered-By: ASP.NET
+X-FEServer: MWHPR13CA0022
+Date: Sun, 27 Feb 2022 20:34:27 GMT
+Connection: close
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 0
+Location: https://outlook.live.com/owa/
+Server: Microsoft-IIS/10.0
+request-id: 384d2377-3be8-0b88-eae9-978cddc13f8b
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-FEServer: BL1PR13CA0143
+X-RequestId: 533c386f-3d00-481c-be83-82a4aa8645bb
+X-FEServer: BL1PR13CA0143
+Date: Sun, 27 Feb 2022 20:34:27 GMT
+Connection: close
+
+HTTP/2 440 
+content-length: 154
+content-type: text/html; charset=utf-8
+server: Microsoft-IIS/10.0
+request-id: 876fa625-5f8b-dcd8-1e08-4684f9b62a94
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+alt-svc: h3=":443",h3-29=":443"
+x-calculatedfetarget: BY5PR20CU001.internal.outlook.com
+x-backendhttpstatus: 440
+set-cookie: RoutingKeyCookie=; expires=Thu, 27-Feb-1992 20:34:28 GMT; path=/; secure
+set-cookie: HostSwitchPrg=; expires=Thu, 27-Feb-1992 20:34:28 GMT; path=/; secure
+set-cookie: OptInPrg=; expires=Thu, 27-Feb-1992 20:34:28 GMT; path=/; secure
+x-feproxyinfo: BY5PR20CA0031.NAMPRD20.PROD.OUTLOOK.COM
+x-calculatedbetarget: BYAPR13MB2853.NAMPRD13.PROD.OUTLOOK.COM
+x-backendhttpstatus: 440
+x-owa-diagnosticsinfo: 1;0;0
+x-iids: 0
+x-backend-begin: 2022-02-27T20:34:28.508
+x-backend-end: 2022-02-27T20:34:28.508
+x-diaginfo: BYAPR13MB2853
+x-beserver: BYAPR13MB2853
+x-ua-compatible: IE=EmulateIE7
+x-rum-validated: 1
+x-proxy-routingcorrectness: 1
+x-proxy-backendserverstatus: 440
+x-feserver: BY5PR20CA0031
+report-to: {"group":"NelOfficeUpload1","max_age":7200,"endpoints":[{"url":"https://exo.nel.measure.office.net/api/report?TenantId=&FrontEnd=Cafe&DestinationEndpoint=MNZ"}],"include_subdomains":true}
+nel: {"report_to":"NelOfficeUpload1","max_age":7200,"include_subdomains":true,"failure_fraction":1.0,"success_fraction":0.01}
+x-firsthopcafeefz: MNZ
+x-feserver: BL1PR13CA0139
+date: Sun, 27 Feb 2022 20:34:28 GMT
+

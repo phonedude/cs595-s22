@@ -1,0 +1,32 @@
+HTTP/1.1 301 Moved Permanently
+Server: awselb/2.0
+Date: Sun, 27 Feb 2022 20:31:37 GMT
+Content-Type: text/html
+Content-Length: 134
+Connection: keep-alive
+Location: http://www.chicagotribune.com:80/
+
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.chicagotribune.com/
+Cache-Control: private, max-age=0
+Expires: Sun, 27 Feb 2022 20:31:37 GMT
+Date: Sun, 27 Feb 2022 20:31:37 GMT
+Connection: keep-alive
+Set-Cookie: _lbz=0; expires=Mon, 27-Feb-2023 20:31:37 GMT; domain=.chicagotribune.com
+Set-Cookie: _lb=1; expires=Sun, 27-Feb-2022 20:46:37 GMT; path=/; domain=.chicagotribune.com
+Set-Cookie: akaas_AS_tronc_chicago_tribune_prod=2147483647~rv=16~id=1c83cd5657f70316c02ce20de6e27af5; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT
+
+HTTP/2 200 
+content-type: text/html;charset=UTF-8
+server: openresty
+content-length: 491252
+cache-control: private, max-age=60
+expires: Sun, 27 Feb 2022 20:32:38 GMT
+date: Sun, 27 Feb 2022 20:31:38 GMT
+set-cookie: _lbz=0; expires=Mon, 27-Feb-2023 20:31:38 GMT; domain=.chicagotribune.com
+set-cookie: _lb=1; expires=Sun, 27-Feb-2022 20:46:38 GMT; path=/; domain=.chicagotribune.com
+set-cookie: akaas_AS_tronc_chicago_tribune_prod=2147483647~rv=87~id=8ffee9e546e1910bc64714fa4652b066; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT; Secure; SameSite=None
+content-security-policy: upgrade-insecure-requests
+

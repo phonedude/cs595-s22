@@ -1,0 +1,28 @@
+HTTP/1.1 301 Moved Permanently
+Location: https://apnews.com/
+X-Cloud-Trace-Context: 5241f58218d4cd29f100a84f94b2f3e1
+Server: Google Frontend
+Content-Length: 69
+Via: 1.1 google
+Date: Sun, 27 Feb 2022 20:16:17 GMT
+Content-Type: text/html; charset=utf-8
+Age: 913
+
+HTTP/2 200 
+vary: Accept-Encoding
+access-control-allow-origin: 
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept, X-APCLIENTID
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-cloud-trace-context: ce69ba24172d04189bdd0f5f01ed2413
+server: Google Frontend
+content-length: 1049229
+via: 1.1 google
+date: Sun, 27 Feb 2022 20:29:59 GMT
+last-modified: Sun, 27 Feb 2022 20:29:42 GMT
+etag: "10028d-+eeW2PGu1tl7Od8twmV7gJnNnLQ"
+content-type: text/html; charset=utf-8
+age: 91
+cache-control: public,max-age=120
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

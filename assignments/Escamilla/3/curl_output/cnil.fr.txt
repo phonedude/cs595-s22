@@ -1,0 +1,45 @@
+HTTP/1.1 301 Moved Permanently
+content-length: 0
+location: https://cnil.fr/
+
+HTTP/1.1 301 Moved Permanently
+date: Sun, 27 Feb 2022 20:31:40 GMT
+server: Apache
+strict-transport-security: max-age=63072000; includeSubdomains; preload
+referrer-policy: strict-origin-when-cross-origin
+content-security-policy-report-only: form-action 'self'; style-src 'self' 'unsafe-inline' ; script-src-elem 'self' 'unsafe-inline' 'unsafe-eval' data: *.cnil.fr *.educnum.fr; frame-ancestors 'self' www.dailymotion.com www.youtube-nocookie.com www.youtube.com; img-src 'self'; frame-src 'self' www.dailymotion.com www.youtube-nocookie.com www.youtube.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://piwik.cnil.fr; object-src 'self'; font-src 'self'; base-uri 'self'; block-all-mixed-content; default-src 'self' data: blob:;
+location: https://www.cnil.fr/
+content-length: 228
+content-type: text/html; charset=iso-8859-1
+x-varnish: 15839446 15787568
+age: 11
+via: 1.1 varnish-v4
+x-cache: HIT
+x-cache-hits: 1
+
+HTTP/1.1 200 OK
+date: Sun, 27 Feb 2022 20:30:26 GMT
+server: Apache
+cache-control: public, max-age=900
+x-drupal-cache: HIT
+content-language: fr
+x-frame-options: SAMEORIGIN
+permissions-policy: interest-cohort=()
+x-generator: Drupal 7 (http://drupal.org)
+link: <https://www.cnil.fr/fr>; rel="canonical",<https://www.cnil.fr/fr>; rel="shortlink"
+expires: Sun, 19 Nov 1978 05:00:00 GMT
+vary: Cookie,Accept-Encoding
+strict-transport-security: max-age=63072000; includeSubdomains; preload
+referrer-policy: strict-origin-when-cross-origin
+content-security-policy-report-only: form-action 'self'; style-src 'self' 'unsafe-inline' ; script-src-elem 'self' 'unsafe-inline' 'unsafe-eval' data: *.cnil.fr *.educnum.fr; frame-ancestors 'self' www.dailymotion.com www.youtube-nocookie.com www.youtube.com; img-src 'self'; frame-src 'self' www.dailymotion.com www.youtube-nocookie.com www.youtube.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://piwik.cnil.fr; object-src 'self'; font-src 'self'; base-uri 'self'; block-all-mixed-content; default-src 'self' data: blob:;
+x-content-type-options: nosniff
+last-modified: Sun, 27 Feb 2022 07:15:24 GMT
+x-xss-protection: 1; mode=block
+content-type: text/html; charset=utf-8
+x-varnish: 16605635 14794928
+age: 85
+via: 1.1 varnish-v4
+etag: W/"1645946124-1"
+x-cache: HIT
+x-cache-hits: 13
+

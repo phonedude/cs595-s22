@@ -1,0 +1,30 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 27 Feb 2022 20:34:31 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://plos.org/
+CF-Ray: 6e4431c3b9afc07a-ORF
+CF-Cache-Status: DYNAMIC
+ki-edge: v=16.8
+X-Content-Type-Options: nosniff
+X-Edge-Location-Klb: 1
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Sun, 27 Feb 2022 20:34:32 GMT
+content-type: text/html; charset=UTF-8
+cf-ray: 6e4431c66879c06b-ORF
+access-control-allow-origin: *
+link: <https://plos.org/wp-json/>; rel="https://api.w.org/", <https://plos.org/wp-json/wp/v2/pages/51>; rel="alternate"; type="application/json", <https://plos.org/>; rel=shortlink
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+ki-edge: v=16.8
+x-content-type-options: nosniff
+x-edge-location-klb: 1
+x-kinsta-cache: HIT
+server: cloudflare
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

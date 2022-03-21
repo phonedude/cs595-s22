@@ -1,0 +1,25 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Sun, 27 Feb 2022 20:34:14 GMT
+Content-Type: text/plain
+Content-Length: 13
+Connection: keep-alive
+Location: https://www.nationalgeographic.com/
+Access-Control-Allow-Origin: *
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+date: Sun, 27 Feb 2022 20:34:15 GMT
+server: nginx/1.20.1
+expires: Sun, 27 Feb 2022 20:34:24 GMT
+last-modified: Sun, 27 Feb 2022 20:34:24 GMT
+via: 1.1 varnish-v4, 1.1 3dcb635971b5d310e8941cdb963aff70.cloudfront.net (CloudFront)
+cache-control: max-age=9
+accept-ranges: bytes
+set-cookie: country=us; path=/;
+set-cookie: region=ccpa; path=/; Expires=Sun, 06 Mar 2022 20:34:15 GMT;
+set-cookie: _dcf=1; path=/; Expires=Sun, 06 Mar 2022 20:34:15 GMT;
+vary: Accept-Encoding
+x-cache: Miss from cloudfront
+x-amz-cf-pop: IAD89-C3
+x-amz-cf-id: 4PzCg19mqCF_A_Q7edZ2ElZ8y858qXBVvWqkOnWUO61ssNhC0vJqUg==
+
