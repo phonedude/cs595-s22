@@ -1,0 +1,32 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Tue, 01 Mar 2022 04:10:10 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://files.wordpress.com/
+
+HTTP/2 301 
+server: nginx
+date: Tue, 01 Mar 2022 04:10:10 GMT
+content-type: text/html
+content-length: 178
+location: https://wordpress.com/
+x-nc: HIT dca 3
+x-content-type-options: nosniff
+
+HTTP/2 200 
+server: nginx
+date: Tue, 01 Mar 2022 04:10:10 GMT
+content-type: text/html; charset=utf-8
+vary: Accept-Encoding
+x-frame-options: SAMEORIGIN
+x-hacker: If you're reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.
+host-header: WordPress.com
+vary: Cookie
+set-cookie: tk_ai=3pvHJcmbM1EqWhZMye%2FDocT3; expires=Tue, 15-Mar-2022 04:10:10 GMT; Max-Age=1209600; path=/; domain=.wordpress.com; secure; SameSite=None
+set-cookie: tk_qs=_en%3Dwpcom_experiment_variation_assigned%26_ut%3Danon%26_ui%3D3pvHJcmbM1EqWhZMye%252FDocT3%26_ts%3D1646107810659%26experiment_id%3D20486%26experiment_variation_id%3D1342%26reason%3Dset_by_anon_id; path=/; domain=.wordpress.com; secure; SameSite=Strict
+set-cookie: lohp_header_copy_test_202202=treatment; expires=Thu, 24-Mar-2022 00:00:00 GMT; Max-Age=1972190; path=/; domain=.wordpress.com; secure; SameSite=None
+x-ac: 2.dca _dca 
+strict-transport-security: max-age=15552000; preload
+

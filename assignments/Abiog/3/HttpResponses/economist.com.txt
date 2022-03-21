@@ -1,0 +1,35 @@
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 01 Mar 2022 04:10:06 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Tue, 01 Mar 2022 05:10:06 GMT
+Location: https://www.economist.com/
+Set-Cookie: __cf_bm=_CNlB0G03orSKRjybKslzFabnu7gVnhkpmEz0NyYzEQ-1646107806-0-Ab1+d9x207r7c5vSBpxODH3qEL2xKgrTunlRhLnIiWe3dO37RHiaRhC0i3ZUnvYiun9hvcrJNAORyy91Nlo9JWA=; path=/; expires=Tue, 01-Mar-22 04:40:06 GMT; domain=.economist.com; HttpOnly; SameSite=None
+Server: cloudflare
+CF-RAY: 6e4f0a7f3e70c07a-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Tue, 01 Mar 2022 04:10:06 GMT
+content-type: text/html; charset=utf-8
+cache-control: public,must-revalidate,max-age=300,s-maxage=0
+x-economist-env: ecs
+x-economist-features: SF_SIGNPOSTING,ESPRESSO_AUDIO,HOMEPAGE_NEW_WEEKLYEDITION,CONTENT_COLLECTIONS,SOURCEPOINT,IDENTS,NEW_ARTICLE_AB_TEST,ONBOARDING_NOTIFICATION,OPTIMIZELY_SELF_HOSTING
+set-cookie: economist_has_visited_app_before=true; Path=/; expires=Wed, 01 Jun 2022 04:10:06 GMT;
+x-amz-cf-pop: IAD79-C3
+x-journey: EconomistSite
+x-cache: Miss from cloudfront
+via: 1.1 6784ac36b8d920a78daf15294a50025e.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD79-C3
+x-amz-cf-id: 8hLs2h1gxq1XiCmfOBwt0ZMQwzCnz4yZoqLzXW6Bl7ASb-K_rioN4w==
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+set-cookie: geo_country=US;Domain=.economist.com;Path=/;
+set-cookie: geo_region=NA;Domain=.economist.com;Path=/;
+set-cookie: rvjourney=EconomistSite/50/50/EconomistSite;Domain=.economist.com;Path=/;Max-Age=63072000
+set-cookie: rvuuid=52eb57681cb8ebfc0d69f9aea8f8faaf;Domain=.economist.com;Path=/;Max-Age=2147483647
+set-cookie: __cf_bm=RmJ7KdihX0Qqs4HzVlcB38yO4LHjUP630AbBG3WcM6g-1646107806-0-Aekl9CEJd0WToprRjKVngbE7J+pjGewFsdTsHoa/VM/iE+nQn4DohuzcgkASQK0FWpuiJ8W2f3MUZ4PTrZO4qyM=; path=/; expires=Tue, 01-Mar-22 04:40:06 GMT; domain=.economist.com; HttpOnly; Secure; SameSite=None
+server: cloudflare
+cf-ray: 6e4f0a7fdf10c070-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

@@ -1,0 +1,47 @@
+HTTP/1.1 301 https://ted.com/
+Date: Tue, 01 Mar 2022 04:10:48 GMT
+Connection: keep-alive
+Server: nginx
+Location: https://ted.com/
+Accept-Ranges: bytes
+Age: 0
+Strict-Transport-Security: max-age=31536001
+
+HTTP/2 301 
+date: Tue, 01 Mar 2022 04:10:48 GMT
+content-type: text/html
+content-length: 162
+location: https://www.ted.com/
+server: nginx
+accept-ranges: bytes
+age: 88
+strict-transport-security: max-age=31536001
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+x-powered-by: Zenith
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+strict-transport-security: max-age=31536000; includeSubDomains
+cache-control: s-maxage=180, stale-while-revalidate
+etag: "9ab34-u2M5+sV/cFU88unkZnf3EdyKpHM"
+accept-ranges: bytes
+date: Tue, 01 Mar 2022 04:10:48 GMT
+via: 1.1 varnish
+age: 88
+x-served-by: td_4f3375b804d8, cache-iad-kjyo7100056-IAD
+x-cache: HIT
+x-cache-hits: 1
+vary: Accept-Encoding, Accept-Encoding
+set-cookie: _nu=1646107849; Expires=Sun, 28 Feb 2027 04:10:48 GMT; path=/
+set-cookie: _abby=NbAiU34Al6mni36; Expires=Sun, 28 Feb 2027 04:10:48 GMT; Path=/; Domain=.ted.com
+set-cookie: _abby_aa_fastly=b; Expires=Tue, 15 Mar 2022 04:10:48 GMT; Path=/
+set-cookie: _abby_post15s=b; Expires=Tue, 15 Mar 2022 04:10:48 GMT; Path=/
+set-cookie: _abby_hero_form=a; Expires=Tue, 15 Mar 2022 04:10:48 GMT; Path=/
+set-cookie: _abby_web_606_talkpage_membership_conversion=a; Expires=Tue, 15 Mar 2022 04:10:48 GMT; Path=/
+content-length: 633652
+

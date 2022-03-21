@@ -1,0 +1,38 @@
+HTTP/1.1 302 Found
+Date: Tue, 01 Mar 2022 04:09:38 GMT
+Content-Type: text/html
+Connection: keep-alive
+Last-Modified: Tue, 01 Mar 2022 04:09:38 GMT
+Accept-Ranges: none
+Location: https://www.cambridge.org/
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 6e4f09cfa945c066-ORF
+
+HTTP/2 200 
+date: Tue, 01 Mar 2022 04:09:39 GMT
+content-type: text/html; charset=UTF-8
+vary: CF-IPCountry,Accept-Encoding
+cache-control: must-revalidate, no-cache, private
+x-cache: MISS
+x-request-id: v-69c13490-9915-11ec-b6bf-33cca6a0a875
+link: <https://www.cambridge.org>; rel="canonical", <https://www.cambridge.org>; rel="shortlink"
+link: <http://www.cambridge.org/>; rel="alternate"; hreflang="en"
+expires: Sun, 19 Nov 1978 05:00:00 GMT
+x-xss-protection: 1; mode=block
+content-language: en
+x-content-type-options: nosniff
+x-generator: Drupal 9 (https://www.drupal.org)
+via: varnish
+cf-ipcountry: US
+x-ua-compatible: IE=edge
+x-frame-options: SAMEORIGIN
+x-ah-environment: prod
+age: 0
+x-served-from: aws
+permissions-policy: interest-cohort=()
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 6e4f09d0e8f5c06b-ORF
+

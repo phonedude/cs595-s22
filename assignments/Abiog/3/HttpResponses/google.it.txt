@@ -1,0 +1,24 @@
+HTTP/1.1 301 Moved Permanently
+Location: http://www.google.it/
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 01 Mar 2022 04:10:12 GMT
+Expires: Thu, 31 Mar 2022 04:10:12 GMT
+Cache-Control: public, max-age=2592000
+Server: gws
+Content-Length: 218
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=ISO-8859-1
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Date: Tue, 01 Mar 2022 04:10:12 GMT
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Transfer-Encoding: chunked
+Expires: Tue, 01 Mar 2022 04:10:12 GMT
+Cache-Control: private
+Set-Cookie: 1P_JAR=2022-03-01-04; expires=Thu, 31-Mar-2022 04:10:12 GMT; path=/; domain=.google.it; Secure
+Set-Cookie: NID=511=S4h0P2pyu73uReIOT1CJUxKd_rvHBlgdpBR7kG0GT37xtQAZtXJac19ZThceZZ9DBohnAuI09ZvfL29Gf_ihCn7DU4REBRIInEU5f94T_FAZjMQ4VIJxiWkXquRo_uyOgdUsO1iKh9d0pnmr4SRPAdtayPBuixetDvx2M2SWbn8; expires=Wed, 31-Aug-2022 04:10:12 GMT; path=/; domain=.google.it; HttpOnly
+

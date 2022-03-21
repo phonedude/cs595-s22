@@ -1,0 +1,30 @@
+HTTP/1.1 302 Found
+Retry-After: 0
+Location: https://us.as.com/
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Tue, 01 Mar 2022 04:09:27 GMT
+Via: 1.1 varnish
+Connection: close
+Set-Cookie: hpage=US; path=/; domain=as.com; expires=Wed, 01 Mar 2023 04:09:27 GMT;
+Set-Cookie: astz=US; path=/; domain=as.com;
+X-Served-By: cache-iad-kiad7000037-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+cache-control: max-age=30, public
+via: 1.1 varnish, 1.1 varnish
+accept-ranges: bytes
+date: Tue, 01 Mar 2022 04:09:31 GMT
+age: 0
+set-cookie: hpage=US; path=/; domain=as.com; expires=Wed, 01 Mar 2023 04:09:31 GMT;
+set-cookie: astz=US; path=/; domain=as.com;
+x-served-by: cache-mad22029-MAD, cache-iad-kiad7000153-IAD
+x-cache: MISS, MISS
+x-cache-hits: 0, 0
+x-timer: S1646107768.515869,VS0,VE4180
+vary: Accept-Encoding
+content-length: 471541
+
