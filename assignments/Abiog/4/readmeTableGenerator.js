@@ -18,8 +18,8 @@ readme.write('* Using [GenerateHTML.sh](GenerateHTML.sh), an html file was gener
 readme.write('* Using [CheckFramable.sh](CheckFramable.sh), headless chrome was used to run each html file.\n')
 readme.write('* Using [CountFramable.sh](CountFramable.sh) and [CountTotalFramable.sh](CountTotalFramable.sh), grep commands were used to count the results from the previous step.\n')
 readme.write('Results:\n')
-readme.write('* Suceeded: 20\n')
-readme.write('* Failed: 77\n')
+readme.write('* Succeeded: 21\n')
+readme.write('* Failed: 76\n')
 readme.write('* Total: 97 (3 no response)\n\n')
 
 readme.write('|Site|Framable|Reason|\n')
@@ -38,9 +38,9 @@ for (let i = 0; i < 97; i++) {
 readme.write('### Second method: Manual iframe success check\n')
 readme.write('Checking for iframe success manually was done by running a node.js server and visiting each HTML page.\n')
 readme.write('Results:\n')
-readme.write('* Suceeded: \n')
-readme.write('* Failed: \n')
-readme.write('* Total: 97 (3 no response)\n')
+readme.write('* Succeeded: 34\n')
+readme.write('* Failed: 63\n')
+readme.write('* Total: 97 (3 no response)\n\n')
 
 readme.write('|Site|Framable|Reason|\n')
 readme.write('|----|--------|------|\n')
@@ -48,3 +48,9 @@ readme.write('|----|--------|------|\n')
 for (let i = 0; i < 97; i++) {
     readme.write ('|'+ urls[i] +'|||\n')
 }
+
+readme.write('### Overall results:\n')
+readme.write('||Automated|Manual|\n')
+readme.write('|---|------|------|\n')
+readme.write('|Succeeded|20|34|\n')
+readme.write('|Failed|77|63|\n')

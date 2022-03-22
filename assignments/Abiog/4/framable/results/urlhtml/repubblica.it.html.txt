@@ -25,7 +25,7 @@ function checkload() {
 }
 </script>
 
-<div id="resultHere"><p>succeeded, loaded = 7</p></div>
+<div id="resultHere"><p>succeeded, loaded = 13</p></div>
 
 <iframe onload="checkload()" id="checkme" src="http://repubblica.it"></iframe>
 
