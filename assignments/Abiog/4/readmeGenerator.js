@@ -20,7 +20,7 @@ readme.write('* Using [CountFramable.sh](CountFramable.sh) and [CountTotalFramab
 readme.write('Results:\n')
 readme.write('* Suceeded: 20\n')
 readme.write('* Failed: 77\n')
-readme.write('* Total: 97 (3 no response)\n')
+readme.write('* Total: 97 (3 no response)\n\n')
 
 readme.write('|Site|Framable|Reason|\n')
 readme.write('|----|--------|------|\n')
