@@ -248,7 +248,7 @@ The title from Week 5's lecture, slide 64, is "Parsers, parsers, everywhere". Th
 
 <img src="memes.jpg">
 
-However, in literature, the phrase's origins aren't certain but the earliest known imprint of it is found in part two of The Rime of the Ancient Mariner, written by Engish poet Samuel Taylor Coleridge and first published in 1798:
+However, in literature, the phrase's origins aren't certain but the earliest known imprint of it is found in part two of *The Rime of the Ancient Mariner*, written by Engish poet Samuel Taylor Coleridge and first published in 1798:
 
 >Water, water, everywhere,  
 >And all the boards did shrink;  
