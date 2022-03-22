@@ -1,6 +1,31 @@
+HTTP 301
 http://abcnews.go.com/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Server: CloudFront
+Date: Mon, 21 Mar 2022 23:11:19 GMT
+Content-Type: text/html
+Content-Length: 183
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Location: https://abcnews.go.com/
+X-Cache: Redirect from cloudfront
+Via: 1.1 e4c06b6e6eb895470e2fd65bbc93b3b6.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD79-C3
+X-Amz-Cf-Id: 4Gwkw1npxj3bmUUPSA1WP-T7spx_QXRhk1oVjKzM6K9XDnx__N3z9g==
+
+HTTP 200
+https://abcnews.go.com/
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Date: Mon, 21 Mar 2022 23:11:19 GMT
+Server: nginx/1.20.1
+Expires: Mon, 21 Mar 2022 23:11:26 GMT
+Last-Modified: Mon, 21 Mar 2022 23:11:26 GMT
+Content-Encoding: gzip
+Via: 1.1 varnish-v4, 1.1 e1cdefd358f463eaddffcac2b749d60e.cloudfront.net (CloudFront)
+Cache-Control: max-age=7
+Accept-Ranges: bytes
+Set-Cookie: region=ccpa; path=/; Expires=Mon, 28 Mar 2022 23:11:19 GMT;, _dcf=1; path=/; Expires=Mon, 28 Mar 2022 23:11:19 GMT;
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: IAD79-C3
+X-Amz-Cf-Id: YKYSDe4yzdF0HRIOkRCU85UEaXnqiUnprapKd3K9WkxZ9JuvI5cEvg==
+

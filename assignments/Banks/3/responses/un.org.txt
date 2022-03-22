@@ -1,6 +1,36 @@
+HTTP 302
 http://un.org/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Location: https://un.org/
+Connection: close
+Cache-Control: no-cache
+Pragma: no-cache
+
+HTTP 302
+https://un.org/
+Location: http://www.un.org/
+Connection: close
+Cache-Control: no-cache
+Pragma: no-cache
+
+HTTP 302
+http://www.un.org/
+Location: https://www.un.org/
+Connection: close
+Cache-Control: no-cache
+Pragma: no-cache
+
+HTTP 200
+https://www.un.org/
+Date: Mon, 21 Mar 2022 23:12:35 GMT
+Server: Apache
+X-Drupal-Cache: HIT
+Etag: "1647904004-0"
+Cache-Control: public, max-age=3600
+Last-Modified: Mon, 21 Mar 2022 23:06:44 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie
+Keep-Alive: timeout=5, max=93
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+

@@ -1,6 +1,29 @@
+HTTP 301
 http://wsj.com/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Content-Length: 0
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Server: CloudFront
+Date: Mon, 21 Mar 2022 23:12:38 GMT
+Location: https://www.wsj.com/
+X-Cache: LambdaGeneratedResponse from cloudfront
+Via: 1.1 d93f61c3371a812d64846df2034f9796.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD79-C3
+X-Amz-Cf-Id: F-0LctLRL3CPN5zbvAXTMA5WSukjkMhF9IFMiH0erSjsH7l_mj9uDw==
+
+HTTP 200
+https://www.wsj.com/
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Date: Mon, 21 Mar 2022 23:12:39 GMT
+X-Powered-By: Express
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Vary: Origin
+Cache-Control: public, max-age=0
+Set-Cookie: wsjregion=na%2Cus; Domain=.wsj.com; Path=/; Expires=Wed, 20 Apr 2022 23:12:38 GMT, gdprApplies=false; Domain=.wsj.com; Path=/, ccpaApplies=false; Domain=.wsj.com; Path=/, usr_prof_v2=eyJpYyI6MH0%3D; Domain=.wsj.com; Path=/; Expires=Tue, 22 Mar 2022 00:12:38 GMT, ab_uuid=ca48e10d-4e08-4bbf-9962-e60bdfcfddb1; Domain=.wsj.com; Path=/; Expires=Thu, 18 Mar 2032 23:12:38 GMT, usr_bkt=91GjW1q7Zg; Domain=.wsj.com; Path=/; Expires=Thu, 18 Mar 2032 23:12:38 GMT
+Content-Encoding: gzip
+X-Cache: Miss from cloudfront
+Via: 1.1 ead5a4c5fbab9ab09302c9bd4c52b4b4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: VcFypVagSTSmO5-6Ai8AsIQ2CWVtH39eBeZGOBwcM0KdOsCSHB8gig==
+

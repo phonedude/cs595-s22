@@ -1,6 +1,37 @@
+HTTP 301
 http://wp.com/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Server: nginx
+Date: Mon, 21 Mar 2022 23:12:38 GMT
+Content-Type: text/html
+Content-Length: 162
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Location: https://wp.com/
+X-ac: 3.dca _dca 
+
+HTTP 301
+https://wp.com/
+Server: nginx
+Date: Mon, 21 Mar 2022 23:12:38 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Vary: Cookie
+Location: https://wordpress.com/
+X-ac: 3.dca _dca 
+
+HTTP 200
+https://wordpress.com/
+Server: nginx
+Date: Mon, 21 Mar 2022 23:12:38 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding, Cookie
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-hacker: If you're reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.
+Host-Header: WordPress.com
+Set-Cookie: tk_ai=I18QS%2FuTGAy34gskzCVUuRsJ; expires=Mon, 04-Apr-2022 23:12:38 GMT; Max-Age=1209600; path=/; domain=.wordpress.com; secure; SameSite=None, tk_qs=_en%3Dwpcom_experiment_variation_assigned%26_ut%3Danon%26_ui%3DI18QS%252FuTGAy34gskzCVUuRsJ%26_ts%3D1647904358737%26experiment_id%3D20540%26experiment_variation_id%3D1451%26reason%3Dset_by_anon_id; path=/; domain=.wordpress.com; secure; SameSite=Strict, explat_test_aa_weekly_lohp_2022_week_12=control; expires=Mon, 11-Apr-2022 00:00:00 GMT; Max-Age=1730842; path=/; domain=.wordpress.com; secure; SameSite=None
+Content-Encoding: gzip
+X-ac: 2.dca _dca 
+Strict-Transport-Security: max-age=15552000; preload
+

@@ -1,6 +1,49 @@
+HTTP 301
 http://sedo.com/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Date: Mon, 21 Mar 2022 23:12:32 GMT
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Cache-Control: max-age=3600
+Expires: Tue, 22 Mar 2022 00:12:32 GMT
+Location: https://sedo.com/
+Set-Cookie: __cf_bm=fslahPjjEj.ZaGxmaxBsDe6f0EvhjKgmwPtGs7VY440-1647904352-0-AdzJmIu88zBwjsx0Ug8unYSxdnkuR1IBu4zWUGMJl6xiGWtHcHZgY2khNITAOSdh/ewYZrpHX+7jcVmqnZPYwc4=; path=/; expires=Mon, 21-Mar-22 23:42:32 GMT; domain=.sedo.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 6efa5f7c7ca45cc5-IAD
+
+HTTP 302
+https://sedo.com/
+Date: Mon, 21 Mar 2022 23:12:33 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: campaignId=; Max-Age=86400; Path=/; Secure; HttpOnly, session=d4bef4487be86587bbb320d3dc9dd146; expires=Thu, 24-Mar-2022 23:12:33 GMT; Max-Age=259200; path=/; secure; HttpOnly
+x-cache-miss-from: marketplace-classic-7c9d487cc7-n7fnq
+x-content-type-options: nosniff
+cache-control: no-store, no-cache, must-revalidate
+x-sedo-request-id: ID-78c86f76c6-lrg68-15e75244cdc75326ed7c9c4590bc2108
+x-frame-options: sameorigin
+access-control-allow-origin: *
+expires: Thu, 19 Nov 1981 08:52:00 GMT
+x-ua-compatible: IE=edge
+pragma: no-cache
+location: /us/
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 6efa5f7d0ab15db5-IAD
+
+HTTP 200
+https://sedo.com/us/
+Date: Mon, 21 Mar 2022 23:12:33 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+x-sedo-request-id: ID-78c86f76c6-xgscl-2c1ab8859a45d3848aeee42cf9198015
+age: 6
+x-frame-options: sameorigin
+content-language: en
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 6efa5f7fddca5db5-IAD
+Content-Encoding: gzip
+

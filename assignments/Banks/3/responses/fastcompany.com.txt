@@ -1,6 +1,44 @@
+HTTP 301
 http://fastcompany.com/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Server: Varnish
+Retry-After: 0
+Content-Length: 0
+Location: https://www.fastcompany.com/
+Accept-Ranges: bytes
+Date: Mon, 21 Mar 2022 23:12:14 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-iad-kcgs7200161-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1647904335.945585,VS0,VE0
+Set-Cookie: X-abtest=(null);, fastlygeo=Norfolk:United States:23508:128.82.19.2; expires=Mon, 21 Mar 2022 23:12:24 GMT; path=/;, geodata=Norfolk:United States:23508:128.82.19.2; expires=Tue, 22 Mar 2022 23:12:14 GMT; path=/;
+Cache-Control: max-age=0
+Last-Modified: Mon, 21 Mar 2022 23:12:14 GMT
+
+HTTP 200
+https://www.fastcompany.com/
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Content-Length: 180498
+Server: nginx
+Content-Type: text/html; charset=utf-8
+X-DNS-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+ETag: W/"13bcd0-tseQ4f8Q1Gg3VtwACQ0uVdDYIlA"
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Mon, 21 Mar 2022 23:12:15 GMT
+Via: 1.1 varnish
+Age: 193
+X-Served-By: cache-iad-kcgs7200157-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1647904335.040789,VS0,VE2
+Cache-Control: max-age=0
+Last-Modified: Mon, 21 Mar 2022 23:12:15 GMT
+Vary: Accept-Encoding, Cookie, X-abtest
+

@@ -1,6 +1,47 @@
+HTTP 302
 http://box.com/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Date: Mon, 21 Mar 2022 23:11:25 GMT
+Content-Type: text/html
+Content-Length: 138
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Location: https://box.com/
+
+HTTP 301
+https://box.com/
+Date: Mon, 21 Mar 2022 23:11:26 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.box.com
+Strict-Transport-Security: max-age=31536000
+
+HTTP 200
+https://www.box.com
+Date: Mon, 21 Mar 2022 23:11:26 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 75050
+Connection: keep-alive
+Accept-Ranges: bytes
+Age: 57736
+Box-Country: US
+Cache-Control: max-age=86400, public
+Content-Encoding: gzip
+Content-language: en
+ETag: "1647846566"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Mon, 21 Mar 2022 07:09:26 GMT
+Link: <https://www.box.com/home>; rel="canonical", <https://www.box.com/>; rel="shortlink", <https://www.box.com/>; rel="alternate"; hreflang="en", <https://www.box.com/en-gb>; rel="alternate"; hreflang="en-gb", <https://www.box.com/en-ca>; rel="alternate"; hreflang="en-ca", <https://www.box.com/en-au>; rel="alternate"; hreflang="en-au", <https://www.box.com/en-in>; rel="alternate"; hreflang="en-in", <https://www.box.com/en-nl>; rel="alternate"; hreflang="en-nl", <https://www.box.com/en-se>; rel="alternate"; hreflang="en-se", <https://www.box.com/fr-fr>; rel="alternate"; hreflang="fr", <https://www.box.com/de-de>; rel="alternate"; hreflang="de", <https://www.box.com/it-it>; rel="alternate"; hreflang="it", <https://www.box.com/ja-jp>; rel="alternate"; hreflang="ja-jp", <https://www.box.com/ko-kr>; rel="alternate"; hreflang="ko-kr", <https://www.box.com/es-419>; rel="alternate"; hreflang="es", <//cdn03.boxcdn.net>; rel=preconnect; crossorigin, <//cdn03.boxcdn.net>; rel=dns-prefetch
+Permissions-Policy: interest-cohort=()
+Strict-Transport-Security: max-age=31536000
+Vary: Cookie,Box-Country,X-Frame-Options,Accept-Encoding,X-Geo-Country
+X-AH-Environment: prod
+X-Cache: HIT
+X-Cache-Hits: 504353
+X-Content-Type-Options: nosniff
+x-dns-prefetch-control: on
+X-Frame-Options: SAMEORIGIN
+X-Geo-Country: US
+X-Request-ID: v-cdde712e-a8e5-11ec-affd-630eaf560863
+X-UA-Compatible: IE=edge
+X-XSS-Protection: 1; mode=block
+

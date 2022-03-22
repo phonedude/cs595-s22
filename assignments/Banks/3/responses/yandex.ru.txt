@@ -1,6 +1,16 @@
+HTTP 302
 http://yandex.ru/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Location: http://yandex.ru/showcaptcha?cc=1&retpath=http%3A//yandex.ru/%3F_b949543f3b26457f87f15e8d7db48c3a&t=2/1647904361/063cd15884c8b00130293344a610eb76&u=1e75abb1-b475c03b-b9b42e7a-e084d341&s=ba9d3f448085fc8adff094586a79d251
+NEL: {"report_to": "network-errors", "max_age": 86400, "success_fraction": 0.001, "failure_fraction": 0.1}
+Report-To: { "group": "network-errors", "max_age": 86400, "endpoints": [ { "url": "https://dr.yandex.net/nel"}]}
+Set-Cookie: spravka=dD0xNjE2MzY4MzYxO2k9MTI4LjgyLjE5LjI7RD1DQ0I0MkMxOUM0NjVBMzdEQ0JDRjI1NUUwOEYxNzFGQUU0QkQ4ODlGNEIyMzIxOEVBRTM0MDgyODc4RTA1M0U1NTExMTY3RTY7dT0xNjE2MzY4MzYxOTEwMDE5MTU0O2g9ODE1OTFkODRkNmIwMDczNDM4NGZkYzhlNmE0MTkwYTA=; domain=.yandex.ru; path=/; expires=Wed, 20-Apr-2022 23:12:41 GMT
+X-Content-Type-Options: nosniff
+
+HTTP 200
+http://yandex.ru/showcaptcha?cc=1&retpath=http%3A//yandex.ru/%3F_b949543f3b26457f87f15e8d7db48c3a&t=2/1647904361/063cd15884c8b00130293344a610eb76&u=1e75abb1-b475c03b-b9b42e7a-e084d341&s=ba9d3f448085fc8adff094586a79d251
+Content-Length: 6684
+Content-Type: text/html
+NEL: {"report_to": "network-errors", "max_age": 86400, "success_fraction": 0.001, "failure_fraction": 0.1}
+Report-To: { "group": "network-errors", "max_age": 86400, "endpoints": [ { "url": "https://dr.yandex.net/nel"}]}
+X-Content-Type-Options: nosniff
+

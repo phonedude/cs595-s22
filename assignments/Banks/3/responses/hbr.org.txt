@@ -1,6 +1,34 @@
+HTTP 301
 http://hbr.org/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Server: CloudFront
+Date: Mon, 21 Mar 2022 23:12:19 GMT
+Content-Type: text/html
+Content-Length: 183
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Location: https://hbr.org/
+X-Cache: Redirect from cloudfront
+Via: 1.1 a10f8b8edba35e6f4205ea317abf3c48.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: oExQjBgoxu9GKftQpJuzlyO56XLvh920mvfwElxd6r4MrpjNP7H73w==
+
+HTTP 200
+https://hbr.org/
+Content-Type: text/html;charset=utf-8
+Connection: keep-alive
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Authorization,Content-Type,Accept
+Access-Control-Allow-Methods: GET, POST, OPTIONS, HEAD
+Cache-Control: max-age=0, must-revalidate
+Content-Encoding: gzip
+Content-Language: en-US
+Content-Security-Policy: frame-ancestors 'self'
+Date: Mon, 21 Mar 2022 23:12:19 GMT
+Server: Apache-Coyote/1.1
+Set-Cookie: _hbr_u=eyJpZCI6ImJmZDM2MzRmNGVlOTliYWFiOGY5NzM3N2ZmZTBlYTBjIiwibGFzdFZpc2l0ZWQiOjE2NDc5MDQzMzk2NzB9; Domain=.hbr.org; Expires=Fri, 01-Apr-2022 00:00:00 GMT; Path=/; Secure; HttpOnly, hbr_user_experience="Article Redesign"; Version=1; Domain=.hbr.org; Max-Age=94608000; Expires=Thu, 20-Mar-2025 23:12:19 GMT; Path=/, HBR_SESSION_ID=df02a494-87f1-4268-af51-5cc74862e703; Domain=.hbr.org; Path=/; Secure; HttpOnly
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-Cache: Miss from cloudfront
+Via: 1.1 749e1450fdc7cac18bb91a34e80053aa.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: 7H6nHSLEICRapc2tN1eBhHkTsaQ3Kgy2MjC8X7Q5kfFeWysrSdTnVw==
+

@@ -1,6 +1,30 @@
+HTTP 302
 http://dot.tk/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Server: nginx/1.17.8
+Set-Cookie: mydottk_languagenr=0; domain=.dot.tk; path=/; expires=Tue, 22-Mar-2022 23:11:28 GMT, dottyLn=en; domain=.dot.tk; path=/; expires=Tue, 22-Mar-2022 23:11:28 GMT, wwwLn=en; domain=.dot.tk; path=/; expires=Tue, 22-Mar-2022 23:11:28 GMT
+Date: Mon, 21 Mar 2022 23:11:28 GMT
+Location: http://www.dot.tk/en/index.html?lang=en
+Via: 1.1 google
+Transfer-Encoding: chunked
+
+HTTP 200
+http://www.dot.tk/en/index.html?lang=en
+Server: nginx/1.17.8
+Content-Length: 24164
+X-GUploader-UploadID: ADPycdv3p-csPv5bIoZszx0vTo6_qBnt_tFtg6OcDO0HwdOdNTk0qwDoM3-_hA0yScmgGS9QEitfNblWPl-uqWp31Qo
+x-goog-generation: 1486570374609937
+x-goog-metageneration: 4
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 24164
+Content-Language: en
+x-goog-hash: crc32c=A/RRCw==, md5=wYVHxq8HWIIB5vtMXDBVUw==
+x-goog-storage-class: STANDARD
+Accept-Ranges: bytes
+Via: 1.1 google
+Date: Mon, 21 Mar 2022 23:11:28 GMT
+Last-Modified: Wed, 08 Feb 2017 16:12:54 GMT
+ETag: "c18547c6af07588201e6fb4c5c305553"
+Content-Type: text/html
+Age: 0
+Cache-Control: max-age=600,public
+

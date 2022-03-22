@@ -1,6 +1,25 @@
+HTTP 301
 http://biblegateway.com/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Content-Type: text/html
+Content-Length: 255
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Date: Mon, 21 Mar 2022 23:11:25 GMT
+Location: https://www.biblegateway.com/
+X-Cache: Miss from cloudfront
+Via: 1.1 de6760156d781e28f72545a2e9243b26.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD79-C1
+X-Amz-Cf-Id: 2XUOWvVXZ0y6eebNlwkDk4plgVmGRF7xOau4HrGnPN8Nyo2GhLdgvA==
+
+HTTP 200
+https://www.biblegateway.com/
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Date: Mon, 21 Mar 2022 23:11:25 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=2592000
+Content-Encoding: gzip
+X-Cache: Miss from cloudfront
+Via: 1.1 e811c1e9e6ed756b98bfcf15c74f6bea.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD79-C1
+X-Amz-Cf-Id: BOEFu7A4qYMUfSbPX-zdmGqYYv2hEdOEZCp18vpnfW4svpU7Sf8kdg==
+

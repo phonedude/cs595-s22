@@ -1,6 +1,29 @@
+HTTP 302
 http://nationalgeographic.com/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Date: Mon, 21 Mar 2022 23:12:27 GMT
+Content-Type: text/plain
+Content-Length: 13
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Location: https://www.nationalgeographic.com/
+Access-Control-Allow-Origin: *
+
+HTTP 200
+https://www.nationalgeographic.com/
+Content-Type: text/html; charset=utf-8
+Content-Length: 46072
+Connection: keep-alive
+Date: Mon, 21 Mar 2022 23:12:12 GMT
+Server: nginx/1.20.1
+Expires: Mon, 21 Mar 2022 23:12:47 GMT
+Last-Modified: Mon, 21 Mar 2022 23:12:47 GMT
+Content-Encoding: gzip
+Via: 1.1 varnish-v4, 1.1 7fc7dfaa5550fcad03b89e168c0bc0c4.cloudfront.net (CloudFront)
+Cache-Control: max-age=35
+Accept-Ranges: bytes
+Set-Cookie: country=us; path=/;, region=ccpa; path=/; Expires=Mon, 28 Mar 2022 23:12:12 GMT;, _dcf=1; path=/; Expires=Mon, 28 Mar 2022 23:12:12 GMT;
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: IAD79-C3
+X-Amz-Cf-Id: m2V5zS0QTQ2Gmm99ScYXN5mHDXDidEV3ECKjgksMryRVdz4iV14fNA==
+Age: 16
+

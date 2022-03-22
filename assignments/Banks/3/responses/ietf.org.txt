@@ -1,6 +1,33 @@
+HTTP 302
 http://ietf.org/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Date: Mon, 21 Mar 2022 23:12:20 GMT
+Server: Apache
+Location: https://www.ietf.org/
+Keep-Alive: timeout=5, max=10000
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP 200
+https://www.ietf.org/
+Date: Mon, 21 Mar 2022 23:12:20 GMT
+Content-Type: text/html; charset=utf-8
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+X-Frame-Options: ALLOW-FROM ietf.org *.ietf.org meetecho.com *.meetecho.com gather.town *.gather.town
+Vary: Cookie,Accept-Encoding
+X-Content-Type-Options: nosniff, nosniff
+Referrer-Policy: same-origin
+Expires: Tue, 22 Mar 2022 00:12:20 GMT
+Cache-Control: public, max-age=3600
+Strict-Transport-Security: max-age=31536000; preload
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy: frame-ancestors 'self' ietf.org *.ietf.org meetecho.com *.meetecho.com gather.town *.gather.town
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: *
+CF-Cache-Status: HIT
+Age: 537
+Last-Modified: Mon, 21 Mar 2022 23:03:23 GMT
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 6efa5f2e0d2e05d6-IAD
+Content-Encoding: gzip
+

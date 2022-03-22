@@ -1,6 +1,36 @@
+HTTP 301
 http://engadget.com/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Date: Mon, 21 Mar 2022 23:12:14 GMT
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Server: ATS
+Cache-Control: no-store
+Content-Type: text/html
+Content-Language: en
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy: sandbox allow-scripts; default-src 'self'; img-src https:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; report-uri http://csp.yahoo.com/beacon/csp?src=redirect
+Location: https://www.engadget.com/
+Content-Length: 4371
+
+HTTP 200
+https://www.engadget.com/
+expect-ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+referrer-policy: no-referrer-when-downgrade
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' data: https: https://sb.scorecardresearch.com https://*.yahoo.com blob: wss:; sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation allow-presentation; img-src 'self' https: data: blob: https://*.yimg.com https://bats.video.yahoo.com https://*.scorecardresearch.com https://*.adaptv.advertising.com https://trk.vidible.tv https://beap.gemini.yahoo.com; object-src https://*.engadget.com https://s.yimg.com; worker-src 'self' blob:; manifest-src 'self' https://s.yimg.com; font-src 'self' data: https://*.engadget.com https://s.yimg.com https://fonts.gstatic.com https://*.spot.im https://assets.video.yahoo.net; connect-src 'self' https://*.engadget.com https://s.yimg.com https://*.yahoo.net https://*.yahoo.com https://*.oath.com https://*.advertising.com https://*.cdn.yimg.com https://ad.doubleclick.net https://*.doubleverify.com https://*.googlesyndication.com https://*.spot.im https://*.giphy.com https://*.vidible.com https://*.media.yahoo.com:4443 https://*.skimresources.com https://*.taboola.com https://securepubads.g.doubleclick.net https://*.spotim.market https://*.criteo.com https://*.criteo.net https://*.pubmatic.com https://*.rubiconproject.com https://*.lijit.com https://*.gumgum.com https://*.openx.net https://*.adtelligent.com https://*.casalemedia.com https://*.creativecdn.com https://*.adnxs.com https://*.nighttstand.com https://*.rlcdn.com https://*.adsrvr.org https://*.adform.net https://*.vidible.tv https://*.uplynk.com https://*.edgekey.net https://*.doubleclick.net https://d1z2jf7jlzjs58.cloudfront.net https://*.pixel.parsely.com https://*.aniview.com https://*.ad-score.com https://polarcdn-terrax.com https://*.polarcdn-terrax.com https://*.polarcdn.com https://polarcdn-engine.com https://polarcdn-pentos.com https://videodelivery.net https://*.videodelivery.net https://sf-hs-sg.ibytedtos.com https://b1h.zemanta.com https://hb-api.omnitagjs.com https://search.spotxchange.com https://video-api.yql.yahoo.com https://edgecast-vod.yimg.com https://assets.video.yahoo.net https://cdn-ssl.vidible.tv/prod https://*.doubleclick.net https://edgecast-vod.yahoo.net https://*.vpg.cdn.yimg.com https://s.yimg.com https://media.zenfs.com https://assets.video.yahoo.net https://ads.adaptv.advertising.com https://video.adaptv.advertising.com https://tpc.googlesyndication.com/ima3vpaid https://*.adsafeprotected.com https://*.pictela.net; upgrade-insecure-requests; block-all-mixed-content; report-uri https://csp.yahoo.com/beacon/csp?src=engadget; report-to csp-endpoint;
+report-to: {"group":"csp-endpoint","max-age":10886400,"endpoints":[{"url":"https://csp.yahoo.com/beacon/csp?src=engadget"}]}
+content-type: text/html; charset=utf-8
+vary: Accept-Encoding
+set-cookie: B=cv92b39h3i1ie&b=3&s=do; expires=Mon, 21-Mar-2023 23:12:14 GMT; path=/; domain=.yahoo.com, BX=e8q3uthh3i1ie&b=3&s=2k; Expires=Wed, 22 Mar 2023 05:12:14 GMT; Max-Age=31557600; Domain=.engadget.com; Path=/, BX=e8q3uthh3i1ie&b=3&s=2k; expires=Tue, 21-Mar-2023 23:12:14 GMT; path=/; domain=.engadget.com
+date: Mon, 21 Mar 2022 23:12:14 GMT
+x-envoy-upstream-service-time: 269
+server: ATS
+x-envoy-decorator-operation: carbon--mtls-production-bf1.engadget-k8s.svc.yahoo.local:4080/*
+transfer-encoding: chunked
+Age: 0
+Connection: keep-alive
+

@@ -1,6 +1,28 @@
+HTTP 301
 http://zendesk.com/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Server: nginx
+Date: Mon, 21 Mar 2022 23:12:42 GMT
+Content-Type: text/html
+Content-Length: 162
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Location: https://www.zendesk.com/
+X-Content-Type-Options: nosniff
+
+HTTP 200
+https://www.zendesk.com/
+Date: Mon, 21 Mar 2022 23:12:42 GMT
+Content-Type: text/html
+Connection: keep-alive
+Last-Modified: Mon, 21 Mar 2022 22:05:24 GMT
+Vary: Accept-Encoding
+ETag: W/"6238f6a4-23568"
+Content-Security-Policy: default-src * wss://*.zopim.com 'unsafe-inline' 'unsafe-eval'; frame-ancestors 'self' app.optimizely.com *.zendesk.com *.zendesk.co.jp *.zendesk.co.uk *.zendesk.com.br *.zendesk.com.mx *.zendesk.com.ru *.zendesk.de *.zendesk.es *.zendesk.fr *.zendesk.it *.zendesk.kr *.zendesk.nl *.zendesk.tw *.zendesk.hk; font-src * data:; img-src * data:; media-src * blob:;worker-src 'self' blob:
+Content-Encoding: gzip
+CF-Cache-Status: HIT
+Age: 238
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Set-Cookie: __cf_bm=5o6Zc.yCRQc5Eabi5jT9I__L_0YmuD.S99UExoVNN3c-1647904362-0-AbNxZchCBjju0X5+kkhoJD4sLsu6Iol+ecwEQ/UkfhaHrkmlRsB5RVzViqZkd7Hv9vzyuqcaj6PSvSCz30VX66c=; path=/; expires=Mon, 21-Mar-22 23:42:42 GMT; domain=.www.zendesk.com; HttpOnly; Secure; SameSite=None, __cfruid=7d4df12db657296b8bd7d2eaddb249f0f7c5f9a1-1647904362; path=/; domain=.www.zendesk.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=0; preload
+Server: cloudflare
+CF-RAY: 6efa5fb8f83d5806-IAD
+

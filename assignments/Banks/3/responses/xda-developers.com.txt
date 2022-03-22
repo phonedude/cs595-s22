@@ -1,6 +1,57 @@
+HTTP 301
 http://xda-developers.com/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Date: Mon, 21 Mar 2022 23:12:39 GMT
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Cache-Control: max-age=3600
+Expires: Tue, 22 Mar 2022 00:12:39 GMT
+Location: https://xda-developers.com/
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: 6efa5fa9cc5d8f10-IAD
+
+HTTP 301
+https://xda-developers.com/
+Date: Mon, 21 Mar 2022 23:12:40 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: PHPSESSID=bv96odv2pvd7ef02qmpi62q7lu; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+X-Pingback: https://www.xda-developers.com/xmlrpc.php
+X-Redirect-By: WordPress
+Location: https://www.xda-developers.com/
+X-Nginx-Cache-Status: HIT
+X-Nginx-Device: DESKTOP
+X-Nginx-Geo: US
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: 6efa5faa7c7a81ee-IAD
+
+HTTP 200
+https://www.xda-developers.com/
+Date: Mon, 21 Mar 2022 23:12:40 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+X-Pingback: https://www.xda-developers.com/xmlrpc.php
+Link: <https://www.xda-developers.com/wp-json/>; rel="https://api.w.org/", <https://www.xda-developers.com/wp-json/wp/v2/pages/121727>; rel="alternate"; type="application/json"
+X-Nginx-Cache-Status: MISS
+X-Nginx-Device: DESKTOP
+X-Nginx-Geo: TW
+Last-Modified: Mon, 21 Mar 2022 23:08:20 GMT
+CF-Cache-Status: HIT
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: 6efa5fabba700603-IAD
+Content-Encoding: gzip
+

@@ -1,6 +1,32 @@
+HTTP 301
 http://globo.com/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Date: Mon, 21 Mar 2022 23:12:17 GMT
+Content-Type: text/html
+Content-Length: 178
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Cache-Control: max-age=600
+Location: https://www.globo.com/
+
+HTTP 200
+https://www.globo.com/
+Date: Mon, 21 Mar 2022 23:12:17 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 116685
+Connection: keep-alive
+X-Served-From: Show Services
+Content-Encoding: gzip
+Expires: Mon, 21 Mar 2022 23:12:24 GMT
+Cache-Control: max-age=10
+X-XSS-Protection: 1; mode=block
+X-Request-Id: e6553fe2-5043-45c3-8d1b-027fd4585665
+Content-Security-Policy: upgrade-insecure-requests
+X-Content-Type-Options: nosniff
+X-Mobile: desktop
+Show-Page-Version: 0
+Age: 2
+Vary: X-Forwarded-Proto, Accept-Encoding, User-Agent, Wall-Subscription-Level
+X-Bip: 74888981 asra03mp05lx01ca04.globoi.com
+Via: 2.0 CachOS
+Accept-Ranges: bytes
+X-Thanos: 0AB1D10A
+

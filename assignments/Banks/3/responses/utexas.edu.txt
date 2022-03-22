@@ -1,6 +1,77 @@
+HTTP 301
 http://utexas.edu/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Content-Type: text/html
+Location: https://utexas.edu/
+Server: nginx
+Traceparent: 00-4659061a06344ed3bc5cb0090c1abf6b-322a0336cc331681-00
+X-Cloud-Trace-Context: 4659061a06344ed3bc5cb0090c1abf6b/3614705184807261825;o=0
+X-Pantheon-Styx-Hostname: styx-fe4-b-97f8fd4b8-qd9pk
+X-Styx-Req-Id: 0d0e4516-a8f1-11ec-8e84-ca085943ceb7
+Cache-Control: public, max-age=86400
+Content-Length: 162
+Date: Mon, 21 Mar 2022 23:12:36 GMT
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+X-Served-By: cache-mdw17380-MDW, cache-iad-kiad7000026-IAD
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1647904357.891218,VS0,VE2
+Vary: Cookie, Cookie
+Age: 52977
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish
+
+HTTP 301
+https://utexas.edu/
+Connection: keep-alive
+Content-Length: 0
+Cache-Control: public, max-age=1209600
+Content-Type: text/html; charset=UTF-8
+Location: https://www.utexas.edu/
+Server: nginx
+Strict-Transport-Security: max-age=31622400
+Traceparent: 00-c2b377d975b041d1b7cdd846b4e27581-6e880671e5238b35-00
+X-Cloud-Trace-Context: c2b377d975b041d1b7cdd846b4e27581/7964623027250105141;o=0
+X-Pantheon-Styx-Hostname: styx-fe4-a-c8f79d547-kgw7p
+X-Styx-Req-Id: 7177c4cd-a5c6-11ec-99a2-82d2a2af75a7
+Date: Mon, 21 Mar 2022 23:12:36 GMT
+X-Served-By: cache-mdw17323-MDW, cache-iad-kiad7000050-IAD
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1647904357.978439,VS0,VE1
+Vary: Cookie, Cookie
+Age: 401130
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish
+
+HTTP 200
+https://www.utexas.edu/
+Connection: keep-alive
+Content-Length: 18543
+Cache-Control: public, max-age=300
+Content-Encoding: gzip
+Content-Language: en
+Content-Type: text/html; charset=utf-8
+Etag: W/"1647902006-0"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Mon, 21 Mar 2022 22:33:26 GMT
+Link: <https://www.utexas.edu>; rel="canonical",<https://www.utexas.edu>; rel="shortlink"
+Permissions-Policy: interest-cohort=()
+Server: nginx
+Strict-Transport-Security: max-age=300
+Traceparent: 00-b80be1a131a24b91a9f203ec521e9a2b-4f2b9f1aa186fd02-00
+X-Cloud-Trace-Context: b80be1a131a24b91a9f203ec521e9a2b/5704828289722809602;o=0
+X-Drupal-Cache: HIT
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 7 (http://drupal.org)
+X-Pantheon-Styx-Hostname: styx-fe4-b-97f8fd4b8-qd9pk
+X-Styx-Req-Id: 1cf93045-a967-11ec-8e84-ca085943ceb7
+Date: Mon, 21 Mar 2022 23:12:37 GMT
+X-Served-By: cache-mdw17339-MDW, cache-iad-kcgs7200085-IAD
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1647904357.064720,VS0,VE2
+Vary: Accept-Encoding, Cookie, Cookie, Cookie
+Age: 157
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish
+

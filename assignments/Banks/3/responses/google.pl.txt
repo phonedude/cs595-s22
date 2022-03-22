@@ -1,6 +1,24 @@
+HTTP 301
 http://google.pl/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Location: http://www.google.pl/
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 21 Mar 2022 23:12:18 GMT
+Expires: Wed, 20 Apr 2022 23:12:18 GMT
+Cache-Control: public, max-age=2592000
+Server: gws
+Content-Length: 218
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+
+HTTP 200
+http://www.google.pl/
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 21 Mar 2022 23:12:18 GMT
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Transfer-Encoding: chunked
+Expires: Mon, 21 Mar 2022 23:12:18 GMT
+Cache-Control: private
+Set-Cookie: 1P_JAR=2022-03-21-23; expires=Wed, 20-Apr-2022 23:12:18 GMT; path=/; domain=.google.pl; Secure; SameSite=none
+

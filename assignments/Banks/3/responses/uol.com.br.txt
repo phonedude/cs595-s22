@@ -1,6 +1,28 @@
+HTTP 301
 http://uol.com.br/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Location: https://www.uol.com.br/
+Cache-Control: max-age=60
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP 200
+https://www.uol.com.br/
+Content-Type: text/html;charset=UTF-8
+Content-Length: 123832
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Date: Mon, 21 Mar 2022 23:12:34 GMT
+Server: marrakesh 1.23.0
+Content-Security-Policy: frame-ancestors 'self' *.intranet *.uolinc.com;
+Cache-Control: no-transform, max-age=10, must-revalidate, proxy-revalidate
+Last-Modified: Mon, 21 Mar 2022 23:12:33 GMT
+ETag: "eb46df15809158d2c156865ae6c0caad"
+Expires: Mon, 21 Mar 2022 23:12:44 GMT
+Content-Encoding: gzip
+Vary: Accept-Encoding,User-Agent
+X-Cache: Hit from cloudfront
+Via: 1.1 6d327e3d2da66fac5e95b3d2d2e18852.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: OTno4xs4qWXfWU1ikNeWRQm6Hc_9rC4_hwlrqYANryGgjSO_7FJJAg==
+Age: 2
+

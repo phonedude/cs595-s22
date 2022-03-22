@@ -1,6 +1,15 @@
+HTTP 302
 http://yadi.sk/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Content-Length: 0
+Location: https://yadi.sk/
+
+HTTP 302
+https://yadi.sk/
+Location: https://yadi.sk/showcaptcha?cc=1&retpath=https%3A//yadi.sk/%3F_26b3a156fec8d3644aff75a367b87bf5&t=2/1647904361/d41d8cd98f00b204e9800998ecf8427e&u=bf8d3492-c841926f-4e956256-6602af0e&s=29e5615ee34358d1e3c9425712a8435d
+Set-Cookie: spravka=dD0xNjE2MzY4MzYxO2k9MTI4LjgyLjE5LjI7RD0wRDdDQkIyMTUwMzI2OTY1MURFODc3RUMwQTExRDZCNjQ4RkUyNUM2QkY0N0REM0JCODc0NUQ1MzQ3MDZEQzY5NTgxMDZDMzY7dT0xNjE2MzY4MzYxNDUzMjY5MzE5O2g9NDMyNjA2NDkxNzkxZDA5MmE3Zjg5ZThmYjNmNDY1NzE=; domain=.yadi.sk; path=/; expires=Wed, 20-Apr-2022 23:12:41 GMT
+
+HTTP 200
+https://yadi.sk/showcaptcha?cc=1&retpath=https%3A//yadi.sk/%3F_26b3a156fec8d3644aff75a367b87bf5&t=2/1647904361/d41d8cd98f00b204e9800998ecf8427e&u=bf8d3492-c841926f-4e956256-6602af0e&s=29e5615ee34358d1e3c9425712a8435d
+Content-Length: 6748
+Content-Type: text/html
+

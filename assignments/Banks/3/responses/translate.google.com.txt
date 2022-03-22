@@ -1,6 +1,35 @@
+HTTP 301
 http://translate.google.com/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Content-Type: application/binary
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Mon, 21 Mar 2022 23:12:35 GMT
+Location: https://translate.google.com/
+Content-Length: 0
+Server: ESF
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+
+HTTP 200
+https://translate.google.com/
+Content-Type: text/html; charset=utf-8
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+x-ua-compatible: IE=edge
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Mon, 21 Mar 2022 23:12:35 GMT
+Content-Length: 1011705
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Content-Security-Policy: script-src 'nonce-seQDXAPL8wj8q5qxqn7xQg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/TranslateWebserverUi/cspreport;worker-src 'self', script-src 'nonce-seQDXAPL8wj8q5qxqn7xQg' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.gstatic.com https://www.google-analytics.com https://www.googleapis.com/appsmarket/v2/installedApps/;report-uri /_/TranslateWebserverUi/cspreport, require-trusted-types-for 'script';report-uri /_/TranslateWebserverUi/cspreport
+Cross-Origin-Resource-Policy: same-site
+Cross-Origin-Opener-Policy: same-origin-allow-popups
+Server: ESF
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Set-Cookie: NID=511=DWt4-NMQrvqh5GnbEHzTjPlPh8liKZWoCYMrHHS3GSbpT_RC7utCba08Q56YByqdYGlcwLj7YHmHEZh_p2U_UTlDbExNxa6rpT5eIKaTHYQf3KzXH8oz2f6eSJwfbb8I1Aqdnzg_rKDL1BsEpLyl_qs6fRssO_qCZoRuptSiY74; expires=Tue, 20-Sep-2022 23:12:35 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+

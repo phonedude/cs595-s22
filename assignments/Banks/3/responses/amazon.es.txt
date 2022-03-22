@@ -1,6 +1,41 @@
+HTTP 301
 http://amazon.es/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Server: Server
+Date: Mon, 21 Mar 2022 23:11:23 GMT
+Content-Type: text/html
+Content-Length: 163
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Location: https://amazon.es/
+
+HTTP 301
+https://amazon.es/
+Server: Server
+Date: Mon, 21 Mar 2022 23:11:23 GMT
+Content-Type: text/html
+Content-Length: 163
+Connection: keep-alive
+Location: https://www.amazon.es/
+Permissions-Policy: interest-cohort=()
+
+HTTP 405
+https://www.amazon.es/
+Content-Type: text/html;charset=UTF-8
+Content-Length: 0
+Connection: keep-alive
+Server: Server
+Date: Mon, 21 Mar 2022 23:11:23 GMT
+x-amz-rid: 8CP2QE4R9J5TQGN3WYDY
+Set-Cookie: session-id=-; path=/; domain=.www.amazon.es; expires=Sun, 21-Mar-2010 23:11:23 GMT, session-id-time=-; path=/; domain=.www.amazon.es; expires=Sun, 21-Mar-2010 23:11:23 GMT, session-token=-; path=/; domain=.www.amazon.es; expires=Sun, 21-Mar-2010 23:11:23 GMT, ubid-acbes=-; path=/; domain=.www.amazon.es; expires=Sun, 21-Mar-2010 23:11:23 GMT, at-acbes=-; path=/; domain=.www.amazon.es; expires=Sun, 21-Mar-2010 23:11:23 GMT, lc-acbes=-; path=/; domain=.www.amazon.es; expires=Sun, 21-Mar-2010 23:11:23 GMT, x-acbes=-; path=/; domain=.www.amazon.es; expires=Sun, 21-Mar-2010 23:11:23 GMT, x-wl-uid=-; path=/; domain=.www.amazon.es; expires=Sun, 21-Mar-2010 23:11:23 GMT, sess-at-acbes=-; path=/; domain=.www.amazon.es; expires=Sun, 21-Mar-2010 23:11:23 GMT, UserPref=-; path=/; domain=.www.amazon.es; expires=Sun, 21-Mar-2010 23:11:23 GMT
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Allow: GET, POST, PUT, DELETE
+Vary: Accept-Encoding,User-Agent,Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+X-Cache: Error from cloudfront
+Via: 1.1 ead5a4c5fbab9ab09302c9bd4c52b4b4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: HXBJr4mwsbhT4hDeMrD_cpKcCc3fVB_CWcSXxMxExb_22nwpvnKqNA==
+

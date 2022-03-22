@@ -22,13 +22,17 @@ with open('failed_sites.txt', 'w') as f:
     # Loop through each site in sites.txt
     for site in site_list:
         try:
-            r = requests.head("http://"+site, timeout=20, headers=headers)
+            r = requests.head("http://"+site, timeout=20, headers=headers, allow_redirects=True)
 
             # Writes the HTTP response to the text file for this site
             with open('responses/' + site + '.txt', 'w') as response_file:
-                response_file.write(r.request.url + '\n')
-                for item in r.request.headers:
-                    response_file.write(item + ": " + r.request.headers[item] + '\n')
+                if r.history:
+                    r.history.append(r)
+                    for response in r.history:
+                        response_file.write("HTTP " + str(response.status_code) + '\n' + response.url + '\n')
+                        for item in response.headers:
+                            response_file.write(item + ": " + response.headers[item] + '\n')
+                        response_file.write('\n')
 
         # Catches potential exceptions for when a site takes too long to respond or some other error
         except requests.exceptions.RequestException as ex:

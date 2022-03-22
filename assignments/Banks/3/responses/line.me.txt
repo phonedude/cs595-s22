@@ -1,6 +1,39 @@
+HTTP 302
 http://line.me/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Server: nginx
+Date: Mon, 21 Mar 2022 23:12:23 GMT
+Content-Type: text/html
+Content-Length: 154
+Location: http://line.me/en/
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+
+HTTP 301
+http://line.me/en/
+Server: nginx
+Date: Mon, 21 Mar 2022 23:12:23 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Location: https://line.me/en/
+
+HTTP 200
+https://line.me/en/
+Server: nginx
+Date: Mon, 21 Mar 2022 23:12:24 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Last-Modified: Wed, 16 Mar 2022 13:11:14 GMT
+x-rgw-object-type: Normal
+x-amz-meta-s3cmd-attrs: md5:2afd3a129664497979621147b94b675b
+x-amz-storage-class: STANDARD
+Strict-Transport-Security: max-age=15768000
+Content-Encoding: gzip
+Cache-Control: public,max-age=300
+ETag: W/"2afd3a129664497979621147b94b675b"
+Vary: Origin
+X-Cache: Hit from cloudfront
+Via: 1.1 eddf9e6940bd96929e1096ef63815d52.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: NRT57-P3
+X-Amz-Cf-Id: QXSyH33iUv1lGoARjCfk83m3MJdhTzHSD_eNAxOeNssbqtj1jfX9dw==
+Age: 120
+Set-Cookie: ldsuid=c3892941260692de914361a0e57b6f1e; path=/; expires=Sun, 19-Jun-22 23:12:24 GMT
+

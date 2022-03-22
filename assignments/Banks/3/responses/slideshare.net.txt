@@ -1,6 +1,43 @@
+HTTP 301
 http://slideshare.net/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Server: awselb/2.0
+Date: Mon, 21 Mar 2022 23:12:33 GMT
+Content-Type: text/html
+Content-Length: 134
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Location: https://slideshare.net:443/
+
+HTTP 301
+https://slideshare.net:443/
+Date: Mon, 21 Mar 2022 23:12:33 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Server: nginx
+Location: https://www.slideshare.net/
+P3P: CP="OTI DSP COR CUR ADM DEV PSD IVD CONo OUR IND"
+X-Content-Type-Options: nosniff
+
+HTTP 200
+https://www.slideshare.net/
+Date: Mon, 21 Mar 2022 23:12:34 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Server: nginx
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+X-Request-UUID: yVFtDFoCgCyeCxBvOidUGQ==
+X-ss-make-cacheable: true
+X-Bench-Route: main/index
+ETag: W/"3ff03276c55bacb377556e8378c92b1a"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: language=**; path=/, browser_id=f54cba6b-44f8-4154-a49b-ae262d1bc409; path=/; expires=Sun, 21 Mar 2027 23:12:34 GMT, flash=---%250Asig%253A%2B1af4a80d1ab9bd8cbc28120c42733c1e28b8f469%250Adata%253A%2B%2522---%255Cnused%253A%2B%255B%255D%255Cnvals%253A%255Cn%2B%2Bnotice%253A%2B%255Cn%2B%2Bwarning%253A%2B%255Cn%2B%2Bmessage%253A%2B%255Cn%2B%2Bsuccess%253A%2B%255Cn%2B%2Berror%253A%250A%2B%2B%255Cn%2B%2Bpermanent%253A%2B%255Cn%2B%2Bmodal_notice%253A%2B%255Cn%2B%2Bdwnldloop%253A%2B%255Cn%2522%250A; path=/
+X-Request-Id: 539ac8151142bc55c3ad7af95887f1a5
+X-Runtime: 0.218243
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Content-Encoding: gzip
+

@@ -1,6 +1,44 @@
+HTTP 301
 http://pbs.org/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Server: nginx
+Date: Mon, 21 Mar 2022 23:12:30 GMT
+Content-Type: text/html
+Content-Length: 162
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Location: http://www.pbs.org/
+X-PBS-fwsrvname: fwcacheproxy10
+
+HTTP 301
+http://www.pbs.org/
+Server: CloudFront
+Date: Mon, 21 Mar 2022 23:12:30 GMT
+Content-Type: text/html
+Content-Length: 183
+Connection: keep-alive
+Location: https://www.pbs.org/
+X-Cache: Redirect from cloudfront
+Via: 1.1 ec8b1bfbf511818c606f196b49f871e2.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: WYp9tW3FQSFerBiGS8K1hDS4NgxxpJ47kLCDCL6bkVNmLvp04IVVcA==
+
+HTTP 200
+https://www.pbs.org/
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Date: Mon, 21 Mar 2022 23:10:00 GMT
+Expires: Mon, 21 Mar 2022 23:20:00 GMT
+Cache-Control: max-age=600
+Content-Security-Policy: script-src 'self' *.pbs.org *.googlesyndication.com adservice.google.com connect.facebook.net fundingchoicesmessages.google.com js-agent.newrelic.com sb.scorecardresearch.com securepubads.g.doubleclick.net www.google-analytics.com www.googletagmanager.com *.googletagservices.com 'unsafe-inline' 'unsafe-eval'; img-src 'self' data: *.pbs.org *.doubleclick.net *.googlesyndication.com sb.scorecardresearch.com www.googletagmanager.com www.facebook.com graph.facebook.com platform-lookaside.fbsbx.com *.fbsbx.com *.fbcdn.net www.google-analytics.com www.google.com *.googleusercontent.com tags.w55c.net; style-src 'self' *.pbs.org 'unsafe-inline'; connect-src 'self' *.pbs.org *.doubleclick.net *.googlesyndication.com *.eloqua.com csi.gstatic.com fundingchoicesmessages.google.com www.google-analytics.com; frame-src 'self' *.pbs.org *.doubleclick.net *.googlesyndication.com www.facebook.com www.google.com *.googletagservices.com; default-src 'self' *.pbs.org
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer-when-downgrade
+X-Frame-Options: DENY
+ETag: W/"2694b565f95b69bc363eb3b92aacf838"
+Content-Encoding: gzip
+Vary: Accept-Encoding,Cloudfront-Viewer-Country,Cookie
+X-Cache: Hit from cloudfront
+Via: 1.1 65e185f36e65abff9322e261be3491d4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: T_ISjUaphRDdLsP633p_9phwznA_X08ZA4a0QpJ4us6dzZiuQ5Cl6Q==
+Age: 150
+

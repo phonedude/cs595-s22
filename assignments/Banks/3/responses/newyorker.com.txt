@@ -1,6 +1,39 @@
+HTTP 301
 http://newyorker.com/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Server: Varnish
+Retry-After: 0
+Location: https://www.newyorker.com/
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Mon, 21 Mar 2022 23:12:28 GMT
+Via: 1.1 varnish
+Connection: close
+Set-Cookie: CN_xid=63118340-da53-4365-bc2c-761137b77732; Expires=Sat, 17 Sep 2022 23:12:28 GMT; Domain=.newyorker.com; path=/; Secure; SameSite=None;, CN_xid_refresh=63118340-da53-4365-bc2c-761137b77732; Expires=Tue, 21 Mar 2023 23:12:28 GMT; Domain=.newyorker.com; path=/; Secure; httponly; SameSite=None;, xid1=1; Expires=Mon, 21 Mar 2022 23:12:43 GMT; path=/;, CN_segments=co.w2212; Expires=Sat, 17 Sep 2022 23:12:28 GMT; path=/;, CN_geo_country_code=US; Expires=Sat, 17 Sep 2022 23:12:28 GMT; Path=/; Domain=newyorker.com; Samesite=None; Secure
+Content-Security-Policy: default-src https: data: 'unsafe-inline' 'unsafe-eval'; child-src https: data: blob:; connect-src https: data: blob: wss://*.hotjar.com; font-src https: data:; img-src https: blob: data: android-webview-video-poster:; media-src blob: data: https:; object-src https:; script-src https: data: blob: 'unsafe-inline' 'unsafe-eval'; style-src https: 'unsafe-inline'; block-all-mixed-content; upgrade-insecure-requests
+X-Served-By: cache-iad-kcgs7200099-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+Vary: 
+cache-control: no-cache
+
+HTTP 200
+https://www.newyorker.com/
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Content-Type: text/html; charset=utf-8
+payment: free
+X-ESI: on
+Verso: true
+Date: Mon, 21 Mar 2022 23:12:28 GMT
+Via: 1.1 varnish
+Age: 106
+Set-Cookie: CN_xid=63118340-da53-4365-bc2c-761137b77732; Expires=Sat, 17 Sep 2022 23:12:28 GMT; Domain=.newyorker.com; path=/; Secure; SameSite=None;, CN_xid_refresh=63118340-da53-4365-bc2c-761137b77732; Expires=Tue, 21 Mar 2023 23:12:28 GMT; Domain=.newyorker.com; path=/; Secure; httponly; SameSite=None;, verso_bucket=723; Expires=Tue, 21 Mar 2023 23:12:28 GMT; path=/;, pay_ent_smp=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlciI6MX0.eyJ1cmxzIjpbXSwiY250IjowLCJtYXgiOjQsImV4cCI6MjAyMjAzfQ.hzm-x4HfaqAfIAw8AwjUah9OpHYov0zpv9U8f6Vb0Tk; Path=/; Expires=Wed, 22 Mar 2023 05:12:28 GMT; Domain=newyorker.com; Secure;, pay_events=grant-new-smp; Max-Age=20; SameSite=Strict; Secure;
+Content-Security-Policy: default-src https: data: 'unsafe-inline' 'unsafe-eval'; child-src https: data: blob:; connect-src https: data: blob: wss://*.hotjar.com; font-src https: data:; img-src https: blob: data: android-webview-video-poster:; media-src blob: data: https:; object-src https:; script-src https: data: blob: 'unsafe-inline' 'unsafe-eval'; style-src https: 'unsafe-inline'; block-all-mixed-content; upgrade-insecure-requests
+Strict-Transport-Security: max-age=86400; preload
+X-Served-By: cache-iad-kcgs7200067-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1647904348.253314,VS0,VE6
+X-UA-Device: desktop
+Vary: Accept-Encoding, accept-encoding, Accept-Encoding, accept-payment, x-content-exp-assign, X-UA-Device, Verso
+cache-control: no-cache
+

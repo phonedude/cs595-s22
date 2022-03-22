@@ -1,6 +1,65 @@
+HTTP 301
 http://wikihow.com/
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0
-Accept-Encoding: gzip, deflate
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Retry-After: 0
+Content-Length: 0
+Location: https://wikihow.com/
+Accept-Ranges: bytes
+Date: Mon, 21 Mar 2022 23:12:38 GMT
+Connection: close
+X-Timer: S1647904358.060168,VS0,VE0
+Vary: Cookie, Accept-Encoding, User-Agent
+x-c: cache-iad-kiad7000125-IAD,M
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+
+HTTP 301
+https://wikihow.com/
+Connection: close
+Content-Length: 0
+Retry-After: 0
+Location: https://www.wikihow.com/
+Accept-Ranges: bytes
+Date: Mon, 21 Mar 2022 23:12:38 GMT
+X-Timer: S1647904358.151591,VS0,VE0
+Vary: Cookie, Accept-Encoding, User-Agent
+x-c: cache-iad-kcgs7200133-IAD,M
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+HTTP 301
+https://www.wikihow.com/
+Connection: close
+Content-Length: 0
+Retry-After: 0
+Location: https://www.wikihow.com/Main-Page
+Accept-Ranges: bytes
+Date: Mon, 21 Mar 2022 23:12:38 GMT
+X-Timer: S1647904358.237995,VS0,VE0
+Vary: Cookie, Accept-Encoding, User-Agent
+x-c: cache-iad-kcgs7200035-IAD,M
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+HTTP 200
+https://www.wikihow.com/Main-Page
 Connection: keep-alive
-Accept-Language: en-US,en;q=0.5
+Content-Length: 49092
+Content-Type: text/html; charset=UTF-8
+Content-language: en
+X-Frame-Options: SAMEORIGIN
+Cache-Control: s-maxage=3600, must-revalidate, max-age=0
+Last-Modified: Mon, 21 Mar 2022 17:30:19 GMT
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Mon, 21 Mar 2022 23:12:38 GMT
+Age: 16922
+X-Timer: S1647904358.303683,VS0,VE0
+x-c: cache-iad-kcgs7200145-IAD,H,16922
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Set-Cookie: whv=0EElQJYGAKC5FCEAuRMv; expires=Thu, 18 Mar 2032 23:12:38 GMT; domain=.wikihow.com; path=/; secure, vr=US-VA; expires=Thu, 18 Mar 2032 23:12:38 GMT; domain=.wikihow.com; path=/; secure, vi=NA; domain=.wikihow.com; path=/; secure
+Vary: Cookie, Accept-Encoding
+
