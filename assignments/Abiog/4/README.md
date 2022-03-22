@@ -2,8 +2,8 @@
 This assignment demonstrates how many sites from the the previous assignment's 100 sites are framable. In order to test each site, individual html pages were generated using [GenerateHTML.sh](framable/GenerateHTML.sh).
 
 * 2 different methods were used to acquire the information about iframe success:
-    1. Automated iframe success check
-    2. Manual iframe success check
+    * Automated iframe success check
+    * Manual iframe success check
 
 The results are documented and compared below.
 #  
@@ -230,10 +230,11 @@ Checking for iframe success manually was done by running a node.js server and vi
 ### Overall results:
 ||Automated|Manual|
 |---|------|------|
-|Succeeded|20|34|
-|Failed|77|63|
+|Succeeded|21|34|
+|Failed|76|63|
 
 Video demonstration available here: [https://youtu.be/648Ii3W3ugc](https://youtu.be/648Ii3W3ugc)
+
 
 ## Frame Path attack
 This part of the assignment shows how the Path attribute for Cookies is not suitable for security. This is demonstrated by creating two html pages:
@@ -249,7 +250,7 @@ The title from Week 5's lecture, slide 64, is "Parsers, parsers, everywhere". Th
 
 However, in literature, the phrase's origins aren't certain but the earliest known imprint of it is found in part two of The Rime of the Ancient Mariner, written by Engish poet Samuel Taylor Coleridge and first published in 1798:
 
->Water, water, everywhere,
->And all the boards did shrink;
->Water, water, everywhere,
->Nor any drop to drink
+>Water, water, everywhere,  
+>And all the boards did shrink;  
+>Water, water, everywhere,  
+>Nor any drop to drink  
