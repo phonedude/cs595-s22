@@ -4,7 +4,7 @@ Due: March 21, 2022
 
 ## Which public sites are framable?
 
-YouTube: [Assignment 4](https://youtu.be/jEtLT_MigEo)
+YouTube: [Assignment 4](https://youtu.be/f7HlTW_E-10)
 
 I used a bash script (create_iframes.sh) to create a HTML file based off of the template provided by Dr. Nelson. An HTML file is created for each of the 100 URLs to insert each URL as an iframe. All of the iframe HTML files are in the `framable` directory. Once the HTMl file is created, I used the command provided by Dr. Nelson to use Google Chrome to run the HTML file. The results are stored in the `framable` directory as well. If the iframe does not load, the HTML will be updated to show "failed". If the iframe does load, the HTML will be updated to show "succeeded". Of the 100 URLs, 83 failed and 17 succeeded. 
 
