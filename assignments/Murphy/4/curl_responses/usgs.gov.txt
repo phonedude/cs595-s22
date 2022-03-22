@@ -1,0 +1,36 @@
+HTTP/1.0 302 Redirect
+Connection: Close
+Location: https://usgs.gov/
+
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 24 Feb 2022 01:20:24 GMT
+Strict-Transport-Security: max-age=31536000;
+Location: https://www.usgs.gov/
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Server: nginx
+Date: Thu, 24 Feb 2022 01:19:26 GMT
+Set-Cookie: AWSALB=D5H7IZffDSqDdALj5kpz7MlwYruq12tqMiU9Gvf/eb6Eyjy1NHsoX+VwQXFi9c0r3D0TGg0RTmJK2jLe+FNxJ1Fz4rsWqAegmoR/+AmqhIBx/PGE+RGaE2FDeIux; Expires=Thu, 03 Mar 2022 01:19:24 GMT; Path=/
+Set-Cookie: AWSALBCORS=D5H7IZffDSqDdALj5kpz7MlwYruq12tqMiU9Gvf/eb6Eyjy1NHsoX+VwQXFi9c0r3D0TGg0RTmJK2jLe+FNxJ1Fz4rsWqAegmoR/+AmqhIBx/PGE+RGaE2FDeIux; Expires=Thu, 03 Mar 2022 01:19:24 GMT; Path=/; SameSite=None; Secure
+Cache-Control: must-revalidate, no-cache, private
+Link: <http://www.usgs.gov/>; rel="canonical", <http://www.usgs.gov/>; rel="shortlink"
+Link: <http://www.usgs.gov/home>; rel="revision"
+X-UA-Compatible: IE=edge
+Content-Language: en
+Permissions-Policy: interest-cohort=()
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 68261aebcfc232344da2ef3bf1d3f9ea.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD89-P1
+X-Amz-Cf-Id: D-a4GwdzTbD026qWTfovKhak-QEZSAu70K35jHARhGDtAyOxFia0yQ==
+Age: 58
+

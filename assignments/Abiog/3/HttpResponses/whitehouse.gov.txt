@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://whitehouse.gov/
+Date: Tue, 01 Mar 2022 04:10:54 GMT
+Connection: keep-alive
+Content-Type: text/html; charset=utf-8
+
+HTTP/2 301 
+server: AkamaiGHost
+content-length: 0
+location: https://www.whitehouse.gov/
+date: Tue, 01 Mar 2022 04:10:55 GMT
+strict-transport-security: max-age=31536000 ; includeSubDomains ; preload
+content-type: text/html; charset=utf-8
+
+HTTP/2 200 
+server: nginx
+content-type: text/html; charset=UTF-8
+x-build-back-better: https://usds.gov/
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-rq: atl3 0 4 9980
+cache-control: max-age=300, must-revalidate
+date: Tue, 01 Mar 2022 04:10:55 GMT
+strict-transport-security: max-age=31536000 ; includeSubDomains ; preload
+

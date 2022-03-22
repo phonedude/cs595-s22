@@ -1,0 +1,31 @@
+HTTP/1.1 301 Moved Permanently
+server: nginx
+date: Tue, 01 Mar 2022 04:09:36 GMT
+location: https://booking.com/
+content-security-policy-report-only: frame-ancestors 'none'; report-uri https://reports.booking.com/csp_violation?type=report&tag=112&pid=42c51d40580a002d&e=UmFuZG9tSVYkc2RlIyh9YTOdl01r9J-0io6KR0tFn3NbzPH8MwnHFQ&f=0&s=0;
+x-xss-protection: 1; mode=block
+
+HTTP/1.1 301 Moved Permanently
+server: nginx
+date: Tue, 01 Mar 2022 04:09:37 GMT
+location: https://www.booking.com/
+nel: {"report_to":"default","max_age":604800}
+report-to: {"endpoints":[{"url":"https://nellie.booking.com/report"}],"max_age":604800,"group":"default"}
+set-cookie: _pxhd=HrEvTuuqvZ2envMzePon91iBDEDxMlUbiP71ruc5LQ6RjmhYWL1bOoRHplKvXO-4tEybWsleqBtcPXBpT5UmMg%3D%3D%3ApBOcpNm6eVi9LGGd6Cr2G2FMmVA-gCEkNuUZWZIsrTkOih5uIgUeDnCiExUpezBks2DQAgiXkl27A6hubXp9-WL67JHygQ9J9p1GLmDNpJ4%3D; path=/; expires=Wed, 01-Mar-2023 04:09:37 GMT
+strict-transport-security: max-age=604800
+content-security-policy-report-only: report-uri https://reports.booking.com/csp_violation?type=report&tag=112&pid=31711d40d551018f&e=UmFuZG9tSVYkc2RlIyh9YdPFJGDFjZSqK4Z-4dNTMVvIgxiJwJMlnSck6TM9ryg0xQeR-pVo8bU&f=0&s=0; frame-ancestors 'none';
+x-xss-protection: 1; mode=block
+
+HTTP/1.1 200 OK
+server: nginx
+date: Tue, 01 Mar 2022 04:09:37 GMT
+content-type: text/html; charset=UTF-8
+nel: {"report_to":"default","max_age":604800}
+report-to: {"max_age":604800,"group":"default","endpoints":[{"url":"https://nellie.booking.com/report"}]}
+set-cookie: _pxhd=jVRWU-camsy5V1t63uuLbWHFK6OOlTS2Oy2q4YWi-aPMDaJJwzqWHbINrCTZdRazFiHc7RDO3WYsccwzV99fQg%3D%3D%3AFZwKrLoWjn5ZmAf9WPwMTQHZhN0UBR85igUQuovXQfW7YZc-Xvk5HMg0vnGQ-fxzCQkXDlmJTIHZ14aVunaxpuyMXZhMnbEhAejjDZ2bv%2FU%3D; path=/; expires=Wed, 01-Mar-2023 04:09:37 GMT
+set-cookie: bkng=11UmFuZG9tSVYkc2RlIyh9Yaa29%2F3xUOLbXpFeYC4TUhDMSfLvcMG2VEWjJUwBrXixd6SEolPrQ6CMwU65pmbDDnb%2FUUk0M05pblixJ%2Bz%2FW8s06wecS0As%2FYHygthwevSRIYQHRXZ%2Fa%2Baak42e%2FB81RuuYyDx29iJRoTQZbS%2BpYJa1A9knIyonzoWWEypQE2Dz; domain=.booking.com; path=/; expires=Sun, 28-Feb-2027 04:09:37 GMT; Secure; HTTPOnly; SameSite=None
+strict-transport-security: max-age=604800
+x-content-type-options: nosniff
+x-recruiting: Like HTTP headers? Come write ours: https://careers.booking.com
+x-xss-protection: 1; mode=block
+

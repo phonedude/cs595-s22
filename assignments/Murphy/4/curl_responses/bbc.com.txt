@@ -1,0 +1,63 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Thu, 24 Feb 2022 01:14:31 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-iad-kiad7000105-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1645665271.184095,VS0,VE0
+nel: {'report_to':'default','max_age': 2592000,'include_subdomains':true,'failure_fraction':0.05}
+report-to: {'group':'default','max_age':2592000,'endpoints':[ {'url':'https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint','priority':1} ],'include_subdomains':true}
+req-svc-chain: FASTLY
+Location: https://bbc.com/
+Cache-Control: public,max-age=604800,stale-while-revalidate=3600,stale-if-error=3600
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Accept-Ranges: bytes
+Date: Thu, 24 Feb 2022 01:14:31 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kjyo7100176-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1645665271.228144,VS0,VE0
+nel: {'report_to':'default','max_age': 2592000,'include_subdomains':true,'failure_fraction':0.05}
+report-to: {'group':'default','max_age':2592000,'endpoints':[ {'url':'https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint','priority':1} ],'include_subdomains':true}
+req-svc-chain: FASTLY
+Strict-Transport-Security: max-age=31536000
+cache-control: public,max-age=604800,stale-while-revalidate=3600,stale-if-error=3600
+Location: https://www.bbc.com/
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 237789
+Content-Type: text/html; charset=UTF-8
+Cache-Control: public, max-age=60, stale-if-error=90, stale-while-revalidate=30
+ETag: "aa837cad2489be6ecad4c5b9159d425a"
+Via: 1.1 BBC-GTM, 1.1 daf262df3557820c568499be93152238.cloudfront.net (CloudFront), 1.1 varnish
+X-Amz-Cf-Pop: LHR61-C2
+X-Amz-Cf-Id: 2QHb7pCJUn8HPxqfzATPZ5NLmJURdhnadURHJuO7qQ1Jl9yaY4H2bg==
+nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+req-svc-chain: FASTLY,GTM
+X-BBC-Edge-Cache-Status: HIT
+report-to: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint","priority":1}],"include_subdomains":true}
+Server: BBC-GTM
+Fastly-Restarts: 1
+Accept-Ranges: bytes
+Date: Thu, 24 Feb 2022 01:14:31 GMT
+Age: 58
+X-Fastly-Cache-Status: HIT-CLUSTER
+X-Served-By: cache-iad-kiad7000097-IAD
+X-Cache: Hit from cloudfront, HIT
+X-Cache-Hits: 1
+X-Timer: S1645665271.308107,VS0,VE5
+X-LB-NoCache: true
+Vary: X-BBC-Edge-Scheme,Accept-Encoding
+

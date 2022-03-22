@@ -1,0 +1,28 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.18.0
+Date: Tue, 01 Mar 2022 04:10:17 GMT
+Content-Type: text/html
+Content-Length: 169
+Connection: keep-alive
+Location: https://liberation.fr/
+
+HTTP/2 301 
+server: nginx
+content-type: text/html; charset=UTF-8
+location: https://www.liberation.fr/
+date: Tue, 01 Mar 2022 04:10:18 GMT
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+server: openresty
+etag: W/"163c99-i26oMBx+w8jtnEqQiGt5WwPoEac"
+last-modified: Tue, 01 Mar 2022 04:09:15 GMT
+cache-control: private, max-age=60
+expires: Tue, 01 Mar 2022 04:11:19 GMT
+date: Tue, 01 Mar 2022 04:10:19 GMT
+set-cookie: akaas_AS_liberation_liberation_prod=2147483647~rv=56~id=ff077791b067f2fab5cbc4c086bb00b6; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT; Secure; SameSite=None
+content-security-policy: upgrade-insecure-requests
+

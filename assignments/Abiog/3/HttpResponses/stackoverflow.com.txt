@@ -1,0 +1,37 @@
+HTTP/1.1 301 Moved Permanently
+cache-control: no-cache, no-store, must-revalidate
+location: https://stackoverflow.com/
+x-request-guid: 7eb04946-fc51-4ddf-92ce-afd147ae3164
+feature-policy: microphone 'none'; speaker 'none'
+content-security-policy: upgrade-insecure-requests; frame-ancestors 'self' https://stackexchange.com
+Accept-Ranges: bytes
+Date: Tue, 01 Mar 2022 04:10:47 GMT
+Via: 1.1 varnish
+Connection: keep-alive
+X-Served-By: cache-iad-kjyo7100040-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1646107847.488036,VS0,VE7
+Vary: Fastly-SSL
+X-DNS-Prefetch-Control: off
+Set-Cookie: prov=1ece6c99-2cd5-83dd-2056-e01fc723175f; domain=.stackoverflow.com; expires=Fri, 01-Jan-2055 00:00:00 GMT; path=/; HttpOnly
+
+HTTP/2 200 
+cache-control: private
+content-type: text/html; charset=utf-8
+strict-transport-security: max-age=15552000
+x-frame-options: SAMEORIGIN
+x-request-guid: d1590027-568f-477e-8c26-e838a85369d3
+feature-policy: microphone 'none'; speaker 'none'
+content-security-policy: upgrade-insecure-requests; frame-ancestors 'self' https://stackexchange.com
+accept-ranges: bytes
+date: Tue, 01 Mar 2022 04:10:47 GMT
+via: 1.1 varnish
+x-served-by: cache-iad-kjyo7100077-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1646107848.679281,VS0,VE10
+vary: Fastly-SSL
+x-dns-prefetch-control: off
+set-cookie: prov=8eb03eee-fa26-c0e6-b2e5-88a2dfbf9f1f; domain=.stackoverflow.com; expires=Fri, 01-Jan-2055 00:00:00 GMT; path=/; HttpOnly
+

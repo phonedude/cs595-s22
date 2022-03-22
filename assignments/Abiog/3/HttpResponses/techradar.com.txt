@@ -1,0 +1,56 @@
+HTTP/1.1 301 Apex Redirect
+Server: Varnish
+Retry-After: 0
+cache-control: max-age=86400
+Location: https://www.techradar.com/
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Tue, 01 Mar 2022 04:10:48 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-iad-kjyo7100143-IAD
+X-Cache-Hits: 0
+X-Timer: S1646107848.233635,VS0,VE0
+Set-Cookie: FTR_Country_Code=(null); path=/; domain=www.techradar.com
+Strict-Transport-Security: max-age=300
+Set-Cookie: FTR_Cache_Status=HIT-SYNTH; path=/; domain=www.techradar.com
+x-cache: HIT-SYNTH
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+x-ftr-request-id: e565d821-dcfa-4907-af6e-3932fe3dfcbf
+last-modified: Tue, 01 Mar 2022 04:08:06 GMT
+xkey: techradar-platform-responsive
+xkey: techradar-page-homepage
+xkey: techradar-region-US
+xkey: techradar-version-421531
+xkey: techradar-server-phpfpm-6f5f689bbc-5n4br
+server-timing: documentformatterformatresults;desc="DocumentFormatter::formatResults";dur=30, documentformatterformatarticle;desc="DocumentFormatter::formatArticle";dur=29, articleapihelpermakerequest-featured;desc="ArticleAPIHelper::makeRequest featured";dur=4, app;desc="App";dur=1719, total;desc="Total";dur=1000,
+x-ftr-backend-server: fte-varnish-prod-panther-4.uk-lon.srv-front.future.net.uk
+x-ftr-buildid: 4_01/Mar/2022:04:08:05.015_/_:V4:H4:R:H4:O
+x-ftr-cache-status: HIT
+x-ftr-trace: V2:H2:R:V4:
+x-ftr-expires: Tue, 01 Mar 2022 04:13:07 GMT
+x-cache-control: max-age=300,public
+x-age: 0
+cache-control: max-age=300,public
+x-ftr-request-id: 00000000:D776_00000000:01BB_621D9C27_26A1132:4D97
+x-ftr-balancer: fteproxyblue
+x-ftr-backend: varnish-panther
+x-ftr-backend-server: fte-varnish-prod-panther-2
+via: 1.1 varnish, 1.1 varnish
+accept-ranges: bytes
+date: Tue, 01 Mar 2022 04:10:48 GMT
+age: 161
+x-served-by: cache-lon11636-LON, cache-iad-kiad7000173-IAD
+x-cache-hits: 1, 1
+x-timer: S1646107848.343512,VS0,VE2
+vary: Accept-Encoding
+set-cookie: FTR_Country_Code=US; path=/; domain=www.techradar.com
+x-country-code: US
+x-country-code-real: US
+strict-transport-security: max-age=300
+set-cookie: FTR_Cache_Status=HIT-CLUSTER; path=/; domain=www.techradar.com
+x-cache: HIT-CLUSTER
+content-length: 697428
+

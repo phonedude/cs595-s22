@@ -1,0 +1,65 @@
+curl_responses/about.com.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/alexa.com.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/amazon.fr.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/amazon.it.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/asus.com.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/bbc.co.uk.txt:x-frame-options: DENY
+curl_responses/brandbucket.com.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/businessinsider.com.txt:X-Frame-Options: sameorigin
+curl_responses/buzzfeed.com.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/cnil.fr.txt:x-frame-options: SAMEORIGIN
+curl_responses/debian.org.txt:X-Frame-Options: sameorigin
+curl_responses/depositfiles.com.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/draft.blogger.com.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/drive.google.com.txt:X-Frame-Options: DENY
+curl_responses/dropbox.com.txt:X-Frame-Options: DENY
+curl_responses/ea.com.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/ebay.co.uk.txt:x-frame-options: SAMEORIGIN
+curl_responses/etsy.com.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/evernote.com.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/fb.me.txt:X-Frame-Options: DENY
+curl_responses/feedburner.com.txt:X-Frame-Options: DENY
+curl_responses/files.wordpress.com.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/finance.yahoo.com.txt:x-frame-options: SAMEORIGIN
+curl_responses/gov.uk.txt:X-Frame-Options: ALLOWALL
+curl_responses/guardian.co.uk.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/harvard.edu.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/hugedomains.com.txt:X-Frame-Options: ALLOW-FROM https://hugedomains.com/
+curl_responses/imgur.com.txt:X-Frame-Options: DENY
+curl_responses/instagram.com.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/kompas.com.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/last.fm.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/mega.nz.txt:X-Frame-Options: DENY
+curl_responses/mozilla.com.txt:X-Frame-Options: DENY
+curl_responses/msn.com.txt:X-FRAME-OPTIONS: SAMEORIGIN
+curl_responses/nature.com.txt:Vary: X-Frame-Options,X-Oscar-Cache-Mode, Accept-Encoding
+curl_responses/naver.com.txt:X-Frame-Options: DENY
+curl_responses/nba.com.txt:X-Frame-Options: sameorigin
+curl_responses/netflix.com.txt:x-frame-options: DENY
+curl_responses/netvibes.com.txt:X-Frame-Options: deny
+curl_responses/over-blog.com.txt:x-frame-options: DENY
+curl_responses/ovh.com.txt:x-frame-options: SAMEORIGIN
+curl_responses/pinterest.com.txt:x-frame-options: SAMEORIGIN
+curl_responses/play.google.com.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/rfi.fr.txt:X-Frame-Options: DENY
+curl_responses/search.google.com.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/sedo.com.txt:x-frame-options: sameorigin
+curl_responses/soratemplates.com.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/spotify.com.txt:x-frame-options: deny
+curl_responses/time.com.txt:X-Frame-Options: sameorigin
+curl_responses/trustpilot.com.txt:X-Frame-Options: deny
+curl_responses/ucoz.ru.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/upenn.edu.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/usgs.gov.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/video.google.com.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/wa.me.txt:X-Frame-Options: DENY
+curl_responses/weebly.com.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/youtube.com.txt:X-Frame-Options: SAMEORIGIN
+curl_responses/zoom.us.txt:X-FRAME-OPTIONS: SAMEORIGIN
+
+
+Total number of x-frame-options set: 58
+Set to DENY: 18
+Set to SAMEORIGIN: 42
+Set to ALLOWALL: 1
+Set to ALLOW-FROM: 1

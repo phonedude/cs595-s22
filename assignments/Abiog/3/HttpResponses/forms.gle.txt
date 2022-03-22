@@ -1,0 +1,33 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Location: https://forms.gle/
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Tue, 01 Mar 2022 04:10:11 GMT
+Connection: close
+X-Served-By: cache-iad-kiad7000123-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1646107811.090184,VS0,VE0
+
+HTTP/2 400 
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+content-security-policy: script-src 'nonce-Z80zy8MhHCpGLygrB3pckA' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/DurableDeepLinkUi/cspreport;worker-src 'self',require-trusted-types-for 'script';report-uri /_/DurableDeepLinkUi/cspreport
+content-type: text/html; charset=utf-8
+cross-origin-opener-policy: unsafe-none
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+pragma: no-cache
+server: ESF
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 0
+accept-ranges: bytes
+date: Tue, 01 Mar 2022 04:10:11 GMT
+x-served-by: cache-iad-kjyo7100123-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1646107811.177720,VS0,VE88
+vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, x-fh-requested-host, accept-encoding
+content-length: 9233
+

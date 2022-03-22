@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 200 OK
+Set-Cookie: lfmanon=1; Path=/
+Set-Cookie: not_first_visit=1; Path=/
+Set-Cookie: sessionid=eyJfYXV0aF91c2VyX2hhc2giOiJkZWZhdWx0Iiwic2Vzc2lvbl9pZCI6IjI3MjJlMjdiLThlN2MtNDJmMi1hNmJhLWNkZTU2NGRjYmI3MiJ9:1nN2jP:tnmKt1JEYYU40_LoqZdkZny85n8; Domain=.last.fm; expires=Fri, 24-Feb-2023 01:15:43 GMT; HttpOnly; Max-Age=31536000; Path=/; Secure
+Set-Cookie: X-UA-Device-Type=desktop; max-age=60; secure; same-site=strict; Path=/
+Set-Cookie: X-UA-Country-Code=US; max-age=60; secure; same-site=strict; Path=/

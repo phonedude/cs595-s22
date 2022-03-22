@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 200 OK
+Set-Cookie: TMog=n6a862c120ca943609356cfb9195f68ef22; Path=/; Domain=.thoughtco.com; Expires=Mon, 13-Mar-2090 01:25:55 GMT; Max-Age=2147483647
+Set-Cookie: Mint=n6a862c120ca943609356cfb9195f68ef22; Path=/; Domain=.thoughtco.com; Expires=Tue, 22-Feb-2022 22:41:48 GMT; Max-Age=1800
+Set-Cookie: pc=1; Path=/; Domain=.thoughtco.com; Expires=Tue, 22-Feb-2022 22:41:48 GMT; Max-Age=1800

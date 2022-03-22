@@ -1,0 +1,5 @@
+HTTP/1.0 302 Redirect
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 200 OK
+Set-Cookie: AWSALB=WLHOamS3scIvNOLyrAiWF3qsSK7Ac0shTe3x9ba/tvvoeSeq1Qa/APgfekEP2fWG9AzdlL0X+xr8Yjj9Pd6Y2m6kjZjXLaXqS84rL5qVdHpiMeWrsrqaX5jwy9iu; Expires=Tue, 01 Mar 2022 22:08:08 GMT; Path=/
+Set-Cookie: AWSALBCORS=WLHOamS3scIvNOLyrAiWF3qsSK7Ac0shTe3x9ba/tvvoeSeq1Qa/APgfekEP2fWG9AzdlL0X+xr8Yjj9Pd6Y2m6kjZjXLaXqS84rL5qVdHpiMeWrsrqaX5jwy9iu; Expires=Tue, 01 Mar 2022 22:08:08 GMT; Path=/; SameSite=None; Secure

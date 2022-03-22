@@ -1,0 +1,32 @@
+HTTP/1.1 301 Moved Permanently
+Location: https://www.rfi.fr/
+Content-Length: 227
+Content-Type: text/html; charset=iso-8859-1
+Cache-Control: max-age=1212754
+Expires: Thu, 10 Mar 2022 02:12:41 GMT
+Date: Thu, 24 Feb 2022 01:20:07 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Location: https://www.rfi.fr/fr/
+Expires: Thu, 24 Feb 2022 01:20:08 GMT
+Date: Thu, 24 Feb 2022 01:20:08 GMT
+Connection: keep-alive
+Strict-Transport-Security: max-age=15768000
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+X-Frame-Options: DENY
+X-Fmm-Version: 2.2.14
+X-UA-Compatible: IE=edge
+Link: <https://tms.fmm.io>; rel="preconnect"; crossorigin="crossorigin",</build/fonts/Roboto-Bold.0e19e78300e4c59a6a870a571201ea62.woff2>; rel="preload"; as="font"; type="font/woff2"; crossorigin="anonymous",</build/fonts/Roboto-Regular.91c246eb7465283afb63aad6bd11b62a.woff2>; rel="preload"; as="font"; type="font/woff2"; crossorigin="anonymous",</build/css/page-builder--fr.07251301f09256b12a07.css>; rel="preload"; as="style"
+X-Robots-Tag: max-snippet:300, max-image-preview:large, max-video-preview:3
+X-Content-Type-Options: nosniff
+X-CDN: Imperva
+X-Iinfo: 2-26020900-25991749 sNYy RT(1645665049274 396439) q(0 0 0 0) r(0 0) U5
+Expires: Thu, 24 Feb 2022 01:25:08 GMT
+Date: Thu, 24 Feb 2022 01:20:08 GMT
+Connection: keep-alive
+Strict-Transport-Security: max-age=15768000
+

@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 302 Found
+set-cookie: sp_m=us; Path=/; Domain=.spotify.com; Max-Age=115516800; Expires=Thu, 23 Oct 2025 01:20:17 GMT; Secure; HttpOnly; SameSite=Lax
+HTTP/1.1 200 OK
+set-cookie: sp_m=us; Path=/; Domain=.spotify.com; Max-Age=115516800; Expires=Thu, 23 Oct 2025 01:20:17 GMT; Secure; HttpOnly; SameSite=Lax
+set-cookie: sp_t=ad18cf59-8f4c-48d6-ae47-72ada89f890d; Path=/; Domain=.spotify.com; Max-Age=31536000; Expires=Fri, 24 Feb 2023 01:20:17 GMT; Secure
+set-cookie: sp_new=1; Path=/; Domain=.spotify.com; Max-Age=86400; Expires=Fri, 25 Feb 2022 01:20:17 GMT; Secure
+set-cookie: sp_landing=https%3A%2F%2Fwww.spotify.com%2Fus%2F; Path=/; Domain=.spotify.com; Max-Age=86400; Expires=Fri, 25 Feb 2022 01:20:17 GMT; Secure; HttpOnly

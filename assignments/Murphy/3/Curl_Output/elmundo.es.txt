@@ -1,0 +1,35 @@
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 24 Feb 2022 01:15:19 GMT
+Server: Varnish
+X-Varnish: 435031823
+Location: https://elmundo.es/
+Content-Length: 0
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 24 Feb 2022 01:14:33 GMT
+Content-Type: text/html
+Content-Length: 169
+Location: https://www.elmundo.es/
+Age: 46
+Referrer-Policy: unsafe-url
+Vary: User-Agent, 
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 387000
+Content-Type: text/html; charset=iso-8859-15
+Expires: Thu, 24 Feb 2022 01:15:11 GMT
+Referrer-Policy: unsafe-url
+Cache-Control: s-maxage=60
+x-backend: CONTENT
+Accept-Ranges: bytes
+Date: Thu, 24 Feb 2022 01:15:19 GMT
+Age: 12
+X-Served-By: cache-ams12736-AMS, cache-iad-kiad7000121-IAD
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1645665320.862428,VS0,VE4
+Vary: Accept-Encoding, User-Agent
+

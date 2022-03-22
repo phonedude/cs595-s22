@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 200 OK
+Set-Cookie: uaid=4bLlqQFDfXdY2B21dVT_yK4CglVjZACCJNG49zC6Wqk0MTNFyUopJzUpKq2i0s8gO9e9zC-gItm3Mt8sMiM8LTAjS6mWAQA.; expires=Wed, 22-Feb-2023 22:08:47 GMT; Max-Age=31536000; path=/; domain=.etsy.com; secure; SameSite=None
+Set-Cookie: user_prefs=ZaseGT0fhvBsVYkM9cJ-_0fMwaRjZACCJNG49zA6Wik02EVJJ680J0dHKTVPNzRYSUcJRIBFjCAULiKWAQA.; expires=Wed, 22-Feb-2023 22:08:47 GMT; Max-Age=31536000; path=/; domain=.etsy.com
+Set-Cookie: fve=1645567727.0; expires=Sat, 25-Mar-2023 14:27:07 GMT; Max-Age=34186700; path=/; domain=.etsy.com; secure
+Set-Cookie: last_browse_page=https%3A%2F%2Fwww.etsy.com%2F; path=/; domain=.etsy.com

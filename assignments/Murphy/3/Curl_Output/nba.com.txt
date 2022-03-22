@@ -1,0 +1,31 @@
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 24 Feb 2022 01:19:57 GMT
+Content-Type: text/html
+Content-Length: 158
+Connection: keep-alive
+ER-Request-ID: cf8bc220804e87c2c8677998f1787e5c
+Pragma: no-cache
+Cache-Control: no-store, max-age=0
+X-Content-Type-Options: nosniff
+ER-Rule-Id: r-bb4579a4-6d78-4466-84b6-2265e63f6ae6
+Location: https://www.nba.com/
+Server: EasyRedir
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+x-full-ttl: 300.000
+x-varnish: 4298342
+x-vcl-version: NBA.com prod 1.7
+x-status: miss
+x-hits: 0
+x-cache-ability: uncacheable
+x-envoy-upstream-service-time: 83
+Server: envoy
+Cache-Control: private, no-cache, no-store, must-revalidate
+Date: Thu, 24 Feb 2022 01:19:58 GMT
+Connection: keep-alive
+X-Frame-Options: sameorigin
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=86400
+

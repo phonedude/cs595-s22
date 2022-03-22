@@ -1,0 +1,38 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Location: https://www.gov.uk/
+Fastly-Backend-Name: force_ssl
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Thu, 24 Feb 2022 01:24:29 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-iad-kjyo7100173-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 85440
+Content-Type: text/html; charset=utf-8
+Server: nginx
+Cache-Control: max-age=300, public
+Content-Security-Policy-Report-Only: default-src https: 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk; img-src 'self' data: *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.google-analytics.com ssl.google-analytics.com stats.g.doubleclick.net www.googletagmanager.com assets.digital.cabinet-office.gov.uk lux.speedcurve.com; script-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.google-analytics.com ssl.google-analytics.com stats.g.doubleclick.net www.googletagmanager.com www.gstatic.com www.signin.service.gov.uk *.ytimg.com www.youtube.com www.youtube-nocookie.com hmrc-uk.digital.nuance.com 'unsafe-inline'; style-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.gstatic.com 'unsafe-inline'; font-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk data:; connect-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.google-analytics.com ssl.google-analytics.com stats.g.doubleclick.net www.googletagmanager.com www.tax.service.gov.uk hmrc-uk.digital.nuance.com hmpowebchat.klick2contact.com www.signin.service.gov.uk; object-src 'none'; frame-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.youtube.com www.youtube-nocookie.com; report-uri https://jhpno0hk6b.execute-api.eu-west-2.amazonaws.com/production
+Etag: W/"7aec5b6b0da2f5978bccf12db12b60a6"
+Link: </assets/frontend/application-0fa185a90cefc8e9cee6de2ea6b8a2b62cb67561ac790cb1b7916869301737dd.css>; rel=preload; as=style; nopush,</assets/frontend/print-a5fcf9e8af736dc1f535e6d1540ea68c78559acf1ef23403f989e714d265226b.css>; rel=preload; as=style; nopush,</assets/frontend/application-9b033f3b744b4b95739d7f960a9918a2238d2e5909f205c6bf85053b68f07583.js>; rel=preload; as=script; nopush
+Permissions-Policy: interest-cohort=()
+Strict-Transport-Security: max-age=31536000; preload
+Via: 1.1 router, 1.1 varnish, 1.1 varnish
+X-Frame-Options: ALLOWALL
+X-Request-Id: 12808367-97aa-49bc-ae21-99eef58aa46f
+Fastly-Backend-Name: origin
+Accept-Ranges: bytes
+Date: Thu, 24 Feb 2022 01:24:29 GMT
+Age: 197
+X-Served-By: cache-iad-kjyo7100103-IAD
+X-Cache: HIT, HIT
+X-Cache-Hits: 1
+X-Timer: S1645665870.520434,VS0,VE4
+Vary: Accept-Encoding, Accept-Encoding
+

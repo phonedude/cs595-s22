@@ -1,0 +1,42 @@
+HTTP/1.0 302 Found
+Location: https://www.canada.ca/
+Strict-Transport-Security: max-age=31536000
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/2 301 
+server: AkamaiGHost
+content-length: 0
+location: https://www.canada.ca/index.html
+date: Tue, 01 Mar 2022 04:09:41 GMT
+set-cookie: aka-ca-site-token=8b6adc171c330000859c1d62a4020000706f0000; path=/; secure
+access-control-allow-origin: *
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000
+
+HTTP/2 301 
+server: AkamaiGHost
+content-length: 0
+location: https://www.canada.ca/home.html
+date: Tue, 01 Mar 2022 04:09:43 GMT
+set-cookie: aka-ca-site-token=8b6adc171c330000879c1d62c4020000716f0000; path=/; secure
+access-control-allow-origin: *
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000
+
+HTTP/2 200 
+content-type: text/html;charset=utf-8
+server: Apache
+x-dispatcher: dispatcher2cacentral1
+x-vhost: publish
+x-content-type-options: nosniff
+last-modified: Tue, 01 Mar 2022 01:42:50 GMT
+etag: "1795-5d91e486d0987-gzip"
+x-frame-options: SAMEORIGIN
+date: Tue, 01 Mar 2022 04:09:44 GMT
+set-cookie: aka-ca-site-token=8b6adc171c330000889c1d62eb020000726f0000; path=/; secure
+access-control-allow-origin: *
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000
+

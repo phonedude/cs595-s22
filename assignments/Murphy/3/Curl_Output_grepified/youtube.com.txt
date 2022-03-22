@@ -1,0 +1,7 @@
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 301 Moved Permanently
+Set-Cookie: YSC=WT9K-d_i_SA; Domain=.youtube.com; Path=/; Secure; HttpOnly; SameSite=none
+HTTP/1.1 200 OK
+Set-Cookie: GPS=1; Domain=.youtube.com; Expires=Tue, 22-Feb-2022 22:44:00 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: YSC=2Uq3SG3qEec; Domain=.youtube.com; Path=/; Secure; HttpOnly; SameSite=none
+Set-Cookie: VISITOR_INFO1_LIVE=4kFBqbf9vz8; Domain=.youtube.com; Expires=Sun, 21-Aug-2022 22:14:00 GMT; Path=/; Secure; HttpOnly; SameSite=none

@@ -1,0 +1,5 @@
+HTTP/1.1 302 Found
+Set-Cookie: mydottk_languagenr=0; domain=.dot.tk; path=/; expires=Fri, 25-Feb-2022 01:15:00 GMT
+Set-Cookie: dottyLn=en; domain=.dot.tk; path=/; expires=Fri, 25-Feb-2022 01:15:00 GMT
+Set-Cookie: wwwLn=en; domain=.dot.tk; path=/; expires=Fri, 25-Feb-2022 01:15:00 GMT
+HTTP/1.1 200 OK

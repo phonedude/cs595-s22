@@ -1,0 +1,36 @@
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 01 Mar 2022 04:10:56 GMT
+Server: Kestrel
+Location: http://www.xbox.com/
+
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.xbox.com/
+Date: Tue, 01 Mar 2022 04:10:57 GMT
+Connection: keep-alive
+Set-Cookie: aka_locale=US; domain=.www.xbox.com
+Strict-Transport-Security: max-age=10886400
+
+HTTP/1.1 302 Moved Temporarily
+Content-Length: 0
+Location: https://www.xbox.com:443/en-US/
+x-requestid: cf38b759-2f5d-4309-a0ba-919629058904
+MS-CV: wg7LKwPly0efwaeJ.0
+X-Content-Type-Options: nosniff
+X-EdgeConnect-MidMile-RTT: 0
+X-EdgeConnect-Origin-MEX-Latency: 78
+Cache-Control: private, max-age=180
+Date: Tue, 01 Mar 2022 04:10:57 GMT
+Connection: keep-alive
+Set-Cookie: mobileOverride=desktop; expires=Wed, 01-Mar-2023 04:10:57 GMT; path=/
+Set-Cookie: aka_locale=US; domain=.www.xbox.com
+Strict-Transport-Security: max-age=10886400
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Date: Tue, 01 Mar 2022 04:10:57 GMT
+Connection: keep-alive
+Set-Cookie: aka_locale=US; domain=.www.xbox.com
+Strict-Transport-Security: max-age=10886400
+

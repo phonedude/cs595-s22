@@ -1,0 +1,63 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: application/binary
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Tue, 01 Mar 2022 04:10:29 GMT
+Location: https://news.google.com/
+Content-Length: 0
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Server: ESF
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Set-Cookie: NID=511=CPrFuIOO1kzkGibHX0XC5xEplTxfbM3h4Fizvevh_Voo1QVohspfsho1OkzU6kH-sXDE3b4BN5o4_eFpN13DsAXEy-fXALPSjB7hGIKAeyhYTzOxcoUyIOiGU22BW27V7zOeGKHvRvM9sVQ2ltVf5EOok-Fa79qSp4jC0EBNGHI; expires=Wed, 31-Aug-2022 04:10:29 GMT; path=/; domain=.google.com; HttpOnly
+
+HTTP/2 302 
+content-type: application/binary
+vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+date: Tue, 01 Mar 2022 04:10:30 GMT
+location: https://news.google.com/topstories?hl=en-US&gl=US&ceid=US:en
+content-length: 0
+p3p: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+strict-transport-security: max-age=31536000
+report-to: {"group":"DotsSplashUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/DotsSplashUi/external"}]}
+content-security-policy: require-trusted-types-for 'script';report-uri /_/DotsSplashUi/cspreport
+content-security-policy: script-src 'nonce-rUMxmJ1Fe1IzN3redyht/A' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/DotsSplashUi/cspreport;worker-src 'self'
+cross-origin-opener-policy: same-origin-allow-popups; report-to="DotsSplashUi"
+cross-origin-resource-policy: same-site
+server: ESF
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+set-cookie: NID=511=EtcP-vo0zGUozuG0uzjobik7r853BO34XpmF9hIn2UWGEvqfg65ZN1rYNYDQVc8GAWALkLTWh6xJdF3DPt0bxRNI1BfkHF7q3pdMzRF08_MLqfiuy0D3ZR9DhQ34AJSDBBcBnXZJ_eWrXzeujB2SzXXRiELtixxDzpqAEVxeCNk; expires=Wed, 31-Aug-2022 04:10:30 GMT; path=/; domain=.google.com; HttpOnly
+set-cookie: GN_PREF=W251bGwsIkNBSVNDd2kydWZhUUJoRDR5SnN3Il0_; Expires=Tue, 30-Aug-2022 16:10:30 GMT; Path=/; Secure
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+x-ua-compatible: IE=edge
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+date: Tue, 01 Mar 2022 04:10:30 GMT
+content-length: 1824654
+p3p: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+strict-transport-security: max-age=31536000
+content-security-policy: require-trusted-types-for 'script';report-uri /_/DotsSplashUi/cspreport
+content-security-policy: script-src 'nonce-hfMZBSt/zdhm8b1tbGSWAQ' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/DotsSplashUi/cspreport;worker-src 'self'
+report-to: {"group":"DotsSplashUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/DotsSplashUi/external"}]}
+cross-origin-opener-policy: unsafe-none; report-to="DotsSplashUi"
+cross-origin-resource-policy: same-site
+server: ESF
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+set-cookie: NID=511=I00t5dbwIsqQuBvTFCrUvBw7JzUEAa7f4HOgyEWoIhznBSVPMBLUyElLNrlGQ_fUiRIESwvXzbFN0KhJY4ot4dwbYW0lSiLLWP8FuiKwL40XdDdGLFtgWi854Gw53Kuv13s6qHRTatBJsrWT-A5l2w1b0MeWjKfJohoUIbmnsVs; expires=Wed, 31-Aug-2022 04:10:30 GMT; path=/; domain=.google.com; HttpOnly
+set-cookie: GN_PREF=W251bGwsIkNBSVNDd2kydWZhUUJoRFl0X3RHIl0_; Expires=Tue, 30-Aug-2022 16:10:30 GMT; Path=/; Secure
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+

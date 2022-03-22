@@ -1,0 +1,31 @@
+HTTP/1.1 301 Moved Permanently
+Location: https://marketingplatform.google.com/about/enterprise/
+Cross-Origin-Resource-Policy: cross-origin
+X-Content-Type-Options: nosniff
+Server: sffe
+Content-Length: 251
+X-XSS-Protection: 0
+Date: Tue, 01 Mar 2022 03:43:39 GMT
+Expires: Tue, 01 Mar 2022 04:13:39 GMT
+Cache-Control: public, max-age=1800
+Content-Type: text/html; charset=UTF-8
+Age: 1569
+
+HTTP/2 200 
+accept-ranges: bytes
+vary: Accept-Encoding
+content-type: text/html
+content-length: 138215
+content-security-policy-report-only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/marketing_platform
+cross-origin-resource-policy: cross-origin
+cross-origin-opener-policy-report-only: same-origin; report-to="uxe-owners-acl/marketing_platform"
+report-to: {"group":"uxe-owners-acl/marketing_platform","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/uxe-owners-acl/marketing_platform"}]}
+date: Tue, 01 Mar 2022 04:09:48 GMT
+expires: Tue, 01 Mar 2022 04:09:48 GMT
+cache-control: private, max-age=3000
+last-modified: Mon, 21 Feb 2022 04:58:00 GMT
+x-content-type-options: nosniff
+server: sffe
+x-xss-protection: 0
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+

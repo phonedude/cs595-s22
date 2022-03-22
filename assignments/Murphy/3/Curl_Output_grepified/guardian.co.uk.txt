@@ -1,0 +1,8 @@
+HTTP/1.1 301 
+HTTP/1.1 301 
+HTTP/1.1 302 
+Set-Cookie: GU_mvt_id=972025; expires=Mon, 23 May 2022 22:08:51 GMT; path=/; domain=.theguardian.com; Secure
+Set-Cookie: GU_geo_country=US; path=/; Secure
+HTTP/1.1 200 OK
+Set-Cookie: GU_mvt_id=346414; expires=Mon, 23 May 2022 22:08:51 GMT; path=/; domain=.theguardian.com; Secure
+Set-Cookie: GU_geo_country=US; path=/; Secure

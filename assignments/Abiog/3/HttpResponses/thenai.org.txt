@@ -1,0 +1,38 @@
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 01 Mar 2022 04:10:49 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://thenai.org/
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=soieRXbTaYi60F5cbR9nBjn35dp7r%2FXsCGPTotaOL%2FbvG8ZXdTzOCx1GUAW4MiOnJDTMsJYQveO2Pio%2F9gqzixFKRtUOBDC3rvYvZ7o4u2DLkvXtxWH%2BkKPDins%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6e4f0b892edf56f2-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Tue, 01 Mar 2022 04:10:49 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+vary: Accept-Encoding
+link: <https://thenai.org/wp-json/>; rel="https://api.w.org/"
+link: <https://thenai.org/wp-json/wp/v2/pages/126>; rel="alternate"; type="application/json"
+link: <https://thenai.org/>; rel=shortlink
+x-tec-api-version: v1
+x-tec-api-root: https://thenai.org/wp-json/tribe/events/v1/
+x-tec-api-origin: https://thenai.org
+x-powered-by: WP Engine
+x-cacheable: SHORT
+vary: Accept-Encoding,Cookie
+cache-control: max-age=600, must-revalidate
+x-cache: HIT: 434
+x-cache-group: normal
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2rDaCEkFTjHdqYl6dz9PjvW%2FrCpKmlnK0aWXcA%2FPvt8GJgzHwZyuInlre1br6Sa1DA50VQLTw8TGes4QHCEKln88tuSwsgOyBmeuXH91v92SZbWi05A1YT8zObw%3D"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server: cloudflare
+cf-ray: 6e4f0b8d698037f4-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
