@@ -24,3 +24,4 @@ Assignment 5
 
 ## References
 
+1.) Enabling CORS - https://stackoverflow.com/questions/18642828/origin-origin-is-not-allowed-by-access-control-allow-origin

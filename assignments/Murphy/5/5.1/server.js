@@ -7,14 +7,13 @@ const app2 = express()
 //Cross-Origin Request Allowance
 //comment out lines 9 - 17 to block CORS requests
 var allowCrossDomain = function(req, res, next) {
-    res.header('Access-Control-Allow-Origin', "*")
+    res.header('Access-Control-Allow-Origin', "http://localhost:5000")
     res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE')
     res.header('Access-Control-Allow-Headers', 'Content-Type')
     next()
 }
 
 app1.use(allowCrossDomain)
-//app2.use(allowCrossDomain)
 
 
 //Static Files
