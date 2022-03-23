@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8' />
+        <title>Homepage</title>
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    </head>
+    <body>
+        <p>This is port 5000!</p> 
+        <script>
+            //CORS request from localhost:4000
+            fetch("http://localhost:4000/sample.json")
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data)
+                })
+        </script>
+    </body>
+</html>

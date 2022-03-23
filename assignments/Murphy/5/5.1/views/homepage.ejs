@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8' />
+        <title>Homepage</title>
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    </head>
+    <body>
+        <p>This is port 4000!</p>
+        <script>
+            //Same-origin request
+            fetch("./sample.json")
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data)
+                })
+        </script>
+    </body>
+</html>
