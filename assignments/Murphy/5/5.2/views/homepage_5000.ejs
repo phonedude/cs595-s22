@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8' />
+        <title>Port 5000</title>
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    </head>
+    <body>
+        <p>This is port 5000!</p> 
+        <script>
+            //CORS request from localhost:4000
+            fetch("http://localhost:4000/pokemon-gold")
+                .then(response => response.headers)
+                .then(data => {
+                    console.log(data)
+                })
+            fetch("http://localhost:4000/star-wars-rogue-one")
+                .then(response => response.headers)
+                .then(data => {
+                    console.log(data)
+                })
+            fetch("http://localhost:4000/rage-against-the-machine")
+                .then(response => response.headers)
+                .then(data => {
+                    console.log(data)
+                })
+        </script>
+    </body>
+</html>
