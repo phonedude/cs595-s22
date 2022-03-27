@@ -1,0 +1,33 @@
+HTTP/1.1 302 Found
+Date: Wed, 02 Mar 2022 03:54:51 GMT
+Server: Apache
+X-Content-Type-Options: nosniff
+X-Frame-Options: sameorigin
+Referrer-Policy: no-referrer
+X-Xss-Protection: 1
+Permissions-Policy: interest-cohort=()
+Location: https://www.debian.org/
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/2 200 
+date: Wed, 02 Mar 2022 03:54:51 GMT
+server: Apache
+content-location: index.en.html
+vary: negotiate,accept-language,Accept-Encoding,cookie
+tcn: choice
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+referrer-policy: no-referrer
+x-xss-protection: 1
+permissions-policy: interest-cohort=()
+strict-transport-security: max-age=15552000
+last-modified: Sun, 13 Feb 2022 23:26:36 GMT
+etag: "3b63-5d7eea1970a91"
+accept-ranges: bytes
+content-length: 15203
+cache-control: max-age=86400
+expires: Thu, 03 Mar 2022 03:54:51 GMT
+x-clacks-overhead: GNU Terry Pratchett
+content-type: text/html
+content-language: en
+

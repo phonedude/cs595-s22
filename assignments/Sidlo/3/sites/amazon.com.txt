@@ -1,0 +1,31 @@
+HTTP/1.1 301 Moved Permanently
+Server: Server
+Date: Wed, 02 Mar 2022 03:54:33 GMT
+Content-Type: text/html
+Content-Length: 179
+Connection: keep-alive
+Location: https://amazon.com/
+
+HTTP/1.1 301 Moved Permanently
+Server: Server
+Date: Wed, 02 Mar 2022 03:54:33 GMT
+Content-Type: text/html
+Content-Length: 179
+Connection: keep-alive
+Location: https://www.amazon.com/
+Permissions-Policy: interest-cohort=()
+
+HTTP/2 503 
+content-type: text/html
+content-length: 6591
+server: Server
+date: Wed, 02 Mar 2022 03:54:34 GMT
+x-amz-rid: G2DY37Q79P4Y1ZB1TCWG
+vary: Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+permissions-policy: interest-cohort=()
+x-cache: Error from cloudfront
+via: 1.1 5451b84324d9bca0bdd03e4c4009ae10.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD50-C2
+x-amz-cf-id: ykCIqvunVGjRlIfaonA2i2vnBvjG4w8IfQhqDKU0iQFNem0V8ffF7A==
+

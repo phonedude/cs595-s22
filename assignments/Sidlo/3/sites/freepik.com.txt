@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+Referrer-Policy: no-referrer
+Location: https://freepik.com/
+Content-Length: 217
+Date: Wed, 02 Mar 2022 03:54:53 GMT
+
+HTTP/2 301 
+server: nginx
+date: Wed, 02 Mar 2022 03:54:53 GMT
+content-type: text/html
+content-length: 162
+location: https://www.freepik.com/
+via: 1.1 google
+alt-svc: clear
+
+HTTP/2 200 
+server: nginx
+date: Wed, 02 Mar 2022 03:54:53 GMT
+content-type: text/html; charset=UTF-8
+set-cookie: csrf_freepik=e7697900a1f81bec27ffbf745d5d8b45; expires=Wed, 02-Mar-2022 05:54:53 GMT; Max-Age=7200; path=/; secure; HttpOnly; SameSite=Strict
+set-cookie: _fcid=FC.00fee2d3-131e-cb4f-1b0d-3c295cd8fc55; Max-Age=31536000;
+x-date: Wed, 02 Mar 2022 04:54:53 GMT
+cache-control: nocache
+x-accel-expires-debug: 7200
+via: 1.1 google
+alt-svc: clear
+

@@ -1,0 +1,78 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Wed, 02 Mar 2022 03:55:44 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-iad-kcgs7200130-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1646193345.994014,VS0,VE0
+Location: https://yelp.com/
+
+HTTP/2 301 
+content-type: text/html; charset=UTF-8
+x-routing-service: routing-main--useast1-64494bc679-52xcd; site=www
+x-xss-protection: 1; report=https://www.yelp.com/xss_protection_report
+location: https://www.yelp.com/
+x-b3-sampled: 0
+x-content-type-options: nosniff
+server: envoy
+set-cookie: wdi=1|1C8E74AE11B5A00D|0x1.887bab0463c25p+30|40067a22a5a8bfce; Domain=.yelp.com; Path=/; Max-Age=630720000; Expires=Tue, 25 Feb 2042 03:55:45 GMT; HttpOnly; SameSite=Lax
+referrer-policy: origin-when-cross-origin
+x-node: www_all
+x-node: yelp-main-main--useast1-7469f56cf9-l94gb
+x-zipkin-id: c5f803a7f287f80e
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-cloudmap: routing_useast1
+x-mode: ro
+x-proxied: 10-65-91-109-useast1aprod
+x-extlb: 10-65-91-109-useast1aprod
+accept-ranges: bytes
+date: Wed, 02 Mar 2022 03:55:45 GMT
+via: 1.1 varnish
+x-served-by: cache-iad-kcgs7200044-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1646193345.094396,VS0,VE22
+content-length: 218
+
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+set-cookie: pid=; Domain=.yelp.com; Max-Age=0; Path=/; expires=Wed, 31-Dec-97 23:59:59 GMT
+set-cookie: bse=de9b16ed2f30482aa14a7ec989916184; Domain=.yelp.com; Path=/; HttpOnly
+set-cookie: pid=; Domain=.yelp.com; Max-Age=0; Path=/; expires=Wed, 31-Dec-97 23:59:59 GMT
+set-cookie: location=%7B%22city%22%3A+%22San+Francisco%22%2C+%22state%22%3A+%22CA%22%2C+%22country%22%3A+%22US%22%2C+%22latitude%22%3A+37.775123257209394%2C+%22longitude%22%3A+-122.41931994395134%2C+%22max_latitude%22%3A+37.81602226140252%2C+%22min_latitude%22%3A+37.706368356809776%2C+%22max_longitude%22%3A+-122.3550796508789%2C+%22min_longitude%22%3A+-122.51781463623047%2C+%22zip%22%3A+%22%22%2C+%22address1%22%3A+%22%22%2C+%22address2%22%3A+%22%22%2C+%22address3%22%3A+null%2C+%22neighborhood%22%3A+null%2C+%22borough%22%3A+null%2C+%22provenance%22%3A+%22YELP_GEOCODING_ENGINE%22%2C+%22display%22%3A+%22San+Francisco%2C+CA%22%2C+%22unformatted%22%3A+%22San+Francisco%2C+CA%22%2C+%22isGoogleHood%22%3A+null%2C+%22usingDefaultZip%22%3A+null%2C+%22accuracy%22%3A+4.0%2C+%22language%22%3A+null%7D; Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Tue, 25-Feb-2042 03:55:45 GMT
+set-cookie: hl=en_US; Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Tue, 25-Feb-2042 03:55:45 GMT
+set-cookie: wdi=1|FC6FE7C2D57398DD|0x1.887bab04e49f1p+30|7afe0469c6fd7111; Domain=.yelp.com; Path=/; Max-Age=630720000; Expires=Tue, 25 Feb 2042 03:55:45 GMT; HttpOnly; SameSite=Lax
+x-xss-protection: 1; report=https://www.yelp.com/xss_protection_report
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+referrer-policy: origin-when-cross-origin
+x-routing-service: routing-main--useast1-64494bc679-tvd9m; site=www
+x-b3-sampled: 0
+server: envoy
+x-node: www_all
+x-node: yelp-main-main--useast1-7469f56cf9-6kk7p
+link: https://s3-media0.fl.yelpcdn.com; rel=preconnect
+link: https://www.google-analytics.com; rel=preconnect
+content-security-policy: report-uri https://www.yelp.com/csp_block?id=ef67142035bc50fd&page=enforced_by_default_directives&policy_hash=4a31667603ab2e38c60aeeb09daa5097&site=www&timestamp=1646193345; object-src 'self'; base-uri 'self' https://*.yelpcdn.com https://*.adsrvr.org https://6372968.fls.doubleclick.net; font-src 'self' data: https:
+x-zipkin-id: 3e7060ee115770b9
+content-security-policy-report-only: report-uri https://www.yelp.com/csp_report_only?id=ef67142035bc50fd&page=csp_report_frame_directives%2Cfull_site_ssl_csp_report_directives&policy_hash=3275ba4c5b0741fb6e8d1b21e9975e80&site=www&timestamp=1646193345; frame-ancestors 'self' https://*.yelp.com; default-src https:; img-src https: data: https://*.adsrvr.org; script-src https: data: 'unsafe-inline' 'unsafe-eval' blob:; style-src https: 'unsafe-inline' data:; connect-src https:; font-src data: 'self' https://*.yelp.com https://*.yelpcdn.com https://fonts.gstatic.com https://connect.facebook.net https://cdnjs.cloudflare.com https://apis.google.com https://www.google-analytics.com https://use.typekit.net https://player.ooyala.com https://use.fontawesome.com https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; frame-src https: yelp-webview://* yelp://* data:; child-src https: yelp-webview://* yelp://*; media-src https:; object-src 'self'; worker-src blob: https:; base-uri 'self' https://*.yelpcdn.com https://*.adsrvr.org https://6372968.fls.doubleclick.net; form-action https: 'self'
+pragma: no-cache
+x-content-type-options: nosniff
+x-cloudmap: routing_useast1
+x-mode: ro
+x-proxied: 10-65-164-1-useast1bprod
+x-extlb: 10-65-164-1-useast1bprod
+cache-control: max-age=0, no-store, private, no-transform
+accept-ranges: bytes
+date: Wed, 02 Mar 2022 03:55:45 GMT
+via: 1.1 varnish
+x-served-by: cache-iad-kiad7000075-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1646193345.222586,VS0,VE769
+content-length: 186450
+

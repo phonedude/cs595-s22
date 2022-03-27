@@ -1,0 +1,56 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Wed, 02 Mar 2022 03:54:38 GMT
+Content-Type: text/html
+Content-Length: 138
+Connection: keep-alive
+Location: https://box.com/
+
+HTTP/2 301 
+date: Wed, 02 Mar 2022 03:54:38 GMT
+content-type: text/html
+content-length: 162
+location: https://www.box.com
+strict-transport-security: max-age=31536000
+
+HTTP/2 200 
+date: Wed, 02 Mar 2022 03:54:38 GMT
+content-type: text/html; charset=UTF-8
+content-length: 265104
+accept-ranges: bytes
+age: 38344
+box-country: US
+cache-control: max-age=86400, public
+content-language: en
+etag: W/"1646154933"
+expires: Sun, 19 Nov 1978 05:00:00 GMT
+last-modified: Tue, 01 Mar 2022 17:15:33 GMT
+link: <https://www.box.com/home>; rel="canonical", <https://www.box.com/>; rel="shortlink"
+link: <https://www.box.com/>; rel="alternate"; hreflang="en"
+link: <https://www.box.com/en-gb>; rel="alternate"; hreflang="en-gb"
+link: <https://www.box.com/en-ca>; rel="alternate"; hreflang="en-ca"
+link: <https://www.box.com/en-au>; rel="alternate"; hreflang="en-au"
+link: <https://www.box.com/en-in>; rel="alternate"; hreflang="en-in"
+link: <https://www.box.com/en-nl>; rel="alternate"; hreflang="en-nl"
+link: <https://www.box.com/en-se>; rel="alternate"; hreflang="en-se"
+link: <https://www.box.com/fr-fr>; rel="alternate"; hreflang="fr"
+link: <https://www.box.com/de-de>; rel="alternate"; hreflang="de"
+link: <https://www.box.com/it-it>; rel="alternate"; hreflang="it"
+link: <https://www.box.com/ja-jp>; rel="alternate"; hreflang="ja-jp"
+link: <https://www.box.com/ko-kr>; rel="alternate"; hreflang="ko-kr"
+link: <https://www.box.com/es-419>; rel="alternate"; hreflang="es"
+link: <//cdn03.boxcdn.net>; rel=preconnect; crossorigin
+link: <//cdn03.boxcdn.net>; rel=dns-prefetch
+permissions-policy: interest-cohort=()
+strict-transport-security: max-age=31536000
+vary: Cookie,Box-Country,X-Frame-Options,Accept-Encoding,X-Geo-Country
+x-ah-environment: prod
+x-cache: HIT
+x-cache-hits: 434759
+x-content-type-options: nosniff
+x-dns-prefetch-control: on
+x-frame-options: SAMEORIGIN
+x-geo-country: US
+x-request-id: v-33deba96-9983-11ec-b3bc-9bd8897985b2
+x-ua-compatible: IE=edge
+x-xss-protection: 1; mode=block
+

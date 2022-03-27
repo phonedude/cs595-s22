@@ -1,0 +1,30 @@
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Mar 2022 03:54:37 GMT
+Connection: keep-alive
+Server: ATS
+Cache-Control: no-store
+Content-Type: text/html
+Content-Language: en
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy: sandbox allow-scripts; default-src 'self'; img-src https:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; report-uri http://csp.yahoo.com/beacon/csp?src=redirect
+Location: https://www.aol.com/
+Content-Length: 4366
+
+HTTP/2 404 
+date: Wed, 02 Mar 2022 03:54:37 GMT
+content-type: text/html; charset=utf-8
+content-length: 9
+etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+content-security-policy: upgrade-insecure-requests; block-all-mixed-content; sandbox allow-modals allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation allow-orientation-lock allow-pointer-lock;
+cache-control: no-cache, no-store, private, must-revalidate
+age: 0
+strict-transport-security: max-age=31536000
+server: ATS
+expect-ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+referrer-policy: no-referrer-when-downgrade
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+

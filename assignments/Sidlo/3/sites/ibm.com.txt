@@ -1,0 +1,44 @@
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://ibm.com/
+Cache-Control: max-age=0
+Expires: Wed, 02 Mar 2022 03:54:59 GMT
+Date: Wed, 02 Mar 2022 03:54:59 GMT
+Connection: keep-alive
+
+HTTP/2 301 
+server: AkamaiGHost
+content-length: 0
+location: https://www.ibm.com/
+cache-control: max-age=0
+expires: Wed, 02 Mar 2022 03:54:59 GMT
+date: Wed, 02 Mar 2022 03:54:59 GMT
+strict-transport-security: max-age=3600
+
+HTTP/2 303 
+server: AkamaiGHost
+content-length: 0
+location: https://www.ibm.com/us-en/?ar=1
+date: Wed, 02 Mar 2022 03:54:59 GMT
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-security-policy: upgrade-insecure-requests
+strict-transport-security: max-age=31536000
+set-cookie: _abck=E05D118836306C5042F1232BE854DC02~-1~YAAQzps+F0hGWw5/AQAAe1HESAdUZOvx0uN9pCj1N9ChQkBJ8+WdkxalzxV+LPg1vBlxSTznGUgiEc0TEvPM45Relq1pnxuCoMJ3M3Gs0w/txZG6gniff1m3NXBs7HkP0pxCMFs2S92Rl9HHX/6pTaaYxh24i4BSM/Dz7TBbvNiRlK/3CfV5uUZwAHFt7c3SzYfvW+mkaJDXFxSFu92kuRhlCRjXlKYxLDSqtztowBmDN0jX5xBRvU30iU41ovyOr48sqAA5KYeUlF1jZ/d11AFJE5XZEuSbTFEFDTLhQxs9QGKahD/xbbHsBmjcYpX6M9ewEzRlNx3xui6NSqVFE3wOcKfAbneClc+Gj53LUaD0ALlAcjY=~-1~-1~-1; Domain=.ibm.com; Path=/; Expires=Thu, 02 Mar 2023 03:54:59 GMT; Max-Age=31536000; Secure
+set-cookie: bm_sz=A65FD7EC8BCC722C5D8B0F33772A7733~YAAQzps+F0lGWw5/AQAAe1HESA4AJUC4edW/JjrivHZhHOlnZme9mVgMvQFsZ3n3tpwaCjvcGu/hxD41/2mqTSlAPDf7IgE9QZUfPXL3dYVSrhaGmgpDYOVXwtmJlN3HMoMRPGBDHJ1L2dE1XwQA577/A626gMCUOu0aoijmubYUU3RnesyqNpNtvkutZTP4Mzkv0O85bUHXE6Uyi1dwt7TOlIqiuYDnd5xlkm3/m60Okdm3tboJRVnHokdShgb9EiwmBZJcWbdLRFkM6i8Ik8rlkinzlVciq+3j0aC1UY8=~3289652~4405046; Domain=.ibm.com; Path=/; Expires=Wed, 02 Mar 2022 07:54:59 GMT; Max-Age=14400
+
+HTTP/2 200 
+cache-control: max-age=301
+expires: Wed, 02 Mar 2022 03:16:12 GMT
+last-modified: Mon, 28 Feb 2022 13:39:41 GMT
+etag: "177fe-5d9142e3d58ff"
+content-type: text/html
+date: Wed, 02 Mar 2022 03:54:59 GMT
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-security-policy: upgrade-insecure-requests
+strict-transport-security: max-age=31536000
+set-cookie: _abck=9268D94BAF470D1722926183A4941C0E~-1~YAAQzps+F09GWw5/AQAAplHESAdCtVGtJ1Ij/JvEflFY7kCKxcZ3/pYxyDAdaN7Wc6mpx2s41X8OTuc6I0vmhHubxykvqaPyyc8+cEqx1vUEUYoH3ZSNkHu39QAf0VQ6X+ArDUFpD82cacXHf2BIttXYLdw0tsYbJDduN0DJNGg6ytpFSfQHUNTtAVZkEugGPi6T3xnpzzVHmrd8GwdG8epUHD4jFW0Mfmaz826Aw+4q3hxJpL7fv7PoKNi2cEkL5j0FidjLM5nSrfAX9a0ekPok84O5FgOLIZ5lWtvFbTbPF1UwbGcMy7UVaRq/pbeeWNHnA+X72Bn0soD/8GWnFgfdxvx8CKQd7kfBFldOuhz/MoGy6fc=~-1~-1~-1; Domain=.ibm.com; Path=/; Expires=Thu, 02 Mar 2023 03:54:59 GMT; Max-Age=31536000; Secure
+set-cookie: bm_sz=166169A25189732AE63D9FE4F920CE5A~YAAQzps+F1BGWw5/AQAAplHESA7TXGiqxUQK3+y5ldd6C2rD9nQFG+GkWm8U7+5MkW1Z1UZfnW3dgv0ix7T+c+erOUcdOMVP0p8oE43cyiiwpk9RpMb6/EGscqx+aF6f+4HyYU5fxWoFdOFWriVxQvCGQxZu/avwc+DaMx7BHTD+KUBlqbgdTm0i5IqAoj3NikghqISvbzUyaKByruMuBhhYni5t0Fm0Y2AUbL8RqV5X3HzzjZUubKxzT6virXBvKmNKK4lEHEXQY2w9ldfGuiGV5L4Vy6uknqSyKO6I4YU=~3289652~4405046; Domain=.ibm.com; Path=/; Expires=Wed, 02 Mar 2022 07:54:59 GMT; Max-Age=14400
+

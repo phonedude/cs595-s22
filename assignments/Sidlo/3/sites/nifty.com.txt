@@ -1,0 +1,24 @@
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Mar 2022 03:55:11 GMT
+Server: Apache
+Location: http://www.nifty.com/
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Mar 2022 03:55:12 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Server: Apache
+Location: https://www.nifty.com/
+
+HTTP/2 200 
+date: Wed, 02 Mar 2022 03:55:13 GMT
+content-type: text/html
+content-length: 108805
+server: Apache
+vary: User-Agent
+last-modified: Wed, 02 Mar 2022 03:50:53 GMT
+accept-ranges: bytes
+x-frame-options: DENY
+

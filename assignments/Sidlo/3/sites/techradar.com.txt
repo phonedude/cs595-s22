@@ -1,0 +1,61 @@
+HTTP/1.1 301 Apex Redirect
+Server: Varnish
+Retry-After: 0
+cache-control: max-age=86400
+Location: https://www.techradar.com/
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Wed, 02 Mar 2022 03:55:28 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-iad-kiad7000168-IAD
+X-Cache-Hits: 0
+X-Timer: S1646193329.832770,VS0,VE0
+Set-Cookie: FTR_Country_Code=(null); path=/; domain=www.techradar.com
+Strict-Transport-Security: max-age=300
+Set-Cookie: FTR_Cache_Status=HIT-SYNTH; path=/; domain=www.techradar.com
+x-cache: HIT-SYNTH
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+x-ftr-request-id: d2c15900-67f9-4980-8551-82351d035853
+last-modified: Wed, 02 Mar 2022 03:55:05 GMT
+xkey: techradar-platform-responsive
+xkey: techradar-page-homepage
+xkey: techradar-region-US
+xkey: techradar-version-422398
+xkey: techradar-server-phpfpm-5cbccff7c6-7kl2f
+server-timing: documentformatterformatresults;desc="DocumentFormatter::formatResults";dur=31, documentformatterformatarticle;desc="DocumentFormatter::formatArticle";dur=30, articleapihelpermakerequest-featured;desc="ArticleAPIHelper::makeRequest featured";dur=8, app;desc="App";dur=2280, total;desc="Total";dur=2000,
+x-ftr-backend-server: fte-varnish-prod-panther-4.uk-lon.srv-front.future.net.uk
+x-ftr-buildid: 4_02/Mar/2022:03:55:03.368_/_:V1:H1:R:V4:H4:O
+x-ftr-cache-status: HIT
+x-ftr-trace: V1:H1:R:V4:
+x-ftr-ttl: 0
+x-cache-control: max-age=300,public
+x-age: 0
+cache-control: max-age=300,public
+set-cookie: FTR_Country_Code=US; path=/; domain=www.techradar.com
+set-cookie: FTR_Cache_Status=miss cached; path=/; domain=www.techradar.com
+x-ftr-request-id: 00000000:2E9E_00000000:01BB_621EEAA4_D4A72D:18D1
+x-ftr-balancer: fteproxy-185-113-25-48
+x-ftr-backend: varnish-panther
+x-ftr-backend-server: fte-varnish-prod-panther-1
+via: 1.1 varnish, 1.1 varnish
+x-resp-is-stale: true
+set-cookie: FTR_Country_Code=US; path=/; domain=www.techradar.com
+set-cookie: FTR_Cache_Status=HIT-STALE-CLUSTER; path=/; domain=www.techradar.com
+accept-ranges: bytes
+date: Wed, 02 Mar 2022 03:55:29 GMT
+age: 11
+x-served-by: cache-lon11678-LON, cache-iad-kiad7000173-IAD
+x-cache-hits: 1, 0
+x-timer: S1646193329.910712,VS0,VE239
+vary: Accept-Encoding
+set-cookie: FTR_Country_Code=US; path=/; domain=www.techradar.com
+x-country-code: US
+x-country-code-real: US
+strict-transport-security: max-age=300
+set-cookie: FTR_Cache_Status=MISS-CLUSTER; path=/; domain=www.techradar.com
+x-cache: MISS-CLUSTER
+content-length: 668451
+

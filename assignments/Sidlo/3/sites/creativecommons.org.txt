@@ -1,0 +1,31 @@
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Mar 2022 03:54:50 GMT
+Content-Type: text/html
+Connection: keep-alive
+Location: https://creativecommons.org/
+Strict-Transport-Security: max-age=15768000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 6e57317f1c48c07a-ORF
+
+HTTP/2 200 
+date: Wed, 02 Mar 2022 03:54:50 GMT
+content-type: text/html; charset=UTF-8
+link: <https://creativecommons.org/wp-json/>; rel="https://api.w.org/", <https://creativecommons.org/wp-json/wp/v2/pages/48812>; rel="alternate"; type="application/json", <https://creativecommons.org/>; rel=shortlink
+vary: Accept-Encoding
+referrer-policy: 
+x-varnish: 18907654
+age: 0
+via: 1.1 varnish (Varnish/5.0)
+strict-transport-security: max-age=15768000
+x-content-type-options: nosniff
+x-frame-options: deny
+x-xss-protection: 1; mode=block
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 6e5731802a2fc093-ORF
+

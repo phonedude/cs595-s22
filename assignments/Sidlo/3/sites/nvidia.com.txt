@@ -1,0 +1,31 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Wed, 02 Mar 2022 03:55:13 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: https://www.nvidia.com/
+
+HTTP/2 307 
+server: AkamaiGHost
+content-length: 0
+location: https://www.nvidia.com/en-us/
+date: Wed, 02 Mar 2022 03:55:13 GMT
+last-modified: Wed, 02 Mar 2022 03:55:13 GMT
+
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+content-length: 550499
+server: Apache
+nvidia_region: en
+nvidia_language: en_US
+last-modified: Tue, 01 Mar 2022 14:06:11 GMT
+etag: "86663-5d928aad55242"
+accept-ranges: bytes
+content-security-policy: frame-ancestors 'self' https://stg-shop.nvidia.com https://widget.stackla.com https://app-sj14.marketo.com https://store.nvidia.com https://resources.nvidia.com https://resource.nvidia.com https://www.youtube.com https://www.quadro-selector.com http://player.youku.com https://player.youku.com https://live.nvidia-china.com https://www.google.com https://www.nvidia.cn https://wwwstage.nvidia.com https://www.nvidia.com https://events.rainfocus.com https://store.nvidia.com https://www.twitch.tv https://store.nvidia.ru https://store.nvidia.in https://shop.nvidia.com https://resource.nvidia.com;
+serverid: prod-web01
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+date: Wed, 02 Mar 2022 03:55:13 GMT
+

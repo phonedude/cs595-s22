@@ -1,0 +1,26 @@
+HTTP/1.1 301 Moved Permanently
+Location: https://www.google.com/
+Cross-Origin-Resource-Policy: cross-origin
+X-Content-Type-Options: nosniff
+Server: sffe
+Content-Length: 220
+X-XSS-Protection: 0
+Date: Wed, 02 Mar 2022 03:31:21 GMT
+Expires: Wed, 02 Mar 2022 04:01:21 GMT
+Cache-Control: public, max-age=1800
+Content-Type: text/html; charset=UTF-8
+Age: 1439
+
+HTTP/2 200 
+content-type: text/html; charset=ISO-8859-1
+p3p: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+date: Wed, 02 Mar 2022 03:55:21 GMT
+server: gws
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+expires: Wed, 02 Mar 2022 03:55:21 GMT
+cache-control: private
+set-cookie: 1P_JAR=2022-03-02-03; expires=Fri, 01-Apr-2022 03:55:21 GMT; path=/; domain=.google.com; Secure
+set-cookie: NID=511=F2XCw3uU3M3h0TUTMePB2eKwluyLhtjOrQQrBenKCv9OdCt69OH_ahLZvldJA_DJgV911SHQcQTyyAzbErVC-DLNezXpjn3S8dsKhlvAcZiy-iPeKVL-laQY6RbhO3IBxcQIcbuRngUk-4MWVu4bFl4GeFmoYUDqGahKWbBXLUs; expires=Thu, 01-Sep-2022 03:55:21 GMT; path=/; domain=.google.com; HttpOnly
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
