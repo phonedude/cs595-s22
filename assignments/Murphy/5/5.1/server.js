@@ -16,13 +16,12 @@ app1.use(allowCrossDomain)
 
 //Static Files
 app1.use(express.static('api'))
-//app1.use('imgs', express.static(__dirname + 'public/imgs'))
 
 //Set Views
 app1.set('views', './views')
 app1.set('view engine', 'ejs')
 
-app2.set('views_2', './views_2')
+app2.set('views', './views')
 app2.set('view engine', 'ejs')
 
 //Get pages

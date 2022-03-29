@@ -6,14 +6,29 @@
         <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
     </head>
     <body>
-        <p>This is port 5000!</p> 
+        <p>This is port 5000!</p>
+        <div id="myData"></div>
         <script>
             //CORS request from localhost:4000
             fetch("http://localhost:4000/sample.json")
-                .then(response => response.json())
-                .then(data => {
-                    console.log(data)
-                })
+                .then(function(response){
+                        return response.json()
+                    })
+                    .then(function (data) {
+                        appendData(data)
+                    })
+                    .catch(function(data){
+                        console.log('error: ' + err)
+                        document.write(err)
+                    })
+                    function appendData(data) {
+                    var mainContainer = document.getElementById("myData")
+                    for (var i = 0; i < data.length; i++) {
+                        var div = document.createElement("div")
+                        div.innerHTML = data[i].Band + '<br/>' + data[i].Game + '<br/>' + data[i].Movie
+                        mainContainer.appendChild(div)
+                        }
+                    }
         </script>
     </body>
 </html>

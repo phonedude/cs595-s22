@@ -10,20 +10,40 @@
         <script>
             //CORS request from localhost:4000
             fetch("http://localhost:4000/pokemon-gold")
-                .then(response => response.headers)
-                .then(data => {
-                    console.log(data)
-                })
+                .then(response=>{
+                    paragraph = document.getElementById("p")
+                    for(const header of response.headers){
+                        console.log(`Name: ${header[0]}, Value:${header[1]}`);
+                        document.write(`Name: ${header[0]}, Value:${header[1]}`)
+                        //paragraph.appendChild(`Name: ${header[0]}, Value:${header[1]}`)
+                    }
+                    
+                    document.write("<br/>")
+                });
+            document.write("\n")
             fetch("http://localhost:4000/star-wars-rogue-one")
-                .then(response => response.headers)
-                .then(data => {
-                    console.log(data)
-                })
+                .then(response=>{
+                    paragraph = document.getElementById("p")
+                    for(const header of response.headers){
+                        console.log(`Name: ${header[0]}, Value:${header[1]}`);
+                        document.write(`Name: ${header[0]}, Value:${header[1]}`)
+                        //paragraph.appendChild(`Name: ${header[0]}, Value:${header[1]}`)
+                    }
+                    
+                    document.write("<br/>")
+                });
             fetch("http://localhost:4000/rage-against-the-machine")
-                .then(response => response.headers)
-                .then(data => {
-                    console.log(data)
-                })
+                .then(response=>{
+                    paragraph = document.getElementById("p")
+                    for(const header of response.headers){
+                        console.log(`Name: ${header[0]}, Value:${header[1]}`);
+                        document.write(`Name: ${header[0]}, Value:${header[1]}`)
+                        //paragraph.appendChild(`Name: ${header[0]}, Value:${header[1]}`)
+                    }
+                    
+                    document.write("<br/>")
+            });
         </script>
+        <p id = "p"></p>
     </body>
 </html>
