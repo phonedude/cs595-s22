@@ -1,6 +1,6 @@
 HTTP 301
 http://globo.com/
-Date: Mon, 21 Mar 2022 23:12:17 GMT
+Date: Tue, 29 Mar 2022 02:12:47 GMT
 Content-Type: text/html
 Content-Length: 178
 Connection: keep-alive
@@ -9,24 +9,23 @@ Location: https://www.globo.com/
 
 HTTP 200
 https://www.globo.com/
-Date: Mon, 21 Mar 2022 23:12:17 GMT
+Date: Tue, 29 Mar 2022 02:12:47 GMT
 Content-Type: text/html; charset=UTF-8
-Content-Length: 116685
 Connection: keep-alive
 X-Served-From: Show Services
 Content-Encoding: gzip
-Expires: Mon, 21 Mar 2022 23:12:24 GMT
+Expires: Tue, 29 Mar 2022 02:12:57 GMT
 Cache-Control: max-age=10
 X-XSS-Protection: 1; mode=block
-X-Request-Id: e6553fe2-5043-45c3-8d1b-027fd4585665
+X-Request-Id: 18e7413e-fc03-488d-b059-6491e53e7bf4
 Content-Security-Policy: upgrade-insecure-requests
 X-Content-Type-Options: nosniff
 X-Mobile: desktop
 Show-Page-Version: 0
-Age: 2
+Age: 0
 Vary: X-Forwarded-Proto, Accept-Encoding, User-Agent, Wall-Subscription-Level
-X-Bip: 74888981 asra03mp05lx01ca04.globoi.com
+X-Bip: 584910166 ra02 01 05
 Via: 2.0 CachOS
 Accept-Ranges: bytes
-X-Thanos: 0AB1D10A
+X-Thanos: 0AB15007
 

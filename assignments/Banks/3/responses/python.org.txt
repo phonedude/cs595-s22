@@ -6,7 +6,7 @@ Location: https://python.org/
 HTTP 301
 https://python.org/
 Server: nginx
-Date: Mon, 21 Mar 2022 23:12:31 GMT
+Date: Tue, 29 Mar 2022 02:13:00 GMT
 Content-Type: text/html
 Content-Length: 162
 Location: https://www.python.org/
@@ -15,18 +15,18 @@ Strict-Transport-Security: max-age=315360000; preload
 HTTP 200
 https://www.python.org/
 Connection: keep-alive
-Content-Length: 50755
+Content-Length: 50945
 Server: nginx
 Content-Type: text/html; charset=utf-8
 X-Frame-Options: DENY
 Via: 1.1 vegur, 1.1 varnish
 Accept-Ranges: bytes
-Date: Mon, 21 Mar 2022 23:12:31 GMT
-Age: 3413
-X-Served-By: cache-iad-kiad7000089-IAD
+Date: Tue, 29 Mar 2022 02:13:00 GMT
+Age: 3241
+X-Served-By: cache-iad-kcgs7200046-IAD
 X-Cache: HIT
-X-Cache-Hits: 2
-X-Timer: S1647904352.603191,VS0,VE0
+X-Cache-Hits: 6
+X-Timer: S1648519981.878428,VS0,VE0
 Vary: Cookie
 Strict-Transport-Security: max-age=63072000; includeSubDomains
 

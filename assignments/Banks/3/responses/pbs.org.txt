@@ -1,7 +1,7 @@
 HTTP 301
 http://pbs.org/
 Server: nginx
-Date: Mon, 21 Mar 2022 23:12:30 GMT
+Date: Tue, 29 Mar 2022 02:12:59 GMT
 Content-Type: text/html
 Content-Length: 162
 Connection: keep-alive
@@ -11,34 +11,34 @@ X-PBS-fwsrvname: fwcacheproxy10
 HTTP 301
 http://www.pbs.org/
 Server: CloudFront
-Date: Mon, 21 Mar 2022 23:12:30 GMT
+Date: Tue, 29 Mar 2022 02:12:59 GMT
 Content-Type: text/html
 Content-Length: 183
 Connection: keep-alive
 Location: https://www.pbs.org/
 X-Cache: Redirect from cloudfront
-Via: 1.1 ec8b1bfbf511818c606f196b49f871e2.cloudfront.net (CloudFront)
+Via: 1.1 8d0bf2975485a7f0e4b8d82ddd378292.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: IAD50-C2
-X-Amz-Cf-Id: WYp9tW3FQSFerBiGS8K1hDS4NgxxpJ47kLCDCL6bkVNmLvp04IVVcA==
+X-Amz-Cf-Id: VZEcbYgNWO97eMtTLe_rBSaXZiz6-MRgWnmtckExHb8MGPvbBr6ywA==
 
 HTTP 200
 https://www.pbs.org/
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
-Date: Mon, 21 Mar 2022 23:10:00 GMT
-Expires: Mon, 21 Mar 2022 23:20:00 GMT
+Date: Tue, 29 Mar 2022 02:06:55 GMT
+Expires: Tue, 29 Mar 2022 02:16:55 GMT
 Cache-Control: max-age=600
-Content-Security-Policy: script-src 'self' *.pbs.org *.googlesyndication.com adservice.google.com connect.facebook.net fundingchoicesmessages.google.com js-agent.newrelic.com sb.scorecardresearch.com securepubads.g.doubleclick.net www.google-analytics.com www.googletagmanager.com *.googletagservices.com 'unsafe-inline' 'unsafe-eval'; img-src 'self' data: *.pbs.org *.doubleclick.net *.googlesyndication.com sb.scorecardresearch.com www.googletagmanager.com www.facebook.com graph.facebook.com platform-lookaside.fbsbx.com *.fbsbx.com *.fbcdn.net www.google-analytics.com www.google.com *.googleusercontent.com tags.w55c.net; style-src 'self' *.pbs.org 'unsafe-inline'; connect-src 'self' *.pbs.org *.doubleclick.net *.googlesyndication.com *.eloqua.com csi.gstatic.com fundingchoicesmessages.google.com www.google-analytics.com; frame-src 'self' *.pbs.org *.doubleclick.net *.googlesyndication.com www.facebook.com www.google.com *.googletagservices.com; default-src 'self' *.pbs.org
+Content-Security-Policy: script-src 'self' *.pbs.org *.googlesyndication.com adservice.google.com connect.facebook.net fundingchoicesmessages.google.com js-agent.newrelic.com sb.scorecardresearch.com securepubads.g.doubleclick.net www.google-analytics.com www.googletagmanager.com *.googletagservices.com 'unsafe-inline' 'unsafe-eval'; connect-src 'self' *.pbs.org *.doubleclick.net *.googlesyndication.com *.eloqua.com csi.gstatic.com fundingchoicesmessages.google.com www.google-analytics.com; style-src 'self' *.pbs.org 'unsafe-inline'; frame-src 'self' *.pbs.org *.doubleclick.net *.googlesyndication.com www.facebook.com www.google.com *.googletagservices.com; img-src 'self' data: *.pbs.org *.doubleclick.net *.googlesyndication.com sb.scorecardresearch.com www.googletagmanager.com www.facebook.com graph.facebook.com platform-lookaside.fbsbx.com *.fbsbx.com *.fbcdn.net www.google-analytics.com www.google.com *.googleusercontent.com tags.w55c.net; default-src 'self' *.pbs.org
 Strict-Transport-Security: max-age=31536000
 X-Content-Type-Options: nosniff
 Referrer-Policy: no-referrer-when-downgrade
 X-Frame-Options: DENY
-ETag: W/"2694b565f95b69bc363eb3b92aacf838"
+ETag: W/"c1ff413a8d76b6a9c9954c7600e74c08"
 Content-Encoding: gzip
 Vary: Accept-Encoding,Cloudfront-Viewer-Country,Cookie
 X-Cache: Hit from cloudfront
-Via: 1.1 65e185f36e65abff9322e261be3491d4.cloudfront.net (CloudFront)
+Via: 1.1 67711c5cba0352ee130f60f6cc103e0a.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: IAD50-C2
-X-Amz-Cf-Id: T_ISjUaphRDdLsP633p_9phwznA_X08ZA4a0QpJ4us6dzZiuQ5Cl6Q==
-Age: 150
+X-Amz-Cf-Id: P0w7C4vKJh8yBg4mcsDLKS8G--qVe2siUkK7rrcPTra0St_QsWPWAw==
+Age: 364
 

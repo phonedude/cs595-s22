@@ -1,7 +1,7 @@
 HTTP 301
 http://amazon.co.uk/
 Server: Server
-Date: Mon, 21 Mar 2022 23:11:20 GMT
+Date: Tue, 29 Mar 2022 02:10:31 GMT
 Content-Type: text/html
 Content-Length: 163
 Connection: keep-alive
@@ -10,7 +10,7 @@ Location: https://amazon.co.uk/
 HTTP 301
 https://amazon.co.uk/
 Server: Server
-Date: Mon, 21 Mar 2022 23:11:21 GMT
+Date: Tue, 29 Mar 2022 02:10:31 GMT
 Content-Type: text/html
 Content-Length: 163
 Connection: keep-alive
@@ -23,8 +23,8 @@ Content-Type: text/html;charset=UTF-8
 Content-Length: 0
 Connection: keep-alive
 Server: Server
-Date: Mon, 21 Mar 2022 23:11:21 GMT
-x-amz-rid: FXEY6EYQ4V4HBC3DVVBR
+Date: Tue, 29 Mar 2022 02:10:32 GMT
+x-amz-rid: TF6GKCB6D9YG4Z7G17AZ
 Cache-Control: no-cache
 Pragma: no-cache
 Expires: -1
@@ -34,7 +34,7 @@ Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
 X-Frame-Options: SAMEORIGIN
 Permissions-Policy: interest-cohort=()
 X-Cache: Error from cloudfront
-Via: 1.1 2d5ae77baf1e996b29b17b6541abf9c2.cloudfront.net (CloudFront)
+Via: 1.1 495532b0efe43a0c4d32da9e6929277e.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: IAD79-C2
-X-Amz-Cf-Id: IkPZgnBjI5niTRCmhZTulWuOFMWX-C8-Xek_VtUE8wEGr6HXONN73Q==
+X-Amz-Cf-Id: BbZKDg3nTeMw_F_Ube7kGLsT5E1ZySCVUbAA-akta0xFPXnvV9E_AA==
 

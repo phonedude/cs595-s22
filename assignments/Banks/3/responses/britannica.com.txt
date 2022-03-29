@@ -1,7 +1,7 @@
 HTTP 301
 http://britannica.com/
 Server: awselb/2.0
-Date: Mon, 21 Mar 2022 23:11:26 GMT
+Date: Tue, 29 Mar 2022 02:10:36 GMT
 Content-Type: text/html
 Content-Length: 134
 Connection: keep-alive
@@ -9,7 +9,7 @@ Location: https://britannica.com:443/
 
 HTTP 301
 https://britannica.com:443/
-Date: Mon, 21 Mar 2022 23:11:26 GMT
+Date: Tue, 29 Mar 2022 02:10:36 GMT
 Content-Type: text/html; charset=iso-8859-1
 Connection: keep-alive
 server: Apache/2.4.52 (Unix)
@@ -17,23 +17,23 @@ location: https://www.britannica.com/
 
 HTTP 200
 https://www.britannica.com/
-Date: Mon, 21 Mar 2022 23:11:26 GMT
+Date: Tue, 29 Mar 2022 02:10:36 GMT
 Content-Type: text/html;charset=UTF-8
 Connection: keep-alive
 vary: Accept-Encoding,User-Agent
-x-tserver: ip-10-145-21-89/127.0.1.1
-set-cookie: bcomID=-1189437606312046588; Domain=britannica.com; Expires=Thu, 18-Mar-2032 23:11:26 GMT; Path=/, SessionAuth=ioE1j2EN5UcCQirdoE2nugcJgXblJ0VmhcOX9LYtF+MaXqvYgdj8y62SiwhMgxay; Domain=britannica.com; Path=/, aup=ip; Domain=britannica.com; Path=/, INSTAUTH_COOKIE="qHkG4GHfQaM="; Version=1; Domain=britannica.com; Max-Age=5184000; Expires=Fri, 20-May-2022 23:11:26 GMT; Path=/, subreturn=https%3A%2F%2Fwww.britannica.com%2F; Domain=britannica.com; Path=/, webstats="referer_page=https%3A%2F%2Fwww.britannica.com%2F"; Version=1; Domain=britannica.com; Path=/, __mendel=%7B%27pagesViewed%27%3A1%2C%27surveyShown%27%3Atrue%2C%27topicInitialSequence%27%3A0%7D; Domain=britannica.com; Path=/
+x-tserver: ip-10-145-22-56/127.0.1.1
+set-cookie: bcomID=-922936377718888955; Domain=britannica.com; Expires=Fri, 26-Mar-2032 02:10:36 GMT; Path=/, SessionAuth=E1Urj8r6M0jN3eROfbT2TQAyrketC3G9ig1ZfkClUPYsbqeBgtGQoZiZehE4DyUu; Domain=britannica.com; Path=/, aup=ip; Domain=britannica.com; Path=/, INSTAUTH_COOKIE="hwrwYjOJ6UY="; Version=1; Domain=britannica.com; Max-Age=5184000; Expires=Sat, 28-May-2022 02:10:36 GMT; Path=/, subreturn=https%3A%2F%2Fwww.britannica.com%2F; Domain=britannica.com; Path=/, webstats="referer_page=https%3A%2F%2Fwww.britannica.com%2F"; Version=1; Domain=britannica.com; Path=/, __mendel=%7B%27pagesViewed%27%3A1%2C%27surveyShown%27%3Atrue%2C%27topicInitialSequence%27%3A0%7D; Domain=britannica.com; Path=/
 content-language: en-US
 x-wserver: 127.0.0.1
-x-iset: blue
+x-iset: green
 x-xss-protection: 1; mode=block
 x-permitted-cross-domain-policies: master-only
 expect-ct: max-age=604800
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xPyd70nX%2FyWeXobEWpzwl5FzwTcJqe3g7mO%2FZOuKsC%2BMTrPwcUnWnjvAI9CLa2Y9Rv6v1D%2FukVhYIJQcCjzUq%2FBpbjHS9lJQXWdNoGY4cQQfriTGGfcSYevXD80kB%2B8phBe1og%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZtpH0FJtJd0g%2BFCAHSNQOH5uLbJHtGmi2CN2siuLm1CMpWYmm42v27ZH8inijOiuAsSZvfLTdEtnN8da4%2BiH0JCL9nn3ZkpQK9tvKZQuGHf6ZTBVbga7qOpsrdLYZl4hDrln9Q%3D%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 6efa5ddf084d5992-IAD
+CF-RAY: 6f3511f4ab8605b0-IAD
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 

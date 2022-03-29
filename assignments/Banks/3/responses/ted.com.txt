@@ -1,6 +1,6 @@
 HTTP 301
 http://ted.com/
-Date: Mon, 21 Mar 2022 23:12:34 GMT
+Date: Tue, 29 Mar 2022 02:13:03 GMT
 Connection: keep-alive
 Server: nginx
 Location: https://ted.com/
@@ -10,20 +10,20 @@ Strict-Transport-Security: max-age=31536001
 
 HTTP 301
 https://ted.com/
-Date: Mon, 21 Mar 2022 23:12:34 GMT
+Date: Tue, 29 Mar 2022 02:13:03 GMT
 Content-Type: text/html
 Content-Length: 162
 Connection: keep-alive
 Server: nginx
 Location: https://www.ted.com/
 Accept-Ranges: bytes
-Age: 44
+Age: 75
 Strict-Transport-Security: max-age=31536001
 
 HTTP 200
 https://www.ted.com/
 Connection: keep-alive
-Content-Length: 66108
+Content-Length: 66702
 Content-Type: text/html; charset=utf-8
 X-Powered-By: Zenith
 x-frame-options: SAMEORIGIN
@@ -34,15 +34,16 @@ x-permitted-cross-domain-policies: none
 referrer-policy: strict-origin-when-cross-origin
 strict-transport-security: max-age=31536000; includeSubDomains
 Cache-Control: s-maxage=180, stale-while-revalidate
-ETag: "98821-BohUtSeOWpa8o7/rjuv+a6IzKcI"
+ETag: "9a8e9-4slNLuUlPSH8hyDcf0t3/TrM82c"
 Content-Encoding: gzip
+Fastly-Original-Body-Size: 66702
 Accept-Ranges: bytes
-Date: Mon, 21 Mar 2022 23:12:35 GMT
+Date: Tue, 29 Mar 2022 02:13:03 GMT
 Via: 1.1 varnish
-Age: 20
-X-Served-By: td_fcf03476a50c, cache-iad-kiad7000107-IAD
+Age: 113
+X-Served-By: td_162a8c3e4b60, cache-iad-kiad7000037-IAD
 X-Cache: HIT
 X-Cache-Hits: 1
 Vary: Accept-Encoding
-Set-Cookie: _nu=1647904355; Expires=Sat, 20 Mar 2027 23:12:35 GMT; path=/, _abby=AhVsXZMISyhCiCb; Expires=Sat, 20 Mar 2027 23:12:35 GMT; Path=/; Domain=.ted.com, _abby_post15s=b; Expires=Mon, 04 Apr 2022 23:12:35 GMT; Path=/, _abby_hero_form=a; Expires=Mon, 04 Apr 2022 23:12:35 GMT; Path=/, _abby_web_606_talkpage_membership_conversion=a; Expires=Mon, 04 Apr 2022 23:12:35 GMT; Path=/
+Set-Cookie: _nu=1648519984; Expires=Sun, 28 Mar 2027 02:13:03 GMT; path=/, _abby=cG89cE45HGIB1Rd; Expires=Sun, 28 Mar 2027 02:13:03 GMT; Path=/; Domain=.ted.com, _abby_post15s=b; Expires=Tue, 12 Apr 2022 02:13:03 GMT; Path=/, _abby_hero_form=c; Expires=Tue, 12 Apr 2022 02:13:03 GMT; Path=/, _abby_web_606_talkpage_membership_conversion=a; Expires=Tue, 12 Apr 2022 02:13:03 GMT; Path=/
 

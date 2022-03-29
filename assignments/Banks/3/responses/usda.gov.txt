@@ -7,14 +7,14 @@ Content-Length: 0
 
 HTTP 302
 https://usda.gov/
-Date: Mon, 21 Mar 2022 23:12:36 GMT
+Date: Tue, 29 Mar 2022 02:13:05 GMT
 Content-Type: text/html; charset=iso-8859-1
 Content-Length: 205
 Connection: keep-alive
 Cache-Control: public, max-age=3600
 Location: https://www.usda.gov/
-X-Varnish: 103214 103202
-Age: 3
+X-Varnish: 2998523 3476907
+Age: 14
 Via: 1.1 varnish-v4
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 
@@ -29,18 +29,18 @@ X-UA-Compatible: IE=edge
 Content-Language: en
 X-Frame-Options: SAMEORIGIN
 Permissions-Policy: interest-cohort=()
-Last-Modified: Mon, 21 Mar 2022 21:49:57 GMT
-ETag: "1647899397"
+Last-Modified: Tue, 29 Mar 2022 00:09:08 GMT
+ETag: "1648512548"
 X-Generator: Drupal 9 (https://www.drupal.org)
-X-Drupal-Cache: HIT
-X-Varnish: 131935 131866
+X-Drupal-Cache: MISS
+X-Varnish: 532751 137872
 Accept-Ranges: bytes
 Content-Length: 0
-Cache-Control: public, max-age=389
-Expires: Mon, 21 Mar 2022 23:19:05 GMT
-Date: Mon, 21 Mar 2022 23:12:36 GMT
+Cache-Control: public, max-age=297
+Expires: Tue, 29 Mar 2022 02:18:02 GMT
+Date: Tue, 29 Mar 2022 02:13:05 GMT
 Connection: keep-alive
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
 X-Content-Security-Policy: upgrade-insecure-requests;
-Set-Cookie: ak_bmsc=D2BD22B23983A7ACE9595576947BDC84~000000000000000000000000000000~YAAQFWdNaDssEJ5/AQAA6PnArg+daf/O2WbRAl8Fy3K90GganWjBLAvD7/npF0QnlKvyzg4jaFi1KoQ4z2M+ZeKWObN787v+IQgD94r38dXCXIV6LLQGpefFSOR9yZPU9EldrHyrcnkax0NmLw5aMtOt5UAJAe/T0cs8W79XryIeD6Aasky225G1jpgU9HlB+8RO0MJodNOgFtpbm5WXsFxzGpuxeDWyUCAum0LF4hpuyVsmnuHGRccgWxZCJle3TxjdR1zHQ6HYtTBG0pGQoJyaJp9TWsd5KTHA/VCOJi9OU1OOCqx1MPOAzAaEmAhj1NW8R9IInlEPTecd2HoAsDb1mwXWX2r3OLGW2aDGRy6UBSvnMlk23yo=; Domain=.usda.gov; Path=/; Expires=Tue, 22 Mar 2022 01:12:36 GMT; Max-Age=7200; HttpOnly
+Set-Cookie: ak_bmsc=8AD89CDD825692A7BE74A283E8E454F8~000000000000000000000000000000~YAAQRL73SEkUfb9/AQAAB7ly0w+p3nlkV4N79t4xAm3V0UPIv0dAuKZLjhnWBStr1dUjAAAsNJBUtmyT5vsT+ReYlwNE3rTVLpJvrKl5EYVlzMY0txfXdAAogmJrsff5W7PPPiJ1Fjsdb9vs/flMcB/MT47GEzGmjG3mP49j6gb2c3NhWtswi6xAxVaahJVGn8Uv9m5l2zIb+B3vmkSeymXBeQX68WYZdsogtbpPgrbdmheh0qZuuBV759aIVbTMXP9IRx79DqI4AqpdUTGpO433bH9Gq8WQHrsHVYEKIc6wHEjYWDp/c1v1Rt57liygm4pKW9tflxhCFtMp0BOWbOKB9YozgF81rc0O871ENrvUqI9bCIbRVg==; Domain=.usda.gov; Path=/; Expires=Tue, 29 Mar 2022 04:13:05 GMT; Max-Age=7200; HttpOnly
 

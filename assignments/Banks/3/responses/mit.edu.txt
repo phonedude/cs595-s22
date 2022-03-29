@@ -3,7 +3,7 @@ http://mit.edu/
 Server: AkamaiGHost
 Content-Length: 0
 Location: http://web.mit.edu/
-Date: Mon, 21 Mar 2022 23:12:27 GMT
+Date: Tue, 29 Mar 2022 02:12:56 GMT
 Connection: keep-alive
 
 HTTP 301
@@ -11,7 +11,7 @@ http://web.mit.edu/
 Server: AkamaiGHost
 Content-Length: 0
 Location: https://web.mit.edu/
-Date: Mon, 21 Mar 2022 23:12:27 GMT
+Date: Tue, 29 Mar 2022 02:12:56 GMT
 Connection: keep-alive
 Content-Security-Policy: frame-ancestors 'self' https://web.mit.edu https://www.mit.edu http://web.mit.edu http://www.mit.edu
 X-Frame-Options: SAMEORIGIN
@@ -19,16 +19,16 @@ X-Frame-Options: SAMEORIGIN
 HTTP 200
 https://web.mit.edu/
 Server: Apache
-Last-Modified: Mon, 21 Mar 2022 21:24:52 GMT
-ETag: "10e8b234-b9e9-6238ed24"
+Last-Modified: Mon, 28 Mar 2022 04:00:56 GMT
+ETag: "10e8b26c-baf8-624132f8"
 Accept-Ranges: bytes
 X-Cnection: close
 Content-Type: text/html
-Vary: Accept-Encoding
 Content-Encoding: gzip
-Date: Mon, 21 Mar 2022 23:12:27 GMT
-Content-Length: 20
+Content-Length: 11749
+Date: Tue, 29 Mar 2022 02:12:56 GMT
 Connection: keep-alive
+Vary: Accept-Encoding
 Content-Security-Policy: frame-ancestors 'self' https://web.mit.edu https://www.mit.edu http://web.mit.edu http://www.mit.edu
 X-Frame-Options: SAMEORIGIN
 

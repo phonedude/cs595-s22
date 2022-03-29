@@ -1,28 +1,28 @@
 HTTP 301
 http://alibaba.com/
 Server: Tengine
-Date: Mon, 21 Mar 2022 23:11:20 GMT
+Date: Tue, 29 Mar 2022 02:10:31 GMT
 Content-Type: text/html
 Content-Length: 239
 Connection: keep-alive
 Location: https://alibaba.com/
 Timing-Allow-Origin: *
-EagleId: 21033a2116479042801887760e780e
-server-timing: rt;dur=0.000,eagleid;desc=21033a2116479042801887760e780e
+EagleId: 2101e38616485198312017608e3ec7
+server-timing: rt;dur=0.000,eagleid;desc=2101e38616485198312017608e3ec7
 
 HTTP 301
 https://alibaba.com/
-Date: Mon, 21 Mar 2022 23:11:20 GMT
+Date: Tue, 29 Mar 2022 02:10:31 GMT
 Content-Type: text/html
 Content-Length: 278
 Connection: keep-alive
 Server: Tengine
-Set-Cookie: ali_apache_id=33.3.58.36.1647904280613.683558.2; path=/; domain=.alibaba.com; expires=Wed, 30-Nov-2084 01:01:01 GMT
+Set-Cookie: ali_apache_id=33.1.227.129.1648519831272.726450.3; path=/; domain=.alibaba.com; expires=Wed, 30-Nov-2084 01:01:01 GMT
 Location: https://www.alibaba.com/
 Strict-Transport-Security: max-age=31536000
 Timing-Allow-Origin: *
-EagleId: 21033a2416479042806138119efbd6
-server-timing: rt;dur=0.001,eagleid;desc=21033a2416479042806138119efbd6
+EagleId: 2101e38116485198312737657e695c
+server-timing: rt;dur=0.002,eagleid;desc=2101e38116485198312737657e695c
 
 HTTP 200
 https://www.alibaba.com/
@@ -35,12 +35,12 @@ Content-Language: en-US
 Strict-Transport-Security: max-age=31536000, max-age=31536000
 Content-Encoding: gzip
 Timing-Allow-Origin: *
-EagleId: 2101e38416479037829998744eb9b3
-Server-Timing: rt;dur=0.198,eagleid;desc=2101e38416479037829998744eb9b3
-Date: Mon, 21 Mar 2022 23:11:20 GMT
-Content-Length: 58456
+EagleId: 21033a1d16485187906493747e0cd4
+Server-Timing: rt;dur=0.190,eagleid;desc=21033a1d16485187906493747e0cd4
+Date: Tue, 29 Mar 2022 02:10:31 GMT
+Content-Length: 57744
 Connection: keep-alive
 Vary: Accept-Encoding
-Object-Status: ttl=3600,age=497
+Object-Status: ttl=3600,age=1041
 Edge-Type: akamai
 

@@ -1,23 +1,23 @@
 HTTP 302
 http://cambridge.org/
-Date: Mon, 21 Mar 2022 23:11:26 GMT
+Date: Tue, 29 Mar 2022 02:10:37 GMT
 Content-Type: text/html
 Connection: keep-alive
 Location: https://www.cambridge.org:443/
 CF-Cache-Status: DYNAMIC
 Server: cloudflare
-CF-RAY: 6efa5ddfdef882d8-IAD
+CF-RAY: 6f3511f56d4005d2-IAD
 
 HTTP 200
 https://www.cambridge.org:443/
-Date: Mon, 21 Mar 2022 23:11:27 GMT
+Date: Tue, 29 Mar 2022 02:10:37 GMT
 Content-Type: text/html; charset=UTF-8
 Connection: keep-alive
 Vary: CF-IPCountry,Accept-Encoding
-X-Cache-Hits: 1047
-Cache-Control: max-age=3600, public
+X-Cache-Hits: 10825
+Cache-Control: max-age=2764800, public
 X-Cache: HIT
-X-Request-ID: v-d8bb3714-a965-11ec-abf7-9f4c7b3493c0
+X-Request-ID: v-be227c84-aebd-11ec-9b88-77ac1ae39027
 Link: <https://www.cambridge.org>; rel="canonical", <https://www.cambridge.org>; rel="shortlink", <http://www.cambridge.org/>; rel="alternate"; hreflang="en"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 X-XSS-Protection: 1; mode=block
@@ -28,14 +28,14 @@ Via: varnish
 CF-IPCountry: US
 X-UA-Compatible: IE=edge
 X-Frame-Options: SAMEORIGIN
-Last-Modified: Mon, 21 Mar 2022 22:25:43 GMT
+Last-Modified: Mon, 28 Mar 2022 17:37:31 GMT
 X-AH-Environment: prod
-Age: 2743
+Age: 30785
 X-Served-From: aws
 Permissions-Policy: interest-cohort=()
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 6efa5de23b8081c1-IAD
+CF-RAY: 6f3511f6bca25c47-IAD
 Content-Encoding: gzip
 

@@ -3,12 +3,12 @@ http://weather.com/
 Server: AkamaiGHost
 Content-Length: 0
 Location: https://weather.com/
-Expires: Mon, 21 Mar 2022 23:12:37 GMT
+Expires: Tue, 29 Mar 2022 02:13:05 GMT
 Cache-Control: max-age=0, no-cache
 Pragma: no-cache
-Date: Mon, 21 Mar 2022 23:12:37 GMT
+Date: Tue, 29 Mar 2022 02:13:05 GMT
 Connection: keep-alive
-Set-Cookie: speedpin=4G; expires=Mon, 21-Mar-2022 23:42:37 GMT; path=/; domain=.weather.com; secure, ci=TWC-Connection-Speed=4G&TWC-Locale-Group=US&TWC-Device-Class=desktop&X-Origin-Hint=PROD-IBM-Daybreak-home&TWC-Network-Type=wifi&TWC-GeoIP-Country=US&TWC-GeoIP-Lat=36.8511&TWC-GeoIP-Long=-76.2784&Akamai-Connection-Speed=1000+&TWC-Privacy=usa&TWC-GeoIP-DMA=544&TWC-GeoIP-City=NORFOLK&TWC-GeoIP-Region=VA; path=/; domain=.weather.com; secure
+Set-Cookie: speedpin=4G; expires=Tue, 29-Mar-2022 02:43:05 GMT; path=/; domain=.weather.com; secure, ci=TWC-Connection-Speed=4G&TWC-Locale-Group=US&TWC-Device-Class=desktop&X-Origin-Hint=PROD-IBM-Daybreak-home&TWC-Network-Type=wifi&TWC-GeoIP-Country=US&TWC-GeoIP-Lat=36.8511&TWC-GeoIP-Long=-76.2784&Akamai-Connection-Speed=1000+&TWC-Privacy=usa&TWC-GeoIP-DMA=544&TWC-GeoIP-City=NORFOLK&TWC-GeoIP-Region=VA; path=/; domain=.weather.com; secure
 Access-Control-Max-Age: 86400
 Access-Control-Allow-Credentials: false
 Access-Control-Allow-Headers: *
@@ -28,28 +28,28 @@ TWC-Device-Class: desktop
 TWC-Locale-Group: US
 TWC-Connection-Speed: 4G
 Strict-Transport-Security: max-age=15552000; preload
-TWC-AK-Req-ID: 1e2be47a
+TWC-AK-Req-ID: 1b31f92c
 X-Origin-Hint: PROD-IBM-Daybreak-home
 
 HTTP 200
 https://weather.com/
 Content-Type: text/html; charset=utf-8
-Server-Timing: intid;desc=d3f7a0db94094350
+Server-Timing: intid;desc=83114249de39041f
 X-DNS-Prefetch-Control: off
 X-Frame-Options: SAMEORIGIN
 X-Download-Options: noopen
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 webcakes-app-name: daybreak-home
-webcakes-app-version: 1.0.0-8967a81450
-webcakes-region: dal10
-ETag: W/"9fb9e-ZFf1uFfL+75I3BQggjC0keurbTc"
+webcakes-app-version: 1.0.0-be30059fb8
+webcakes-region: dal12
+ETag: W/"ac377-c/qyo+E61Q7PNdvbnqEsiWVhZiM"
 Content-Encoding: gzip
-Content-Length: 111347
-Expires: Mon, 21 Mar 2022 23:12:37 GMT
+Content-Length: 117882
+Expires: Tue, 29 Mar 2022 02:13:06 GMT
 Cache-Control: max-age=0, no-cache
 Pragma: no-cache
-Date: Mon, 21 Mar 2022 23:12:37 GMT
+Date: Tue, 29 Mar 2022 02:13:06 GMT
 Connection: keep-alive
 Vary: Accept-Encoding
 Set-Cookie: ci=TWC-Connection-Speed=4G&TWC-Locale-Group=US&TWC-Device-Class=desktop&X-Origin-Hint=PROD-IBM-Daybreak-home&TWC-Network-Type=wifi&TWC-GeoIP-Country=US&TWC-GeoIP-Lat=36.8511&TWC-GeoIP-Long=-76.2784&Akamai-Connection-Speed=1000+&TWC-Privacy=usa&TWC-GeoIP-DMA=544&TWC-GeoIP-City=NORFOLK&TWC-GeoIP-Region=VA; path=/; domain=.weather.com; secure
@@ -72,6 +72,6 @@ TWC-Device-Class: desktop
 TWC-Locale-Group: US
 TWC-Connection-Speed: 4G
 Strict-Transport-Security: max-age=15552000; preload
-TWC-AK-Req-ID: 188b2f13
+TWC-AK-Req-ID: 1c9a3f3b
 X-Origin-Hint: PROD-IBM-Daybreak-home
 

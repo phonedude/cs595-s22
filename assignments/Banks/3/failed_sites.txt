@@ -1,2 +1,2 @@
-dw.com: HTTPConnectionPool(host='dw.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001A471A7FF10>, 'Connection to dw.com timed out. (connect timeout=20)'))
+dw.com: HTTPConnectionPool(host='dw.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f0cd5e7eca0>, 'Connection to dw.com timed out. (connect timeout=60)'))
 ebay.co.uk: Exceeded 30 redirects.

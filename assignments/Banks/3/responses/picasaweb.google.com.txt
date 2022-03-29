@@ -5,7 +5,7 @@ Cache-Control: private
 Cross-Origin-Resource-Policy: cross-origin
 Content-Type: text/html; charset=UTF-8
 X-Content-Type-Options: nosniff
-Date: Mon, 21 Mar 2022 23:12:30 GMT
+Date: Tue, 29 Mar 2022 02:12:59 GMT
 Server: sffe
 Content-Length: 236
 X-XSS-Protection: 0
@@ -16,7 +16,7 @@ Content-Type: application/binary
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Pragma: no-cache
 Expires: Mon, 01 Jan 1990 00:00:00 GMT
-Date: Mon, 21 Mar 2022 23:12:30 GMT
+Date: Tue, 29 Mar 2022 02:12:59 GMT
 Location: https://get.google.com/albumarchive/pwa/
 Content-Length: 0
 Server: ESF
@@ -31,20 +31,20 @@ Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Pragma: no-cache
 Expires: Mon, 01 Jan 1990 00:00:00 GMT
-Date: Mon, 21 Mar 2022 23:12:30 GMT
+Date: Tue, 29 Mar 2022 02:13:00 GMT
 Location: https://get.google.com/albumarchive
 Content-Length: 0
 P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
 Strict-Transport-Security: max-age=31536000
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/AlbumArchiveUi/cspreport, script-src 'nonce-xHiQlmoc0alJUUC/VhTBAQ' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/AlbumArchiveUi/cspreport;worker-src 'self', script-src 'nonce-xHiQlmoc0alJUUC/VhTBAQ' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.gstatic.com https://www.google-analytics.com https://s.ytimg.com https://www.googleapis.com https://youtube.com https://youtube.googleapis.com https://www.googleapis.com/appsmarket/v2/installedApps/;report-uri /_/AlbumArchiveUi/cspreport
 Cross-Origin-Opener-Policy: same-origin; report-to="AlbumArchiveUi"
-Cross-Origin-Resource-Policy: same-site
-Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/AlbumArchiveUi/cspreport, script-src 'nonce-/bL4en0wops93JkLlq63zA' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/AlbumArchiveUi/cspreport;worker-src 'self', script-src 'nonce-/bL4en0wops93JkLlq63zA' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.gstatic.com https://www.google-analytics.com https://s.ytimg.com https://www.googleapis.com https://youtube.com https://youtube.googleapis.com https://www.googleapis.com/appsmarket/v2/installedApps/;report-uri /_/AlbumArchiveUi/cspreport
 Report-To: {"group":"AlbumArchiveUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/AlbumArchiveUi/external"}]}
+Cross-Origin-Resource-Policy: same-site
 Server: ESF
 X-XSS-Protection: 0
 X-Frame-Options: SAMEORIGIN
 X-Content-Type-Options: nosniff
-Set-Cookie: NID=511=BKLG88oin_5bWWJvybcP-iz8MyaeebP9hS61uProDqvCnp01XLI6CiiBdXvsUOaGa6l9YDhR8JrAAHA2Ob79nK01_1cVAdUjuChCqFkJlOY5mWt1Y2mplTrPryDxrZjAz7x5elPRE-_trbkAWHoWwTn_H_-XgMcSresEcMkc-VI; expires=Tue, 20-Sep-2022 23:12:30 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none
+Set-Cookie: NID=511=eS80e6N0hPgzKuqMsnPMBeMFrRFD3iPC9K9QITg4IOvyLdcNWYwIDtgJ3-Nsj-cP3_CytKz0pu-sureg0TbHbwww4xOeajSn64Zk_x95apfmGsQouNreK0J6GNHhH3ogWd3TW03SYSJbpjjvIZBvVPFOPkgftDgfg1w8RPKviTw; expires=Wed, 28-Sep-2022 02:13:00 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
 
 HTTP 302
@@ -55,10 +55,10 @@ Location: https://accounts.google.com/ServiceLogin?passive=1209600&continue=http
 Content-Length: 0
 Strict-Transport-Security: max-age=31536000
 Cross-Origin-Resource-Policy: same-site
-Cross-Origin-Opener-Policy: unsafe-none; report-to="AlbumArchiveUi"
+Content-Security-Policy: script-src 'nonce-qjEI2pcdKs9d4HVtXPKywA' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/AlbumArchiveUi/cspreport;worker-src 'self', script-src 'nonce-qjEI2pcdKs9d4HVtXPKywA' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.gstatic.com https://www.google-analytics.com https://s.ytimg.com https://www.googleapis.com https://youtube.com https://youtube.googleapis.com https://www.googleapis.com/appsmarket/v2/installedApps/;report-uri /_/AlbumArchiveUi/cspreport, require-trusted-types-for 'script';report-uri /_/AlbumArchiveUi/cspreport
 Report-To: {"group":"AlbumArchiveUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/AlbumArchiveUi/external"}]}
-Content-Security-Policy: script-src 'nonce-r21Ki7Q8J9aqLrWDQY2WqA' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/AlbumArchiveUi/cspreport;worker-src 'self', script-src 'nonce-r21Ki7Q8J9aqLrWDQY2WqA' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.gstatic.com https://www.google-analytics.com https://s.ytimg.com https://www.googleapis.com https://youtube.com https://youtube.googleapis.com https://www.googleapis.com/appsmarket/v2/installedApps/;report-uri /_/AlbumArchiveUi/cspreport, require-trusted-types-for 'script';report-uri /_/AlbumArchiveUi/cspreport
-Date: Mon, 21 Mar 2022 23:12:30 GMT
+Cross-Origin-Opener-Policy: unsafe-none; report-to="AlbumArchiveUi"
+Date: Tue, 29 Mar 2022 02:13:00 GMT
 Server: ESF
 X-XSS-Protection: 0
 X-Frame-Options: SAMEORIGIN
@@ -74,15 +74,15 @@ x-auto-login: realm=com.google&args=continue%3Dhttps%253A%252F%252Fget.google.co
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Pragma: no-cache
 Expires: Mon, 01 Jan 1990 00:00:00 GMT
-Date: Mon, 21 Mar 2022 23:12:30 GMT
-Content-Length: 1824456
+Date: Tue, 29 Mar 2022 02:13:00 GMT
+Content-Length: 1825301
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="coop_gse_qebhlk"
-Content-Security-Policy: require-trusted-types-for 'script';report-uri /cspreport, script-src 'nonce-gwOBmhUz/LkFRwd+TGco2g' 'unsafe-inline' 'unsafe-eval';object-src 'none';base-uri 'self';report-uri /cspreport
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /cspreport, script-src 'nonce-oR9nH0hQzWJA1MRP7w60fg' 'unsafe-inline' 'unsafe-eval';object-src 'none';base-uri 'self';report-uri /cspreport
 Report-To: {"group":"coop_gse_qebhlk","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gse_qebhlk"}]}
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Server: GSE
-Set-Cookie: __Host-GAPS=1:H0TyJiAW-BxtBfKpZftrsDWMuDsPTQ:AtSTAWLxWTOIm835;Path=/;Expires=Wed, 20-Mar-2024 23:12:30 GMT;Secure;HttpOnly;Priority=HIGH
+Set-Cookie: __Host-GAPS=1:Ufvp06J1nbbPv-4wmaJetm0l2WieWA:WHVWfdV2wG3GIZBF;Path=/;Expires=Thu, 28-Mar-2024 02:13:00 GMT;Secure;HttpOnly;Priority=HIGH
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
 

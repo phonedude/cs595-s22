@@ -4,7 +4,7 @@ Content-Type: application/binary
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Pragma: no-cache
 Expires: Mon, 01 Jan 1990 00:00:00 GMT
-Date: Mon, 21 Mar 2022 23:12:35 GMT
+Date: Tue, 29 Mar 2022 02:13:04 GMT
 Location: https://translate.google.com/
 Content-Length: 0
 Server: ESF
@@ -20,16 +20,16 @@ x-ua-compatible: IE=edge
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Pragma: no-cache
 Expires: Mon, 01 Jan 1990 00:00:00 GMT
-Date: Mon, 21 Mar 2022 23:12:35 GMT
-Content-Length: 1011705
+Date: Tue, 29 Mar 2022 02:13:04 GMT
+Content-Length: 1038159
 P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
-Content-Security-Policy: script-src 'nonce-seQDXAPL8wj8q5qxqn7xQg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/TranslateWebserverUi/cspreport;worker-src 'self', script-src 'nonce-seQDXAPL8wj8q5qxqn7xQg' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.gstatic.com https://www.google-analytics.com https://www.googleapis.com/appsmarket/v2/installedApps/;report-uri /_/TranslateWebserverUi/cspreport, require-trusted-types-for 'script';report-uri /_/TranslateWebserverUi/cspreport
 Cross-Origin-Resource-Policy: same-site
+Content-Security-Policy: script-src 'nonce-+lcc8Seq83a2Xr9IKO1lyA' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/TranslateWebserverUi/cspreport;worker-src 'self', script-src 'nonce-+lcc8Seq83a2Xr9IKO1lyA' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.gstatic.com https://www.google-analytics.com https://www.googleapis.com/appsmarket/v2/installedApps/;report-uri /_/TranslateWebserverUi/cspreport, require-trusted-types-for 'script';report-uri /_/TranslateWebserverUi/cspreport
 Cross-Origin-Opener-Policy: same-origin-allow-popups
 Server: ESF
 X-XSS-Protection: 0
 X-Frame-Options: SAMEORIGIN
 X-Content-Type-Options: nosniff
-Set-Cookie: NID=511=DWt4-NMQrvqh5GnbEHzTjPlPh8liKZWoCYMrHHS3GSbpT_RC7utCba08Q56YByqdYGlcwLj7YHmHEZh_p2U_UTlDbExNxa6rpT5eIKaTHYQf3KzXH8oz2f6eSJwfbb8I1Aqdnzg_rKDL1BsEpLyl_qs6fRssO_qCZoRuptSiY74; expires=Tue, 20-Sep-2022 23:12:35 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none
+Set-Cookie: NID=511=r-KukXeHDi8Tc3867VER_utMOyR77hHNuSvbPvtWnUZswE8UKR2TAvWt_PG7kLBntcM1ObkJvo05hS76pLp8kSoM3AICull4d3jFYwjJ4G5_4dpTmFMaQvYV-ufLHIypqlQdBgTAzdExxGc26syu2WVb_cAYPFdo37MCbSryZ20; expires=Wed, 28-Sep-2022 02:13:04 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
 

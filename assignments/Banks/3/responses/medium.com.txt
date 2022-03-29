@@ -1,38 +1,38 @@
 HTTP 301
 http://medium.com/
-Date: Mon, 21 Mar 2022 23:12:26 GMT
+Date: Tue, 29 Mar 2022 02:12:55 GMT
 Connection: keep-alive
 Cache-Control: max-age=3600
-Expires: Tue, 22 Mar 2022 00:12:26 GMT
+Expires: Tue, 29 Mar 2022 03:12:55 GMT
 Location: https://medium.com/
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-Set-Cookie: __cfruid=b4527796d46084816e84bf3443a2acac358d33a9-1647904346; path=/; domain=.medium.com; HttpOnly
+Set-Cookie: __cfruid=d0776c46363de28cdbe11e3a4b53e3d0837bd44c-1648519975; path=/; domain=.medium.com; HttpOnly
 Server: cloudflare
-CF-RAY: 6efa5f553c2b3806-IAD
+CF-RAY: 6f351556e84356bc-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 HTTP 200
 https://medium.com/
-Date: Mon, 21 Mar 2022 23:12:27 GMT
+Date: Tue, 29 Mar 2022 02:12:56 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
-CF-Ray: 6efa5f55cc4b818c-IAD
+CF-Ray: 6f3515575fe95818-IAD
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Set-Cookie: vary=enable_medium_app_lo%7Cenable_lohp_bg_yellow; Domain=medium.com; Path=/; Expires=Wed, 20 Apr 2022 23:12:26 GMT; HttpOnly; Secure; SameSite=None, uid=lo_c17fb1cccb4b; Domain=medium.com; Path=/; Expires=Tue, 21 Mar 2023 23:12:26 GMT; HttpOnly; Secure; SameSite=None, sid=1%3AyrhD1ZDNEwYtV8Dl8nop8rhNVLsmnf1nonS51qITeVCDB52ovvtk3CfqXglFya%2Ba; Domain=medium.com; Path=/; Expires=Tue, 21 Mar 2023 23:12:26 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: uid=lo_27f7b33188bc; Domain=medium.com; Path=/; Expires=Wed, 29 Mar 2023 02:12:55 GMT; HttpOnly; Secure; SameSite=None, sid=1%3Ar%2B4HT4xk4j%2BjCcsecIlcoTgsDQ2kBffQ5IHJkv83zb0kLFYHqD8M2dkQxtv38yVh; Domain=medium.com; Path=/; Expires=Wed, 29 Mar 2023 02:12:55 GMT; HttpOnly; Secure; SameSite=None
 Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
 Vary: Accept-Encoding
 CF-Cache-Status: DYNAMIC
 content-security-policy: frame-ancestors 'self' https://medium.com
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-medium-fulfilled-by: edgy/8.2.0, valencia/main-20220321-173401-d48bf64cf6, lite/main-20220321-223511-83b66d74d7, rito/main-20220321-173401-d48bf64cf6, tutu/main-20220321-164119-706d81140a
-medium-missing-time: 164
-worker-cache-key: medium.com/?vary=enable_medium_app_lo%7Cenable_lohp_bg_yellow&li=false
+medium-fulfilled-by: edgy/8.3.0, valencia/main-20220329-001316-b4b7794a00, lite/main-20220329-004021-923323c336, rito/main-20220329-001316-b4b7794a00, tutu/main-20220328-234917-c82d734920
+medium-missing-time: 159
+worker-cache-key: medium.com/?li=false
 worker-cache-middleware: true
 worker-missing-cookies: 2
 X-Content-Type-Options: nosniff
-x-envoy-upstream-service-time: 454
-x-request-received-at: 1647904346559
+x-envoy-upstream-service-time: 520
+x-request-received-at: 1648519975604
 Server: cloudflare
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400

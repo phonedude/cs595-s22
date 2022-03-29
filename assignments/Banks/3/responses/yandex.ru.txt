@@ -1,16 +1,36 @@
-HTTP 302
+HTTP 301
 http://yandex.ru/
-Location: http://yandex.ru/showcaptcha?cc=1&retpath=http%3A//yandex.ru/%3F_b949543f3b26457f87f15e8d7db48c3a&t=2/1647904361/063cd15884c8b00130293344a610eb76&u=1e75abb1-b475c03b-b9b42e7a-e084d341&s=ba9d3f448085fc8adff094586a79d251
+Cache-Control: max-age=1209600,private
+Content-Encoding: gzip
+Location: https://yandex.ru/
 NEL: {"report_to": "network-errors", "max_age": 86400, "success_fraction": 0.001, "failure_fraction": 0.1}
+P3P: policyref="/w3c/p3p.xml", CP="NON DSP ADM DEV PSD IVDo OUR IND STP PHY PRE NAV UNI"
+Portal: Home
 Report-To: { "group": "network-errors", "max_age": 86400, "endpoints": [ { "url": "https://dr.yandex.net/nel"}]}
-Set-Cookie: spravka=dD0xNjE2MzY4MzYxO2k9MTI4LjgyLjE5LjI7RD1DQ0I0MkMxOUM0NjVBMzdEQ0JDRjI1NUUwOEYxNzFGQUU0QkQ4ODlGNEIyMzIxOEVBRTM0MDgyODc4RTA1M0U1NTExMTY3RTY7dT0xNjE2MzY4MzYxOTEwMDE5MTU0O2g9ODE1OTFkODRkNmIwMDczNDM4NGZkYzhlNmE0MTkwYTA=; domain=.yandex.ru; path=/; expires=Wed, 20-Apr-2022 23:12:41 GMT
 X-Content-Type-Options: nosniff
+X-Yandex-Req-Id: 1648519989587205-14194185998474042024-man1-8183-man-l7-balancer-8080-BAL-6048
+set-cookie: is_gdpr=0; Path=/; Domain=.yandex.ru; Expires=Thu, 28 Mar 2024 02:13:09 GMT, is_gdpr_b=CNaZZBCVaigC; Path=/; Domain=.yandex.ru; Expires=Thu, 28 Mar 2024 02:13:09 GMT, _yasc=2CLRtJnFPFkV8X4UaIo31IgNdrYpk36wZmW9PsJ0ItKyp9Dt; domain=.yandex.ru; path=/; expires=Thu, 28-Apr-2022 02:13:09 GMT; secure
 
 HTTP 200
-http://yandex.ru/showcaptcha?cc=1&retpath=http%3A//yandex.ru/%3F_b949543f3b26457f87f15e8d7db48c3a&t=2/1647904361/063cd15884c8b00130293344a610eb76&u=1e75abb1-b475c03b-b9b42e7a-e084d341&s=ba9d3f448085fc8adff094586a79d251
-Content-Length: 6684
-Content-Type: text/html
+https://yandex.ru/
+Accept-CH: Viewport-Width, DPR, Device-Memory, RTT, Downlink, ECT
+Accept-CH-Lifetime: 31536000
+Cache-Control: no-cache,no-store,max-age=0,must-revalidate
+Content-Encoding: gzip
+Content-Security-Policy: style-src 'unsafe-inline' https://yastatic.net https://zen.yandex.ru https://yandex.st https://banners.adfox.ru https://content.adfox.ru https://yastat.net;media-src blob: https://*.cdn.ngenix.net https://*.strm.yandex.net https://*.yandex.net https://strm.yandex.ru https://*.strm.yandex.ru https://yastat.net data: https://yandex.ru https://yandex.st https://yastatic.net https://banners.adfox.ru https://content.adfox.ru;frame-src https://passport.yandex.ru https://passport.yandex.ru https://yandex.ru https://yastatic.net 'self' https://an.yandex.ru blob: https://zen.yandex.ru https://awaps.yandex.net https://yandexadexchange.net https://*.yandexadexchange.net https://storage.mds.yandex.net https://*.yandex.ru https://banners.adfox.ru https://yastat.net https://mc.yandex.ru https://mc.yandex.md;script-src 'unsafe-inline' https://mc.yandex.com https://zen-yandex-ru.cdnclab.net https://yastatic.net https://yandex.ru 'self' https://an.yandex.ru https://z.moatads.com https://storage.mds.yandex.net blob: https://zen.yandex.ru https://yandex.st https://mc.yandex.ru https://banners.adfox.ru https://ads.adfox.ru https://ads6.adfox.ru https://yastat.net https://*.mc.yandex.ru https://adstat.yandex.ru;img-src https://*.verify.yandex.ru https://auto.ru https://strm.yandex.net https://thequestion.ru https://www.kinopoisk.ru https://zen-yandex-ru.cdnclab.net 'self' https://yastatic.net data: https://yandex.ru https://resize.yandex.net https://*.strm.yandex.net https://strm.yandex.ru https://avatars-fast.yandex.net https://favicon.yandex.net https://banners.adfox.ru https://content.adfox.ru https://ads6.adfox.ru https://yastat.net https://avatars.mds.yandex.net https://mc.yandex.ru https://*.tns-counter.ru https://verify.yandex.ru https://ads.adfox.ru https://bs.serving-sys.com https://ad.adriver.ru https://wcm.solution.weborama.fr https://wcm-ru.frontend.weborama.fr https://mc.admetrica.ru https://ad.doubleclick.net https://rgi.io https://track.rutarget.ru https://ssl.hurra.com https://px.moatads.com https://amc.yandex.ru https://gdeby.hit.gemius.pl https://tps.doubleverify.com https://pixel.adsafeprotected.com https://impression.appsflyer.com https://an.yandex.ru https://yabs.yandex.ru https://zen.yandex.ru https://s3.mds.yandex.net https://zen.s3.yandex.net https://*.mediascope.mc.yandex.ru https://tns-counter.ru https://storage.mds.yandex.net https://awaps.yandex.net https://awaps.yandex.ru https://gdero.hit.gemius.pl https://pixel.adlooxtracking.com https://mc.yandex.com https://*.mc.yandex.ru https://adstat.yandex.ru;report-uri https://csp.yandex.net/csp?project=morda&from=morda.big.ru&showid=1648519990064737-8492384219564944872-man1-8110-man-l7-balancer-8080-BAL-7409&h=stable-morda-man-yp-484&yandexuid=2649448721648519990&&version=2022-03-25-1&adb=0;connect-src blob: https://*.cdn.ngenix.net https://*.strm.yandex.net https://auto.ru https://favicon.yandex.net https://log.strm.yandex.ru https://mc.yandex.com https://thequestion.ru https://www.kinopoisk.ru https://zen-yandex-ru.cdnclab.net https://zen.me https://yandex.ru https://yastatic.net https://yastat.net 'self' https://portal-xiva.yandex.net wss://portal-xiva.yandex.net https://strm.yandex.ru https://mobile.yandex.net https://yabs.yandex.ru https://an.yandex.ru https://verify.yandex.ru https://*.verify.yandex.ru https://mc.yandex.ru https://yandex.st https://matchid.adfox.yandex.ru https://adfox.yandex.ru https://ads.adfox.ru https://ads6.adfox.ru https://jstracer.yandex.ru https://awaps.yandex.ru https://tps.doubleverify.com https://pixel.adsafeprotected.com wss://webasr.voicetech.yandex.net https://zen.yandex.ru https://*.mediascope.mc.yandex.ru https://csp.yandex.net https://*.strm.yandex.ru https://frontend.vh.yandex.ru wss://push.yandex.ru https://awaps.yandex.net https://*.mc.yandex.ru https://adstat.yandex.ru https://mc.admetrica.ru https://mc.yandex.md;default-src https://yastatic.net https://yastat.net https://zen.yandex.ru https://awaps.yandex.net https://awaps.yandex.ru;font-src https://yastatic.net https://zen.yandex.ru https://an.yandex.ru https://yastat.net data: 'self';object-src https://avatars.mds.yandex.net
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 29 Mar 2022 02:13:10 GMT
+Expires: Tue, 29 Mar 2022 02:13:10 GMT
+Last-Modified: Tue, 29 Mar 2022 02:13:10 GMT
+Link: <//avatars.mds.yandex.net/get-direct/5281630/SyI4LXKCL1dM73re2TIYtA/x450>;  rel="preload"; as="image";, <//yastatic.net/jquery/2.1.4/jquery.min.js>;  rel="preload"; as="script"; crossorigin="anonymous";, <https://yastatic.net/s3/home-static/_/o/-/M_Qy58c52vcSAR4MUaRkQtGWw.js>;  rel="preload"; as="script"; crossorigin="anonymous";
 NEL: {"report_to": "network-errors", "max_age": 86400, "success_fraction": 0.001, "failure_fraction": 0.1}
+P3P: policyref="/w3c/p3p.xml", CP="NON DSP ADM DEV PSD IVDo OUR IND STP PHY PRE NAV UNI"
 Report-To: { "group": "network-errors", "max_age": 86400, "endpoints": [ { "url": "https://dr.yandex.net/nel"}]}
+Reporting-Endpoints: default="https://yandex.ru/portal/front/reports?slots=541671%2C0%2C77&region=102576&reqid=1648519990064737-8492384219564944872-man1-8110-man-l7-balancer-8080-BAL-7409&dc=man&page=big"
+Set-Cookie: yp=1651111990.ygu.1; Expires=Fri, 26-Mar-2032 02:13:10 GMT; Domain=.yandex.ru; Path=/, mda=0; Expires=Wed, 27-Jul-2022 02:13:10 GMT; Domain=.yandex.ru; Path=/, yandex_gid=102576; Expires=Thu, 28-Apr-2022 02:13:10 GMT; Domain=.yandex.ru; Path=/, yandexuid=2649448721648519990; Path=/; Domain=.yandex.ru; Expires=Fri, 26-Mar-2032 02:13:10 GMT; Secure, i=egIwQKjT+p2PZPb9nEc8NfPMB4CH5G/+nygXtxHNAUOCLtoBjd6gGyNadRk4sFP1IVBT/J9RrB17mFaAqVBKRYkFevA=; Expires=Thu, 28-Mar-2024 02:13:10 GMT; Domain=.yandex.ru; Path=/; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains
 X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Requestid: 1648519990064737-8492384219564944872-man1-8110-man-l7-balancer-8080-BAL-7409
+X-Yandex-Req-Id: 1648519990064737-8492384219564944872-man1-8110-man-l7-balancer-8080-BAL-7409
 

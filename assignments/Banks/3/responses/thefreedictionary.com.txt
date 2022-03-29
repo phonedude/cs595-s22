@@ -4,18 +4,18 @@ Cache-Control: private
 Content-Length: 0
 Content-Type: text/html
 Location: https://www.thefreedictionary.com
-Date: Mon, 21 Mar 2022 23:12:34 GMT
+Date: Tue, 29 Mar 2022 02:13:00 GMT
 
 HTTP 200
 https://www.thefreedictionary.com
 Cache-Control: no-cache
 Pragma: no-cache
-Content-Length: 32960
+Content-Length: 32991
 Content-Type: text/html; charset=utf-8
 Content-Encoding: gzip
 Content-Language: en
 Expires: -1
-Last-Modified: Mon, 21 Mar 2022 04:00:00 GMT
+Last-Modified: Mon, 28 Mar 2022 04:00:00 GMT
 Vary: Accept-Encoding
-Date: Mon, 21 Mar 2022 23:12:35 GMT
+Date: Tue, 29 Mar 2022 02:13:01 GMT
 

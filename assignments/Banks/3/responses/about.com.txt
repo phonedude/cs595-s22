@@ -5,15 +5,15 @@ Location: https://www.dotdash.com/
 Server: Apache/2.4.52 (Amazon) OpenSSL/1.0.2k-fips
 Content-Length: 232
 Accept-Ranges: bytes
-Date: Mon, 21 Mar 2022 23:11:19 GMT
+Date: Tue, 29 Mar 2022 02:10:30 GMT
 Via: 1.1 varnish
-Age: 404940
+Age: 570320
 Connection: keep-alive
 cache-control: max-age=3600
-X-Served-By: cache-iad-kcgs7200049-IAD
+X-Served-By: cache-iad-kiad7000099-IAD
 X-Cache: HIT
-X-Cache-Hits: 1
-X-Timer: S1647904280.806988,VS0,VE1
+X-Cache-Hits: 4
+X-Timer: S1648519831.834098,VS0,VE0
 
 HTTP 301
 https://www.dotdash.com/
@@ -23,13 +23,13 @@ Server: Varnish
 Retry-After: 0
 Location: https://www.dotdashmeredith.com/
 Accept-Ranges: bytes
-Date: Mon, 21 Mar 2022 23:11:19 GMT
+Date: Tue, 29 Mar 2022 02:10:30 GMT
 Via: 1.1 varnish
 cache-control: max-age=60
-X-Served-By: cache-iad-kcgs7200068-IAD
+X-Served-By: cache-iad-kiad7000047-IAD
 X-Cache: HIT
 X-Cache-Hits: 0
-X-Timer: S1647904280.870437,VS0,VE0
+X-Timer: S1648519831.882390,VS0,VE0
 
 HTTP 200
 https://www.dotdashmeredith.com/
@@ -49,12 +49,12 @@ Content-Security-Policy: script-src 'sha256-nu9tVMGXtXZG4oszxe4T0guIQFguQ3i7GFYH
 ETag: "1a49a-jKLbCvI3/aMCkZdMl5va/wpTmUE"
 Content-Encoding: gzip
 Accept-Ranges: bytes
-Date: Mon, 21 Mar 2022 23:11:19 GMT
+Date: Tue, 29 Mar 2022 02:10:30 GMT
 Via: 1.1 varnish
-Age: 9844
+Age: 625395
 cache-control: max-age=60
-X-Served-By: cache-iad-kcgs7200033-IAD
+X-Served-By: cache-iad-kiad7000029-IAD
 X-Cache: HIT
-X-Cache-Hits: 12
+X-Cache-Hits: 80
 Vary: Accept-Encoding
 

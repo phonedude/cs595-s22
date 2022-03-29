@@ -1,7 +1,7 @@
 HTTP 301
 http://digitaltrends.com/
 Server: nginx
-Date: Mon, 21 Mar 2022 23:11:28 GMT
+Date: Tue, 29 Mar 2022 02:10:38 GMT
 Content-Type: text/html
 Content-Length: 162
 Connection: keep-alive
@@ -10,7 +10,7 @@ Location: https://digitaltrends.com/
 HTTP 301
 https://digitaltrends.com/
 Server: nginx
-Date: Mon, 21 Mar 2022 23:11:28 GMT
+Date: Tue, 29 Mar 2022 02:10:38 GMT
 Content-Type: text/html; charset=utf-8
 Content-Length: 20
 Connection: keep-alive
@@ -18,16 +18,16 @@ Location: https://www.digitaltrends.com/
 X-rq: dca5 0 4 9980
 Cache-Control: max-age=300, must-revalidate
 Content-Encoding: gzip
-Age: 643
+Age: 1302
 X-Cache: hit
 Strict-Transport-Security: max-age=31536000
 
 HTTP 200
 https://www.digitaltrends.com/
 Server: nginx
-Date: Mon, 21 Mar 2022 23:11:28 GMT
+Date: Tue, 29 Mar 2022 02:10:38 GMT
 Content-Type: text/html; charset=UTF-8
-Content-Length: 53879
+Content-Length: 53589
 Connection: keep-alive
 X-hacker: If you're reading this, you should visit wpvip.com/careers and apply to join the fun, mention this header.
 X-Powered-By: WordPress VIP <https://wpvip.com>
@@ -38,10 +38,9 @@ Link: <https://www.digitaltrends.com/>; rel="canonical", <https://www.digitaltre
 X-Logged-In: 0
 Cache-Control: max-age=60, must-revalidate
 Surrogate-Key: topic
-X-ElasticPress-Query: true
 X-rq: dca5 0 4 9980
 Content-Encoding: gzip
-Age: 55
+Age: 46
 X-Cache: hit
 Vary: Accept-Encoding, X-User-Region, X-Logged-In
 Accept-Ranges: bytes

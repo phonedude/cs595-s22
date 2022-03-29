@@ -1,19 +1,19 @@
 HTTP 301
 http://researchgate.net/
-Date: Mon, 21 Mar 2022 23:12:32 GMT
+Date: Tue, 29 Mar 2022 02:13:01 GMT
 Connection: keep-alive
 Cache-Control: max-age=3600
-Expires: Tue, 22 Mar 2022 00:12:32 GMT
+Expires: Tue, 29 Mar 2022 03:13:01 GMT
 Location: https://researchgate.net/
-Set-Cookie: __cf_bm=jtUrbv.T5C.32S9W9hgIloJ.63Rxh0wl_kd3fK4jJMY-1647904352-0-AStzwNYeIHFJ/LKJVU3S0orcjHa2mSiWVOuI8LHCXHvuK5cuoeWTapCOkOUTug4od9556Tx0OqMv7vpyeDxTH8A=; path=/; expires=Mon, 21-Mar-22 23:42:32 GMT; domain=.researchgate.net; HttpOnly; SameSite=None
+Set-Cookie: __cf_bm=WgdPzgWys4zw4luW.cQesrTLOi7wwT68q0XTZkzLHLs-1648519981-0-AdV712ozE66fDbka8O4K/AS1KRbOjJ8c9R7BXLXRn0XHzQeQIluPsjl+1TIoS/aBK5eGS2mqq0WCBFgMrylx0/I=; path=/; expires=Tue, 29-Mar-22 02:43:01 GMT; domain=.researchgate.net; HttpOnly; SameSite=None
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 6efa5f78ebd274a3-IAD
+CF-RAY: 6f35157d7c1005f7-IAD
 alt-svc: h2=":443"; ma=60
 
 HTTP 301
 https://researchgate.net/
-Date: Mon, 21 Mar 2022 23:12:32 GMT
+Date: Tue, 29 Mar 2022 02:13:01 GMT
 Content-Type: text/html
 Content-Length: 162
 Connection: keep-alive
@@ -22,16 +22,16 @@ Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 6efa5f799c22060e-IAD
+CF-RAY: 6f35157dfd418206-IAD
 
 HTTP 200
 https://www.researchgate.net/
-Date: Mon, 21 Mar 2022 23:12:32 GMT
+Date: Tue, 29 Mar 2022 02:13:02 GMT
 Content-Type: text/html; charset=utf-8
 Content-Length: 0
 Connection: keep-alive
 Cache-Control: must-revalidate, no-cache, no-store, post-check=0, pre-check=0, private
-x-correlation-id: rgreq-def09f897e9debeeaf505d5a0e59f1a4
+x-correlation-id: rgreq-4fbfad22902adeb8210c87ee34ffcc9b
 expires: Thu, 19 Nov 1981 08:52:00 GMT
 pragma: no-cache
 X-UA-Compatible: IE=Edge
@@ -40,9 +40,9 @@ P3P: CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
-Set-Cookie: did=dLdMevTwNqW35wdIQRf8hGdJJKrqS5SEGDszgmvmMhe67ow0nUtxVnnv9PZkiJPp; expires=Tue, 21-Mar-2023 23:12:32 GMT; Max-Age=31536000; path=/; domain=.www.researchgate.net; secure; httponly, ptc=RG1.6206132988855687568.1647904352; expires=Wed, 20-Mar-2024 23:12:32 GMT; Max-Age=63072000; path=/; domain=.www.researchgate.net; secure; httponly, sid=2bdT1mm7v0DtIHGesejDOJUwk1eXYUkgi2DMB14pdGIxrPd64PXG0ggPli0SOhY8ux90Vv8SSDMRGKSHn53ZFjoarvLSGoSoyzMEZ3WvEDvj7rkdqqDu4hQjuTmXGKpJ; Path=/; Domain=.www.researchgate.net; Secure; HttpOnly
+Set-Cookie: did=s5Q39Bt3Mw2akbx811Z9pRumSUNXhTgF3UqFFRh0vwciSAVGci0gcczrEbnRymjd; expires=Wed, 29-Mar-2023 02:13:01 GMT; Max-Age=31535999; path=/; domain=.www.researchgate.net; secure; httponly, ptc=RG1.7169947167254796836.1648519982; expires=Thu, 28-Mar-2024 02:13:02 GMT; Max-Age=63072000; path=/; domain=.www.researchgate.net; secure; httponly, sid=UR4iKVCeL9vPV1KM8859pG0tFAXa99gVL7hQZvPyoZK9089Wqe2csau2X5q1fd31g5W1TFmigjov70jemsr1bExCNPWPIjXg2n8jy5Nuz21lM8hUZAnGXsx609QI8Vcz; Path=/; Domain=.www.researchgate.net; Secure; HttpOnly
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 6efa5f7a6be66ff8-IAD
+CF-RAY: 6f35157f3ed581ca-IAD
 

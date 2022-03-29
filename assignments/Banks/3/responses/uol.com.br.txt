@@ -9,20 +9,20 @@ Content-Length: 0
 HTTP 200
 https://www.uol.com.br/
 Content-Type: text/html;charset=UTF-8
-Content-Length: 123832
+Content-Length: 122121
 Connection: keep-alive
-Date: Mon, 21 Mar 2022 23:12:34 GMT
+Date: Tue, 29 Mar 2022 02:13:04 GMT
 Server: marrakesh 1.23.0
 Content-Security-Policy: frame-ancestors 'self' *.intranet *.uolinc.com;
 Cache-Control: no-transform, max-age=10, must-revalidate, proxy-revalidate
-Last-Modified: Mon, 21 Mar 2022 23:12:33 GMT
-ETag: "eb46df15809158d2c156865ae6c0caad"
-Expires: Mon, 21 Mar 2022 23:12:44 GMT
+Last-Modified: Tue, 29 Mar 2022 02:12:53 GMT
+ETag: "9ff4a84f4e1a089599bafed2d8c5b0b9"
+Expires: Tue, 29 Mar 2022 02:13:14 GMT
 Content-Encoding: gzip
 Vary: Accept-Encoding,User-Agent
 X-Cache: Hit from cloudfront
-Via: 1.1 6d327e3d2da66fac5e95b3d2d2e18852.cloudfront.net (CloudFront)
+Via: 1.1 ec8b1bfbf511818c606f196b49f871e2.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: IAD50-C2
-X-Amz-Cf-Id: OTno4xs4qWXfWU1ikNeWRQm6Hc_9rC4_hwlrqYANryGgjSO_7FJJAg==
-Age: 2
+X-Amz-Cf-Id: SBUtr73Lf8S43DdUCHnTMsC4_DYvKyjmeJC7XJr4VDB1RXhqxQCZnA==
+Age: 1
 

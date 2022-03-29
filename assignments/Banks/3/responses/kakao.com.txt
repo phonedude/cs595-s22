@@ -1,23 +1,23 @@
 HTTP 302
 http://kakao.com/
-Date: Mon, 21 Mar 2022 23:12:20 GMT
+Date: Tue, 29 Mar 2022 02:12:50 GMT
 Connection: close
-Set-Cookie: JSESSIONID=4D20614A53E90E6B31E99557FF89C6A7; Path=/; HttpOnly
+Set-Cookie: JSESSIONID=B1955970F2F58426C7A988D87E80B7ED; Path=/; HttpOnly
 Location: //www.kakaocorp.com
 Content-Language: ko
 Cache-Control: no-cache,must-revalidate
 
 HTTP 302
 http://www.kakaocorp.com
-Date: Mon, 21 Mar 2022 23:12:21 GMT
+Date: Tue, 29 Mar 2022 02:12:50 GMT
 Content-Type: text/html
 Content-Length: 138
-Location: http://www.kakaocorp.com/page
 Connection: keep-alive
+Location: http://www.kakaocorp.com/page
 
 HTTP 308
 http://www.kakaocorp.com/page
-Date: Mon, 21 Mar 2022 23:12:21 GMT
+Date: Tue, 29 Mar 2022 02:12:51 GMT
 Content-Type: text/html
 Content-Length: 164
 Connection: close
@@ -25,7 +25,7 @@ Location: https://www.kakaocorp.com/page
 
 HTTP 301
 https://www.kakaocorp.com/page
-Date: Mon, 21 Mar 2022 23:12:22 GMT
+Date: Tue, 29 Mar 2022 02:12:51 GMT
 Content-Type: text/html; charset=UTF-8
 Content-Length: 175
 Connection: close
@@ -33,15 +33,16 @@ Content-Security-Policy: default-src 'none'
 X-Content-Type-Options: nosniff
 Location: /page/
 Vary: Accept-Encoding
-Strict-Transport-Security: max-age=15724800
+Strict-Transport-Security: max-age=15724800; includeSubDomains
 
 HTTP 200
 https://www.kakaocorp.com/page/
-Date: Mon, 21 Mar 2022 23:12:23 GMT
+Date: Tue, 29 Mar 2022 02:12:52 GMT
 Content-Type: text/html; charset=utf-8
+Content-Length: 23134
 Connection: close
-Vary: Accept-Encoding, Accept-Encoding
-ETag: W/"5a5e-wLfGpvXNT2SCI6V79gkaHmjYtcM"
-Strict-Transport-Security: max-age=15724800
-Content-Encoding: gzip
+ETag: "5a5e-9bSNeuRU/n/llpGhhVpEmyltoVI"
+Accept-Ranges: none
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=15724800; includeSubDomains
 

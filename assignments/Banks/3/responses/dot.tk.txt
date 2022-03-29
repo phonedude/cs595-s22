@@ -1,8 +1,8 @@
 HTTP 302
 http://dot.tk/
 Server: nginx/1.17.8
-Set-Cookie: mydottk_languagenr=0; domain=.dot.tk; path=/; expires=Tue, 22-Mar-2022 23:11:28 GMT, dottyLn=en; domain=.dot.tk; path=/; expires=Tue, 22-Mar-2022 23:11:28 GMT, wwwLn=en; domain=.dot.tk; path=/; expires=Tue, 22-Mar-2022 23:11:28 GMT
-Date: Mon, 21 Mar 2022 23:11:28 GMT
+Set-Cookie: mydottk_languagenr=0; domain=.dot.tk; path=/; expires=Wed, 30-Mar-2022 02:10:38 GMT, dottyLn=en; domain=.dot.tk; path=/; expires=Wed, 30-Mar-2022 02:10:38 GMT, wwwLn=en; domain=.dot.tk; path=/; expires=Wed, 30-Mar-2022 02:10:38 GMT
+Date: Tue, 29 Mar 2022 02:10:38 GMT
 Location: http://www.dot.tk/en/index.html?lang=en
 Via: 1.1 google
 Transfer-Encoding: chunked
@@ -10,8 +10,7 @@ Transfer-Encoding: chunked
 HTTP 200
 http://www.dot.tk/en/index.html?lang=en
 Server: nginx/1.17.8
-Content-Length: 24164
-X-GUploader-UploadID: ADPycdv3p-csPv5bIoZszx0vTo6_qBnt_tFtg6OcDO0HwdOdNTk0qwDoM3-_hA0yScmgGS9QEitfNblWPl-uqWp31Qo
+X-GUploader-UploadID: ADPycdt-jgAS7n-ink7bS1nBCweU_8ZrCBLReORFEoe1cd6-2pxBbowui1YgLeJRWiIDIv8OAc5y_JuCfXCd5SgSlnBSx2ZHRA
 x-goog-generation: 1486570374609937
 x-goog-metageneration: 4
 x-goog-stored-content-encoding: identity
@@ -21,10 +20,11 @@ x-goog-hash: crc32c=A/RRCw==, md5=wYVHxq8HWIIB5vtMXDBVUw==
 x-goog-storage-class: STANDARD
 Accept-Ranges: bytes
 Via: 1.1 google
-Date: Mon, 21 Mar 2022 23:11:28 GMT
+Date: Tue, 29 Mar 2022 02:05:21 GMT
+Age: 317
 Last-Modified: Wed, 08 Feb 2017 16:12:54 GMT
 ETag: "c18547c6af07588201e6fb4c5c305553"
 Content-Type: text/html
-Age: 0
+Content-Length: 24164
 Cache-Control: max-age=600,public
 

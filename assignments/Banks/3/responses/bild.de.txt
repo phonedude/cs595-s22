@@ -1,7 +1,7 @@
 HTTP 301
 http://bild.de/
-Date: Mon, 21 Mar 2022 23:11:25 GMT
-X-Varnish: 91210837
+Date: Tue, 29 Mar 2022 02:10:35 GMT
+X-Varnish: 408392618
 Location: https://www.bild.de/
 Cache-Control: public
 Content-Type: text/html;charset=utf-8
@@ -13,9 +13,10 @@ HTTP 200
 https://www.bild.de/
 Content-Type: text/html; charset=utf-8
 Cache-Control: no-cache, must-revalidate, max-age=10
-ETag: "101dd8-wESeSry8PylzjMVUjGjcep2Ssf8"
+Content-Encoding: gzip
+ETag: "103f1f-LumAivk1tJRRe32MYYdHvfbhZSg"
 Expect-Ct: max-age=0
-Last-Modified: Mon, 21 Mar 2022 23:11:05 GMT
+Last-Modified: Tue, 29 Mar 2022 02:10:23 GMT
 Strict-Transport-Security: max-age=15552000; includeSubDomains
 X-Dns-Prefetch-Control: off
 X-Download-Options: noopen
@@ -23,15 +24,14 @@ X-Permitted-Cross-Domain-Policies: none
 X-Xss-Protection: 0
 X-UA-Compatible: IE=Edge
 X-Red: 1
-X-Refresh: s=6n|h=92|c=|t=20.000|a=16.724|rd=Mon, 21 Mar 2022 23:11:05 GMT|dd=Mon, 21 Mar 2022 23:11:22 GMT, s=5f|h=12|c=|t=16.916|a=19.765|rd=Mon, 21 Mar 2022 23:11:05 GMT|dd=Mon, 21 Mar 2022 23:11:25 GMT
-Content-Encoding: gzip
 Accept-Ranges: bytes
+X-Refresh: s=6n|h=49|c=|t=20.000|a=12.214|rd=Tue, 29 Mar 2022 02:10:23 GMT|dd=Tue, 29 Mar 2022 02:10:36 GMT
 X-Content-Type-Options: nosniff
 Content-Security-Policy-Report-Only: script-src 'unsafe-inline' 'unsafe-eval' 'self' blob: data: https:; style-src 'self' 'unsafe-inline' blob: data: https:; default-src 'self' https:; img-src https: blob: data: android-webview-video-poster:; frame-src blob: data: https:; worker-src blob: data: https:; child-src blob: data: https:; object-src 'self'; font-src 'self' https: blob: data: safari-extension://*; media-src 'self' blob: data: https:; connect-src wss: blob: data: https:; report-uri /csp_ep
 Content-Security-Policy: upgrade-insecure-requests
 Server: Apache
-Content-Length: 157963
-Date: Mon, 21 Mar 2022 23:11:25 GMT
+Content-Length: 153984
+Date: Tue, 29 Mar 2022 02:10:36 GMT
 Connection: keep-alive
 Vary: Accept-Encoding, x-va-bde1001282, Origin
 

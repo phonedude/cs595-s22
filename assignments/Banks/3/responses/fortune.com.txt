@@ -1,34 +1,34 @@
 HTTP 301
 http://fortune.com/
 Server: CloudFront
-Date: Mon, 21 Mar 2022 23:12:16 GMT
+Date: Tue, 29 Mar 2022 02:12:46 GMT
 Content-Type: text/html
 Content-Length: 183
 Connection: keep-alive
 Location: https://fortune.com/
 X-Cache: Redirect from cloudfront
-Via: 1.1 6306947fb6ab60dc617ca2e025941652.cloudfront.net (CloudFront)
+Via: 1.1 2a625a52028f5bc51f52153cd559e54e.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: IAD50-C2
-X-Amz-Cf-Id: m5nXrLiRYWe76U6C_bn4diNbk-yaOrC2Xbf2WdJv-FfkKSfPHOlAZQ==
+X-Amz-Cf-Id: TIHq_rwY4ff76guej4OBfxK1HcYO0ic5IWNlcCPcyHmLnS7Z0LzB3w==
 
 HTTP 200
 https://fortune.com/
 Content-Type: text/html; charset=utf-8
-Content-Length: 100126
+Content-Length: 100787
 Connection: keep-alive
-Date: Mon, 21 Mar 2022 23:10:25 GMT
+Date: Tue, 29 Mar 2022 02:12:46 GMT
 Server: nginx
 X-Powered-By: Express
 Cache-Control: public, max-age=300, must-revalidate
-Last-Modified: Mon, 21 Mar 2022 23:08:41 GMT
-ETag: W/"7a365-dyYg4RwhrelzLpPmQm9VtMlcLvU"
-X-rq: dca5 0 2 9980
+Last-Modified: Tue, 29 Mar 2022 02:11:13 GMT
+ETag: W/"7d105-h6EZp48QHTN3vWJIvgdI4dGZx4o"
+X-rq: dca6 0 2 9980
 Content-Encoding: gzip
 Accept-Ranges: bytes
 Vary: Accept-Encoding
-X-Cache: Hit from cloudfront
-Via: 1.1 cdb7a265f783ce0c07661e9c6820c2c4.cloudfront.net (CloudFront)
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 5451b84324d9bca0bdd03e4c4009ae10.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: IAD50-C2
-X-Amz-Cf-Id: YR0w7qzFzgNH0SSSCl-BOjuNqUUlq6qBRuWBa7It5z5Sor6-IJpUJQ==
-Age: 215
+X-Amz-Cf-Id: 2kO0CXUf-DPgKpVmhgsv7EXcwCnqcGoE3gHpo4aZyXjLKzzE2J99ng==
+Age: 92
 

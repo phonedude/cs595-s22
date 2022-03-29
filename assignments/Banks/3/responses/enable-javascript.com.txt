@@ -5,18 +5,18 @@ Content-Type: text/html; charset=UTF-8
 Location: https://enable-javascript.com/
 Server: Microsoft-IIS/8.0
 X-Powered-By: ASP.NET
-Date: Mon, 21 Mar 2022 23:12:12 GMT
+Date: Tue, 29 Mar 2022 02:12:43 GMT
 
 HTTP 200
 https://enable-javascript.com/
 Cache-Control: private
-Content-Length: 9823
+Content-Length: 9780
 Content-Type: text/html; charset=utf-8
 Content-Encoding: gzip
 Vary: Accept-Encoding
 Server: Microsoft-IIS/8.0
-Set-Cookie: ASP.NET_SessionId=re3pbnkl4btitnktvjicqjq1; path=/; HttpOnly; SameSite=Lax
+Set-Cookie: ASP.NET_SessionId=0ww0qu5jctmhxzigwdydb4t5; path=/; HttpOnly; SameSite=Lax
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-Date: Mon, 21 Mar 2022 23:12:13 GMT
+Date: Tue, 29 Mar 2022 02:12:43 GMT
 

@@ -1,6 +1,6 @@
 HTTP 301
 http://engadget.com/
-Date: Mon, 21 Mar 2022 23:12:14 GMT
+Date: Tue, 29 Mar 2022 02:12:44 GMT
 Connection: keep-alive
 Server: ATS
 Cache-Control: no-store
@@ -25,12 +25,12 @@ content-security-policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' data: 
 report-to: {"group":"csp-endpoint","max-age":10886400,"endpoints":[{"url":"https://csp.yahoo.com/beacon/csp?src=engadget"}]}
 content-type: text/html; charset=utf-8
 vary: Accept-Encoding
-set-cookie: B=cv92b39h3i1ie&b=3&s=do; expires=Mon, 21-Mar-2023 23:12:14 GMT; path=/; domain=.yahoo.com, BX=e8q3uthh3i1ie&b=3&s=2k; Expires=Wed, 22 Mar 2023 05:12:14 GMT; Max-Age=31557600; Domain=.engadget.com; Path=/, BX=e8q3uthh3i1ie&b=3&s=2k; expires=Tue, 21-Mar-2023 23:12:14 GMT; path=/; domain=.engadget.com
-date: Mon, 21 Mar 2022 23:12:14 GMT
-x-envoy-upstream-service-time: 269
+set-cookie: B=91djovdh44qos&b=3&s=79; expires=Tue, 29-Mar-2023 02:12:44 GMT; path=/; domain=.yahoo.com
+date: Tue, 29 Mar 2022 02:12:44 GMT
+x-envoy-upstream-service-time: 259
 server: ATS
 x-envoy-decorator-operation: carbon--mtls-production-bf1.engadget-k8s.svc.yahoo.local:4080/*
 transfer-encoding: chunked
-Age: 0
+Age: 2
 Connection: keep-alive
 
