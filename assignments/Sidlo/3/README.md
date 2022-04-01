@@ -59,7 +59,7 @@ The five sites that I was unable to generate cookies for are as follows:
 |issuu.com|200|1|0|1|1|0|0|1|1|0|
 |it.wikipedia.org|200|8|6|8|0|0|0|0|8|0|
 |kompas.com|200|0|0|0|0|0|0|0|0|0|
-|linkedin.com|http/2|5|1|5|5|0|0|5|5|0|
+|linkedin.com|200|5|1|5|5|0|0|5|5|0|
 |list-manage.com|200|3|0|2|2|0|0|2|3|0|
 |lycos.com|200|0|0|0|0|0|0|0|0|0|
 |mayoclinic.org|200|1|0|0|0|0|0|0|1|0|
