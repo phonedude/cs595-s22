@@ -24,7 +24,9 @@
                     var mainContainer = document.getElementById("myData");
                     for (var i = 0; i < data.length; i++) {
                         var div = document.createElement("div");
-                        div.innerHTML = data[i].Band + '<br/>' + data[i].Game + '<br/>' + data[i].Movie
+                        div.innerHTML = "Band: " + data[i].Band + '<br/>' + 
+                        "Game: " + data[i].Game + '<br/>' + 
+                        "Movie: "+ data[i].Movie
                         mainContainer.appendChild(div);
                         }
                     }  

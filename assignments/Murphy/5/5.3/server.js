@@ -5,23 +5,11 @@ const app1 = express()
 const app2 = express()
 
 //Cross-Origin Request Allowance
-//comment out lines 9 - 15 to block CORS requests
 var allowCrossDomain = function(req, res, next) {
-    res.header('Access-Control-Allow-Origin', "https://www.bandcamp.com/")
-    res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE')
-    res.header('Access-Control-Allow-Headers', 'Content-Type')
-    ///*
     res.set("Content-Security-Policy", "default-src 'self'")
-    res.render('CSP_self_only')
-    //*/
-    //res.set("Content-Security-Policy", "frame-src https://www.bandcamp.com")
     next()
 }
 app1.use(allowCrossDomain)
-
-//Static Files
-app1.use(express.static('api'))
-//app1.use('imgs', express.static(__dirname + 'public/imgs'))
 
 //Set Views
 app1.set('views', './views')
@@ -30,10 +18,6 @@ app1.set('view engine', 'ejs')
 //Get pages
 app1.get('/', (req, res) => {
     res.render('homepage')
-})
-
-app1.get('/sample.json', (req, res) => {
-    res.json('sample')
 })
 
 //Listening for specified host and port

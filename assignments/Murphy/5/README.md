@@ -198,6 +198,14 @@ CSP set to self
 
 ## Video Links
 
+Playlist - https://youtube.com/playlist?list=PLQ_PLRjJduEhYEG00BqCF4hvRS4RVyVhD
+
+Part 1 - https://youtu.be/Hn-1zs1YbUM
+
+Part 2 - https://youtu.be/MweQISn_f-E
+
+Part 3 - https://youtu.be/taOKhE0_Vc4
+
 <br/>
 
 ## References
@@ -207,3 +215,5 @@ CSP set to self
 2.) Fetching JSON files - https://howtocreateapps.com/fetch-and-display-JSON-html-javascript/
 
 3.) Assignment 5 - https://github.com/phonedude/cs595-s22/blob/main/assignments/assignment-5.md
+
+4.) Content-Security-Policy - https://content-security-policy.com/

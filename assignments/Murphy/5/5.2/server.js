@@ -10,10 +10,11 @@ const app2 = express()
 var allowCrossDomain = function(req, res, next) {
     res.header('Access-Control-Allow-Origin', "http://localhost:5000")
     res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE')
-    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type')
+    res.header('Access-Control-Allow-Headers', 'Content-Type')
     next()
 }
 app1.use(allowCrossDomain)
+
 
 //Static Files
 app1.use(express.static('api'))
