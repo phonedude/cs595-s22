@@ -1,0 +1,42 @@
+HTTP/1.1 301 Moved Permanently
+location: https://www.spotify.com/
+date: Thu, 24 Feb 2022 01:20:15 GMT
+server: envoy
+transfer-encoding: chunked
+Via: 1.1 google
+
+HTTP/1.1 302 Found
+date: Thu, 24 Feb 2022 01:20:16 GMT
+content-type: text/html
+Content-Length: 138
+location: https://www.spotify.com/us/
+set-cookie: sp_m=us; Path=/; Domain=.spotify.com; Max-Age=115516800; Expires=Thu, 23 Oct 2025 01:20:16 GMT; Secure; HttpOnly; SameSite=Lax
+sp-trace-id: 4a4b30fc25a26fe6
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+vary: Accept-Encoding
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear
+
+HTTP/1.1 200 OK
+date: Thu, 24 Feb 2022 01:20:17 GMT
+content-type: text/html; charset=utf-8
+vary: Accept-Encoding,Accept-Encoding,Accept-Encoding
+x-powered-by: Next.js
+cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+set-cookie: sp_m=us; Path=/; Domain=.spotify.com; Max-Age=115516800; Expires=Thu, 23 Oct 2025 01:20:16 GMT; Secure; HttpOnly; SameSite=Lax
+set-cookie: sp_t=053ef271-d9ce-4f36-a266-4c052c36784c; Path=/; Domain=.spotify.com; Max-Age=31536000; Expires=Fri, 24 Feb 2023 01:20:16 GMT; Secure
+set-cookie: sp_new=1; Path=/; Domain=.spotify.com; Max-Age=86400; Expires=Fri, 25 Feb 2022 01:20:16 GMT; Secure
+set-cookie: sp_landing=https%3A%2F%2Fwww.spotify.com%2Fus%2F; Path=/; Domain=.spotify.com; Max-Age=86400; Expires=Fri, 25 Feb 2022 01:20:16 GMT; Secure; HttpOnly
+content-security-policy: base-uri 'none'; connect-src https: wss:; form-action https:; frame-ancestors 'self' https://*.spotify.com https://*.spotify.net; object-src 'none'; script-src 'nonce-236fc44cac70484b92ec0731f745c45d' 'strict-dynamic' 'unsafe-inline' https:
+x-frame-options: deny
+x-join-the-band: https://www.spotify.com/jobs/
+sp-trace-id: 4d3a78d9606011f1
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Transfer-Encoding: chunked
+Alt-Svc: clear
+

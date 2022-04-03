@@ -1,0 +1,24 @@
+HTTP/1.1 301 Moved Permanently
+Location: http://www.google.pl/
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 01 Mar 2022 04:10:13 GMT
+Expires: Thu, 31 Mar 2022 04:10:13 GMT
+Cache-Control: public, max-age=2592000
+Server: gws
+Content-Length: 218
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=ISO-8859-2
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Date: Tue, 01 Mar 2022 04:10:13 GMT
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Transfer-Encoding: chunked
+Expires: Tue, 01 Mar 2022 04:10:13 GMT
+Cache-Control: private
+Set-Cookie: 1P_JAR=2022-03-01-04; expires=Thu, 31-Mar-2022 04:10:13 GMT; path=/; domain=.google.pl; Secure
+Set-Cookie: NID=511=dhganTNSdobMu-6VQb4q_g4-YXvxt9ZqheFLXM1Nh6ZW-V4nfrMLEUhCRwfIkTAHeVI2bP_zCJP-sVYsRxyF0MVchzn8DfrV2U2YBGWoa-An8xKIvLOAgOlAjaBwIuh0913LRid6Mn2k-Eocl88pzPVPsSOeF9uulprJQjrVn68; expires=Wed, 31-Aug-2022 04:10:13 GMT; path=/; domain=.google.pl; HttpOnly
+

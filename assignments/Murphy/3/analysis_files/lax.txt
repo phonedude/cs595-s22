@@ -1,0 +1,3 @@
+Curl_Output/enable-javascript.com.txt:1
+Curl_Output/pinterest.com.txt:1
+Curl_Output/spotify.com.txt:2

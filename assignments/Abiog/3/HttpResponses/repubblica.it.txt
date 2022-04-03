@@ -1,0 +1,36 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Connection: keep-alive
+Cache-Control: private, no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+Date: Tue, 01 Mar 2022 04:10:43 GMT
+Expires: Tue, 31 Mar 1981 05:00:00 GMT
+Location: https://www.repubblica.it/
+Server: Varnish
+X-Varnish: 70093728
+X-Cache: Miss from cloudfront
+Via: 1.1 b4346add631a498bf6cdbf88cbc5ff12.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD89-C1
+X-Amz-Cf-Id: bDsPoHPdHdUFk_Rcdv0CWWmC6EKrJGLiAmDKQj35fPzWcFYwoxz4QQ==
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+date: Tue, 01 Mar 2022 04:10:44 GMT
+expires: Tue, 01 Mar 2022 04:11:15 GMT
+x-cacheable: YES
+referrer-policy: unsafe-url
+content-security-policy: upgrade-insecure-requests; default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'
+content-security-policy-report-only: default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/
+x-robots-tag: noarchive, max-image-preview:large
+strict-transport-security: max-age=7200
+x-kw-date: Tue, 01 Mar 2022 04:10:15 GMT
+x-kw-expires: Tue, 01 Mar 2022 04:11:15 GMT
+cache-control: max-age=61, s-maxage=61
+x-kw-cache-control: max-age=61, s-maxage=61
+accept-ranges: bytes
+vary: Accept-Encoding,gd-facet-webview
+x-cache: Miss from cloudfront
+via: 1.1 cd3b189d4dff15bd0a2ccf14f97ffda2.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD79-C2
+x-amz-cf-id: ivPKCZUL_vN8NJc8j-4PCIapyonddqKFGlspWOnsjYbPLW7FlcvgFA==
+age: 29
+

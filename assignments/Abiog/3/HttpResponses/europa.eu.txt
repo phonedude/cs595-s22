@@ -1,0 +1,59 @@
+HTTP/1.1 307 Temporary Redirect
+Location: https://europa.eu/
+Cache-Control: no-cache
+Pragma: no-cache
+X-XSS-Protection: 1
+Content-Type: text/html; charset=utf-8
+Proxy-Connection: close
+Connection: close
+Content-Length: 683
+
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 01 Mar 2022 04:10:09 GMT
+Content-Type: text/html; charset=iso-8859-1
+Location: https://european-union.europa.eu/
+Age: 0
+X-FPFIS: 142490647
+Cache-Control: s-maxage=0
+Server: Europa
+Proxy-Connection: Keep-Alive
+Connection: Keep-Alive
+
+HTTP/2 302 
+content-type: text/html; charset=UTF-8
+content-length: 0
+date: Tue, 01 Mar 2022 04:10:09 GMT
+cache-control: no-cache, private
+x-content-type-options: nosniff
+location: /select-language?destination=/node/1
+strict-transport-security: max-age=31536000
+x-fpfis: 1021773918 1021580813
+x-cache: Miss from cloudfront
+via: 1.1 cb0868a0a661911b98247aaff77bc898.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD50-C2
+x-amz-cf-id: _EyzsdaUy_NxNnWawV1nZ2S3Cdt76kv7ryArl6hl8nQTEuSPatT6og==
+age: 4985
+
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+content-length: 0
+date: Tue, 01 Mar 2022 04:10:09 GMT
+cache-control: max-age=21600, public
+x-ua-compatible: IE=edge
+content-language: en
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+permissions-policy: interest-cohort=()
+expires: Sun, 19 Nov 1978 05:00:00 GMT
+last-modified: Tue, 01 Mar 2022 01:17:11 GMT
+etag: "1646097431"
+strict-transport-security: max-age=31536000
+vary: Cookie
+x-fpfis: 1022558876 1021946849
+accept-ranges: bytes
+x-cache: Miss from cloudfront
+via: 1.1 cb0868a0a661911b98247aaff77bc898.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD50-C2
+x-amz-cf-id: 447u5Ht4AnC4-pb_JHIBNpyCEYKymV7b6rk9FsPEQLuEzvou-oeP9w==
+age: 10264
+

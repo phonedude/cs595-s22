@@ -1,0 +1,77 @@
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 24 Feb 2022 01:19:48 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://mozilla.com
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'none'
+
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 24 Feb 2022 01:19:48 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.mozilla.org/firefox
+Strict-Transport-Security: max-age=60; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'none'
+
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Server: meinheld/1.0.2
+Date: Thu, 24 Feb 2022 01:19:48 GMT
+Location: /en-US/firefox
+Expires: Thu, 24 Feb 2022 01:19:48 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+X-Backend-Server: bedrock-prod-web-7d449d59f-rqp5g.iowa-a
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Via: 1.1 google, 1.1 0406aa08030e059015fb279667e94e6e.cloudfront.net (CloudFront)
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: EWR50-C1
+X-Amz-Cf-Id: Cy9RcWKoxmpbe9w4FmCrlHex3DaDEDm959dhefZ5ES5DJMx8LNd4Lg==
+
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html; charset=utf-8
+Content-Length: 0
+Connection: keep-alive
+Server: meinheld/1.0.2
+Date: Wed, 23 Feb 2022 23:00:50 GMT
+Location: /en-US/firefox/
+X-Backend-Server: bedrock-prod-web-7d449d59f-7nnrk.iowa-a
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Via: 1.1 google, 1.1 0406aa08030e059015fb279667e94e6e.cloudfront.net (CloudFront)
+ETag: "d41d8cd98f00b204e9800998ecf8427e"
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: EWR50-C1
+X-Amz-Cf-Id: DixdY1e_O4-2xObNaGvTJsohC-z93p7GKZ51SL55L0I0ZjWWkisRjA==
+Age: 8338
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 78372
+Connection: keep-alive
+Server: meinheld/1.0.2
+Date: Thu, 24 Feb 2022 01:19:37 GMT
+X-Frame-Options: DENY
+Content-Security-Policy: connect-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com www.googletagmanager.com www.google-analytics.com logs.convertexperiments.com 1003350.metrics.convertexperiments.com 1003343.metrics.convertexperiments.com sentry.prod.mozaws.net cdn.cookielaw.org privacyportal.onetrust.com https://accounts.firefox.com/ getpocket.com; style-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com 'unsafe-inline' app.convert.com; img-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com data: mozilla.org www.googletagmanager.com www.google-analytics.com adservice.google.com adservice.google.de adservice.google.dk creativecommons.org cdn-3.convertexperiments.com logs.convertexperiments.com images.ctfassets.net cdn.cookielaw.org ad.doubleclick.net; script-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com www.google-analytics.com tagmanager.google.com www.youtube.com s.ytimg.com cdn-3.convertexperiments.com app.convert.com data.track.convertexperiments.com 1003350.track.convertexperiments.com 1003343.track.convertexperiments.com cdn.cookielaw.org assets.getpocket.com; default-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com; frame-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com www.googletagmanager.com www.google-analytics.com www.youtube-nocookie.com trackertest.org www.surveygizmo.com accounts.firefox.com accounts.firefox.com.cn www.youtube.com; child-src 'self' *.mozilla.net *.mozilla.org *.mozilla.com www.googletagmanager.com www.google-analytics.com www.youtube-nocookie.com trackertest.org www.surveygizmo.com accounts.firefox.com accounts.firefox.com.cn www.youtube.com; font-src 'self' assets.getpocket.com
+Cache-Control: max-age=600
+Expires: Thu, 24 Feb 2022 01:29:37 GMT
+X-Clacks-Overhead: GNU Terry Pratchett
+X-Backend-Server: bedrock-prod-web-7d449d59f-f5679.iowa-a
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Via: 1.1 google, 1.1 0406aa08030e059015fb279667e94e6e.cloudfront.net (CloudFront)
+ETag: "a9b0519961c1001d56351f376aa67248"
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: EWR50-C1
+X-Amz-Cf-Id: lU2TscGafK6unwUdpm7R5Qfk_0w30JomJPVM0ZfZ70rs63Zhh3oFaQ==
+Age: 11
+

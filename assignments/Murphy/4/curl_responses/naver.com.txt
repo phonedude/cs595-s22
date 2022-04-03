@@ -1,0 +1,28 @@
+HTTP/1.1 301 Moved Permanently
+Server: NWS
+Date: Thu, 24 Feb 2022 01:19:55 GMT
+Content-Type: text/html
+Connection: keep-alive
+Location: http://www.naver.com/
+Vary: Accept-Encoding,User-Agent
+
+HTTP/1.1 302 Moved Temporarily
+Server: NWS
+Content-Type: text/html
+Location: https://www.naver.com/
+Date: Thu, 24 Feb 2022 01:19:56 GMT
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: NWS
+Content-Type: text/html; charset=UTF-8
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+P3P: CP="CAO DSP CURa ADMa TAIa PSAa OUR LAW STP PHY ONL UNI PUR FIN COM NAV INT DEM STA PRE"
+X-Frame-Options: DENY
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=63072000; includeSubdomains
+Referrer-Policy: unsafe-url
+Date: Thu, 24 Feb 2022 01:19:56 GMT
+Connection: keep-alive
+

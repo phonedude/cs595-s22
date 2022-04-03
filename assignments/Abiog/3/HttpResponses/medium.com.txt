@@ -1,0 +1,37 @@
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 01 Mar 2022 04:10:23 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Tue, 01 Mar 2022 05:10:23 GMT
+Location: https://medium.com/
+X-Content-Type-Options: nosniff
+Set-Cookie: __cfruid=91bd31cd7756e02d0c677db9f36fa1c90f888a8a-1646107823; path=/; domain=.medium.com; HttpOnly
+Server: cloudflare
+CF-RAY: 6e4f0ae75e6ac089-ORF
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/2 200 
+date: Tue, 01 Mar 2022 04:10:25 GMT
+content-type: text/html; charset=utf-8
+cf-ray: 6e4f0ae7fce5c084-ORF
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+set-cookie: vary=enable_medium_app_lo%7Cenable_lohp_bg_yellow; Domain=medium.com; Path=/; Expires=Thu, 31 Mar 2022 04:10:23 GMT; HttpOnly; Secure; SameSite=None
+strict-transport-security: max-age=15552000; includeSubDomains; preload
+vary: Accept-Encoding
+cf-cache-status: DYNAMIC
+content-security-policy: frame-ancestors 'self' https://medium.com
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+medium-fulfilled-by: edgy/8.2.0, valencia/main-20220225-231219-be8e9ca42c, lite/main-20220228-235910-22b3c65ddc, rito/main-20220301-014331-365e3f9962, tutu/main-20220301-001136-22b3c65ddc
+medium-missing-time: 193
+worker-cache-key: medium.com/?vary=enable_medium_app_lo%7Cenable_lohp_bg_yellow&li=false
+worker-cache-middleware: true
+worker-missing-cookies: 2
+x-content-type-options: nosniff
+x-envoy-upstream-service-time: 2304
+x-request-received-at: 1646107823430
+set-cookie: uid=lo_875de5c763c2; Domain=medium.com; Path=/; Expires=Wed, 01 Mar 2023 04:10:23 GMT; HttpOnly; Secure; SameSite=None
+set-cookie: sid=1%3AT%2FfKB%2Bi35eBk%2BmoOTYex1fIC5M%2BkvjxUd4yWJOqTM5Miz6nUA8xMJpkKNI%2ByWgq0; Domain=medium.com; Path=/; Expires=Wed, 01 Mar 2023 04:10:23 GMT; HttpOnly; Secure; SameSite=None
+set-cookie: __cfruid=f76b0920b335dd264ea0179d387974d87891f0df-1646107825; path=/; domain=.medium.com; HttpOnly; Secure; SameSite=None
+server: cloudflare
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

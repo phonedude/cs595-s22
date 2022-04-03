@@ -1,0 +1,54 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Tue, 01 Mar 2022 04:10:15 GMT
+Content-Type: text/html
+Content-Length: 183
+Connection: keep-alive
+Location: https://istockphoto.com/
+X-Cache: Redirect from cloudfront
+Via: 1.1 f9efe5e72b7e5cc47bf34a0b0debcbe2.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD89-C1
+X-Amz-Cf-Id: pgdaeOBam9_BPbBCzfcfzg9YFcmbmYTE7JsbyEKn8w6WM7Ij7UXDGA==
+
+HTTP/2 301 
+content-length: 0
+location: https://www.istockphoto.com/
+date: Tue, 01 Mar 2022 04:10:15 GMT
+selected-fe: istock_frontend
+x-cache: Miss from cloudfront
+via: 1.1 6f18ca2e5109f8aa7cd1212932dc4e9a.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD50-C2
+x-amz-cf-id: JF5s3PcQ_xnw17DhgU3AbFzx1_WVlZ_q9VPjErkq3nguPPj4QVKb_g==
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+date: Tue, 01 Mar 2022 04:10:15 GMT
+server: nginx/1.20.1
+vary: Accept-Encoding
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+etag: W/"32a40f01a564b0b454a2b60d395d79da"
+cache-control: max-age=0, private, must-revalidate
+set-cookie: unisess=R1pjbFBBdnorNFcyYk5HajZZSjF3dW9zbjFEdnBUZ2JIbW1tWnZHQmxlcGZ4N1BlOFhidXA3cDlsekluZXdET0ErSHBsT1VQV3BXTzdVZlZNN0t2NGc9PS0tZEd5cUt1RTZNNjk0VGREUGlQaWtwUT09--fc0a5d04984322ef5b8c3e7a8a31b38def8867f4; path=/; secure; HttpOnly
+set-cookie: vis=vid=73113565-2439-489c-a6ac-84b118257b91; domain=.istockphoto.com; path=/; expires=Sat, 01 Mar 2042 04:10:15 -0000; secure
+set-cookie: uac=t=TWliuNs4ly%2BTcyyNsamt%2B7%2BN8mlQu5G5lsibLQ4Pl%2F2fs9oUkq05pCt0SmKp3hJ%2BrU14qDQLMQgMD4IpxJasl6g7mw%2BCBW%2BB6h1RcWlTg7SwgBGcGiO%2BVTmg18DZx5QL4BWmaHy35zmJ%2BctrovkfbUdjP%2BJJ3eIUF4a%2FoegjhGw%3D%7C77u%2Fd2lpWkMvMkRFTGxGdGVXTXNid3EKNDQxCgpLQzcvRkE9PQpNRFgvRkE9PQowCgoKMAo0NDEKCjQ0MQowCjczMTEzNTY1LTI0MzktNDg5Yy1hNmFjLTg0YjExODI1N2I5MQoK%7C3%7C1%7C1&d; path=/; expires=Sat, 01 Mar 2042 04:10:15 -0000; secure; HttpOnly
+set-cookie: giu=nv=1&lv=2022-03-01T04%3A10%3A15Z; path=/; expires=Sat, 01 Mar 2042 04:10:15 -0000; secure; HttpOnly
+set-cookie: csrf=t=B2fpzDhiIcVTY%2FhiDCbsMomI%2F2EBAlFGMZMzQCIVGfY%3D; path=/; expires=Sat, 01 Mar 2042 04:10:15 -0000; secure; HttpOnly
+x-request-id: 0A33029C-7250_0A337E7D-01BB_621D9CA7_4064659-0237-125
+x-runtime: 0.064834
+x-backend: app_landing
+x-proxy-build: 1240776
+x-timing-wait: 26/0/0/67
+giproxy-languageonlypath: 
+giproxy-truncatedpath: /
+set-cookie: m=1; path=/; expires=Wed, 22 Feb 2023 23:16:55 GMT
+selected-fe: istock_frontend
+x-cache: Miss from cloudfront
+via: 1.1 f9efe5e72b7e5cc47bf34a0b0debcbe2.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD89-C1
+x-amz-cf-id: SSN5XvTE0_EE6-vBUV96uF5UsOAJeCazuRuwRlMkVuhToynucpWdpg==
+

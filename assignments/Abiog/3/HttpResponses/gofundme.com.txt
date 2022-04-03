@@ -1,0 +1,44 @@
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 01 Mar 2022 04:10:12 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Server: nginx
+Location: https://gofundme.com/
+Content-Security-Policy-Report-Only: default-src 'self' * data:; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.gofundme.com https://ssr-docs.gofundme.com https://www.google-analytics.com https://ssl.google-analytics.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://ajax.googleapis.com https://*.optimizely.com https://optimizely.s3.amazonaws.com https://cdn-assets-prod.s3.amazonaws.com https://gfmdonate.wpengine.com https://*.newrelic.com https://*.nr-data.net https://stackpath.bootstrapcdn.com https://cdnjs.cloudflare.com https://connect.facebook.net https://uploads-ssl.webflow.com https://*.cloudfront.net; style-src-attr 'self' 'unsafe-inline' https://*.gofundme.com https://*.jquery.com https://*.googleapis.com; img-src 'self' data:  https://*.jquery.com http://*.cloudfront.net https://*.cloudfront.net https://*.gofundme.com http://api.gofundme.com https://gfmdonate.wpengine.com https://www.google-analytics.com https://googleads.g.doubleclick.net https://www.google.com https://www.google.co.* https://www.google.ca https://*.googleapis.com https://www.gstatic.com https://www.googletagmanager.com https://cdn.optimizely.com https://*.ytimg.com https://*.chartbeat.net https://*.youtube.com https://*.rackcdn.com https://bat.bing.com https://t.co/ https://px.ads.linkedin.com https://*.linkedin.com https://www.facebook.com https://*.facebook.com https://uploads-ssl.webflow.com https://cx.atdmt.com https://catamphetamine.gitlab.io; style-src-elem 'self' 'unsafe-inline' https://*.cloudflare.com https://*.jquery.com https://*.bootstrapcdn.com https://*.googleapis.com https://*.gofundme.com https://gfmdonate.wpengine.com https://funds.gofundme.com; connect-src 'self' https://*.gofundme.com https://happiness.gofundme.com https://www.google-analytics.com https://www.googletagmanager.com https://analytics.google.com https://stats.g.doubleclick.net https://logx.optimizely.com https://*.optimizely.com *.newrelic.com *.nr-data.net https://*.execute-api.us-east-1.amazonaws.com https://*.amplitude.com https://bat.bing.com https://www.facebook.com https://*.facebook.com; script-src-elem 'self' 'unsafe-inline' https://*.googleapis.com https://*.googletagmanager.com https://www.googleadservices.com https://www.google-analytics.com https://www.gstatic.com/ https://www.youtube.com https://googleads.g.doubleclick.net https://*.cloudflare.com https://*.gofundme.com https://funds.gofundme.com https://gfmdonate.wpengine.com https://*.newrelic.com https://*.nr-data.net https://*.jquery.com https://assets.zendesk.com https://*.chartbeat.com https://*.ads-twitter.com https://analytics.twitter.com https://bat.bing.com https://*.licdn.com https://*.bootstrapcdn.com https://*.facebook.net https://cdn.jsdelivr.net https://*.optimizely.com https://checkoutshopper-live-us.adyen.com https://js.stripe.com https://uploads-ssl.webflow.com https://*.cloudfront.net; style-src 'unsafe-inline' 'self' https://*.gofundme.com https://gfmdonate.wpengine.com https://*.cloudflare.com https://stackpath.bootstrapcdn.com https://fonts.googleapis.com; script-src-attr 'unsafe-inline' 'self' https://*.gofundme.com; report-uri https://endpoint1.collection.us2.sumologic.com/receiver/v1/http/ZaVnC4dhaV3zMXFKLuYiIXsCz8OQfJM340EG4ejRUEXtEIhVc_xZRLSuJo3uDLv6uEet1frf6JeHc7mXsF-hoGYgPoRINk3BJ7cuxGrJmMVncygzEPonRQ==;
+
+HTTP/2 301 
+date: Tue, 01 Mar 2022 04:10:12 GMT
+content-type: text/html
+content-length: 178
+location: https://www.gofundme.com/
+server: nginx
+cache-control: max-age=300
+expires: Tue, 01 Mar 2022 04:15:12 GMT
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-server: web012.internal.gofundme.com
+content-security-policy: frame-ancestors gofundme.com *.gofundme.com *.hopin.com;
+
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+date: Tue, 01 Mar 2022 04:10:12 GMT
+server: nginx
+set-cookie: visitor=%7B%22country%22%3A%22US%22%7D; path=/; domain=.gofundme.com
+set-cookie: visitor=%7B%22country%22%3A%22US%22%2C%22locale%22%3A%22en_US%22%7D; path=/; domain=.gofundme.com
+set-cookie: visitor=%7B%22country%22%3A%22US%22%2C%22locale%22%3A%22en_US%22%2C%22shimLocale%22%3A%22en_US%22%7D; path=/; domain=.gofundme.com
+set-cookie: visitor=%7B%22locale%22%3A%22en_US%22%7D; path=/; domain=.gofundme.com
+set-cookie: visitor=%7B%22locale%22%3A%22en_US%22%2C%22shimLocale%22%3A%22en_US%22%7D; path=/; domain=.gofundme.com
+set-cookie: gdid=00-e8b5eabbd8b945c8b99577172f334e39-c499ed7a; expires=Fri, 27-Feb-2032 04:10:12 GMT; Max-Age=315360000; path=/; domain=.gofundme.com
+set-cookie: suid=7759dbf886794c51813711b1d1fc1e43; path=/; domain=.gofundme.com
+set-cookie: ssid1=2653913037-11448755c9004302-8%3A1646109612; expires=Fri, 27-Feb-2032 04:10:12 GMT; Max-Age=315360000; path=/; domain=.gofundme.com
+set-cookie: ssid2=2653913037-ed9673127c364b53-8%3A1646280612; expires=Fri, 27-Feb-2032 04:10:12 GMT; Max-Age=315360000; path=/; domain=.gofundme.com
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+vary: Accept-Encoding
+x-frame-options: SAMEORIGIN
+x-server: web008.internal.gofundme.com
+content-security-policy: frame-ancestors gofundme.com *.gofundme.com *.hopin.com;
+x-cache: Miss from cloudfront
+via: 1.1 224f09e9c236b40d399a8b2851ac0068.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD89-C3
+x-amz-cf-id: tnkyHnCEKRMNwYs243VCGWv4WKzFFPOLyQ7eQ1bBcDcURG7Mu2f0uQ==
+

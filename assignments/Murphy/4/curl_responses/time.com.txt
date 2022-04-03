@@ -1,0 +1,28 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Thu, 24 Feb 2022 01:20:19 GMT
+Content-Type: text/html
+Content-Length: 183
+Connection: keep-alive
+Location: https://time.com/
+X-Cache: Redirect from cloudfront
+Via: 1.1 749e1450fdc7cac18bb91a34e80053aa.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: roTHJrpujKgcVDOf7pjEko9-5-iwa76XAlTMtia3QZUwBY1qBF6tJw==
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 221499
+Connection: keep-alive
+Cache-Control: max-age=30
+Date: Thu, 24 Feb 2022 01:20:19 GMT
+ETag: W/"3613b-BLKieuKSZsyOedNXf6rO9sYWPNU"
+Server: nginx/1.20.0
+X-Frame-Options: sameorigin
+X-Powered-By: TIME Element
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 5451b84324d9bca0bdd03e4c4009ae10.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: 8OfcSo_7l2meqlnkyu3_tZ5SbT6E-OEV2dyrwBxTThG7_cabf-o3tg==
+

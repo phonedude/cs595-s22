@@ -1,0 +1,18 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 153
+Content-Type: text/html; charset=UTF-8
+Location: https://enable-javascript.com/
+Server: Microsoft-IIS/8.0
+X-Powered-By: ASP.NET
+Date: Thu, 24 Feb 2022 01:15:21 GMT
+
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 38908
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=afxcagp11ei0wkottozfiff5; path=/; HttpOnly; SameSite=Lax
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Feb 2022 01:15:21 GMT
+

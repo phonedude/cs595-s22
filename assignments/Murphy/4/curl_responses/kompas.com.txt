@@ -1,0 +1,24 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 13 Mar 2022 23:38:05 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Server: nginx
+Location: https://www.kompas.com/
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Date: Sun, 13 Mar 2022 23:37:54 GMT
+Server: nginx
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+we-hiring: jobs@kompas.com
+mail-subject: Join_via_header
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 fa486964c67c2a458a5e0fcec0e6f602.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: EWR52-C3
+X-Amz-Cf-Id: m9-xADpCt2ZW2k98kkEFdphZ6wnVdRT25H3VVK4FPT2efIOc6H6-IQ==
+Age: 10

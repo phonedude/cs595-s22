@@ -1,0 +1,6 @@
+HTTP/1.1 302 
+Set-Cookie: JSESSIONID=E8080ED25C9B574142664686FB5789E3; Path=/; HttpOnly
+HTTP/1.1 302 Moved Temporarily
+HTTP/1.1 308 Permanent Redirect
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 200 OK

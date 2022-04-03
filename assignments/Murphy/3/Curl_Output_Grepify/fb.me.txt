@@ -1,0 +1,5 @@
+HTTP/1.1 301 Moved Permanently
+HTTP/1.1 302 Found
+HTTP/1.1 200 OK
+Set-Cookie: fr=0uremizYzyMFUM0FJ..BiFtwt.P1.AAA.0.0.BiFtwt.AWXTgzvtqno; expires=Wed, 25-May-2022 01:15:24 GMT; Max-Age=7775999; path=/; domain=.facebook.com; secure; httponly
+Set-Cookie: sb=LdwWYhN_oMF4ztxp_26cHo6f; expires=Sat, 24-Feb-2024 01:15:25 GMT; Max-Age=63072000; path=/; domain=.facebook.com; secure; httponly

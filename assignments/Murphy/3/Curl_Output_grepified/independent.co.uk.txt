@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Set-Cookie: esi-permutive-id=(null); Path=/ ; Secure
+HTTP/1.1 301 Moved Permanently
+Set-Cookie: esi-permutive-id=(null); Path=/ ; Secure
+HTTP/1.1 307 Moved Permanently
+Set-Cookie: Locale=US ; Path=/ ;
+Set-Cookie: esi-permutive-id=(null); Path=/ ; Secure
+HTTP/1.1 200 OK
+Set-Cookie: Locale=US ; Path=/ ;
+Set-Cookie: gdpr=0 ; Path=/ ;
+Set-Cookie: subscriber_origin=us ; Path=/ ;
+Set-Cookie: _pc_subscriber_origin=us ; Path=/ ;
+Set-Cookie: fresh8_toggle=1 ; Path=/ ;
+Set-Cookie: esi-uuid=b080aeb9-faf9-48e6-8666-d235f90cc051 ; Path=/ ; Secure; HttpOnly; Expires=Wed, 22 Feb 2023 22:08:52 GMT ;
+Set-Cookie: esi-permutive-id=b080aeb9-faf9-48e6-8666-d235f90cc051; Path=/ ; Secure

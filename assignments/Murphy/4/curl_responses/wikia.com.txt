@@ -1,0 +1,28 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Content-Length: 0
+Location: https://www.fandom.com
+Accept-Ranges: bytes
+Date: Thu, 10 Mar 2022 19:43:43 GMT
+Connection: close
+X-Served-By: cache-iad-kiad7000166-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1646941423.025105,VS0,VE0
+Vary: Accept-Encoding
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 112057
+server: envoy
+cache-control: max-age=60, public
+link: <https://www.fandom.com/f2/assets/common.css?v=fdeed15be8ce57afcdfad5a0dddfcc250140b084>; rel="preload"; as="style", <https://www.fandom.com/f2/assets/news-and-stories.css?v=fdeed15be8ce57afcdfad5a0dddfcc250140b084>; rel="preload"; as="style", <https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,hebrew,latin-ext>; rel="preload"; as="style", <https://www.fandom.com/f2/assets/common.en.js?v=fdeed15be8ce57afcdfad5a0dddfcc250140b084>; rel="preload"; as="script", <https://www.fandom.com/f2/assets/news-and-stories.en.js?v=fdeed15be8ce57afcdfad5a0dddfcc250140b084>; rel="preload"; as="script"
+x-frame-options: SAMEORIGIN
+fandom.f2.datacenter: sjc
+content-security-policy: upgrade-insecure-requests
+content-security-policy-report-only: default-src https: 'self' data: blob:; script-src https: 'self' data: 'unsafe-inline' 'unsafe-eval' blob:; style-src https: 'self' 'unsafe-inline' blob:; report-uri https://services.fandom.com/csp-logger/csp/f2
+content-type: text/html; charset=UTF-8
+x-envoy-upstream-service-time: 106
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes

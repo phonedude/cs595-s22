@@ -1,0 +1,44 @@
+HTTP/1.1 302 
+Date: Thu, 24 Feb 2022 01:15:36 GMT
+Connection: close
+Set-Cookie: JSESSIONID=0DF9CE9DB9218EEB9778F7BC935CFE0F; Path=/; HttpOnly
+Location: //www.kakaocorp.com
+Content-Language: ko
+Cache-Control: no-cache,must-revalidate
+
+HTTP/1.1 302 Moved Temporarily
+Date: Thu, 24 Feb 2022 01:15:36 GMT
+Content-Type: text/html
+Content-Length: 138
+Location: http://www.kakaocorp.com/page
+Connection: keep-alive
+
+HTTP/1.1 308 Permanent Redirect
+Date: Thu, 24 Feb 2022 01:15:37 GMT
+Content-Type: text/html
+Content-Length: 164
+Connection: close
+Location: https://www.kakaocorp.com/page
+
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 24 Feb 2022 01:15:38 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 175
+Connection: close
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Location: /page/
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=15724800
+
+HTTP/1.1 200 OK
+Date: Thu, 24 Feb 2022 01:15:39 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 23149
+Connection: close
+Vary: Accept-Encoding
+ETag: "5a6d-24DrfklyOTsiiLYDH+pmS2F0sAA"
+Accept-Ranges: none
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=15724800
+

@@ -1,0 +1,26 @@
+HTTP/1.1 302 Moved Temporarily
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://elpais.com/america/
+Cache-Control: private, max-age=0
+Expires: Tue, 01 Mar 2022 04:10:07 GMT
+Date: Tue, 01 Mar 2022 04:10:07 GMT
+Connection: keep-alive
+Set-Cookie: arc-geo={"georegion":"288","countrycode":"US","regioncode":"VA","timezone":"EST","continent":"NA"}; expires=Tue, 01-Mar-2022 04:25:07 GMT; path=/
+Set-Cookie: eptz=US; path=/; domain=.elpais.com
+Set-Cookie: hpage=2; expires=Wed, 01-Mar-2023 04:10:07 GMT; path=/; domain=.elpais.com
+Set-Cookie: akaas_AS_prisa_el_pais_prod=2147483647~rv=48~id=c6e077d77e0b00cc256295be74a5d909; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+server: openresty
+etag: W/"474ff-n0PfmiIgH+xEMGdL8Y0eHssWxbs"
+last-modified: Tue, 01 Mar 2022 04:08:41 GMT
+cache-control: private, max-age=60
+expires: Tue, 01 Mar 2022 04:11:07 GMT
+date: Tue, 01 Mar 2022 04:10:07 GMT
+set-cookie: arc-geo={"georegion":"288","countrycode":"US","regioncode":"VA","timezone":"EST","continent":"NA"}; expires=Tue, 01-Mar-2022 04:25:07 GMT; path=/
+set-cookie: eptz=US; path=/; domain=.elpais.com
+set-cookie: hpage=2; expires=Wed, 01-Mar-2023 04:10:07 GMT; path=/; domain=.elpais.com
+set-cookie: akaas_AS_prisa_el_pais_prod=2147483647~rv=62~id=7cdb54b39b0a602abfb76219455280b8; path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT; Secure; SameSite=None
+
