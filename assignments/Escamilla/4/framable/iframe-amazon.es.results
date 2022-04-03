@@ -23,4 +23,4 @@
 
     <div id="resultHere"><p>failed, loaded = 0</p></div>
 
-    <iframe onload="checkload()" id="checkme" src="http:amazon.es"></iframe></body></html>
+    <iframe onload="checkload()" id="checkme" src="http://amazon.es"></iframe></body></html>

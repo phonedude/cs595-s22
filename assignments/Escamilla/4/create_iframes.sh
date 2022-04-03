@@ -25,7 +25,7 @@ while read p; do
 
     <div id="resultHere"></div>
 
-    <iframe onload="checkload()" id="checkme" src="http:' >> framable/iframe-$p.html; 
+    <iframe onload="checkload()" id="checkme" src="http:////' >> framable/iframe-$p.html; 
     echo -n $p >> framable/iframe-$p.html; 
     echo -n '"></iframe>' >> framable/iframe-$p.html;
     /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-gpu --dump-dom  --headless framable/iframe-$p.html > framable/iframe-$p.results
