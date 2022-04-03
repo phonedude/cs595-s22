@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8' />
+        <title>Port 5000</title>
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    </head>
+    <body>
+        <p>This is port 5000!</p>
+        <div id="myData"></div>
+        <script>
+            //CORS request from localhost:4000
+            fetch("http://localhost:4000/sample.json")
+                .then(function(response){
+                        return response.json()
+                    })
+                    .then(function (data) {
+                        appendData(data)
+                    })
+                    .catch(function(data){
+                        console.log('error: ' + err)
+                        document.write(err)
+                    })
+                    function appendData(data) {
+                    var mainContainer = document.getElementById("myData")
+                    for (var i = 0; i < data.length; i++) {
+                        var div = document.createElement("div")
+                        div.innerHTML = "Band: " + data[i].Band + '<br/>' + 
+                        "Game: " + data[i].Game + '<br/>' + 
+                        "Movie: "+ data[i].Movie
+                        mainContainer.appendChild(div)
+                        }
+                    }
+        </script>
+    </body>
+</html>
