@@ -1,0 +1,15 @@
+<div>
+    <h1>5.2</h1>
+    <p id="headers"></p>
+</div>
+
+<script>
+    var oReq = new XMLHttpRequest();
+    oReq.onreadystatechange = function() {
+        if (oReq.readyState == XMLHttpRequest.DONE) {
+            document.getElementById('headers').innerHTML = oReq.getAllResponseHeaders();
+        }
+    }
+    oReq.open("GET", "http://localhost:8080");
+    oReq.send();
+</script>
