@@ -1,0 +1,36 @@
+HTTP/1.1 301 Moved Permanently
+Server: awselb/2.0
+Date: Mon, 04 Apr 2022 05:00:36 GMT
+Content-Type: text/html
+Content-Length: 134
+Connection: keep-alive
+Location: https://britannica.com:443/
+
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 04 Apr 2022 05:00:36 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+server: Apache/2.4.52 (Unix)
+location: https://www.britannica.com/
+
+HTTP/1.1 200 200
+Date: Mon, 04 Apr 2022 05:00:36 GMT
+Content-Type: text/html;charset=UTF-8
+Connection: keep-alive
+vary: Accept-Encoding,User-Agent
+x-tserver: ip-10-145-22-205/127.0.1.1
+set-cookie: bcomID=8128470100880189252; Domain=britannica.com; Expires=Thu, 01-Apr-2032 05:00:36 GMT; Path=/, SessionAuth=xzVncZRYULcRf9d5QJPhcl1qJvhtAqYW4Njry/BomRHpPGwZRBdbzlOQbPHoM4l7; Domain=britannica.com; Path=/, aup=ip; Domain=britannica.com; Path=/, INSTAUTH_COOKIE="7mZWWVJ4NcU="; Version=1; Domain=britannica.com; Max-Age=5184000; Expires=Fri, 03-Jun-2022 05:00:36 GMT; Path=/, subreturn=https%3A%2F%2Fwww.britannica.com%2F; Domain=britannica.com; Path=/, webstats="referer_page=https%3A%2F%2Fwww.britannica.com%2F"; Version=1; Domain=britannica.com; Path=/, __mendel=%7B%27pagesViewed%27%3A1%2C%27surveyShown%27%3Atrue%2C%27topicInitialSequence%27%3A0%7D; Domain=britannica.com; Path=/
+content-language: en-US
+x-wserver: 127.0.0.1
+x-iset: blue
+x-xss-protection: 1; mode=block
+x-permitted-cross-domain-policies: master-only
+expect-ct: max-age=604800
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MOefjD2vJGzCezl%2BghZ6tOKmQgUmVqG9IGy9CM1t4ftnQNUj2BH%2BuzTJj6hZE3p1g9HXtyDHb%2F0cNhafhA1x0cppoCTfFhFaLaEQfrQBRHPjjfqdi%2BoJvR2lYefd0LOG2BfDQg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6f677b38bd4481a0-IAD
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

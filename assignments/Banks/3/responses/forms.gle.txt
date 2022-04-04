@@ -1,0 +1,36 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Location: https://forms.gle/
+Content-Length: 0
+Accept-Ranges: bytes
+Date: Mon, 04 Apr 2022 05:00:45 GMT
+Connection: close
+X-Served-By: cache-iad-kiad7000068-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1649048446.767106,VS0,VE0
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Encoding: gzip
+Content-Security-Policy: script-src 'nonce-F2+KRPb0FXYj2nPWD/zONw' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/DurableDeepLinkUi/cspreport;worker-src 'self',script-src 'nonce-F2+KRPb0FXYj2nPWD/zONw' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.gstatic.com https://www.google-analytics.com https://www.googleapis.com/appsmarket/v2/installedApps/;report-uri /_/DurableDeepLinkUi/cspreport,require-trusted-types-for 'script';report-uri /_/DurableDeepLinkUi/cspreport
+Content-Type: text/html; charset=utf-8
+Cross-Origin-Opener-Policy: unsafe-none
+Cross-Origin-Resource-Policy: same-site
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Pragma: no-cache
+Server: ESF
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 0
+Accept-Ranges: bytes
+Date: Mon, 04 Apr 2022 05:00:45 GMT
+X-Served-By: cache-iad-kiad7000121-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1649048446.802325,VS0,VE97
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, x-fh-requested-host, accept-encoding
+

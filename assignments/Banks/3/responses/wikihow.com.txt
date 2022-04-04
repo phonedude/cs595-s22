@@ -1,0 +1,64 @@
+HTTP/1.1 301 Moved Permanently
+Retry-After: 0
+Content-Length: 0
+Location: https://wikihow.com/
+Accept-Ranges: bytes
+Date: Mon, 04 Apr 2022 05:01:06 GMT
+Connection: close
+X-Timer: S1649048467.941822,VS0,VE0
+Vary: Cookie, Accept-Encoding, User-Agent
+x-c: cache-iad-kcgs7200091-IAD,M
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Retry-After: 0
+Location: https://www.wikihow.com/
+Accept-Ranges: bytes
+Date: Mon, 04 Apr 2022 05:01:06 GMT
+X-Timer: S1649048467.986585,VS0,VE0
+Vary: Cookie, Accept-Encoding, User-Agent
+x-c: cache-iad-kcgs7200033-IAD,M
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Retry-After: 0
+Location: https://www.wikihow.com/Main-Page
+Accept-Ranges: bytes
+Date: Mon, 04 Apr 2022 05:01:07 GMT
+X-Timer: S1649048467.036202,VS0,VE0
+Vary: Cookie, Accept-Encoding, User-Agent
+x-c: cache-iad-kcgs7200032-IAD,M
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 48224
+Content-Type: text/html; charset=UTF-8
+Content-language: en
+X-Frame-Options: SAMEORIGIN
+Cache-Control: s-maxage=3600, must-revalidate, max-age=0
+Last-Modified: Sun, 03 Apr 2022 01:24:49 GMT
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Mon, 04 Apr 2022 05:01:07 GMT
+Age: 16395
+X-Timer: S1649048467.081395,VS0,VE0
+x-c: cache-iad-kcgs7200051-IAD,H,16395
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Set-Cookie: whv=G19OSHvOJm0eYMXY4ymn; expires=Thu, 01 Apr 2032 05:01:07 GMT; domain=.wikihow.com; path=/; secure
+Set-Cookie: vr=US-VA; expires=Thu, 01 Apr 2032 05:01:07 GMT; domain=.wikihow.com; path=/; secure
+Set-Cookie: vi=NA; domain=.wikihow.com; path=/; secure
+Set-Cookie: hyp_13=a; domain=.wikihow.com; expires=Mon, 11 Apr 2022 05:01:07 GMT; path=/; secure
+Vary: Cookie, Accept-Encoding
+

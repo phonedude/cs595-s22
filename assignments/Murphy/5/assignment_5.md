@@ -35,4 +35,3 @@ Relevant resources:
 ### Setting up directory "5"
 
 All of the code, files, images, etc. necessary to complete this assignment will be in directory ```5```.  The README.md for this assignment will have links to the pages, a short description of what each file does, screenshots of requests being blocked and allowed, as well as links to Youtube videos (one video for each of ```5.1```, ```5.2```, ```5.3```, and optionally ```5.4```) demonstrating the reading and blocking.  
-

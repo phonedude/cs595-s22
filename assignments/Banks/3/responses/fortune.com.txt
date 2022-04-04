@@ -1,0 +1,32 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Mon, 04 Apr 2022 05:00:45 GMT
+Content-Type: text/html
+Content-Length: 183
+Connection: keep-alive
+Location: https://fortune.com/
+X-Cache: Redirect from cloudfront
+Via: 1.1 d5710f445906ae917df909d01c495c9e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: buXYYrPU1x7xfHB0U3glxclQyGWwdwjLOD9grF2rMk8mgzzhnyuuIg==
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 99909
+Connection: keep-alive
+Date: Mon, 04 Apr 2022 05:00:46 GMT
+Server: nginx
+X-Powered-By: Express
+Cache-Control: public, max-age=300, must-revalidate
+Last-Modified: Mon, 04 Apr 2022 05:00:25 GMT
+ETag: W/"7d155-exq4vkiboSGfMg2qlNpRTwoFWII"
+X-rq: dca6 0 2 9980
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 966a4e45512437c14125c564c492a2d6.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: OngkpiaDkjd3646KNoH-WVE8v68h3s3sxEEnDYxZPQiNJgjWT4wG9A==
+Age: 20
+

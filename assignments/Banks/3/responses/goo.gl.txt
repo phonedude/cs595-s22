@@ -1,0 +1,46 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: application/binary
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Mon, 04 Apr 2022 05:00:47 GMT
+Location: https://goo.gl/
+Content-Length: 0
+Server: ESF
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+
+HTTP/1.1 301 Moved Permanently
+Content-Type: application/binary
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Mon, 04 Apr 2022 05:00:47 GMT
+Location: https://developers.googleblog.com/2018/03/transitioning-google-url-shortener.html
+Content-Length: 0
+Strict-Transport-Security: max-age=31536000
+Content-Security-Policy: script-src 'nonce-K72UmFwCYw3BXGvmxlZe+w' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/DurableDeepLinkUi/cspreport;worker-src 'self', script-src 'nonce-K72UmFwCYw3BXGvmxlZe+w' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.gstatic.com https://www.google-analytics.com https://www.googleapis.com/appsmarket/v2/installedApps/;report-uri /_/DurableDeepLinkUi/cspreport, require-trusted-types-for 'script';report-uri /_/DurableDeepLinkUi/cspreport
+Cross-Origin-Resource-Policy: same-site
+Cross-Origin-Opener-Policy: unsafe-none
+Server: ESF
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+HTTP/1.1 200 OK
+Strict-Transport-Security: max-age=86400; includeSubDomains
+Content-Type: text/html; charset=UTF-8
+Expires: Mon, 04 Apr 2022 05:00:47 GMT
+Date: Mon, 04 Apr 2022 05:00:47 GMT
+Cache-Control: private, max-age=0
+Last-Modified: Sun, 03 Apr 2022 19:49:58 GMT
+ETag: W/"6ea8aca88eef4b163b7ef371e740f675d439c36319434cb0b363e48327f936ab"
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Length: 0
+Server: GSE
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+

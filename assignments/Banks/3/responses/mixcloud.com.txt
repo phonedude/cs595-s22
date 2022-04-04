@@ -1,0 +1,54 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 04 Apr 2022 05:00:56 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Mon, 04 Apr 2022 06:00:56 GMT
+Location: https://mixcloud.com/
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 6f677bb608365997-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 04 Apr 2022 05:00:56 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+location: https://www.mixcloud.com/
+vary: User-Agent, Origin
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-security-policy: default-src https: data: blob:; script-src https: data: blob: 'unsafe-inline' 'unsafe-eval'; style-src https: data: 'unsafe-inline'; img-src https: data: blob:; media-src https: http: blob: data:; connect-src http: https: ws: wss:;
+x-request-id: f458309cb4ee9d71238fc9f83f72ba5b
+x-mixcloud-country-code: USA
+x-mixcloud-view-name: react_www
+set-cookie: mx_t=8268c4d0-b4fa-4bed-9ac3-b35858ee98b4; Domain=.mixcloud.com; expires=Thu, 01 Apr 2032 05:00:56 GMT; Max-Age=315360000; Path=/, redirref=""; Path=/
+strict-transport-security: max-age=15724800; includeSubDomains
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 6f677bb66ee06ffe-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Mon, 04 Apr 2022 05:00:57 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+vary: Cookie, User-Agent, Origin
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-security-policy: default-src https: data: blob:; script-src https: data: blob: 'unsafe-inline' 'unsafe-eval'; style-src https: data: 'unsafe-inline'; img-src https: data: blob:; media-src https: http: blob: data:; connect-src http: https: ws: wss:;
+x-mixcloud-session: None
+x-request-id: 38e916ed454195903e722e2dc998bd41
+x-mixcloud-country-code: USA
+x-mixcloud-view-name: react_www
+set-cookie: csrftoken=QnudQz0K1YYvc1WLyfdWRtVMuHxf6eRWWzD7s41PqCHVVGqra74NZVE3ne2ah3i5; Domain=.mixcloud.com; expires=Mon, 03 Apr 2023 05:00:56 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure, mx_t=8268c4d0-b4fa-4bed-9ac3-b35858ee98b4; Domain=.mixcloud.com; expires=Thu, 01 Apr 2032 05:00:56 GMT; Max-Age=315360000; Path=/, redirref=""; expires=Thu, 01 Jan 1970 00:00:00 GMT; Max-Age=0; Path=/
+strict-transport-security: max-age=15724800; includeSubDomains
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 6f677bb7cb0b6fa7-IAD
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

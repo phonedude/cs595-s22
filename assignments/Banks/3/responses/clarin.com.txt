@@ -1,0 +1,30 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 04 Apr 2022 05:00:37 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Mon, 04 Apr 2022 06:00:37 GMT
+Location: https://www.clarin.com/
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 6f677b3cea3c8f11-IAD
+alt-svc: h2=":443"; ma=60
+
+HTTP/1.1 200 OK
+Date: Mon, 04 Apr 2022 05:00:37 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Last-Modified: Mon, 04 Apr 2022 04:46:39 GMT
+X-XSS-Protection: 1; mode=block
+X-UA-Device-Type: common
+Cache-Control: max-age=120
+Vary: Accept-Encoding, User-Agent
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+CF-Cache-Status: HIT
+Age: 753
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 6f677b3d4d959c8e-IAD
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
