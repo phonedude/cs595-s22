@@ -1,22 +1,19 @@
-HTTP 301
-http://fda.gov/
+HTTP/1.1 301 Moved Permanently
 Server: AkamaiGHost
 Content-Length: 0
 Location: https://fda.gov/
-Date: Tue, 29 Mar 2022 02:12:45 GMT
+Date: Mon, 04 Apr 2022 05:00:45 GMT
 Connection: keep-alive
 
-HTTP 301
-https://fda.gov/
+HTTP/1.1 301 Moved Permanently
 Server: AkamaiGHost
 Content-Length: 0
 Location: https://www.fda.gov/
-Date: Tue, 29 Mar 2022 02:12:45 GMT
+Date: Mon, 04 Apr 2022 05:00:45 GMT
 Connection: keep-alive
 Strict-Transport-Security: max-age=31536000
 
-HTTP 200
-https://www.fda.gov/
+HTTP/1.1 200 OK
 Content-Type: text/html; charset=UTF-8
 Server: Apache
 X-Content-Type-Options: nosniff, nosniff
@@ -25,14 +22,14 @@ X-UA-Compatible: IE=edge
 Content-Language: en
 X-Frame-Options: SAMEORIGIN
 Permissions-Policy: interest-cohort=()
-Last-Modified: Mon, 28 Mar 2022 22:14:08 GMT
-ETag: "1648505648"
+Last-Modified: Sun, 03 Apr 2022 23:26:23 GMT
+ETag: "1649028383"
 Vary: Accept-Encoding
 Content-Encoding: gzip
-Cache-Control: public, max-age=14459
-Expires: Tue, 29 Mar 2022 06:13:44 GMT
-Date: Tue, 29 Mar 2022 02:12:45 GMT
-Content-Length: 12466
+Cache-Control: public, max-age=8713
+Expires: Mon, 04 Apr 2022 07:25:58 GMT
+Date: Mon, 04 Apr 2022 05:00:45 GMT
+Content-Length: 12210
 Connection: keep-alive
 Strict-Transport-Security: max-age=31536000
 

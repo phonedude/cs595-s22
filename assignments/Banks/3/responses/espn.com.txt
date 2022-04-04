@@ -1,35 +1,39 @@
-HTTP 301
-http://espn.com/
+HTTP/1.1 301 Moved Permanently
 Content-Type: text/html; charset=iso-8859-1
 Content-Length: 189
 Connection: keep-alive
-Date: Tue, 29 Mar 2022 02:11:23 GMT
+Date: Mon, 04 Apr 2022 04:59:13 GMT
 Server: Apache/2.4.6 (CentOS) PHP/5.4.16 OpenSSL/1.0.2k-fips
 Location: https://www.espn.com/
 Content-Encoding: gzip
-Via: 1.1 varnish (Varnish/6.0), 1.1 3b8e0d5ce152e011bcc1dba2235e26b8.cloudfront.net (CloudFront)
+Via: 1.1 varnish (Varnish/6.0), 1.1 6ba47df044361b708e00c6d6274556cc.cloudfront.net (CloudFront)
 Vary: Accept-Encoding
 X-Cache: Hit from cloudfront
 X-Amz-Cf-Pop: IAD79-C1
-X-Amz-Cf-Id: Y73QQHcw5EFjHM1Us_UjC2hiCQaeersPOrCpeQtq5ENDzNZLNnV04g==
-Age: 82
+X-Amz-Cf-Id: Kl4zcJKuj-7MaqnR0kAeI_qfgKRouNWs8SMG5BixTBiCzpBZRWcVeg==
+Age: 91
 
-HTTP 200
-https://www.espn.com/
+HTTP/1.1 200 OK
 Content-Type: text/html;charset=UTF-8
-Content-Length: 143603
+Content-Length: 194551
 Connection: keep-alive
-Date: Tue, 29 Mar 2022 02:12:45 GMT
+Date: Mon, 04 Apr 2022 05:00:44 GMT
 Access-Control-Allow-Origin: *
 Content-Security-Policy: frame-ancestors  'self' *.espn.com:* *.espnqa.com:* *.espnsb.com:* *.espnsb.com *.espn.co.uk *.espndeportes.espn.com *.espn.com.br *.espn.com.mx *.espn.com.ve *.espn.com.ar *.espn.com.co *.espnfc.com.au *.espn.com.au *.espn.in *.espn.com.sg *.espn.cl *.espn.ph *.espn.ph:* *.espn.com.pe *.espn.com.gt *.espn.com.do *.espn.com.ec *.espn.com.uy *.espn.com.pa *.espn.co.cr qa.abcnews.go.com preview.abcnews.go.com abc7ny.com abc7.com *.abcotvssb.com preview.goodmorningamerica.com http://*.espnqa.com:* http://*.espn.com:* *.abcotvssb.com *.abcnews.go.com *.abcnews.go.com:* http://*.abcnews.go.com:* abc30.com abc7news.com abc13.com abc7chicago.com 6abc.com abc11.com *.goodmorningamerica.com qa.abc7.com qa.abc30.com qa.abc7news.com qa.abc13.com qa.abc7chicago.com qa.6abc.com qa.abc7ny.com qa.abc11.com *.abcnews.go.com:* abcnews.go.com qa.secsports.com
-ETag: W/"f397862ceff7a9bb3dfe9a3f324058d528ecb7dc"
+ETag: W/"ea17d2790e1fda46179ecf0a26e3e445e2f09cde"
 Content-Encoding: gzip
-Via: 1.1 varnish (Varnish/6.0), 1.1 22512dca1de1fae848b2509fed0309aa.cloudfront.net (CloudFront)
+Via: 1.1 varnish (Varnish/6.0), 1.1 48b970169016f7185b7cff9e185ee0b2.cloudfront.net (CloudFront)
 Vary: Accept-Encoding
 Accept-Ranges: bytes
-Set-Cookie: connectionspeed=full; path=/; Expires=Tue, 05 Apr 2022 02:12:45 GMT;, edition-view=espn-en-us; path=/; Expires=Tue, 05 Apr 2022 02:12:45 GMT;, edition=espn-en-us; path=/; Expires=Tue, 05 Apr 2022 02:12:45 GMT;, country=us; path=/;, region=ccpa; path=/; Expires=Tue, 05 Apr 2022 02:12:45 GMT;, _dcf=1; path=/; Expires=Tue, 05 Apr 2022 02:12:45 GMT;, SWID=C1965689-6F47-435B-C318-AE23E4FD07DB; path=/; Expires=Sat, 29 Mar 2042 02:12:45 GMT; domain=espn.com;
+Set-Cookie: connectionspeed=full; path=/; Expires=Mon, 11 Apr 2022 05:00:44 GMT;
+Set-Cookie: edition-view=espn-en-us; path=/; Expires=Mon, 11 Apr 2022 05:00:44 GMT;
+Set-Cookie: country=us; path=/;
+Set-Cookie: edition=espn-en-us; path=/; Expires=Mon, 11 Apr 2022 05:00:44 GMT;
+Set-Cookie: region=ccpa; path=/; Expires=Mon, 11 Apr 2022 05:00:44 GMT;
+Set-Cookie: _dcf=1; path=/; Expires=Mon, 11 Apr 2022 05:00:44 GMT;
+Set-Cookie: SWID=18BB3232-498A-430C-C397-687B5EBF1948; path=/; Expires=Fri, 04 Apr 2042 05:00:44 GMT; domain=espn.com;
 Cache-Control: max-age=0, must-revalidate
 X-Cache: Miss from cloudfront
 X-Amz-Cf-Pop: IAD50-C2
-X-Amz-Cf-Id: Pwnv_vJRTw8JptWNHsDAo2DMvsv3YrIsyr48KHIYdkBA1l9872GEYQ==
+X-Amz-Cf-Id: ZnklvzBR3iPoIPHS0kKuMvVCB2r46KUB9d1dLUuvIihDCLggT2QAwA==
 

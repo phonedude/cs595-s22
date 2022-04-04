@@ -1,27 +1,26 @@
-HTTP 301
-http://utexas.edu/
+HTTP/1.1 301 Moved Permanently
 Content-Type: text/html
 Location: https://utexas.edu/
 Server: nginx
-Traceparent: 00-e353231caa4e4d82a43d096437b72128-f442600dc783af3c-00
-X-Cloud-Trace-Context: e353231caa4e4d82a43d096437b72128/17600735906015457084;o=0
-X-Pantheon-Styx-Hostname: styx-fe4-b-97f8fd4b8-qd9pk
-X-Styx-Req-Id: 8e461a4f-ae71-11ec-8e84-ca085943ceb7
+Traceparent: 00-d873ef03d4314d24905f64a55be88614-72e994e39e3665e1-00
+X-Cloud-Trace-Context: d873ef03d4314d24905f64a55be88614/8280313095230219745;o=0
+X-Pantheon-Styx-Hostname: styx-fe4-b-97f8fd4b8-lwhnb
+X-Styx-Req-Id: e38c8a0b-b328-11ec-befc-827ec85074c7
 Cache-Control: public, max-age=86400
+Fastly-Original-Body-Size: 162
 Content-Length: 162
-Date: Tue, 29 Mar 2022 02:13:05 GMT
+Date: Mon, 04 Apr 2022 05:01:06 GMT
 Connection: keep-alive
-X-Served-By: cache-mdw17321-MDW, cache-iad-kiad7000087-IAD
+X-Served-By: cache-mdw17381-MDW, cache-iad-kiad7000177-IAD
 X-Cache: HIT, HIT
 X-Cache-Hits: 1, 1
-X-Timer: S1648519985.453130,VS0,VE1
+X-Timer: S1649048466.176181,VS0,VE1
 Vary: Cookie, Cookie
-Age: 63657
+Age: 73592
 Accept-Ranges: bytes
 Via: 1.1 varnish, 1.1 varnish
 
-HTTP 301
-https://utexas.edu/
+HTTP/1.1 301 Moved Permanently
 Connection: keep-alive
 Content-Length: 0
 Cache-Control: public, max-age=1209600
@@ -29,50 +28,48 @@ Content-Type: text/html; charset=UTF-8
 Location: https://www.utexas.edu/
 Server: nginx
 Strict-Transport-Security: max-age=31622400
-Traceparent: 00-c2b377d975b041d1b7cdd846b4e27581-6e880671e5238b35-00
-X-Cloud-Trace-Context: c2b377d975b041d1b7cdd846b4e27581/7964623027250105141;o=0
-X-Pantheon-Styx-Hostname: styx-fe4-a-c8f79d547-kgw7p
-X-Styx-Req-Id: 7177c4cd-a5c6-11ec-99a2-82d2a2af75a7
-Date: Tue, 29 Mar 2022 02:13:05 GMT
-X-Served-By: cache-mdw17323-MDW, cache-iad-kcgs7200098-IAD
+Traceparent: 00-13d3741bcd7b4cfa8b501d101177f06c-3cdd211b301db730-00
+X-Cloud-Trace-Context: 13d3741bcd7b4cfa8b501d101177f06c/4385698012783818544;o=0
+X-Pantheon-Styx-Hostname: styx-fe4-a-c8f79d547-l62rj
+X-Styx-Req-Id: c1afed80-aca6-11ec-b9e9-a25457e2e6e6
+Date: Mon, 04 Apr 2022 05:01:06 GMT
+X-Served-By: cache-mdw17357-MDW, cache-iad-kcgs7200120-IAD
 X-Cache: HIT, HIT
 X-Cache-Hits: 1, 1
-X-Timer: S1648519986.513840,VS0,VE1
+X-Timer: S1649048466.243924,VS0,VE6
 Vary: Cookie, Cookie
-Age: 1016759
+Age: 789191
 Accept-Ranges: bytes
 Via: 1.1 varnish, 1.1 varnish
 
-HTTP 200
-https://www.utexas.edu/
+HTTP/1.1 200 OK
 Connection: keep-alive
-Content-Length: 18504
+Content-Length: 18595
 Cache-Control: public, max-age=300
 Content-Encoding: gzip
 Content-Language: en
 Content-Type: text/html; charset=utf-8
-Etag: W/"1648517604-0"
+Etag: W/"1649046930-0"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 29 Mar 2022 01:33:24 GMT
+Last-Modified: Mon, 04 Apr 2022 04:35:30 GMT
 Link: <https://www.utexas.edu>; rel="canonical",<https://www.utexas.edu>; rel="shortlink"
 Permissions-Policy: interest-cohort=()
 Server: nginx
 Strict-Transport-Security: max-age=300
-Traceparent: 00-e846e18394ec40338d3d43036d6d4032-b3b581f46cb8bf87-00
-X-Cloud-Trace-Context: e846e18394ec40338d3d43036d6d4032/12949399190369779591;o=0
+Traceparent: 00-39cc4d500a394889ba6877f7425ac7e4-6ea111cd32ba408a-00
+X-Cloud-Trace-Context: 39cc4d500a394889ba6877f7425ac7e4/7971672388439523466;o=0
 X-Drupal-Cache: HIT
 X-Frame-Options: SAMEORIGIN
 X-Generator: Drupal 7 (http://drupal.org)
-X-Pantheon-Styx-Hostname: styx-fe4-b-97f8fd4b8-2h5j7
-X-Styx-Req-Id: ed113cf2-af00-11ec-90c9-c2ea4801bb9c
-Fastly-Original-Body-Size: 18504
-Date: Tue, 29 Mar 2022 02:13:05 GMT
-X-Served-By: cache-mdw17324-MDW, cache-iad-kcgs7200024-IAD
+X-Pantheon-Styx-Hostname: styx-fe4-b-97f8fd4b8-sjrj9
+X-Styx-Req-Id: e761636d-b3d0-11ec-8e63-0e390c3771c5
+Date: Mon, 04 Apr 2022 05:01:06 GMT
+X-Served-By: cache-mdw17346-MDW, cache-iad-kcgs7200162-IAD
 X-Cache: HIT, HIT
 X-Cache-Hits: 1, 1
-X-Timer: S1648519986.582268,VS0,VE2
+X-Timer: S1649048466.313654,VS0,VE2
 Vary: Accept-Encoding, Cookie, Cookie, Cookie
-Age: 271
+Age: 221
 Accept-Ranges: bytes
 Via: 1.1 varnish, 1.1 varnish
 

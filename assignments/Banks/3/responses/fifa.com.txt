@@ -1,24 +1,22 @@
-HTTP 301
-http://fifa.com/
+HTTP/1.1 301 Moved Permanently
 Cache-Control: no-store
-Date: Tue, 29 Mar 2022 02:12:46 GMT
+Date: Mon, 04 Apr 2022 05:00:45 GMT
 Location: https://www.fifa.com/
-Server: ECAcc (dcd/7D26)
+Server: ECAcc (dcb/7EDB)
 Content-Length: 0
 
-HTTP 200
-https://www.fifa.com/
+HTTP/1.1 200 OK
 Content-Encoding: gzip
 Accept-Ranges: bytes
-Age: 42
+Age: 571
 Cache-Control: no-store
 Content-Type: text/html; charset=utf-8
-Date: Tue, 29 Mar 2022 02:12:46 GMT
-Etag: "601c2-+JEiDyDp373lQUjpVCFStjM2dtc"
-Last-Modified: Tue, 29 Mar 2022 02:12:05 GMT
+Date: Mon, 04 Apr 2022 05:00:45 GMT
+Etag: "5a2a5-AS1ZtPwNJHM/eLo46KtK7X2YwKY"
+Last-Modified: Mon, 04 Apr 2022 04:51:15 GMT
 request-context: appId=cid-v1:510500c9-003a-4db2-a2f1-8b386bf67e8c
-Server: ECAcc (dcb/7EDB)
+Server: ECAcc (dcd/7D26)
 X-Cache: HIT
 X-Powered-By: Next.js
-Content-Length: 59215
+Content-Length: 52221
 

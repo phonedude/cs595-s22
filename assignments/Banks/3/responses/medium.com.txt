@@ -1,38 +1,37 @@
-HTTP 301
-http://medium.com/
-Date: Tue, 29 Mar 2022 02:12:55 GMT
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 04 Apr 2022 05:00:55 GMT
 Connection: keep-alive
 Cache-Control: max-age=3600
-Expires: Tue, 29 Mar 2022 03:12:55 GMT
+Expires: Mon, 04 Apr 2022 06:00:55 GMT
 Location: https://medium.com/
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-Set-Cookie: __cfruid=d0776c46363de28cdbe11e3a4b53e3d0837bd44c-1648519975; path=/; domain=.medium.com; HttpOnly
+Set-Cookie: __cfruid=072c2b71278e5e3925fc74b77c99d1a69f67e1d9-1649048455; path=/; domain=.medium.com; HttpOnly
 Server: cloudflare
-CF-RAY: 6f351556e84356bc-IAD
+CF-RAY: 6f677bb01a305997-IAD
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
-HTTP 200
-https://medium.com/
-Date: Tue, 29 Mar 2022 02:12:56 GMT
+HTTP/1.1 200 OK
+Date: Mon, 04 Apr 2022 05:00:56 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
-CF-Ray: 6f3515575fe95818-IAD
+CF-Ray: 6f677bb06c6159ec-IAD
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Set-Cookie: uid=lo_27f7b33188bc; Domain=medium.com; Path=/; Expires=Wed, 29 Mar 2023 02:12:55 GMT; HttpOnly; Secure; SameSite=None, sid=1%3Ar%2B4HT4xk4j%2BjCcsecIlcoTgsDQ2kBffQ5IHJkv83zb0kLFYHqD8M2dkQxtv38yVh; Domain=medium.com; Path=/; Expires=Wed, 29 Mar 2023 02:12:55 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: uid=lo_186ba1e9244d; Domain=medium.com; Path=/; Expires=Tue, 04 Apr 2023 05:00:55 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: sid=1%3A2okbztugqlMXbwblN0qvJAPmDUSNR7AvMvghOM1YohG8EjgOGuChsYz08q2MZLIs; Domain=medium.com; Path=/; Expires=Tue, 04 Apr 2023 05:00:55 GMT; HttpOnly; Secure; SameSite=None
 Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
 Vary: Accept-Encoding
 CF-Cache-Status: DYNAMIC
 content-security-policy: frame-ancestors 'self' https://medium.com
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-medium-fulfilled-by: edgy/8.3.0, valencia/main-20220329-001316-b4b7794a00, lite/main-20220329-004021-923323c336, rito/main-20220329-001316-b4b7794a00, tutu/main-20220328-234917-c82d734920
-medium-missing-time: 159
+medium-fulfilled-by: edgy/8.3.0, valencia/main-20220330-200122-8a4c97c6a1, lite/main-20220401-083045-0f10db2df4, rito/main-20220401-165436-57d74ca00d, tutu/main-20220401-214108-c9329c7585
+medium-missing-time: 243
 worker-cache-key: medium.com/?li=false
 worker-cache-middleware: true
 worker-missing-cookies: 2
 X-Content-Type-Options: nosniff
-x-envoy-upstream-service-time: 520
-x-request-received-at: 1648519975604
+x-envoy-upstream-service-time: 534
+x-request-received-at: 1649048455786
 Server: cloudflare
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400

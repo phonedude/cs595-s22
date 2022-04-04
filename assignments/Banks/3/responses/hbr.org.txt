@@ -1,18 +1,16 @@
-HTTP 301
-http://hbr.org/
+HTTP/1.1 301 Moved Permanently
 Server: CloudFront
-Date: Tue, 29 Mar 2022 02:12:49 GMT
+Date: Mon, 04 Apr 2022 05:00:49 GMT
 Content-Type: text/html
 Content-Length: 183
 Connection: keep-alive
 Location: https://hbr.org/
 X-Cache: Redirect from cloudfront
-Via: 1.1 07b0e28d0c589c8a26610bbc5dcd660a.cloudfront.net (CloudFront)
+Via: 1.1 09028890675e48687e2855f3bdad98ea.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: IAD50-C2
-X-Amz-Cf-Id: bACmDy4QABBb3bGRJKgmRpu8ynI19vz8aohBGCv61lcKkN-RkU9e9Q==
+X-Amz-Cf-Id: 2jvNCOuQpuQ-SIiLzLQKb1jAcNpRB9QiekqPEBI5o0s_NWQJn6LS_w==
 
-HTTP 200
-https://hbr.org/
+HTTP/1.1 200 
 Content-Type: text/html;charset=utf-8
 Connection: keep-alive
 Access-Control-Allow-Credentials: true
@@ -22,13 +20,15 @@ Cache-Control: max-age=0, must-revalidate
 Content-Encoding: gzip
 Content-Language: en-US
 Content-Security-Policy: frame-ancestors 'self'
-Date: Tue, 29 Mar 2022 02:12:49 GMT
+Date: Mon, 04 Apr 2022 05:00:49 GMT
 Server: Apache-Coyote/1.1
-Set-Cookie: _hbr_u=eyJpZCI6IjVhMTU0YjI5YjQ2ZTliYjQ3YjE1N2FiN2ZhYjVhZTA3IiwibGFzdFZpc2l0ZWQiOjE2NDg1MTk5Njk0OTZ9; Domain=.hbr.org; Expires=Fri, 01-Apr-2022 00:00:00 GMT; Path=/; Secure; HttpOnly, hbr_user_experience="Article Redesign"; Version=1; Domain=.hbr.org; Max-Age=94608000; Expires=Fri, 28-Mar-2025 02:12:49 GMT; Path=/, HBR_SESSION_ID=5a581879-77f4-4151-9e4c-5c4bc1bd2dfc; Domain=.hbr.org; Path=/; Secure; HttpOnly
+Set-Cookie: _hbr_u=eyJpZCI6ImViNzAzNTlkN2EzNzhjZDk1ZGM2OWJhYjk4ODBjMWIzIiwibGFzdFZpc2l0ZWQiOjE2NDkwNDg0NDk4MDB9; Domain=.hbr.org; Expires=Sun, 01-May-2022 00:00:00 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: hbr_user_experience="Regular Article"; Version=1; Domain=.hbr.org; Max-Age=94608000; Expires=Thu, 03-Apr-2025 05:00:49 GMT; Path=/
+Set-Cookie: HBR_SESSION_ID=3c027d39-be99-4011-87a4-e9fb9902a08f; Domain=.hbr.org; Path=/; Secure; HttpOnly
 Vary: Accept-Encoding
 X-Frame-Options: SAMEORIGIN
 X-Cache: Miss from cloudfront
-Via: 1.1 62997e8047323290451b8a864e88914c.cloudfront.net (CloudFront)
+Via: 1.1 a2da30f5dacfbd28d77cf4c9702318f8.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: IAD50-C2
-X-Amz-Cf-Id: bAHxC4qppVYmQ-dgLtBV_ahIe7oTUu9FuzaJxRSZFvHsWth1TtT6lg==
+X-Amz-Cf-Id: LA5faP_jggpp90bktxiptqKZD7tYuUg4A_v4OtSOdODZzzvq7nUXTg==
 

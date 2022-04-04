@@ -1,22 +1,20 @@
-HTTP 302
-http://ietf.org/
-Date: Tue, 29 Mar 2022 02:12:49 GMT
+HTTP/1.1 302 Found
+Date: Mon, 04 Apr 2022 05:00:50 GMT
 Server: Apache
 Location: https://www.ietf.org/
 Keep-Alive: timeout=5, max=10000
 Connection: Keep-Alive
 Content-Type: text/html; charset=iso-8859-1
 
-HTTP 200
-https://www.ietf.org/
-Date: Tue, 29 Mar 2022 02:12:49 GMT
+HTTP/1.1 200 OK
+Date: Mon, 04 Apr 2022 05:00:50 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
 X-Frame-Options: ALLOW-FROM ietf.org *.ietf.org meetecho.com *.meetecho.com gather.town *.gather.town
 Vary: Cookie,Accept-Encoding
 X-Content-Type-Options: nosniff, nosniff
 Referrer-Policy: same-origin
-Expires: Tue, 29 Mar 2022 03:12:49 GMT
+Expires: Mon, 04 Apr 2022 06:00:50 GMT
 Cache-Control: public, max-age=3600
 Strict-Transport-Security: max-age=31536000; preload
 X-Xss-Protection: 1; mode=block
@@ -24,10 +22,10 @@ Content-Security-Policy: frame-ancestors 'self' ietf.org *.ietf.org meetecho.com
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Headers: *
 CF-Cache-Status: HIT
-Age: 1006
-Last-Modified: Tue, 29 Mar 2022 01:56:03 GMT
+Age: 1958
+Last-Modified: Mon, 04 Apr 2022 04:28:12 GMT
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 6f351533c8ae5d79-IAD
+CF-RAY: 6f677b8d8cc7c1de-IAD
 Content-Encoding: gzip
 

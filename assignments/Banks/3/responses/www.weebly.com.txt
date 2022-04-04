@@ -1,29 +1,40 @@
-HTTP 301
-http://www.weebly.com/
-Date: Tue, 29 Mar 2022 02:13:07 GMT
+HTTP/1.0 301 Moved Permanently
+Date: Mon, 04 Apr 2022 05:01:07 GMT
 Server: Apache
-Set-Cookie: cookie-consent=%7B%22allowStrictlyNecessaryCookies%22%3Atrue%2C%22allowFunctionalityCookies%22%3Atrue%2C%22allowPerformanceCookies%22%3Atrue%2C%22allowTargetingCookies%22%3Atrue%7D; expires=Fri, 26-Mar-2032 02:13:07 GMT; Max-Age=315360000; path=/, language=en; expires=Tue, 12-Apr-2022 02:13:07 GMT; Max-Age=1209600; path=/, srv_domainuserid=5376ab1ac5cbf44eea29d515998cc9db819d6b80; expires=Fri, 26-Mar-2032 02:13:07 GMT; Max-Age=315360000; path=/; domain=.weebly.com, srv_domainuserid=5376ab1ac5cbf44eea29d515998cc9db819d6b80; expires=Fri, 26-Mar-2032 02:13:07 GMT; Max-Age=315360000; path=/, wtp-uuid=a2e8428a-a839-4f4e-b426-a786f14a42bf, sto-id-editor=CHHIBNAK; Domain=weebly.com; Path=/
+Set-Cookie: cookie-consent=%7B%22allowStrictlyNecessaryCookies%22%3Atrue%2C%22allowFunctionalityCookies%22%3Atrue%2C%22allowPerformanceCookies%22%3Atrue%2C%22allowTargetingCookies%22%3Atrue%7D; expires=Thu, 01-Apr-2032 05:01:07 GMT; Max-Age=315360000; path=/
+Set-Cookie: language=en; expires=Mon, 18-Apr-2022 05:01:07 GMT; Max-Age=1209600; path=/
+Set-Cookie: srv_domainuserid=acf5e2c5c0eb7c5585022e9eea39f1e66cb44b6a; expires=Thu, 01-Apr-2032 05:01:07 GMT; Max-Age=315360000; path=/; domain=.weebly.com
+Set-Cookie: srv_domainuserid=acf5e2c5c0eb7c5585022e9eea39f1e66cb44b6a; expires=Thu, 01-Apr-2032 05:01:07 GMT; Max-Age=315360000; path=/
+Set-Cookie: wtp-uuid=89ba9851-c44d-420d-94f0-bf13f13a46b2
+Set-Cookie: sto-id-editor=DHHGBMAK; Domain=weebly.com; Path=/
 Cache-Control: no-cache, private
 X-Frame-Options: SAMEORIGIN
 Location: https://www.weebly.com/
-X-Host: blu121.sf2p.intern.weebly.net
+X-Host: grn119.sf2p.intern.weebly.net
 Vary: User-Agent
 X-UA-Compatible: IE=edge,chrome=1
 Connection: close
 Content-Type: text/html; charset=UTF-8
 X-W-DC: SFO
 
-HTTP 200
-https://www.weebly.com/
-Date: Tue, 29 Mar 2022 02:13:07 GMT
+HTTP/1.1 200 OK
+Date: Mon, 04 Apr 2022 05:01:08 GMT
 Server: Apache
-Set-Cookie: language=en; expires=Tue, 12-Apr-2022 02:13:07 GMT; Max-Age=1209600; path=/, internal_signup_referer=%7B%22internal_signup_referer%22%3A%22http%3A%5C%2F%5C%2Fwww.weebly.com%5C%2F%22%7D; expires=Thu, 28-Apr-2022 02:13:07 GMT; Max-Age=2592000; path=/, external_signup_referer=%7B%22external_signup_referer%22%3A%22None%22%7D; expires=Thu, 28-Apr-2022 02:13:07 GMT; Max-Age=2592000; path=/, external_paid_signup_referer=%7B%22external_paid_signup_referer%22%3A%22None%22%7D; expires=Thu, 28-Apr-2022 02:13:07 GMT; Max-Age=2592000; path=/, wcid=7c0wbrkuo9oxfz62; expires=Tue, 12-Apr-2022 02:13:07 GMT; Max-Age=1209600; path=/, wct-bG9jYWxlTmV3VXNlckNoYXQ_=ZXhjbHVkZWQ_; expires=Tue, 12-Apr-2022 02:13:07 GMT; Max-Age=1209600; path=/, wct-c2lnbnVwX21haWxjaGVja19hbGxlbmc_=dGVzdA__; expires=Tue, 12-Apr-2022 02:13:07 GMT; Max-Age=1209600; path=/, _csrf=zH1blvMac5lHuOfXpZsBrQBBfy7hDN6fJZqEPFg5mSs; path=/; domain=www.weebly.com, wct-aG9tZXBhZ2Vfd2Vic2l0ZV9tZXNzYWdpbmdfdjU_=Y29udHJvbA__; expires=Tue, 12-Apr-2022 02:13:07 GMT; Max-Age=1209600; path=/
+Set-Cookie: language=en; expires=Mon, 18-Apr-2022 05:01:08 GMT; Max-Age=1209600; path=/
+Set-Cookie: internal_signup_referer=%7B%22internal_signup_referer%22%3A%22http%3A%5C%2F%5C%2Fwww.weebly.com%5C%2F%22%7D; expires=Wed, 04-May-2022 05:01:08 GMT; Max-Age=2592000; path=/
+Set-Cookie: external_signup_referer=%7B%22external_signup_referer%22%3A%22None%22%7D; expires=Wed, 04-May-2022 05:01:08 GMT; Max-Age=2592000; path=/
+Set-Cookie: external_paid_signup_referer=%7B%22external_paid_signup_referer%22%3A%22None%22%7D; expires=Wed, 04-May-2022 05:01:08 GMT; Max-Age=2592000; path=/
+Set-Cookie: wcid=xfgrgvomh20ps42z; expires=Mon, 18-Apr-2022 05:01:08 GMT; Max-Age=1209600; path=/
+Set-Cookie: wct-bG9jYWxlTmV3VXNlckNoYXQ_=ZXhjbHVkZWQ_; expires=Mon, 18-Apr-2022 05:01:08 GMT; Max-Age=1209600; path=/
+Set-Cookie: wct-c2lnbnVwX21haWxjaGVja19hbGxlbmc_=dGVzdA__; expires=Mon, 18-Apr-2022 05:01:08 GMT; Max-Age=1209600; path=/
+Set-Cookie: _csrf=TKhMR_NMBhIdoEuz4ounhLe2x-EF4TD3RK-YyytPPxo; path=/; domain=www.weebly.com
+Set-Cookie: wct-aG9tZXBhZ2Vfd2Vic2l0ZV9tZXNzYWdpbmdfdjU_=dGVzdA__; expires=Mon, 18-Apr-2022 05:01:08 GMT; Max-Age=1209600; path=/
 Cache-Control: no-cache, private
 X-Frame-Options: SAMEORIGIN
-X-Host: blu121.sf2p.intern.weebly.net
+X-Host: grn119.sf2p.intern.weebly.net
 Vary: User-Agent
 X-UA-Compatible: IE=edge,chrome=1
-Keep-Alive: timeout=10, max=70
+Keep-Alive: timeout=10, max=74
 Connection: Keep-Alive
 Content-Type: text/html; charset=UTF-8
 X-W-DC: SFO

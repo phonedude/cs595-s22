@@ -1,21 +1,19 @@
-HTTP 301
-http://xda-developers.com/
-Date: Tue, 29 Mar 2022 02:13:07 GMT
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 04 Apr 2022 05:01:08 GMT
 Connection: keep-alive
 Cache-Control: max-age=3600
-Expires: Tue, 29 Mar 2022 03:13:07 GMT
+Expires: Mon, 04 Apr 2022 06:01:08 GMT
 Location: https://xda-developers.com/
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
 Server: cloudflare
-CF-RAY: 6f3515a26d055b8f-IAD
+CF-RAY: 6f677bff4eb48227-IAD
 
-HTTP 301
-https://xda-developers.com/
-Date: Tue, 29 Mar 2022 02:13:07 GMT
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 04 Apr 2022 05:01:08 GMT
 Content-Type: text/html; charset=UTF-8
 Connection: keep-alive
-Set-Cookie: PHPSESSID=r0ee9cv18710jdmu5m7qkg9v6u; path=/
+Set-Cookie: PHPSESSID=2ft4di26lu7ghgr6it3ncbf2jm; path=/
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
 Cache-Control: no-store, no-cache, must-revalidate
 Pragma: no-cache
@@ -30,11 +28,10 @@ Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi
 Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
 X-Content-Type-Options: nosniff
 Server: cloudflare
-CF-RAY: 6f3515a2de45cf34-IAD
+CF-RAY: 6f677bff98db8f10-IAD
 
-HTTP 200
-https://www.xda-developers.com/
-Date: Tue, 29 Mar 2022 02:13:07 GMT
+HTTP/1.1 200 OK
+Date: Mon, 04 Apr 2022 05:01:08 GMT
 Content-Type: text/html; charset=UTF-8
 Connection: keep-alive
 Expires: Thu, 19 Nov 1981 08:52:00 GMT
@@ -43,16 +40,15 @@ Pragma: no-cache
 X-Pingback: https://www.xda-developers.com/xmlrpc.php
 Link: <https://www.xda-developers.com/wp-json/>; rel="https://api.w.org/", <https://www.xda-developers.com/wp-json/wp/v2/pages/121727>; rel="alternate"; type="application/json"
 X-Nginx-Cache-Status: MISS
-X-Nginx-Device: MOBILE
-X-Nginx-Geo: CY
-Last-Modified: Tue, 29 Mar 2022 02:09:10 GMT
+X-Nginx-Device: DESKTOP
+X-Nginx-Geo: BR
+Last-Modified: Mon, 04 Apr 2022 04:59:36 GMT
 CF-Cache-Status: HIT
-Age: 69
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Vary: Accept-Encoding
 Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
 X-Content-Type-Options: nosniff
 Server: cloudflare
-CF-RAY: 6f3515a3f90f57c4-IAD
+CF-RAY: 6f677c0099a33817-IAD
 Content-Encoding: gzip
 

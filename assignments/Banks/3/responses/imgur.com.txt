@@ -1,12 +1,11 @@
-HTTP 301
-http://imgur.com/
+HTTP/1.1 301 Moved Permanently
 Retry-After: 0
 Location: https://imgur.com/
 Content-Length: 0
 Accept-Ranges: bytes
-Date: Tue, 29 Mar 2022 02:12:49 GMT
+Date: Mon, 04 Apr 2022 05:00:50 GMT
 Connection: close
-X-Served-By: cache-iad-kiad7000155-IAD
+X-Served-By: cache-iad-kiad7000071-IAD
 X-Cache: HIT
 X-Cache-Hits: 0
 Server: cat factory 1.0
@@ -16,21 +15,20 @@ X-Frame-Options: DENY
 Access-Control-Allow-Origin: https://imgur.com
 Access-Control-Allow-Credentials: false
 
-HTTP 200
-https://imgur.com/
+HTTP/1.1 200 OK
 Connection: keep-alive
 Content-Length: 7198
-Last-Modified: Wed, 23 Mar 2022 21:25:23 GMT
-ETag: "f91179e7c1ca7d239793690ddf6f9f4c"
+Last-Modified: Sat, 02 Apr 2022 11:20:46 GMT
+ETag: "aae19fd715082915786f239cad76770b"
 Content-Type: text/html
 Content-Security-Policy: upgrade-insecure-requests
 Accept-Ranges: bytes
-Date: Tue, 29 Mar 2022 02:12:50 GMT
-Age: 0
-X-Served-By: cache-iad-kiad7000034-IAD
+Date: Mon, 04 Apr 2022 05:00:50 GMT
+Age: 114
+X-Served-By: cache-iad-kcgs7200161-IAD
 X-Cache: HIT
 X-Cache-Hits: 1
-X-Timer: S1648519970.997823,VS0,VE22
+X-Timer: S1649048450.257018,VS0,VE1
 Vary: Accept-Encoding
 Server: cat factory 1.0
 Strict-Transport-Security: max-age=300

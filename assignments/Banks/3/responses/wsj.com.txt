@@ -1,29 +1,32 @@
-HTTP 301
-http://wsj.com/
+HTTP/1.1 301 Found
 Content-Length: 0
 Connection: keep-alive
 Server: CloudFront
-Date: Tue, 29 Mar 2022 02:13:06 GMT
+Date: Mon, 04 Apr 2022 05:01:07 GMT
 Location: https://www.wsj.com/
 X-Cache: LambdaGeneratedResponse from cloudfront
-Via: 1.1 15cde442051269a0307a638d23683c8c.cloudfront.net (CloudFront)
+Via: 1.1 7c9d2cffb8d1fe464e9f78e42af1b34c.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: IAD79-C3
-X-Amz-Cf-Id: q1hxawrnWZ8AW4TE7QN6HEWSLQSEUHXcbXFuAHPAt9IgCIwhcQDc2A==
+X-Amz-Cf-Id: s1ZO0MucPu-lBss5P4i_tryNWYwIPiEdIwt46n-k-O_0fJ3N1vqQSw==
 
-HTTP 200
-https://www.wsj.com/
+HTTP/1.1 200 OK
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
-Date: Tue, 29 Mar 2022 02:13:06 GMT
+Date: Mon, 04 Apr 2022 05:01:07 GMT
 X-Powered-By: Express
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Vary: Origin
 Cache-Control: public, max-age=0
-Set-Cookie: wsjregion=na%2Cus; Domain=.wsj.com; Path=/; Expires=Thu, 28 Apr 2022 02:13:06 GMT, gdprApplies=false; Domain=.wsj.com; Path=/, ccpaApplies=false; Domain=.wsj.com; Path=/, usr_prof_v2=eyJpYyI6MH0%3D; Domain=.wsj.com; Path=/; Expires=Tue, 29 Mar 2022 03:13:06 GMT, ab_uuid=f033c323-7505-4473-9b35-2261399cf2b5; Domain=.wsj.com; Path=/; Expires=Fri, 26 Mar 2032 02:13:06 GMT, usr_bkt=K8ZnHJ5Uyn; Domain=.wsj.com; Path=/; Expires=Fri, 26 Mar 2032 02:13:06 GMT
+Set-Cookie: wsjregion=na%2Cus; Domain=.wsj.com; Path=/; Expires=Wed, 04 May 2022 05:01:07 GMT
+Set-Cookie: gdprApplies=false; Domain=.wsj.com; Path=/
+Set-Cookie: ccpaApplies=false; Domain=.wsj.com; Path=/
+Set-Cookie: usr_prof_v2=eyJpYyI6MH0%3D; Domain=.wsj.com; Path=/; Expires=Mon, 04 Apr 2022 06:01:07 GMT
+Set-Cookie: ab_uuid=9f2d3615-e830-41fa-8efc-c46eeb5c0f7c; Domain=.wsj.com; Path=/; Expires=Thu, 01 Apr 2032 05:01:07 GMT
+Set-Cookie: usr_bkt=ixi4E5ylqa; Domain=.wsj.com; Path=/; Expires=Thu, 01 Apr 2032 05:01:07 GMT
 Content-Encoding: gzip
 X-Cache: Miss from cloudfront
-Via: 1.1 df08ba5d249ec7fb2513313ea66b59f8.cloudfront.net (CloudFront)
+Via: 1.1 6306947fb6ab60dc617ca2e025941652.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: IAD50-C2
-X-Amz-Cf-Id: ZFhzyu5Q9nSdKOsjd4DwigAbllUw5NuFpHWqka8hBsqKgu0yzjGcLw==
+X-Amz-Cf-Id: y-jfBQoMS5lA5X29ZB7qog41Hm6GwGxBz5TidmzY8YNgfbG327Y83Q==
 

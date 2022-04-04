@@ -1,15 +1,13 @@
-HTTP 301
-http://politico.com/
+HTTP/1.1 301 Moved Permanently
 Server: awselb/2.0
-Date: Tue, 29 Mar 2022 02:13:00 GMT
+Date: Mon, 04 Apr 2022 05:00:59 GMT
 Content-Type: text/html
 Content-Length: 134
 Connection: keep-alive
 Location: https://www.politico.com:443/
 
-HTTP 200
-https://www.politico.com:443/
-Date: Tue, 29 Mar 2022 02:13:00 GMT
+HTTP/1.1 200 OK
+Date: Mon, 04 Apr 2022 05:00:59 GMT
 Content-Type: text/html;charset=UTF-8
 Connection: keep-alive
 Cache-Control: public, max-age=60, stale-while-revalidate=10, stale-if-error=86400, stale-if-error=604800
@@ -20,17 +18,18 @@ X-Frame-Options: SAMEORIGIN
 Vary: Accept-Encoding
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Credentials: true
-X-Varnish: 494769825 486677608
-Age: 16
+X-Varnish: 761904541 759561592
+Age: 55
 Via: 1.1 varnish (Varnish/6.3)
 X-Varnish-Cache: HIT
 CF-Cache-Status: HIT
-Last-Modified: Tue, 29 Mar 2022 02:12:44 GMT
+Last-Modified: Mon, 04 Apr 2022 05:00:04 GMT
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Set-Cookie: __cf_bm=Jt.YXM2MtdRdUlN5ALVvO1cjKeD7oyW_kE_HZCaw0Bc-1648519980-0-AbWWXdlsH1scYZLi3xYAbhxT4YYJcdOnyvRupqa9AHDOaRdCEAbNMVLFM59r0NpjV3VovpI4Vt7KUaPmgjqfn8I=; path=/; expires=Tue, 29-Mar-22 02:43:00 GMT; domain=.www.politico.com; HttpOnly; Secure; SameSite=None, __cfruid=ac085ec7bbea0189cf03fad6a5cd9fde28871689-1648519980; path=/; domain=.www.politico.com; HttpOnly; Secure; SameSite=None
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Zm4OwHCx0WO2zOX2xCeewyT6AgLTYI3Icp5EYob8flrNQKiHmS%2BKpdQ4hMzcBQCz1ddBhepODv3OS5B5ImljBdXJCCP4gc3gfgt1ZDFGAg7W2iCGkSyWslsQ9%2BXb2Zv%2BcVc%3D"}],"group":"cf-nel","max_age":604800}
+Set-Cookie: __cf_bm=Vgwp6PoQHjeCXDHlLTA3wzRFjef5XwTQfpkYraImOUo-1649048459-0-ATG8i5P7f7GYenL3xpvLyu4grc1lHWGG5JtmGyTltiwBQDhwtzVBtgt3GuqgSMF4RDlrgWSmCoMxb3zSFrskCk0=; path=/; expires=Mon, 04-Apr-22 05:30:59 GMT; domain=.www.politico.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cfruid=a93f59aef9e7e1aacb6b394f86323c1395c050d3-1649048459; path=/; domain=.www.politico.com; HttpOnly; Secure; SameSite=None
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2pTjNXNdRf9qfZhPjCO22YzaGyvdRsISgYuAymfnsH0HN5MQfFpOnPr16W9xF3%2FfALek5DURJ3Rn3sZTxQMfK%2Ffxn79aZrQLZ14u%2FtfPlKbQ95c%2F5ZiWjtpxnkHdrHOImoA%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 6f351575e93882da-IAD
+CF-RAY: 6f677bc66f6181cf-IAD
 Content-Encoding: gzip
 

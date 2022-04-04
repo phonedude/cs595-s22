@@ -1,24 +1,23 @@
-HTTP 302
-http://yadi.sk/
+HTTP/1.1 302 Moved temporarily
 Content-Length: 0
 Location: https://yadi.sk/
 
-HTTP 302
-https://yadi.sk/
-Date: Tue, 29 Mar 2022 02:13:08 GMT
+HTTP/1.1 302 Found
+Date: Mon, 04 Apr 2022 05:01:09 GMT
 Location: https://disk.yandex.com
-Set-Cookie: _yasc=DpK++9zu1ZizUws3SZm6uW9pFqCohYON3FRr1LtaneLufA==; domain=.yadi.sk; path=/; expires=Thu, 28-Apr-2022 02:13:08 GMT; secure
+Set-Cookie: _yasc=SfPMwi3ZwJ2qeTYQxNJaHF6zXROzb282/bc/Abzie9eSSg==; domain=.yadi.sk; path=/; expires=Wed, 04-May-2022 05:01:09 GMT; secure
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 
-HTTP 200
-https://disk.yandex.com
+HTTP/1.1 200 OK
 Content-Encoding: gzip
-Content-Security-Policy: default-src 'none'; script-src 'nonce-LZ1lM+DEYgnro/2eH65cYQ==' 'unsafe-inline' https://yastatic.net mc.yandex.az mc.yandex.by mc.yandex.co.il mc.yandex.com mc.yandex.com.am mc.yandex.com.ge mc.yandex.com.tr mc.yandex.ee mc.yandex.fr mc.yandex.kg mc.yandex.kz mc.yandex.lt mc.yandex.lv mc.yandex.md mc.yandex.ru mc.yandex.tj mc.yandex.tm mc.yandex.ua mc.yandex.uz mc.webvisor.com mc.webvisor.org; style-src 'unsafe-inline' https://yastatic.net; img-src 'self' https://yastatic.net 'self' mc.yandex.az mc.yandex.by mc.yandex.co.il mc.yandex.com mc.yandex.com.am mc.yandex.com.ge mc.yandex.com.tr mc.yandex.ee mc.yandex.fr mc.yandex.kg mc.yandex.kz mc.yandex.lt mc.yandex.lv mc.yandex.md mc.yandex.ru mc.yandex.tj mc.yandex.tm mc.yandex.ua mc.yandex.uz mc.webvisor.com mc.webvisor.org mc.admetrica.ru; font-src yastatic.net; connect-src yandex.ru mc.yandex.az mc.yandex.by mc.yandex.co.il mc.yandex.com mc.yandex.com.am mc.yandex.com.ge mc.yandex.com.tr mc.yandex.ee mc.yandex.fr mc.yandex.kg mc.yandex.kz mc.yandex.lt mc.yandex.lv mc.yandex.md mc.yandex.ru mc.yandex.tj mc.yandex.tm mc.yandex.ua mc.yandex.uz mc.webvisor.com mc.webvisor.org mc.admetrica.ru yandexmetrica.com:*; child-src blob:; frame-src blob: mc.yandex.ru mc.yandex.md;
+Content-Security-Policy: default-src 'none'; script-src 'nonce-gVQWJf/ewOEMBTatf+NfIg==' 'unsafe-inline' https://yastatic.net mc.yandex.az mc.yandex.by mc.yandex.co.il mc.yandex.com mc.yandex.com.am mc.yandex.com.ge mc.yandex.com.tr mc.yandex.ee mc.yandex.fr mc.yandex.kg mc.yandex.kz mc.yandex.lt mc.yandex.lv mc.yandex.md mc.yandex.ru mc.yandex.tj mc.yandex.tm mc.yandex.ua mc.yandex.uz mc.webvisor.com mc.webvisor.org; style-src 'unsafe-inline' https://yastatic.net; img-src 'self' https://yastatic.net 'self' mc.yandex.az mc.yandex.by mc.yandex.co.il mc.yandex.com mc.yandex.com.am mc.yandex.com.ge mc.yandex.com.tr mc.yandex.ee mc.yandex.fr mc.yandex.kg mc.yandex.kz mc.yandex.lt mc.yandex.lv mc.yandex.md mc.yandex.ru mc.yandex.tj mc.yandex.tm mc.yandex.ua mc.yandex.uz mc.webvisor.com mc.webvisor.org mc.admetrica.ru; font-src yastatic.net; connect-src yandex.ru mc.yandex.az mc.yandex.by mc.yandex.co.il mc.yandex.com mc.yandex.com.am mc.yandex.com.ge mc.yandex.com.tr mc.yandex.ee mc.yandex.fr mc.yandex.kg mc.yandex.kz mc.yandex.lt mc.yandex.lv mc.yandex.md mc.yandex.ru mc.yandex.tj mc.yandex.tm mc.yandex.ua mc.yandex.uz mc.webvisor.com mc.webvisor.org mc.admetrica.ru yandexmetrica.com:*; child-src blob:; frame-src blob: mc.yandex.ru mc.yandex.md;
 Content-Type: text/html; charset=utf-8
-Date: Tue, 29 Mar 2022 02:13:09 GMT
-ETag: W/"60a6-X5iSG6gT5p3bOTochRIqgI9RT9M"
-Set-Cookie: yandexuid=7968799581648519989; Max-Age=315360000; Domain=.yandex.com; Path=/; Expires=Fri, 26 Mar 2032 02:13:09 GMT; Secure, _yasc=PdZ5HN1fS0kt+lkU26WiczTZwgWNsDL+eEw0wQPUf2iXZw==; domain=.yandex.com; path=/; expires=Thu, 28-Apr-2022 02:13:09 GMT; secure, i=OZiVttHVN0GEZjHSvEqXLPoVDxXMP72GTm6HsuFxiwl8sXk6vSE+Y/zA8xXCOt9wMcDYzpSYhB+ycHy4sqhHUb8Kt9o=; Expires=Thu, 28-Mar-2024 02:13:09 GMT; Domain=.yandex.com; Path=/; Secure; HttpOnly
+Date: Mon, 04 Apr 2022 05:01:10 GMT
+ETag: W/"60a6-lD5W6NEGt4G/Hc2E9SsFZ2ZqlZQ"
+Set-Cookie: yandexuid=3331960281649048470; Max-Age=315360000; Domain=.yandex.com; Path=/; Expires=Thu, 01 Apr 2032 05:01:10 GMT; Secure
+Set-Cookie: _yasc=TskXRquWy1D8oxeQLkxbogCRe38O1rVS+hetP04dgegJ+w==; domain=.yandex.com; path=/; expires=Wed, 04-May-2022 05:01:10 GMT; secure
+Set-Cookie: i=8VTImQf7NXZmpuyslmLNStze2y28Jvgn4ovHcdImL3Yg+8nD0EKq5mTcD+nFlY84wSxb2ddb63ph1B0eem1/6c+MRck=; Expires=Wed, 03-Apr-2024 05:01:10 GMT; Domain=.yandex.com; Path=/; Secure; HttpOnly
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN

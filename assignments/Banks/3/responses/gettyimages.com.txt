@@ -1,33 +1,30 @@
-HTTP 301
-http://gettyimages.com/
+HTTP/1.1 301 Moved Permanently
 Server: CloudFront
-Date: Tue, 29 Mar 2022 02:12:46 GMT
+Date: Mon, 04 Apr 2022 05:00:46 GMT
 Content-Type: text/html
 Content-Length: 183
 Connection: keep-alive
 Location: https://gettyimages.com/
 X-Cache: Redirect from cloudfront
-Via: 1.1 c9bcf1ef5ff6ccbffc94a95572996802.cloudfront.net (CloudFront)
+Via: 1.1 3072c658bb2e308b174aea92028efcd6.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: IAD79-C3
-X-Amz-Cf-Id: XGP3kwcdoFj4ukjeKXG4N9UaTF8bFjySLbEnkHiulKMgBJB7xWQQSQ==
+X-Amz-Cf-Id: vsjEehZNSwLknnocoUt2WUTeEoHeI98_Efk0FTQr5QbHKf_ZsHozlg==
 
-HTTP 301
-https://gettyimages.com/
+HTTP/1.1 301 Moved Permanently
 Content-Length: 0
 Connection: keep-alive
-Date: Tue, 29 Mar 2022 02:12:46 GMT
+Date: Mon, 04 Apr 2022 05:00:46 GMT
 location: https://www.gettyimages.com/
 selected-fe: getty_frontend
 X-Cache: Miss from cloudfront
-Via: 1.1 64287378cade03feddd2042bfe0ee6a4.cloudfront.net (CloudFront)
+Via: 1.1 016de4084b3995907681c203a7d5af44.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: IAD79-C3
-X-Amz-Cf-Id: -ZXCYxEw6iqW91JU8JMlxq5Z-nHX6ZxZ1qLj9XGmf-sIViTL5kUsiA==
+X-Amz-Cf-Id: O5COPXQdiI1NWHHiMVcrvbiRiM3xl4dAz3SiPuJYNNmjiN_Q-ybkMg==
 
-HTTP 200
-https://www.gettyimages.com/
+HTTP/1.1 200 OK
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
-Date: Tue, 29 Mar 2022 02:12:47 GMT
+Date: Mon, 04 Apr 2022 05:00:46 GMT
 server: nginx/1.20.1
 vary: Accept-Encoding
 x-frame-options: SAMEORIGIN
@@ -36,18 +33,18 @@ x-content-type-options: nosniff
 x-download-options: noopen
 x-permitted-cross-domain-policies: none
 referrer-policy: strict-origin-when-cross-origin
-etag: W/"430042593d21ab521493f82af7352083"
+etag: W/"42feafc31402492a81caf20cf307ad96"
 cache-control: max-age=0, private, must-revalidate
-set-cookie: unisess=NkY5Vy96Z1ZxSVZaZVpoR1YyZG9ONkNEb21qb3pVN1dERVBodnNqWkx0dTBkTGV3UXo0UzBHOXk4aHJxZlJOR1U1elZyYklsbWVNYmpPQTZ0d1o5VFE9PS0tRnZXTzJXYldBWkZaQTk5Wm03N0JsUT09--4fbae083a323afb9cb38b972766a5e44b7d084cd; path=/; secure; HttpOnly, vis=vid=aba2bf7b-71fa-4999-85ce-c407f93e5e86; domain=.gettyimages.com; path=/; expires=Sat, 29 Mar 2042 02:12:46 -0000; secure, uac=t=PY4oAk60yEHNejYMZjK6m%2F0%2Faz25IdgQv1sPE3eZC1kV%2BDYYeoWlvzIu0o%2FnfR142000Kaz5vl7RsI9pS5jUG%2BO8KDdVNw7zZNspD3GDhTfop0ujJF1PP9OM7hYCFHWSzPxEaeeiL68x3VQyKV3tt67%2Bhj6eXcJX2lpq92TUMeQ%3D%7C77u%2FZEVab3NDNGZoQWhuOHRxelFuL0cKMTAwCgpuL3dqRlE9PQpwd01rRlE9PQowCgoKMAoxMDAKCjEwMAowCmFiYTJiZjdiLTcxZmEtNDk5OS04NWNlLWM0MDdmOTNlNWU4NgoK%7C3%7C4%7C1&d; path=/; expires=Sat, 29 Mar 2042 02:12:46 -0000; secure; HttpOnly, giu=nv=1&lv=2022-03-29T02%3A12%3A46Z; path=/; expires=Sat, 29 Mar 2042 02:12:46 -0000; secure; HttpOnly, csrf=t=SmORiECRgEm9Kj6O9HlXV7egqo5%2BA266NDl0Nu%2ByJeI%3D; path=/; expires=Sat, 29 Mar 2042 02:12:47 -0000; secure; HttpOnly, mc=3; path=/; secure; expires=Wed, 22 Mar 2023 21:19:27 GMT, m=1; domain=.www.gettyimages.com; path=/; expires=Fri, 05 Feb 2021 10:12:47 GMT
-x-request-id: 0A3303C8-3A02_0A337E7D-01BB_62426B1E_35CD9A0-0071-417
-x-runtime: 0.051229
+set-cookie: unisess=am80RzJYbVQ1NUFuTHA5c1VDSjFhSHpoRmN5STJzd1R5M214bFFFQXBCT040WHVWcXo3NHVQOVlPWWdvdjJjL1ozRlhDUFBUUURXRThRWFh6a0lEdFE9PS0tVUlkQnZZVEgwUkkyY05qdTZ4bHc4dz09--986cf4afdbc9582f11a67e2ce72fcd6375ab09b1; path=/; secure; HttpOnly, vis=vid=4f3c580e-49cd-473b-a7bf-ecc5e1e9d294; domain=.gettyimages.com; path=/; expires=Fri, 04 Apr 2042 05:00:46 -0000; secure, uac=t=eBKVudaJ2Ailxs9aSBjLB4WGYwF9T62po%2B7e9JQEG0Tc4Fxx%2FGX3x007x%2FBTovJlvNDRLNQHjVwvUGeG7FnARBm5SqL76H0co1r8P%2BI3zrz0FRe%2B2SlTLEnGbrtBhLRJwbgnd4ShVbdz6Wxkejyxd%2BeEQCj52x%2Fcb%2FXf844WV50%3D%7C77u%2FZDhZSW5TbUdDNm1aOUxmUnVJMGUKMTAwCgovZ3dzRlE9PQpCaFFzRlE9PQowCgoKMAoxMDAKCjEwMAowCjRmM2M1ODBlLTQ5Y2QtNDczYi1hN2JmLWVjYzVlMWU5ZDI5NAoK%7C3%7C4%7C1&d; path=/; expires=Fri, 04 Apr 2042 05:00:46 -0000; secure; HttpOnly, giu=nv=1&lv=2022-04-04T05%3A00%3A46Z; path=/; expires=Fri, 04 Apr 2042 05:00:46 -0000; secure; HttpOnly, csrf=t=NXHKFXQIfQG6Ui63IeQxCm%2BmfRyw9%2FaxL8A3%2B0XQQIQ%3D; path=/; expires=Fri, 04 Apr 2042 05:00:46 -0000; secure; HttpOnly, mc=3; path=/; secure; expires=Wed, 29 Mar 2023 00:07:26 GMT, m=1; domain=.www.gettyimages.com; path=/; expires=Thu, 11 Feb 2021 13:00:46 GMT
+x-request-id: 0A33015C-B834_0A337E7D-01BB_624A7B7E_75C12C4-0029-796
+x-runtime: 0.098293
 content-encoding: gzip
 x-backend: app_landing
-x-proxy-build: 1269353
-x-timing-wait: 89/0/0/54
+x-proxy-build: 1275086
+x-timing-wait: 2/0/0/100
 selected-fe: getty_frontend
 X-Cache: Miss from cloudfront
-Via: 1.1 29bea082286af4a231cfc553e1b23886.cloudfront.net (CloudFront)
+Via: 1.1 9fb7397504a65afc778db3eb0ee0bfa4.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: IAD79-C3
-X-Amz-Cf-Id: syTY4G9Nx-JuUEw9i2cLYH7XS2DvTo8YLLDZqCNo6tb_gyFBaaS7DQ==
+X-Amz-Cf-Id: 3DpdtNAzoEaBcpvFfLDVH7ElhMBmhKDjMoJfOoPZClcX2QlR2n1eFw==
 

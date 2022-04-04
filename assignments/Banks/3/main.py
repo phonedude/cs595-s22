@@ -1,6 +1,12 @@
 from io import StringIO
 import json
+from unittest import TestResult
 import requests
+from http.cookies import SimpleCookie
+
+
+
+
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:78.0) Gecko/20100101 Firefox/78.0",
@@ -39,36 +45,28 @@ with open('failed_sites.txt', 'w') as f:
             with open('responses/' + site + '.txt', 'w') as response_file:
                 r.history.append(r)
                 for response in r.history:
-                    total_cookies = total_cookies + len(response.cookies)
-                    # Loop through each cookie that has been sent by this site
-                    for cookie in response.cookies:
-                        # These if statements are used just to increment the counters for each attribute
+
+                    # If this reponse does not set any cookies then continue to next response
+                    if 'Set-Cookie' in response.headers:
+                        cookies = response.headers['Set-Cookie']
+                        total_cookies += len(response.raw.headers.getlist('Set-Cookie'))
+                        samesite += cookies.count('SameSite')
+                        lax += cookies.count('Lax')
+                        strict += cookies.count('Strict')
+                        ssnone += cookies.count('None')
+                        path_count += cookies.count('path')
+                        path_default = cookies.count('path=/')
+                        path_nondefault_count += (path_count - path_default)
+                        http_only += cookies.count('HttpOnly')
+                        secure += cookies.count ('Secure')
                     
-                        # For some reason the SameSite and HttpOnly attributes are stored
-                        # in a key called '_rest'. Probably a better way to do this but the documentation for cookies
-                        # in python is not that great (or maybe I'm dumb)
-                        if 'SameSite' in cookie.__dict__['_rest']:
-                            samesite += 1
-                            if cookie.__dict__['_rest']['SameSite'] == 'Lax':
-                                lax += 1
-                            elif cookie.__dict__['_rest']['SameSite'] == 'Strict':
-                                strict += 1
-                            elif cookie.__dict__['_rest']['SameSite'] == 'None':
-                                ssnone += 1
-                        if 'HttpOnly' in cookie.__dict__['_rest']:
-                            http_only += 1
                     
-                        if cookie.secure:
-                            secure += 1
-                        if cookie.path is not None:
-                            path_count += 1
-                            if cookie.path is not '/':
-                                path_nondefault_count += 1
-                    # sites is a list of dictionaries. Each dictionary contains relevant information for one site
-                    #total_cookies += len(response.cookies)
-                    
-                    response_file.write("HTTP " + str(response.status_code) + '\n' + response.url + '\n')
+                    response_file.write("HTTP/" + str(response.raw.version)[0] + "." + str(response.raw.version)[1] + " " + str(response.status_code) + " " + response.reason + '\n')
                     for item in response.headers:
+                        if item == 'Set-Cookie':
+                            for i in response.raw.headers.getlist('Set-Cookie'):
+                                response_file.write('Set-Cookie: ' + i + '\n')
+                            continue
                         response_file.write(item + ": " + response.headers[item] + '\n')
                     response_file.write('\n')
             

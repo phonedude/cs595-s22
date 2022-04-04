@@ -1,29 +1,29 @@
-HTTP 302
-http://nationalgeographic.com/
-Date: Tue, 29 Mar 2022 02:12:56 GMT
+HTTP/1.1 302 Moved Temporarily
+Date: Mon, 04 Apr 2022 05:00:57 GMT
 Content-Type: text/plain
 Content-Length: 13
 Connection: keep-alive
 Location: https://www.nationalgeographic.com/
 Access-Control-Allow-Origin: *
 
-HTTP 200
-https://www.nationalgeographic.com/
+HTTP/1.1 200 OK
 Content-Type: text/html; charset=utf-8
-Content-Length: 46864
+Content-Length: 46560
 Connection: keep-alive
-Date: Tue, 29 Mar 2022 02:12:50 GMT
+Date: Mon, 04 Apr 2022 05:00:21 GMT
 Server: nginx/1.20.1
-Expires: Tue, 29 Mar 2022 02:13:14 GMT
-Last-Modified: Tue, 29 Mar 2022 02:13:14 GMT
+Expires: Mon, 04 Apr 2022 05:01:04 GMT
+Last-Modified: Mon, 04 Apr 2022 05:01:04 GMT
 Content-Encoding: gzip
-Via: 1.1 varnish-v4, 1.1 72b77c557ac4c265c32d99bdef4e9d6a.cloudfront.net (CloudFront)
-Cache-Control: max-age=25
+Via: 1.1 varnish-v4, 1.1 11e42b3facdb2abb175876ba0e4b97f8.cloudfront.net (CloudFront)
+Cache-Control: max-age=44
 Accept-Ranges: bytes
-Set-Cookie: country=us; path=/;, region=ccpa; path=/; Expires=Tue, 05 Apr 2022 02:12:50 GMT;, _dcf=1; path=/; Expires=Tue, 05 Apr 2022 02:12:50 GMT;
+Set-Cookie: country=us; path=/;
+Set-Cookie: region=ccpa; path=/; Expires=Mon, 11 Apr 2022 05:00:21 GMT;
+Set-Cookie: _dcf=1; path=/; Expires=Mon, 11 Apr 2022 05:00:21 GMT;
 Vary: Accept-Encoding
 X-Cache: Hit from cloudfront
 X-Amz-Cf-Pop: IAD79-C3
-X-Amz-Cf-Id: ER1lwtb6bsu4ftIM-RGj1X5uWDYEYpnF6CM3G9GQ7Q17dobdoClTXg==
-Age: 6
+X-Amz-Cf-Id: QRzCJUtU2BFSNlg2GIDWxC59s81RNZ5n0_CE9qp1gEXPiL7iKzuEYA==
+Age: 36
 

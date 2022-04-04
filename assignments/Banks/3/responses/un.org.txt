@@ -1,35 +1,31 @@
-HTTP 302
-http://un.org/
+HTTP/1.1 302 Found : Moved Temporarily
 Location: https://un.org/
 Connection: close
 Cache-Control: no-cache
 Pragma: no-cache
 
-HTTP 302
-https://un.org/
+HTTP/1.1 302 Found : Moved Temporarily
 Location: http://www.un.org/
 Connection: close
 Cache-Control: no-cache
 Pragma: no-cache
 
-HTTP 302
-http://www.un.org/
+HTTP/1.1 302 Found : Moved Temporarily
 Location: https://www.un.org/
 Connection: close
 Cache-Control: no-cache
 Pragma: no-cache
 
-HTTP 200
-https://www.un.org/
-Date: Tue, 29 Mar 2022 02:13:04 GMT
+HTTP/1.1 200 OK
+Date: Mon, 04 Apr 2022 05:01:04 GMT
 Server: Apache
 X-Drupal-Cache: HIT
-Etag: "1648519967-0"
+Etag: "1649048401-0"
 Cache-Control: public, max-age=3600
-Last-Modified: Tue, 29 Mar 2022 02:12:47 GMT
+Last-Modified: Mon, 04 Apr 2022 05:00:01 GMT
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie
-Keep-Alive: timeout=5, max=32
+Keep-Alive: timeout=5, max=39
 Connection: Keep-Alive
 Content-Type: text/html; charset=UTF-8
 Strict-Transport-Security: max-age=31536000; includeSubDomains

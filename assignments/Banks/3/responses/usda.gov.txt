@@ -1,25 +1,22 @@
-HTTP 302
-http://usda.gov/
+HTTP/1.0 302 Moved Temporarily
 Location: https://usda.gov/
 Server: BigIP
 Connection: Keep-Alive
 Content-Length: 0
 
-HTTP 302
-https://usda.gov/
-Date: Tue, 29 Mar 2022 02:13:05 GMT
+HTTP/1.1 302 Found
+Date: Mon, 04 Apr 2022 05:01:05 GMT
 Content-Type: text/html; charset=iso-8859-1
 Content-Length: 205
 Connection: keep-alive
 Cache-Control: public, max-age=3600
 Location: https://www.usda.gov/
-X-Varnish: 2998523 3476907
-Age: 14
+X-Varnish: 6262691 6262642
+Age: 28
 Via: 1.1 varnish-v4
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 
-HTTP 200
-https://www.usda.gov/
+HTTP/1.1 200 OK
 Content-Type: text/html; charset=UTF-8
 X-XSS-Protection: 1; mode=block
 Content-Security-Policy: style-src 'self' 'unsafe-inline' *.gov;
@@ -29,18 +26,18 @@ X-UA-Compatible: IE=edge
 Content-Language: en
 X-Frame-Options: SAMEORIGIN
 Permissions-Policy: interest-cohort=()
-Last-Modified: Tue, 29 Mar 2022 00:09:08 GMT
-ETag: "1648512548"
+Last-Modified: Mon, 04 Apr 2022 02:08:36 GMT
+ETag: "1649038116"
 X-Generator: Drupal 9 (https://www.drupal.org)
 X-Drupal-Cache: MISS
-X-Varnish: 532751 137872
+X-Varnish: 859045 169123
 Accept-Ranges: bytes
 Content-Length: 0
-Cache-Control: public, max-age=297
-Expires: Tue, 29 Mar 2022 02:18:02 GMT
-Date: Tue, 29 Mar 2022 02:13:05 GMT
+Cache-Control: public, max-age=116
+Expires: Mon, 04 Apr 2022 05:03:02 GMT
+Date: Mon, 04 Apr 2022 05:01:06 GMT
 Connection: keep-alive
 Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
 X-Content-Security-Policy: upgrade-insecure-requests;
-Set-Cookie: ak_bmsc=8AD89CDD825692A7BE74A283E8E454F8~000000000000000000000000000000~YAAQRL73SEkUfb9/AQAAB7ly0w+p3nlkV4N79t4xAm3V0UPIv0dAuKZLjhnWBStr1dUjAAAsNJBUtmyT5vsT+ReYlwNE3rTVLpJvrKl5EYVlzMY0txfXdAAogmJrsff5W7PPPiJ1Fjsdb9vs/flMcB/MT47GEzGmjG3mP49j6gb2c3NhWtswi6xAxVaahJVGn8Uv9m5l2zIb+B3vmkSeymXBeQX68WYZdsogtbpPgrbdmheh0qZuuBV759aIVbTMXP9IRx79DqI4AqpdUTGpO433bH9Gq8WQHrsHVYEKIc6wHEjYWDp/c1v1Rt57liygm4pKW9tflxhCFtMp0BOWbOKB9YozgF81rc0O871ENrvUqI9bCIbRVg==; Domain=.usda.gov; Path=/; Expires=Tue, 29 Mar 2022 04:13:05 GMT; Max-Age=7200; HttpOnly
+Set-Cookie: ak_bmsc=DE837EE10178939DF3E5640848213F12~000000000000000000000000000000~YAAQXtcwF7fINON/AQAAubLy8g8Yr0jJnOBKI40iwKkrwboKFWVmXzySVlx7go43r3rrLzjlgKZm0xEoqG+0zUfzI5CT0vq49jC/VN+3WpUvCSB3jE7g87R9KwHJPT7aufIPNIOf6lsyiPqHHNdXPhAsJcAt0gk06SXXdCZdey2EZ8Zi5YM43jUhVKy1XrQKzjLL7HZBtuVu/uUokxLsBGTGqeSvpdMQG3HAAPdqc9VgQ1HqXVFyC/XbkuG5FL8NB/QB9UFa/veBJVFLnZDyH65Ki7pa7Y1W+cfUg95wyECjx6qLGUF3oqyKfqjnkKeO1vczKtuwi53F4DjnoBb+1wwytzpP+5TJR/EIGW7nzbW6lfeabTBr0Q==; Domain=.usda.gov; Path=/; Expires=Mon, 04 Apr 2022 07:01:06 GMT; Max-Age=7200; HttpOnly
 

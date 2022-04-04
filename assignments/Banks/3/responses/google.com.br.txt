@@ -1,24 +1,23 @@
-HTTP 301
-http://google.com.br/
+HTTP/1.1 301 Moved Permanently
 Location: http://www.google.com.br/
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 29 Mar 2022 02:12:48 GMT
-Expires: Thu, 28 Apr 2022 02:12:48 GMT
+Date: Mon, 04 Apr 2022 05:00:47 GMT
+Expires: Wed, 04 May 2022 05:00:47 GMT
 Cache-Control: public, max-age=2592000
 Server: gws
 Content-Length: 222
 X-XSS-Protection: 0
 X-Frame-Options: SAMEORIGIN
 
-HTTP 200
-http://www.google.com.br/
+HTTP/1.1 200 OK
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 29 Mar 2022 02:12:48 GMT
+Date: Mon, 04 Apr 2022 05:00:47 GMT
 Server: gws
 X-XSS-Protection: 0
 X-Frame-Options: SAMEORIGIN
 Transfer-Encoding: chunked
-Expires: Tue, 29 Mar 2022 02:12:48 GMT
+Expires: Mon, 04 Apr 2022 05:00:47 GMT
 Cache-Control: private
-Set-Cookie: 1P_JAR=2022-03-29-02; expires=Thu, 28-Apr-2022 02:12:48 GMT; path=/; domain=.google.com.br; Secure; SameSite=none
+Set-Cookie: 1P_JAR=2022-04-04-05; expires=Wed, 04-May-2022 05:00:47 GMT; path=/; domain=.google.com.br; Secure; SameSite=none
+Set-Cookie: AEC=AVQQ_LB2trIjVB1tWby2WMfmJoG9vBcdN00aI2U1oQwofUYjhVYaRkzqh1U; expires=Sat, 01-Oct-2022 05:00:47 GMT; path=/; domain=.google.com.br; Secure; HttpOnly; SameSite=lax
 

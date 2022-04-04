@@ -1,30 +1,28 @@
-HTTP 301
-http://globo.com/
-Date: Tue, 29 Mar 2022 02:12:47 GMT
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 04 Apr 2022 05:00:46 GMT
 Content-Type: text/html
 Content-Length: 178
 Connection: keep-alive
 Cache-Control: max-age=600
 Location: https://www.globo.com/
 
-HTTP 200
-https://www.globo.com/
-Date: Tue, 29 Mar 2022 02:12:47 GMT
+HTTP/1.1 200 OK
+Date: Mon, 04 Apr 2022 05:00:47 GMT
 Content-Type: text/html; charset=UTF-8
 Connection: keep-alive
 X-Served-From: Show Services
 Content-Encoding: gzip
-Expires: Tue, 29 Mar 2022 02:12:57 GMT
+Expires: Mon, 04 Apr 2022 05:00:47 GMT
 Cache-Control: max-age=10
 X-XSS-Protection: 1; mode=block
-X-Request-Id: 18e7413e-fc03-488d-b059-6491e53e7bf4
+X-Request-Id: 40333bf9-1739-4e61-98c6-cbf040a5b07e
 Content-Security-Policy: upgrade-insecure-requests
 X-Content-Type-Options: nosniff
 X-Mobile: desktop
 Show-Page-Version: 0
-Age: 0
+Age: 9
 Vary: X-Forwarded-Proto, Accept-Encoding, User-Agent, Wall-Subscription-Level
-X-Bip: 584910166 ra02 01 05
+X-Bip: 728598488 ra02 01 05
 Via: 2.0 CachOS
 Accept-Ranges: bytes
 X-Thanos: 0AB15007

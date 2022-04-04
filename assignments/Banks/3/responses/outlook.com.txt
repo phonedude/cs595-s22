@@ -1,74 +1,74 @@
-HTTP 301
-http://outlook.com/
+HTTP/1.1 301 Moved Permanently
 Cache-Control: no-cache
 Pragma: no-cache
 Content-Length: 0
 Location: https://outlook.com/
 Server: Microsoft-IIS/10.0
-request-id: 0983c74e-8fb4-445e-3226-444c60aa09c8
-X-FEServer: CY4PR18CA0025, CY4PR18CA0025
-X-RequestId: bc5f6192-0a2c-4704-bea3-546df7e3179b
-MS-CV: TseDCbSPXkQyJkRMYKoJyA.0
+request-id: b05a80d7-56cb-0642-ac7b-56d17825002f
+X-FEServer: DM5PR12CA0060, DM5PR12CA0060
+X-RequestId: e72a5b24-203f-40ec-8fa4-26eb2510c59b
+MS-CV: 14BasMtWQgase1bReCUALw.0
 X-Powered-By: ASP.NET
-Date: Tue, 29 Mar 2022 02:12:58 GMT
+Date: Mon, 04 Apr 2022 05:00:56 GMT
 Connection: close
 
-HTTP 301
-https://outlook.com/
+HTTP/1.1 301 Moved Permanently
 Cache-Control: no-cache
 Pragma: no-cache
 Content-Length: 0
 Location: https://www.outlook.com/owa/
 Server: Microsoft-IIS/10.0
-request-id: b7db80f7-3cd6-8182-536f-ef9583e18558
+request-id: f2b7ca33-4d55-87f0-09a1-05c9ea0c6120
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-X-FEServer: CY4PR18CA0039, CY4PR18CA0039
-X-RequestId: f5629265-ef7f-4b91-b88b-6247b73f461d
-MS-CV: 94Dbt9Y8goFTb++Vg+GFWA.0
+X-FEServer: DM5PR12CA0054, DM5PR12CA0054
+X-RequestId: 88895aa9-5911-44e5-8daa-7db2e5e70993
+MS-CV: M8q38lVN8IcJoQXJ6gxhIA.0
 X-Powered-By: ASP.NET
-Date: Tue, 29 Mar 2022 02:12:58 GMT
+Date: Mon, 04 Apr 2022 05:00:56 GMT
 Connection: close
 
-HTTP 301
-https://www.outlook.com/owa/
+HTTP/1.1 301 Moved Permanently
 Cache-Control: no-cache
 Pragma: no-cache
 Content-Length: 0
 Location: https://outlook.live.com/owa/
 Server: Microsoft-IIS/10.0
-request-id: ae2243c2-cae4-3998-d8ec-74be1b8f0163
+request-id: d92cf23c-bb4d-5ec7-2bec-0ba2127c727d
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-X-FEServer: BL1PR13CA0403, BL1PR13CA0403
-X-RequestId: 9b20561a-46df-4aff-973f-8050b367fe90
-Date: Tue, 29 Mar 2022 02:12:58 GMT
+X-FEServer: BL1PR13CA0240, BL1PR13CA0240
+X-RequestId: 61755019-5877-4a79-b5da-1150267fad91
+X-FEProxyInfo: BL1PR13CA0240.NAMPRD13.PROD.OUTLOOK.COM
+X-FEEFZInfo: MNZ
+Date: Mon, 04 Apr 2022 05:00:57 GMT
 Connection: close
 
-HTTP 440
-https://outlook.live.com/owa/
+HTTP/1.1 440 Login Timeout
 Content-Length: 154
 Content-Type: text/html; charset=utf-8
 Server: Microsoft-IIS/10.0
-request-id: 3d6aa37b-c470-430e-6ed7-a74aef6c1380
+request-id: b7452f55-e81c-28d6-7310-46862dc74ab2
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Alt-Svc: h3=":443",h3-29=":443"
-X-CalculatedFETarget: BN0PR07CU001.internal.outlook.com
+X-CalculatedFETarget: DS7PR03CU012.internal.outlook.com
 X-BackEndHttpStatus: 440, 440
-Set-Cookie: RoutingKeyCookie=; expires=Sun, 29-Mar-1992 02:12:58 GMT; path=/; secure, HostSwitchPrg=; expires=Sun, 29-Mar-1992 02:12:58 GMT; path=/; secure, OptInPrg=; expires=Sun, 29-Mar-1992 02:12:58 GMT; path=/; secure
-X-FEProxyInfo: BN0PR07CA0005.NAMPRD07.PROD.OUTLOOK.COM
-X-CalculatedBETarget: BN6PR13MB3105.namprd13.prod.outlook.com
-X-OWA-DiagnosticsInfo: 2;0;0
+Set-Cookie: RoutingKeyCookie=; expires=Sat, 04-Apr-1992 05:00:57 GMT; path=/; secure
+Set-Cookie: HostSwitchPrg=; expires=Sat, 04-Apr-1992 05:00:57 GMT; path=/; secure
+Set-Cookie: OptInPrg=; expires=Sat, 04-Apr-1992 05:00:57 GMT; path=/; secure
+X-FEProxyInfo: DS7PR03CA0347.NAMPRD03.PROD.OUTLOOK.COM
+X-CalculatedBETarget: DM5PR03MB2443.namprd03.PROD.OUTLOOK.COM
+X-OWA-DiagnosticsInfo: 1;0;0
 X-IIDs: 0
-X-BackEnd-Begin: 2022-03-29T02:12:58.843
-X-BackEnd-End: 2022-03-29T02:12:58.843
-X-DiagInfo: BN6PR13MB3105
-X-BEServer: BN6PR13MB3105
+X-BackEnd-Begin: 2022-04-04T05:00:57.872
+X-BackEnd-End: 2022-04-04T05:00:57.872
+X-DiagInfo: DM5PR03MB2443
+X-BEServer: DM5PR03MB2443
 X-UA-Compatible: IE=EmulateIE7
 X-RUM-Validated: 1
 X-Proxy-RoutingCorrectness: 1
 X-Proxy-BackendServerStatus: 440
-X-FEServer: BN0PR07CA0005, BL1PR13CA0148
+X-FEServer: DS7PR03CA0347, BLAPR03CA0042
 Report-To: {"group":"NelOfficeUpload1","max_age":7200,"endpoints":[{"url":"https://exo.nel.measure.office.net/api/report?TenantId=&FrontEnd=Cafe&DestinationEndpoint=MNZ"}],"include_subdomains":true}
 NEL: {"report_to":"NelOfficeUpload1","max_age":7200,"include_subdomains":true,"failure_fraction":1.0,"success_fraction":0.01}
 X-FirstHopCafeEFZ: MNZ
-Date: Tue, 29 Mar 2022 02:12:58 GMT
+Date: Mon, 04 Apr 2022 05:00:57 GMT
 

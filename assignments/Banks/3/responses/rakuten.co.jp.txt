@@ -1,13 +1,11 @@
-HTTP 301
-http://rakuten.co.jp/
-Date: Tue, 29 Mar 2022 02:13:01 GMT
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 04 Apr 2022 05:00:59 GMT
 Server: Apache
 Location: https://www.rakuten.co.jp/
 Connection: close
 Content-Type: text/html; charset=iso-8859-1
 
-HTTP 200
-https://www.rakuten.co.jp/
+HTTP/1.1 200 OK
 Server: Apache
 Pragma: no-cache
 Cache-Control: private
@@ -16,8 +14,10 @@ x-xss-protection: 1; mode=block
 x-frame-options: DENY
 Content-Type: text/html
 Content-Length: 0
-Date: Tue, 29 Mar 2022 02:13:01 GMT
+Date: Mon, 04 Apr 2022 05:01:00 GMT
 Connection: keep-alive
-Set-Cookie: Apache=7a48e2aa.5db51f7e7707c; path=/; expires=Wed, 29-Mar-23 02:13:01 GMT, wPzd=cnt%3DJP; expires=Wed, 29-Mar-2023 02:13:01 GMT; path=/; domain=www.rakuten.co.jp, ak_bmsc=A890245E48972555243EB4EC36883DB1~000000000000000000000000000000~YAAQVutwaDCdTcZ/AQAATKpy0w84lfagYx82VGeo3GnimsJKgrtvWrtw16NPDzOKKUWmIplb0u2EJRLEvhabz4peKRasmR73tDJZ6u2oHbinb3wE9eqNO0dqawk6vew4EsHctPjve3Q57KMe6D4VkdAb63KFlvTYg1SqIbGvqztEPK0CKyX0bgHStFCodMc2WcW7/QNhTl3zFy+2zqMB8VkhclcbUxYwjxOsFpTQJqmNiQguCGGQrOuyagqanIT7QsLvtWUd02KMku9QEHlrDNAVfQnTmawWw2rdWlYB46JRkJR9FpadtzME0Xl3FQM8gLDTpiKlS8GYFhD4YEhn2po3b5Mik8SzRK8fL9sYlqvpmGMm0YR19k76XVIC; Domain=.rakuten.co.jp; Path=/; Expires=Tue, 29 Mar 2022 04:13:01 GMT; Max-Age=7200; HttpOnly
+Set-Cookie: Apache=7a6f409c.5dbcd03b482d9; path=/; expires=Tue, 04-Apr-23 05:01:00 GMT
+Set-Cookie: wPzd=cnt%3DJP; expires=Tue, 04-Apr-2023 05:01:00 GMT; path=/; domain=www.rakuten.co.jp
+Set-Cookie: ak_bmsc=5D6FE70FE5BDCE6591AC02F4F0DDFC0C~000000000000000000000000000000~YAAQBt/aF/ooteJ/AQAAP53y8g+4vVcwqZtEm340QIs+/Hmcp3g+Zfm4pr2nGJLJQG2b1lcj29P7u+w2nAKOB7am5MwlutGXUkaboIa4taYbluUxhFvHa/q/TaDCtpUO1WEZC7WnkxZ9ufP/3aULsIhbOTaKzOevTcMyJwSBFR+xOVpqio7WFae3LQ5wT6FI/S4XJAZ+k2GFtFQHwk/dQcJ7337lcwxpZDScNmzN7SPumkrfT4KcMth1166KLKNELZq55Spc4Ouy9OLPDzxWodZji9ii05SsQTNLhCRVcrPgZg/O18of0wc82sn+4M1P2SOh1VQEmRHhKaiYhN6V75qDIviEzKUrA+gCxP7LS266v4nmuUzDLBaTGcTW; Domain=.rakuten.co.jp; Path=/; Expires=Mon, 04 Apr 2022 07:01:00 GMT; Max-Age=7200; HttpOnly
 Vary: User-Agent
 

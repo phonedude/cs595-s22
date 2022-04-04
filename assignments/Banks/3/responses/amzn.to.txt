@@ -1,10 +1,9 @@
-HTTP 301
-http://amzn.to/
+HTTP/1.1 301 Moved Permanently
 Server: nginx
-Date: Tue, 29 Mar 2022 02:10:34 GMT
+Date: Mon, 04 Apr 2022 05:00:34 GMT
 Content-Type: text/html; charset=UTF-8
 Content-Length: 0
-Set-Cookie: anon_u=cHN1X18zNmZkNjllNi04OTdkLTRlZWQtYjkxYS1hMjk0ZTliZWJmYzg=|1648519834|ced6a3a1c31b673dfefdf2d8ae777e4f5e65d5c0; Domain=bitly.com; expires=Sun, 25 Sep 2022 02:10:34 GMT; httponly; Path=/; secure
+Set-Cookie: anon_u=cHN1X181NTE4NjM3Ny02Y2UyLTQzNzktYjFjNC1kODlhNjY3OWVkMWE=|1649048434|db28e76ebd0d82cdf827d1c1a1dea9dd54aec9b8; Domain=bitly.com; expires=Sat, 01 Oct 2022 05:00:34 GMT; httponly; Path=/; secure
 Strict-Transport-Security: max-age=1209600
 Location: http://www.amazon.com/
 Pragma: no-cache
@@ -13,27 +12,25 @@ X-Frame-Options: DENY
 P3p: CP="CAO PSA OUR"
 Via: 1.1 google
 
-HTTP 301
-http://www.amazon.com/
+HTTP/1.1 301 Moved Permanently
 Server: CloudFront
-Date: Tue, 29 Mar 2022 02:10:34 GMT
+Date: Mon, 04 Apr 2022 05:00:34 GMT
 Content-Type: text/html
 Content-Length: 183
 Connection: keep-alive
 Location: https://www.amazon.com/
 X-Cache: Redirect from cloudfront
-Via: 1.1 1019c7748e9bd9371b8cbc3777f0a40e.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: IAD79-C2
-X-Amz-Cf-Id: u0XGkrIK-SCPMpAeRmWHWJKw7RM_LLFF87vNDq1J59INk7XvckgjmQ==
+Via: 1.1 09028890675e48687e2855f3bdad98ea.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: trdPhgpCCE1uZPbbSUYUZjO2EgdhJfpY4lrKDclpEwTnHn2Ove91yg==
 
-HTTP 405
-https://www.amazon.com/
+HTTP/1.1 405 Method Not Allowed
 Content-Type: text/html;charset=UTF-8
 Content-Length: 0
 Connection: keep-alive
 Server: Server
-Date: Tue, 29 Mar 2022 02:10:34 GMT
-x-amz-rid: TDVGJX61X0ZGRARR9TPX
+Date: Mon, 04 Apr 2022 05:00:34 GMT
+x-amz-rid: C1HSJ9NHSK5JCDKQY95R
 Set-Cookie: skin=noskin; path=/; domain=.amazon.com
 Cache-Control: no-cache
 Pragma: no-cache
@@ -44,7 +41,7 @@ Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
 X-Frame-Options: SAMEORIGIN
 Permissions-Policy: interest-cohort=()
 X-Cache: Error from cloudfront
-Via: 1.1 495532b0efe43a0c4d32da9e6929277e.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: IAD79-C2
-X-Amz-Cf-Id: lvO81SzguLzGaf4KgQHEqaPy4OxyC3sQ8-mAxTGLWqFT5XkEvlD-eA==
+Via: 1.1 6f18ca2e5109f8aa7cd1212932dc4e9a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: YVFglQnwmOP9dn6YIEj2Uc2rZxvbZhKiAqhPdqGYAbTmt8-eH46hyQ==
 
