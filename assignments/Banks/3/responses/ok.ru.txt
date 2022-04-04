@@ -1,0 +1,19 @@
+HTTP/1.1 200 
+Server: Apache
+Date: Mon, 04 Apr 2022 05:00:57 GMT
+Content-Type: text/html;charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: bci=-5730665194098809615; Domain=.ok.ru; Expires=Sat, 22-Apr-2090 08:15:04 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: _statid=1d6b2e54-f85c-4960-bc2c-96fa9eadbca6; Domain=.ok.ru; Expires=Sat, 22-Apr-2090 08:15:04 GMT; Path=/; Secure; HttpOnly
+Content-Security-Policy: default-src data: 'self' 'unsafe-inline' 'unsafe-eval' ok.ru *.ok.ru odnoklassniki.ru *.odnoklassniki.ru mycdn.me http://*.mycdn.me https://*.mycdn.me wss://ad.mail.ru *.mail.ru *.imgsmail.ru *.mradx.net *.serving-sys.com *.googleapis.com *.gstatic.com www.google.com https://api-maps.yandex.ru yastatic.net yandex.st *.doubleverify.com *.adsafeprotected.com https://consentmanager.mgr.consensu.org https://cdn.consentmanager.mgr.consensu.org https://football.sportmail.ru *.google.ru *.google.com *.googlesyndication.com blob:;  script-src 'unsafe-inline' 'unsafe-eval' *.mail.ru https://*.mail.ru *.imgsmail.ru *.mradx.net ok.ru *.ok.ru odnoklassniki.ru *.odnoklassniki.ru mycdn.me http://*.mycdn.me https://*.mycdn.me mc.yandex.ru an.yandex.ru yastatic.net yandex.st *.google-analytics.com api-maps.yandex.ru https://api-maps.yandex.ru https://clck.yandex.ru *.googleapis.com *.gstatic.com www.google.com www.youtube.com https://www.youtube.com *.ytimg.com https://*.ytimg.com *.doubleverify.com *.dvtps.com *.doubleclick.net *.googletagservices.com *.googlesyndication.com *.googleadservices.com *.goodgame.ru https://*.goodgame.ru https://*.moatads.com *.adlooxtracking.com *.adlooxtracking.ru *.adsafeprotected.com *.serving-sys.com *.serving-sys.ru *.weborama.fr *.weborama-tech.ru https://enterprise.api-maps.yandex.ru https://suggest-maps.yandex.ru https://*.hit.gemius.pl https://consentmanager.mgr.consensu.org https://cdn.consentmanager.mgr.consensu.org https://gum.criteo.com https://football.sportmail.ru *.googletagmanager.com connect.facebook.net *.google.ru *.google.com *.googlesyndication.com yandex.ru;  worker-src blob: 'self';  connect-src * wss: blob:;  font-src * data: blob:; frame-src * blob: 'self';  img-src * data: blob: about:;  media-src * data: blob:;  object-src *;  report-uri /csp/report;
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000;includeSubdomains;preload
+Rendered-Blocks: HtmlPage
+X-ScT: true
+Content-Encoding: gzip
+

@@ -1,0 +1,47 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Mon, 04 Apr 2022 05:00:34 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 0
+Set-Cookie: anon_u=cHN1X181NTE4NjM3Ny02Y2UyLTQzNzktYjFjNC1kODlhNjY3OWVkMWE=|1649048434|db28e76ebd0d82cdf827d1c1a1dea9dd54aec9b8; Domain=bitly.com; expires=Sat, 01 Oct 2022 05:00:34 GMT; httponly; Path=/; secure
+Strict-Transport-Security: max-age=1209600
+Location: http://www.amazon.com/
+Pragma: no-cache
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-Frame-Options: DENY
+P3p: CP="CAO PSA OUR"
+Via: 1.1 google
+
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Mon, 04 Apr 2022 05:00:34 GMT
+Content-Type: text/html
+Content-Length: 183
+Connection: keep-alive
+Location: https://www.amazon.com/
+X-Cache: Redirect from cloudfront
+Via: 1.1 09028890675e48687e2855f3bdad98ea.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: trdPhgpCCE1uZPbbSUYUZjO2EgdhJfpY4lrKDclpEwTnHn2Ove91yg==
+
+HTTP/1.1 405 Method Not Allowed
+Content-Type: text/html;charset=UTF-8
+Content-Length: 0
+Connection: keep-alive
+Server: Server
+Date: Mon, 04 Apr 2022 05:00:34 GMT
+x-amz-rid: C1HSJ9NHSK5JCDKQY95R
+Set-Cookie: skin=noskin; path=/; domain=.amazon.com
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Allow: GET, POST, PUT, DELETE
+Vary: Accept-Encoding,User-Agent,Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+X-Cache: Error from cloudfront
+Via: 1.1 6f18ca2e5109f8aa7cd1212932dc4e9a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: YVFglQnwmOP9dn6YIEj2Uc2rZxvbZhKiAqhPdqGYAbTmt8-eH46hyQ==
+

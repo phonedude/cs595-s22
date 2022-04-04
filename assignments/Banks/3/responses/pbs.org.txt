@@ -1,0 +1,41 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Mon, 04 Apr 2022 05:00:58 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: http://www.pbs.org/
+X-PBS-fwsrvname: fwcacheproxy1
+
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Mon, 04 Apr 2022 05:00:58 GMT
+Content-Type: text/html
+Content-Length: 183
+Connection: keep-alive
+Location: https://www.pbs.org/
+X-Cache: Redirect from cloudfront
+Via: 1.1 749e1450fdc7cac18bb91a34e80053aa.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: iL7P99ee1pibyqvw0LZfbcYrVlNHBsyO72zlXTgiz23I6KGQn7M2og==
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Date: Mon, 04 Apr 2022 04:51:17 GMT
+Expires: Mon, 04 Apr 2022 05:01:17 GMT
+Cache-Control: max-age=600
+Content-Security-Policy: script-src 'self' *.pbs.org *.googlesyndication.com adservice.google.com connect.facebook.net fundingchoicesmessages.google.com js-agent.newrelic.com sb.scorecardresearch.com securepubads.g.doubleclick.net www.google-analytics.com www.googletagmanager.com *.googletagservices.com 'unsafe-inline' 'unsafe-eval'; default-src 'self' *.pbs.org; frame-src 'self' *.pbs.org *.doubleclick.net *.googlesyndication.com www.facebook.com www.google.com *.googletagservices.com; img-src 'self' data: *.pbs.org *.doubleclick.net *.googlesyndication.com sb.scorecardresearch.com www.googletagmanager.com www.facebook.com graph.facebook.com platform-lookaside.fbsbx.com *.fbsbx.com *.fbcdn.net www.google-analytics.com www.google.com *.googleusercontent.com tags.w55c.net; connect-src 'self' *.pbs.org *.doubleclick.net *.googlesyndication.com *.eloqua.com csi.gstatic.com fundingchoicesmessages.google.com www.google-analytics.com; style-src 'self' *.pbs.org 'unsafe-inline'
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer-when-downgrade
+X-Frame-Options: DENY
+ETag: W/"ffd45df242b58d03bc5fba9c50f1ba57"
+Content-Encoding: gzip
+Vary: Accept-Encoding,Cloudfront-Viewer-Country,Cookie
+X-Cache: Hit from cloudfront
+Via: 1.1 22512dca1de1fae848b2509fed0309aa.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: DFUyXQP9b0dEVefBHxSWZGFfG4512YquuLv0VLVPpUj9-k1LKsurag==
+Age: 581
+

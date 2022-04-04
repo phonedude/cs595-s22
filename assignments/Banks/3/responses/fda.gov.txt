@@ -1,0 +1,35 @@
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://fda.gov/
+Date: Mon, 04 Apr 2022 05:00:45 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.fda.gov/
+Date: Mon, 04 Apr 2022 05:00:45 GMT
+Connection: keep-alive
+Strict-Transport-Security: max-age=31536000
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Server: Apache
+X-Content-Type-Options: nosniff, nosniff
+Link: <http://www.fda.gov/>; rel="canonical", <http://www.fda.gov/>; rel="shortlink", <https://www.fda.gov/>; rel="alternate"; hreflang="en", <https://www.fda.gov/home>; rel="revision"
+X-UA-Compatible: IE=edge
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Last-Modified: Sun, 03 Apr 2022 23:26:23 GMT
+ETag: "1649028383"
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Cache-Control: public, max-age=8713
+Expires: Mon, 04 Apr 2022 07:25:58 GMT
+Date: Mon, 04 Apr 2022 05:00:45 GMT
+Content-Length: 12210
+Connection: keep-alive
+Strict-Transport-Security: max-age=31536000
+

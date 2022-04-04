@@ -1,0 +1,36 @@
+HTTP/1.1 302 Moved Temporarily
+Server: nginx
+Date: Mon, 04 Apr 2022 05:00:53 GMT
+Content-Type: text/html
+Content-Length: 154
+Location: http://line.me/en/
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Mon, 04 Apr 2022 05:00:53 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Location: https://line.me/en/
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 04 Apr 2022 05:00:54 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Last-Modified: Wed, 30 Mar 2022 03:08:19 GMT
+x-rgw-object-type: Normal
+x-amz-meta-s3cmd-attrs: md5:2afd3a129664497979621147b94b675b
+x-amz-storage-class: STANDARD
+Strict-Transport-Security: max-age=15768000
+Content-Encoding: gzip
+Cache-Control: public,max-age=300
+ETag: W/"2afd3a129664497979621147b94b675b"
+Vary: Origin
+X-Cache: Hit from cloudfront
+Via: 1.1 7bdbfc0a92d08678fa98f050e3369202.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: NRT57-P3
+X-Amz-Cf-Id: GUaSXzqq-9lJ1WRZNGuIZtl02U5H_hkGQk9tshzQW6F3xIpp4SA_bQ==
+Age: 60
+Set-Cookie: ldsuid=275f596b826633746d3748e1f3350451; path=/; expires=Sun, 03-Jul-22 05:00:54 GMT
+

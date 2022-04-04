@@ -1,0 +1,33 @@
+HTTP/1.1 301 Moved Permanently
+Server: Server
+Date: Mon, 04 Apr 2022 05:00:32 GMT
+Content-Type: text/html
+Content-Length: 163
+Connection: keep-alive
+Location: https://amazon.de/
+
+HTTP/1.1 301 Moved Permanently
+Server: Server
+Date: Mon, 04 Apr 2022 05:00:33 GMT
+Content-Type: text/html
+Content-Length: 163
+Connection: keep-alive
+Location: https://www.amazon.de/
+Permissions-Policy: interest-cohort=()
+
+HTTP/1.1 405 Method Not Allowed
+Connection: keep-alive
+server: Server
+date: Mon, 04 Apr 2022 05:00:33 GMT
+content-type: text/html;charset=UTF-8
+permissions-policy: interest-cohort=()
+x-amz-rid: A9QQ8FS0XNF5ZRFVYZST
+cache-control: no-cache
+pragma: no-cache
+expires: -1
+allow: GET, POST, PUT, DELETE
+vary: Accept-Encoding,User-Agent,Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+x-frame-options: SAMEORIGIN
+x-served-by: cache-iad-kcgs7200169-IAD
+

@@ -1,0 +1,35 @@
+HTTP/1.1 301 Moved Permanently
+Server: awselb/2.0
+Date: Mon, 04 Apr 2022 05:00:59 GMT
+Content-Type: text/html
+Content-Length: 134
+Connection: keep-alive
+Location: https://www.politico.com:443/
+
+HTTP/1.1 200 OK
+Date: Mon, 04 Apr 2022 05:00:59 GMT
+Content-Type: text/html;charset=UTF-8
+Connection: keep-alive
+Cache-Control: public, max-age=60, stale-while-revalidate=10, stale-if-error=86400, stale-if-error=604800
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+X-Varnish: 761904541 759561592
+Age: 55
+Via: 1.1 varnish (Varnish/6.3)
+X-Varnish-Cache: HIT
+CF-Cache-Status: HIT
+Last-Modified: Mon, 04 Apr 2022 05:00:04 GMT
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Set-Cookie: __cf_bm=Vgwp6PoQHjeCXDHlLTA3wzRFjef5XwTQfpkYraImOUo-1649048459-0-ATG8i5P7f7GYenL3xpvLyu4grc1lHWGG5JtmGyTltiwBQDhwtzVBtgt3GuqgSMF4RDlrgWSmCoMxb3zSFrskCk0=; path=/; expires=Mon, 04-Apr-22 05:30:59 GMT; domain=.www.politico.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cfruid=a93f59aef9e7e1aacb6b394f86323c1395c050d3-1649048459; path=/; domain=.www.politico.com; HttpOnly; Secure; SameSite=None
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2pTjNXNdRf9qfZhPjCO22YzaGyvdRsISgYuAymfnsH0HN5MQfFpOnPr16W9xF3%2FfALek5DURJ3Rn3sZTxQMfK%2Ffxn79aZrQLZ14u%2FtfPlKbQ95c%2F5ZiWjtpxnkHdrHOImoA%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6f677bc66f6181cf-IAD
+Content-Encoding: gzip
+

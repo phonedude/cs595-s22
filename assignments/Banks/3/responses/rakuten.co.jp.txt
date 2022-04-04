@@ -1,0 +1,23 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 04 Apr 2022 05:00:59 GMT
+Server: Apache
+Location: https://www.rakuten.co.jp/
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 200 OK
+Server: Apache
+Pragma: no-cache
+Cache-Control: private
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: DENY
+Content-Type: text/html
+Content-Length: 0
+Date: Mon, 04 Apr 2022 05:01:00 GMT
+Connection: keep-alive
+Set-Cookie: Apache=7a6f409c.5dbcd03b482d9; path=/; expires=Tue, 04-Apr-23 05:01:00 GMT
+Set-Cookie: wPzd=cnt%3DJP; expires=Tue, 04-Apr-2023 05:01:00 GMT; path=/; domain=www.rakuten.co.jp
+Set-Cookie: ak_bmsc=5D6FE70FE5BDCE6591AC02F4F0DDFC0C~000000000000000000000000000000~YAAQBt/aF/ooteJ/AQAAP53y8g+4vVcwqZtEm340QIs+/Hmcp3g+Zfm4pr2nGJLJQG2b1lcj29P7u+w2nAKOB7am5MwlutGXUkaboIa4taYbluUxhFvHa/q/TaDCtpUO1WEZC7WnkxZ9ufP/3aULsIhbOTaKzOevTcMyJwSBFR+xOVpqio7WFae3LQ5wT6FI/S4XJAZ+k2GFtFQHwk/dQcJ7337lcwxpZDScNmzN7SPumkrfT4KcMth1166KLKNELZq55Spc4Ouy9OLPDzxWodZji9ii05SsQTNLhCRVcrPgZg/O18of0wc82sn+4M1P2SOh1VQEmRHhKaiYhN6V75qDIviEzKUrA+gCxP7LS266v4nmuUzDLBaTGcTW; Domain=.rakuten.co.jp; Path=/; Expires=Mon, 04 Apr 2022 07:01:00 GMT; Max-Age=7200; HttpOnly
+Vary: User-Agent
+

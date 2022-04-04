@@ -1,0 +1,54 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 04 Apr 2022 05:01:08 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Mon, 04 Apr 2022 06:01:08 GMT
+Location: https://xda-developers.com/
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: 6f677bff4eb48227-IAD
+
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 04 Apr 2022 05:01:08 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Set-Cookie: PHPSESSID=2ft4di26lu7ghgr6it3ncbf2jm; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+X-Pingback: https://www.xda-developers.com/xmlrpc.php
+X-Redirect-By: WordPress
+Location: https://www.xda-developers.com/
+X-Nginx-Cache-Status: HIT
+X-Nginx-Device: DESKTOP
+X-Nginx-Geo: US
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: 6f677bff98db8f10-IAD
+
+HTTP/1.1 200 OK
+Date: Mon, 04 Apr 2022 05:01:08 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+X-Pingback: https://www.xda-developers.com/xmlrpc.php
+Link: <https://www.xda-developers.com/wp-json/>; rel="https://api.w.org/", <https://www.xda-developers.com/wp-json/wp/v2/pages/121727>; rel="alternate"; type="application/json"
+X-Nginx-Cache-Status: MISS
+X-Nginx-Device: DESKTOP
+X-Nginx-Geo: BR
+Last-Modified: Mon, 04 Apr 2022 04:59:36 GMT
+CF-Cache-Status: HIT
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: 6f677c0099a33817-IAD
+Content-Encoding: gzip
+

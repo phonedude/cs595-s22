@@ -1,0 +1,28 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 04 Apr 2022 05:00:58 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Mon, 04 Apr 2022 06:00:58 GMT
+Location: https://www.pcmag.com/
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 6f677bc229fbc17a-IAD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Mon, 04 Apr 2022 05:00:58 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Cache-Control: public, max-age=1800
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+CF-Cache-Status: HIT
+Age: 1504
+Last-Modified: Mon, 04 Apr 2022 04:35:54 GMT
+Expires: Mon, 04 Apr 2022 05:30:58 GMT
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 6f677bc2d93282c9-IAD
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
