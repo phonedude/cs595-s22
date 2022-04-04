@@ -159,10 +159,11 @@ clientapp.listen(CLIENT_PORT, function(){
 
 * Find a site from assignment 4 that allowed embedding.  In directory ```5.3```, include the necessary files to demonstrate your local HTML file being allowed to embed the remote site as well as your local server prohibiting the embedding. Rest of code is straightforward.
 
-We expiriment with the headers package from node and the inline script below to prevent framing of the site at port 3000 into port 5000.
+We use the helmet package from node to ensure Content Security Policy is set in the headers of ServerLocal.js
 ```node
-if (window !== top) top.location = window.location;
+app.use( helmet.contentSecurityPolicy() );
 ```
+
 ###### File overview
 [ServerLocal.js](5.3/ServerLocal.js) - Serves local.html
 [local.html](5.3/local.html) - attempts to embed the site served at port 3000 which has the framed external site
