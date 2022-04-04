@@ -1,0 +1,39 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Content-Length: 0
+Location: https://www.fandom.com/explore
+Accept-Ranges: bytes
+Date: Mon, 04 Apr 2022 05:01:06 GMT
+Connection: close
+X-Served-By: cache-iad-kiad7000086-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1649048467.852802,VS0,VE0
+Vary: Accept-Encoding
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 182115
+server: envoy
+cache-control: max-age=60,stale-while-revalidate=86400,stale-if-error=86400
+content-security-policy: upgrade-insecure-requests
+content-security-policy-report-only: default-src https: 'self' data: blob:; script-src https: 'self' data: 'unsafe-inline' 'unsafe-eval' blob:; style-src https: 'self' 'unsafe-inline' blob:; report-uri https://services.fandom.com/csp-logger/csp/upstream
+link: <https://www.fandom.com/wp-json/>; rel="https://api.w.org/", <https://www.fandom.com/?p=3211>; rel=shortlink
+content-encoding: gzip
+content-type: text/html; charset=UTF-8
+x-envoy-upstream-service-time: 196
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Mon, 04 Apr 2022 05:01:06 GMT
+Age: 441
+X-Served-By: cache-wk-sjc11420-SJC, cache-iad-kiad7000179-IAD
+X-Cache: HIT, HIT
+X-Cache-Hits: 9, 1
+X-Timer: S1649048467.907593,VS0,VE2
+Vary: Fastly-SSL, Fastly-SSL, Accept-Language,Geo-Region,Accept-Encoding
+Set-Cookie: wikia_beacon_id=foZb3t9JO0; domain=.fandom.com; path=/; expires=Sat, 01 Oct 2022 05:01:06 GMT; SameSite=None; Secure;
+Set-Cookie: wikia_session_id=bvEZ9Qc7oj; domain=.fandom.com; path=/; expires=Mon, 04 Apr 2022 05:31:06 GMT; SameSite=None; Secure;
+Set-Cookie: _b2=hZQDyCAL38.1649048466908; domain=.fandom.com; path=/; expires=Wed, 03 Apr 2024 05:01:06 GMT; SameSite=None; Secure;
+Set-Cookie: Geo={%22region%22:%22VA%22%2C%22country%22:%22US%22%2C%22continent%22:%22NA%22}; path=/; domain=.fandom.com; SameSite=None; Secure;
+

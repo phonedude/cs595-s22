@@ -1,0 +1,27 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Mon, 04 Apr 2022 05:01:10 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.zendesk.com/
+X-Content-Type-Options: nosniff
+
+HTTP/1.1 200 OK
+Date: Mon, 04 Apr 2022 05:01:10 GMT
+Content-Type: text/html
+Connection: keep-alive
+Last-Modified: Fri, 01 Apr 2022 19:07:01 GMT
+Vary: Accept-Encoding
+ETag: W/"62474d55-21e46"
+Content-Security-Policy: default-src * wss://*.zopim.com 'unsafe-inline' 'unsafe-eval'; frame-ancestors 'self' app.optimizely.com *.zendesk.com *.zendesk.co.jp *.zendesk.co.uk *.zendesk.com.br *.zendesk.com.mx *.zendesk.com.ru *.zendesk.de *.zendesk.es *.zendesk.fr *.zendesk.it *.zendesk.kr *.zendesk.nl *.zendesk.tw *.zendesk.hk; font-src * data:; img-src * data:; media-src * blob:;worker-src 'self' blob:
+Content-Encoding: gzip
+CF-Cache-Status: HIT
+Age: 202
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Set-Cookie: __cf_bm=c9d_BbDDAp7is0ctjI6XrKbq.r9YJ6Dxpd0IbnYHrFI-1649048470-0-AZnokjRRc72QCrgS7MtUEzs6h/A+7ylsRCkaJ0NdkvDgII1xol2iwbUObqYLpuLvWaujkKsBrAELtOXiSxeG4+Q=; path=/; expires=Mon, 04-Apr-22 05:31:10 GMT; domain=.www.zendesk.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cfruid=f927a6c588f1db2fc0e5744867db2144e96e6a77-1649048470; path=/; domain=.www.zendesk.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=0; preload
+Server: cloudflare
+CF-RAY: 6f677c0f3cd35cfa-IAD
+

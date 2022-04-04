@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Cache-Control: no-cache
+Content-length: 0
+Location: https://ovh.net/
+
+HTTP/1.1 301 Moved Permanently
+Content-length: 0
+Location: https://proof.ovh.net
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 04 Apr 2022 05:00:58 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Content-Encoding: gzip
+

@@ -1,0 +1,23 @@
+HTTP/1.1 301 Moved Permanently
+Location: http://www.google.pl/
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 04 Apr 2022 05:00:47 GMT
+Expires: Wed, 04 May 2022 05:00:47 GMT
+Cache-Control: public, max-age=2592000
+Server: gws
+Content-Length: 218
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 04 Apr 2022 05:00:47 GMT
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Transfer-Encoding: chunked
+Expires: Mon, 04 Apr 2022 05:00:47 GMT
+Cache-Control: private
+Set-Cookie: 1P_JAR=2022-04-04-05; expires=Wed, 04-May-2022 05:00:47 GMT; path=/; domain=.google.pl; Secure; SameSite=none
+Set-Cookie: AEC=AVQQ_LALaJAMLgNocA7s8nnH0Aytbs7h6wD-p2MjbJCbkkvQILK-uylKfQ; expires=Sat, 01-Oct-2022 05:00:47 GMT; path=/; domain=.google.pl; Secure; HttpOnly; SameSite=lax
+

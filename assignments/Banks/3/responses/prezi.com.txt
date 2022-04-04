@@ -1,0 +1,19 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 04 Apr 2022 05:00:59 GMT
+Content-Type: text/html
+Content-Length: 175
+Connection: keep-alive
+Server: openresty/1.15.8.2
+Location: https://prezi.com/
+
+HTTP/1.1 406 Not Acceptable
+Date: Mon, 04 Apr 2022 05:00:59 GMT
+Content-Type: text/html
+Content-Length: 169
+Connection: keep-alive
+Server: openresty/1.15.8.2
+X-Frame-Options: DENY
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: usb=(), xr-spatial-tracking=()
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+
