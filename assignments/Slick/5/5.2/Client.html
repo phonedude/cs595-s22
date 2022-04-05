@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <body onload="getBlogPosts();">
+        <style>
+            .post{margin-bottom: 20px};
+        </style>
+        <div id="output"></div>
+        <div id="output2"></div>
+        <div id="output3"></div>
+        <script>
+            var createXhr = function(method,id, url){
+                var xhr = new XMLHttpRequest();
+                xhr.onerror = function(e){
+                    //alert("Error Status: " + e.target.status);
+                    document.getElementById(id).innerHTML = "Error";
+                };
+                xhr.open(method,url,true);
+                //xhr.setRequestHeader("X-Foo","Co2022");
+
+                return xhr;
+            };
+
+            var getBlogPosts = function(){
+                var xhr = createXhr('GET','output','http://127.0.0.1:9999/api/posts');
+                xhr.setRequestHeader("X-CS595s22-knoxville","Co2022");
+                xhr.onload = function(){
+                    var data = JSON.parse(xhr.responseText);
+                    var elem = document.getElementById('output');
+                    for(var postId in data){
+                        var postText = data[postId]['post'];
+                        var div = document.createElement('div');
+                        div.className = 'post';
+                        div.appendChild(document.createTextNode(postText));
+                        elem.appendChild(div);
+                    }
+                };
+                //xhr.setRequestHeader("X-Foo","Co2022");
+                xhr.send();
+                var xhr2 = createXhr('GET','output2','http://127.0.0.1:9999/api/posts');
+                xhr2.setRequestHeader("X-CS595s22-harrypotter","Co2022");
+                xhr2.onload = function(){
+                    var data = JSON.parse(xhr2.responseText);
+                    var elem = document.getElementById('output2');
+                    for(var postId in data){
+                        var postText = data[postId]['post'];
+                        var div = document.createElement('div');
+                        div.className = 'post';
+                        div.appendChild(document.createTextNode(postText));
+                        elem.appendChild(div);
+                    }
+                };
+                //xhr.setRequestHeader("X-Foo","Co2022");
+                xhr2.send();
+                var xhr3 = createXhr('GET','output3','http://127.0.0.1:9999/api/posts');
+                xhr3.setRequestHeader("X-CS595s22-bigdandthekidstable","Co2022");
+                xhr3.onload = function(){
+                    var data = JSON.parse(xhr3.responseText);
+                    var elem = document.getElementById('output3');
+                    for(var postId in data){
+                        var postText = data[postId]['post'];
+                        var div = document.createElement('div');
+                        div.className = 'post';
+                        div.appendChild(document.createTextNode(postText));
+                        elem.appendChild(div);
+                    }
+                };
+                //xhr.setRequestHeader("X-Foo","Co2022");
+                xhr3.send();
+            };
+        </script>
+    </body>
+</html>
