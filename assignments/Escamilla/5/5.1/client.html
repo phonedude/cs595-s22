@@ -1,0 +1,15 @@
+<div>
+    <h1>5.1</h1>
+    <p id="request"></p>
+</div>
+
+<script>
+    var oReq = new XMLHttpRequest();
+    oReq.onreadystatechange = function() {
+        if (oReq.readyState == XMLHttpRequest.DONE) {
+            document.getElementById('request').innerHTML = oReq.response;
+        }
+    }
+    oReq.open("GET", "http://localhost:8080");
+    oReq.send();
+</script>
