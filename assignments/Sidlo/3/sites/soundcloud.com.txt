@@ -1,0 +1,25 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Connection: keep-alive
+Date: Wed, 02 Mar 2022 03:55:21 GMT
+location: https://soundcloud.com/
+X-Cache: Miss from cloudfront
+Via: 1.1 17d601c1a37e4e7f1ee73eac5ce62cf4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD79-C2
+X-Amz-Cf-Id: Dlf7iIauhoP3u9p39vsW-xmRTZS_YGkq8jiRDKrus4lEaotTRURS0g==
+
+HTTP/2 200 
+content-type: text/html
+content-length: 18309
+x-pants: distant-towel
+x-xss-protection: 1; mode=block
+cache-control: private, max-age=0, no-cache, no-store
+x-frame-options: SAMEORIGIN
+date: Wed, 02 Mar 2022 03:55:26 GMT
+strict-transport-security: max-age=63072000; includeSubdomains; preload
+server: am/2
+x-cache: Miss from cloudfront
+via: 1.1 dca69919d6f10bd537498dd599f5104e.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD79-C2
+x-amz-cf-id: xxIKvw_hN3Sc6kJkVF-JOSNBPY9urFWIS8ZtrXMw9-nPSwUdtcteMw==
+

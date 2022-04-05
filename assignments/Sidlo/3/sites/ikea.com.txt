@@ -1,0 +1,27 @@
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.ikea.com/
+Cache-Control: max-age=0
+Expires: Wed, 02 Mar 2022 03:55:00 GMT
+Date: Wed, 02 Mar 2022 03:55:00 GMT
+Connection: keep-alive
+
+HTTP/2 200 
+content-length: 59201
+content-type: text/html
+last-modified: Thu, 17 Feb 2022 13:21:56 GMT
+accept-ranges: bytes
+etag: "0x8D9F21878AE2411"
+x-ms-request-id: 65988f4e-301e-0022-3201-24e6b9000000
+x-ms-version: 2018-03-28
+cache-control: max-age=172301
+expires: Fri, 04 Mar 2022 03:46:41 GMT
+date: Wed, 02 Mar 2022 03:55:00 GMT
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000
+server: IKEA Server
+set-cookie: _abck=6EF89747A7FCBAD10C4C55EBF4B8A13E~-1~YAAQ0iABF5MIKhF/AQAAhVTESAcE9oIZ02RvYxUiCcrUi1STv1OyCP9oMrE4iONeEzHMRd9SA3oarTDBdqO3qLY7MQbP8HQ3gbDTEpaU3qxgPcEA0lpw+L08CXIkJK0UNlZ7G2xENXZ3zoq+BXXWm/wnBpYJvKBoV4eem3Emboy/dWqZIbF4lAMOATDDGkoWf9sI5YZ7mvFyCqkKCeZaDaJrb/obzKHHlCsYSpoWH9sjC8TXg01Vhe6g1WBryUflmvJioJDqAxeh3gfgowxfixj1HH8HDscleE2S/nUrMZGbRgDFb/BLBmvUKo9GS5tRF5nxsYb3DbNP/nE5dLOOLy3wvtHYEujbNHTPFL3AuSuWGgxtkFjM~-1~-1~-1; Domain=.ikea.com; Path=/; Expires=Thu, 02 Mar 2023 03:55:00 GMT; Max-Age=31536000; Secure
+set-cookie: bm_sz=398FA4249ED71D1F3EF38367D2BC473D~YAAQ0iABF5QIKhF/AQAAhVTESA4AHYiZcK773yw0D+4DBzrSQSF0v/pEtMf2+MwqIEpYMVHhgFxAf8sA8tyUp6UwTY38ofADJkdJAPbUdq0BXBWVT2d7qWrqTtL6ZDi1fFqSS/aAwBCr1RnK98C7jmw0OnqqedP9NKjwM14OgtdErx0EjTZMJSh/z2XNPeVM+80GJaFBo2chk36noRbKkLjIQsyMIJb4QKpIdt0qsFOqQkSySx5+vqUP2ohvcMSNKBueLWL5iuImIwMuQHbvru6bUpKJ//yD+cUG6h1mmlH2~3422278~4601397; Domain=.ikea.com; Path=/; Expires=Wed, 02 Mar 2022 07:55:00 GMT; Max-Age=14400
+

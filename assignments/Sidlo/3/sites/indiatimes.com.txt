@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.indiatimes.com/
+Cache-Control: max-age=0
+Expires: Wed, 02 Mar 2022 03:55:00 GMT
+Date: Wed, 02 Mar 2022 03:55:00 GMT
+Connection: keep-alive
+
+HTTP/2 200 
+server: Bhoot
+content-type: text/html; charset=utf-8
+cache-control: max-age=1597
+expires: Wed, 02 Mar 2022 04:21:38 GMT
+date: Wed, 02 Mar 2022 03:55:01 GMT
+

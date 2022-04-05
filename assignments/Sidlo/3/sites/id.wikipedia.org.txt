@@ -1,0 +1,64 @@
+HTTP/1.1 301 TLS Redirect
+Date: Wed, 02 Mar 2022 03:54:59 GMT
+Server: Varnish
+X-Varnish: 895328153
+X-Cache: cp1085 int
+X-Cache-Status: int-front
+Server-Timing: cache;desc="int-front", host;desc="cp1085"
+Permissions-Policy: interest-cohort=()
+Set-Cookie: WMF-Last-Access=02-Mar-2022;Path=/;HttpOnly;secure;Expires=Sun, 03 Apr 2022 00:00:00 GMT
+Set-Cookie: WMF-Last-Access-Global=02-Mar-2022;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Sun, 03 Apr 2022 00:00:00 GMT
+X-Client-IP: 2600:8805:c25:4800:bc8d:9560:e591:7a2c
+Location: https://id.wikipedia.org/
+Content-Length: 0
+Connection: keep-alive
+
+HTTP/2 301 
+date: Wed, 02 Mar 2022 03:53:19 GMT
+server: mw1320.eqiad.wmnet
+x-content-type-options: nosniff
+p3p: CP="See https://id.wikipedia.org/wiki/Special:CentralAutoLogin/P3P for more info."
+vary: Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
+cache-control: s-maxage=1200, must-revalidate, max-age=0
+last-modified: Wed, 02 Mar 2022 03:53:19 GMT
+location: https://id.wikipedia.org/wiki/Halaman_Utama
+content-length: 0
+content-type: text/html; charset=UTF-8
+age: 100
+x-cache: cp1079 hit, cp1079 hit/1
+x-cache-status: hit-front
+server-timing: cache;desc="hit-front", host;desc="cp1079"
+strict-transport-security: max-age=106384710; includeSubDomains; preload
+report-to: { "group": "wm_nel", "max_age": 86400, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+nel: { "report_to": "wm_nel", "max_age": 86400, "failure_fraction": 0.05, "success_fraction": 0.0}
+permissions-policy: interest-cohort=()
+set-cookie: WMF-Last-Access=02-Mar-2022;Path=/;HttpOnly;secure;Expires=Sun, 03 Apr 2022 00:00:00 GMT
+set-cookie: WMF-Last-Access-Global=02-Mar-2022;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Sun, 03 Apr 2022 00:00:00 GMT
+x-client-ip: 2600:8805:c25:4800:bc8d:9560:e591:7a2c
+set-cookie: GeoIP=US:VA:Norfolk:36.95:-76.25:v4; Path=/; secure; Domain=.wikipedia.org
+
+HTTP/2 200 
+date: Wed, 02 Mar 2022 00:44:47 GMT
+server: mw1411.eqiad.wmnet
+x-content-type-options: nosniff
+p3p: CP="See https://id.wikipedia.org/wiki/Special:CentralAutoLogin/P3P for more info."
+content-language: id
+vary: Accept-Encoding,Cookie,Authorization
+last-modified: Wed, 02 Mar 2022 00:43:37 GMT
+content-type: text/html; charset=UTF-8
+age: 11412
+x-cache: cp1085 hit, cp1079 hit/72
+x-cache-status: hit-front
+server-timing: cache;desc="hit-front", host;desc="cp1079"
+strict-transport-security: max-age=106384710; includeSubDomains; preload
+report-to: { "group": "wm_nel", "max_age": 86400, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+nel: { "report_to": "wm_nel", "max_age": 86400, "failure_fraction": 0.05, "success_fraction": 0.0}
+permissions-policy: interest-cohort=()
+set-cookie: WMF-Last-Access=02-Mar-2022;Path=/;HttpOnly;secure;Expires=Sun, 03 Apr 2022 00:00:00 GMT
+set-cookie: WMF-Last-Access-Global=02-Mar-2022;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Sun, 03 Apr 2022 00:00:00 GMT
+x-client-ip: 2600:8805:c25:4800:bc8d:9560:e591:7a2c
+cache-control: private, s-maxage=0, max-age=0, must-revalidate
+set-cookie: GeoIP=US:VA:Norfolk:36.95:-76.25:v4; Path=/; secure; Domain=.wikipedia.org
+accept-ranges: bytes
+content-length: 167147
+

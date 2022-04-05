@@ -1,0 +1,22 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: max-age=30
+Content-Type: text/html; charset=utf-8
+Location: https://www.nbcnews.com
+Render-Authority: b1-01-e
+X-Cache: true
+Date: Wed, 02 Mar 2022 03:55:10 GMT
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+server: nginx
+x-powered-by: Next.js
+content-language: dev
+link: <https://nodeassets.nbcnews.com>; rel=preconnect, <https://media-cldnry.s-nbcnews.com>; rel=preconnect, <https://securepubads.g.doubleclick.net>; rel=preconnect, <https://mps.nbcuni.com/fetch/ext/load-nbcnews-bento.js?nowrite=jq>; as=script; rel=preload
+etag: "d8052-oiPBS/0ung7+M9IXko0Q5/IDOJc"
+x-backend-server: blue-ramen2-5554c558f4-pv7q4
+cache-control: private, no-cache, no-store, must-revalidate
+date: Wed, 02 Mar 2022 03:55:10 GMT
+set-cookie: nbcnews_geolocation=us; path=/; domain=.nbcnews.com; secure; SameSite=None
+x-frame-options: SAMEORIGIN
+set-cookie: akaas_NBCNews=1647057310~rv=85~id=033a207cc7b1ab069dfbc13f51422eef~rn=; path=/; Expires=Sat, 12 Mar 2022 03:55:10 GMT; Secure; SameSite=None
+

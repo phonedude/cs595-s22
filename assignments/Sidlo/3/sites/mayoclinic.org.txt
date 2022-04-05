@@ -1,0 +1,18 @@
+HTTP/1.0 301 Moved Permanently
+location: https://www.mayoclinic.org/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/2 200 
+pragma: no-cache
+content-type: text/html; charset=utf-8
+server: Microsoft-IIS/10.0
+request-context: appId=cid-v1:43d08973-e1f5-4c58-8a89-38aedf9d774b
+access-control-expose-headers: Request-Context
+x-frame-options: SAMEORIGIN
+cache-control: no-cache, no-store
+expires: Wed, 02 Mar 2022 03:55:07 GMT
+date: Wed, 02 Mar 2022 03:55:07 GMT
+set-cookie: AK_TLS_CIPHER_NAME=TLS_AES_256_GCM_SHA384; path=/
+

@@ -1,0 +1,39 @@
+HTTP/1.1 301 Moved Permanently
+Server: awselb/2.0
+Date: Wed, 02 Mar 2022 03:55:16 GMT
+Content-Type: text/html
+Content-Length: 134
+Connection: keep-alive
+Location: https://playstation.com:443/
+
+HTTP/2 301 
+server: awselb/2.0
+date: Wed, 02 Mar 2022 03:55:16 GMT
+content-type: text/html
+content-length: 134
+location: https://www.playstation.com:443/
+
+HTTP/2 301 
+server: AkamaiGHost
+content-length: 0
+location: https://www.playstation.com/en-us/
+expires: Wed, 02 Mar 2022 03:55:16 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Wed, 02 Mar 2022 03:55:16 GMT
+
+HTTP/2 200 
+content-type: text/html;charset=utf-8
+etag: "383da-5d93246add4cb-gzip"
+last-modified: Wed, 02 Mar 2022 01:34:00 GMT
+server: Apache
+strict-transport-security: max-age=63072000; includeSubdomains; preload;
+x-content-type-options: nosniff
+x-dispatcher: dispatcher7uswest1
+x-frame-options: SAMEORIGIN
+x-vhost: publish
+expires: Wed, 02 Mar 2022 03:55:16 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Wed, 02 Mar 2022 03:55:16 GMT
+

@@ -1,0 +1,58 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Wed, 02 Mar 2022 03:55:28 GMT
+Content-Type: text/html
+Content-Length: 183
+Connection: keep-alive
+Location: https://surveymonkey.com/
+X-Cache: Redirect from cloudfront
+Via: 1.1 55e412eec3baebe47cd72947531b5c5c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD79-C3
+X-Amz-Cf-Id: 8Xq0SIvopFInUrCEI22zePhrZvewSb19kfb4CB0e8Qq_YwwgQZcZlQ==
+
+HTTP/2 301 
+content-type: text/html
+content-length: 162
+location: https://www.surveymonkey.com/
+date: Wed, 02 Mar 2022 03:55:28 GMT
+server: nginx
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: strict-origin-when-cross-origin
+strict-transport-security: max-age=31536000; includeSubDomains
+set-cookie: attr_multitouch="qOD/1qRzBTzEkLkqI9ONMoBCzmY="; Domain=.com; expires=Thu, 02 Mar 2023 03:55:28 GMT; Path=/; SameSite=none; Secure
+set-cookie: cdp_seg="xKdEQbv/pCFSevbIgAK7TAO7LHg="; Domain=.com; expires=Tue, 31 May 2022 03:55:28 GMT; Path=/; SameSite=none; Secure
+set-cookie: ep201="72qI6/thSBRXcYCkeSFGprHKYNY="; Domain=.com; expires=Wed, 02 Mar 2022 04:25:28 GMT; Path=/; SameSite=none; Secure
+set-cookie: ep202="ZacBN7IwGAKNDiRqwDKr0hgFnE8="; Domain=.com; expires=Tue, 31 May 2022 03:55:28 GMT; Path=/; SameSite=none; Secure
+set-cookie: ep203="m6k9x4m2dLpVtOqHyXoCQma0/tA="; Domain=.com; expires=Tue, 31 May 2022 03:55:28 GMT; HttpOnly; Path=/; SameSite=none; Secure
+x-cache: Miss from cloudfront
+via: 1.1 f0312eca85d338806221bc299acb4e0a.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD79-C3
+x-amz-cf-id: kFg3_BRoCjvB7eIh1Tdf0V85AusYs6-fzTML59mCF_hjVSJdV_9bJw==
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+content-length: 174607
+date: Wed, 02 Mar 2022 03:55:28 GMT
+server: nginx
+vary: Accept-Encoding
+vary: Accept-Encoding
+vary: Accept-Encoding
+accept-ranges: bytes
+content-security-policy-report-only: default-src https: data: blob: 'unsafe-eval' 'unsafe-inline' https://www.google.com https://www.gstatic.com https://www.recaptcha.net https://api.amplitude.com  wss://*.hotjar.com wss://*.qualified.com 'self';  frame-ancestors 'self' https://*.zendesk.com https://*.myshopify.com https://teams.microsoft.com https://*.eloqua.com https://*.surveymonkey.com https://*.sharepoint.com https://*.worldpay.com https://*.cardinalcommerce.com https://*.office.com https://*.office365.com;report-uri https://csp.surveymonkey.com/report?e=false&c=prod&ar=true&a=cmscache
+content-security-policy: default-src https: data: blob: 'unsafe-eval' 'unsafe-inline' https://www.google.com https://www.gstatic.com https://www.recaptcha.net https://api.amplitude.com  wss://*.hotjar.com wss://*.qualified.com 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://*.zendesk.com https://*.myshopify.com https://teams.microsoft.com https://*.eloqua.com https://*.surveymonkey.com https://*.sharepoint.com https://*.worldpay.com https://*.cardinalcommerce.com https://*.office.com https://*.office365.com;report-uri https://csp.surveymonkey.com/report?e=true&c=prod&ar=true&a=cmscache
+x-xss-protection: 1;report=https://csp.surveymonkey.com/report?e=false&c=prod&ar=true
+x-content-type-options: nosniff
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: strict-origin-when-cross-origin
+strict-transport-security: max-age=31536000; includeSubDomains
+set-cookie: attr_multitouch="AN6p/A5tynHUWakaBgGlQSK6ydU="; Domain=.surveymonkey.com; expires=Thu, 02 Mar 2023 03:55:28 GMT; Path=/; SameSite=none; Secure
+set-cookie: cdp_seg="lgl1+VoXdMu8pY7XcEqSDKUsW5s="; Domain=.surveymonkey.com; expires=Tue, 31 May 2022 03:55:28 GMT; Path=/; SameSite=none; Secure
+set-cookie: ep201="sFXXiH3ZaN1Zgna5aoLUcTqDDRg="; Domain=.surveymonkey.com; expires=Wed, 02 Mar 2022 04:25:28 GMT; Path=/; SameSite=none; Secure
+set-cookie: ep202="ofvFWGGlaDrUeIADrvzDTQakt0s="; Domain=.surveymonkey.com; expires=Tue, 31 May 2022 03:55:28 GMT; Path=/; SameSite=none; Secure
+set-cookie: ep203="ZidbBL5tLhJfgs5OLE2lgMNUkGs="; Domain=.surveymonkey.com; expires=Tue, 31 May 2022 03:55:28 GMT; HttpOnly; Path=/; SameSite=none; Secure
+x-cache: Miss from cloudfront
+via: 1.1 366b9fc9e06517905c8f46d7549058fc.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD79-C3
+x-amz-cf-id: qiOV0TfVW8Pstb2RM9e5ulnrGmW4clhi0oUjYATHV7P2vevgzHX_lw==
+age: 118591
+

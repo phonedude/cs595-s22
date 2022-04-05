@@ -1,0 +1,14 @@
+HTTP/1.1 302 Moved temporarily
+Location: http://yandex.ru/showcaptcha?cc=1&retpath=http%3A//yandex.ru/%3F_148b9c64ace10c0780c7dc7a49866acc&t=2/1646193344/31eda1545d6bae827a3942bbc19ef439&u=730223a3-276787c1-921af6d9-bb2c258&s=b015c8a8601bab2a41e6a8eec59c1da1
+NEL: {"report_to": "network-errors", "max_age": 86400, "success_fraction": 0.001, "failure_fraction": 0.1}
+Report-To: { "group": "network-errors", "max_age": 86400, "endpoints": [ { "url": "https://dr.yandex.net/nel"}]}
+Set-Cookie: spravka=dD0xNjE0NjU3MzQ0O2k9MjYwMDo4ODA1OmMyNTo0ODAwOmJjOGQ6OTU2MDplNTkxOjdhMmM7RD1COEQwMEIwNzQ4MDg2RjE5ODEyN0RDRjdFMzQ5RjlENzJEODBFREQ0NUVEQjM2NEVGM0IxNDVEQTFCQTA5QUM0MkVBRjc2RDA7dT0xNjE0NjU3MzQ0NzQ4MTY3MjI4O2g9NTRiOGFiYjk5NTczZGY4OTQ5NzBmZTUyNWEwNDljNjY=; domain=.yandex.ru; path=/; expires=Fri, 01-Apr-2022 03:55:44 GMT
+X-Content-Type-Options: nosniff
+
+HTTP/1.1 200 Ok
+Content-Length: 6695
+Content-Type: text/html
+NEL: {"report_to": "network-errors", "max_age": 86400, "success_fraction": 0.001, "failure_fraction": 0.1}
+Report-To: { "group": "network-errors", "max_age": 86400, "endpoints": [ { "url": "https://dr.yandex.net/nel"}]}
+X-Content-Type-Options: nosniff
+

@@ -1,0 +1,46 @@
+HTTP/1.1 301 Moved Permanently
+Server: Server
+Date: Wed, 02 Mar 2022 03:54:34 GMT
+Content-Type: text/html
+Content-Length: 179
+Connection: keep-alive
+Location: https://amazon.es/
+
+HTTP/1.1 301 Moved Permanently
+Server: Server
+Date: Wed, 02 Mar 2022 03:54:35 GMT
+Content-Type: text/html
+Content-Length: 179
+Connection: keep-alive
+Location: https://www.amazon.es/
+Permissions-Policy: interest-cohort=()
+
+HTTP/2 405 
+content-type: text/html;charset=UTF-8
+content-length: 0
+server: Server
+date: Wed, 02 Mar 2022 03:54:35 GMT
+x-amz-rid: KQ72B0S3BH9GEABE8M2M
+set-cookie: session-id=-; path=/; domain=.www.amazon.es; expires=Tue, 02-Mar-2010 03:54:35 GMT
+set-cookie: session-id-time=-; path=/; domain=.www.amazon.es; expires=Tue, 02-Mar-2010 03:54:35 GMT
+set-cookie: session-token=-; path=/; domain=.www.amazon.es; expires=Tue, 02-Mar-2010 03:54:35 GMT
+set-cookie: ubid-acbes=-; path=/; domain=.www.amazon.es; expires=Tue, 02-Mar-2010 03:54:35 GMT
+set-cookie: at-acbes=-; path=/; domain=.www.amazon.es; expires=Tue, 02-Mar-2010 03:54:35 GMT
+set-cookie: lc-acbes=-; path=/; domain=.www.amazon.es; expires=Tue, 02-Mar-2010 03:54:35 GMT
+set-cookie: x-acbes=-; path=/; domain=.www.amazon.es; expires=Tue, 02-Mar-2010 03:54:35 GMT
+set-cookie: x-wl-uid=-; path=/; domain=.www.amazon.es; expires=Tue, 02-Mar-2010 03:54:35 GMT
+set-cookie: sess-at-acbes=-; path=/; domain=.www.amazon.es; expires=Tue, 02-Mar-2010 03:54:35 GMT
+set-cookie: UserPref=-; path=/; domain=.www.amazon.es; expires=Tue, 02-Mar-2010 03:54:35 GMT
+cache-control: no-cache
+pragma: no-cache
+expires: -1
+allow: GET, POST, PUT, DELETE
+vary: Accept-Encoding,User-Agent,Content-Type,Accept-Encoding,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment,User-Agent
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+x-frame-options: SAMEORIGIN
+permissions-policy: interest-cohort=()
+x-cache: Error from cloudfront
+via: 1.1 b4346add631a498bf6cdbf88cbc5ff12.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD89-C1
+x-amz-cf-id: B3IjJm8JPIe1IdE7LKZwnumaiFKf6qGvkdre3iAHTAjwim0mlAg14A==
+

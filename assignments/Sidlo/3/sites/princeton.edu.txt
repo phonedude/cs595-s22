@@ -1,0 +1,53 @@
+HTTP/1.0 302 Moved Temporarily
+Location: http://www.Princeton.EDU/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 02 Mar 2022 03:55:17 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 234
+Connection: close
+X-Content-Type-Options: nosniff
+Location: https://www.princeton.edu/
+Cache-Control: max-age=900
+Expires: Wed, 02 Mar 2022 04:01:53 GMT
+X-Request-ID: v-6617d1a2-99db-11ec-8428-ff6e5fcc0606
+Via: varnish
+X-Cache: HIT
+X-Cache-Hits: 5
+CF-Cache-Status: HIT
+Age: 335
+Server: cloudflare
+CF-RAY: 6e5732295d07c07a-ORF
+
+HTTP/2 200 
+date: Wed, 02 Mar 2022 03:55:17 GMT
+content-type: text/html; charset=UTF-8
+cache-control: max-age=60, public
+x-drupal-dynamic-cache: MISS
+link: <https://www.princeton.edu/>; rel="canonical", <https://www.princeton.edu/>; rel="shortlink"
+link: <https://www.princeton.edu/node/141>; rel="revision"
+x-ua-compatible: IE=edge
+content-language: en
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+permissions-policy: interest-cohort=()
+expires: Sun, 19 Nov 1978 05:00:00 GMT
+last-modified: Wed, 02 Mar 2022 03:54:16 GMT
+etag: W/"1646193256"
+vary: Cookie,Accept-Encoding
+x-generator: Drupal 9 (https://www.drupal.org)
+x-xss-protection: 1
+x-drupal-cache: MISS
+x-request-id: v-6e838e2a-99dc-11ec-b02e-232a3acf9373
+x-ah-environment: prod
+via: varnish
+x-cache: HIT
+x-cache-hits: 3
+cf-cache-status: HIT
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 6e57322a3dbcc07a-ORF
+

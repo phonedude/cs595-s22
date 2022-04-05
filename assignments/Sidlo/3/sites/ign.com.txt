@@ -1,0 +1,26 @@
+HTTP/1.1 302 Found
+Server: Varnish
+Retry-After: 0
+Content-Length: 0
+Location: https://www.ign.com/
+Accept-Ranges: bytes
+Date: Wed, 02 Mar 2022 03:55:00 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-iad-kiad7000053-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1646193300.208024,VS0,VE0
+Cache-Control: max-age:604800
+
+HTTP/2 403 
+retry-after: 0
+accept-ranges: bytes
+date: Wed, 02 Mar 2022 03:55:00 GMT
+x-served-by: cache-iad-kiad7000170-IAD
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1646193300.325068,VS0,VE0
+strict-transport-security: max-age=300
+content-length: 9900
+

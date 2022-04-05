@@ -1,0 +1,74 @@
+HTTP/1.1 301 Moved Permanently
+Server: Varnish
+Retry-After: 0
+Content-Length: 0
+Location: https://nytimes.com/
+Accept-Ranges: bytes
+Date: Wed, 02 Mar 2022 03:55:14 GMT
+X-Served-By: cache-iad-kiad7000148-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+x-nyt-app-webview: 0
+Set-Cookie: nyt-gdpr=0; Expires=Wed, 02 Mar 2022 09:55:14 GMT; Path=/; Domain=.nytimes.com
+x-gdpr: 0
+X-Frame-Options: DENY
+onion-location: https://www.nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion/
+Connection: close
+X-API-Version: F-0
+x-nyt-edge-cache: HIT
+
+HTTP/2 301 
+server: Varnish
+retry-after: 0
+location: https://www.nytimes.com/
+accept-ranges: bytes
+date: Wed, 02 Mar 2022 03:55:14 GMT
+x-served-by: cache-iad-kiad7000020-IAD
+x-cache: HIT
+x-cache-hits: 0
+x-nyt-app-webview: 0
+set-cookie: nyt-gdpr=0; Expires=Wed, 02 Mar 2022 09:55:14 GMT; Path=/; Domain=.nytimes.com
+x-gdpr: 0
+x-frame-options: DENY
+onion-location: https://www.nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion/
+x-api-version: F-0
+content-security-policy: upgrade-insecure-requests; default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src data: 'unsafe-inline' https:; img-src data: https: blob:; font-src data: https:; connect-src https: wss: blob:; media-src data: https: blob:; object-src https:; child-src https: data: blob:; form-action https:; report-uri https://csp.nytimes.com/report;
+strict-transport-security: max-age=63072000; preload
+x-nyt-edge-cache: HIT
+content-length: 0
+
+HTTP/2 200 
+server: nginx
+content-type: text/html; charset=utf-8
+x-b3-traceid: b7a2afa0ca184b15892ac05554c81f40
+x-nyt-data-last-modified: Wed, 02 Mar 2022 03:52:46 GMT
+last-modified: Wed, 02 Mar 2022 03:52:46 GMT
+x-pagetype: vi-homepage
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+cache-control: s-maxage=30,no-cache
+x-nyt-route: homepage
+x-origin-time: 2022-03-02 03:52:57 UTC
+accept-ranges: bytes
+date: Wed, 02 Mar 2022 03:55:14 GMT
+age: 137
+x-served-by: cache-lga21925-LGA, cache-iad-kjyo7100031-IAD
+x-cache: MISS, HIT
+x-cache-hits: 0, 1
+x-timer: S1646193314.378959,VS0,VE11
+vary: Accept-Encoding, Fastly-SSL
+set-cookie: nyt-a=5TB38IRKpGWaq3xfPBWGik; Expires=Thu, 02 Mar 2023 03:55:14 GMT; Path=/; Domain=.nytimes.com; SameSite=none; Secure
+x-nyt-app-webview: 0
+set-cookie: nyt-gdpr=0; Expires=Wed, 02 Mar 2022 09:55:14 GMT; Path=/; Domain=.nytimes.com
+x-gdpr: 0
+set-cookie: nyt-purr=cfhhcfhhhckf; Expires=Thu, 02 Mar 2023 03:55:14 GMT; Path=/; Domain=.nytimes.com; SameSite=Lax; Secure
+set-cookie: nyt-geo=US; Expires=Wed, 02 Mar 2022 09:55:14 GMT; Path=/; Domain=.nytimes.com
+x-frame-options: DENY
+onion-location: https://www.nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion/
+x-api-version: F-F-VI
+content-security-policy: upgrade-insecure-requests; default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src data: 'unsafe-inline' https:; img-src data: https: blob:; font-src data: https:; connect-src https: wss: blob:; media-src data: https: blob:; object-src https:; child-src https: data: blob:; form-action https:; report-uri https://csp.nytimes.com/report;
+strict-transport-security: max-age=63072000; preload; includeSubdomains
+set-cookie: nyt-b3-traceid=ca83020e22b7481cb934f8d8c098451a; Path=/; Domain=.nytimes.com; SameSite=none; Secure
+x-nyt-edge-cache: MISS-HIT
+content-length: 2333247
+

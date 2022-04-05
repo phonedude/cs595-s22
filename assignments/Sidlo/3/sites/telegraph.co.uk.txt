@@ -1,0 +1,35 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Wed, 02 Mar 2022 03:55:29 GMT
+Content-Type: text/html
+Content-Length: 183
+Connection: keep-alive
+Location: https://telegraph.co.uk/
+X-Cache: Redirect from cloudfront
+Via: 1.1 ec9b50c7bee8c251b0724c3c8490c1e4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD79-C1
+X-Amz-Cf-Id: FdI1O6MzgWWx_LYSBKsFR5Ekgod2xCvrRqcFJboVFqETMIAoWJZZ4A==
+
+HTTP/2 301 
+content-length: 0
+location: https://www.telegraph.co.uk/
+date: Tue, 01 Mar 2022 14:03:31 GMT
+server: AmazonS3
+x-cache: Hit from cloudfront
+via: 1.1 5d9ef69d47a63c80a41bbcf6902f6312.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD79-C1
+x-amz-cf-id: pvNvz5BCtHy5UPs5eOAnXBGF7mRQpSkkbc1r48UmJmFt2uVdaTzFGg==
+age: 49919
+
+HTTP/2 200 
+server: openresty/1.15.8.2
+content-type: text/html; charset=UTF-8
+strict-transport-security: max-age=15724800; includeSubDomains
+content-security-policy: frame-ancestors 'self' pulse.telegraph.co.uk;
+x-frame-options: SAMEORIGIN
+content-security-policy-report-only: default-src https: data: blob: android-webview-video-poster: wss: 'unsafe-inline' 'unsafe-eval'; report-uri /csp-reports/;
+expires: Wed, 02 Mar 2022 03:55:29 GMT
+cache-control: max-age=0, no-cache
+pragma: no-cache
+date: Wed, 02 Mar 2022 03:55:29 GMT
+
