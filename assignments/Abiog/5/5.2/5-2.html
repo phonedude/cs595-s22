@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5.2</title>
+</head>
+<body>
+    <h1>My Favorites:</h1>
+    
+    <div id="myfavs"></div>
+
+    <script>
+        fetch('http://localhost:9000/')
+            .then(function (response) {
+                let movie = response.headers.get("X-CS595s22-film")
+                let tvshow = response.headers.get('X-CS595s22-TVshow')
+                let artist = response.headers.get('X-CS595s22-artist')
+
+                var mainContainer = document.getElementById('myfavs');
+                var div = document.createElement("div");
+                div.innerHTML = movie + '<br>' + tvshow + '<br>' + artist;
+                mainContainer.appendChild(div);
+            })
+            .catch(function (err) {
+                console.log(err);
+            });
+    </script>
+</body>
+</html>
