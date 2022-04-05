@@ -1,0 +1,74 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 0
+Location: https://outlook.com/
+Server: Microsoft-IIS/10.0
+request-id: b05a80d7-56cb-0642-ac7b-56d17825002f
+X-FEServer: DM5PR12CA0060, DM5PR12CA0060
+X-RequestId: e72a5b24-203f-40ec-8fa4-26eb2510c59b
+MS-CV: 14BasMtWQgase1bReCUALw.0
+X-Powered-By: ASP.NET
+Date: Mon, 04 Apr 2022 05:00:56 GMT
+Connection: close
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 0
+Location: https://www.outlook.com/owa/
+Server: Microsoft-IIS/10.0
+request-id: f2b7ca33-4d55-87f0-09a1-05c9ea0c6120
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-FEServer: DM5PR12CA0054, DM5PR12CA0054
+X-RequestId: 88895aa9-5911-44e5-8daa-7db2e5e70993
+MS-CV: M8q38lVN8IcJoQXJ6gxhIA.0
+X-Powered-By: ASP.NET
+Date: Mon, 04 Apr 2022 05:00:56 GMT
+Connection: close
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 0
+Location: https://outlook.live.com/owa/
+Server: Microsoft-IIS/10.0
+request-id: d92cf23c-bb4d-5ec7-2bec-0ba2127c727d
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-FEServer: BL1PR13CA0240, BL1PR13CA0240
+X-RequestId: 61755019-5877-4a79-b5da-1150267fad91
+X-FEProxyInfo: BL1PR13CA0240.NAMPRD13.PROD.OUTLOOK.COM
+X-FEEFZInfo: MNZ
+Date: Mon, 04 Apr 2022 05:00:57 GMT
+Connection: close
+
+HTTP/1.1 440 Login Timeout
+Content-Length: 154
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/10.0
+request-id: b7452f55-e81c-28d6-7310-46862dc74ab2
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Alt-Svc: h3=":443",h3-29=":443"
+X-CalculatedFETarget: DS7PR03CU012.internal.outlook.com
+X-BackEndHttpStatus: 440, 440
+Set-Cookie: RoutingKeyCookie=; expires=Sat, 04-Apr-1992 05:00:57 GMT; path=/; secure
+Set-Cookie: HostSwitchPrg=; expires=Sat, 04-Apr-1992 05:00:57 GMT; path=/; secure
+Set-Cookie: OptInPrg=; expires=Sat, 04-Apr-1992 05:00:57 GMT; path=/; secure
+X-FEProxyInfo: DS7PR03CA0347.NAMPRD03.PROD.OUTLOOK.COM
+X-CalculatedBETarget: DM5PR03MB2443.namprd03.PROD.OUTLOOK.COM
+X-OWA-DiagnosticsInfo: 1;0;0
+X-IIDs: 0
+X-BackEnd-Begin: 2022-04-04T05:00:57.872
+X-BackEnd-End: 2022-04-04T05:00:57.872
+X-DiagInfo: DM5PR03MB2443
+X-BEServer: DM5PR03MB2443
+X-UA-Compatible: IE=EmulateIE7
+X-RUM-Validated: 1
+X-Proxy-RoutingCorrectness: 1
+X-Proxy-BackendServerStatus: 440
+X-FEServer: DS7PR03CA0347, BLAPR03CA0042
+Report-To: {"group":"NelOfficeUpload1","max_age":7200,"endpoints":[{"url":"https://exo.nel.measure.office.net/api/report?TenantId=&FrontEnd=Cafe&DestinationEndpoint=MNZ"}],"include_subdomains":true}
+NEL: {"report_to":"NelOfficeUpload1","max_age":7200,"include_subdomains":true,"failure_fraction":1.0,"success_fraction":0.01}
+X-FirstHopCafeEFZ: MNZ
+Date: Mon, 04 Apr 2022 05:00:57 GMT
+

@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/codesite
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="codesite"
+Report-To: {"group":"codesite","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/codesite"}]}
+Content-Length: 1614
+X-Content-Type-Options: nosniff
+Server: sffe
+X-XSS-Protection: 0
+Date: Mon, 04 Apr 2022 04:48:56 GMT
+Expires: Mon, 04 Apr 2022 05:38:56 GMT
+Cache-Control: public, max-age=3000
+Age: 701
+Last-Modified: Tue, 03 Mar 2020 20:15:00 GMT
+Content-Type: text/html
+

@@ -1,0 +1,44 @@
+HTTP/1.1 301 Moved permanently
+Server: Varnish
+Retry-After: 0
+Content-Length: 0
+Location: https://www.fastcompany.com/
+Accept-Ranges: bytes
+Date: Mon, 04 Apr 2022 05:00:45 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-iad-kcgs7200156-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1649048445.019664,VS0,VE0
+Set-Cookie: X-abtest=(null);
+Set-Cookie: fastlygeo=Norfolk:United States:23508:128.82.19.2; expires=Mon, 04 Apr 2022 05:00:55 GMT; path=/;
+Set-Cookie: geodata=Norfolk:United States:23508:128.82.19.2; expires=Tue, 05 Apr 2022 05:00:45 GMT; path=/;
+Cache-Control: max-age=0
+Last-Modified: Mon, 04 Apr 2022 05:00:45 GMT
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 204101
+Server: nginx
+Content-Type: text/html; charset=utf-8
+X-DNS-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+ETag: W/"16487b-p1l3h5NQiaxsmM46olqOc1G4DPU"
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Date: Mon, 04 Apr 2022 05:00:45 GMT
+Via: 1.1 varnish
+Age: 310
+X-Served-By: cache-iad-kcgs7200166-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1649048445.073090,VS0,VE2
+Cache-Control: max-age=0
+Last-Modified: Mon, 04 Apr 2022 05:00:45 GMT
+Vary: Accept-Encoding, Cookie, X-abtest
+
