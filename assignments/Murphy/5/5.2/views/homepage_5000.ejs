@@ -9,37 +9,25 @@
         <p>This is port 5000!</p> 
         <script>
             //CORS request from localhost:4000
-            fetch("http://localhost:4000/pokemon-gold")
+            //, {method:"GET", headers: {"X-CS595s22-gold": "Pokemon Gold Version"}}
+            fetch("http://localhost:4000/pokemon-gold", {method:"GET", headers: {"X-CS595s22-gold": "Pokemon Gold Version"}})
                 .then(response=>{
                     paragraph = document.getElementById("p")
-                    for(const header of response.headers){
-                        console.log(`Name: ${header[0]}, Value:${header[1]}`);
-                        document.write(`Name: ${header[0]}, Value:${header[1]}`)
-                        //paragraph.appendChild(`Name: ${header[0]}, Value:${header[1]}`)
-                    }
+                    document.write('X-CS595s22-gold: ' + response.headers.get('X-CS595s22-gold'))
                     
                     document.write("<br/>")
-                });
-            document.write("\n")
-            fetch("http://localhost:4000/star-wars-rogue-one")
+                })
+            fetch("http://localhost:4000/star-wars-rogue-one", {method:"GET", headers: {"X-CS595s22-star_wars": "Star Wars: Rogue One"}})
                 .then(response=>{
                     paragraph = document.getElementById("p")
-                    for(const header of response.headers){
-                        console.log(`Name: ${header[0]}, Value:${header[1]}`);
-                        document.write(`Name: ${header[0]}, Value:${header[1]}`)
-                        //paragraph.appendChild(`Name: ${header[0]}, Value:${header[1]}`)
-                    }
+                    document.write('X-CS595s22-star_wars: ' + response.headers.get('X-CS595s22-star_wars'))
                     
                     document.write("<br/>")
-                });
-            fetch("http://localhost:4000/rage-against-the-machine")
+                })
+            fetch("http://localhost:4000/rage-against-the-machine", {method:"GET", headers: {"X-CS595s22-ratm": "Rage Against the Machine"}})
                 .then(response=>{
                     paragraph = document.getElementById("p")
-                    for(const header of response.headers){
-                        console.log(`Name: ${header[0]}, Value:${header[1]}`);
-                        document.write(`Name: ${header[0]}, Value:${header[1]}`)
-                        //paragraph.appendChild(`Name: ${header[0]}, Value:${header[1]}`)
-                    }
+                    document.write('X-CS595s22-ratm: ' + response.headers.get('X-CS595s22-ratm'))
                     
                     document.write("<br/>")
             });
