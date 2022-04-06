@@ -174,4 +174,3 @@ if __name__ == '__main__':
 	summary(urls, max_cookie, dict_of_dict)						# Calling the summary function for calculations & analysis
 	
 
-
