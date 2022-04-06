@@ -215,7 +215,7 @@ Playlist - https://youtube.com/playlist?list=PLQ_PLRjJduEhYEG00BqCF4hvRS4RVyVhD
 
 Part 1 - https://youtu.be/Hn-1zs1YbUM
 
-Part 2 - https://youtu.be/MweQISn_f-E
+Part 2 - https://youtu.be/TMhl4L7mSt8
 
 Part 3 - https://youtu.be/taOKhE0_Vc4
 
