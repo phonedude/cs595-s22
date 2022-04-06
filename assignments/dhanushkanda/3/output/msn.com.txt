@@ -1,0 +1,49 @@
+http/1.1 301 moved permanently
+content-length: 139
+content-type: text/html; charset=utf-8
+location: https://msn.com/
+server: microsoft-iis/10.0
+x-powered-by: asp.net
+date: wed, 06 apr 2022 01:05:11 gmt
+
+http/2 301 
+content-length: 143
+content-type: text/html; charset=utf-8
+location: https://www.msn.com/
+server: microsoft-iis/10.0
+x-powered-by: asp.net
+strict-transport-security: max-age=31536000; includesubdomains; preload
+date: wed, 06 apr 2022 01:05:11 gmt
+
+http/2 200 
+cache-control: no-cache, no-store, no-transform
+pragma: no-cache
+content-length: 52067
+content-type: text/html; charset=utf-8
+expires: -1
+vary: user-agent
+set-cookie: preferencesmsn=eyjib21lugfnzsi6eyjtdhjpcgvzijpbxswitwvtdhjpcgvnb2r1bgvzijpbxswitwfya2v0q29uzmlndxjhdglvbii6eyjnyxjrzxqioijlbi11cyisiln1chbyzxnzuhjvbxb0ijpmywxzzswiuhjlzmvycmvktgfuz3vhz2vdb2rlijoizw4tdxmilcjdb3vudhj5q29kzsi6ilvtin19lcjfehbpcnluaw1lijo2mzgxnjmzotkxmjm5nzc4mdksilzlcnnpb24iojf90; domain=msn.com; expires=thu, 06-apr-2023 01:05:12 gmt; path=/; httponly
+set-cookie: marketpref=en-us; domain=msn.com; expires=thu, 06-apr-2023 01:05:12 gmt; path=/; httponly
+set-cookie: recentstocks=; domain=msn.com; path=/; secure; httponly; samesite=none
+access-control-allow-origin: *
+x-aspnetmvc-version: 5.2
+x-appversion: 20220405_27915264
+x-activity-id: dd6883e8-8fbd-4dde-b3c3-1975300ce6a6
+x-az: {did:b6a95bf14e974879bdf3af0ed04b3e4c, rid: 26, sn: eastus-prod-hp, dt: 2022-03-23t17:18:11.0417961z, bt: 2022-04-05t00:30:04.6760969z}
+nel: {"report_to":"network-errors","max_age":604800,"success_fraction":0.001,"failure_fraction":1.0}
+report-to: {"group":"network-errors","max_age":604800,"endpoints":[{"url":"https://deff.nelreports.net/api/report?cat=msn"}]}
+content-security-policy: default-src 'self' data: 'unsafe-inline' 'unsafe-eval' https: blob:; media-src 'self' https: blob:; worker-src 'self' https: blob:; block-all-mixed-content; connect-src 'self' data: 'unsafe-inline' 'unsafe-eval' https: blob: https://*.trouter.io:443 https://*.trouter.skype.com:443 wss://*.trouter.io:443 wss://*.trouter.skype.com:443;
+x-ua-compatible: ie=edge;chrome=1
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+x-powered-by: asp.net
+access-control-allow-methods: head,get,options
+x-xss-protection: 1
+x-cache: config_nocache
+accept-ch: sec-ch-ua-arch, sec-ch-ua-bitness, sec-ch-ua-full-version, sec-ch-ua-mobile, sec-ch-ua-model, sec-ch-ua-platform, sec-ch-ua-platform-version
+x-msedge-ref: ref a: dd6883e88fbd4ddeb3c31975300ce6a6 ref b: bluedge0514 ref c: 2022-04-06t01:05:12z
+set-cookie: _edge_s=f=1; path=/; httponly; domain=msn.com
+set-cookie: _edge_v=1; path=/; httponly; expires=mon, 01-may-2023 01:05:12 gmt; domain=msn.com
+set-cookie: muid=25943765d3c562ef3de2261bd23863b5; samesite=none; path=/; secure; expires=mon, 01-may-2023 01:05:12 gmt; domain=msn.com
+date: wed, 06 apr 2022 01:05:12 gmt
+

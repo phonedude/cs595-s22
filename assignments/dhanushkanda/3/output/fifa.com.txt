@@ -1,0 +1,22 @@
+http/1.1 301 moved permanently
+cache-control: no-store
+date: wed, 06 apr 2022 01:02:47 gmt
+location: https://www.fifa.com/
+server: ecacc (dcd/7d26)
+content-length: 0
+
+http/2 200 
+content-encoding: gzip
+accept-ranges: bytes
+age: 259
+cache-control: no-store
+content-type: text/html; charset=utf-8
+date: wed, 06 apr 2022 01:02:47 gmt
+etag: "5a124-psd0qsxtbpyb8xagotq6ktbbj2a"
+last-modified: wed, 06 apr 2022 00:58:30 gmt
+request-context: appid=cid-v1:510500c9-003a-4db2-a2f1-8b386bf67e8c
+server: ecacc (dcd/7d26)
+x-cache: hit
+x-powered-by: next.js
+content-length: 53149
+

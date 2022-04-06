@@ -1,0 +1,29 @@
+http/1.1 301 moved permanently
+content-length: 0
+connection: keep-alive
+date: tue, 05 apr 2022 14:31:45 gmt
+location: https://youradchoices.com/
+server: amazons3
+x-cache: hit from cloudfront
+via: 1.1 5beb4c3232a40c8c6a3e48c902092760.cloudfront.net (cloudfront)
+x-amz-cf-pop: iad89-c2
+x-amz-cf-id: 8rqwm9xs_xomcwg0mjzfz9djvqdo2wqkandmrcwsfaud2j-dixa8ka==
+age: 37829
+
+http/2 200 
+server: nginx
+date: wed, 06 apr 2022 01:02:14 gmt
+content-type: text/html; charset=utf-8
+vary: accept-encoding
+expires: sun, 19 nov 1978 05:00:00 gmt
+cache-control: no-cache, must-revalidate
+x-content-type-options: nosniff
+content-language: en
+x-frame-options: sameorigin
+x-cache-enabled: true
+x-generator: drupal 7 (http://drupal.org)
+set-cookie: drupalsgcachebypass=0; expires=wed, 06-apr-2022 00:02:14 gmt; max-age=0; path=/
+x-httpd: 1
+host-header: 8441280b0c35cbc1147f8ba998a563a7
+x-proxy-cache-info: dt:1
+

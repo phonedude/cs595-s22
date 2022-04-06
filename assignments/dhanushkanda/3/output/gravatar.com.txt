@@ -1,0 +1,28 @@
+http/1.1 302 found
+server: nginx
+date: wed, 06 apr 2022 01:02:54 gmt
+content-type: text/html; charset=utf-8
+content-length: 0
+connection: keep-alive
+p3p: cp="cao psa"
+x-frame-options: sameorigin
+content-security-policy-report-only: default-src *.gravatar.com; script-src *.gravatar.com *.wp.com *.google-analytics.com apis.google.com/js/ 'nonce-a4e59f50e61d'; style-src 'self' *.gravatar.com *.wp.com fonts.googleapis.com 'nonce-fcad02bae22a'; font-src data: *.gravatar.com *.wp.com fonts.gstatic.com; img-src data: *.gravatar.com gravatar.files.wordpress.com *.wordpress.com/mshots/ *.wp.com vaultpress.com; media-src https://videos.files.wordpress.com/; frame-src *.gravatar.com widgets.wp.com; connect-src *.gravatar.com https://public-api.wordpress.com/; object-src 'none'; base-uri 'self'; report-uri https://public-api.wordpress.com/csp/;
+expires: wed, 11 jan 1984 05:00:00 gmt
+last-modified: wed, 06 apr 2022 01:02:54 gmt
+cache-control: no-cache, must-revalidate, max-age=0
+pragma: no-cache
+location: https://en.gravatar.com/
+
+http/2 200 
+server: nginx
+date: wed, 06 apr 2022 01:02:55 gmt
+content-type: text/html; charset=utf-8
+vary: accept-encoding
+p3p: cp="cao psa"
+expires: wed, 11 jan 1984 05:00:00 gmt
+last-modified: wed, 06 apr 2022 01:02:55 gmt
+cache-control: no-cache, must-revalidate, max-age=0
+pragma: no-cache
+x-frame-options: sameorigin
+content-security-policy-report-only: default-src *.gravatar.com; script-src *.gravatar.com *.wp.com *.google-analytics.com apis.google.com/js/ 'nonce-7926bfcd04d3'; style-src 'self' *.gravatar.com *.wp.com fonts.googleapis.com 'nonce-944ee110f6ef'; font-src data: *.gravatar.com *.wp.com fonts.gstatic.com; img-src data: *.gravatar.com gravatar.files.wordpress.com *.wordpress.com/mshots/ *.wp.com vaultpress.com; media-src https://videos.files.wordpress.com/; frame-src *.gravatar.com widgets.wp.com; connect-src *.gravatar.com https://public-api.wordpress.com/; object-src 'none'; base-uri 'self'; report-uri https://public-api.wordpress.com/csp/;
+

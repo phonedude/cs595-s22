@@ -1,0 +1,62 @@
+http/1.1 301 moved permanently
+server: nginx
+date: thu, 31 mar 2022 07:39:07 gmt
+content-type: text/html; charset=iso-8859-1
+content-length: 224
+x-content-type-options: nosniff
+location: https://nih.gov/
+cache-control: max-age=1209600
+expires: thu, 14 apr 2022 07:39:07 gmt
+x-request-id: v-a5c7fe98-b0c5-11ec-b462-3b68adc17439
+age: 494784
+via: varnish
+x-cache: hit
+x-cache-hits: 1110266
+connection: keep-alive
+
+http/2 301 
+server: nginx
+date: wed, 06 apr 2022 01:05:32 gmt
+content-type: text/html; charset=iso-8859-1
+content-length: 228
+location: https://www.nih.gov/
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+cache-control: max-age=1209600
+expires: thu, 14 apr 2022 07:39:07 gmt
+x-request-id: v-a5c32ab2-b0c5-11ec-a138-271b7ad3c321
+age: 494784
+via: varnish
+x-cache: hit
+x-cache-hits: 1852565
+
+http/1.1 200 ok
+accept-ranges: bytes
+age: 18552
+cache-control: public, max-age=21600
+content-language: en
+content-length: 68989
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.nih.gov *.googleapis.com *.govdelivery.com *.hatchbuck.com *.youtube.com *.here.com search.usa.gov *.jquery.com *.crazyegg.com *.addthis.com *.addthisedge.com cdn.jsdelivr.net *.google-analytics.com *.moatads.com *.newrelic.com bam.nr-data.net *.feedgrabbr.com *.recaptcha.net *.gstatic.com; style-src 'self' 'unsafe-inline' *.nih.gov search.usa.gov *.googleapis.com *.here.com cdn.jsdelivr.net *.feedgrabbr.com; img-src 'self' *.nih.gov *.google-analytics.com data:; frame-src 'self' *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com *.recaptcha.net; frame-ancestors 'self' *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com *.recaptcha.net; child-src 'self' blob: *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com *.recaptcha.net; font-src 'self' *.nih.gov *.googleapis.com *.gstatic.com *.feedgrabbr.com; connect-src 'self' *.nih.gov *.crazyegg.com *.google-analytics.com *.addthis.com stats.g.doubleclick.net bam.nr-data.net; report-uri /report-csp-violation
+content-type: text/html; charset=utf-8
+date: wed, 06 apr 2022 01:05:32 gmt
+etag: w/"1649188580-1"
+expires: sun, 19 nov 1978 05:00:00 gmt
+last-modified: tue, 05 apr 2022 19:56:20 gmt
+link: <https://www.nih.gov/>; rel="canonical",<https://www.nih.gov/>; rel="shortlink"
+permissions-policy: interest-cohort=()
+server: nginx
+strict-transport-security: max-age=31536000
+vary: cookie,accept-encoding
+via: varnish
+x-ah-environment: prod
+x-cache: hit
+x-cache-hits: 37269
+x-content-type-options: nosniff
+x-drupal-cache: miss
+x-frame-options: sameorigin
+x-generator: drupal 7 (http://drupal.org)
+x-request-id: v-76588c6e-b51a-11ec-97c1-77ae6e53301d
+x-ua-compatible: ie=edge,chrome=ie6
+x-xss-protection: 1; mode=block
+connection: keep-alive
+

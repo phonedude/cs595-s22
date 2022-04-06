@@ -1,0 +1,39 @@
+http/1.1 301 moved permanently
+server: nginx/1.18.0 (ubuntu)
+date: wed, 06 apr 2022 01:04:59 gmt
+content-type: text/html
+content-length: 178
+connection: keep-alive
+location: http://www.ig.com.br/
+
+http/1.1 301 moved permanently
+date: wed, 06 apr 2022 01:04:59 gmt
+connection: keep-alive
+cache-control: max-age=3600
+expires: wed, 06 apr 2022 02:04:59 gmt
+location: https://www.ig.com.br/
+server: cloudflare
+cf-ray: 6f769cd63cd0c084-orf
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+http/2 200 
+date: wed, 06 apr 2022 01:05:00 gmt
+content-type: text/html; charset=utf-8
+x-xrds-location: https://login.ig.com.br/discovery
+access-control-allow-origin: *
+access-control-allow-headers: origin, content-type, accept, ajax
+vary: accept-encoding
+edge-control: max-age=30s,downstream-ttl=30s
+x-url: /
+x-user-agent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/100.0.4896.60 safari/537.36 edg/100.0.1185.29
+x-xss-protection: 1; mode=block
+last-modified: wed, 06 apr 2022 00:48:50 gmt
+cf-cache-status: hit
+age: 335
+expires: wed, 06 apr 2022 02:05:00 gmt
+cache-control: public, max-age=3600
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 6f769cd7a938c098-orf
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

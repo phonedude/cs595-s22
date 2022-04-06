@@ -1,0 +1,36 @@
+http/1.1 301 moved permanently
+content-type: text/html; charset=iso-8859-1
+content-length: 229
+connection: keep-alive
+date: wed, 06 apr 2022 00:25:33 gmt
+server: apache/2.4.6 (centos) php/5.4.16 openssl/1.0.2k-fips
+location: https://www.espn.com/
+via: 1.1 varnish (varnish/6.0), 1.1 7f4d5d15a00b6ae82bb7aabc4560d3a6.cloudfront.net (cloudfront)
+vary: accept-encoding
+x-cache: hit from cloudfront
+x-amz-cf-pop: iad79-c1
+x-amz-cf-id: 01e9kyp1xktoqea-papq_kjpbpw4wh7zmpt2hr9lsspq2hzwx5c1vq==
+age: 2231
+
+http/2 200 
+content-type: text/html;charset=utf-8
+content-length: 1148934
+date: wed, 06 apr 2022 01:02:44 gmt
+access-control-allow-origin: *
+content-security-policy: frame-ancestors  'self' *.espn.com:* *.espnqa.com:* *.espnsb.com:* *.espnsb.com *.espn.co.uk *.espndeportes.espn.com *.espn.com.br *.espn.com.mx *.espn.com.ve *.espn.com.ar *.espn.com.co *.espnfc.com.au *.espn.com.au *.espn.in *.espn.com.sg *.espn.cl *.espn.ph *.espn.ph:* *.espn.com.pe *.espn.com.gt *.espn.com.do *.espn.com.ec *.espn.com.uy *.espn.com.pa *.espn.co.cr qa.abcnews.go.com preview.abcnews.go.com abc7ny.com abc7.com *.abcotvssb.com preview.goodmorningamerica.com http://*.espnqa.com:* http://*.espn.com:* *.abcotvssb.com *.abcnews.go.com *.abcnews.go.com:* http://*.abcnews.go.com:* abc30.com abc7news.com abc13.com abc7chicago.com 6abc.com abc11.com *.goodmorningamerica.com qa.abc7.com qa.abc30.com qa.abc7news.com qa.abc13.com qa.abc7chicago.com qa.6abc.com qa.abc7ny.com qa.abc11.com *.abcnews.go.com:* abcnews.go.com qa.secsports.com
+etag: w/"ead6c2a59f261fab029f45cba2486129275d2fc6"
+via: 1.1 varnish (varnish/6.0), 1.1 a10f8b8edba35e6f4205ea317abf3c48.cloudfront.net (cloudfront)
+vary: accept-encoding
+accept-ranges: bytes
+set-cookie: country=us; path=/;
+set-cookie: edition=espn-en-us; path=/; expires=wed, 13 apr 2022 01:02:44 gmt;
+set-cookie: edition-view=espn-en-us; path=/; expires=wed, 13 apr 2022 01:02:44 gmt;
+set-cookie: connectionspeed=full; path=/; expires=wed, 13 apr 2022 01:02:44 gmt;
+set-cookie: region=ccpa; path=/; expires=wed, 13 apr 2022 01:02:44 gmt;
+set-cookie: _dcf=1; path=/; expires=wed, 13 apr 2022 01:02:44 gmt;
+set-cookie: swid=1d8cc6fa-8c9d-45fb-c5e7-84fe5be70283; path=/; expires=sun, 06 apr 2042 01:02:44 gmt; domain=espn.com;
+cache-control: max-age=0, must-revalidate
+x-cache: miss from cloudfront
+x-amz-cf-pop: iad50-c2
+x-amz-cf-id: gxzyggmrke4asojqmlepkjlab0iua1nygsxnniapabei2u_jm5h5gg==
+

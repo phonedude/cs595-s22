@@ -1,0 +1,28 @@
+http/1.1 301 moved permanently
+server: nginx/1.21.5
+date: wed, 06 apr 2022 01:05:30 gmt
+content-type: text/html
+content-length: 169
+connection: keep-alive
+keep-alive: timeout=15
+location: https://www.nginx.com/
+
+http/2 200 
+date: wed, 06 apr 2022 01:05:30 gmt
+content-type: text/html; charset=utf-8
+vary: accept-encoding
+x-gateway-request-id: ca56b2cdffcbe9cfe99d6c5869717217
+set-cookie: geoip=us; max-age=604800
+x-pingback: https://www.nginx.com/xmlrpc.php
+cache-control: public, max-age=600
+link: <https://www.nginx.com/wp-json/>; rel="https://api.w.org/"
+link: <https://www.nginx.com/>; rel=shortlink
+content-security-policy: frame-ancestors 'self'
+x-gateway-cache-key: 1649193380.005|standard|https|www.nginx.com||/|us
+x-gateway-cache-status: hit
+x-gateway-skip-cache: 0
+cf-cache-status: dynamic
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare-nginx
+cf-ray: 6f769d963d67c075-orf
+

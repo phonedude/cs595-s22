@@ -1,0 +1,19 @@
+http/1.1 302 moved temporarily
+server: nginx
+date: wed, 06 apr 2022 01:02:35 gmt
+content-type: text/html
+content-length: 154
+connection: close
+location: https://depositfiles.com/
+
+http/1.1 200 ok
+server: nginx
+date: wed, 06 apr 2022 01:02:36 gmt
+content-type: text/html; charset=utf-8
+connection: close
+set-cookie: uprand=e1ed5a580123dfc2dbd08b690b9f070c; path=/; domain=.depositfiles.com
+expires: thu, 19 nov 1981 08:52:00 gmt
+cache-control: no-store, no-cache, must-revalidate
+pragma: no-cache
+x-frame-options: sameorigin
+

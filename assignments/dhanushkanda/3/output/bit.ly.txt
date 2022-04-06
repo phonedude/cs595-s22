@@ -1,0 +1,17 @@
+http/1.1 302 moved temporarily
+server: nginx
+date: wed, 06 apr 2022 01:02:20 gmt
+content-type: text/html
+content-length: 154
+location: https://bitly.com/
+via: 1.1 google
+
+http/2 405 
+server: nginx
+date: wed, 06 apr 2022 01:02:20 gmt
+content-type: text/html; charset=utf-8
+content-length: 109
+strict-transport-security: max-age=31536000
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

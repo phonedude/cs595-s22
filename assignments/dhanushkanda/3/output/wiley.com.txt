@@ -1,0 +1,19 @@
+http/1.1 301 moved permanently
+date: wed, 06 apr 2022 01:06:21 gmt
+server: apache/2.4.52 (unix) openssl/1.0.2k-fips
+location: https://www.wiley.com/
+content-type: text/html; charset=iso-8859-1
+
+http/2 405 
+date: wed, 06 apr 2022 01:06:22 gmt
+content-type: application/octet-stream
+content-length: 0
+etag: "6245f639-0"
+cf-cache-status: dynamic
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+set-cookie: __cf_bm=ba2md7tuoosjvevgqbtp6rohtms2qu4qni3x0bmghpm-1649207182-0-aeexrnzkwrp8s/y8hrukyjvie2uygkynpuytmtf9+md6nmwptgy9i9rjpqwue6td3txquookc7umwmogowxmzoo=; path=/; expires=wed, 06-apr-22 01:36:22 gmt; domain=.www.wiley.com; httponly; secure; samesite=none
+strict-transport-security: max-age=2592000; includesubdomains
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 6f769ed76b9fc07a-orf
+

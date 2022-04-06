@@ -1,0 +1,18 @@
+http/1.1 302 found
+location: https://blog.google/
+x-cloud-trace-context: a35eee35d6e22149988a5740f1eb4d09
+date: wed, 06 apr 2022 01:02:21 gmt
+content-type: text/html
+server: google frontend
+transfer-encoding: chunked
+
+http/2 200 
+content-type: text/html; charset=utf-8
+content-security-policy: object-src 'none'; font-src 'self' themes.googleusercontent.com *.gstatic.com https://fonts.gstatic.com storage.googleapis.com fonts.googleapis.com *.cdn.ampproject.org; img-src * data: blob:; frame-src 'self' www.google.com *.youtube.com youtube.com accounts.google.com plus.google.com *.doubleclick.net apis.google.com optimize.google.com *.google.com *.cdn.ampproject.org; style-src 'self' 'unsafe-inline' fonts.googleapis.com *.gstatic.com storage.googleapis.com *.google.com cdn.ampproject.org; default-src 'self' *.gstatic.com storage.googleapis.com; connect-src 'self' plus.google.com www.google-analytics.com apis.google.com cdn.ampproject.org *.google.com storage.googleapis.com https://services.google.com/fb/submissions/thekeywordtest/ https://services.google.com/fb/submissions/0a65d7733e1f11ea9701614fc033d30c/ *.gstatic.com gstatic.com *.cdn.ampproject.org *.doubleclick.net; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.googleanalytics.com *.google-analytics.com ajax.googleapis.com *.youtube.com youtube.com optimize.google.com https://s.ytimg.com *.googletagmanager.com apis.google.com storage.googleapis.com *.googleapis.com *.google.com cdn.ampproject.org 'sha256-786mzqpkatv3kjd7q8zuwoth4u3/0wnibdyvogzqpv4=' 'sha256-xyk5ei/yh7duzgaxnfbpswkpmmkhk5jy18vkxjfpmj0=' 'sha256-hdpneczwri+c9lqvo+pznzlnr9tacchc0cw0fidbhki=' 'sha256-de/j4w1a1hdixyswgftrjcjk6jwechqscfymr9zq9r4=' 'sha256-ehy9lgqrti8oqqwxx1hn6hkjt7iwwymfj+hljpeobo0=' 'sha256-s/yvuh0zhyo+7n8dm5cshpem4k1pkndexyn18xhq0li=' 'sha256-mwqdkiax5j//suh1t5p3pffwfuiphy0pxd6vvzbbehq=' 'sha256-587vjav9t9k86imqixmyka7lbpadhkgzrjsdngtoiaa=' 'sha256-kydvl4o9o3xkktgqw4bzzzz44bdd2lwjj6enj8hyqwg=' 'sha256-1lorojgb+aov56bzpsodlpb+j+hhbonnepx/yqvtiuu=' 'sha256-sasqphozozalvfpcda3bvt5euqcgl4mqvnizar+xla4=' *.googleapis.com *.gstatic.com gstatic.com googleadservices.com *.googleadservices.com; base-uri 'none'; media-src 'self' *.gstatic.com storage.googleapis.com *.googlevideo.com
+content-language: en-us
+access-control-allow-origin: *
+x-cloud-trace-context: c6937edba7902d369f6b32fe444e39ef
+content-length: 0
+date: wed, 06 apr 2022 01:02:21 gmt
+server: google frontend
+
