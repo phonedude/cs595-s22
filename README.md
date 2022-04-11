@@ -120,7 +120,7 @@ his course materials (although any errors are mine).
 * Week 14 - April 11 - DNS rebinding attacks
     * [Millions of Streaming Devices Are Vulnerable to a Retro Web Attack](https://www.wired.com/story/chromecast-roku-sonos-dns-rebinding-vulnerability/)
     * [Protecting Browsers from DNS Rebinding Attacks](https://crypto.stanford.edu/dns/dns-rebinding.pdf)
-    * [Class slides](https://docs.google.com/presentation/d/1F-SdAPhDDvmLXhz2gm8R04vWvjH-HnumtMzyzl1M8jw/edit)
+    * [Class slides](https://docs.google.com/presentation/d/1sdp10RkKxUyqTtoDH4--UmKTPHQv8jSWu76EATDivhI/edit)
 
 * Week 15 - April 18 - UI Denial-of-service, Phishing, Side Channels
     * [The Annoying Site](https://github.com/feross/theannoyingsite.com)
