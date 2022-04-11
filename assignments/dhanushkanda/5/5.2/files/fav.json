@@ -1,0 +1,17 @@
+{
+  "Movie": {
+    "name": "96",
+    "reason": "96 is a tamil movie released in 2018. The story revolved around 2 long-lost lovers reunited by their high-shool 20 year anniversary. They share a low-key night together and talk about how things could have been.",
+    "URL": "https://en.wikipedia.org/wiki/%2796_(film)"
+  },
+  "Music_Artist": {
+    "name": "A.R.Rahman",
+    "reason": "A.R.Rahman is a world-renowned music artist. His unorthodox style of music and soul melting melodies are a die for. ",
+    "URL": "https://en.wikipedia.org/wiki/A._R._Rahman"
+  },
+  "TV_Show": {
+    "name": "Witcher",
+    "reason": "Witcher is probably my favourite TV series. The fact that nothing can be predicted is what keeps me glued to the screen.",
+    "URL": "https://en.wikipedia.org/wiki/The_Witcher_(TV_series)"
+  }
+}
