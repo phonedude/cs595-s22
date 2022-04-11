@@ -1,0 +1,41 @@
+http/1.1 301 moved permanently
+server: cloudfront
+date: wed, 06 apr 2022 01:02:46 gmt
+content-type: text/html
+content-length: 183
+connection: keep-alive
+location: https://express.co.uk/
+x-cache: redirect from cloudfront
+via: 1.1 a9eda0e42d94d0bd56a91282e7de5300.cloudfront.net (cloudfront)
+x-amz-cf-pop: iad50-c2
+x-amz-cf-id: pqvcudl3jkz5egkludcujwtu_tfxbnap5yxfiep6qbhvsy9zat-mzq==
+
+http/2 301 
+content-type: text/html
+content-length: 162
+location: https://www.express.co.uk/
+date: tue, 05 apr 2022 08:20:23 gmt
+server: nginx
+x-cache: hit from cloudfront
+via: 1.1 67711c5cba0352ee130f60f6cc103e0a.cloudfront.net (cloudfront)
+x-amz-cf-pop: iad50-c2
+x-amz-cf-id: _uydycvadjyia0pk_hbffc-xch8gmdi6tsymzimfyxox_ghwl860jw==
+age: 60143
+
+http/2 200 
+content-type: text/html; charset=utf-8
+content-length: 308996
+date: wed, 06 apr 2022 01:02:12 gmt
+server: nginx
+cache-control: public,max-age=180
+expires: wed, 06 apr 2022 01:05:12 gmt
+x-frame-options: deny
+content-security-policy: frame-ancestors self
+strict-transport-security: max-age=180
+vary: accept-encoding,user-agent
+x-cache: hit from cloudfront
+via: 1.1 77dc0904034d14a129bafe4c9d954f08.cloudfront.net (cloudfront)
+x-amz-cf-pop: iad50-c2
+x-amz-cf-id: mxr-etgp0pmmu3ccsvg9gc07k_43hqwhr9gtss-iwzaucsrjkt47rq==
+age: 33
+

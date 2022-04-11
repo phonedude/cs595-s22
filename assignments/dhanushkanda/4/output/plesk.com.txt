@@ -1,0 +1,30 @@
+http/1.1 301 moved permanently
+date: wed, 06 apr 2022 01:05:44 gmt
+server: apache/2.4.6 (centos) openssl/1.0.2k-fips
+location: https://www.plesk.com/
+content-type: text/html; charset=utf-8
+
+http/2 200 
+date: wed, 06 apr 2022 01:05:44 gmt
+content-type: text/html; charset=utf-8
+x-powered-by: php/7.4.20
+x-powered-by: plesklin
+x-xss-protection: 1; mode=block
+content-security-policy: frame-ancestors 'self'; default-src https: *.crazyegg.com blob:; frame-src https: 'self' 'unsafe-inline' 'unsafe-eval'; script-src https: 'self' 'unsafe-inline' 'unsafe-eval' *.crazyegg.com blob:; connect-src 'self' https: wss: *.crazyegg.com; img-src https: 'self' data: *.crazyegg.com; style-src https: 'unsafe-inline'; font-src https: 'unsafe-inline' data:;
+x-frame-options: sameorigin
+link: <https://www.plesk.com/wp-json/>; rel="https://api.w.org/"
+link: <https://www.plesk.com/wp-json/wp/v2/pages/27874>; rel="alternate"; type="application/json"
+link: <https://www.plesk.com/>; rel=shortlink
+cache-control: public, max-age=172800
+expires: fri, 08 apr 2022 00:34:14 gmt
+x-litespeed-cache: hit
+access-control-allow-origin: https://www.plesk.com
+x-turbo-charged-by: litespeed
+cf-cache-status: dynamic
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+set-cookie: __cf_bm=mdpz4olzhmqjnoipxrrng80u6ymqzrnyzfsezccuvzs-1649207144-0-avgvtefkefceothfzp8jr0t7pwcfw66ajvf5cr4wpp5/bvqain0qbejh1kim22ubybhv4rv2s7vptjpdmetw5so=; path=/; expires=wed, 06-apr-22 01:35:44 gmt; domain=.plesk.com; httponly; secure; samesite=none
+strict-transport-security: max-age=15552000
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 6f769ded4a77c089-orf
+

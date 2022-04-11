@@ -1,0 +1,18 @@
+http/1.1 301 moved permanently
+server: qrator
+date: wed, 06 apr 2022 01:05:49 gmt
+content-length: 0
+connection: keep-alive
+keep-alive: timeout=15
+location: https://ria.ru/
+
+http/1.1 200 ok
+server: qrator
+date: wed, 06 apr 2022 01:05:50 gmt
+content-type: text/html; charset=utf-8
+connection: keep-alive
+keep-alive: timeout=15
+expires: thu, 19 nov 1981 08:52:00 gmt
+cache-control: public
+pragma: no-cache
+

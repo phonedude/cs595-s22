@@ -1,0 +1,33 @@
+http/1.1 301 moved permanently
+server: awselb/2.0
+date: wed, 06 apr 2022 01:05:47 gmt
+content-type: text/html
+content-length: 134
+connection: keep-alive
+location: https://www.politico.com:443/
+
+http/2 200 
+date: wed, 06 apr 2022 01:05:47 gmt
+content-type: text/html;charset=utf-8
+cache-control: public, max-age=60, stale-while-revalidate=3600, stale-if-error=86400, stale-if-error=604800
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+strict-transport-security: max-age=31536000 ; includesubdomains
+x-frame-options: sameorigin
+vary: accept-encoding
+access-control-allow-origin: *
+access-control-allow-credentials: true
+x-varnish: 118359543 95422039
+via: 1.1 varnish (varnish/6.3)
+x-varnish-cache: hit
+last-modified: wed, 06 apr 2022 01:03:59 gmt
+cf-cache-status: hit
+age: 48
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+set-cookie: __cf_bm=dddtbrkvebkot8l8hy4gcecfnbugg2na5h5xgwqqjyg-1649207147-0-aszhyvj4sv28siagnslumwfplwjldwppmx+kuubc+01gpfvr5nhu1ov9g57i5+rhero6samdra1ujpqvrhajlgk=; path=/; expires=wed, 06-apr-22 01:35:47 gmt; domain=.www.politico.com; httponly; secure; samesite=none
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zoymaysohyu%2bnyaa%2bb8xbupoktqzpdna6uvpiam2zl4ue025hbhys3ytrql%2b8fmmd9o71g0brzx1iqmvgdamy3lqhuvwy53romkqdqxfej1wz9gx7c7nynz3e8fbslznjbmauqhs2i7mjk88%2b3w%3d"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+set-cookie: __cfruid=947c665bd14e4986ba43bb5540ba5e4ecaa5c56f-1649207147; path=/; domain=.www.politico.com; httponly; secure; samesite=none
+server: cloudflare
+cf-ray: 6f769dfe48acc07a-orf
+

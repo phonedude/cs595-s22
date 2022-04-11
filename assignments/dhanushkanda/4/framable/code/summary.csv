@@ -1,0 +1,102 @@
+URL,Framable?,x-frame-option-header,Reason
+,,,
+20minutos.es,yes,[None],none
+abcnews.go.com,yes,[None],none
+aboutads.info,no,['SAMEORIGIN'],Refused to display 'https://youradchoices.com/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+afternic.com,no,['SAMEORIGIN'],Refused to display 'https://www.afternic.com/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+akamaihd.net,no,[None],"Failed to load resource: A server with the specified hostname could not be found, Curl failed with no response"
+amzn.to,no,['SAMEORIGIN'],Refused to display 'https://www.amazon.com/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+bbc.co.uk,no,['DENY'],Refused to load https://www.bbc.co.uk/ because it does not appear in the frame-ancestors directive of the Content Security Policy.
+bit.ly,no,['DENY'],Refused to display 'https://bitly.com/' in a frame because it set 'X-Frame-Options' to 'DENY'.
+bitly.com,no,['DENY'],Refused to display 'https://bitly.com/' in a frame because it set 'X-Frame-Options' to 'DENY'.
+blog.google,yes,[None],none
+boston.com,no,['SAMEORIGIN'],Refused to display 'https://www.boston.com/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+businessinsider.com,no,['SAMEORIGIN'],Refused to display 'https://www.businessinsider.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'.
+buydomains.com,yes,[None],none
+calendar.google.com,no,"['SAMEORIGIN', 'DENY']",Failed to load resource: A server with the specified hostname could not be found.
+cointernet.com.co,yes,[None],none
+cpanel.com,no,['SAMEORIGIN'],Refused to display 'https://www.cpanel.net/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+dailymotion.com,no,['DENY'],Refused to display 'https://www.dailymotion.com/' in a frame because it set 'X-Frame-Options' to 'deny'.
+de.wikipedia.org,no,[None],Failed to load resource: A server with the specified hostname could not be found.
+deezer.com,no,['SAMEORIGIN'],Refused to display 'https://www.deezer.com/us/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+depositfiles.com,no,['SAMEORIGIN'],Refused to display 'https://depositfiles.com/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+dreniq.com,yes,[None],none
+e-monsite.com,no,['SAMEORIGIN'],Refused to display 'https://www.e-monsite.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'.
+enable-javascript.com,yes,[None],none
+espn.com,no,[None],Refused to load https://www.espn.com/ because it does not appear in the frame-ancestors directive of the Content Security Policy.
+estadao.com.br,yes,[None],none
+express.co.uk,no,['DENY'],Refused to load https://www.express.co.uk/ because it does not appear in the frame-ancestors directive of the Content Security Policy.
+fifa.com,yes,[None],none
+focus.de,yes,[None],none
+forbes.com,no,['SAMEORIGIN'],Refused to display 'https://www.forbes.com/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+fortune.com,yes,[None],none
+fr.wikipedia.org,no,[None],Failed to load resource: A server with the specified hostname could not be found.
+gettyimages.com,no,['SAMEORIGIN'],Refused to display 'https://www.gettyimages.com/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+giphy.com,yes,[None],none
+google.co.in,no,['SAMEORIGIN'],Refused to display 'https://www.google.co.in/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+google.co.jp,no,['SAMEORIGIN'],Refused to display 'https://www.google.co.jp/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+google.ru,no,['SAMEORIGIN'],Refused to display 'https://www.google.ru/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+gravatar.com,no,['SAMEORIGIN'],Refused to display 'https://en.gravatar.com/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+groups.yahoo.com,no,['SAMEORIGIN'],Refused to display 'https://www.yahoo.com/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+guardian.co.uk,no,['SAMEORIGIN'],Refused to display 'https://www.theguardian.com/us' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+icann.org,no,['SAMEORIGIN'],Refused to load https://www.icann.org/ because it does not appear in the frame-ancestors directive of the Content Security Policy.
+ig.com.br,yes,[None],none
+insider.com,no,['SAMEORIGIN'],Refused to display 'https://www.insider.com/' in a frame because it set 'X-Frame-Options' to 'sameorigin'.
+ipv4.google.com,no,['SAMEORIGIN'],Failed to load resource: A server with the specified hostname could not be found.
+iso.org,yes,[None],none
+ja.wikipedia.org,no,[None],Failed to load resource: A server with the specified hostname could not be found.
+last.fm,no,['SAMEORIGIN'],Refused to display 'https://www.last.fm/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+linktr.ee,no,['DENY'],Refused to display 'https://linktr.ee/' in a frame because it set 'X-Frame-Options' to 'DENY'.
+maps.google.com,no,[None],Failed to load resource: A server with the specified hostname could not be found.
+mashable.com,yes,[None],none
+mayoclinic.org,no,['SAMEORIGIN'],Refused to display 'https://www.mayoclinic.org/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+mercurynews.com,yes,[None],none
+mixcloud.com,no,['SAMEORIGIN'],Refused to display 'https://www.mixcloud.com/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+msn.com,no,['SAMEORIGIN'],Refused to display 'https://www.msn.com/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+nasa.gov,no,[None],Refused to load https://www.nasa.gov/ because it does not appear in the frame-ancestors directive of the Content Security Policy.
+nature.com,no,['DENY'],Refused to display 'https://www.nature.com/' in a frame because it set 'X-Frame-Options' to 'DENY'.
+nbcnews.com,no,['SAMEORIGIN'],Refused to display 'https://www.nbcnews.com/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+netflix.com,no,['DENY'],Refused to display 'https://www.netflix.com/' in a frame because it set 'X-Frame-Options' to 'DENY'.
+networkadvertising.org,yes,[None],none
+news.com.au,yes,[None],none
+nginx.com,no,[None],Refused to load https://www.nginx.com/ because it does not appear in the frame-ancestors directive of the Content Security Policy.
+nginx.org,yes,[None],none
+nih.gov,no,['SAMEORIGIN'],Refused to load https://www.nih.gov/ because it does not appear in the frame-ancestors directive of the Content Security Policy.
+nokia.com,no,['SAMEORIGIN'],Refused to load https://www.nokia.com/ because it does not appear in the frame-ancestors directive of the Content Security Policy.
+npr.org,yes,[None],none
+nypost.com,no,[None],Refused to load https://nypost.com/ because it does not appear in the frame-ancestors directive of the Content Security Policy.
+offset.com,no,['DENY'],Refused to display 'https://www.offset.com/' in a frame because it set 'X-Frame-Options' to 'DENY'.
+opera.com,no,['SAMEORIGIN'],Refused to load https://www.opera.com/ because it does not appear in the frame-ancestors directive of the Content Security Policy.
+oracle.com,no,['SAMEORIGIN'],Refused to load https://www.oracle.com/index.html because it does not appear in the frame-ancestors directive of the Content Security Policy.
+ovh.co.uk,no,['SAMEORIGIN'],Refused to display 'https://www.ovhcloud.com/en-gb/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+plesk.com,no,['SAMEORIGIN'],Refused to load https://www.plesk.com/ because it does not appear in the frame-ancestors directive of the Content Security Policy.
+policies.google.com,no,[None],Failed to load resource: A server with the specified hostname could not be found.
+politico.com,no,['SAMEORIGIN'],Refused to display 'https://www.politico.com/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+rfi.fr,no,['DENY'],Refused to display 'https://www.rfi.fr/en/' in a frame because it set 'X-Frame-Options' to 'DENY'.
+ria.ru,no,[None],"Timed out, the website does not exist"
+sapo.pt,no,['SAMEORIGIN'],Refused to display 'https://www.sapo.pt/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+search.google.com,no,[None],Failed to load resource: A server with the specified hostname could not be found.
+search.yahoo.com,no,['DENY'],Refused to load https://search.yahoo.com/ because it does not appear in the frame-ancestors directive of the Content Security Policy.
+secureserver.net,yes,[None],none
+shutterstock.com,no,['SAMEORIGIN'],Refused to display 'https://www.shutterstock.com/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+sites.google.com,no,"['SAMEORIGIN', 'DENY']",Refused to display 'https://sites.google.com/new' in a frame because it set 'X-Frame-Options' to 'DENY'.
+spiegel.de,yes,[None],none
+state.gov,no,['SAMEORIGIN'],Refused to display 'https://www.state.gov/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+steampowered.com,no,['DENY'],Refused to load https://store.steampowered.com/ because it does not appear in the frame-ancestors directive of the Content Security Policy.
+techcrunch.com,no,['SAMEORIGIN'],Refused to display 'https://techcrunch.com/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+ted.com,no,['SAMEORIGIN'],Refused to display 'https://www.ted.com/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+thesun.co.uk,yes,[None],none
+thoughtco.com,no,[None],Refused to load https://www.thoughtco.com/ because it does not appear in the frame-ancestors directive of the Content Security Policy.
+timeout.com,no,['DENY'],Refused to load https://www.timeout.com/ because it does not appear in the frame-ancestors directive of the Content Security Policy.
+tinyurl.com,no,['SAMEORIGIN'],Refused to display 'https://tinyurl.com/app' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+tmz.com,no,['SAMEORIGIN'],Refused to display 'https://www.tmz.com/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+usnews.com,yes,[None],none
+variety.com,no,['DENY'],Refused to load https://variety.com/ because it does not appear in the frame-ancestors directive of the Content Security Policy.
+welt.de,no,['SAMEORIGIN'],Refused to display 'https://www.welt.de/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+wiley.com,no,[None],Refused to display 'https://www.wiley.com/en-us' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+wn.com,yes,[None],none
+wsj.com,yes,[None],none
+www.over-blog.com,no,['DENY'],Refused to display 'https://de.over-blog.com/' in a frame because it set 'X-Frame-Options' to 'DENY'.
+yahoo.co.jp,no,[None],Refused to display 'https://www.yahoo.co.jp/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+ytimg.com,no,[None],Failed to load resource: A server with the specified hostname could not be found.
+zendesk.com,no,[None],Refused to load https://www.zendesk.com/ because it does not appear in the frame-ancestors directive of the Content Security Policy.

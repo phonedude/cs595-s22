@@ -1,0 +1,23 @@
+http/1.1 301 moved permanently
+date: wed, 06 apr 2022 01:05:35 gmt
+server: apache/2.4.25 (debian)
+location: https://www.npr.org/
+cache-control: max-age=0
+expires: wed, 06 apr 2022 01:05:35 gmt
+content-type: text/html; charset=iso-8859-1
+
+http/2 200 
+content-type: text/html; charset=utf-8
+x-cache-npr: hit
+access-control-allow-origin: *
+access-control-allow-credentials: true
+x-npr-trace-id: renpbjxtvax
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-served-by: pod-www-render-nginx-6fccbf5777-prwb6
+referrer-policy: no-referrer-when-downgrade
+strict-transport-security: max-age=15724800; includesubdomains
+cache-control: no-cache
+expires: wed, 06 apr 2022 01:05:35 gmt
+date: wed, 06 apr 2022 01:05:35 gmt
+

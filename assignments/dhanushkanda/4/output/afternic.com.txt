@@ -1,0 +1,20 @@
+http/1.1 301 moved permanently
+content-length: 0
+location: https://www.afternic.com/
+
+http/1.1 200 ok
+server: apache/2.2.27 (centos)
+expires: thu, 19 nov 1981 08:52:00 gmt
+cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+pragma: no-cache
+content-type: text/html; charset=utf-8
+x-frame-options: sameorigin
+strict-transport-security: max-age=31536000
+date: wed, 06 apr 2022 01:02:16 gmt
+content-length: 0
+connection: keep-alive
+set-cookie: phpsessid=mspabgpmdtd770n2tac9plma91; path=/; httponly; secure
+set-cookie: afternicserverid=www09; path=/
+set-cookie: _abck=48f4a260fc98b4c208a587ea156f21ff~-1~yaaqz5s+fxtjyd9/aqaajcnk/acz5mvgoo7brcekl4lr6kuk/48sawwcl/8idshwewdy3tnfxymtls7mjqdycb12nbbadhdjugfk0da4ta/xj0zzswib5ox5xnlofab/b/pywfsfqof1jv4bp0qd2cckc81vvxylt6aif9r9aoqldc2wxpfjubhi1fllu6h+//6e5kyhw0izrhdmahyb3uinii89f9l1wzyxd35feypqz4amod8yfub7pozujzlnpmsmmrpgyvv8wjnciwf40hj8cygm8qc5ovltvy56fuxe4x4cx+rtzc8osn2t5rabwwaurmi8o/vz9mcv9dsukrqexwmf6eqzoaf/aaoiwb9bgdmf5nbgwp5b+g==~-1~-1~-1; domain=.afternic.com; path=/; expires=thu, 06 apr 2023 01:02:16 gmt; max-age=31536000; secure
+set-cookie: bm_sz=368b7ea43743fb3488eef2c6e9a34b9d~yaaqz5s+fxxjyd9/aqaajcnk/a/7i8ysfqztimajayskw88lwivryljkkb42pimletgbikdazxiyqipkmnt/2wxizhntq5+j99dnsiyjml61wamz67ssx73ho/72wd6rp9gz8ruflsmu2muedzpyim8v1zu8ucjbvwcdo7uikt/pbcgbdxykburhvqit6tbcg8xqumf1c98x/+kupmjbraiytml0oipkrpuhonbtlxxb0mot7v5fgwbr+9qdcecrruo5nld2trzkmxeehbzeqyaqbipc3q0v/qmliyexs9oiauc1mw==~4535351~3622197; domain=.afternic.com; path=/; expires=wed, 06 apr 2022 05:02:15 gmt; max-age=14399
+

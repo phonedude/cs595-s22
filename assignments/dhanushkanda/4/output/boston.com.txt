@@ -1,0 +1,37 @@
+http/1.1 301 moved permanently
+date: wed, 06 apr 2022 01:02:22 gmt
+connection: keep-alive
+cache-control: max-age=3600
+expires: wed, 06 apr 2022 02:02:22 gmt
+location: https://www.boston.com/
+server: cloudflare
+cf-ray: 6f7698fd686ac075-orf
+
+http/2 200 
+date: wed, 06 apr 2022 01:02:22 gmt
+content-type: text/html; charset=utf-8
+x-frame-options: sameorigin
+x-distributor: yes
+link: <https://www.boston.com/wp-json/>; rel="https://api.w.org/", <https://www.boston.com/wp-json/wp/v2/pages/7>; rel="alternate"; type="application/json", <https://www.boston.com/>; rel=shortlink
+x-tec-api-version: v1
+x-tec-api-root: https://www.boston.com/wp-json/tribe/events/v1/
+x-tec-api-origin: https://www.boston.com
+x-elasticpress-query: true
+content-security-policy: upgrade-insecure-requests
+fastly-original-body-size: 53809
+via: 1.1 varnish, 1.1 varnish
+age: 975
+x-served-by: cache-bos4664-bos, cache-iad-kcgs7200029-iad
+x-cache: hit, hit
+x-cache-hits: 1, 1
+x-timer: s1649206943.633054,vs0,ve6
+vary: accept-encoding, origin, accept-encoding, client-geo-region, client-geo-region
+x-boston-geo-country: us
+x-boston-geo-region: va
+x-boston-true-client-ip: 2600:8805:193a:a200:dc87:3b6d:765d:bdc1
+strict-transport-security: max-age=300
+cf-cache-status: dynamic
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 6f7698fed962c089-orf
+

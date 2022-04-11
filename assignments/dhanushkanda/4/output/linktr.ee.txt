@@ -1,0 +1,46 @@
+http/1.1 301 moved permanently
+server: varnish
+retry-after: 0
+location: https://linktr.ee/
+content-length: 0
+accept-ranges: bytes
+date: wed, 06 apr 2022 01:05:06 gmt
+via: 1.1 varnish
+connection: close
+x-served-by: cache-iad-kjyo7100108-iad
+x-cache: hit
+x-cache-hits: 0
+x-timer: s1649207107.548549,vs0,ve0
+referrer-policy: origin-when-cross-origin
+city: norfolk
+continent-code: na
+country-code: us
+client-geo-region: region-other
+
+http/2 200 
+x-frame-options: deny
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+access-control-allow-origin: *
+cache-control: public, max-age=0, must-revalidate
+etag: comnm6sa7/yceae=
+content-type: text/html; charset=utf-8
+fastly-original-body-size: 318992
+accept-ranges: bytes
+via: 1.1 varnish, 1.1 varnish
+age: 13688
+strict-transport-security: max-age=31536000; includesubdomains; preload
+server: gatsbyhosting
+date: wed, 06 apr 2022 01:05:06 gmt
+x-served-by: cache-iad-kjyo7100085-iad, cache-iad-kjyo7100085-iad
+x-cache: hit, miss
+x-cache-hits: 1, 0
+x-timer: s1649207107.715082,vs0,ve10
+vary: accept-encoding
+referrer-policy: origin-when-cross-origin
+city: norfolk
+continent-code: na
+country-code: us
+client-geo-region: region-other
+content-length: 318992
+

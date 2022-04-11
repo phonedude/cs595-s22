@@ -1,0 +1,32 @@
+http/1.1 301 moved permanently
+content-type: text/html; charset=iso-8859-1
+connection: keep-alive
+date: wed, 06 apr 2022 01:06:18 gmt
+server: apache
+location: https://www.tmz.com/
+x-cache: miss from cloudfront
+via: 1.1 03a399d73bdcccc9e7ad44d059b07ef4.cloudfront.net (cloudfront)
+x-amz-cf-pop: iad79-c1
+x-amz-cf-id: p0b5kr0vc_ahkzmcs6c4mqlgjkuoxeohctbednxwon5vedqzlvxila==
+
+http/2 200 
+content-type: text/html; charset=utf-8
+date: wed, 06 apr 2022 01:06:18 gmt
+server: apache
+cache-control: max-age=30, public, s-maxage=60
+link: <https://imagez.tmz.com>; rel="preconnect"; crossorigin="anonymous",<https://static.tmz.com>; rel="preconnect"; crossorigin="anonymous"
+x-fpc-key: 9e4e124dd26ff10f21514103a1262bfd855aed20a2e0b371a6cd3c6d983d027d
+x-fpc: hit
+content-security-policy: upgrade-insecure-requests;
+strict-transport-security: max-age=63072000; includesubdomains; preload
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: sameorigin
+referrer-policy: unsafe-url
+vary: cloudfront-viewer-country
+x-cache: miss from cloudfront
+via: 1.1 8ad5a9cbb864898c238f716c1a12623c.cloudfront.net (cloudfront)
+x-amz-cf-pop: iad89-c2
+x-amz-cf-id: cixtzgf_fe_5gxymmh6de7evmkbo87yww8lq0vcgsjh44ponj6wpcq==
+age: 74
+

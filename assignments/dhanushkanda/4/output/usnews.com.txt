@@ -1,0 +1,15 @@
+HTTP/2 403 
+server: AkamaiGHost
+mime-version: 1.0
+content-type: text/html
+content-length: 262
+expires: Mon, 28 Feb 2022 03:02:48 GMT
+date: Mon, 28 Feb 2022 03:02:48 GMT
+set-cookie: usn_visitor_id=05dc60684c760000583b1c62db03000085720100; expires=Mon, 31-Dec-2038 23:59:59 GMT; path=/; domain=.usnews.com
+x-origin: AWS-Brightspot
+report-to: {"group":"default","max_age":10886400,"endpoints":[{"url":"https://98t3qetg.uriports.com/reports"}],"include_subdomains":true}
+cross-origin-embedder-policy-report-only: require-corp; report-to="default"
+cross-origin-opener-policy-report-only: same-origin; report-to="default"
+set-cookie: akacd_www=2177452799~rv=48~id=cc2eb96c30524b0fd793c0a731e8f0ee; path=/; Expires=Mon, 31 Dec 2038 23:59:59 GMT; Secure; SameSite=None
+set-cookie: _abck=635012B52F6DEA04BACB877A692E7757~-1~YAAQBdxgaM6ueTl/AQAAm9NHPgdiyZxnHh1wzpOO1tqDB75r6hDnwfHU74KqUZx4jLJVRWiaqFXXiuZKUm6HRnSoYwhyuPl/lBEtoNnpTKINFvc2/936bms5ghfG25fIJB64HrP6I1rq034rZySkMBaMABHoGZ+mKO7I/6OLQZ+Cf2I/tMabzanpbv3fUOmotGcf3Vi9YS7CotQ3MCejGLNE19ppo9Thkz6N7GR32SYQLvztXF+iYkLwF7Et6fM7m511ptSc9hyEGt2QnHDlxhU7NkdVTjZsxX05dz4sh2ZUBcMOWKRueeU5tex6Eceee/jpuSz5EoL3eVip/nsLBBUgUuWNujSPf6dPsXde7iQrtRz7/qJZ8Ds=~-1~-1~-1; Domain=.usnews.com; Path=/; Expires=Tue, 28 Feb 2023 03:02:48 GMT; Max-Age=31536000; Secure
+set-cookie: bm_sz=C5F5C00C6979EBD1FED9C961AE2C1E2F~YAAQBdxgaM+ueTl/AQAAm9NHPg74jkXREMZVmqGTl+iTs+Sb0eJsJmS2ligdRKvd/GYYoNImJ5uI00A9Req9kwSlSVHB+5tKScJuBu47rc6uWURd7d1Uc8EtgvG7FzEWvoVB/QpFhGtMnA1FTlq21FcKqtT2Ng0Q+48ZxQCAL8FDTxOJEi5fM6PYqYHAG+B98idZ9tL7Ap4yGy1OEhkZxVIY2NrBw67xmDpatHM8u0qr8l/YbPhFPldYFJbJhiCegG20IY7F81LVG+vSYnv+7N1CqvKNXZAoietlGVOX30GdZ98=~4600884~4535353; Domain=.usnews.com; Path=/; Expires=Mon, 28 Feb 2022 07:02:48 GMT; Max-Age=14400

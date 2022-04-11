@@ -1,0 +1,20 @@
+<html>
+<title>
+Welcome to Assignment 5.2
+</title>
+<h1>Skanda Siva, CS 495/595 - Spring 2022, ODU</h1>
+<br><br>
+Demonstrating how custom HTTP response headers are both blocked and then allowed by one server.
+
+<script>
+  fetch('http://localhost:8002/')
+  .then(response => {
+    var movie = response.headers.get("X-CS595s22-movie")
+    var musicartist = response.headers.get("X-CS595s22-musicartist")
+    var tvseries = response.headers.get("X-CS595s22-tvseries")
+    console.log(movie)
+    console.log(musicartist)
+    console.log(tvseries)
+  })
+</script>
+</html>

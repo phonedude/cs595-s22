@@ -1,0 +1,25 @@
+http/1.1 301 moved permanently
+location: http://www.google.co.in/
+content-type: text/html; charset=utf-8
+date: wed, 06 apr 2022 01:02:53 gmt
+expires: fri, 06 may 2022 01:02:53 gmt
+cache-control: public, max-age=2592000
+server: gws
+content-length: 221
+x-xss-protection: 0
+x-frame-options: sameorigin
+
+http/1.1 200 ok
+content-type: text/html; charset=iso-8859-1
+p3p: cp="this is not a p3p policy! see g.co/p3phelp for more info."
+date: wed, 06 apr 2022 01:02:53 gmt
+server: gws
+x-xss-protection: 0
+x-frame-options: sameorigin
+transfer-encoding: chunked
+expires: wed, 06 apr 2022 01:02:53 gmt
+cache-control: private
+set-cookie: 1p_jar=2022-04-06-01; expires=fri, 06-may-2022 01:02:53 gmt; path=/; domain=.google.co.in; secure
+set-cookie: aec=avqq_lbbp2dnlzdjom6yfh7ddowk50ob3qts3xfaczrj6bcartxbug5ygbu; expires=mon, 03-oct-2022 01:02:53 gmt; path=/; domain=.google.co.in; secure; httponly; samesite=lax
+set-cookie: nid=511=ymlyza3q7yfkdcoagjiez2z0mhamewoeuxz9o4vpcr8g1jphv1j0rhfu2av68qijq7hm5pffzdwot-x5psdeixd6k5kucdhez4bs1olwn-m1fcd9jtxzrwxzs8oxh_-t4w12sidpe7mkijlipv4upxggps8jh1s81givq6iavba; expires=thu, 06-oct-2022 01:02:53 gmt; path=/; domain=.google.co.in; httponly
+

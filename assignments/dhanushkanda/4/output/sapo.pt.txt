@@ -1,0 +1,42 @@
+http/1.1 302 moved temporarily
+server: nginx
+date: wed, 06 apr 2022 01:05:50 gmt
+content-type: text/html
+content-length: 154
+connection: keep-alive
+location: https://sapo.pt/
+
+http/1.1 302 moved temporarily
+server: nginx
+date: wed, 06 apr 2022 01:05:51 gmt
+content-type: text/html
+content-length: 138
+connection: keep-alive
+location: https://www.sapo.pt/
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+content-security-policy: upgrade-insecure-requests; block-all-mixed-content
+referrer-policy: origin-when-cross-origin
+x-name: 3
+
+http/1.1 200 ok
+server: nginx
+date: wed, 06 apr 2022 01:05:54 gmt
+content-type: text/html; charset=utf-8
+content-length: 585575
+connection: keep-alive
+x-frame-options: sameorigin
+cache-control: no-store
+pragma: no-cache
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+referrer-policy: no-referrer-when-downgrade
+feature-policy: microphone 'none' ; camera 'none' ;
+content-security-policy: default-src https: blob: ; script-src https: blob: 'unsafe-inline' 'unsafe-eval'; style-src https: 'unsafe-inline' ; img-src https: data: ; media-src blob: https: ; upgrade-insecure-requests; block-all-mixed-content;  connect-src https: wss://*.insurads.com wss://*.hotjar.com;
+x-ncache: lookup
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+content-security-policy: upgrade-insecure-requests; block-all-mixed-content
+referrer-policy: origin-when-cross-origin
+x-name: 1
+

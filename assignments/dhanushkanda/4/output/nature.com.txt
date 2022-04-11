@@ -1,0 +1,164 @@
+http/1.0 301 moved permanently
+location: http://www.nature.com/
+server: bigip
+connection: keep-alive
+content-length: 0
+
+http/1.1 301 moved permanently
+cache-control: public,max-age=600
+content-security-policy: upgrade-insecure-requests;
+content-type: text/html
+location: https://www.nature.com/
+server: oscar platform 0.757.0
+x-vcap-request-id: 6e54c533-ac6d-422c-79d0-dc1fc47f5a26
+via: 1.1 google, 1.1 varnish
+x-cdn-origin: snpaas
+content-length: 166
+accept-ranges: bytes
+date: wed, 06 apr 2022 01:05:20 gmt
+age: 457
+connection: close
+x-served-by: cache-iad-kjyo7100021-iad
+x-cache: hit
+x-cache-hits: 1
+x-timer: s1649207121.570715,vs0,ve2
+vary: x-forwarded-host, upgrade-insecure-requests
+
+http/2 303 
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+age: 0
+cache-control: private,must-revalidate,max-age=0,no-store
+content-type: text/html; charset="utf-8"
+location: https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3a%2f%2fwww.nature.com%2fnature
+server: oscar platform 0.757.0
+strict-transport-security: max-age=31536000;preload
+traceparent: 00-b9e65f5d935d6fad7b1fcd79e50cc900-276f65a9372acfe0-01
+traceparent: 00-b9e65f5d935d6fad7b1fcd79e50cc900-19158b92cdd9fa35-01
+tracestate: gorouter=28deb77e706a8258
+tracestate: gorouter=28deb77e706a8258
+x-b3-sampled: 1
+x-b3-spanid: 334d3392837f9e067ed30a566110d556
+x-b3-traceid: 334d3392837f9e067ed30a566110d556
+x-content-type-options: nosniff
+x-dump-request-bodies: 0
+x-forwarded-host: www.nature.com
+x-frame-options: deny
+x-sn-servicetimems: 6
+x-vcap-request-id: 1d544a10-5c47-446b-7312-05cff672bdee
+x-xss-protection: 1; mode=block
+via: 1.1 google, 1.1 varnish
+x-cdn-origin: snpaas
+accept-ranges: bytes
+date: wed, 06 apr 2022 01:05:20 gmt
+x-served-by: cache-a3bbbea3-internal, cache-iad-kjyo7100128-iad
+x-cache: miss, miss
+x-cache-hits: 0
+x-timer: s1649207121.752646,vs0,ve114
+vary: x-frame-options,x-oscar-cache-mode
+content-length: 0
+
+http/2 302 
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+expires: 0
+location: https://idp.nature.com/transit?redirect_uri=https%3a%2f%2fwww.nature.com%2fnature&code=0699f26a-7fa1-4aa3-8150-738e2940273c
+pragma: no-cache
+set-cookie: idp_session=sversion_1c7aec6dd-2bac-4a5b-980f-da100f5e7f81; domain=.nature.com; path=/; secure; httponly
+set-cookie: idp_session_http=hversion_1acbfc1c2-325e-47b5-b5ea-7b3e71091fdf; domain=.nature.com; path=/; httponly
+set-cookie: idp_marker=6bb5d5c4-af94-410e-876f-1a8a6e6ba763; domain=.nature.com; path=/; max-age=315360000; httponly
+strict-transport-security: max-age=31536000 ; includesubdomains
+x-b3-spanid: 268616dec55c035b4ac1610d6b18948b
+x-b3-traceid: 268616dec55c035b4ac1610d6b18948b
+x-content-type-options: nosniff
+x-frame-options: deny
+x-vcap-request-id: a6b3e6de-c6ab-43cb-5f82-78d690221402
+x-xss-protection: 1; mode=block
+via: 1.1 google, 1.1 varnish
+x-cdn-origin: snpaas
+accept-ranges: bytes
+date: wed, 06 apr 2022 01:05:21 gmt
+x-served-by: cache-iad-kjyo7100088-iad
+x-cache: miss
+x-cache-hits: 0
+x-timer: s1649207121.136483,vs0,ve120
+vary: x-forwarded-proto
+content-length: 0
+
+http/2 302 
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+content-language: en-us
+expires: 0
+location: https://www.nature.com/nature?error=cookies_not_supported&code=0699f26a-7fa1-4aa3-8150-738e2940273c
+pragma: no-cache
+strict-transport-security: max-age=31536000 ; includesubdomains
+x-b3-spanid: 09d2714c1f4f77581e5318ace51063ce
+x-b3-traceid: 09d2714c1f4f77581e5318ace51063ce
+x-content-type-options: nosniff
+x-frame-options: deny
+x-vcap-request-id: 8369aa08-f86b-40b3-55be-6accfcbacb25
+x-xss-protection: 1; mode=block
+via: 1.1 google, 1.1 varnish
+x-cdn-origin: snpaas
+accept-ranges: bytes
+date: wed, 06 apr 2022 01:05:21 gmt
+x-served-by: cache-iad-kjyo7100088-iad
+x-cache: miss
+x-cache-hits: 0
+x-timer: s1649207121.299527,vs0,ve95
+vary: x-forwarded-proto
+content-length: 0
+
+http/2 301 
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+cache-control: public,max-age=600
+content-type: text/html
+location: https://www.nature.com/?error=cookies_not_supported&code=0699f26a-7fa1-4aa3-8150-738e2940273c
+server: oscar platform 0.757.0
+strict-transport-security: max-age=31536000;preload
+x-vcap-request-id: d62a9314-7c6d-4c04-5e0c-9b851b2ce496
+via: 1.1 google, 1.1 varnish
+x-cdn-origin: snpaas
+accept-ranges: bytes
+date: wed, 06 apr 2022 01:05:21 gmt
+age: 0
+x-served-by: cache-iad-kjyo7100128-iad
+x-cache: miss
+x-cache-hits: 0
+x-timer: s1649207121.476154,vs0,ve94
+vary: x-forwarded-host, upgrade-insecure-requests
+content-length: 166
+
+http/2 200 
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+accept-ranges: bytes
+age: 0
+cache-control: private, must-revalidate
+content-type: text/html; charset="utf-8"
+etag: w/"1227435bf550fcc52353be279ff1fd85"
+server: oscar platform 0.757.0
+set-cookie: user.uuid="eed4422f-7e1c-40a8-aef4-87bc1197e493"; expires=wed, 06 jul 2022 01:05:21 gmt; path=/
+strict-transport-security: max-age=31536000;preload
+traceparent: 00-3e075f1bf84b9ff8ff2cd6a5bf1829ef-39e5dcb3851efce0-01
+traceparent: 00-3e075f1bf84b9ff8ff2cd6a5bf1829ef-f6348aed0f64364c-01
+tracestate: gorouter=f4a3cef67aa706f6
+tracestate: gorouter=f4a3cef67aa706f6
+x-b3-sampled: 1
+x-b3-spanid: 2b181da17ae51151071a37e179300626
+x-b3-traceid: 2b181da17ae51151071a37e179300626
+x-content-type-options: nosniff
+x-dump-request-bodies: 0
+x-forwarded-host: www.nature.com
+x-frame-options: deny
+x-sn-servicetimems: 59
+x-vcap-request-id: f6380ad2-9c39-4094-5cbf-450183b27964
+x-xss-protection: 1; mode=block
+via: 1.1 google, 1.1 varnish
+x-cdn-origin: snpaas
+date: wed, 06 apr 2022 01:05:21 gmt
+x-served-by: cache-f578b422-internal, cache-iad-kjyo7100128-iad
+x-cache: miss, miss
+x-cache-hits: 0
+x-timer: s1649207122.628208,vs0,ve179
+vary: x-frame-options,x-oscar-cache-mode, accept-encoding
+

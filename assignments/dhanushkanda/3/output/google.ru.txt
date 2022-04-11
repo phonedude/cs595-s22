@@ -1,0 +1,25 @@
+http/1.1 301 moved permanently
+location: http://www.google.ru/
+content-type: text/html; charset=utf-8
+date: wed, 06 apr 2022 01:02:54 gmt
+expires: fri, 06 may 2022 01:02:54 gmt
+cache-control: public, max-age=2592000
+server: gws
+content-length: 218
+x-xss-protection: 0
+x-frame-options: sameorigin
+
+http/1.1 200 ok
+content-type: text/html; charset=windows-1251
+p3p: cp="this is not a p3p policy! see g.co/p3phelp for more info."
+date: wed, 06 apr 2022 01:02:54 gmt
+server: gws
+x-xss-protection: 0
+x-frame-options: sameorigin
+transfer-encoding: chunked
+expires: wed, 06 apr 2022 01:02:54 gmt
+cache-control: private
+set-cookie: 1p_jar=2022-04-06-01; expires=fri, 06-may-2022 01:02:54 gmt; path=/; domain=.google.ru; secure
+set-cookie: aec=avqq_lbxztcfb-va2k5yqfzli9fzi2mn5urinwfstotwyxqfgzqrw5zroa; expires=mon, 03-oct-2022 01:02:54 gmt; path=/; domain=.google.ru; secure; httponly; samesite=lax
+set-cookie: nid=511=czi5cddvwgb8dcdh5sed0eendjsl2vdqbdlpkrbjohh9kyy9fyhtra3wd6223p6wcll0nejeb3uyu5g7nnb2cwbz3sn-dt7iq09aptbvmeha3ewtq0zizp85wlc-tanmm_4uynikcrmiwjwglwf2s0abddiyhoek7d1oe2fi6du; expires=thu, 06-oct-2022 01:02:54 gmt; path=/; domain=.google.ru; httponly
+

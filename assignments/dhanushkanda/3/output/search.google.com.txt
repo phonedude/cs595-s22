@@ -1,0 +1,27 @@
+http/1.1 301 moved permanently
+location: https://www.google.com/
+cross-origin-resource-policy: cross-origin
+x-content-type-options: nosniff
+server: sffe
+content-length: 220
+x-xss-protection: 0
+date: wed, 06 apr 2022 00:37:25 gmt
+expires: wed, 06 apr 2022 01:07:25 gmt
+cache-control: public, max-age=1800
+content-type: text/html; charset=utf-8
+age: 1713
+
+http/2 200 
+content-type: text/html; charset=iso-8859-1
+p3p: cp="this is not a p3p policy! see g.co/p3phelp for more info."
+date: wed, 06 apr 2022 01:05:59 gmt
+server: gws
+x-xss-protection: 0
+x-frame-options: sameorigin
+expires: wed, 06 apr 2022 01:05:59 gmt
+cache-control: private
+set-cookie: 1p_jar=2022-04-06-01; expires=fri, 06-may-2022 01:05:59 gmt; path=/; domain=.google.com; secure
+set-cookie: aec=avqq_lacdf6va2d9xy6znzertpccsduledh179dodmfmh9cexfikjadhaw; expires=mon, 03-oct-2022 01:05:59 gmt; path=/; domain=.google.com; secure; httponly; samesite=lax
+set-cookie: nid=511=q0ulbn4kdm_-o6trlubg5eftoz-p_xagptivw9pqlk1fowegkmogwkoiptth3_u9k__xon4z2gbsryyapf9zm5lzek4b_zu3hgkkw4roi0_wdlpqdb2pcirigykeuehgacaipaizy7dvuk7dzusnpamir6pxuyh8wqrnsvl9h4m; expires=thu, 06-oct-2022 01:05:59 gmt; path=/; domain=.google.com; httponly
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-q050=":443"; ma=2592000,h3-q046=":443"; ma=2592000,h3-q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+

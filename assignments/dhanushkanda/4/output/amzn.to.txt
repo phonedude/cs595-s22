@@ -1,0 +1,40 @@
+http/1.1 301 moved permanently
+server: nginx
+date: wed, 06 apr 2022 01:02:17 gmt
+content-type: text/html; charset=utf-8
+content-length: 0
+set-cookie: anon_u=chn1x19hztnmyja0ny0zzmrlltrlytgtognkzc1lzti4ognhymywnzg=|1649206937|53121033323ffed34c42b25450e43435f3f46617; domain=bitly.com; expires=mon, 03 oct 2022 01:02:17 gmt; httponly; path=/; secure
+strict-transport-security: max-age=1209600
+location: http://www.amazon.com/
+pragma: no-cache
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+x-frame-options: deny
+p3p: cp="cao psa our"
+via: 1.1 google
+
+http/1.1 301 moved permanently
+server: cloudfront
+date: wed, 06 apr 2022 01:02:17 gmt
+content-type: text/html
+content-length: 183
+connection: keep-alive
+location: https://www.amazon.com/
+x-cache: redirect from cloudfront
+via: 1.1 3dcb635971b5d310e8941cdb963aff70.cloudfront.net (cloudfront)
+x-amz-cf-pop: iad89-c3
+x-amz-cf-id: irh66ma4m6youeeczn4ey9aj6hk_frug66a-g9nrm0yh5bc_fn8kcq==
+
+http/2 503 
+content-type: text/html
+content-length: 6591
+server: server
+date: wed, 06 apr 2022 01:02:18 gmt
+x-amz-rid: 4dse21dwx7xcd0nm4hqk
+vary: content-type,accept-encoding,x-amzn-cdn-cache,x-amzn-ax-treatment,user-agent
+strict-transport-security: max-age=47474747; includesubdomains; preload
+permissions-policy: interest-cohort=()
+x-cache: error from cloudfront
+via: 1.1 08f45c153a856ff7955174d0e6f60744.cloudfront.net (cloudfront)
+x-amz-cf-pop: iad89-c3
+x-amz-cf-id: j52hq3ut0m3yoeieh3ydgkwzs9jinn-tbvt5eclep480ly-rxxgbca==
+

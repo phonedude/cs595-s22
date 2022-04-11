@@ -1,0 +1,21 @@
+http/1.1 301 redirect
+date: wed, 06 apr 2022 01:06:27 gmt
+connection: keep-alive
+server: ats
+cache-control: no-store
+location: https://www.yahoo.co.jp:443/
+content-type: text/html
+content-language: en
+content-length: 1
+
+http/2 200 
+content-length: 0
+content-type: text/html; charset=utf-8
+date: wed, 06 apr 2022 01:06:28 gmt
+etag: w/"0-2jmj7l5rsw0yvb/vlwaykk/ybwk"
+vary: accept-encoding
+x-vcap-request-id: 22ad8418-8ab0-4732-5ad6-517bcde5b7c9
+x-xss-protection: 1; mode=block
+age: 0
+server: ats
+

@@ -1,0 +1,44 @@
+http/1.1 301 moved permanently
+server: nginx
+date: wed, 06 apr 2022 01:05:09 gmt
+content-type: text/html
+content-length: 162
+connection: keep-alive
+location: https://mercurynews.com/
+
+http/2 301 
+server: nginx
+date: wed, 06 apr 2022 01:05:09 gmt
+content-type: text/html; charset=utf-8
+location: https://www.mercurynews.com/
+content-security-policy: default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src 'unsafe-inline' https:; img-src data: https: blob:; font-src data: https:; connect-src https: data: blob: wss://realtimeeventfeeds.viafoura.co wss://sub.viafoura.co; media-src blob: data: https:; object-src https:; child-src https: data: blob:; upgrade-insecure-requests; block-all-mixed-content;
+x-hacker: if you're reading this, you should visit wpvip.com/careers and apply to join the fun, mention this header.
+x-powered-by: wordpress vip <https://wpvip.com>
+host-header: a9130478a60e5f9135f765b23f26593b
+x-redirect-by: wordpress
+x-rq: dca6 0 4 9980
+cache-control: max-age=300, must-revalidate
+age: 474
+x-cache: hit
+vary: x-country-code
+strict-transport-security: max-age=31536000;includesubdomains
+
+http/2 200 
+server: nginx
+date: wed, 06 apr 2022 01:05:09 gmt
+content-type: text/html; charset=utf-8
+content-length: 278845
+content-security-policy: default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src 'unsafe-inline' https:; img-src data: https: blob:; font-src data: https:; connect-src https: data: blob: wss://realtimeeventfeeds.viafoura.co wss://sub.viafoura.co; media-src blob: data: https:; object-src https:; child-src https: data: blob:; upgrade-insecure-requests; block-all-mixed-content;
+x-hacker: if you're reading this, you should visit wpvip.com/careers and apply to join the fun, mention this header.
+x-powered-by: wordpress vip <https://wpvip.com>
+host-header: a9130478a60e5f9135f765b23f26593b
+link: <https://www.mercurynews.com/wp-json/>; rel="https://api.w.org/"
+link: <https://wp.me/7shjj>; rel=shortlink
+x-rq: dca6 0 4 9980
+cache-control: max-age=300, must-revalidate
+age: 71
+x-cache: hit
+vary: accept-encoding
+accept-ranges: bytes
+strict-transport-security: max-age=31536000;includesubdomains
+
