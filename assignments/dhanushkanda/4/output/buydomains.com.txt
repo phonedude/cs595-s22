@@ -1,0 +1,32 @@
+http/1.1 301 moved permanently
+content-length: 0
+location: https://buydomains.com/
+
+http/1.1 301 moved permanently
+content-length: 0
+location: http://www.buydomains.com/
+
+http/1.1 301 moved permanently
+content-length: 0
+location: https://www.buydomains.com/
+
+http/1.1 200 ok
+date: wed, 06 apr 2022 01:02:24 gmt
+server: apache/2.4.6 (centos) php/5.6.8
+x-powered-by: php/5.6.8
+set-cookie: phpsessid=igpicq6ec02pcdr3sb3o4s48n2; path=/
+expires: thu, 19 nov 1981 08:52:00 gmt
+cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+pragma: no-cache
+set-cookie: user_country=%22united+states%22; path=/; samesite=lax; domain=.buydomains.com; secure
+set-cookie: user_country_code_default=%22us%22; path=/; samesite=lax; domain=.buydomains.com; secure
+set-cookie: tollfree_phone=%22866-277-3420%22; path=/; samesite=lax; domain=.buydomains.com; secure
+set-cookie: ww_phone=%22%2b1-339-222-5135%22; path=/; samesite=lax; domain=.buydomains.com; secure
+set-cookie: utm_medium=%22direct-visit%22; path=/; samesite=lax; domain=.buydomains.com; secure
+set-cookie: trackingparams=%7b%22utm_source%22%3anull%2c%22utm_medium%22%3a%22direct-visit%22%2c%22utm_campaign%22%3anull%2c%22utm_content%22%3anull%2c%22traffic_id%22%3anull%2c%22traffic_type%22%3anull%2c%22referrer_id%22%3anull%7d; path=/; samesite=lax; domain=.buydomains.com; secure
+set-cookie: visitor=624ce6a109773; path=/; samesite=lax; domain=.buydomains.com; secure
+set-cookie: visitortype=new; path=/; samesite=lax; domain=.buydomains.com; secure
+x-php-backend: www-01.prod
+x-node: www-01.prod
+content-type: text/html; charset=utf-8
+

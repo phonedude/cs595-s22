@@ -1,0 +1,27 @@
+http/1.0 301 moved permanently
+location: https://www.iso.org/
+server: bigip
+connection: keep-alive
+content-length: 0
+
+http/2 302 
+expires: wed, 09 may 1979 05:30:00 gmt
+cache-control: no-cache, no-store, must-revalidate, proxy-revalidate, max-age=0
+set-cookie: jsessionid=22d47439503ff3a896a16f43ac0008df; path=/; secure; httponly
+pragma: no-cache
+location: /home.html
+date: wed, 06 apr 2022 01:05:02 gmt
+set-cookie: bigipserverpool_prod_iso_www-jahia=730354058.36895.0000; path=/; httponly; secure
+strict-transport-security: max-age=31536000; includesubdomains
+
+http/2 200 
+expires: wed, 09 may 1979 05:30:00 gmt
+cache-control: no-cache, no-store, must-revalidate, proxy-revalidate, max-age=0
+pragma: no-cache
+set-cookie: jsessionid=26cc570c9636ffb9e92ea4642f0e4593; path=/; secure; httponly
+vary: accept-encoding
+content-type: text/html;charset=utf-8
+content-length: 45492
+date: wed, 06 apr 2022 01:05:02 gmt
+strict-transport-security: max-age=31536000; includesubdomains
+

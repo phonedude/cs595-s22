@@ -1,0 +1,26 @@
+http/1.1 301 redirect
+date: wed, 06 apr 2022 01:02:55 gmt
+connection: keep-alive
+server: ats
+cache-control: no-store
+location: https://www.yahoo.com/
+content-type: text/html
+content-language: en
+content-length: 304
+
+http/2 200 
+date: wed, 06 apr 2022 01:02:56 gmt
+strict-transport-security: max-age=31536000
+server: ats
+cache-control: no-store, no-cache, max-age=0, private
+content-type: text/html
+content-language: en
+expires: -1
+content-security-policy: frame-ancestors 'self' https://*.builtbygirls.com https://*.rivals.com https://*.engadget.com https://*.intheknow.com https://*.autoblog.com https://*.techcrunch.com https://*.yahoo.com https://*.aol.com https://*.huffingtonpost.com https://*.oath.com https://*.search.yahoo.com https://*.search.aol.com https://*.search.huffpost.com https://*.onesearch.com https://*.verizonmedia.com https://*.publishing.oath.com https://*.autoblog.com; sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation; report-uri https://csp.yahoo.com/beacon/csp?src=ats&site=frontpage&region=us&lang=en-us&device=desktop&yrid=07e3hk1h4ppm0&partner=;
+x-frame-options: sameorigin
+x-xss-protection: 1; mode=block
+expect-ct: max-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"
+referrer-policy: no-referrer-when-downgrade
+x-content-type-options: nosniff
+content-length: 12
+

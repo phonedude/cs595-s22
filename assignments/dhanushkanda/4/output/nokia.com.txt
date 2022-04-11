@@ -1,0 +1,35 @@
+http/1.1 301 moved permanently
+date: wed, 06 apr 2022 01:05:29 gmt
+server: apache
+location: https://www.nokia.com/
+content-type: text/html; charset=iso-8859-1
+
+http/2 200 
+content-language: en
+content-security-policy: frame-ancestors 'self' *.nokia.com; report-uri /report-csp-violation
+content-type: text/html; charset=utf-8
+etag: "1649177569"
+last-modified: tue, 05 apr 2022 16:52:49 gmt
+permissions-policy: interest-cohort=()
+server: nginx
+strict-transport-security: max-age=1000; includesubdomains
+x-age: 7743
+x-ah-environment: prod
+x-cache-hits: 59
+x-content-type-options: nosniff
+x-content-type-options: nosniff
+x-drupal-cache: hit
+x-drupal-dynamic-cache: uncacheable
+x-frame-options: sameorigin
+x-request-id: v-def0bb1c-b500-11ec-b6c9-579d696f6c4f
+x-ua-compatible: ie=edge
+x-ua-compatible: ie=edge
+x-xss-protection: 1
+cache-control: public, max-age=850
+expires: wed, 06 apr 2022 01:19:44 gmt
+date: wed, 06 apr 2022 01:05:34 gmt
+set-cookie: nok_ip_locale=us; expires=fri, 06-may-2022 01:05:34 gmt; path=/
+set-cookie: nok_ip_region=americas; path=/
+strict-transport-security: max-age=31536000
+access-control-allow-origin: web-assets.nokia.com
+

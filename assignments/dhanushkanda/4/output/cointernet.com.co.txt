@@ -1,0 +1,21 @@
+http/1.1 301 moved permanently
+date: wed, 06 apr 2022 01:02:27 gmt
+server: apache/2.4.6 (centos)
+location: http://www.cointernet.com.co/
+content-type: text/html; charset=iso-8859-1
+
+http/1.1 301 moved permanently
+server: awselb/2.0
+date: wed, 06 apr 2022 01:02:28 gmt
+content-type: text/html
+content-length: 134
+connection: keep-alive
+location: https://www.cointernet.com.co:443/
+
+http/1.1 200 ok
+date: wed, 06 apr 2022 01:02:28 gmt
+content-type: text/html; charset=utf-8
+connection: keep-alive
+server: nginx/1.20.1
+x-powered-by: php/7.1.33
+

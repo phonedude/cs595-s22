@@ -1,0 +1,27 @@
+http/1.1 302 found
+location: http://maps.google.com/maps
+cache-control: private
+content-type: text/html; charset=utf-8
+p3p: cp="this is not a p3p policy! see g.co/p3phelp for more info."
+date: wed, 06 apr 2022 01:05:07 gmt
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: sameorigin
+set-cookie: 1p_jar=2022-04-06-01; expires=fri, 06-may-2022 01:05:07 gmt; path=/; domain=.google.com; secure
+set-cookie: aec=avqq_lbebqg_1legskidwmna7o-xhxeh14btw3-funiltjobiw2p_ifhjj0; expires=mon, 03-oct-2022 01:05:07 gmt; path=/; domain=.google.com; secure; httponly; samesite=lax
+set-cookie: nid=511=lxnd6eybhicpfkri1ofe6rheggewqzriqpidmepzjfi6v1dnl7mfmyjykuhkv-8kft_6xryjtm7quxdfhde_8f7cfpyppobeipzulbkx65lpon2l_sp8iswbxg7onhc8zoflwpjbbr9j_tjjzbj8h1j3-ycs4sgyyinokdm278i; expires=thu, 06-oct-2022 01:05:07 gmt; path=/; domain=.google.com; httponly
+
+http/1.1 200 ok
+content-type: text/html; charset=iso-8859-1
+p3p: cp="this is not a p3p policy! see g.co/p3phelp for more info."
+date: wed, 06 apr 2022 01:05:07 gmt
+server: gws
+x-xss-protection: 0
+x-frame-options: sameorigin
+transfer-encoding: chunked
+expires: wed, 06 apr 2022 01:05:07 gmt
+cache-control: private
+set-cookie: 1p_jar=2022-04-06-01; expires=fri, 06-may-2022 01:05:07 gmt; path=/; domain=.google.com; secure
+set-cookie: nid=511=lfti_8k4s0tjtriksktphzezsqxhn9iehmb0t7hdv5z3kk7gmz63ds9bzmxjxpmeazcyrqo42f6_i-lpjinkmuebgvdp1syg3zktg2wx2t8obnqf_gjbnuiy_h4kyjphcdruwey2jlaiilukwi9gpidx53giwyu_l4lxqrjnygq; expires=thu, 06-oct-2022 01:05:07 gmt; path=/; domain=.google.com; httponly
+

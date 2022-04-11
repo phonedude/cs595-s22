@@ -1,0 +1,69 @@
+http/1.1 301 moved permanently
+server: varnish
+retry-after: 0
+content-length: 0
+accept-ranges: bytes
+date: wed, 06 apr 2022 01:02:18 gmt
+via: 1.1 varnish
+connection: close
+x-served-by: cache-iad-kjyo7100070-iad
+x-cache: hit
+x-cache-hits: 0
+x-timer: s1649206939.976971,vs0,ve0
+location: https://bbc.co.uk/
+nel: {'report_to':'default','max_age': 2592000,'include_subdomains':true,'failure_fraction':0.05}
+report-to: {'group':'default','max_age':2592000,'endpoints':[ {'url':'https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint','priority':1} ],'include_subdomains':true}
+req-svc-chain: fastly
+cache-control: public,max-age=604800,stale-while-revalidate=3600,stale-if-error=3600
+
+http/2 301 
+server: varnish
+retry-after: 0
+accept-ranges: bytes
+date: wed, 06 apr 2022 01:02:19 gmt
+via: 1.1 varnish
+x-served-by: cache-iad-kiad7000089-iad
+x-cache: hit
+x-cache-hits: 0
+x-timer: s1649206939.202162,vs0,ve0
+location: https://www.bbc.co.uk/
+nel: {'report_to':'default','max_age': 2592000,'include_subdomains':true,'failure_fraction':0.05}
+report-to: {'group':'default','max_age':2592000,'endpoints':[ {'url':'https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint','priority':1} ],'include_subdomains':true}
+req-svc-chain: fastly
+strict-transport-security: max-age=31536000
+cache-control: public,max-age=604800,stale-while-revalidate=3600,stale-if-error=3600
+content-length: 0
+
+http/2 200 
+content-type: text/html
+belfrage-cache-status: miss
+bid: bruce
+brequestid: 6e1e4b4f5f87402da2b921cc1611db54
+bsig: 1208f4af15d5afde4f19a9ad56d6a2c7
+content-security-policy: default-src 'none'; script-src 'strict-dynamic' 'nonce-bpbsc31acgghisykdtkklu69h7tf/b6z3a4v0bu+bmy3/eli4v' 'self' 'report-sample' 'unsafe-inline' assets.wearehearken.eu cdn.syndication.twimg.com connect.facebook.net c.files.bbci.co.uk emp.bbci.co.uk ems.wearehearken.eu modules.wearehearken.eu mybbc-analytics.files.bbci.co.uk nav.files.bbci.co.uk news.files.bbci.co.uk platform.twitter.com public.flourish.studio static.bbc.co.uk static.bbci.co.uk static.chartbeat.com static2.chartbeat.com www.bbc.co.uk www.instagram.com www.ons.gov.uk gn-web-assets.api.bbc.com www.google-analytics.com bitesize.files.bbci.co.uk static.files.bbci.co.uk; img-src 'self' https: data:; font-src c.files.bbci.co.uk gel.files.bbci.co.uk static.files.bbci.co.uk static.bbci.co.uk news.files.bbci.co.uk ws-downloads.files.bbci.co.uk bitesize.files.bbci.co.uk; style-src cdn.riddle.com flo.uri.sh news.files.bbci.co.uk platform.twitter.com static.bbc.co.uk static.bbci.co.uk static.files.bbci.co.uk ton.twimg.com www.riddle.com 'unsafe-inline'; frame-src 'self' bbc001.carto.com bbc003.carto.com bbc-maps.carto.com cdn.riddle.com chartbeat.com emp.bbc.co.uk emp.bbc.com flo.uri.sh m.facebook.com news.files.bbci.co.uk personaltaxcalculator2.deloittecloud.co.uk platform.twitter.com public.flourish.studio static2.chartbeat.com syndication.twitter.com web.facebook.com www.bbc.co.uk www.facebook.com www.instagram.com www.ons.gov.uk www.riddle.com www.youtube.com toybox.tools.bbc.co.uk; object-src 'none'; worker-src 'self' blob:; manifest-src static.files.bbci.co.uk bitesize.files.bbci.co.uk; media-src 'self' blob: www.bbc.co.uk; connect-src 'self' https:; child-src blob:; base-uri 'none'; form-action 'self' platform.twitter.com syndication.twitter.com; frame-ancestors 'none'; upgrade-insecure-requests; report-to default; report-uri https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint;
+feature-policy: accelerometer 'none'; autoplay 'none'; camera 'none'; document-domain 'self' https://emp.bbc.com https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk; encrypted-media 'none'; fullscreen 'self'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'self' https://emp.bbc.com https://emp.bbc.co.uk http://emp.bbc.com http://emp.bbc.co.uk; screen-wake-lock 'none'; sync-xhr 'self'; usb 'none'; xr-spatial-tracking 'none'
+nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.05}
+referrer-policy: strict-origin-when-cross-origin
+req-svc-chain: fastly,gtm,belfrage
+via: 1.1 bbc-gtm, 1.1 belfrage, 1.1 varnish
+x-content-type-options: nosniff
+x-frame-options: deny
+x-xss-protection: 1; mode=block
+x-bbc-edge-cache-status: stale
+report-to: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://europe-west1-bbc-otg-traf-mgr-bq-prod-4591.cloudfunctions.net/report-endpoint","priority":1}],"include_subdomains":true}
+server: bbc-gtm
+strict-transport-security: max-age=2592000
+fastly-restarts: 1
+accept-ranges: bytes
+date: wed, 06 apr 2022 01:02:19 gmt
+age: 5
+x-fastly-cache-status: hit-cluster
+x-served-by: cache-iad-kiad7000115-iad
+x-cache: hit
+x-cache-hits: 1
+x-timer: s1649206939.492271,vs0,ve15
+x-lb-nocache: true
+cache-control: private, stale-if-error=90, stale-while-revalidate=30, max-age=0, must-revalidate
+vary: x-bbc-edge-scheme,x-id-oidc-signedin,accept-encoding
+content-length: 365215
+

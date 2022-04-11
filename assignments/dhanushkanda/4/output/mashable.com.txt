@@ -1,0 +1,22 @@
+http/1.1 301 moved permanently
+date: wed, 06 apr 2022 01:05:07 gmt
+connection: keep-alive
+cache-control: max-age=3600
+expires: wed, 06 apr 2022 02:05:07 gmt
+location: https://mashable.com/
+server: cloudflare
+cf-ray: 6f769d06cbbec084-orf
+
+http/2 200 
+date: wed, 06 apr 2022 01:05:07 gmt
+content-type: text/html; charset=utf-8
+cache-control: public, max-age=1800
+strict-transport-security: max-age=15724800; includesubdomains
+last-modified: wed, 06 apr 2022 00:37:03 gmt
+cf-cache-status: hit
+age: 722
+expires: wed, 06 apr 2022 01:35:07 gmt
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 6f769d07be83c070-orf
+

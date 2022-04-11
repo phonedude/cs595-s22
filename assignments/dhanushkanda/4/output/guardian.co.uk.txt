@@ -1,0 +1,72 @@
+http/1.1 301 
+server: varnish
+retry-after: 0
+content-length: 0
+location: https://guardian.co.uk/
+accept-ranges: bytes
+date: wed, 06 apr 2022 01:02:56 gmt
+via: 1.1 varnish
+connection: close
+x-served-by: cache-iad-kjyo7100146-iad
+x-cache: hit
+x-cache-hits: 0
+x-timer: s1649206977.807386,vs0,ve0
+
+http/2 301 
+server: varnish
+retry-after: 0
+location: https://www.theguardian.com/
+accept-ranges: bytes
+date: wed, 06 apr 2022 01:02:57 gmt
+via: 1.1 varnish
+x-served-by: cache-iad-kiad7000108-iad
+x-cache: hit
+x-cache-hits: 0
+x-timer: s1649206977.031436,vs0,ve0
+strict-transport-security: max-age=31536000
+content-length: 0
+
+http/2 302 
+retry-after: 0
+location: /us
+accept-ranges: bytes
+date: wed, 06 apr 2022 01:02:57 gmt
+set-cookie: gu_mvt_id=248855; expires=tue, 05 jul 2022 01:02:57 gmt; path=/; domain=.theguardian.com; secure
+x-timer: s1649206977.297113,vs0,ve0
+strict-transport-security: max-age=31536000; includesubdomains; preload
+x-frame-options: sameorigin
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+content-security-policy: default-src https:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; frame-src https: data:; style-src https: 'unsafe-inline'; img-src https: data: blob:; media-src https: data: blob:; font-src https: data:; connect-src https: wss:; child-src https: blob:; object-src 'none'; base-uri https://*.gracenote.com
+referrer-policy: no-referrer-when-downgrade
+feature-policy: camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'
+permissions-policy: camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()
+x-gu-edition: us
+cache-control: max-age=0, no-transform
+set-cookie: gu_geo_country=us; path=/; secure
+content-length: 0
+
+http/2 200 
+content-type: text/html; charset=utf-8
+etag: w/"hash1309902540830815649"
+link: <https://assets.guim.co.uk/stylesheets/58d7a1d6eeae1ac86c327b8bd2da6726/facia.garnett.css>; rel=preload; as=style; nopush,<https://assets.guim.co.uk/polyfill.io/v3/polyfill.min.js?rum=0&features=es6,es7,es2017,default-3.6,htmlpictureelement,intersectionobserver,intersectionobserverentry,fetch,navigator.sendbeacon,performance.now,object.fromentries,promise.allsettled&flags=gated&callback=guardianpolyfilled&unknown=polyfill&clearcache=5>; rel=preload; as=script; nopush,<https://assets.guim.co.uk/javascripts/5bb6d4cf57dd43cfa0be/graun.standard.js>; rel=preload; as=script; nopush
+fastly-original-body-size: 1130964
+accept-ranges: bytes
+date: wed, 06 apr 2022 01:02:57 gmt
+age: 2
+set-cookie: gu_mvt_id=118325; expires=tue, 05 jul 2022 01:02:57 gmt; path=/; domain=.theguardian.com; secure
+x-timer: s1649206977.362950,vs0,ve109
+strict-transport-security: max-age=31536000; includesubdomains; preload
+x-frame-options: sameorigin
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+content-security-policy: default-src https:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; frame-src https: data:; style-src https: 'unsafe-inline'; img-src https: data: blob:; media-src https: data: blob:; font-src https: data:; connect-src https: wss:; child-src https: blob:; object-src 'none'; base-uri https://*.gracenote.com
+referrer-policy: no-referrer-when-downgrade
+feature-policy: camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'
+permissions-policy: camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()
+x-gu-edition: us
+cache-control: max-age=60, stale-while-revalidate=6, stale-if-error=864000, private, no-transform
+vary: accept-encoding,user-agent
+set-cookie: gu_geo_country=us; path=/; secure
+content-length: 1130964
+

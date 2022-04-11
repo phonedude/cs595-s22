@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script>
+function frameLoaded()                              <!-- a script to pop a message on whether the site is framable or not -->
+{
+var that = document.getElementById('myframe');
+const is_loaded = that.contentWindow.window.length;  
+if (is_loaded == 0)
+{
+    try{
+        (that.contentWindow||that.contentDocument).location.href;
+        alert("Iframe is not loaded but there is no error")
+
+    }
+    catch(err){
+    alert("Iframe is not loaded: " + err);
+    }
+}
+else if (is_loaded >= 1)
+{
+    alert("Success! Iframe is loaded");
+}
+}
+</script>
+
+
+<head>
+    <title>Welcome!</title>
+</head>
+
+<body>
+	<h1>Assignment 4, CS 495/595 Web Security, Spring 2022</h1>
+	<br>
+    <h2>Can this site be framed?</h2>
+     <hr> 
+    <iframe onload="setTimeout(frameLoaded()),5000" onerror="onError()" id = "myframe" src="http://www.mixcloud.com" style="border:3px solid black;" width="900" height="500" ></iframe>
+    <hr>
+</body>
+</html>

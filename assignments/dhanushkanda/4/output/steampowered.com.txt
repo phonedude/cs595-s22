@@ -1,0 +1,22 @@
+http/1.1 301 moved permanently
+server: nginx
+content-type: text/html
+content-length: 162
+location: https://store.steampowered.com/
+date: wed, 06 apr 2022 01:06:08 gmt
+connection: keep-alive
+
+http/1.1 200 ok
+server: nginx
+content-type: text/html; charset=utf-8
+expires: mon, 26 jul 1997 05:00:00 gmt
+cache-control: no-cache
+content-security-policy: default-src blob: data: https: 'unsafe-inline' 'unsafe-eval'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://store.akamai.steamstatic.com/ https://store.akamai.steamstatic.com/ *.google-analytics.com https://www.gstatic.com https://recaptcha.net https://www.gstatic.cn/recaptcha/; object-src 'none'; connect-src 'self' http://store.steampowered.com https://store.steampowered.com http://127.0.0.1:27060 ws://127.0.0.1:27060 https://community.akamai.steamstatic.com/ https://steamcommunity.com/ https://steamcommunity.com/ wss://community.steam-api.com/websocket/ https://api.steampowered.com/ *.google-analytics.com; frame-src 'self' steam:  http://www.youtube.com https://www.youtube.com https://www.google.com https://sketchfab.com https://player.vimeo.com https://steamcommunity.com/ https://www.google.com/recaptcha/ https://recaptcha.net/recaptcha/; frame-ancestors 'self' https://steamloopback.host ;
+x-frame-options: deny
+strict-transport-security: max-age=300
+date: wed, 06 apr 2022 01:06:08 gmt
+connection: keep-alive
+set-cookie: steamcountry=us%7ce72aed1f13d9272199dea61fd373fe9d; path=/; secure; httponly; samesite=none
+set-cookie: browserid=2643058175735147914; expires=thu, 06 apr 2023 01:06:08 gmt; path=/; secure; samesite=none
+set-cookie: sessionid=8194d2f3b6b1ffac0d278267; path=/; secure; samesite=none
+
