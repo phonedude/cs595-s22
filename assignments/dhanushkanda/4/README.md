@@ -280,6 +280,17 @@ Demonstration of how a parent page can steal cookies from an iframed page if onl
 
 
 
+## Extra credit
+
+* "Parsers, Parsers, Everywhere!". This comes from the famous "Memes, Memes, everywhere".
+
+* However the earliest known imprint of this phase can be found in "The Rime of the Ancient Mariner" which was written by an English port Samuel Taylor Coleridge and published in 1798
+
+* https://www.poetryfoundation.org/poems/43997/the-rime-of-the-ancient-mariner-text-of-1834
+
+* https://knowyourmeme.com/memes/x-x-everywhere
+
+
 ## References
 
 
