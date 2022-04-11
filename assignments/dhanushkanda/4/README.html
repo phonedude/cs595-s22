@@ -191,7 +191,7 @@ pre code {
 <li><a href="framable/code/curl.py">Generating the CURL responses</a></li>
 <li><a href="framable/code/xframe.py">Finding X-Frame options</a></li>
 </ul></li>
-<li><a href="framable/html_files">framable</a>: 100 HTML files</li>
+<li><a href="framable">framable</a>: 100 HTML files</li>
 <li><a href="output">Curl outputs</a>: Curl responses are saved here</li>
 <li><a href="framable/code/summary.csv">Summary of framability</a></li>
 </ul>
@@ -200,7 +200,7 @@ pre code {
 <h3>Steps</h3>
 <ul>
 <li><p>The <a href="framable/code/main.html">template HTML page</a> is used to generate the 100 HTML pages for the list of URLS assigned to me.</p></li>
-<li><p>The <a href="framable/code/create_html_inputs.py">create_html_inputs</a> is used to create the 100 seperate HTML pages and save it in a seperate <a href="framable/html_files">folder</a>.</p></li>
+<li><p>The <a href="framable/code/create_html_inputs.py">create_html_inputs</a> is used to create the 100 seperate HTML pages and save it in a seperate <a href="framable">folder</a>.</p></li>
 <li><p><a href="framable/code/curl.py">Curl</a> code is used to generate the CURL responses from the 100 assigned URLs to find the X-Frame options to create a summary.</p></li>
 <li><p><a href="framable/code/server.js">Server</a> is used to check the 100 framable HTML individually to see if the particular site is framable or not. The results are partly given in the <a href="framable/code/summary.csv">table</a></p></li>
 <li><p>To find the <a href="framable/code/xframe.py">X-Frame</a> options, a script was used which iterates through the curl outputs and then generates a <a href="framable/code/summary.csv">table</a></p></li>
@@ -652,7 +652,6 @@ pre code {
 <li>15 sites set header to DENY</li>
 <li>40 sites set header to SAMEORIGIN</li>
 <li>2 sites set header to both DENY and SAMEORIGIN</li>
-<li>17 sites had no X-Frame headers</li>
 </ul></li>
 <li>There were 43 sites with no “X-Frame-Options” header, which included all the framable sites.</li>
 </ul>

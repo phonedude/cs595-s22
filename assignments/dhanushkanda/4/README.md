@@ -26,7 +26,7 @@ Spring 2022, ODU
   * [Finding X-Frame options](framable/code/xframe.py)
 
 
-* [framable](framable/html_files): 100 HTML files
+* [framable](framable): 100 HTML files
 * [Curl outputs](output): Curl responses are saved here
 * [Summary of framability](framable/code/summary.csv)
 
@@ -35,7 +35,7 @@ Spring 2022, ODU
 
 * The [template HTML page](framable/code/main.html) is used to generate the 100 HTML pages for the list of URLS assigned to me.
 
-* The [create_html_inputs](framable/code/create_html_inputs.py) is used to create the 100 seperate HTML pages and save it in a seperate [folder](framable/html_files).
+* The [create_html_inputs](framable/code/create_html_inputs.py) is used to create the 100 seperate HTML pages and save it in a seperate [folder](framable).
 
 * [Curl](framable/code/curl.py) code is used to generate the CURL responses from the 100 assigned URLs to find the X-Frame options to create a summary.
 
@@ -178,7 +178,6 @@ Spring 2022, ODU
   * 15 sites set header to DENY
   * 40 sites set header to SAMEORIGIN
   * 2 sites set header to both DENY and SAMEORIGIN
-  * 17 sites had no X-Frame headers
 
 * There were 43 sites with no "X-Frame-Options" header, which included all the framable sites.
   
