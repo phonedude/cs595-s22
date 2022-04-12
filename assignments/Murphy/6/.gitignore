@@ -1,0 +1,4 @@
+# Ignore JSON files and node_modules folder
+*.json
+node_modules
+with_express-fingerprint
