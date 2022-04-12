@@ -63,7 +63,6 @@ app1.get('/', (req, res) => {
              JSON.stringify(req.headers['accept-language']),
              data_hash)
 
-    var hash = data_hash
     var ua = JSON.stringify(req.headers['user-agent'])
     var ac = JSON.stringify(req.headers['accept'])
     var al = JSON.stringify(req.headers['accept-language'])
@@ -71,7 +70,8 @@ app1.get('/', (req, res) => {
     storeData('User-Agent: ' + ua, json)
     storeData('Accept: ' + ac, json)
     storeData('Accept-Language: ' + al, json)
-    
+
+    var hash = data_hash
     res.render('homepage', {hash:hash})
 })
 
