@@ -54,19 +54,24 @@ app1.set('view engine', 'ejs')
 
 //Get pages
 app1.get('/', (req, res) => {
-    //console.log(JSON.stringify(req.fingerprint))
-    //loadData('test.json')
-    //storeData(req.fingerprint, json)
     data_hash = fingerPrinting(JSON.stringify(req.headers['user-agent']), 
                                JSON.stringify(req.headers['accept']), 
                                JSON.stringify(req.headers['accept-language']))
-    storeData(data_hash, json)
+
     printLog(JSON.stringify(req.headers['user-agent']), 
              JSON.stringify(req.headers['accept']), 
              JSON.stringify(req.headers['accept-language']),
              data_hash)
-             var hash = data_hash
-             var ua = JSON.stringify(req.headers['user-agent'])
+
+    var hash = data_hash
+    var ua = JSON.stringify(req.headers['user-agent'])
+    var ac = JSON.stringify(req.headers['accept'])
+    var al = JSON.stringify(req.headers['accept-language'])
+    storeData('hash: ' + data_hash, json)
+    storeData('User-Agent: ' + ua, json)
+    storeData('Accept: ' + ac, json)
+    storeData('Accept-Language: ' + al, json)
+    
     res.render('homepage', {hash:hash})
 })
 
