@@ -211,4 +211,10 @@ iPad Pro iOS 15 running Safari 605.1.15
 
 ## Video Links
 
+https://youtu.be/KsxcUYETObI
+
+<br/>
+
 # References
+
+1.) Assignment 6 - https://github.com/phonedude/cs595-s22/blob/main/assignments/assignment-6.md

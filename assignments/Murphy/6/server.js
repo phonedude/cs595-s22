@@ -5,7 +5,6 @@ const fs = require('fs')
 const port1 = '4000'
 const app1 = express()
 const md5 = require('md5')
-//const navigator = require('navigatorJS')
 var csv = 'test.csv'
 
 function fingerPrinting(data_1, data_2, data_3){
@@ -31,7 +30,7 @@ const storeData = (data_1, data_2, data_3, data_4, path) => {
                   JSON.stringify(data_4) + 
                   '\n'
         // Remove double quotes and backslash added in writing process
-        var res = str.split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/)
+        var res = str
             res = res.toString()
             res = res.replace(/\\/g, '')
             res = res.replaceAll('""', '"')
@@ -47,17 +46,7 @@ const storeData = (data_1, data_2, data_3, data_4, path) => {
         console.error(err)
     }
 }
-/*
-// Load data from file
-const loadData = (path) => {
-    try {
-        return fs.readFileSync(path, 'utf8')
-    } catch(err) {
-        console.error(err)
-        return false
-    }
-}
-*/
+
 //Static Files
 app1.use(express.static('public'))
 app1.use('imgs', express.static(__dirname + 'public/imgs'))
@@ -80,13 +69,7 @@ app1.get('/', (req, res) => {
     var ua = JSON.stringify(req.headers['user-agent'])
     var ac = JSON.stringify(req.headers['accept'])
     var al = JSON.stringify(req.headers['accept-language'])
-    /*
-    storeData(data_hash + ',', csv)
-    storeData(ua + ',', csv)
-    storeData(ac + ',', csv)
-    storeData("\n", csv)
-    storeData(al + '\n', csv)
-    */
+
    storeData(data_hash, ua, ac, al, csv)
 
     var hash = data_hash
