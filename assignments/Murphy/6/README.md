@@ -76,7 +76,7 @@ not exist, it creates the file, and writes the row to the file.
         }
     }
 
-Finally, when getting the homepage of the server, we use a the functions 
+Finally, when getting the homepage of the server, we use the functions 
 discussed above along with getting the request headers that we will pass
 into said functions. First, we call the fingerPrinting(), passing in the 
 request headers 'user-agent', 'accept', and 'accept-language', and store 
@@ -93,10 +93,10 @@ page and passes the hash for use by the html page.
 For homepage.ejs, I use javascripting to store the hash created by the server 
 into a variable, and use if-else statements to check for several hashes used
 through out this assignment. The first hash checked is on my normal desktop 
-that that I use for school work and programming. It is running windows 10 and 
+that I use for school work and programming. It is running windows 10 and 
 opened the server page using firefox version 99.0. The second hash is the value
 of the machine described above, but using firefox web developer edition
-version 100. The final hash it checks is the one generating using my iPhone 
+version 100. The final hash it checks is the one generated using my iPhone 
 running iOS 15 and opened in Safari. These if-else statement will print 
 a special message only viewable by users whose hashes match the one they are 
 checking, and appends these messages to the html page.
