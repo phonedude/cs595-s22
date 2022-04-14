@@ -1,0 +1,10 @@
+Windows 10 OS   | FireFox Web Dev version 100.0 | Windows NT 10.0; Win64; x64
+Windows 10 OS   | Firefox version 99.0 | Windows NT 10.0; Win64; x64
+Windows 10 OS   | Chrome version 100.0.4896.88 | Windows NT 10.0; Win64; x64
+Windows 10 OS   | Microsoft Edge version 100.0.1185.39 | Windows NT 10.0; Win64; x64
+iPhone iOS 15   | Safari version 604.1
+iPhone iOS 15   | Brave version 1.37
+iPad iOS 12     | Safari version 604.1
+iPad Pro iOS 15 | Safari version 605.1.15 | Macintosh; Intel Mac OS X 10
+Windows 11 OS   | Firefox version 99.0 | Windows NT 10.0; Win64; x64
+Windows 11 OS   | Microsoft Edge version 100.0.1185.39 | Windows NT 10.0; Win64; x64

@@ -1,14 +1,12 @@
 const express = require('express')
 //const res = require('express/lib/response')
-//const { json } = require('express/lib/response')
+const { json } = require('express/lib/response')
 const fs = require('fs')
 const port1 = '4000'
 const app1 = express()
 const md5 = require('md5')
 //const navigator = require('navigatorJS')
 var csv = 'test.csv'
-//Fingerprint setup
-//https://www.npmjs.com/package/express-fingerprint
 
 function fingerPrinting(data_1, data_2, data_3){
     data_final = data_1 + data_2 + data_3
