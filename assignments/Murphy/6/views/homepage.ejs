@@ -10,25 +10,42 @@
         <li><a href="/pokemon-gold">Pokemon Gold Version</a></li>
         <li><a href="/star-wars-rogue-one">Star Wars: Rogue One</a></li>
         <li><a href="/rage-against-the-machine">Rage Against The Machine</a></li>
-        <p>Welcome User: <%= hash %></p>
+        
         <div id = "content"></div>
         <script>
-            var hash = "<%= hash %>"
+            var hash = "<%= data.hash %>"
+            var hashArray = "<%= data.hashArray %>"
+            /*
             if(hash == "4489f44034998209871e51c28f99e08e"){
                 var node = document.getElementById('content')
                 var content = "<p>hello there me on normal firefox!</p>"
 
                 node.insertAdjacentHTML('afterbegin', content)
             }
-            else if (hash == "cc349893339386473e9d21c61e571ce1"){
+            else if (data.hash == "cc349893339386473e9d21c61e571ce1"){
                 var node = document.getElementById('content')
                 var content = "<p>Hello me on Windows 10 using Firefox web developer version 100!</p>"
 
                 node.insertAdjacentHTML('afterbegin', content)
             }
-            else if (hash == "849a1aeefae18d7d13bc841684492bcd"){
+            else if (data.hash == "849a1aeefae18d7d13bc841684492bcd"){
                 var node = document.getElementById('content')
                 var content = "<p>Hello on Joshua's iPhone!</p>"
+
+                node.insertAdjacentHTML('afterbegin', content)
+            }
+            */
+            if(!hashArray.includes(hash)) {
+                var node = document.getElementById('content')
+                var content = '<p>Welcome New User: ' + hash + '</p>'
+
+                node.insertAdjacentHTML('afterbegin', content)
+            }
+            else if(hashArray.includes(hash)) {
+                var node = document.getElementById('content')
+                var content = '<p>Welcome Back!</p> <p>This message will only be shown ' +
+                    'if the client is recognized from the hash being stored.' + 
+                    '<p>User: ' + hash + '</p>'
 
                 node.insertAdjacentHTML('afterbegin', content)
             }
