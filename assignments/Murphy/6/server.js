@@ -80,17 +80,17 @@ app1.get('/', (req, res) => {
     var ac = JSON.stringify(req.headers['accept'])
     var al = JSON.stringify(req.headers['accept-language'])
     
-    data_hash = fingerPrinting(ua, ac, al)
+    hash = fingerPrinting(ua, ac, al)
 
-    printLog(ua, ac, al, data_hash)
+    printLog(ua, ac, al, hash)
 
     checkForFile(csv)
     hashArray = readData()
-    console.log(hashArray)
-
-    var hash = data_hash
     res.render('homepage', {data: {hash:hash, hashArray:hashArray}})
-    storeData(data_hash, csv, hashArray)
+    storeData(hash, csv, hashArray)
+    
+    console.log(hashArray)
+    
 })
 
 app1.get('/rage-against-the-machine', (req, res) => {

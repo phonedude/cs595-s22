@@ -177,7 +177,7 @@ from the hash being stored.", with the hash value also included.
 For this table, any devices that repeat under the 'Operating System' column are the same device. 
 2 Desktop computers, 1 iPhone, and 2 iPads were used in the collection of this data, with with 6 different browses used,
 though the Safari browser on the iPad Pro was running a more up to date version than the 2 other Apple devices.
-There are a few interesting pieces of information that can be seen from this table. To stat with, even though Windows 10
+There are a few interesting pieces of information that can be seen from this table. To start with, even though Windows 10
 and Windows 11 are technically different operating systems, the user-agent sees them as both being Windows NT 10.0, which 
 is a proprietary graphical operating system. Because of this, even though they are two separate machines, because they are 
 identical as far as the user-agent is concerned, the hash values are the same, and thus are seen as the same user. This 
@@ -242,7 +242,7 @@ Returning Client
 
 ## Video Links
 
-OLD: https://youtu.be/KsxcUYETObI
+https://youtu.be/Im-9vf_5BNY
 
 <br/>
 
