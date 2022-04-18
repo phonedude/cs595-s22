@@ -20,6 +20,13 @@ Due to the server.js file having over 100 lines of code, I will separate
 the key functions and lines of code used to fingerprint the user, and describe 
 them. 
 
+The first function checks if the csv file we use to store the hash values in 
+already exists or not. If it doesn't, it will create it.
+
+    function checkForFile(path){
+    if (!fs.existsSync(csv))
+        fs.writeFileSync(path, 'hash', json)
+
 For the fingerPrinting() function, it takes 3 parameters, which are the three
 request headers used to create the hash used for the fingerprint. It adds the 
 three parameters together, preforms a hashing function on them, and then returns the
@@ -42,64 +49,78 @@ of the server.
         console.log('Hash: ' + data_4 + '\n')
     }
 
-I also store this data to a csv file using storeData(). This takes five parameters,
-the three headers, the hash, and the path of the file that it is writing to.
-it stores the there headers and hash value into a string variable, splits
-the string for unneeded characters, and replaces the "\" as well as the double 
-quotations that are caused when writing to a file. Finally, it checks to see
-if the csv file exists. If it does, it appends the data to the file. If it does 
-not exist, it creates the file, and writes the row to the file.
+I also store the hash value into a csv file so that the server can check 
+if the client is new or returning. It takes in 3 parameters, the hash value, 
+the path of the file, and an array of hash values. If the hash value is not 
+already stored in the file, it will write it. Otherwise, if the hash is already
+in the file, it will ignore it.
 
-    const storeData = (data_1, data_2, data_3, data_4, path) => {
+    var storeData = (data_1, path, array) => {
         try {
             // Store data parameters into string variable
-            var str = JSON.stringify(data_1) + "," + 
-                    JSON.stringify(data_2) + "," + 
-                    JSON.stringify(data_3) + "," + 
-                    JSON.stringify(data_4) + 
-                    '\n'
+            var hash = JSON.stringify(data_1) 
             // Remove double quotes and backslash added in writing process
-            var res = str.split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/)
+            var res = hash
                 res = res.toString()
                 res = res.replace(/\\/g, '')
                 res = res.replaceAll('""', '"')
-            // if statement to check if csv file exists. 
-            // if it does not, create it and save string to file.
-            if (fs.existsSync(csv))
-                fs.appendFile("test.csv", (res), function(err){
+                res = res.replaceAll('"', '')
+
+            if (!array.includes(data_1)) {
+                fs.appendFile(path, '\n' + (res), function(err){
                     if (err) throw err
                 })
-            else
-                fs.writeFileSync(path, 'hash, user-agent, accept, accept-langauge\n' + res, json)
+            }  
         } catch(err) {
             console.error(err)
         }
     }
 
+Finally, there is the readData() function that reads the file into a variable, 
+and then returns it.
+
+    function readData(){
+        var data = fs.readFileSync('test.csv', 'utf8').toString().split("\n")
+        return(data)
+    }
+
 Finally, when getting the homepage of the server, we use the functions 
 discussed above along with getting the request headers that we will pass
-into said functions. First, we call the fingerPrinting(), passing in the 
-request headers 'user-agent', 'accept', and 'accept-language', and store 
-the resulting hash into the variable data_hash. Then, printLog is called 
+into said functions. First, fingerPrinting() is called to store 
+the resulting hash into the variable data_hash. Then, printLog() is called 
 passing in the three aforementioned headers and the hash, which prints 
-to the console the results. Next, storeData() is called which writes
-the hash and the headers to a csv file. Finally, the server renders the
-page and passes the hash for use by the html page.
+to the console the results. The page is then rendered to the user, passing the hash and hashArray values to the HTML
+for later use. Finally, storeData() is used to write the hash value to the csv file if is not already 
+in the file.
 
-<br />
+    app1.get('/', (req, res) => {
+        var ua = JSON.stringify(req.headers['user-agent'])
+        var ac = JSON.stringify(req.headers['accept'])
+        var al = JSON.stringify(req.headers['accept-language'])
+        
+        data_hash = fingerPrinting(ua, ac, al)
+
+        printLog(ua, ac, al, data_hash)
+
+        checkForFile(csv)
+        hashArray = readData()
+        console.log(hashArray)
+
+        var hash = data_hash
+        res.render('homepage', {data: {hash:hash, hashArray:hashArray}})
+        storeData(data_hash, csv, hashArray)
+    })
+
+<br/>
 
 ## HTML side code
 
-For homepage.ejs, I use javascripting to store the hash created by the server 
-into a variable, and use if-else statements to check for several hashes used
-through out this assignment. The first hash checked is on my normal desktop 
-that I use for school work and programming. It is running windows 10 and 
-opened the server page using firefox version 99.0. The second hash is the value
-of the machine described above, but using firefox web developer edition
-version 100. The final hash it checks is the one generated using my iPhone 
-running iOS 15 and opened in Safari. These if-else statement will print 
-a special message only viewable by users whose hashes match the one they are 
-checking, and appends these messages to the html page.
+In the EJS file for the homepage of the server, a script is used to check if the hash is included in the 
+array hashArray. If it is not in the array, the client is new to the server 
+and the message "Welcome New User: %hash" is appended to the homepage. 
+If the hash value is in the array, it will instead append the message 
+"Welcome Back! This message will only be shown if the client is recognized 
+from the hash being stored.", with the hash value also included.
 
     <!doctype html>
     <html lang='en'>
@@ -113,25 +134,23 @@ checking, and appends these messages to the html page.
             <li><a href="/pokemon-gold">Pokemon Gold Version</a></li>
             <li><a href="/star-wars-rogue-one">Star Wars: Rogue One</a></li>
             <li><a href="/rage-against-the-machine">Rage Against The Machine</a></li>
-            <p>Welcome User: <%= hash %></p>
+            
             <div id = "content"></div>
             <script>
-                var hash = "<%= hash %>"
-                if(hash == "4489f44034998209871e51c28f99e08e"){
+                var hash = "<%= data.hash %>"
+                var hashArray = "<%= data.hashArray %>"
+                
+                if(!hashArray.includes(hash)) {
                     var node = document.getElementById('content')
-                    var content = "<p>hello there me on normal firefox!</p>"
+                    var content = '<p>Welcome New User: ' + hash + '</p>'
 
                     node.insertAdjacentHTML('afterbegin', content)
                 }
-                else if (hash == "cc349893339386473e9d21c61e571ce1"){
+                else if(hashArray.includes(hash)) {
                     var node = document.getElementById('content')
-                    var content = "<p>Hello me on Windows 10 using Firefox web developer version 100!</p>"
-
-                    node.insertAdjacentHTML('afterbegin', content)
-                }
-                else if (hash == "849a1aeefae18d7d13bc841684492bcd"){
-                    var node = document.getElementById('content')
-                    var content = "<p>Hello on Joshua's iPhone!</p>"
+                    var content = '<p>Welcome Back!</p> <p>This message will only be shown ' +
+                        'if the client is recognized from the hash being stored.' + 
+                        '<p>User: ' + hash + '</p>'
 
                     node.insertAdjacentHTML('afterbegin', content)
                 }
@@ -209,9 +228,21 @@ iPad Pro iOS 15 running Safari 605.1.15
 
 <br/>
 
+### Images of if a client is recognized
+
+New Client
+![New_Client_Server](images/new_user_page.png)
+
+<br/>
+
+Returning Client
+![Returning_Client_Server](images/user_recognized.png)
+
+<br/>
+
 ## Video Links
 
-https://youtu.be/KsxcUYETObI
+OLD: https://youtu.be/KsxcUYETObI
 
 <br/>
 

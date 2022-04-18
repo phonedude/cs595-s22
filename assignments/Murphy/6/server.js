@@ -76,18 +76,13 @@ app1.set('view engine', 'ejs')
 
 //Get pages
 app1.get('/', (req, res) => {
-    data_hash = fingerPrinting(JSON.stringify(req.headers['user-agent']), 
-                               JSON.stringify(req.headers['accept']), 
-                               JSON.stringify(req.headers['accept-language']))
-
-    printLog(JSON.stringify(req.headers['user-agent']), 
-             JSON.stringify(req.headers['accept']), 
-             JSON.stringify(req.headers['accept-language']),
-             data_hash)
-
     var ua = JSON.stringify(req.headers['user-agent'])
     var ac = JSON.stringify(req.headers['accept'])
     var al = JSON.stringify(req.headers['accept-language'])
+    
+    data_hash = fingerPrinting(ua, ac, al)
+
+    printLog(ua, ac, al, data_hash)
 
     checkForFile(csv)
     hashArray = readData()
