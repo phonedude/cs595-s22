@@ -19,12 +19,46 @@ Write server side code for your Express server that fingerprints browsers (as pe
 
 Use at least three different HTTP request headers to form your browser fingerprint.
 
+#### Input
+Fingerprinting data collection:
+- Browser
+- Device type
+- Operating System
+- IP Address
+- User-Agent
+- Geolocation
+### Technique
+Parses the user agent string included in the headers to obtain browser, device, OS information and the ip address. Uses external package express-fingerprint to obtain geolocation information and produce hashstring unique to client. Client hash identifiers are stored in [users.json](./users.json) 
+#### Output
+A unique hash ID that maps to client used for recognition (See examples in [users.json](./users.json))
+
+#### Client 1 - Chrome browser
+
+![alt text](./screenshots/assignment5_chrome.png)
+
+#### Client 2 - Firefox browser
+
+![alt text](./screenshots/assignment_firefox.png)
+
+#### Client 3 - Opera browser
+
+![alt text](./screenshots/assignment_opera.png)
+
+#### Client 5 - Curl browser
+
+![alt text](./screenshots/assignment5_curl.png)
+
+#### Client 5 - Mobile iOS Safari browser
+
+![alt text](./screenshots/assignment5_ios.png)
+![alt text](./screenshots/assignment_ios.PNG)
 
 ### Extra credit (5 points)
 
 For each fingerprint, serve a different HTML file based on some combination of your three favorite things from Assignment 2.  This way each client has a unique experience, different from other clients.  See also: [cloaking](https://en.wikipedia.org/wiki/Cloaking).
-
-[Extra credit demonstration](https://youtu.be/CLrBnKbuTbs)
+### DEMO VIDEO
+##### The below video demonstrates the Extra credit and, by consequence, the mechanisms for recognition of the clients.
+[Demo and Extra credit demonstration](https://youtu.be/CLrBnKbuTbs)
 
 ### Setting up directory "6"
 

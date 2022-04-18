@@ -98,18 +98,23 @@ app.get('/',function(req,res,next) {
     console.log(clc.green("[Device type] ")+ JSON.stringify(req.fingerprint.components.useragent.device));
     console.log(clc.green("[Operating system] ")+JSON.stringify(req.fingerprint.components.useragent.os));
     console.log(clc.green("[IP Address] ")+ip.address());
-    //var geo = geoIp.lookup(ip.address());
-    //console.log(geo);
+
     console.log(clc.green("[User-Agent] "),req.headers['user-agent']);
     console.log(clc.green("[Accept Headers] "),req.headers['accept']);
-    console.log(clc.green("[(Non LAN connections only) Geo ip] ")+JSON.stringify(req.fingerprint.components.geoip));
-
+    if (req.fingerprint.components.geoip.country != null)
+    {
+        console.log(clc.green("[Geo ip] ")+JSON.stringify(req.fingerprint.components.geoip));
+    }
+    else{
+        var geo = geoIp.lookup('73.143.25.50');
+        console.log(geo);        
+    }
     render_user_page(req.fingerprint.hash);
     fileName = '/sites/'+req.fingerprint.hash +'.html'
     res.sendFile(path.join(__dirname, fileName));
 })
 console.log( ip.address() );
 
-app.listen(port,ip.address() ,() => {
+app.listen(port,'0.0.0.0' ,() => {
     console.log(`Example app listening on port ${port}`)
   })
