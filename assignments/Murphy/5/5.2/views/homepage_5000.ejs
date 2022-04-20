@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8' />
+        <title>Port 5000</title>
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    </head>
+    <body>
+        <p>This is port 5000!</p> 
+        <script>
+            //CORS request from localhost:4000
+            fetch("http://localhost:4000/pokemon-gold")
+                .then(response=>{
+                    paragraph = document.getElementById("p")
+                    for(const header of response.headers){
+                        console.log(`Name: ${header[0]}, Value:${header[1]}`);
+                        document.write(`Name: ${header[0]}, Value:${header[1]}`)
+                        //paragraph.appendChild(`Name: ${header[0]}, Value:${header[1]}`)
+                    }
+                    
+                    document.write("<br/>")
+                });
+            document.write("\n")
+            fetch("http://localhost:4000/star-wars-rogue-one")
+                .then(response=>{
+                    paragraph = document.getElementById("p")
+                    for(const header of response.headers){
+                        console.log(`Name: ${header[0]}, Value:${header[1]}`);
+                        document.write(`Name: ${header[0]}, Value:${header[1]}`)
+                        //paragraph.appendChild(`Name: ${header[0]}, Value:${header[1]}`)
+                    }
+                    
+                    document.write("<br/>")
+                });
+            fetch("http://localhost:4000/rage-against-the-machine")
+                .then(response=>{
+                    paragraph = document.getElementById("p")
+                    for(const header of response.headers){
+                        console.log(`Name: ${header[0]}, Value:${header[1]}`);
+                        document.write(`Name: ${header[0]}, Value:${header[1]}`)
+                        //paragraph.appendChild(`Name: ${header[0]}, Value:${header[1]}`)
+                    }
+                    
+                    document.write("<br/>")
+            });
+        </script>
+        <p id = "p"></p>
+    </body>
+</html>

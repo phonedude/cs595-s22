@@ -1,0 +1,29 @@
+HTTP/1.1 302 Moved Temporarily
+Date: Mon, 04 Apr 2022 05:00:57 GMT
+Content-Type: text/plain
+Content-Length: 13
+Connection: keep-alive
+Location: https://www.nationalgeographic.com/
+Access-Control-Allow-Origin: *
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 46560
+Connection: keep-alive
+Date: Mon, 04 Apr 2022 05:00:21 GMT
+Server: nginx/1.20.1
+Expires: Mon, 04 Apr 2022 05:01:04 GMT
+Last-Modified: Mon, 04 Apr 2022 05:01:04 GMT
+Content-Encoding: gzip
+Via: 1.1 varnish-v4, 1.1 11e42b3facdb2abb175876ba0e4b97f8.cloudfront.net (CloudFront)
+Cache-Control: max-age=44
+Accept-Ranges: bytes
+Set-Cookie: country=us; path=/;
+Set-Cookie: region=ccpa; path=/; Expires=Mon, 11 Apr 2022 05:00:21 GMT;
+Set-Cookie: _dcf=1; path=/; Expires=Mon, 11 Apr 2022 05:00:21 GMT;
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: IAD79-C3
+X-Amz-Cf-Id: QRzCJUtU2BFSNlg2GIDWxC59s81RNZ5n0_CE9qp1gEXPiL7iKzuEYA==
+Age: 36
+

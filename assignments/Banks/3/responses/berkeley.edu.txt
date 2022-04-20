@@ -1,0 +1,20 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 04 Apr 2022 05:00:34 GMT
+Server: Apache/2.4
+Location: https://www.berkeley.edu/
+Keep-Alive: timeout=0, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 200 OK
+Date: Mon, 04 Apr 2022 05:00:35 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Server: Apache/2.4
+X-Powered-By: PHP/5.4.16
+Cache-Control: max-age=300
+Expires: Mon, 04 Apr 2022 05:05:35 GMT
+X-Frame-Options: deny
+Content-Security-Policy: frame-ancestors *.berkeley.edu berkeley.edu ;
+Vary: User-Agent
+

@@ -1,0 +1,42 @@
+HTTP/1.1 301 Moved Permanently
+Server: awselb/2.0
+Date: Mon, 04 Apr 2022 05:01:02 GMT
+Content-Type: text/html
+Content-Length: 134
+Connection: keep-alive
+Location: https://slideshare.net:443/
+
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 04 Apr 2022 05:01:02 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Server: nginx
+Location: https://www.slideshare.net/
+P3P: CP="OTI DSP COR CUR ADM DEV PSD IVD CONo OUR IND"
+X-Content-Type-Options: nosniff
+
+HTTP/1.1 200 OK
+Date: Mon, 04 Apr 2022 05:01:02 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Server: nginx
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+X-Request-UUID: flSwOehAR7t3Dpp7AfyyXA==
+X-ss-make-cacheable: true
+X-Bench-Route: main/index
+ETag: W/"6fe5039459627b010d53ef99fc86ab66"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: language=**; path=/
+Set-Cookie: browser_id=baab0946-671f-4afb-b3e7-b7df7afd6245; path=/; expires=Sun, 04 Apr 2027 05:01:02 GMT
+Set-Cookie: flash=---%250Asig%253A%2B1af4a80d1ab9bd8cbc28120c42733c1e28b8f469%250Adata%253A%2B%2522---%255Cnused%253A%2B%255B%255D%255Cnvals%253A%255Cn%2B%2Bnotice%253A%2B%255Cn%2B%2Bwarning%253A%2B%255Cn%2B%2Bmessage%253A%2B%255Cn%2B%2Bsuccess%253A%2B%255Cn%2B%2Berror%253A%250A%2B%2B%255Cn%2B%2Bpermanent%253A%2B%255Cn%2B%2Bmodal_notice%253A%2B%255Cn%2B%2Bdwnldloop%253A%2B%255Cn%2522%250A; path=/
+X-Request-Id: 3ae87881687a132b6c20ee1a03350278
+X-Runtime: 0.235281
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Content-Encoding: gzip
+

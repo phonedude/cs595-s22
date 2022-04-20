@@ -1,0 +1,31 @@
+HTTP/1.1 302 Moved Temporarily
+Server: AkamaiGHost
+Content-Length: 0
+Location: http://web.mit.edu/
+Date: Mon, 04 Apr 2022 05:00:56 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://web.mit.edu/
+Date: Mon, 04 Apr 2022 05:00:56 GMT
+Connection: keep-alive
+Content-Security-Policy: frame-ancestors 'self' https://web.mit.edu https://www.mit.edu http://web.mit.edu http://www.mit.edu
+X-Frame-Options: SAMEORIGIN
+
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Mon, 04 Apr 2022 04:00:54 GMT
+ETag: "10e8b2a0-bc01-624a6d76"
+Accept-Ranges: bytes
+X-Cnection: close
+Content-Type: text/html
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Date: Mon, 04 Apr 2022 05:00:56 GMT
+Content-Length: 20
+Connection: keep-alive
+Content-Security-Policy: frame-ancestors 'self' https://web.mit.edu https://www.mit.edu http://web.mit.edu http://www.mit.edu
+X-Frame-Options: SAMEORIGIN
+

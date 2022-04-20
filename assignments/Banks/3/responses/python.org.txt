@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Content-length: 0
+Location: https://python.org/
+
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Mon, 04 Apr 2022 05:00:59 GMT
+Content-Type: text/html
+Content-Length: 162
+Location: https://www.python.org/
+Strict-Transport-Security: max-age=315360000; preload
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 50860
+Server: nginx
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Via: 1.1 vegur, 1.1 varnish
+Accept-Ranges: bytes
+Date: Mon, 04 Apr 2022 05:00:59 GMT
+Age: 2661
+X-Served-By: cache-iad-kcgs7200063-IAD
+X-Cache: HIT
+X-Cache-Hits: 8
+X-Timer: S1649048460.623528,VS0,VE0
+Vary: Cookie
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+

@@ -1,0 +1,42 @@
+HTTP/1.1 301 Moved Permanently
+Server: Server
+Date: Mon, 04 Apr 2022 05:00:33 GMT
+Content-Type: text/html
+Content-Length: 163
+Connection: keep-alive
+Location: https://amazon.es/
+
+HTTP/1.1 301 Moved Permanently
+Server: Server
+Date: Mon, 04 Apr 2022 05:00:33 GMT
+Content-Type: text/html
+Content-Length: 163
+Connection: keep-alive
+Location: https://www.amazon.es/
+Permissions-Policy: interest-cohort=()
+
+HTTP/1.1 405 Method Not Allowed
+Server: Server
+Content-Type: text/html;charset=UTF-8
+Content-Length: 0
+x-amz-rid: YAG5S8Y2XYA65C279D3V
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Allow: GET, POST, PUT, DELETE
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+Date: Mon, 04 Apr 2022 05:00:34 GMT
+Connection: keep-alive
+Set-Cookie: session-id=-; path=/; domain=.www.amazon.es; expires=Sun, 04-Apr-2010 05:00:34 GMT
+Set-Cookie: session-id-time=-; path=/; domain=.www.amazon.es; expires=Sun, 04-Apr-2010 05:00:34 GMT
+Set-Cookie: session-token=-; path=/; domain=.www.amazon.es; expires=Sun, 04-Apr-2010 05:00:34 GMT
+Set-Cookie: ubid-acbes=-; path=/; domain=.www.amazon.es; expires=Sun, 04-Apr-2010 05:00:34 GMT
+Set-Cookie: at-acbes=-; path=/; domain=.www.amazon.es; expires=Sun, 04-Apr-2010 05:00:34 GMT
+Set-Cookie: lc-acbes=-; path=/; domain=.www.amazon.es; expires=Sun, 04-Apr-2010 05:00:34 GMT
+Set-Cookie: x-acbes=-; path=/; domain=.www.amazon.es; expires=Sun, 04-Apr-2010 05:00:34 GMT
+Set-Cookie: x-wl-uid=-; path=/; domain=.www.amazon.es; expires=Sun, 04-Apr-2010 05:00:34 GMT
+Set-Cookie: sess-at-acbes=-; path=/; domain=.www.amazon.es; expires=Sun, 04-Apr-2010 05:00:34 GMT
+Set-Cookie: UserPref=-; path=/; domain=.www.amazon.es; expires=Sun, 04-Apr-2010 05:00:34 GMT
+

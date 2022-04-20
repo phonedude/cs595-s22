@@ -1,0 +1,64 @@
+HTTP/1.1 301 Moved Permanently
+Location: /fb/a/home
+Content-Type: text/html; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 04 Apr 2022 05:00:45 GMT
+Expires: Mon, 04 Apr 2022 05:00:45 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Content-Length: 160
+Server: GSE
+
+HTTP/1.1 302 Moved Temporarily
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+Location: https://www.google.com/accounts/ServiceLogin?service=feedburner&continue=https%3A%2F%2Ffeedburner.google.com%2Ffb%2Fa%2Fmyfeeds&gsessionid=O0qRe4bgY48iDPxZ-oVmncKgEl-JtzOJJwQRoX160Go
+Content-Encoding: gzip
+Date: Mon, 04 Apr 2022 05:00:45 GMT
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Content-Length: 287
+Server: GSE
+Set-Cookie: S=feedburner-control-panel=O0qRe4bgY48iDPxZ-oVmncKgEl-JtzOJJwQRoX160Go; Path=/; HttpOnly; Priority=LOW
+
+HTTP/1.1 302 Moved Temporarily
+Content-Type: text/html; charset=UTF-8
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Mon, 04 Apr 2022 05:00:45 GMT
+Location: https://accounts.google.com/ServiceLogin?service=feedburner&continue=https%3A%2F%2Ffeedburner.google.com%2Ffb%2Fa%2Fmyfeeds&gsessionid=O0qRe4bgY48iDPxZ-oVmncKgEl-JtzOJJwQRoX160Go
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+x-auto-login: realm=com.google&args=service%3Dfeedburner%26continue%3Dhttps%253A%252F%252Ffeedburner.google.com%252Ffb%252Fa%252Fmyfeeds
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Mon, 04 Apr 2022 05:00:45 GMT
+Content-Length: 1860100
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Security-Policy: script-src 'nonce-JgJZgaZy9l2XDaVYmmWCxg' 'unsafe-inline' 'unsafe-eval';object-src 'none';base-uri 'self';report-uri /cspreport, require-trusted-types-for 'script';report-uri /cspreport
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="coop_gse_qebhlk"
+Report-To: {"group":"coop_gse_qebhlk","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gse_qebhlk"}]}
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Set-Cookie: __Host-GAPS=1:JfSGjGFvjxrw_VE_IVRmHYhTARbLYw:8qOQZN7rPC6vNJOn;Path=/;Expires=Wed, 03-Apr-2024 05:00:45 GMT;Secure;HttpOnly;Priority=HIGH
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+

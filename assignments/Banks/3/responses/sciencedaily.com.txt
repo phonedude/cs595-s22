@@ -1,0 +1,55 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Mon, 04 Apr 2022 05:01:01 GMT
+Content-Type: text/html
+Content-Length: 183
+Connection: keep-alive
+Location: https://sciencedaily.com/
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+Referrer-Policy: same-origin
+X-Content-Type-Options: nosniff
+X-Cache: Redirect from cloudfront
+Via: 1.1 a2da30f5dacfbd28d77cf4c9702318f8.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: QbtQ8NqgcmFuT-_h7cGqkBkhII2KzdMOshFGZdmNDn49sf8xZaz_FQ==
+
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Connection: keep-alive
+Date: Sun, 03 Apr 2022 10:58:15 GMT
+Location: https://www.sciencedaily.com/
+Server: AmazonS3
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+Referrer-Policy: same-origin
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Cache: Hit from cloudfront
+Via: 1.1 966a4e45512437c14125c564c492a2d6.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: HymCxPOzxPSYS1H3nsN_jrV-D1yv7-CqEdM1hg0yw3wJEZuEB1PoaA==
+Age: 64967
+
+HTTP/1.1 200 OK
+Content-Type: text/html
+Connection: keep-alive
+x-amz-meta-cache-control: max-age=600
+Last-Modified: Mon, 04 Apr 2022 02:46:03 GMT
+Server: AmazonS3
+Content-Encoding: gzip
+Date: Mon, 04 Apr 2022 04:55:07 GMT
+Cache-Control: max-age=600
+ETag: W/"1753579de759b51b1deffefdb903eade"
+Vary: Accept-Encoding
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+Referrer-Policy: same-origin
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Cache: Hit from cloudfront
+Via: 1.1 ec8b1bfbf511818c606f196b49f871e2.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD50-C2
+X-Amz-Cf-Id: JfGvCIR6-b0N2z3W7pTRA6baH2fkFbz2lQuhDBkYfcLx3nMj5kY1_A==
+Age: 381
+
