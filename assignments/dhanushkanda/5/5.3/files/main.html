@@ -1,0 +1,14 @@
+<html>
+<title>
+Welcome to Assignment 5.3
+</title>
+<h1>Skanda Siva, CS 495/595 - Spring 2022, ODU</h1>
+<br><br>
+Demonstrating a local HTML file being allowed to embed the remote site as well as a local server prohibiting the embedding.
+
+<script>
+  const iframe = document.createElement('iframe')
+  iframe.src = 'https://www.usnews.com/'
+  document.body.appendChild(iframe)
+</script>
+</html>

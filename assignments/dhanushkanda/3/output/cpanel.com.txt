@@ -1,0 +1,43 @@
+http/1.1 301 moved permanently
+date: wed, 06 apr 2022 01:02:29 gmt
+connection: keep-alive
+cache-control: max-age=3600
+expires: wed, 06 apr 2022 02:02:29 gmt
+location: https://cpanel.com/
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=e2yodscddqmpm0xhz7qozrt5x21al9myzv0gsdwkghsvleknxluqtbsdpls6pdlsebeafyijh3ogbtpkvyhyy2ytlq1pdu6reykmux1fm4xw2v6wtyhbopdkfmk%2bmsnsihf%2fyulhe6cl"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 6f7699277fa25974-iad
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+http/2 302 
+date: wed, 06 apr 2022 01:02:29 gmt
+content-type: text/html; charset=iso-8859-1
+location: https://cpanel.net/
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cf-cache-status: dynamic
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=a1vc7zzd9%2f8y077r3e28ysn0a8j5nyzmfcosucrxotm560xivlpnfspkqaklmyh7sqft%2fvr5eaps9srslg3xb7uqp0fdjabdcgubqsllnnmpr0bkuw7zimbfh%2b%2f7iy8gtsjdxdg%2bds57"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+strict-transport-security: max-age=15552000; preload
+server: cloudflare
+cf-ray: 6f769928bccd5cd1-iad
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+http/1.1 200 ok
+date: wed, 06 apr 2022 01:02:29 gmt
+server: apache
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+strict-transport-security: max-age=31536000
+last-modified: tue, 05 apr 2022 13:31:37 gmt
+accept-ranges: bytes
+content-length: 33164
+cache-control: max-age=300
+expires: wed, 06 apr 2022 01:07:29 gmt
+vary: accept-encoding,user-agent
+x-frame-options: sameorigin
+content-type: text/html
+

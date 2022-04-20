@@ -1,0 +1,18 @@
+http/1.0 301 moved permanently
+location: https://www.mayoclinic.org/
+server: bigip
+connection: keep-alive
+content-length: 0
+
+http/2 200 
+pragma: no-cache
+content-type: text/html; charset=utf-8
+server: microsoft-iis/10.0
+request-context: appid=cid-v1:43d08973-e1f5-4c58-8a89-38aedf9d774b
+access-control-expose-headers: request-context
+x-frame-options: sameorigin
+cache-control: no-cache, no-store
+expires: wed, 06 apr 2022 01:05:08 gmt
+date: wed, 06 apr 2022 01:05:08 gmt
+set-cookie: ak_tls_cipher_name=ecdhe-rsa-aes256-gcm-sha384; path=/
+

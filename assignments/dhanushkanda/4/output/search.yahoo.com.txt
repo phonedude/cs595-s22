@@ -1,0 +1,28 @@
+http/1.1 301 moved permanently
+date: wed, 06 apr 2022 01:05:59 gmt
+connection: close
+server: ats
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block; report=https://csp.search.yahoo.com/xssreport
+referrer-policy: no-referrer-when-downgrade
+location: https://search.yahoo.com/
+content-length: 25
+content-type: text/html
+
+http/2 200 
+date: wed, 06 apr 2022 01:05:59 gmt
+p3p: policyref="https://policies.yahoo.com/w3c/p3p.xml", cp="cao dsp cor cur adm dev tai psa psd ivai ivdi coni telo otpi our deli sami otri unri pubi ind phy onl uni pur fin com nav int dem cnt sta pol hea pre loc gov"
+set-cookie: promo=ono_sc=1&ono_fts=1649207159&ltv_pid=&ltv_new=1&ltv_ts=1649207159&ltv_sts=1649207159&ltv_c=1; expires=thu, 06-apr-2023 01:05:59 gmt; max-age=31536000; path=/; domain=.search.yahoo.com
+secure_search_bypass: true
+x-frame-options: deny
+content-security-policy: frame-ancestors 'none'; default-src 'self' https://*.yahoo.com https://*.yimg.com; script-src 'self' 'unsafe-inline' 'nonce-kritdou+j3n4htzktff6cg==' 'unsafe-eval' https://*.yahoo.net https://*.yahoo.com https://*.yimg.com https://*.uservoice.com *.oath.com https://*.hereapi.com https://*.youtube.com *.yahooapis.com blob:; style-src 'self' 'unsafe-inline' https://assets.video.yahoo.net https://*.yimg.com; img-src 'self' data: blob: https://*.bing.net https://*.yimg.com https://s.ytimg.com yahoo.com https://*.yahoo.com https://*.bing.com *.here.com *.wc.yahoodns.net https://*.doubleclick.net https://sb.scorecardresearch.com https://*.adaptv.advertising.com https://*.vidible.tv https://*.yahoo.net https://*.footprint.net https://*.akamaized.net https://*.cloudfront.net https://*.llnwd.net; frame-src 'self' https://*.yahoo.net https://*.youtube.com https://s.yimg.com https://*.yahoo.com https://yahoo.uservoice.com https://*.vidible.tv https://*.advertising.com; media-src * blob:; object-src *; connect-src * blob:; font-src * data:; child-src blob:;
+cache-control: private
+content-type: text/html; charset=utf-8
+age: 2
+strict-transport-security: max-age=31536000
+server: ats
+expect-ct: max-age=31536000, enforce
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block; report=https://csp.search.yahoo.com/xssreport
+referrer-policy: no-referrer-when-downgrade
+

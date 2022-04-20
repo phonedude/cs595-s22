@@ -1,0 +1,25 @@
+http/1.1 301 moved permanently
+date: wed, 6 apr 2022 03:06:04 gmt
+location: https://spiegel.de/
+content-type: text/html
+content-length: 106
+connection: close
+
+http/2 301 
+location: https://www.spiegel.de/
+date: wed, 06 apr 2022 01:06:04 gmt
+alt-svc: clear
+via: 1.1 google
+
+http/2 200 
+accept-ranges: bytes
+cache-control: public, max-age=0,s-maxage=90
+content-length: 1265034
+content-type: text/html; charset=utf-8
+date: wed, 06 apr 2022 01:05:37 gmt
+vary: x-forwarded-proto, x-authorized-sppur, accept-encoding
+x-cache: hit
+x-cache-grace: 3600.000
+alt-svc: clear
+via: 1.1 google
+

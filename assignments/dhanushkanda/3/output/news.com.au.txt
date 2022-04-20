@@ -1,0 +1,41 @@
+http/1.1 301 moved permanently
+server: akamaighost
+content-length: 0
+location: http://www.news.com.au/
+date: wed, 06 apr 2022 01:05:28 gmt
+connection: keep-alive
+
+http/1.1 301 moved permanently
+server: akamaighost
+content-length: 0
+location: https://www.news.com.au/
+cache-control: max-age=0
+expires: wed, 06 apr 2022 01:05:28 gmt
+date: wed, 06 apr 2022 01:05:28 gmt
+connection: keep-alive
+x-sppdebug: /?wpa=249773c60b8f845bc60654c0baa5be730bf5a8a0&editiondata=none&fromakamai=true&pt=none&device=desktop&ck_st=null
+x-arrrg1: /blaize/decision-engine?path=http%3a%2f%2fwww.news.com.au%2f&blaizehost=cdn.news.newscorp.blaize.io&content_id=
+vary: user-agent
+is-https: false
+
+http/2 200 
+server: nginx
+content-type: text/html; charset=utf-8
+content-length: 536009
+x-powered-by: wordpress vip <https://wpvip.com>
+host-header: a9130478a60e5f9135f765b23f26593b
+x-content-type-options: nosniff
+x-xss-protection: 1
+x-rq: nrt2 0 4 9980
+accept-ranges: bytes
+cache-control: max-age=15
+expires: wed, 06 apr 2022 01:05:44 gmt
+date: wed, 06 apr 2022 01:05:29 gmt
+x-sppdebug: /?wpa=249773c60b8f845bc60654c0baa5be730bf5a8a0&editiondata=none&fromakamai=true&pt=none&device=desktop&ck_st=null
+x-arrrg1: /blaize/decision-engine?path=https%3a%2f%2fwww.news.com.au%2f&blaizehost=cdn.news.newscorp.blaize.io&content_id=
+vary: user-agent
+is-https: true
+x-webkit-csp: block-all-mixed-content; style-src https: 'unsafe-inline'; script-src https: blob: 'unsafe-inline' 'unsafe-eval'; img-src https: data:; frame-src https:;
+x-content-security-policy: block-all-mixed-content; style-src https: 'unsafe-inline'; script-src https: blob: 'unsafe-inline' 'unsafe-eval'; img-src https: data:; frame-src https:;
+content-security-policy: block-all-mixed-content; style-src https: 'unsafe-inline'; script-src https: blob: 'unsafe-inline' 'unsafe-eval'; img-src https: data:; frame-src https:;
+

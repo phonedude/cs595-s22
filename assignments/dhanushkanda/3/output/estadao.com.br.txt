@@ -1,0 +1,17 @@
+http/1.1 301 moved permanently
+server: akamaighost
+content-length: 0
+location: https://www.estadao.com.br/
+expires: wed, 06 apr 2022 01:02:45 gmt
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: wed, 06 apr 2022 01:02:45 gmt
+connection: keep-alive
+
+http/2 200 
+content-type: text/html
+etag: "4ee279033505617d6d83c4cfb497027a:1649206951.102261"
+last-modified: wed, 06 apr 2022 01:02:32 gmt
+server: akamainetstorage
+date: wed, 06 apr 2022 01:02:45 gmt
+

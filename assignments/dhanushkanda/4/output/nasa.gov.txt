@@ -1,0 +1,34 @@
+http/1.1 301 moved permanently
+server: nginx/1.14.0 (ubuntu)
+date: wed, 06 apr 2022 01:05:16 gmt
+content-type: text/html
+content-length: 194
+connection: close
+location: https://www.nasa.gov/
+
+http/2 200 
+content-type: text/html
+content-length: 10177
+x-amz-id-2: 1/q989qy+j01gnfeuueiii0p77dtvumpb1ziiu0v23z9jv2egpeqhz4kv6auwijij2bs1n9jnna=
+x-amz-request-id: 77ndddts87g92x5p
+x-amz-replication-status: pending
+last-modified: wed, 06 apr 2022 00:39:30 gmt
+x-amz-server-side-encryption: aes256
+x-amz-meta-md5_hash: 6adc910bdb02e66d9eb874414f1cb374
+x-amz-version-id: vn0dwaozfcehmpu9higaqifevmbe_lst
+accept-ranges: bytes
+server: amazons3
+x-ua-compatible: ie=edge,chrome=1
+date: wed, 06 apr 2022 01:00:18 gmt
+cache-control: max-age=300
+etag: "6adc910bdb02e66d9eb874414f1cb374"
+referrer-policy: strict-origin
+x-content-type-options: nosniff
+strict-transport-security: max-age=31557600; includesubdomains; preload
+content-security-policy: frame-ancestors 'self' https://*.nasa.gov
+x-cache: hit from cloudfront
+via: 1.1 7f7e359e1c06a914d3d305785359b84c.cloudfront.net (cloudfront)
+x-amz-cf-pop: iad89-c1
+x-amz-cf-id: fj_hk89pg6fn-1m7udvuf3lfvcujoeyh-2hy2-6y6ok3jywl77kg5g==
+age: 299
+

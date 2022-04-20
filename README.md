@@ -117,25 +117,25 @@ his course materials (although any errors are mine).
     * [Zoom Zero Day: 4+ Million Webcams & maybe an RCE? Just get them to visit your website!](https://infosecwriteups.com/zoom-zero-day-4-million-webcams-maybe-an-rce-just-get-them-to-visit-your-website-ac75c83f4ef5)
     * [Class slides](https://docs.google.com/presentation/d/1NZQ2tPCqdzaPlVbeEJfdbiEutXEZYbTvGgTnBOwlbuw/edit)
 
-* Week 14 - April 11 - DNS rebinding attacks
+* Week 12 - April 11 - DNS rebinding attacks
     * [Millions of Streaming Devices Are Vulnerable to a Retro Web Attack](https://www.wired.com/story/chromecast-roku-sonos-dns-rebinding-vulnerability/)
     * [Protecting Browsers from DNS Rebinding Attacks](https://crypto.stanford.edu/dns/dns-rebinding.pdf)
-    * [Class slides](https://docs.google.com/presentation/d/1F-SdAPhDDvmLXhz2gm8R04vWvjH-HnumtMzyzl1M8jw/edit)
+    * [Class slides](https://docs.google.com/presentation/d/1sdp10RkKxUyqTtoDH4--UmKTPHQv8jSWu76EATDivhI/edit)
 
-* Week 15 - April 18 - UI Denial-of-service, Phishing, Side Channels
+* Week 13 - April 18 - UI Denial-of-service, Phishing, Side Channels
     * [The Annoying Site](https://github.com/feross/theannoyingsite.com)
     * [Phishing with Unicode Domains](https://www.xudongz.com/blog/2017/idn-phishing/)
     * [The inception bar: a new phishing method](https://jameshfisher.com/2019/04/27/the-inception-bar-a-new-phishing-method/)
-    * [Class slides](https://docs.google.com/presentation/d/15ZrO-MtkyTaF01hDkRcMzrkfYBZm4g1P_Q-RqRt7ic0/edit)
+    * [Class slides](https://docs.google.com/presentation/d/1JUx36cSvJ33m5vgtDkkveh58JoRDTT9vZnTLumB9sY8/edit)
 
 
-* Week 16 - April 25 - Rehosting, Web Archiving
+* Week 14 - April 25 - Rehosting, Web Archiving
     * [Rewriting History: Changing the Archived Web from the Present](https://rewritinghistory.cs.washington.edu/) ([slides](slides/Lerner-ACM-CCS-2017.pdf), [video](https://www.youtube.com/watch?v=Pn65m3l0Zw8), [DSHR blog post](https://blog.dshr.org/2017/09/attacking-users-of-wayback-machine.html))
     * [Thinking like a hacker: Security Considerations for High-Fidelity Web Archives](http://labs.rhizome.org/presentations/security.html) ([DSHR blog post](https://blog.dshr.org/2017/06/wac2017-security-issues-for-web-archives.html))
     * [Melting Pot of Origins: Compromising the Intermediary Web Services that Rehost Websites](https://www.ndss-symposium.org/ndss-paper/melting-pot-of-origins-compromising-the-intermediary-web-services-that-rehost-websites/) ([slides](https://www.ndss-symposium.org/wp-content/uploads/24140-slides.pdf), [video](https://www.youtube.com/watch?v=uhA_KGTQXP0))
 
 
-* Week 16 - May 2 - Exam 
+* Week 15 - May 2 - Exam 
 
 ### Assignments (subject to change)
 

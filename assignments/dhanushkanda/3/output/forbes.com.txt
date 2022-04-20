@@ -1,0 +1,56 @@
+http/1.1 301 moved permanently
+server: varnish
+retry-after: 0
+content-length: 0
+location: https://www.forbes.com/
+accept-ranges: bytes
+date: wed, 06 apr 2022 01:02:48 gmt
+via: 1.1 varnish
+connection: close
+x-served-by: cache-iad-kjyo7100060-iad
+x-cache: hit
+x-cache-hits: 0
+x-timer: s1649206969.677557,vs0,ve1
+x-country-code: us
+x-postal-code: 23509
+x-region: va
+x-city-code: norfolk
+x-frame-options: sameorigin
+content-security-policy: upgrade-insecure-requests
+access-control-allow-credentials: true
+state: hit-synth
+
+http/2 200 
+server: rhino-core-shield
+content-type: text/html; charset=utf-8
+cache-control: public, max-age=300
+x-envoy-upstream-service-time: 999
+x-envoy-decorator-operation: dns-proxy-resolver-internal.dnsresolver.svc.cluster.local:80/*
+backend: dnsresolver
+x-backend: simple-site-prod
+x-yourttl: 300.000
+x-cicero-cache: hit 19
+via: 1.1 google, 1.1 google, 1.1 varnish
+x-fastly-backend: 24yyrkkitbhswxwzjgvww6--f_gcp_cicero_varnish
+x-fastly-x-is-cn: false
+x-fastlyttl: 300.000
+accept-ranges: bytes
+date: wed, 06 apr 2022 01:02:48 gmt
+age: 110
+x-served-by: cache-iad-kiad7000055-iad
+x-cache: hit
+x-cache-hits: 1
+x-timer: s1649206969.928934,vs0,ve3
+vary: accept-encoding, accept-encoding, accept-encoding, x-is-eu, x-device, canary, x-is-ad-light, x-malcolm, x-is-eu, x-is-cn, x-device, x-backend, canary, x-is-ad-light
+x-country-code: us
+x-postal-code: 23509
+x-region: va
+x-city-code: norfolk
+x-frame-options: sameorigin
+content-security-policy: upgrade-insecure-requests
+strict-transport-security: max-age=86400; includesubdomains
+access-control-allow-credentials: true
+x-device: pc
+state: hit-cluster
+content-length: 543124
+

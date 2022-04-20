@@ -1,0 +1,25 @@
+http/1.1 301 moved permanently
+server: awselb/2.0
+date: wed, 06 apr 2022 01:06:01 gmt
+content-type: text/html
+content-length: 134
+connection: keep-alive
+location: https://shutterstock.com:443/
+
+http/2 301 
+server: awselb/2.0
+date: wed, 06 apr 2022 01:06:01 gmt
+content-type: text/html
+content-length: 134
+location: https://www.shutterstock.com:443/
+
+http/2 406 
+content-type: text/html
+content-length: 160
+date: wed, 06 apr 2022 01:06:02 gmt
+server: openresty
+x-cache: error from cloudfront
+via: 1.1 68bb623bd1a01bfb6607a40643084c92.cloudfront.net (cloudfront)
+x-amz-cf-pop: iad79-c1
+x-amz-cf-id: 4s8izmq6-8d6gmkjyjs41skkgnqdl5lpt75e4bbl7vn4xexysyoxfw==
+

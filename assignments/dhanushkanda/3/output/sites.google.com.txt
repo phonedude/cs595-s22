@@ -1,0 +1,52 @@
+http/1.1 302 moved temporarily
+location: https://sites.google.com/
+content-type: text/html; charset=utf-8
+date: wed, 06 apr 2022 01:06:02 gmt
+expires: wed, 06 apr 2022 01:06:02 gmt
+cache-control: private, max-age=0
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+content-security-policy: frame-ancestors 'self'
+x-xss-protection: 1; mode=block
+server: gse
+transfer-encoding: chunked
+accept-ranges: none
+vary: accept-encoding
+
+http/2 302 
+content-type: text/html; charset=utf-8
+location: https://accounts.google.com/servicelogin?service=jotspot&passive=1209600&continue=https://sites.google.com/&followup=https://sites.google.com/
+date: wed, 06 apr 2022 01:06:03 gmt
+expires: wed, 06 apr 2022 01:06:03 gmt
+cache-control: private, max-age=0
+x-content-type-options: nosniff
+x-frame-options: sameorigin
+content-security-policy: frame-ancestors 'self'
+x-xss-protection: 1; mode=block
+server: gse
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-q050=":443"; ma=2592000,h3-q046=":443"; ma=2592000,h3-q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+accept-ranges: none
+vary: accept-encoding
+
+http/2 200 
+content-type: text/html; charset=utf-8
+x-frame-options: deny
+vary: sec-fetch-dest, sec-fetch-mode, sec-fetch-site
+link: <https://www.google.com/intl/en/work/apps/business/products/sites/>; rel="canonical"
+x-auto-login: realm=com.google&args=service%3djotspot%26continue%3dhttps%253a%252f%252fsites.google.com%252f
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: mon, 01 jan 1990 00:00:00 gmt
+date: wed, 06 apr 2022 01:06:03 gmt
+content-length: 92613
+strict-transport-security: max-age=31536000; includesubdomains
+content-security-policy: require-trusted-types-for 'script';report-uri /cspreport
+content-security-policy: script-src 'nonce-hgf8hbdhlcghbgptjduwfw' 'unsafe-inline' 'unsafe-eval';object-src 'none';base-uri 'self';report-uri /cspreport
+report-to: {"group":"coop_gse_qebhlk","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gse_qebhlk"}]}
+cross-origin-opener-policy-report-only: same-origin; report-to="coop_gse_qebhlk"
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+server: gse
+set-cookie: __host-gaps=1:bbokhy8kq17m523prqe9aqb0mwoegq:egnrmuzbi6bc8vjd;path=/;expires=fri, 05-apr-2024 01:06:03 gmt;secure;httponly;priority=high
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-q050=":443"; ma=2592000,h3-q046=":443"; ma=2592000,h3-q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+

@@ -1,0 +1,38 @@
+http/1.1 301 moved permanently
+server: varnish
+retry-after: 0
+content-type: text/html; charset=utf-8
+content-length: 718
+accept-ranges: bytes
+date: wed, 06 apr 2022 01:02:23 gmt
+via: 1.1 varnish
+connection: close
+x-served-by: cache-iad-kjyo7100128-iad
+x-cache: miss
+x-cache-hits: 0
+x-timer: s1649206943.246278,vs0,ve0
+strict-transport-security: max-age=31536000
+location: https://www.businessinsider.com/
+
+http/2 200 
+content-type: text/html; charset=utf-8
+x-powered-by: fenrir
+last-modified: wed, 06 apr 2022 00:59:31 gmt
+cache-control: public, max-age=120
+x-frame-options: sameorigin
+access-control-allow-headers: origin, x-requested-with, content-type, accept
+link: </styles/landing-page.5eccbb3a49e30a20874c.css>; rel=preload; as=style; nopush, </scripts/main.c794e3561e3fef1d59ef.js>; rel=preload; as=script; nopush, </chunks/scripts/vendors.259a4960e39a887c0fdf.js>; rel=preload; as=script; nopush, </chunks/scripts/utilities.1475a3aa55d622275129.js>; rel=preload; as=script; nopush, </public/fonts/subset/labgrotesque-black-subset.woff2>; rel=preload; as=font; type=font/woff2; crossorigin; nopush
+etag: w/"61631-8megupmixszrfvbo+dhitn1ad/4"
+x-country-code: us
+accept-ranges: bytes
+date: wed, 06 apr 2022 01:02:23 gmt
+via: 1.1 varnish
+age: 172
+x-served-by: cache-iad-kiad7000170-iad
+x-cache: hit
+x-cache-hits: 1
+x-timer: s1649206943.459081,vs0,ve39
+vary: accept-encoding, authorization, fastly-ssl, x-device, x-continent-code, x-piano-disabled, x-user-logged-in, x-user-has-access, x-abtest-newsletter-email-input, x-abtest-smart-cta-newsletter
+strict-transport-security: max-age=31536000
+content-length: 398897
+

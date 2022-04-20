@@ -1,0 +1,35 @@
+http/1.0 301 moved permanently
+location: http://www.oracle.com/
+connection: close
+content-length: 0
+
+http/1.0 301 moved permanently
+server: akamaighost
+content-length: 0
+location: https://www.oracle.com/index.html
+date: wed, 06 apr 2022 01:05:40 gmt
+connection: close
+akamai-grn: 0.936bdc17.1649207140.d6507255
+x-frame-options: sameorigin
+content-security-policy: frame-ancestors 'self' https://explore.oracle.com https://my.oracle.com https://eeho.fa.us2.oraclecloud.com https://blogs.oracle.com
+x-xss-protection: 1
+actual-object-ttl: -1
+
+http/2 200 
+content-type: text/html; charset=utf-8
+strict-transport-security: max-age=0
+etag: "4a928-hh65l3uuknkuxe6rlo+8/y0cq4a"
+mpulse_origin_time: 43554
+mpulse_cdn_cache: revalidate
+akamai-grn: 
+expires: wed, 06 apr 2022 01:05:40 gmt
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: wed, 06 apr 2022 01:05:40 gmt
+akamai-grn: 0.936bdc17.1649207140.d6507806
+set-cookie: akaas_aud-seg-ocom-prod=2147483647~rv=65~id=10007936997305c2c4d93d79507d32b8; path=/; secure; samesite=none
+x-frame-options: sameorigin
+content-security-policy: frame-ancestors 'self' https://explore.oracle.com https://my.oracle.com https://eeho.fa.us2.oraclecloud.com https://blogs.oracle.com
+x-xss-protection: 1
+actual-object-ttl: 31536000
+

@@ -1,0 +1,66 @@
+http/1.1 301 tls redirect
+date: wed, 06 apr 2022 01:05:05 gmt
+server: varnish
+x-varnish: 408244016
+x-cache: cp1089 int
+x-cache-status: int-front
+server-timing: cache;desc="int-front", host;desc="cp1089"
+permissions-policy: interest-cohort=()
+set-cookie: wmf-last-access=06-apr-2022;path=/;httponly;secure;expires=sun, 08 may 2022 00:00:00 gmt
+set-cookie: wmf-last-access-global=06-apr-2022;path=/;domain=.wikipedia.org;httponly;secure;expires=sun, 08 may 2022 00:00:00 gmt
+x-client-ip: 2600:8805:193a:a200:dc87:3b6d:765d:bdc1
+location: https://ja.wikipedia.org/
+content-length: 0
+connection: keep-alive
+
+http/2 301 
+date: wed, 06 apr 2022 01:02:52 gmt
+server: mw1349.eqiad.wmnet
+x-content-type-options: nosniff
+p3p: cp="see https://ja.wikipedia.org/wiki/special:centralautologin/p3p for more info."
+vary: accept-encoding,x-forwarded-proto,cookie,authorization
+cache-control: s-maxage=1200, must-revalidate, max-age=0
+last-modified: wed, 06 apr 2022 01:02:52 gmt
+location: https://ja.wikipedia.org/wiki/%e3%83%a1%e3%82%a4%e3%83%b3%e3%83%9a%e3%83%bc%e3%82%b8
+content-length: 0
+content-type: text/html; charset=utf-8
+age: 132
+x-cache: cp1079 miss, cp1089 hit/92
+x-cache-status: hit-front
+server-timing: cache;desc="hit-front", host;desc="cp1089"
+strict-transport-security: max-age=106384710; includesubdomains; preload
+report-to: { "group": "wm_nel", "max_age": 86400, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+nel: { "report_to": "wm_nel", "max_age": 86400, "failure_fraction": 0.05, "success_fraction": 0.0}
+set-cookie: wmf-last-access=06-apr-2022;path=/;httponly;secure;expires=sun, 08 may 2022 00:00:00 gmt
+set-cookie: wmf-last-access-global=06-apr-2022;path=/;domain=.wikipedia.org;httponly;secure;expires=sun, 08 may 2022 00:00:00 gmt
+accept-ch: sec-ch-ua-arch,sec-ch-ua-bitness,sec-ch-ua-full-version-list,sec-ch-ua-model,sec-ch-ua-platform-version
+permissions-policy: interest-cohort=(),ch-ua-arch=(self "intake-analytics.wikimedia.org"),ch-ua-bitness=(self "intake-analytics.wikimedia.org"),ch-ua-full-version-list=(self "intake-analytics.wikimedia.org"),ch-ua-model=(self "intake-analytics.wikimedia.org"),ch-ua-platform-version=(self "intake-analytics.wikimedia.org")
+x-client-ip: 2600:8805:193a:a200:dc87:3b6d:765d:bdc1
+set-cookie: geoip=us:va:norfolk:36.89:-76.23:v4; path=/; secure; domain=.wikipedia.org
+
+http/2 200 
+date: tue, 05 apr 2022 16:15:08 gmt
+server: mw1403.eqiad.wmnet
+x-content-type-options: nosniff
+p3p: cp="see https://ja.wikipedia.org/wiki/special:centralautologin/p3p for more info."
+content-language: ja
+vary: accept-encoding,cookie,authorization
+last-modified: tue, 05 apr 2022 16:15:03 gmt
+content-type: text/html; charset=utf-8
+age: 31797
+x-cache: cp1075 miss, cp1089 hit/14083
+x-cache-status: hit-front
+server-timing: cache;desc="hit-front", host;desc="cp1089"
+strict-transport-security: max-age=106384710; includesubdomains; preload
+report-to: { "group": "wm_nel", "max_age": 86400, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+nel: { "report_to": "wm_nel", "max_age": 86400, "failure_fraction": 0.05, "success_fraction": 0.0}
+set-cookie: wmf-last-access=06-apr-2022;path=/;httponly;secure;expires=sun, 08 may 2022 00:00:00 gmt
+set-cookie: wmf-last-access-global=06-apr-2022;path=/;domain=.wikipedia.org;httponly;secure;expires=sun, 08 may 2022 00:00:00 gmt
+accept-ch: sec-ch-ua-arch,sec-ch-ua-bitness,sec-ch-ua-full-version-list,sec-ch-ua-model,sec-ch-ua-platform-version
+permissions-policy: interest-cohort=(),ch-ua-arch=(self "intake-analytics.wikimedia.org"),ch-ua-bitness=(self "intake-analytics.wikimedia.org"),ch-ua-full-version-list=(self "intake-analytics.wikimedia.org"),ch-ua-model=(self "intake-analytics.wikimedia.org"),ch-ua-platform-version=(self "intake-analytics.wikimedia.org")
+x-client-ip: 2600:8805:193a:a200:dc87:3b6d:765d:bdc1
+cache-control: private, s-maxage=0, max-age=0, must-revalidate
+set-cookie: geoip=us:va:norfolk:36.89:-76.23:v4; path=/; secure; domain=.wikipedia.org
+accept-ranges: bytes
+content-length: 103805
+

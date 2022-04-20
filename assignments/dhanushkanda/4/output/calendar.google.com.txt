@@ -1,0 +1,77 @@
+http/1.1 302 found
+content-type: application/binary
+expires: wed, 06 apr 2022 01:02:26 gmt
+date: wed, 06 apr 2022 01:02:26 gmt
+cache-control: private, max-age=7776000
+location: http://calendar.google.com/calendar
+content-length: 0
+server: esf
+x-xss-protection: 0
+x-frame-options: sameorigin
+x-content-type-options: nosniff
+
+http/1.1 301 moved permanently
+content-type: application/binary
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: mon, 01 jan 1990 00:00:00 gmt
+date: wed, 06 apr 2022 01:02:26 gmt
+location: https://calendar.google.com/calendar
+content-length: 0
+server: esf
+x-xss-protection: 0
+x-frame-options: sameorigin
+x-content-type-options: nosniff
+
+http/2 301 
+content-type: application/binary
+vary: sec-fetch-dest, sec-fetch-mode, sec-fetch-site
+cache-control: private, max-age=7776000
+pragma: no-cache
+expires: wed, 06 apr 2022 01:02:26 gmt
+date: wed, 06 apr 2022 01:02:26 gmt
+location: https://calendar.google.com/calendar/r
+content-length: 0
+strict-transport-security: max-age=31536000; includesubdomains; preload
+p3p: cp="this is not a p3p policy! see g.co/p3phelp for more info."
+server: esf
+x-xss-protection: 0
+x-frame-options: sameorigin
+x-content-type-options: nosniff
+set-cookie: nid=511=lg9bpgq_w8irvzjdh1prdh7cxs8dxzz4_5fwhotudqk-xmyve4yjtcqbt5ljqtaxj9omof_itsbweblcivygc906c6eayasfn6xwknn81i_klbh__-di6d5mrk0rzuulazhh5iikgojakt1wm7ytyqyymvrcwbm0ygnlrbg8rl4; expires=thu, 06-oct-2022 01:02:26 gmt; path=/; domain=.google.com; httponly
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-q050=":443"; ma=2592000,h3-q046=":443"; ma=2592000,h3-q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+http/2 302 
+content-type: application/binary
+location: https://accounts.google.com/servicelogin?service=cl&passive=1209600&osid=1&continue=https://calendar.google.com/calendar/r&followup=https://calendar.google.com/calendar/r
+content-length: 0
+strict-transport-security: max-age=31536000; includesubdomains; preload
+date: wed, 06 apr 2022 01:02:26 gmt
+server: esf
+x-xss-protection: 0
+x-frame-options: sameorigin
+x-content-type-options: nosniff
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-q050=":443"; ma=2592000,h3-q046=":443"; ma=2592000,h3-q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+http/2 200 
+content-type: text/html; charset=utf-8
+x-frame-options: deny
+vary: sec-fetch-dest, sec-fetch-mode, sec-fetch-site
+link: <https://www.google.com/intl/en/calendar/about/>; rel="canonical"
+x-auto-login: realm=com.google&args=service%3dcl%26continue%3dhttps%253a%252f%252fcalendar.google.com%252fcalendar%252fr
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: mon, 01 jan 1990 00:00:00 gmt
+date: wed, 06 apr 2022 01:02:27 gmt
+content-length: 92342
+strict-transport-security: max-age=31536000; includesubdomains
+content-security-policy: require-trusted-types-for 'script';report-uri /cspreport
+content-security-policy: script-src 'nonce-yjdhg8rfzu++qnacatqtdg' 'unsafe-inline' 'unsafe-eval';object-src 'none';base-uri 'self';report-uri /cspreport
+cross-origin-opener-policy-report-only: same-origin; report-to="coop_gse_qebhlk"
+report-to: {"group":"coop_gse_qebhlk","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gse_qebhlk"}]}
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+server: gse
+set-cookie: __host-gaps=1:4qhrbixkf9bzykg969nsn68czp7zgg:u-d6fcug49yyn0bi;path=/;expires=fri, 05-apr-2024 01:02:26 gmt;secure;httponly;priority=high
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-q050=":443"; ma=2592000,h3-q046=":443"; ma=2592000,h3-q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+

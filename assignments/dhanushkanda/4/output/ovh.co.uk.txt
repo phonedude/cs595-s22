@@ -1,0 +1,62 @@
+http/1.1 302 found
+cache-control: no-cache
+content-length: 0
+location: https://ovh.co.uk/
+date: wed, 06 apr 2022 01:05:41 gmt
+x-cdn-pop: bhs
+x-cdn-pop-ip: 137.74.122.0/26
+x-request-id: 13861859
+x-cacheable: cacheable
+x-iplb-request-id: 46a0ac40:d5d8_c61b5c07:0050_624ce765_8b4b3:12dca
+x-iplb-instance: 32184
+
+http/2 302 
+date: wed, 06 apr 2022 01:05:41 gmt
+content-type: text/html; charset=iso-8859-1
+location: https://www.ovh.co.uk/
+cache-control: max-age=60
+expires: wed, 06 apr 2022 01:06:41 gmt
+vary: accept-encoding
+x-iplb-request-id: 0a6c9af7:2735_332611c8:01bb_624ce765_1f9b771:1fb52
+x-iplb-request-id: 90d9022a:f780_c063418b:01bb_624ce765_88e3:fbab
+x-iplb-instance: 43259
+x-cdn-pop: bhs
+x-cdn-pop-ip: 137.74.122.0/26
+x-request-id: 1054769184
+x-cacheable: cacheable
+
+http/2 301 
+date: wed, 06 apr 2022 01:05:42 gmt
+content-type: text/html
+location: https://www.ovhcloud.com/en-gb/
+x-frame-options: sameorigin
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-toujours-debout-location: bhs
+x-toujours-debout-branch: a
+x-iplb-request-id: 90d9023a:d1f6_c063418b:01bb_624ce766_8960:fba1
+x-iplb-instance: 43259
+vary: accept-encoding
+x-cdn-pop: bhs
+x-cdn-pop-ip: 137.74.122.0/26
+x-request-id: 957744958
+x-cacheable: cacheable
+
+http/2 200 
+date: wed, 06 apr 2022 01:05:42 gmt
+content-type: text/html
+last-modified: tue, 05 apr 2022 14:27:36 gmt
+vary: accept-encoding
+x-frame-options: sameorigin
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-toujours-debout-location: bhs
+x-toujours-debout-branch: b
+x-iplb-request-id: 90d90222:b08e_c063418b:01bb_624ce766_8b66:fba5
+x-iplb-instance: 43259
+x-cdn-pop: bhs
+x-cdn-pop-ip: 137.74.122.0/26
+x-request-id: 39192241
+x-cacheable: cacheable
+accept-ranges: bytes
+

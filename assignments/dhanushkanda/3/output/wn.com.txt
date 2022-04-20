@@ -1,0 +1,24 @@
+http/1.1 301 moved
+server: nginx
+date: wed, 06 apr 2022 01:06:22 gmt
+content-type: text/html
+content-length: 194
+connection: keep-alive
+set-cookie: wntrk=wn.1649207182.972389.wnstatic1.3575.1341; domain=.wn.com; expires=thu, 06 apr 2090 13:40:22 gmt
+vary: user-agent
+location: https://wn.com/
+cache-control: must-revalidate
+
+http/2 200 
+server: nginx
+date: wed, 06 apr 2022 01:06:23 gmt
+content-type: text/html
+content-length: 166019
+last-modified: wed, 06 apr 2022 01:06:02 gmt
+vary: accept-encoding
+set-cookie: wntrk=wn.1649207183.625329.wnstatic1.3575.2162; domain=.wn.com; expires=thu, 06 apr 2090 13:40:23 gmt
+etag: "624ce77a-28883"
+cache-control: must-revalidate
+strict-transport-security: max-age=15768000
+accept-ranges: bytes
+

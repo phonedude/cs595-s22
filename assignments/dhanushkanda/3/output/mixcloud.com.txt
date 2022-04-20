@@ -1,0 +1,52 @@
+http/1.1 301 moved permanently
+date: wed, 06 apr 2022 01:05:10 gmt
+connection: keep-alive
+cache-control: max-age=3600
+expires: wed, 06 apr 2022 02:05:10 gmt
+location: https://mixcloud.com/
+server: cloudflare
+cf-ray: 6f769d15fd35c066-orf
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+http/2 301 
+date: wed, 06 apr 2022 01:05:10 gmt
+content-type: text/html; charset=utf-8
+location: https://www.mixcloud.com/
+vary: user-agent, origin
+x-frame-options: sameorigin
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-security-policy: default-src https: data: blob:; script-src https: data: blob: 'unsafe-inline' 'unsafe-eval'; style-src https: data: 'unsafe-inline'; img-src https: data: blob:; media-src https: http: blob: data:; connect-src http: https: ws: wss:;
+x-request-id: ec4b10157b9bd3bc729fa3a9008e7250
+x-mixcloud-country-code: usa
+x-mixcloud-view-name: react_www
+set-cookie: mx_t=81602516-357b-46c0-af71-e38d4dbf2739; domain=.mixcloud.com; expires=sat, 03 apr 2032 01:05:10 gmt; max-age=315360000; path=/
+set-cookie: redirref=""; path=/
+strict-transport-security: max-age=15724800; includesubdomains
+cf-cache-status: dynamic
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 6f769d175f4bcf0c-iad
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+http/2 200 
+date: wed, 06 apr 2022 01:05:10 gmt
+content-type: text/html; charset=utf-8
+vary: cookie, user-agent, origin
+x-frame-options: sameorigin
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-security-policy: default-src https: data: blob:; script-src https: data: blob: 'unsafe-inline' 'unsafe-eval'; style-src https: data: 'unsafe-inline'; img-src https: data: blob:; media-src https: http: blob: data:; connect-src http: https: ws: wss:;
+x-mixcloud-session: none
+x-request-id: 58859bb60bd24d878ac91b54918af6cf
+x-mixcloud-country-code: usa
+x-mixcloud-view-name: react_www
+set-cookie: csrftoken=qfgzb5yjjemdnwys0zms4cr28voyyzmpatzonxbgwyz7lutv7nlfdbpllkecklsg; domain=.mixcloud.com; expires=wed, 05 apr 2023 01:05:10 gmt; max-age=31449600; path=/; samesite=lax; secure
+set-cookie: mx_t=ffd4dcd6-93b5-405d-9bf8-709877ec0d67; domain=.mixcloud.com; expires=sat, 03 apr 2032 01:05:10 gmt; max-age=315360000; path=/
+strict-transport-security: max-age=15724800; includesubdomains
+cf-cache-status: dynamic
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 6f769d19db7ec07a-orf
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

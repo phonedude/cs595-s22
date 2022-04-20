@@ -1,0 +1,54 @@
+http/1.1 302 found
+content-type: text/html; charset=iso-8859-1
+date: wed, 06 apr 2022 01:05:26 gmt
+location: https://networkadvertising.org/
+server: apache/2.4.7 (ubuntu)
+connection: keep-alive
+
+http/1.1 301 moved permanently
+cache-control: no-cache="set-cookie"
+content-type: text/html; charset=iso-8859-1
+date: wed, 06 apr 2022 01:05:27 gmt
+location: http://www.networkadvertising.org/
+server: apache/2.4.7 (ubuntu)
+set-cookie: awselb=af6b579512e626bdb8515a89c99ef196837f461acab078476a44073d69f08f4053c8a9661a8cc6bdd944abe94732ea22a7ab7dea7a1235daa10d5d2a7a372b214a87c97d49;path=/
+set-cookie: awselbcors=af6b579512e626bdb8515a89c99ef196837f461acab078476a44073d69f08f4053c8a9661a8cc6bdd944abe94732ea22a7ab7dea7a1235daa10d5d2a7a372b214a87c97d49;path=/;secure;samesite=none
+x-content-type-options: nosniff
+connection: keep-alive
+
+http/1.1 301 moved permanently
+content-length: 0
+connection: keep-alive
+date: wed, 06 apr 2022 01:05:28 gmt
+location: https://thenai.org/
+server: amazons3
+x-cache: miss from cloudfront
+via: 1.1 ec22576e88e707bf58c11e0ee75d019c.cloudfront.net (cloudfront)
+x-amz-cf-pop: iad50-c2
+x-amz-cf-id: zpfn_mugi5lamagc120tfor6thm4izxgfgl3rdrv-02un_d4_znbja==
+
+http/2 200 
+date: wed, 06 apr 2022 01:05:27 gmt
+content-type: text/html; charset=utf-8
+vary: accept-encoding
+vary: accept-encoding
+vary: accept-encoding,cookie
+link: <https://thenai.org/wp-json/>; rel="https://api.w.org/"
+link: <https://thenai.org/wp-json/wp/v2/pages/126>; rel="alternate"; type="application/json"
+link: <https://thenai.org/>; rel=shortlink
+x-tec-api-version: v1
+x-tec-api-root: https://thenai.org/wp-json/tribe/events/v1/
+x-tec-api-origin: https://thenai.org
+x-powered-by: wp engine
+x-cacheable: short
+cache-control: max-age=600, must-revalidate
+x-cache: hit: 94
+x-cache-group: normal
+cf-cache-status: dynamic
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=flxoa%2fpvso9%2f4tq0%2bqcjkyeuoftvvywxlz5kmyznrzr81gxxbq4cooye0yk%2fajjrdialutbdxqqi9eaho2m4bs3dykyqg56qkgwoijd1x6h1attyklzbaj54tfk%3d"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server: cloudflare
+cf-ray: 6f769d82daf86fda-iad
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+

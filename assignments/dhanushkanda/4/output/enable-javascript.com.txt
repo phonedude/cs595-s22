@@ -1,0 +1,18 @@
+http/1.1 301 moved permanently
+content-length: 153
+content-type: text/html; charset=utf-8
+location: https://enable-javascript.com/
+server: microsoft-iis/8.0
+x-powered-by: asp.net
+date: wed, 06 apr 2022 01:02:41 gmt
+
+http/1.1 200 ok
+cache-control: private
+content-length: 38796
+content-type: text/html; charset=utf-8
+server: microsoft-iis/8.0
+set-cookie: asp.net_sessionid=2pabmzczw3jlk4zmwt4fgz2e; path=/; httponly; samesite=lax
+x-aspnet-version: 4.0.30319
+x-powered-by: asp.net
+date: wed, 06 apr 2022 01:02:42 gmt
+

@@ -8,9 +8,10 @@ const app2 = express()
 //comment out lines 9 - 15 to block CORS requests
 
 var allowCrossDomain = function(req, res, next) {
-    res.header('Access-Control-Allow-Origin', "http://localhost:5000")
+    res.header('Access-Control-Allow-Origin', '*')
     res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE')
-    res.header('Access-Control-Allow-Headers', 'Content-Type')
+    res.header('Access-Control-Allow-Headers', 'Content-Type, X-CS595s22-gold, X-CS595s22-star_wars, X-CS595s22-ratm')
+    res.header('Access-Control-Expose-Headers', 'Content-Type, X-CS595s22-gold, X-CS595s22-star_wars, X-CS595s22-ratm')
     next()
 }
 app1.use(allowCrossDomain)
@@ -38,14 +39,17 @@ app1.get('/sample.json', (req, res) => {
 })
 
 app1.get('/rage-against-the-machine', (req, res) => {
+    res.append('X-CS595s22-ratm', 'Rage Against the Machine')
     res.render('rage-against-the-machine')
 })
 
 app1.get('/pokemon-gold', (req, res) => {
+    res.append('X-CS595s22-gold', 'Pokemon Gold Version')
     res.render('pokemon-gold')
 })
 
 app1.get('/star-wars-rogue-one', (req, res) => {
+    res.append('X-CS595s22-star_wars', 'Star Wars Rogue One')
     res.render('star-wars-rogue-one')
 })
 

@@ -1,0 +1,22 @@
+http/1.1 301 moved permanently
+cache-control: max-age=30
+content-type: text/html; charset=utf-8
+location: https://www.nbcnews.com
+render-authority: b1-03-e
+x-cache: true
+date: wed, 06 apr 2022 01:05:23 gmt
+
+http/2 200 
+content-type: text/html; charset=utf-8
+server: nginx
+x-powered-by: next.js
+content-language: en
+link: <https://nodeassets.nbcnews.com>; rel=preconnect, <https://media-cldnry.s-nbcnews.com>; rel=preconnect, <https://securepubads.g.doubleclick.net>; rel=preconnect, <https://mps.nbcuni.com/fetch/ext/load-nbcnews-bento.js?nowrite=jq>; as=script; rel=preload
+etag: "cf487-jfj55g4cncndyswl5dwcid57qmq"
+x-backend-server: blue-ramen2-589b697dd7-vcmj9
+cache-control: private, no-cache, no-store, must-revalidate
+date: wed, 06 apr 2022 01:05:23 gmt
+set-cookie: nbcnews_geolocation=us; path=/; domain=.nbcnews.com; secure; samesite=none
+x-frame-options: sameorigin
+set-cookie: akaas_nbcnews=1650071123~rv=46~id=9935d0bb47120d7246e6d11f397d0af9~rn=news%20-%20morningrundown_middle; path=/; expires=sat, 16 apr 2022 01:05:23 gmt; secure; samesite=none
+

@@ -105,53 +105,66 @@ CORS Allowed
 
 ## Assignment Description 5.2 - CORS: Blocking and reading HTTP response headers from another origin
 
-For the second part of this assignment, I will demonstrate how and why an http 
-response is blocked from one server to the other that are not sharing the same
-origin. Port 5000 tries to fetch the three different pages I created for my 
-favorite things, which are stored on and accessed on port 4000, however like part 1, if CORS is not properly set to allow 
-responses from other origins, then it will be blocked. The code used in server.js
-is similar to the first part, with the differences being that I added the allowance
-of headers of Origin and X-Requested-With. If CORS is allowed then the page will 
-display the header responses for each page.
+For the second part of this assignment, I how we can allow, through CORS, the access
+from the second server a custom header applied to three different webpages, each corresponding
+to one of my "favorite things" category as set up in Assignment 2. The custom headers are 
+"X-CS595s22-gold: Pokemon Gold Version", "X-CS595s22-ratm: Rage Against the Machine", and "X-CS595s22-star_wars: Star wars Rogue One".
+This part is somewhat similar to the first part, however, with the use of custom headers, we need to tell CORS to send the 
+new headers in the preflight request. 
 
-HTML fetch:
+    var allowCrossDomain = function(req, res, next) {
+        res.header('Access-Control-Allow-Origin', '*')
+        res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE')
+        res.header('Access-Control-Allow-Headers', 'Content-Type, X-CS595s22-gold, X-CS595s22-star_wars, X-CS595s22-ratm')
+        res.header('Access-Control-Expose-Headers', 'Content-Type, X-CS595s22-gold, X-CS595s22-star_wars, X-CS595s22-ratm')
+        next()
+    }
+    app1.use(allowCrossDomain)
 
-    //CORS request from localhost:4000
-    fetch("http://localhost:4000/pokemon-gold")
-        .then(response=>{
-            paragraph = document.getElementById("p")
-            for(const header of response.headers){
-                console.log(`Name: ${header[0]}, Value:${header[1]}`);
-                document.write(`Name: ${header[0]}, Value:${header[1]}`)
-                //paragraph.appendChild(`Name: ${header[0]}, Value:${header[1]}`)
-            }
-            
-            document.write("<br/>")
-        });
-    document.write("\n")
-    fetch("http://localhost:4000/star-wars-rogue-one")
-        .then(response=>{
-            paragraph = document.getElementById("p")
-            for(const header of response.headers){
-                console.log(`Name: ${header[0]}, Value:${header[1]}`);
-                document.write(`Name: ${header[0]}, Value:${header[1]}`)
-                //paragraph.appendChild(`Name: ${header[0]}, Value:${header[1]}`)
-            }
-            
-            document.write("<br/>")
-        });
-    fetch("http://localhost:4000/rage-against-the-machine")
-        .then(response=>{
-            paragraph = document.getElementById("p")
-            for(const header of response.headers){
-                console.log(`Name: ${header[0]}, Value:${header[1]}`);
-                document.write(`Name: ${header[0]}, Value:${header[1]}`)
-                //paragraph.appendChild(`Name: ${header[0]}, Value:${header[1]}`)
-            }
-            
-            document.write("<br/>")
-    });
+By adding the new headers to the "Access-Control-Allow-Headers" and "Access-Control-Expose-Headers' options, we are now able to reference the new 
+header responses from another origin.
 
+The javascript to access the custom header responses and print them to the 
+html page are as follows:
+
+    <!doctype html>
+    <html lang='en'>
+        <head>
+            <meta charset='utf-8' />
+            <title>Port 5000</title>
+            <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+        </head>
+        <body>
+            <p>This is port 5000!</p> 
+            <script>
+                //CORS request from localhost:4000
+                //, {method:"GET", headers: {"X-CS595s22-gold": "Pokemon Gold Version"}}
+                fetch("http://localhost:4000/pokemon-gold", {method:"GET", headers: {"X-CS595s22-gold": "Pokemon Gold Version"}})
+                    .then(response=>{
+                        paragraph = document.getElementById("p")
+                        document.write('X-CS595s22-gold: ' + response.headers.get('X-CS595s22-gold'))
+                        
+                        document.write("<br/>")
+                    })
+                fetch("http://localhost:4000/star-wars-rogue-one", {method:"GET", headers: {"X-CS595s22-star_wars": "Star Wars: Rogue One"}})
+                    .then(response=>{
+                        paragraph = document.getElementById("p")
+                        document.write('X-CS595s22-star_wars: ' + response.headers.get('X-CS595s22-star_wars'))
+                        
+                        document.write("<br/>")
+                    })
+                fetch("http://localhost:4000/rage-against-the-machine", {method:"GET", headers: {"X-CS595s22-ratm": "Rage Against the Machine"}})
+                    .then(response=>{
+                        paragraph = document.getElementById("p")
+                        document.write('X-CS595s22-ratm: ' + response.headers.get('X-CS595s22-ratm'))
+                        
+                        document.write("<br/>")
+                });
+            </script>
+            <p id = "p"></p>
+        </body>
+    </html>
+    
 Images:
 
 HTTP response blocked
@@ -202,7 +215,7 @@ Playlist - https://youtube.com/playlist?list=PLQ_PLRjJduEhYEG00BqCF4hvRS4RVyVhD
 
 Part 1 - https://youtu.be/Hn-1zs1YbUM
 
-Part 2 - https://youtu.be/MweQISn_f-E
+Part 2 - https://youtu.be/TMhl4L7mSt8
 
 Part 3 - https://youtu.be/taOKhE0_Vc4
 

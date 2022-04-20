@@ -1,0 +1,4 @@
+- app.js : Demos the inability to cross site
+- > Run node app.js then visit 127.0.0.1:1111/Client.html (Error should occur)
+- app_cors.js : Demos the cors 
+- > Run node app.js then visit 127.0.0.1:1111/Client.html (No error should occur)

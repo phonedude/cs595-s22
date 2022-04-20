@@ -1,0 +1,732 @@
+<!doctype html>
+    <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+    <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+    <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+    <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam-cell.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"d89ec68706",applicationID:"21336511"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(10),c=t(11),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(12);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],7:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(9),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],8:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],9:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],10:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],11:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],12:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(10),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!P++){var t=M.info=NREUM.info,e=g.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(O,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+M.offset],null,"api"),c("timing",["load",n]);var r=g.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=v+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===g.readyState&&o()}function o(){c("mark",["domContent",a()+M.offset],null,"api")}var a=t(5),c=t("handle"),f=t(10),u=t("ee"),s=t(8),d=t(6),p=t(2),l=t(3),v=p.getConfiguration("ssl")===!1?"http":"https",m=window,g=m.document,y="addEventListener",h="attachEvent",w=m.XMLHttpRequest,b=w&&w.prototype,E=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:w,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,O={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1215.min.js"},T=w&&b&&b[y]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:T,userAgent:s,disabled:E};if(!E){t(1),t(7),g[y]?(g[y]("DOMContentLoaded",o,l(!1)),m[y]("load",r,l(!1))):(g[h]("onreadystatechange",i),m[h]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var P=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(11),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+    <title>Sell Domains | Buy Domains | Park Domains - Afternic</title>
+    <meta name="description" content="Afternic is a one-stop site to buy domains, sell domains, and park domains. Experience the world's premiere domain marketplace and exchange reseller today.">
+    <meta name="keywords" content="sell domains, buy domains, park domains">
+    <meta name="google-site-verification" content="ZnsUI4XM6tW1l-59X7KhwbdUzk4V0JLNa05SXWi7NUU" />
+    <link rel="image_src" href="/images/thumbnail.jpg" />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+
+    <!-- ICONS -->
+    <link href="/images/main/icons-ios/apple-touch-icon-57x57.png" sizes="57x57" rel="apple-touch-icon-precomposed">
+    <link href="/images/main/icons-ios/apple-touch-icon-72x72.png" sizes="72x72" rel="apple-touch-icon-precomposed">
+    <link href="/images/main/icons-ios/apple-touch-icon-114x114.png" sizes="114x114" rel="apple-touch-icon-precomposed">
+    <link href="/images/main/icons-ios/apple-touch-icon-144x144.png" sizes="144x144" rel="apple-touch-icon-precomposed">
+
+    <!-- Main CSS Styles -->
+    <link rel="stylesheet" href="/css/master.css?ver=26">
+    <!-- Google Web Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300italic,900,700italic,300,400,400italic,900italic,700|Enriqueta:400italic,700,400' rel='stylesheet' type='text/css'>
+
+    <!-- custom css -->
+        <link href='' rel='stylesheet' type='text/css'>
+
+    <link href='/css/content.css' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="/js/libs/jquery-1.7.1.min.js"></script>
+    <!-- Plugin: jQuery Custom Inputs -->
+    <script type="text/javascript" src="/js/plugins/customInput.jquery.js"></script>
+
+    <!-- Plugin: jQuery Hero Transition Plugins -->
+    <script type="text/javascript" src="/js/plugins/jquery.color.js"></script>
+    <script type="text/javascript" src="/js/plugins/jquery.cycle.all.js"></script>
+
+    <!-- Plugin: jQuery UI -->
+    <script type="text/javascript" src="/js/plugins/jquery-ui/js/jquery-ui-1.8.18.custom.min.js"></script>
+    <script type="text/javascript" src="/js/plugins/jquery.ui.touch-punch.min.js"></script>
+
+    <!--Common functions for Afternic-->
+    <script type="text/javascript" src="/js/common_an.js?ver=19"></script>
+
+    <!--Ajax functions for Afternic-->
+    <script type="text/javascript" src="/js/ajax_an.js?ver=6"></script>
+    <script type="text/javascript" src="/js/ajax.js"></script>
+
+    <!--ICanHaz templating system-->
+    <script type="text/javascript" src="/js/ICanHaz.min.js"></script>
+
+    <!-- jQuery Localize-->
+    <script type="text/javascript" src="/js/jquery.localize.min.js?ver=1"></script>
+
+    <!-- custom js -->
+        <script type="text/javascript" src=""></script>
+    <!-- jQuery -->
+
+    <!-- Split.IO -->
+    <script src="//cdn.split.io/sdk/split-10.14.2.min.js"></script>
+    <script type="text/javascript">
+        if(atob) {
+            var cookies = (document.cookie || '').split(';')
+            var vid_cookie = cookies.filter(c => c.includes('vid'))
+            var vid;
+            if (vid_cookie.length) {
+                var cookie_parts = (vid_cookie[0] || '').split('=')
+                vid = cookie_parts[cookie_parts.length-1]
+            }
+            var visitor_factory = splitio({
+                core: {
+                    authorizationKey: atob("cG10bzlrdXJ0NDFzdDY2cjFldHVtZ2kzbm04aGJibXA3bzhs"),
+                    key: vid || 'no-vid',
+                    trafficType: 'visitor'
+                }
+            });
+            var shopper_factory = splitio({
+                core: {
+                    authorizationKey: atob("cG10bzlrdXJ0NDFzdDY2cjFldHVtZ2kzbm04aGJibXA3bzhs"),
+                    key: "7420df63bdce0728da684284920c5df650d9fb3d0263613dc1b14548a88e2223",
+                    trafficType: "shopper"
+                }
+            });
+            // And get the client instance you'll use
+            var split_visitor_client = visitor_factory.client();
+            var split_shopper_client = shopper_factory.client();
+        }
+    </script>
+
+    <!-- SSO Heartbeat -->
+    <script type="text/javascript">
+        function getCookie(name, defaultValue = '') {
+            const cookieArray = document.cookie.split(';');
+            for (let i = 0; i < cookieArray.length; i++) {
+                const cookieObj = cookieArray[i].split('=');
+                const key = cookieObj[0].trim();
+                if (key === name) {
+                    return decodeURIComponent(cookieObj[1]);
+                }
+            }
+            return defaultValue;
+        }
+
+        function writeCookie(name, value, domain, maxAge = 31536000) {
+            const cookieValue = encodeURIComponent(value);
+            const docCookie = `${name}=${cookieValue};domain=${domain};max-age=${maxAge};path=/`;
+            document.cookie = docCookie;
+            return docCookie;
+        }
+
+        function handleVatResult(result, host) {
+            if (result.status === 401) {
+                window.location.assign(`https://sso.${host}`);
+            } else if (result.status === 201) {
+                const currentTime = Date.now();
+                writeCookie('info_idp_vat_time', currentTime, host);
+            }
+            return result;
+        }
+
+        function checkVat() {
+            const timestamp = Number(getCookie('info_idp_vat_time', 0));
+            const now = Date.now();
+            const delta = now - timestamp;
+            const fourMinsInSeconds = 60 * 1000 * 4;
+
+            if (delta >= fourMinsInSeconds) {
+                const data = { infotoken: 'true', realm: 'idp' };
+                const headers = {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                };
+                const fetchArgs = { method: 'POST', headers: headers, body: JSON.stringify(data), credentials: 'include' };
+                const host = window.location.hostname.split('.').slice(-2).join('.');
+                return fetch(`https://sso.${host}/v1/api/token/ui_heartbeat`, fetchArgs).then((response) => {return handleVatResult(response, host);});
+            }
+        }
+
+        function _handleHeartbeat(loginInfoCookie) {
+            const loginInfo = JSON.parse(loginInfoCookie);
+            const authType = loginInfo.auth;
+            if (authType === 'basic') {
+                const realm = loginInfo.typ;
+                if (realm === 'idp') {
+                    const oneMin = 60 * 1000;
+                    setInterval(checkVat, oneMin);
+                    return checkVat();
+                }
+            }
+        }
+
+        if (!window.disableHeartbeat) {
+            const loginInfoCookie = getCookie('info_idp');
+            if (loginInfoCookie) {
+                _handleHeartbeat(loginInfoCookie);
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        window.SearchVersion = '1';
+        var category = {
+            cat1 : 'search_initiation',
+            cat2 : 'search_engagement',
+            cat3 : 'social',
+            cat4 : 'membership',
+            cat5 : 'account',
+            cat6 : 'transaction',
+            cat7 : 'shopping_cart',
+            cat8 : 'portfolio',
+            cat9 : 'add_domain',
+            cat10 : 'appraisal',
+            cat11 : 'afternic_agent',
+            cat12 : 'make_offer',
+            cat13 : 'buy_now',
+            cat14 : 'escrow',
+            cat15 : 'affiliate'
+        };
+
+        $(document).ready(function (e) {
+
+            var localizeOpts = {};
+
+            var userLang = navigator.language || navigator.userLanguage;
+
+            if (['zh', 'zh-CN', 'zh-HK', 'zh-TW', 'zh-SG'].indexOf(userLang) >= 0) {
+                localizeOpts = { pathPrefix: "/js/lang" };
+            } else {
+                localizeOpts = { pathPrefix: "/js/lang", language: "en-US" };
+            }
+
+
+            $("[data-localize]").localize("header", localizeOpts);
+          // TODO: remove
+            // $('#pw_accept').on('click', function(){
+            //     $('#privacy_widget').hide();
+            //     //use the createCookie function in common_an
+            //     createCookie('afternicgdpr', 'ACCEPT', 180);
+            // });
+        });
+
+    </script>
+
+    <script type="text/javascript">
+      (function(){var g=function(e,h,f,g){
+        this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};
+        this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "};
+        this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0};
+        this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g;document.body&&document.body.appendChild(a)}};
+        this.start=function(){var t=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){t.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){t.go()}):t.go()};};
+        try{(new g(100,"r","QSI_S_ZN_cCpILcXLHy2kXOd","https://znccpilcxlhy2kxod-godaddy.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_cCpILcXLHy2kXOd")).start()}catch(i){}})();
+    </script>
+
+    <script id="app-init" type="text/javascript">
+          window._anTracking = window._anTracking || {};
+          window._anTracking.shopperId = '';
+          window._anTracking.domains = window._anTracking.domains || {};
+          window._anTracking.domains.listings = window._anTracking.domains.listings || '';
+          window._anTracking.domains.sold = window._anTracking.domains.sold || '';
+
+          window.utag_data = window.utag_data || {};
+          window.utag_data.ga_dimension6 = window.utag_data.ga_dimension6 || '';
+          window.utag_data.ga_dimension7 = window.utag_data.ga_dimension7 || '';
+          window.utag_data.ga_dimension8 = window.utag_data.ga_dimension8 || '';
+          window.utag_data.ga_uid = window.utag_data.ga_uid || '';
+
+          window.ux = window.ux || {};
+          window.ux.privacy = window.ux.privacy || {};
+          // CSS file returned from Warehouse
+          // See: "Fetching from Warehouse" below
+          window.ux.privacy.css = 'https://img6.wsimg.com/wrhs/4d7ff57301001dfbfa89a2bdb5520484/consent-main.css'
+          window.ux.privacy.scripts = window.ux.privacy.scripts || {};
+          window.ux.privacy.scripts['9'] = ['https://www.googletagmanager.com/gtag/js?id=UA-52262008-15&l=_analyticsDataLayer']
+        </script>
+
+    <!-- Traffic-->
+    <script type="text/javascript">
+      var _gaDataLayer = _gaDataLayer || [];
+      window._gaDataLayer.push({ 'tcc.cookies.sameSite': 'None'});
+    </script>
+    <!-- Google Tag Manager –  Do NOT Change the Contents of this Script Tag -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-SXRF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','_gaDataLayer','GTM-SXRF');</script>
+    <!-- End Google Tag Manager -->
+    </script>
+
+    <!-- Consent Manager -->
+        <script type="text/javascript">
+          const cmScript = document.createElement("script");
+          cmScript.src = "https://img6.wsimg.com/wrhs/9920b066993020b1deb3d18c0f6442a6/consent-main.js";
+          cmScript.type = "text/java" + 'script';
+          cmScript.async = !0;
+          document.head.appendChild(cmScript);
+        </script>
+
+    <!-- Ad Server -->
+    <script type="text/javascript" src="https://static.adzerk.net/ados.js"></script>
+    <script type="text/javascript">
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    ados.run.push( function() {
+      /* load placement for account: godaddy-dev, site: Afternic, size: 235x300 - 235 x 300 */
+      ados_add_placement(10663, 1170641, "azk532355", 4198); ados_load();
+    });
+    </script>
+
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch"}]);</script>
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="MCB7T-RXHNH-PGQRJ-J6HWP-UGRWC",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"MCB7T-RXHNH-PGQRJ-J6HWP-UGRWC",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e="false"=="true"?1:0,t="",n="euj4payxjh4quyry6z5a-f-7aa3f50a2-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"32","ak.cp":"628588","ak.ai":parseInt("409545",10),"ak.ol":"0","ak.cr":1,"ak.ipv":4,"ak.proto":"http/1.0","ak.rid":"11220c75","ak.r":38362,"ak.a2":e,"ak.m":"dscx","ak.n":"essl","ak.bpcip":"37.19.199.0","ak.cport":33046,"ak.gh":"23.48.151.133","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1647900282","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==EIX4Pn2V7SKW6JQuFBBq3T19eceT3XWSbB1+bfjwlfQ82gnBWHDuajRwzqjpv9T+dUMAXfdwf7ql8xNpSkAIGuDYyIzZUc1450BWSrSpzqANdYOF8sIyoe4Y1xNcWB2rJjE6uinaqjxTKMmIkj2/MaskzA/NBtzVy9OjBxt5rZiKqyJDG8Kgatd0Q8lZR6QJhJ7JRfhOGwY2bMSsH+9NudPMtu/477rBJ34dfPUP9KQToH4kD9cXWKdY2Ey9FjKy95NEHjwSR6AzHQfwgdSr5ss39H74UxT9WXwerE1wiTLvVJSxI/L1NYBdlO1Xaw1lVkkPcbzX+qtFoyrhkmthAId3pemJLssc0csixVNfaLYun71q9WO0dYGwT657Lw/0EXTfZ1Ba/L/SIHESwwyjCd9ttzHl9kFXzrnEqyFkMqo=","ak.pv":"242","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script>
+                    <script>var w=window;if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document;AKSB=w.AKSB||{},AKSB.q=AKSB.q||[],AKSB.mark=AKSB.mark||function(e,_){AKSB.q.push(["mark",e,_||(new Date).getTime()])},AKSB.measure=AKSB.measure||function(e,_,t){AKSB.q.push(["measure",e,_,t||(new Date).getTime()])},AKSB.done=AKSB.done||function(e){AKSB.q.push(["done",e])},AKSB.mark("firstbyte",(new Date).getTime()),AKSB.prof={custid:"628588",ustr:"",originlat:"0",clientrtt:"1",ghostip:"23.48.151.133",ipv6:false,pct:"10",clientip:"37.19.199.131",requestid:"11220c75",region:"38362",protocol:"",blver:14,akM:"dscx",akN:"ae",akTT:"O",akTX:"1",akTI:"11220c75",ai:"409545",ra:"false",pmgn:"",pmgi:"",pmp:"",qc:""},function(e){var _=d.createElement("script");_.async="async",_.src=e;var t=d.getElementsByTagName("script"),t=t[t.length-1];t.parentNode.insertBefore(_,t)}(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")}</script>
+                    </head>
+<body>
+
+
+
+
+<p class="lessthanie9">Your browser is severely outdated and is not supported by Afternic's advanced functionality. <a href="http://browsehappy.com/" target="_blank">Please upgrade or change to a different browser.</a>
+
+<div id="general-message-box" class="modal-account-admin-box" style="display:none">
+    <h4 id='general-message-title'></h4>
+    <label id='general-message-txt' class="form-full-width"></label>
+</div>
+
+<div id="header">
+    <h1 id="header-logo">
+        <a href="/">
+            <img src="/images/main/afternic.png" alt="afternic" width="179" height="42" class="replace-2x"/>
+            <span>return to home</span>
+        </a>
+        <ul>
+            <li><a href="/afternic-domain-marketplace">About Afternic</a></li>
+
+            <li><a href="/premium-partner-levels">Partners</a></li>
+
+            <li><a href="/careers">Careers</a></li>
+
+            <li><a href="/legal#privacy_policy">Privacy Policy</a></li>
+
+            <li><a href="/contact-afternic">Contact Us</a></li>
+
+            <li><a href="/legal">Legal</a></li>
+        </ul>
+    </h1>
+    <h1 class="header-zh" data-localize="header"></h1>
+    <ul id="navlist-main">
+        <li><a href="/domain-search" id="nav-main_buydmn"><span></span>Buy Domains</a>
+            <ul>
+                <li>
+                    <a href="/domain-search" id="mainnav-largesearch-button"><span></span>Search <em>for a</em> Domain</a>
+                    <ul class="mainnav-subsub">
+                        <li>or browse listings:</li>
+                        <!--<li><a href="/domain-categories"    id="a-main-nav-catview" ><span>&rsaquo;</span> by Category</a></li>-->
+                        <li><a href="/premium-domains" id="a-main-nav-premium"  ><span>&rsaquo;</span> Premium</a></li>
+                        <li><a href="/trending-web-domains" id="a-main-nav-trending"  ><span>&rsaquo;</span> Trending</a></li>
+                        <li><a href="/new-website-domains" id="a-main-nav-newlisted"  ><span>&rsaquo;</span> Newly Listed</a></li>
+                    </ul>
+                </li>
+                <li><a href="/domain-broker" id="mannav-sub-buy-agent"><span></span>Afternic Agent <em>Services for Buyers</em></a></li>
+                <li><a href="/domain-name-appraisal" id="mannav-sub-buy-appraise"><span></span>Agent Appraisals <em>by the industry pros</em></a></li>
+            </ul>
+        </li>
+        <li><a href="/sell-domains" id="nav-main_selldmn"><span></span>Sell Domains</a>
+            <ul>
+                <li>
+                    <a href="/sell-domains" id="mainnav-largelist-button"><span></span>List <em>your</em> Domain</a>
+                    <ul class="mainnav-subsub">
+                        <li>sell your domain fast:</li>
+                        <li><a href="/sell-domains" id="a-mainnav-subsub-promote"   ><span>&rsaquo;</span> Promote</a></li>
+                        <li><a href="/domain-parking" id="a-mainnav-subsub-park"  ><span>&rsaquo;</span> Park</a></li>
+                        <li><a href="/sales-acceleration" id="a-mainnav-subsub-sales-acceleration"><span>&rsaquo;</span> Sales Acceleration</a></li>
+                    </ul>
+                </li>
+                <li><a href="/sell-domains" id="mannav-sub-sell-listonce"><span></span>List Once, Sell Everywhere</a></li>
+                <li><a href="/domain-name-appraisal" id="mannav-sub-sell-appraise"><span></span>Agent Appraisals <em>by the industry pros</em></a></li>
+            </ul>
+        </li>
+        <li>
+            
+            <a href="https://sso.afternic.com/" id="nav-main_account"><span></span>My Account</a>
+                <ul class="mainnav-subsub">
+                    <li id="mainnav-createaccount-large">
+                        <a href="/domain-account" id="login-subnav-createaccount">Create Account</a>
+                    </li>
+                    <span id="login-subnav-description">or</span>
+                    <li id="mainnav-loginform">
+                        <a href="https://sso.afternic.com/" id="login-subnav-login">Log In</a>
+                        <button onclick="location.href='https://sso.godaddy.com/?app=sso&path=federate/afternic'" class="login-with-godaddy" id="header-login-with-gd-btn">
+                            <span>Sign in with</span>
+                        </button>
+                    </li>
+                </ul>
+        </li>
+        <li><a href="/contact-afternic" id="nav-main_support"><span></span>Support</a>
+            <ul class="mainnav-subnav-halved">
+                <li class="mainnav-subnav-support-half">
+                    <a href="#1" class="mainnav-subnav-support-title">Sales</a>
+                    <span class="mainnav-subnav-phonenumber">866-829-9361 <span>toll free</span></span>
+                    <span class="mainnav-subnav-phonenumber">339-222-5145 <span>international</span></span>
+                    <ul class="mainnav-subnav-support-desc">
+                        <li>Domain sales</li>
+                        <li>Expert advice on domains</li>
+                    </ul>
+                </li>
+                <li class="mainnav-subnav-support-half">
+                    <a href="#1" id="a-mainnav-subnav-support" class="mainnav-subnav-support-title">Support</a>
+                    <span class="mainnav-subnav-phonenumber">866-351-9586 <span>toll free</span></span>
+                    <span class="mainnav-subnav-phonenumber">781-839-7990 <span>international</span></span>
+                    <ul class="mainnav-subnav-support-desc">
+                        <li>Domain parking</li>
+                        <li>Domain transaction status</li>
+                        <li>Uploading a domain portfolio</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    
+    <a href="/basket" id="header-shopping-basket-link" class="">
+        <span id="header-basket-count">0</span>
+        <span id="header-basket-title">In Basket</span>
+    </a>
+</div>
+
+<div id="container">
+<script type="text/javascript">
+    $(document).ready(function (e) {
+        $('#header-login-with-gd-btn').click(function () {
+          trackEvent({
+            eid: formatEid(category.cat4, 'login_with_godaddy', IEventTypes.CLICK),
+            type: IEventTypes.CLICK,
+            eventLabel: 'loginheader_click'
+          });
+          setTimeout(function() {
+            location.href='https://sso.godaddy.com/?app=sso&path=federate/afternic'
+          }, 75);
+        })
+        $('#modal-login-with-gd-btn').click(function () {
+            location.href='https://sso.godaddy.com/?app=sso&path=federate/afternic'
+        });
+    });
+</script>
+    <div id="sidebar">
+            <div id="sidebar-login" class="sidebar-subblock">
+                <a href="/domain-account" id="sidebar-createaccount">create account</a>
+                <a href="https://sso.afternic.com/" id="sidebar-login-open">log in</a>
+            </div>
+            <div id="sidebar-special-home">
+                <div id="sidebar-special-testimonial-woman1">
+                    <p class="sidebar-special-testimonial-title">"A premium domain allows you to get traffic quicker, and has inherent credibility with consumers. </p>
+                    <p class="sidebar-special-testimonial-body">Purchasing a premium domain from Afternic was definitely a worthwhile investment for us.</p>
+                    <p class="sidebar-special-testimonial-credit">Michael Nunez,<br /> AffiliateRecruitment.com</p>
+                </div>
+            </div>
+
+            <div class="sidebar-special-standard sidebar-subblock">
+                <p class="sidebar-special-title special-title-phone"><span>Give us<br /> a call</span></p>
+                <p>Our experienced sales representatives can assist you in all aspects of buying and selling domains.</p>
+                <p id="sidebar-phone-1">Toll Free <span>866-351-9586</span></p>
+                <p id="sidebar-phone-2">International <span>+1 781-839-7990</span></p>
+            </div>
+
+            <div class="sidebar-special-standard sidebar-subblock">
+                <p class="sidebar-special-title special-title-affiliate"><span>New gTLDs<br /> available now</span></p>
+                <p>.GURU,  .CLOTHING, .VENTURES, .SINGLES are available now to Afternic customers. Hundreds more coming soon. Start buying and selling today!</p>
+                <p class="learn-more"><a href="/sell-domains">learn more</a></p>
+            </div>
+
+            <div class="sidebar-special-standard sidebar-subblock">
+            	<div id='azk532355' style='margin: 0 0 0 -34px'></div>
+            </div>
+        </div>
+        
+        <div id="content-wrap" class=""><div id="hero-container">
+                <div id="header-actions-hero">
+                    <div id="header-action-search">
+                        <h3 id="header-action-search-hero">I'd&nbsp;&nbsp;like&nbsp;&nbsp;to <span>buy domains</span></h3>
+                        <form id="search-mainbar" action="/search"></form>
+
+	<script type="text/javascript" src="/js/afternic/controls/searchPullDown/searchPullDown.js"></script>
+	<script type="text/javascript" src="/js/afternic/controls/searchText/searchText.js"></script>
+	<script type="text/javascript" src="/js/afternic/controls/searchSubmit/searchSubmit.js"></script>
+	<script type="text/javascript">
+
+		function getTldData(){
+
+			return $.ajax({
+				url : '/ajax/search',
+				cache: true,
+				headers: {
+					'Cache-Control': 'max-age=3600'
+				},
+				type: 'GET',
+				dataType: 'json',
+				data: {
+					AJAX: 1,
+					service: 'getTldData'
+				}
+			});
+
+		}
+
+		jQuery(document).ready(function() {
+
+				getTldData().always(function(){
+
+					$("#search-mainbar").append("<span id='search-mainbar-wrap'></span>");
+
+					$("#search-mainbar-wrap").searchText('');
+				}).done(function(returnData){
+					$("#search-mainbar-wrap").searchPullDown(returnData, 'com');
+				}).fail(function(){
+					$("#search-mainbar-wrap").searchPullDown([], 'all');
+				}).always(function(){
+					$("#search-mainbar").searchSubmit();
+
+					// Domain search box tld selection
+					var searchTld = $("#searchTldSelected").val();
+					if ( $("#search-mainbar-tld option[value='"+searchTld+"']").length > 0) {
+						$("#search-mainbar-tld option[value='"+searchTld+"']").attr('selected', 'selected');
+					} else {
+						$("#search-mainbar-tld option[value=all]").attr('selected', 'selected');
+					}
+
+					// Search Form validation
+					$("#search-mainbar").submit(function() {
+						if ($("#search-mainbar-text").val() == '') {
+							$("#search-mainbar-text").focus();
+							return false;
+						} else {
+							return true;
+						}
+					});
+				});
+		});
+	</script>
+                    </div>
+                    <div id="header-action-sell">
+                        <h3 id="header-action-sell-hero">I'd&nbsp;&nbsp;like&nbsp;&nbsp;to <span>sell domains</span></h3>
+                        <a href="/add_domains/step1" id="header-action-sell-button">List Domains</a>
+                    </div>
+                </div>
+
+                <div id="hero-slide">
+                    <div id="hero-slide-1">
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="module-dashboard">
+                <div class="info-module-single info-module-premium info-module-buynowhighlight" id="premium-domains-div">
+                    <h4>Premium Domains</h4>
+                    <div class="info-module-loading" id="premium-domains-loader"></div>
+                </div>
+
+                <div class="info-module-single info-module-trending info-module-buynowhighlight" id="trending-div">
+                    <h4>Trending</h4>
+                    <div class="info-module-loading" id="trending-loader"></div>
+                </div>
+
+                <div class="info-module-single info-module-newlistings info-module-buynowhighlight" id="new-listings-div">
+                    <h4>New Listings</h4>
+                    <div class="info-module-loading" id="new-listings-loader"></div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                    $(document).ready(function (e) {
+                        hero_transitions_init();
+                        //these functions live in js/ajax_an.js
+                        loadNewListings();
+
+                        loadTrending();
+
+                        loadPremiumDomains();                        
+                        //end functions in js/ajax_an.js
+
+                     }); //end document.ready
+            </script>
+    </div>
+    </div>
+    <div id="footer-sub">
+        <div id="footer-sub-left">
+            <h6>Statistics</h6>
+        </div>
+        <div id="footer-sub-right">
+            <div id="footer-twitterfeed">
+                <h6><a  id="a-id-79220" href="https://twitter.com/afternic" target="_blank">@AfternicDLS</a></h6>
+                <ul id="twitterfeedlist-footer">
+
+                </ul>
+            </div>
+            <div id="footer-sub-links">
+                <h6>Keep in touch with us on your favorite social networks.</h6>
+                <ul id="footer-share-list">
+                    <li><a href="https://twitter.com/afternic" target="_blank" id="footer-share-twitter">@AfternicDLS on Twitter</a></li>
+                    <li><a href="http://www.linkedin.com/company/afternic" target="_blank" id="footer-share-linkedin">AfternicDLS on LinkedIn</a></li>
+                    <li><a href="https://google.com/+afternic" target="_blank" id="footer-share-google">Afternic on Google+</a></li>
+                    <li><a href="https://facebook.com/93642411898" target="_blank" id="footer-share-facebook">AfternicDLS on Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer-about">
+            <a href="/" id="footer-logo">Afternic</a>
+            <span id="footer-address">1 Main Street <br />Cambridge, MA 02142</span>
+            <span id="footer-numbers">1-866-351-9586
+                <span>
+                    <em>international</em>
+                    +1 781-839-7990
+                </span>
+            </span>
+            <span id="footer-copyright">
+                <br/>
+                Services Provided By Afternic<sup>SM</sup>.
+                <br/>
+                Copyright &copy;2022
+                <br/>
+                All Rights Reserved.
+            </span>
+        </div>
+        <ul id="navlist-footer">
+            <li><a href="/domain-search" id="footer-nav-buydomains"><span class="footer-nav-icon"></span>Buy Domains</a>
+                <ul>
+                    <li><a  id="a-id-79223" href="/domain-search">Search Domains for Sale</a></li>
+                    <li><a  id="a-id-79225" href="/premium-domains">Premium Domains</a></li>
+                    <li><a  id="a-id-79226" href="/new-website-domains">New Listings</a></li>
+                    <li><a  id="a-id-79227" href="/trending-web-domains">Trending</a></li>
+                    <li><a  id="a-id-79228" href="/domain-broker">Afternic Agent Service for Buyers</a></li>
+                </ul>
+            </li>
+            <li><a href="/sell-domains" id="footer-nav-selldomains"><span class="footer-nav-icon"></span>Sell Domains</a>
+                <ul>
+                    <li><a  id="a-id-79229" href="/sell-domains">List Domains</a></li>
+                    <li><a  id="a-id-792210" href="/sell-domains">Promote Domains</a></li>
+                    <li><a  id="a-id-792212" href="/domain-parking">Park Your Domains</a></li>
+                    <li><a  id="a-id-792213" href="/sales-acceleration">Sales Acceleration</a></li>
+                    <li><a  id="a-id-792214" href="/domain-broker">Afternic Agent Service for Sellers</a></li>
+                </ul>
+            </li>
+            <li><a href="/domain-account" id="footer-nav-myaccount"><span class="footer-nav-icon"></span>My Account</a>
+                <ul>
+                
+                <li><a  id="a-id-792230" href='https://sso.afternic.com/'>Log In</a></li>
+                    <li><a  id="a-id-792231" href="/domain-account">Create Account</a></li>
+                </ul>
+            </li>
+            <li><a href="/afternic-domain-marketplace" id="footer-nav-company"><span class="footer-nav-icon"></span>Company</a>
+                <ul>
+                    <li><a  id="a-id-792222" href="/afternic-domain-marketplace">About Afternic</a></li>
+                    <!-- li><a  id="a-id-XXZ" href="/blog">Blog</a></li -->
+                    <li><a href="/domain-help">FAQs</a></li>
+                    <li><a href="/contact-afternic">Contact Us</a></li>
+                    <li><a  id="a-id-792224" href="/premium-partner-levels">Partners</a></li>
+                    <li><a  id="a-id-792226" href="/careers">Careers</a></li>
+                    <li><a  id="a-id-XXX" href="/legal">Legal</a></li>
+                    <li><a  id="a-id-XXY" href="/legal#privacy_policy">Privacy Policy</a></li>
+                    <li><a  id="a-id-XXZ" href="/cookiepolicy">Do Not Sell My Personal Information</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div id="footer-badges">
+			<ul id="list-badges" class="clear-contain">
+        <!-- PLACE BADGES HERE -->
+				<li class="badge-bbb">
+					<a title="Click for the Business Review of GoDaddy.com, LLC, an Internet - Web Hosting in Scottsdale AZ" href="http://www.bbb.org/central-northern-western-arizona/business-reviews/internet-web-hosting/godaddy-com-llc-in-scottsdale-az-22000169#sealclick">
+                        <img alt="Click for the BBB Business Review of this Internet - Web Hosting in Scottsdale AZ" style="border: 0;" src="//seal-central-northern-western-arizona.bbb.org/seals/blue-seal-96-50-godaddycomllc-22000169.png" />
+                    </a>
+				</li>
+				<li class="badge-truste">
+                                    <div>
+                                      <a href="//privacy.truste.com/privacy-seal/validation?rid=97e75c6a-f9e7-467c-aa50-37378aff5354" target="_blank"><img style="border: none" src="//privacy-policy.truste.com/privacy-seal/seal?rid=97e75c6a-f9e7-467c-aa50-37378aff5354" alt="TRUSTe"/>
+                                      </a>
+                                    </div>
+				</li>
+			</ul>
+    </div>
+    <script id="tweetTmp" type="text/html">
+
+				{{#tweets}}
+
+					<li>
+						{{{text}}}
+						<span><a  id="a-id-792227" href="#1">{{timeSince}}</a></span>
+					</li>
+
+				{{/tweets}}
+
+	</script>
+
+    <script type="text/javascript">
+    	$(document).ready(function (e) {
+
+    	});
+
+    	function parseDate(str) {
+    		var mdy = str.split('/')
+    		return new Date(mdy[2], mdy[0]-1, mdy[1]);
+		}
+
+		function daydiff(first, second) {
+
+			var fullVal = (second-first)/1000;
+
+			fullVal = parseInt(fullVal);
+
+			if(fullVal < 86400)
+			{
+				fullVal = fullVal/60;
+
+				if(fullVal > 60)
+				{
+					fullVal = fullVal/60;
+
+					fullVal = parseInt(fullVal) + "h";
+
+				} else {
+					fullVal = parseInt(fullVal) + "m";
+				}
+			} else {
+
+				fullVal = fullVal/60;
+
+				fullVal = fullVal/60;
+
+				fullVal = fullVal/24;
+
+				fullVal = parseInt(fullVal) + "d";
+
+			}
+
+    		return fullVal;
+		}
+
+    </script>
+
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+<script type="text/javascript" src="/js/plugins.js"></script>
+<script type="text/javascript" src="/js/script.js"></script>
+<script type="text/javascript" src="/js/plugins/form2js.js"></script>
+<script type="text/javascript" src="/js/plugins/jquery.toObject.js"></script>
+<script type="text/javascript">
+    $(document).ready(function (e) {
+        //these functions live in js/common_an.js
+        $("#general-message-box").dialog({
+            width: 300
+        });
+        if (  $('#success-message-txt4').html() ) {
+            messageBox( $('#success-title-txt4').text()  , $('#success-message-txt4').html()  );
+        }
+
+        if ( $('#error-message-txt4').html()) {
+            messageBox( $('#error-title-txt4').text()  ,$('#error-message-txt4').html()  );
+        }
+
+        highdpi_init();
+        select_box_style_init();
+        loadSiteStats();
+        navmenu();
+        getUserMessageCount();
+    });
+</script>
+<script type="text/javascript" src="/js/track.js?ver=19"></script>
+
+<div id="ZN_cCpILcXLHy2kXOd"></div>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"d89ec68706","applicationID":"21336511","transactionName":"MldVZUJYCkoDABVeWwsddERDTQtUTQ==","queueTime":0,"applicationTime":460,"atts":"HhBWEwpCGUQ=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script></body>
+</html>
