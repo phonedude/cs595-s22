@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Assignment 5 Part 1</title>
+</head>
+
+<body>
+<p>Port 4000 attempting to pull data from Port 4001...</p>
+<div id="favorites"></div>
+<script>
+	fetch("http://localhost:4001/")
+		.then(function(response){
+			return response.json()
+		})
+		.then(function (data) {
+			appendData(data)
+		})
+		.catch(function(data){
+			console.log('error: ' + err)
+		})
+
+	function appendData(data) {
+		var mainContainer = document.getElementById("favorites");
+			for (var i = 0; i < data.length; i++) {
+				var div = document.createElement("div");
+				div.innerHTML = "<br> Favorite: " + data[i].fav + "<br> Name: " + data[i].name;
+				mainContainer.appendChild(div);
+			}
+	}
+</script>
+</body>
+</html>
