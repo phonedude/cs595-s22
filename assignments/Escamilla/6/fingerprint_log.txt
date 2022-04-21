@@ -1,0 +1,5 @@
+2de13708ca512ec97cc5ba4141897bb8|text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8|en-US,en;q=0.9|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15
+8adff6fd8ebaf151317e848dc38a28cd|*/*|undefined|curl/7.77.0
+1add4c4ae94da8bc94d712c502d8bd14|text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8|en-US,en;q=0.5|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:91.0) Gecko/20100101 Firefox/91.0
+7ece6e6d9b3347eb49d44e65aa825bc9|text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9|en-US,en;q=0.9|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.44
+8f93c066927177e00c7c87851fd8d6f3|text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9|en-US,en;q=0.9|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
