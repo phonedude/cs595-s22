@@ -8,7 +8,7 @@ This assignment demonstrates a phishing site that collects login information usi
 
 Video demonstration: [https://youtu.be/LL__2ZjhmzE](https://youtu.be/LL__2ZjhmzE)
 
-# Extra Credit
+### Extra Credit
 
 For the extra credit portion of the assignment, Zphisher was used to construct three additional phishing sites. The three sites chosen were:
 * [Gmail](https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin)
