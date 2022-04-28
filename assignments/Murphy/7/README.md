@@ -16,15 +16,15 @@ to the console.
 
 For this assignment, I chose the Netflix login page to duplicate from my list
 for 100 sites. First, I copied the html for the page and saved it to a file called
-netflix.ejs. The html rather large, so I will not cover it in the readme section 
+netflix.ejs. The html is rather large, so I will not cover it in the readme section 
 of this report. No major changes were made to the html itself. 
 
-For the code on the server side of things, it was surprisingly pretty easy to 
+For the code on the server side of things, it was, surprisingly, pretty easy to 
 get up and running. First, similarly to assignment 6, we are storing information,
 in this case the username and password entered on the phishing site, to a csv
-file, therefore we are using the function checkForFile() that takes in the 
+file, therefore, we are using the function checkForFile() that takes in the 
 path of the file, stored in the variable csv. If it does not exist, it creates
-a csv file with the columns username and password printed onto the file. 
+a csv file with the columns username and password printed into the file. 
 Next, there is a storeData() function that takes in the username, password, and path
 of the csv file, removes the quotations and an extra backslash character when 
 printing said character to the file, and proceeds to append the username 
@@ -100,6 +100,13 @@ Phishing Login Page for Netflix
 
 ![phishing_page](images/phishing_page.png)
 
+<br/>
+
+## Video Link
+
+https://youtu.be/htIJevJW40g
+
+<br/>
 
 # References
 
