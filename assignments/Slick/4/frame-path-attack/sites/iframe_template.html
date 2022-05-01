@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body onload="LoadFrame();">
+        <h1>
+            iFrame
+        </h1>
+        <br>
+
+        <h1>Simple iFrame</h1>
+
+        <div id="resultHere"></div>
+            <iframe  id="site_frame_no_spoof" src="" style="height:600px;width:900px" title="Iframe Example"></iframe>
+        
+        
+        <h1>Full Send Method: Server served iFrame</h1>
+
+            <iframe  id="site_frame" src="" style="height:600px;width:900px" title="Iframe Example"></iframe>
+
+
+        <br>
+        <h1>
+        </h1>
+        <br>
+        <h2>Frameable</h2>
+        <p id="cookies">
+            
+        </p>
+        <script>
+        function LoadFrame(){
+            //alert('loading frame...');
+            //document.domain = "http://"+urlParams.get('url'); 
+            //var cookie = document.getElementById("site_frame").contentDocument.cookie;
+            //setTimeout(function(){ 
+            //    alert(cookie);
+            //}, 7000);  
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            const product = urlParams.get('url');
+            //document.getElementById("site_frame").src= "http://m."+product;
+            document.getElementById("site_frame_no_spoof").src= "http://"+product+'/';
+            document.getElementById("site_frame").src= "http://127.0.0.1:8000?url="+product+"/";
+            //setTimeout(checkload, 10000);
+        };
+        </script>
+    </body>
+</html>
