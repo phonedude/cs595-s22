@@ -29,7 +29,7 @@ var storeData = (username, password, path) => {
                   JSON.stringify(password)
 
             str = str.toString()
-            str = str.replaceAll('""', '')
+            str = str.replaceAll('"', '')
             str = str.replaceAll('\\\\', '\\')
 
         fs.appendFile(path, '\n' + str, function(err){
